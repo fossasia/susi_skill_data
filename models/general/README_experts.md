@@ -1,7 +1,8 @@
-# experts
-This path contains experts.
-An expert is a collection of skills for each language.
-In each of the containing subdirectories you find paths for a language in ISO 639-2 code.
+# experts groups
+This path contains expert groups.
+An expert is a collection of skills for each language. Such experts can be bundled into a expert group.
+The expert groups are the subdirectories here.
+In each of the containing expert group subdirectories you find paths for a language in ISO 639-2 code.
 Each of those language subdirectories can contain an expert. An expert is a file with a set of skills.
 
 ## assistants
