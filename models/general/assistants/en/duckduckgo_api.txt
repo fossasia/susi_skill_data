@@ -1,0 +1,8 @@
+#query from duckduckgo
+search *|query *|duckduckgo *
+!console:$Text$ $FirstURL$
+{
+    "url":"http://api.duckduckgo.com/?q=$1$&format=json&pretty=1",
+    "path":"$.RelatedTopics[0]"
+}
+eol
