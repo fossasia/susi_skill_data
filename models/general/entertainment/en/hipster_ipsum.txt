@@ -1,0 +1,8 @@
+# to show random dummy text for a mockup 
+Show me * paragraphs of hipster ipsum
+!console:$object$
+{
+    "url": "http://hipsterjesus.com/api?paras=$1$+1&html=false",
+    "path": "$.text"
+}
+eol
