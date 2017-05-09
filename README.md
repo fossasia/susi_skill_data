@@ -12,7 +12,7 @@ Creation of a new skill is easy, DO NOT PANIC!
 Read https://github.com/fossasia/susi_skill_data/blob/master/README_susi_skill_language_tutorial.md and test your skill using a susi dream! Then, if your susi dream works, add the skill to this repository, read next topic...
 
 ### Add the skill to the skill sets
-To add a new skill choose of of the topics
+The place to store your skill is a so-called 'expert'. An expert is simply a plain text file with '.txt' extension, placed within a language folder within a topic. So to add a new skill, you first have to choose a topic. You can choose from:
 
 * assistants
 * entertainment
@@ -21,10 +21,13 @@ To add a new skill choose of of the topics
 * shopping
 * smalltalk
 
-and add your new skill into a subdirectory of https://github.com/fossasia/susi_skill_data/tree/master/models/general
+You can find these topics in https://github.com/fossasia/susi_skill_data/tree/master/models/general
 
 Your skill must be placed in a language-dependent subdirectory. There, files containing sets of skills are called 'expert'.
 Place your skill along one existing expert, or create a new one.
+
+If there is an expert which you want to extend, modify that expert file. If there is not already an expert file, create a new one. Choose a nice name which describes your expert, use lowercase letters only and give the expert file the file name extension ".txt".
+
 Do NOT create a new model in the models subfolder and do NOT create a new topic in the models/general subfolder.
 If you want a new topic, create an issue and describe your topic and it's purpose.
 
