@@ -1,0 +1,5 @@
+# generate a random number
+function random
+!javascript:$!$>_random
+Math.random();
+eol
