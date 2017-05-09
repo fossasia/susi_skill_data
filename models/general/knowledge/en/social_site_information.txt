@@ -1,0 +1,38 @@
+#Tells us about social shares of any specific service e.g social shares of 9gag 
+Social shares of * 
+!console:Total shares of $1$ across all social platforms are $object$
+{
+"url":"https://count.donreach.com/?url=http://$1$.com/&providers=all",
+"path":"$.total"
+}
+eol
+
+#Tells us about social site visits per minutes
+
+How many visit of * per minute|visits of * per minute|* visits per minute
+!console:Number of $1$ visits are $alt$
+{
+"url":"http://api.wolframalpha.com/v2/query?appid=9WA6XR-26EWTGEVTE&input=users+on+$1$&output=JSON",
+"path":"$.queryresult.pods[2].subpods[1].img"
+}
+eol
+
+#Tells us about social site visits per seconds
+
+How many visit of * per second|visits of * per second|* visits per second
+!console:Number of $1$ visits are $alt$
+{
+"url":"http://api.wolframalpha.com/v2/query?appid=9WA6XR-26EWTGEVTE&input=users+on+$1$&output=JSON",
+"path":"$.queryresult.pods[2].subpods[0].img"
+}
+eol
+
+#Tells us about social site visits per day
+
+How many visit of *|visits of *|* visits
+!console:Number of $1$ visits are $alt$
+{
+"url":"http://api.wolframalpha.com/v2/query?appid=9WA6XR-26EWTGEVTE&input=users+on+$1$&output=JSON",
+"path":"$.queryresult.pods[1].subpods[0].img"
+}
+eol

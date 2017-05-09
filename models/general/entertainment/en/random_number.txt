@@ -1,0 +1,9 @@
+#Generate random number
+
+Generate any random number|random number|Generate random number 
+!console:Your random number is  $object$ 
+{
+"url":"https://qrng.anu.edu.au/API/jsonI.php?length=1&type=uint8&#8217",
+"path":"$.data"
+}
+eol
