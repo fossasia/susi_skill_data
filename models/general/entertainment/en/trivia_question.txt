@@ -1,0 +1,8 @@
+# asks user a random question
+ask me a question | ask something | trivia
+!console:$object$
+{
+"url":"http://jservice.io/api/random",
+"path":"$.[0].question"
+}
+eol

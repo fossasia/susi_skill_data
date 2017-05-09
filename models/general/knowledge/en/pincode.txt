@@ -1,0 +1,8 @@
+# In first parameter you pass the pincode of a city.
+city with pincode *
+!console:Name of place is $adminName3$
+{
+"url":"http://api.geonames.org/postalCodeLookupJSON?postalcode=$1$&username=demo",
+"path":"$.postalcodes[0]"
+}
+eol
