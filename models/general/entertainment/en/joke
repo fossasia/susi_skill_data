@@ -1,0 +1,8 @@
+tell me a joke|recite me a joke|entertain me
+!console:$joke$
+{
+    "url":"http://api.icndb.com/jokes/random?escape=javascript",
+    "path":"$.value"
+}
+eol
+
