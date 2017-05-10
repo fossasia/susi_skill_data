@@ -1,0 +1,8 @@
+# Returns the name of the CEO of a company
+* of *|who is the ceo of *| ceo *
+!console:$plaintext$
+{
+  "url": "https://api.wolframalpha.com/v2/query?input=ceo+$1$&output=JSON&appid=9WA6XR-26EWTGEVTE&includepodid=Result",
+  "path" : "$.queryresult.pods[0].subpods[0]"
+}
+eol
