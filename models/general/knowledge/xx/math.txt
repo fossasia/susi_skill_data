@@ -3,3 +3,16 @@ function random
 !javascript:$!$>_random
 Math.random();
 eol
+
+#gives random names
+suggest a name|* random name
+!console:how does $title$ $first$ $last$ sound?
+{
+"url":"https://randomuser.me/api/",
+"path":"$.results[0].name"
+}
+eol
+
+#gives random images
+* random image|* random pic|* random picture
+check this out http://lorempixel.com/400/200/
