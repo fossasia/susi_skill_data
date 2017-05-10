@@ -1,0 +1,28 @@
+#http://calapi.inadiutorium.cz/api-doc
+
+#example: Date today? | Date yesterday | Date tomorrow ?
+Date * ?
+!console:$1$- $object$
+{
+"url":"http://calapi.inadiutorium.cz/api/v0/en/calendars/default/$1$",
+"path":"$.date"
+}
+eol
+
+#example: Day today? | Day yesterday | Day tomorrow ?
+Day * ?
+!console:$1$ - $object$
+{
+"url":"http://calapi.inadiutorium.cz/api/v0/en/calendars/default/$1$",
+"path":"$.weekday"
+}
+eol
+
+#example: Day on year 2015 month 6 date 28
+Day on year * month * date *?
+!console:$1$/$2$/$3$ - $object$
+{
+"url":"http://calapi.inadiutorium.cz/api/v0/en/calendars/default/$1$/$2$/$3$",
+"path":"$.weekday"
+}
+eol
