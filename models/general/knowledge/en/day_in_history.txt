@@ -1,0 +1,30 @@
+#History
+#http://history.muffinlabs.com/
+
+#example: What happened on 2/14
+What happened on *
+!console:Year-$year$ - $text$ 
+{
+"url":"http://history.muffinlabs.com/date/$1$",
+"path":"$.data.Events"
+}
+eol
+
+
+#example: Who was born on 2/14
+Who was born on *
+!console:Year-$year$ - $text$ 
+{
+"url":"http://history.muffinlabs.com/date/$1$",
+"path":"$.data.Births"
+}
+eol
+
+#example: Who died on 2/14
+Who died on *
+!console:Year-$year$ - $text$ 
+{
+"url":"http://history.muffinlabs.com/date/$1$",
+"path":"$.data.Deaths"
+}
+eol

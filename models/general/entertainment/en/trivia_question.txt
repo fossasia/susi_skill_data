@@ -6,3 +6,19 @@ ask me a question | ask something | trivia
 "path":"$.[0].question"
 }
 eol
+
+# asks user a  question using https://opentdb.com
+
+ask me something | ask a question 
+!console:$question$   ^$correct_answer$^>_answer
+{
+"url":"https://opentdb.com/api.php?amount=1",
+"path":"$.results"
+}
+eol
+
+is it * 
+?$_answer$=$1$:Correct !! awesome:Sorry the answer is $_answer$
+
+answer please
+$_answer$
