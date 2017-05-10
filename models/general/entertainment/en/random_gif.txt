@@ -1,0 +1,8 @@
+# generates a random GIF
+random gif
+!console:$url$
+{
+ "url": "http://api.giphy.com/v1/gifs/trending?api_key=dc6zaTOxFJmzC",
+"path": "$.data[0].images.fixed_height"   
+}
+eol
