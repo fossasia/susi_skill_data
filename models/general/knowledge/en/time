@@ -1,0 +1,7 @@
+current time in *
+!console:It's $object$ in $1$
+{
+    "url":"http://www.convert-unix-time.com/api?timestamp=now&timezone=$1$",
+    "path":"$.localDate"
+}
+eol

@@ -4,6 +4,7 @@ function random
 Math.random();
 eol
 
+
 #Generate random number greater than 1
 
 Generate any random number|random number|Generate random number 
@@ -13,3 +14,17 @@ Generate any random number|random number|Generate random number
 "path":"$.data"
 }
 eol
+
+#gives random names
+suggest a name|* random name
+!console:how does $title$ $first$ $last$ sound?
+{
+"url":"https://randomuser.me/api/",
+"path":"$.results[0].name"
+}
+eol
+
+#gives random images
+* random image|* random pic|* random picture
+check this out http://lorempixel.com/400/200/
+

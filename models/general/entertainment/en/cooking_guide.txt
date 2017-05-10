@@ -1,0 +1,8 @@
+#Gives recipies and links to cook a dish
+* cook *
+!console:To cook  $title$ , check out $href$ and make sure you have $ingredients$!
+{
+"url":"http://www.recipepuppy.com/api/?q=$2$",
+"path":"$.results"
+}
+eol
