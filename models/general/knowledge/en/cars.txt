@@ -1,0 +1,25 @@
+#Ex: Know any car models manufactured by ford
+* car models manufactured by *
+!console:$model_name$ model was manufactured by $2$
+{
+"url":"https://www.carqueryapi.com/api/0.3/?callback=?&cmd=getModels&make=$2$",
+"path":"$.Models[0]"
+}
+eol
+
+#Ex: Know any car models manufactured by ford in the year 2016
+* car models manufactured by * in the year *|* car models manufactured by * in *
+!console:$model_name$ model was manufactured by $2$ in $3$
+{
+"url":"https://www.carqueryapi.com/api/0.3/?callback=?&cmd=getModels&make=$2$&year=$3$",
+"path":"$.Models[0]"
+}
+eol
+
+* car models manufactured in the year * by *|* car models manufactured in * by *
+!console:$model_name$ model was manufactured by $3$ in $2$
+{
+"url":"https://www.carqueryapi.com/api/0.3/?callback=?&cmd=getModels&make=$3$&year=$2$",
+"path":"$.Models[0]"
+}
+eol
