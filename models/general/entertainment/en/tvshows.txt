@@ -1,0 +1,16 @@
+#Gives rating for tv shows
+* rating for *|* rating of *
+!console:$2$ is rated $average$
+{
+"url":"http://api.tvmaze.com/singlesearch/shows?q=$2$",
+"path":"$.rating"
+}
+eol
+
+* plot of *|* summary of *
+!console:$object$
+{
+"url":"http://api.tvmaze.com/singlesearch/shows?q=$2$",
+"path":"$.summary"
+}
+eol

@@ -1,0 +1,34 @@
+#Translating to other languages
+#Hardcoded the languages for now, will try to extend the extend to all languages without hardcoding
+#uses 3 letter language coding
+What is * in french|french for *
+!console:$text$
+{
+"url":"https://glosbe.com/gapi/translate?from=eng&dest=fra&format=json&phrase=$1$&pretty=true",
+"path":"$.tuc[0].phrase"
+}
+eol
+
+What is * in german|german for *
+!console:$text$
+{
+"url":"https://glosbe.com/gapi/translate?from=eng&dest=ger&format=json&phrase=$1$&pretty=true",
+"path":"$.tuc[0].phrase"
+}
+eol
+
+What is * in spanish|spanish for *
+!console:$text$
+{
+"url":"https://glosbe.com/gapi/translate?from=eng&dest=spa&format=json&phrase=$1$&pretty=true",
+"path":"$.tuc[0].phrase"
+}
+eol
+
+What is * in hindi|hindi for *
+!console:$text$
+{
+"url":"https://glosbe.com/gapi/translate?from=eng&dest=hin&format=json&phrase=$1$&pretty=true",
+"path":"$.tuc[0].phrase"
+}
+eol
