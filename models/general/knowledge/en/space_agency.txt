@@ -1,0 +1,17 @@
+# To know the full form and country code of a space agency.
+
+what is the full form of *
+!console:$name$ 
+{
+"url":"https://launchlibrary.net/1.2/agency/$1$",
+"path":"$.agencies[0]"
+}
+eol
+
+what is * based out of
+!console: The place's country code is - $countryCode$ 
+{
+"url":"https://launchlibrary.net/1.2/agency/$1$",
+"path":"$.agencies[0]"
+}
+eol
