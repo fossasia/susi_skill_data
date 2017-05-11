@@ -1,0 +1,49 @@
+#returns information about a username on github
+
+#returns name
+Whose github username is *|Who is * on github
+!console:$1$ is github username of $object$
+{
+
+    "url":"https://api.github.com/users/$1$",
+
+    "path":"$.name"
+
+}
+eol
+
+#returns number of followers
+Number of followers of *
+!console:$1$ has $object$ followers
+{
+
+    "url":"https://api.github.com/users/$1$",
+
+    "path":"$.followers"
+
+}
+eol
+
+#returns number of people the person follows
+How many people is * following on github
+!console:$1$ is following $object$ people on github
+{
+
+    "url":"https://api.github.com/users/$1$",
+
+    "path":"$.following"
+
+}
+eol
+
+#returns users bio
+What does bio of * say|bio of *
+!console:$1$'s bio says : $object$
+{
+
+    "url":"https://api.github.com/users/$1$",
+
+    "path":"$.bio"
+
+}
+eol

@@ -1,0 +1,12 @@
+#returns gender of a person from his/her first name
+
+I am *|My name is *
+!console:Hi $1$. You are $object$, I guess? 
+{
+
+    "url":"https://api.genderize.io/?name=$1$",
+
+    "path":"$.gender"
+
+}
+eol
