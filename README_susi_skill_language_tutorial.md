@@ -291,12 +291,64 @@ query: {
 Here **"path": "$.query.text[0]"** will put **"a"** in $object$ 
 
 
-### Tutorial Level 12: Custom Actions
+### Tutorial Level 12: More Action Types
 
-Susi Skills may return different types of actions. Non-answer actions my get their content using console rules.
-Custom actions therefore are combined console rules with custom action types
+Susi Skills may return different types of actions. So far, the only action type we used is the `answer` action.
+The result of an `answer` action can be seen with
+```
+curl http://api.susi.ai/susi/chat.json?q=hello
+```
+and the result in something like
+```
+{
+  "query": "hello",
+  "answers": [{
+    "data": [],
+    "metadata": {"count": 0},
+    "actions": [{
+      "type": "answer",
+      "expression": "Hello!"
+    }]
+  }],
+}
+```
+Here check the "actions" object: it contains a list of action objects, each with a "type" attribute.
+The "actions" array may contain more than one action and they may be of a different type than "answer".
+This tutorial chapter is about the other different types. 
+Such non-answer actions my get their content using console rules.
 
-(to be implemented)
+The following action types are avaiable:
+
+* table
+* piechart
+* rss
+* websearch
+* map
+
+Clients which render Susi action results must render _all_ actions in the order as they are provided.
+
+#### table actions:
+
+A table is defined by the names of the colums. The rows of the table are taken 
+from the "data" object. The following example shows a console rule which produces only one action, which
+shall be rendered as table:
+
+```
+stock quotes
+!console:
+{
+"url":"https://www.live-rates.com/rates",
+"path":"$",
+"type":"table",
+"columns":{"currency":"Valuta","rate":"Quota"}
+}
+eol
+```
+
+This skill provides a table with the spanish words "Valuta" and "Quota" for the table with the columns "currency" and "rate".
+The table is defined with the type "table" and a columns object which provides a mapping from the column value names to the
+visible descriptive names that shall be rendered in the client's output.
+
 
 ### Tutorial Level 13: Thinking with Backtracking
 
