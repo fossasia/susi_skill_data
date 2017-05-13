@@ -351,6 +351,49 @@ This skill provides a table with the spanish words "Valuta" and "Quota" for the 
 The table is defined with the type "table" and a columns object which provides a mapping from the column value names to the
 visible descriptive names that shall be rendered in the client's output.
 
+The client will see the following (similar!) JSON for a query like
+`http://api.susi.ai/susi/chat.json?q=stock+quotes`:
+
+```
+{
+  "query": "stock quotes",
+  "answers": [{
+    "data": [
+      {"currency": "EUR/USD", "rate": "1.09302", "timestamp": "1494621900069"},
+      {"currency": "USD/JPY", "rate": "113.326", "timestamp": "1494621900186"},
+      {"currency": "GBP/USD", "rate": "1.28835", "timestamp": "1494621900129"},
+      {"currency": "EUR/GBP", "rate": "0.84831", "timestamp": "1494621900103"},
+      {"currency": "USD/CHF", "rate": "1.00133", "timestamp": "1494621899461"}
+    ],
+    "metadata": {"count": 59},
+    "actions": [{
+      "type": "table",
+      "columns": {
+        "currency": "Valuta",
+        "rate": "Quota"
+      }
+    }]
+  }]
+}
+```
+
+The client then should create a table out of the data object where the column names are 'Valuta' and 'Quota', i.e. like this html table:
+
+```
+<table>
+<tr><th>Valuta</th><th>Quota</th></tr>
+<tr><td>EUR/USD</td><td>1.09302</td></tr>
+<tr><td>USD/JPY</td><td>113.326</td></tr>
+<tr><td>GBP/USD</td><td>1.28835</td></tr>
+<tr><td>EUR/GBP</td><td>0.84831</td></tr>
+<tr><td>USD/CHF</td><td>1.00133</td></tr>
+</table>
+```
+Different clients may render such tables in a different way.
+
+Please be aware that a Susi answer may contain more than one action as answer.
+
+
 ### Tutorial Level 13: Problem-Solving Dialog with Counter-Questions
 
 Using Susis variables and if rules can be used to create experts which are able to do a dialog to solve a problem.
