@@ -214,7 +214,6 @@ What you see here is the bang-notion which always starts with a '!', followed by
 with a ':' and then follows the return statement. The value of the script is represented with the $!$ variable object.
 This javascript skill catches everything up that the script produces: std-out, error-out a direct term computations, i.e.
 
-
 ```
 compute * to the power of *
 !javascript:$1$^$2$ = $!$
@@ -244,7 +243,7 @@ the syntax of a JSONPath. Here, the statuses object contains a list of objects, 
 One of these attributes has the name 'text' and that attribute is selected with the $text$ pattern.
 Note that the bang definition part until the eol line must be given in JSON.
 
-#### Testcases for values of "path"
+#### Test Cases for Values of "path"
 1. Json Format :- 
 ```
 {
@@ -256,7 +255,6 @@ To print the value **abc** , put $object$ in console  :-
 ```
 !console:$object$
 ```
-
 
 2. JSON Format
 ```
@@ -339,8 +337,10 @@ stock quotes
 {
   "url":"https://www.live-rates.com/rates",
   "path":"$",
-  "type":"table",
-  "columns":{"currency":"Valuta","rate":"Quota"}
+  "actions":[{
+    "type":"table",
+    "columns":{"currency":"Valuta","rate":"Quota"}
+  }]
 }
 eol
 ```
@@ -349,16 +349,58 @@ This skill provides a table with the Spanish words "Valuta" and "Quota" for the 
 The table is defined with the type "table" and a columns object which provides a mapping from the column value names to the
 visible descriptive names that shall be rendered in the client's output.
 
+The client will see the following (similar!) JSON for a query like
+`http://api.susi.ai/susi/chat.json?q=stock+quotes`:
 
-### Tutorial Level 13: Thinking with Backtracking
+```
+{
+  "query": "stock quotes",
+  "answers": [{
+    "data": [
+      {"currency": "EUR/USD", "rate": "1.09302", "timestamp": "1494621900069"},
+      {"currency": "USD/JPY", "rate": "113.326", "timestamp": "1494621900186"},
+      {"currency": "GBP/USD", "rate": "1.28835", "timestamp": "1494621900129"},
+      {"currency": "EUR/GBP", "rate": "0.84831", "timestamp": "1494621900103"},
+      {"currency": "USD/CHF", "rate": "1.00133", "timestamp": "1494621899461"}
+    ],
+    "metadata": {"count": 59},
+    "actions": [{
+      "type": "table",
+      "columns": {
+        "currency": "Valuta",
+        "rate": "Quota"
+      }
+    }]
+  }]
+}
+```
 
-Backtracking is the ability of a program to revert an already made setting and take an alternative option. If we consider this behavior at different states of a computation, then this produces a tree-like parameter graph, which is called a decision tree. Susi's data structures are made in such a way, that result tables are an element of 'thinking'. Such result tables are 'bags' for backtracking options. We will learn how to use that principle to create loops which are useful for problem-solving.
+The client then should create a table out of the data object where the column names are 'Valuta' and 'Quota', i.e. like this html table:
 
-(to be implemented)
+```
+<table>
+<tr><th>Valuta</th><th>Quota</th></tr>
+<tr><td>EUR/USD</td><td>1.09302</td></tr>
+<tr><td>USD/JPY</td><td>113.326</td></tr>
+<tr><td>GBP/USD</td><td>1.28835</td></tr>
+<tr><td>EUR/GBP</td><td>0.84831</td></tr>
+<tr><td>USD/CHF</td><td>1.00133</td></tr>
+</table>
+```
+Different clients may render such tables in a different way.
 
-### Tutorial Level 14: Expert Systems with first-order logic
+Please be aware that a Susi answer may contain more than one action as answer.
 
-A first-order logic is expressed in terms of relations, represented as facts and rules. We already defined facts and rules using the methods as described above. Backtracking and unification are the computation model for such kind of expert systems. In this tutorial, we will learn how to express a program flow using logic elements.
+
+### Tutorial Level 13: Problem-Solving Dialog with Counter-Questions
+
+Using Susis variables and if rules can be used to create experts which are able to do a dialog to solve a problem.
+
+(do be continued)
+
+### Tutorial Level 14: Expert Systems with Backtracking
+
+Backtracking is the ability of a program to revert a already made setting and take an alternative option. If we consider this behaviour at different states of a computation, then this produces a tree-like parameter graph, which is called a decision tree. Susi's data structures are made in such a way, that result tables are an element of 'thinking'. Such result tables are 'bags' for backtracking options. We will learn how to use that principle to create loops which are useful for problem-solving.
 
 (to be implemented)
 
