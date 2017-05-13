@@ -1,6 +1,6 @@
 #returns sentiment of an expression (either positive or negative)
 
-*
+Sentiment analysis of *
 !console:Expression is : $object$ (where P:Positive and N:Negative)
 {
 
