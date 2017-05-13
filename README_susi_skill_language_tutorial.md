@@ -214,7 +214,6 @@ What you see here is the bang-notion which always starts with a '!', followed wi
 with a ':' and then follows the return statement. The value of the script is represented with the $!$ variable object.
 This javascript skill catches everything up that the script produces: std-out, error-out an direct term computations, i.e.
 
-
 ```
 compute * to the power of *
 !javascript:$1$^$2$ = $!$
@@ -244,12 +243,10 @@ the syntax of an JSONPath. Here, the statuses object contains a list of objects,
 One of these attributes has the name 'text' and that attribute is selected with the $text$ pattern.
 Note that the bang definition part until the eol line must be given in JSON.
 
-#### Testcases for values of "path"
+#### Test Cases for Values of "path"
 1. Json Format :- 
 ```
-   {
-     "test" : {"text":"abc"}
-   }
+   { "test" : {"text":"abc"} }
 ```
 Here **path:"$.test.text"** will put first element **"abc"** in $object$ 
 To print the value **abc** , put $object$ in console  :-
@@ -257,36 +254,23 @@ To print the value **abc** , put $object$ in console  :-
 !console:$object$
 ```
 
-
 2. Json Format
 ```
-   {
-     "test": { "text": ["abc", "def"] , "next": {"a":1, "b":2}}
-   }
+   { "test": { "text": ["abc", "def"] , "next": {"a":1, "b":2}} }
 ```
 Here **path: "$.test.next.a"** will put **1** in $object$ 
 
 
 3. Json Format
 ```
-   {
-     "test": { "text": ["abc", "def"] , "next": {"a":1, "b":2}}
-   }
+   { "test": { "text": ["abc", "def"] , "next": {"a":1, "b":2}} }
 ```
 Here **path: "$.test.text.[1]"** will put **"def"** in $object$ 
 
 
 4. Json Format
 ```
-{
-query: {
-       text: [
-              "a",
-              "b",
-              "c"
-             ]
-       }
-}
+{ query: { text: [ "a", "b", "c" ] } }
 ```
 Here **"path": "$.query.text[0]"** will put **"a"** in $object$ 
 
