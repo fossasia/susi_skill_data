@@ -339,8 +339,10 @@ stock quotes
 {
 "url":"https://www.live-rates.com/rates",
 "path":"$",
+"actions":[{
 "type":"table",
 "columns":{"currency":"Valuta","rate":"Quota"}
+}]
 }
 eol
 ```
@@ -349,16 +351,15 @@ This skill provides a table with the spanish words "Valuta" and "Quota" for the 
 The table is defined with the type "table" and a columns object which provides a mapping from the column value names to the
 visible descriptive names that shall be rendered in the client's output.
 
+### Tutorial Level 13: Problem-Solving Dialog with Counter-Questions
 
-### Tutorial Level 13: Thinking with Backtracking
+Using Susis variables and if rules can be used to create experts which are able to do a dialog to solve a problem.
+
+(do be continued)
+
+### Tutorial Level 14: Expert Systems with Backtracking
 
 Backtracking is the ability of a program to revert a already made setting and take an alternative option. If we consider this behaviour at different states of a computation, then this produces a tree-like parameter graph, which is called a decision tree. Susi's data structures are made in such a way, that result tables are an element of 'thinking'. Such result tables are 'bags' for backtracking options. We will learn how to use that principle to create loops which are useful for problem-solving.
-
-(to be implemented)
-
-### Tutorial Level 14: Expert Systems with first-order logic
-
-A first-order logic is expressed in terms of relations, represented as facts and rules. We already defined facts and rules using the methods as described above. Backtracking and unification is the computation model for such kind of expert systems. In this tutorial we will learn how to express a program flow using logic elements.
 
 (to be implemented)
 
