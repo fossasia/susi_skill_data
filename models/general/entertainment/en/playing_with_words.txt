@@ -1,0 +1,7 @@
+word starting with * and ending with *
+!console:$object$
+{
+    "url":"https://api.datamuse.com/words?sp=$1$??$2$",
+    "path":"$.[0].word"
+}
+eol
