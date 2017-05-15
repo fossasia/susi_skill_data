@@ -4,6 +4,17 @@ function random
 Math.random();
 eol
 
+
+#Generate random number greater than 1
+
+Generate any random number|random number|Generate random number 
+!console:Your random number is  $object$ 
+{
+"url":"https://qrng.anu.edu.au/API/jsonI.php?length=1&type=uint8&#8217",
+"path":"$.data"
+}
+eol
+
 #gives random names
 suggest a name|* random name
 !console:how does $title$ $first$ $last$ sound?
@@ -16,3 +27,4 @@ eol
 #gives random images
 * random image|* random pic|* random picture
 check this out http://lorempixel.com/400/200/
+

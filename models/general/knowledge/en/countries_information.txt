@@ -1,0 +1,68 @@
+#Tells us about currency of country 
+
+Currency of *| What is currency of *| * Currency 
+!console:Currency of $1$ is $object$ 
+{
+"url":"https://restcountries.eu/rest/v1/name/$1$?fullText=true",
+"path":"$.[0].currencies"
+}
+eol
+
+#Tells us about time zone of different countries
+
+Time Zone of *|What is time zone of *| * Time zone 
+!console:Time zone of $1$ is $object$ 
+{
+"url":"https://restcountries.eu/rest/v1/name/$1$?fullText=true",
+"path":"$.[0].timezones"
+}
+eol
+
+#Tells about area of countries 
+
+Area of *| What is area of *| * Area
+!console:Area of $1$ is $object$  km^2
+{
+"url":"https://restcountries.eu/rest/v1/name/$1$?fullText=true",
+"path":"$.[0].area"
+}
+eol
+
+#Tells about area of countries 
+
+Area of *| What is area of *| * Area
+!console:Area of $1$ is $object$  km^2
+{
+"url":"https://restcountries.eu/rest/v1/name/$1$?fullText=true",
+"path":"$.[0].area"
+}
+eol
+
+#Tells us about region of any country
+
+Region of *| What is Region of *|* Region
+!console:Region of $1$ is $object$
+{
+"url":"https://restcountries.eu/rest/v1/name/$1$?fullText=true",
+"path":"$.[0].region"
+}
+eol
+
+#Tells calling codes of different countries
+
+Calling code of *|* Calling code
+!console:Calling code of $1$ is +$object$
+{
+"url":"https://restcountries.eu/rest/v1/name/$1$?fullText=true",
+"path":"$.[0].callingCodes[0]"
+}
+eol
+
+#Tells us about population of countries
+Population of *| Population *
+!console:$alt$
+{
+"url":"http://api.wolframalpha.com/v2/query?appid=9WA6XR-26EWTGEVTE&input=What+is+population+of+$1$&output=JSON",
+"path":"$.queryresult.pods[1].subpods[0].img"
+}
+eol

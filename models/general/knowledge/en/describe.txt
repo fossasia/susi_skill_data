@@ -1,0 +1,8 @@
+# Describes something
+describe *
+!console:$plaintext$
+{ 
+    "url": "https://api.wolframalpha.com/v2/query?input=describe+$1$&output=JSON&appid=9WA6XR-26EWTGEVTE&includepodid=Result",  
+    "path" : "$.queryresult.pods[0].subpods[0]"
+}
+eol

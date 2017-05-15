@@ -1,0 +1,36 @@
+#
+tell me a math triva | give me a number fact 
+!console:$object$
+{
+    "url":"http://numbersapi.com/random/math?json",
+    "path":"$.text"
+}
+eol
+
+tell me a fact about number *
+!console:$object$
+{
+    "url":"http://numbersapi.com/$1$/math?json",
+    "path":"$.text"
+}
+eol
+
+#example:what is special about the date 2/29
+what is special about the date *
+!console:$object$
+{
+    "url":"http://numbersapi.com/$1$/date?json",
+    "path":"$.text"
+}
+eol
+
+tell me a random fact
+!console:$object$
+{
+    "url":"http://numbersapi.com/random/trivia?json",
+    "path":"$.text"
+}
+eol
+
+
+

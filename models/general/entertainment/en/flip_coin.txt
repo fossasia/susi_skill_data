@@ -1,0 +1,2 @@
+flip a coin
+heads|tails

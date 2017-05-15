@@ -1,0 +1,9 @@
+# searches wikipedia for a given query
+wiki *
+!console:$object$
+{
+"url":"https://en.wikipedia.org/w/api.php?action=opensearch&search=$1$&limit=1&format=json",
+"path":"$.[2].[0]"
+}
+eol
+

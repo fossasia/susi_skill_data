@@ -1,0 +1,23 @@
+#returns derivative of expression
+derivative *|differentiation of *
+!console:Derivative $1$ is $object$ 
+{
+
+    "url":"https://newton.now.sh/derive/$1$",
+
+    "path":"$.result"
+
+}
+eol
+
+#returns integral of expression
+integrate *|integration of *
+!console:Integration $1$ is $object$ 
+{
+
+    "url":"https://newton.now.sh/integrate/$1$",
+
+    "path":"$.result"
+
+}
+eol
