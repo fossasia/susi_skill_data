@@ -6,3 +6,11 @@
 "path":"$.results"
 }
 eol
+
+cook *|how to cook *|recipe for
+!console:To cook  $title$ , check out $href$ and make sure you have $ingredients$!
+{
+"url":"http://www.recipepuppy.com/api/?q=$2$",
+"path":"$.results"
+}
+eol
