@@ -17,7 +17,7 @@ eol
 eol
 
 #Ex: play any funk genre from mixcloud
-play any * genre from mixcloud|play any * shows from mixcloud
+play any * genre from mixcloud|play any * shows from mixcloud|play *|* music
 !console:For $1$ shows - $object$
 {
 "url":"https://api.mixcloud.com/discover/$1$/",
