@@ -1,5 +1,5 @@
 #
-tell me a math triva | give me a number fact 
+* math triva|math triva|* number fact|number fact|mathematics|* math
 !console:$object$
 {
     "url":"http://numbersapi.com/random/math?json",
@@ -7,7 +7,7 @@ tell me a math triva | give me a number fact
 }
 eol
 
-tell me a fact about number *
+tell me a fact about number *|explain number *
 !console:$object$
 {
     "url":"http://numbersapi.com/$1$/math?json",
@@ -16,7 +16,7 @@ tell me a fact about number *
 eol
 
 #example:what is special about the date 2/29
-what is special about the date *
+what is special about the date *|on date *|what happened on *
 !console:$object$
 {
     "url":"http://numbersapi.com/$1$/date?json",
@@ -24,7 +24,7 @@ what is special about the date *
 }
 eol
 
-tell me a random fact
+tell me a random fact|random fact|be smart
 !console:$object$
 {
     "url":"http://numbersapi.com/random/trivia?json",
