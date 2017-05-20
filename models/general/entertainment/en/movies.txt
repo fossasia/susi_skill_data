@@ -9,10 +9,10 @@ Show me a popular movie
 eol
 
 #example:Provide me details of movie Martian
-Provide me details of movie *
+* movie *
 !console:$original_title$ - $overview$  Release date:$release_date$
 {
-"url":"https://api.themoviedb.org/3/search/movie?api_key=7c8618ff3d5fd73e6601c1d5e1ef3f33&query=$1$",
+"url":"https://api.themoviedb.org/3/search/movie?api_key=7c8618ff3d5fd73e6601c1d5e1ef3f33&query=$2$",
 "path":"$.results"
 }
 eol
