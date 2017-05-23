@@ -1,0 +1,69 @@
+#words with a meaning similar to tree
+define *| Meaning of *| one word for *
+!console: $word$
+{
+"url":"https://api.datamuse.com/words?ml=$1$",
+"path":"$.[0]"
+}
+eol
+
+
+#words related to duck that start with the letter b
+word related to * that start with the letter *
+!console: $word$
+{
+"url":"https://api.datamuse.com/words?ml=$1$&sp=$2$*",
+"path":"$.[0]"
+}
+eol
+
+#words that sound like elefint
+word that sound like *|sounding like *
+!console: $word$
+{
+"url":"https://api.datamuse.com/words?sl=$1$",
+"path":"$.[0]"
+}
+eol
+
+
+
+#words that are spelled similarly to coneticut
+words that are spelled similarly to *| similar spelling to *| spelling of *
+!console: $word$
+{
+"url":"https://api.datamuse.com/words?sp=$1$",
+"path":"$.[0]"
+}
+eol
+
+
+#words that rhyme with forgetful
+rhyme *| word rhyming with *
+!console: $word$
+{
+"url":"https://api.datamuse.com/words?rel_rhy=$1$",
+"path":"$.[0]"
+}
+eol
+
+
+
+#adjectives that are often used to describe ocean
+adjective to describe *|show adjective for *|adjective for *
+!console: $word$
+{
+"url":"https://api.datamuse.com/words?rel_jjb=$1$",
+"path":"$.[0]"
+}
+eol
+
+#suggestions for the user if they have typed in rawand so far
+suggestions for *| show words like *| similar words to * | words like *
+!console: $word$
+{
+"url":"https://api.datamuse.com/sug?s=$1$",
+"path":"$.[0]"
+}
+eol
+
