@@ -1,0 +1,7 @@
+What is stock price of *?|What is stock price of *|stock price of * 
+!console:$l$
+{
+    "url":"http://finance.google.com/finance/info?client=ig&q=NASDAQ:$1$",
+    "path":"$.[0]"
+}
+eol

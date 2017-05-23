@@ -1,0 +1,7 @@
+trump|donald trump|quote by donald trump|trump quote
+!console:$object$
+{
+    "url":"https://api.whatdoestrumpthink.com/api/v1/quotes/random",
+    "path":"$.message"
+}
+eol

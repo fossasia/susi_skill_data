@@ -1,0 +1,7 @@
+* big bang theory| tell me about big bang theory|geek jokes|geek joke|big bang theory *
+!console:$joke$
+{
+    "url":"http://api.icndb.com/jokes/random",
+    "path":"$.value."
+}
+eol
