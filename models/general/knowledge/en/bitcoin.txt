@@ -1,0 +1,7 @@
+what is the bitcoin price?
+!console:The Bitcion daily average is:$day$ USD.
+{
+    "url":"https://apiv2.bitcoinaverage.com/indices/local/ticker/btcusd",
+    "path":"$.averages"
+}
+eol

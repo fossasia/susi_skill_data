@@ -17,3 +17,14 @@ What is mass of *|mass of *|* mass
 "path":"$.queryresult.pods[1].subpods[0].img"
 }
 eol
+
+#A dream to answer fact based queries 
+#example: Tell me world largest building
+#example: Tell me distance between sun and earth
+Tell me *
+!console:$1$-$plaintext$ 
+{
+"url":"https://api.wolframalpha.com/v2/query?input=$1$&format=plaintext&output=JSON&appid=9WA6XR-26EWTGEVTE",
+"path":"$.queryresult.pods[1].subpods"
+}
+eol
