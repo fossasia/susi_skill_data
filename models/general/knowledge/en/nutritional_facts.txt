@@ -1,0 +1,31 @@
+Calories in *|How many calories are in *|Amount of calories in *
+!console:There are $plaintext$ in $1$
+{
+    "url": "http://api.wolframalpha.com/v2/query?appid=9WA6XR-26EWTGEVTE&input=calories+in+$1$&output=JSON",  
+    "path" : "$.queryresult.pods[1].subpods[0]"
+}
+eol
+
+Protein in *|How much Protein are in *|Amount of Protein in *
+!console:There are $plaintext$ of protein in $1$
+{
+    "url": "http://api.wolframalpha.com/v2/query?appid=9WA6XR-26EWTGEVTE&input=protein+in+$1$&output=JSON",  
+    "path" : "$.queryresult.pods[1].subpods[0]"
+}
+eol
+
+Fat in *|How much Fat is in *|Amount of Fat in *
+!console:There are $plaintext$ in $1$
+{
+    "url": "http://api.wolframalpha.com/v2/query?appid=9WA6XR-26EWTGEVTE&input=fats+in+$1$&output=JSON",  
+    "path" : "$.queryresult.pods[1].subpods[0]"
+}
+eol
+
+Carbohydrates in *|How many Carbohydrates are in *|Amount of Carbohydrates in *
+!console:There are $plaintext$ of carbohydrates in $1$
+{
+    "url": "http://api.wolframalpha.com/v2/query?appid=9WA6XR-26EWTGEVTE&input=carbohydrates+in+$1$&output=JSON",  
+    "path" : "$.queryresult.pods[1].subpods[0]"
+}
+eol
