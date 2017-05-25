@@ -1,7 +1,7 @@
-current time in *
-!console:It's $object$ in $1$
+current time in * | What time is it in *
+!console:In $1$ it is $plaintext$ 
 {
-    "url":"http://www.convert-unix-time.com/api?timestamp=now&timezone=$1$",
-    "path":"$.localDate"
+"url":"https://api.wolframalpha.com/v2/query?input=what+time+is+it+in+$1$&format=plaintext&output=JSON&appid=9WA6XR-26EWTGEVTE",
+"path":"$.queryresult.pods[1].subpods"
 }
 eol
