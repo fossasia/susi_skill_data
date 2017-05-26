@@ -52,11 +52,24 @@ f1 constructor *
 }
 eol
 
-#f1 driver hamilton
+#Ex: f1 driver hamilton
 f1 driver *
 !console:$givenName$ $familyName$ was born on $dateOfBirth$. His nationality is $nationality$ - $url$ for more details
 {
 "url":"http://ergast.com/api/f1/drivers/$1$.json",
 "path":"$.MRData.DriverTable.Drivers[0]"
+}
+eol
+
+#Ex: race summary of hamilton in f1 season 2009
+race summary of * in f1 season *|race stats of * in f1 season *
+!console:
+{
+"url":"http://ergast.com/api/f1/$2$/drivers/$1$/status.json",
+"path":"$.MRData.StatusTable.Status",
+"actions":[{
+"type":"table",
+"columns":{"status":"Race Status","count":"Number Of Races"}
+}]
 }
 eol
