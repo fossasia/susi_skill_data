@@ -1,0 +1,9 @@
+# Tutorial Level 11: Call an external API
+
+tweet about *
+!console:$text$
+{
+  "url":"http://api.loklak.org/api/search.json?q=$1$",
+  "path":"$.statuses"
+}
+eol

@@ -1,0 +1,4 @@
+# Tutorial Level 2: Query Alternatives
+
+Bonjour|Buenos días|Ciao
+Hello

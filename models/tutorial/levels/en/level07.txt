@@ -1,0 +1,10 @@
+# Tutorial Level 7: Setting Status Variables
+
+I am so happy!
+Good for you!^excited^>_mood
+
+I am bored.
+Make something!^inactive^>_mood
+
+How do I feel?
+You are $_mood$.

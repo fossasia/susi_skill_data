@@ -1,0 +1,15 @@
+# Tutorial Level 12: More Action Types
+
+# Table actions:
+
+stock quotes
+!console:
+{
+  "url":"https://www.live-rates.com/rates",
+  "path":"$",
+  "actions":[{
+    "type":"table",
+    "columns":{"currency":"Valuta","rate":"Quota"}
+  }]
+}
+eol

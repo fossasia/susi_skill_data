@@ -1,0 +1,7 @@
+# Tutorial Level 5: Multiple Patterns in Queries and Answers
+
+For * I can buy a *
+Yeah, I believe $1$ is a good price for a $2$
+
+* buy a *
+Sure, you should buy a $2$!

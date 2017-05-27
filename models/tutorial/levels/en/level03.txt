@@ -1,0 +1,4 @@
+# Tutorial Level 3: Patterns in Queries
+
+May I * you?
+Yes you may.
