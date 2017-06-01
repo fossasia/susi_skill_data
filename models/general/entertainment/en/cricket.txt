@@ -1,8 +1,11 @@
-match going on
-!console:$object$
+matches going on| current matches|score *
+!console:
 {
     "url":"http://cricketapi.herokuapp.com/getMatches",
-    "path":"$.[0].srs"
+    "path":"$",
+    "actions":[{
+        "type":"table",
+        "columns":{ "id":"id","mchdesc":"Description"}
+        }]
 }
 eol
-
