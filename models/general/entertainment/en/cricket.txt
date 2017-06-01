@@ -1,0 +1,8 @@
+match going on
+!console:$object$
+{
+    "url":"http://cricketapi.herokuapp.com/getMatches",
+    "path":"$.[0].srs"
+}
+eol
+
