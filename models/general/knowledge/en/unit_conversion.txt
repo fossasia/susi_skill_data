@@ -1,0 +1,8 @@
+#Converts one unit to other e.g how many c
+How many * are in *|* in *
+!console:$alt$
+{
+"url":"http://api.wolframalpha.com/v2/query?appid=9WA6XR-26EWTGEVTE&input=how+many+$1$+are+in+$2$&output=JSON",
+"path":"$.queryresult.pods[1].subpods[0].img"
+}
+eol
