@@ -396,7 +396,7 @@ Please be aware that a Susi answer may contain more than one action as answer.
 
 Using Susis variables and if rules can be used to create experts which are able to do a dialog to solve a problem.
 
-(do be continued)
+(to be continued)
 
 ### Tutorial Level 14: Expert Systems with Backtracking
 
