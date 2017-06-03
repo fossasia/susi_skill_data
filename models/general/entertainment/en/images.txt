@@ -19,14 +19,4 @@ random image
 eol
 
 images of *
-!console:
-{
-    "url":"http://www.splashbase.co/api/v1/images/search?query=$1$",
-    "path":"$.images",
-    "actions":[{
-        "type":"table",
-        "columns":{"url":"URL"}
-        }]
-}
-eol
-
+https://source.unsplash.com/1600x900/?$1$
