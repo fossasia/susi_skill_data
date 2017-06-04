@@ -1,0 +1,8 @@
+#Tells price of  products in different currencies 
+Price of  * in * 
+!console:Price of $1$ in $2$ is $alt$
+{
+"url":"http://api.wolframalpha.com/v2/query?appid=9WA6XR-26EWTGEVTE&input=price+of+$1$+in+$2$&output=JSON",
+"path":"$.queryresult.pods[1].subpods[0].img"
+}
+eol
