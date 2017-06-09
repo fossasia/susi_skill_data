@@ -1,0 +1,4 @@
+# Tutorial Level 4: Using Query-Patterns in Answers
+
+May I get a *?
+Yes you may get a $1$!

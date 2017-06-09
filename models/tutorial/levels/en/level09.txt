@@ -1,0 +1,7 @@
+# Tutorial Level 9: Rules used as Functions/Templates (Basic Self-Reflection)
+
+function colour
+red|green|blue|white|black|yellow|purple|brown
+
+What is your favorite color?
+?$_mycolour$:My favorite colour is $_mycolour$!:I like `function colour`>_mycolour!

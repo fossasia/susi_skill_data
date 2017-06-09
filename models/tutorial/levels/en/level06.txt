@@ -1,0 +1,7 @@
+# Tutorial Level 6: Using Variables from Answer Terms
+
+I * like * beer
+You then should have one $2$>_beerbrand!
+
+* beer * best?
+I bet you like $_beerbrand$ beer!

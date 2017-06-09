@@ -1,0 +1,11 @@
+# Tutorial Level 10: Embed Javascript into a Skill
+
+javascript hello
+!javascript:$!$ from Nashorn
+print('Hello world');
+eol
+
+compute * to the power of *
+!javascript:$1$^$2$ = $!$
+Math.pow($1$, $2$)
+eol
