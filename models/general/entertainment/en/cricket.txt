@@ -1,0 +1,11 @@
+matches going on| current matches|score *
+!console:
+{
+    "url":"http://cricketapi.herokuapp.com/getMatches",
+    "path":"$",
+    "actions":[{
+        "type":"table",
+        "columns":{ "id":"id","mchdesc":"Description"}
+        }]
+}
+eol
