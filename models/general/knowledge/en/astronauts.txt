@@ -1,0 +1,20 @@
+# Tells about people in space
+How many people are In space right now
+!console:There are currently $object$ humans in space.
+{
+"url":"http://api.open-notify.org/astros.json",
+"path":"$.number"
+}
+eol
+
+What are the name of those astronauts?
+!console:
+{
+"url":"http://api.open-notify.org/astros.json",
+"path":"$.people",
+"actions":[{
+"type":"table",
+"columns":{"name":"Name","craft":"Craft"}
+}]
+}
+eol
