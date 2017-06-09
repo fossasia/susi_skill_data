@@ -1,53 +1,53 @@
-What is latest exchange rate for US dollars|What is latest exchange rate for USD
-!console:Latest exchange rate is $last$
+What is latest exchange rate for US dollars to bitcoin|What is latest exchange rate for USD to BTC
+!console:Latest exchange rate is 1 BTC = $last$ USD 
 {
 "url":"https://blockchain.info/ticker",
 "path":"$.USD."
 }
 eol
 
-What is latest exchange rate for Euros|What is latest exchange rate for EUR
-!console:Latest exchange rate is $last$
+What is latest exchange rate for Euros to bitcoin|What is latest exchange rate for EUR to BTC
+!console:Latest exchange rate is 1 BTC = $last$ EUR
 {
 "url":"https://blockchain.info/ticker",
 "path":"$.EUR."
 }
 eol
 
-What is latest exchange rate for canadian dollars|What is latest exchange rate for CAD
-!console:Latest exchange rate is $last$
+What is latest exchange rate for canadian dollars to bitcoin|What is latest exchange rate for CAD to BTC
+!console:Latest exchange rate is 1 BTC = $last$ CAD 
 {
 "url":"https://blockchain.info/ticker",
 "path":"$.CAD."
 }
 eol
 
-What is latest exchange rate for Indian rupees|What is latest exchange rate for INR
-!console:Latest exchange rate is $last$
+What is latest exchange rate for Indian rupees to bitcoin|What is latest exchange rate for INR to BTC
+!console:Latest exchange rate is 1 BTC = $last$ INR
 {
 "url":"https://blockchain.info/ticker",
 "path":"$.INR."
 }
 eol
 
-What is latest exchange rate for australian dollars|What is latest exchange rate for AUD
-!console:Latest exchange rate is $last$
+What is latest exchange rate for australian dollars to bitcoin|What is latest exchange rate for AUD to BTC
+!console:Latest exchange rate is 1 BTC = $last$ AUD 
 {
 "url":"https://blockchain.info/ticker",
 "path":"$.AUD."
 }
 eol
 
-What is latest exchange rate for Chinese yen|What is latest exchange rate for CNY
-!console:Latest exchange rate is $last$
+What is latest exchange rate for Chinese yen to bitcoin|What is latest exchange rate for CNY to BTC
+!console:Latest exchange rate is 1 BTC = $last$ CNY  
 {
 "url":"https://blockchain.info/ticker",
 "path":"$.CNY."
 }
 eol
 
-What is latest exchange rate for japenese yen|What is latest exchange rate for JPY
-!console:Latest exchange rate is $last$
+What is latest exchange rate for japenese yen to bitcoin|What is latest exchange rate for JPY to BTC
+!console:Latest exchange rate is 1 BTC = $last$ JPY
 {
 "url":"https://blockchain.info/ticker",
 "path":"$.JPY."
