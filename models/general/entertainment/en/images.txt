@@ -1,0 +1,22 @@
+latest images
+!console:
+{
+    "url":"http://www.splashbase.co/api/v1/images/latest",
+    "path":"$.images",
+    "actions":[{
+        "type":"table",
+        "columns":{"url":"URL"}
+        }]
+}
+eol
+
+random image
+!console:$object$
+{
+    "url":"http://www.splashbase.co/api/v1/images/random",
+    "path":"$.url"
+}
+eol
+
+images of *
+https://source.unsplash.com/1600x900/?$1$
