@@ -1,4 +1,4 @@
-what is the bitcoin price?
+what is the bitcoin price?|Bitcoin price in USD|Bitcoin value in USD
 !console:The Bitcoin daily average is:$day$ USD.
 {
     "url":"https://apiv2.bitcoinaverage.com/indices/local/ticker/btcusd",

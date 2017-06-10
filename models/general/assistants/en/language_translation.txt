@@ -1,7 +1,7 @@
 #Translating to other languages
 #Hardcoded the languages for now, will try to extend the extend to all languages without hardcoding
 #uses 3 letter language coding
-What is * in french|french for *
+What is * in french|french for *|translate * in french|tell the translation of * in french 
 !console:$text$
 {
 "url":"https://glosbe.com/gapi/translate?from=eng&dest=fra&format=json&phrase=$1$&pretty=true",
@@ -9,7 +9,7 @@ What is * in french|french for *
 }
 eol
 
-What is * in german|german for *
+What is * in german|german for *|translate * in german|tell the translation of * in german
 !console:$text$
 {
 "url":"https://glosbe.com/gapi/translate?from=eng&dest=ger&format=json&phrase=$1$&pretty=true",
@@ -17,7 +17,7 @@ What is * in german|german for *
 }
 eol
 
-What is * in spanish|spanish for *
+What is * in spanish|spanish for *|translate * in spanish|tell the translation of * in spanish
 !console:$text$
 {
 "url":"https://glosbe.com/gapi/translate?from=eng&dest=spa&format=json&phrase=$1$&pretty=true",
@@ -25,7 +25,7 @@ What is * in spanish|spanish for *
 }
 eol
 
-What is * in hindi|hindi for *
+What is * in hindi|hindi for *|translate * in hindi|tell the translation of * in hindi
 !console:$text$
 {
 "url":"https://glosbe.com/gapi/translate?from=eng&dest=hin&format=json&phrase=$1$&pretty=true",
