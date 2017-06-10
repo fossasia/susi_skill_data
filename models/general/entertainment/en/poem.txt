@@ -1,7 +1,7 @@
 # tells a poem of given author
 # example: give me a poem by Emily
 # example: 	give me a poem by Shakespeare
-give me a poem by *
+give me a poem by *|tell me a poem by *
 !console:The poem is $title$ by $author$. $lines$
 {
     "url":"http://poetrydb.org/author/$1$",
