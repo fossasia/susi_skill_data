@@ -1,4 +1,4 @@
-﻿# Susi Skill Development Tutorial
+# Susi Skill Development Tutorial
 
 Do you want your own AI Skills for Susi? It's surprisingly easy to add more Skills to Susi.
 
@@ -8,7 +8,7 @@ It's easy, DON'T PANIC. You don't need to be a software developer to enhance Sus
 
 ### What you have to do
 
-We have a Susi Skill develoment environment based on an Etherpad. Are you unaware what an Etherpad is? It is a blank web page where you can just put in your text and everyone can collaborate.
+We have a Susi Skill development environment based on an Etherpad. Are you unaware what an Etherpad is? It is a blank web page where you can just put in your text and everyone can collaborate.
 
 * open http://dream.susi.ai
 * name a dream (just pick a name for your tests in lower case letters)
@@ -29,7 +29,7 @@ dream <testname>
 
 where `<testname>` is the name of the etherpad you just entered in http://dream.susi.ai
 
-Now all Skills you enter in the dream zone are available instantly in your chat! Thats easy, is it?
+Now all Skills you enter in the dream zone are available instantly in your chat! That's easy, is it?
 
 To stop testing your new Susi Skills, write `stop dreaming`.
 
@@ -48,7 +48,7 @@ This defines one simple Skill: to answer on "roses are red" the phrase "susi is 
 Now you can test the new Skill:
 * send the following query to Susi: "roses are red"
 * Susi will answer with "susi is a hack".
-The Skill file is just a text file where two lines which are not separated with an empty line represent a conversation pattern.
+The Skill file is just a text file where two lines which are not separated by an empty line represent a conversation pattern.
 You can actually add a third line to your file:
 ```
 # susi tutorial playground
@@ -62,7 +62,7 @@ With that file, Susi would respond on "roses are red" the answer "susi is a hack
 ### Tutorial Level 1: Random Answers
 Skills without a deterministic behavior will create less predictable results.
 That can easily be defined with Skills. Lets consider you want a Skill where different answers
-on "What is your favorite dish?" are "Potatoes", "Vegetables" or "Fish". Thats easy: add an empty line
+on "What is your favorite dish?" are "Potatoes", "Vegetables" or "Fish". That's easy: add an empty line
 to the end of your test file and then:
 ```
 What is your favorite dish
@@ -78,7 +78,7 @@ Hello
 ```
 
 ### Tutorial Level 3: Patterns in Queries
-In some cases the query lines may be so similar, that you want to use a pattern to declare all possible queries for an answer instead of using fixed alternatives. Query patters can be declared using the `*` wildcard character. A `*` matches any sentence token, but not a substring. That means, a `*` replaces a word or a list of words.
+In some cases, the query lines may be so similar, that you want to use a pattern to declare all possible queries for an answer instead of using fixed alternatives. Query patterns can be declared using the `*` wildcard character. A `*` matches any sentence token, but not a substring. That means a `*` replaces a word or a list of words.
 
 ```
 May I * you?
@@ -93,8 +93,8 @@ we want to use that pattern in the result, we can denote that with the term `$1$
 May I get a *?
 Yes you may get a $1$!
 ```
-It is of course possible to combine Query-Patterns with alternatives
-in the query-part and the response part.
+It is, of course, possible to combine Query-Patterns with alternatives
+in the query part and the response part.
 
 ### Tutorial Level 5: Multiple Patterns in Queries and Answers
 You can have of course multiple wildcards in the query pattern.
@@ -128,9 +128,9 @@ I * like * beer
 You then should have one $2$>_beerbrand!
 ```
 
-Now Susi knows your most favourite beer brand, it is stored inside the variable `_beerbrand`. Note that the variable starts with a leading '_'. That has a special meaning: variables without a leading '_' are only valid while Susi is thinking about
-a phrase, not after the response has computed. Susi will not remember a variable, if
-that variable was set in a past converation and has not a leading '_'.
+Now Susi knows your most favorite beer brand, it is stored inside the variable `_beerbrand`. Note that the variable starts with a leading '_'. That has a special meaning: variables without a leading '_' are only valid while Susi is thinking about
+a phrase, not after the response has computed. Susi will not remember a variable if
+that variable was set in a past conversation and has not a leading '_'.
 
 You can now use that variable in another rule:
 ```
@@ -141,12 +141,12 @@ Note that the `*` wildcards in the query are not used at all. They are just ther
 to make it easy that this rule matches. It will i.e. match on "What beer brand is the best?"
 
 Variables are only visible within the same user session. Therefore we need
-authentified users and that is a main reason that you have to log on to use Susi.
+authenticated users and that is the main reason that you have to log on to use Susi.
 
 
 ### Tutorial Level 7: Setting Status Variables
 
-A status variable is exactly the same variable as in the previous tutorial level. The difference is that the value for the variable
+A status variable is exactly the same variable as in the previous tutorial level. The difference is that the value of the variable
 does not come from a term that is visible in the answer. Instead, an invisible 'status' can be assigned to the variable.
 
 ```
@@ -160,7 +160,7 @@ How do I feel?
 You are $_mood$.
 ```
 
-In this example, Susi remembers your mood and can tell you about it. The actual word which was used to describe the mood was never printed to the user before, because using the `^^` symbols it got quoted and became invisible.
+In this example, Susi remembers your mood and can tell you about it. The actual word which was used to describe the mood was never printed to the user before because using the `^^` symbols it got quoted and became invisible.
 
 ### Tutorial Level 8: Conditions for Answers
 
@@ -192,8 +192,8 @@ red|green|blue|white|black|yellow|purple|brown
 We would not expect that anybody asks "function colour". But we can use this to add the name of a colour in our answer:
 
 ```
-What is your favourite colour?
-?$_mycolour$:My favourite colour is $_mycolour$!:I like `function colour`>_mycolour!
+What is your favorite color?
+?$_mycolour$:My favorite colour is $_mycolour$!:I like `function colour`>_mycolour!
 ```
 
 Here, the colour is randomly generated with the `function colour` call, but only if Susi has not done that yet. If Susi just generated a colour in the answer, that answer will be stored in the variable `_mycolour`. But if that variable already existed, it will be used to make the answer without the `function colour`.
@@ -210,10 +210,9 @@ print('Hello world');
 eol
 ```
 
-What you see here is the bang-notion which always starts with a '!', followed with the script language name that is used, then followed
+What you see here is the bang-notion which always starts with a '!', followed by the script language name that is used, then followed
 with a ':' and then follows the return statement. The value of the script is represented with the $!$ variable object.
-This javascript skill catches everything up that the script produces: std-out, error-out an direct term computations, i.e.
-
+This javascript skill catches everything up that the script produces: std-out, error-out a direct term computations, i.e.
 
 ```
 compute * to the power of *
@@ -232,24 +231,24 @@ Such a service is called a 'console service' in Susi:
 tweet about *
 !console:$text$
 {
-"url":"http://api.loklak.org/api/search.json?q=$1$",
-"path":"$.statuses"
+  "url":"http://api.loklak.org/api/search.json?q=$1$",
+  "path":"$.statuses"
 }
 eol
 ```
 
 This will call the loklak search API and gets back a big list of tweets from the given query in $1$. That list is somewhere inside the
 answer json of the API call, and we must tell Susi where it can find that list. This hint is given in the attribute 'path' which has
-the syntax of an JSONPath. Here, the statuses object contains a list of objects, which contain always the same attribut keys.
+the syntax of a JSONPath. Here, the statuses object contains a list of objects, which contain always the same attribute keys.
 One of these attributes has the name 'text' and that attribute is selected with the $text$ pattern.
 Note that the bang definition part until the eol line must be given in JSON.
 
-#### Testcases for values of "path"
+#### Test Cases for Values of "path"
 1. Json Format :- 
 ```
-   {
-     "test" : {"text":"abc"}
-   }
+{
+  "test" : {"text":"abc"}
+}
 ```
 Here **path:"$.test.text"** will put first element **"abc"** in $object$ 
 To print the value **abc** , put $object$ in console  :-
@@ -257,62 +256,157 @@ To print the value **abc** , put $object$ in console  :-
 !console:$object$
 ```
 
-
-2. Json Format
+2. JSON Format
 ```
-   {
-     "test": { "text": ["abc", "def"] , "next": {"a":1, "b":2}}
-   }
+{
+  "test": { "text": ["abc", "def"] , "next": {"a":1, "b":2}}
+}
 ```
 Here **path: "$.test.next.a"** will put **1** in $object$ 
 
 
-3. Json Format
+3. JSON Format
 ```
-   {
-     "test": { "text": ["abc", "def"] , "next": {"a":1, "b":2}}
-   }
+{
+  "test": { "text": ["abc", "def"] , "next": {"a":1, "b":2}}
+}
 ```
 Here **path: "$.test.text.[1]"** will put **"def"** in $object$ 
 
 
-4. Json Format
+4. JSON Format
 ```
 {
-query: {
-       text: [
-              "a",
-              "b",
-              "c"
-             ]
-       }
+  query: {
+    text: [
+      "a",
+      "b",
+      "c"
+    ]
+  }
 }
 ```
 Here **"path": "$.query.text[0]"** will put **"a"** in $object$ 
 
 
-### Tutorial Level 12: Custom Actions
+### Tutorial Level 12: More Action Types
 
-Susi Skills may return different types of actions. Non-answer actions my get their content using console rules.
-Custom actions therefore are combined console rules with custom action types
+Susi Skills may return different types of actions. So far, the only action type we used is the `answer` action.
+The result of an `answer` action can be seen with
+```
+curl http://api.susi.ai/susi/chat.json?q=hello
+```
+and the result in something like
+```
+{
+  "query": "hello",
+  "answers": [{
+    "data": [],
+    "metadata": {"count": 0},
+    "actions": [{
+      "type": "answer",
+      "expression": "Hello!"
+    }]
+  }],
+}
+```
+Here check the "actions" object: it contains a list of action objects, each with a "type" attribute.
+The "actions" array may contain more than one action and they may be of a different type than "answer".
+This tutorial chapter is of the other different types. 
+Such non-answer actions my get their content using console rules.
 
-(to be implemented)
+The following action types are available:
 
-### Tutorial Level 13: Thinking with Backtracking
+* table
+* piechart
+* rss
+* websearch
+* map
+
+Clients which render Susi action results must render _all_ actions in the order as they are provided.
+
+#### Table actions:
+
+A table is defined by the names of the colums. The rows of the table are taken 
+from the "data" object. The following example shows a console rule which produces only one action, which
+shall be rendered as table:
+
+```
+stock quotes
+!console:
+{
+  "url":"https://www.live-rates.com/rates",
+  "path":"$",
+  "actions":[{
+    "type":"table",
+    "columns":{"currency":"Valuta","rate":"Quota"}
+  }]
+}
+eol
+```
+
+This skill provides a table with the Spanish words "Valuta" and "Quota" for the table with the columns "currency" and "rate".
+The table is defined with the type "table" and a columns object which provides a mapping from the column value names to the
+visible descriptive names that shall be rendered in the client's output.
+
+The client will see the following (similar!) JSON for a query like
+`http://api.susi.ai/susi/chat.json?q=stock+quotes`:
+
+```
+{
+  "query": "stock quotes",
+  "answers": [{
+    "data": [
+      {"currency": "EUR/USD", "rate": "1.09302", "timestamp": "1494621900069"},
+      {"currency": "USD/JPY", "rate": "113.326", "timestamp": "1494621900186"},
+      {"currency": "GBP/USD", "rate": "1.28835", "timestamp": "1494621900129"},
+      {"currency": "EUR/GBP", "rate": "0.84831", "timestamp": "1494621900103"},
+      {"currency": "USD/CHF", "rate": "1.00133", "timestamp": "1494621899461"}
+    ],
+    "metadata": {"count": 59},
+    "actions": [{
+      "type": "table",
+      "columns": {
+        "currency": "Valuta",
+        "rate": "Quota"
+      }
+    }]
+  }]
+}
+```
+
+The client then should create a table out of the data object where the column names are 'Valuta' and 'Quota', i.e. like this html table:
+
+```
+<table>
+<tr><th>Valuta</th><th>Quota</th></tr>
+<tr><td>EUR/USD</td><td>1.09302</td></tr>
+<tr><td>USD/JPY</td><td>113.326</td></tr>
+<tr><td>GBP/USD</td><td>1.28835</td></tr>
+<tr><td>EUR/GBP</td><td>0.84831</td></tr>
+<tr><td>USD/CHF</td><td>1.00133</td></tr>
+</table>
+```
+Different clients may render such tables in a different way.
+
+Please be aware that a Susi answer may contain more than one action as answer.
+
+
+### Tutorial Level 13: Problem-Solving Dialog with Counter-Questions
+
+Using Susis variables and if rules can be used to create experts which are able to do a dialog to solve a problem.
+
+(to be continued)
+
+### Tutorial Level 14: Expert Systems with Backtracking
 
 Backtracking is the ability of a program to revert a already made setting and take an alternative option. If we consider this behaviour at different states of a computation, then this produces a tree-like parameter graph, which is called a decision tree. Susi's data structures are made in such a way, that result tables are an element of 'thinking'. Such result tables are 'bags' for backtracking options. We will learn how to use that principle to create loops which are useful for problem-solving.
 
 (to be implemented)
 
-### Tutorial Level 14: Expert Systems with first-order logic
-
-A first-order logic is expressed in terms of relations, represented as facts and rules. We already defined facts and rules using the methods as described above. Backtracking and unification is the computation model for such kind of expert systems. In this tutorial we will learn how to express a program flow using logic elements.
-
-(to be implemented)
-
 ### Tutorial Level 15: Skill Reflection
 
-We are able to set variable content and read them in skills. But we must also be able to read skills in the same way as we read variables. We should be able to answer on questions like 'we cannot solve this because there is no rule for that', or 'we have several rules, which one is preferred'. 
+We are able to set variable content and read them in skills. But we must also be able to read skills in the same way as we read variables. We should be able to answer questions like 'we cannot solve this because there is no rule for that', or 'we have several rules, which one is preferred'. 
 
 (to be implemented)
 
@@ -320,7 +414,7 @@ We are able to set variable content and read them in skills. But we must also be
 
 It is a core principle of intelligent systems to be able to learn and enhance themselves. We want to create skill rules which are able to create new skill rules.
 
-(to be implemened)
+(to be implemented)
 
 ### Tutorial Level 16: Inter-Susi Instance Dialog
 

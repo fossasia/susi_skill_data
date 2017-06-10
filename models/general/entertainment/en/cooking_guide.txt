@@ -1,8 +1,29 @@
 #Gives recipies and links to cook a dish
 * cook *
-!console:To cook  $title$ , check out $href$ and make sure you have $ingredients$!
+!console:To cook  $title$ , make sure you have $ingredients$ and check out $href$
 {
 "url":"http://www.recipepuppy.com/api/?q=$2$",
 "path":"$.results"
+}
+eol
+
+cook *|how to cook *|recipe for *
+!console:To cook  $title$ , check out $href$ and make sure you have $ingredients$!
+{
+"url":"http://www.recipepuppy.com/api/?q=$1$",
+"path":"$.results"
+}
+eol
+
+#Ex: recipe list for biryani
+recipe list for *
+!console:
+{
+"url":"http://www.recipepuppy.com/api/?q=$1$",
+"path":"$.results",
+"actions":[{
+"type":"table",
+"columns":{"title":"Recipe","ingredients":"Ingredients","href":"Instructions Link"}
+}]
 }
 eol

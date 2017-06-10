@@ -1,0 +1,9 @@
+#checks if a domain is a valid one for a mailing address or emailID
+
+validate email domain *|check email domain *|status of the email domain *
+!console:The domain $1$ is $object$
+{
+    "url":"https://api.mailtest.in/v1/$1$",
+    "path":"$.status"
+}
+eol

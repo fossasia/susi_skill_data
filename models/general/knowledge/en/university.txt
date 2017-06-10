@@ -1,0 +1,13 @@
+# Return a list of universities in a country
+
+universities in *
+!console:
+{
+"url":"http://universities.hipolabs.com/search?country=$1$",
+"path":"$",
+"actions":[{
+"type":"table",
+"columns":{"country" : "Country","name" : "Name", "web_page" : "Website"}
+}]
+}
+eol

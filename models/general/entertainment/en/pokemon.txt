@@ -1,0 +1,25 @@
+what is the ability of *|ability of *
+!console:$1$ has the ability of $name$
+{
+"url":"http://pokeapi.co/api/v2/pokemon/$1$",
+"path":"$.abilities[0].ability"
+}
+eol
+
+
+what type of pokemon is  *| * type
+!console:$1$ is of type $name$
+{
+"url":"http://pokeapi.co/api/v2/pokemon/$1$",
+ "path": "$.types[0].type"
+}
+eol
+
+what is the weight of * | * weight
+!console:$1$'s weight is $weight$
+{
+"url":"http://pokeapi.co/api/v2/pokemon/$1$",
+"path":"$"
+}
+eol
+
