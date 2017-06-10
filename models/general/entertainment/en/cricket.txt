@@ -1,0 +1,26 @@
+matches going on|current matches|score *
+!console:
+{
+    "url":"http://cricketapi.herokuapp.com/getMatches",
+    "path":"$",
+    "actions":[{
+        "type":"table",
+        "columns":{ "id":"id","mchdesc":"Description"}
+        }]
+}
+eol
+*
+!console:
+{
+    "url":"http://cricketapi.herokuapp.com/scorecard?matchId=$1$",
+    "path":"$.scorecard",
+    "actions":[{
+        "type":"table",
+        "columns":{
+            "batteam":"Batting team",
+            "runs":"Runs",
+            "wickets":"Wickets"
+            }
+        }]
+}
+eol
