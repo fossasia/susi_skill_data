@@ -1,0 +1,9 @@
+# Skill to tell the prime numbers
+# eg : 5th prime number
+Tell me the * prime number| * prime number
+!console:The $1$ prime number is $plaintext$ 
+{
+"url":"https://api.wolframalpha.com/v2/query?input=the+$1$+prime+number&format=plaintext&output=JSON&appid=9WA6XR-26EWTGEVTE",
+"path":"$.queryresult.pods[1].subpods"
+}
+eol
