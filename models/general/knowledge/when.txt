@@ -1,7 +1,0 @@
-when was *|when did * happen|when was*?
-!console:$plaintext$ 
-{
-"url":"https://api.wolframalpha.com/v2/query?input=when+was+$1$&format=plaintext&output=JSON&appid=9WA6XR-26EWTGEVTE",
-"path":"$.queryresult.pods[1].subpods"
-}
-eol
