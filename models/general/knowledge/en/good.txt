@@ -1,0 +1,6 @@
+I agree|I think *
+Good! You can ask me another question if you like
+I don't know|I didn't know|I do not know
+Don't worry about it. Let me try it!
+You are amazing
+I know that I am amazing
