@@ -1,0 +1,8 @@
+#Tells value of all scietific constants
+Value of *|What is value of *|* Value
+!console:Value of $1$ is $alt$
+{
+"url":"http://api.wolframalpha.com/v2/query?appid=9WA6XR-26EWTGEVTE&input=value+of+$1$&output=JSON",
+"path":"$.queryresult.pods[1].subpods[0].img"
+}
+eol
