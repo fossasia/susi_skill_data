@@ -1,0 +1,8 @@
+get random wallpapers
+!console:$url$
+{
+    "url":"https://api.desktoppr.co/1/users/keithpitt/wallpapers/random",
+    "path":"$.response.image"
+}
+eol
+
