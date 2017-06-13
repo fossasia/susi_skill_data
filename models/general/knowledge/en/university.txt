@@ -1,6 +1,6 @@
 # Return a list of universities in a country
 
-universities in *
+universities in *|tell me universties in * |do you know the universties in *|find universties in *| show universties in *| search for universties in *
 !console:
 {
 "url":"http://universities.hipolabs.com/search?country=$1$",
