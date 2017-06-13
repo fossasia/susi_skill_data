@@ -1,0 +1,12 @@
+# tell about the founder of famous tech companies
+founder of *| who is the founder of * ?|Name the founder of * ?| Who is the father of * ?|can you tell me who is the founder of * ?| * is founded by whom ?
+!console:
+{
+  "url":"http://awasthikamal97.pythonanywhere.com/get_founder?company=$1$",
+  "path":"$",
+  "actions":[{
+    "type":"table",
+    "columns":{"founder":"Founder","website":"Profile"}
+  }]
+}
+eol
