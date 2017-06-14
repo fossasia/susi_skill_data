@@ -1,6 +1,6 @@
 #Tells us about currency of country 
 
-Currency of *| What is currency of *| * Currency| tell me the Currency of *
+Currency of *| What is currency of *| * Currency|tell me the Currency of *|tell abou the currency of *| Name the currency of *| which currency is used in *|Do you know the currency of *|find the currency of *
 !console:Currency of $1$ is $object$ 
 {
 "url":"https://restcountries.eu/rest/v1/name/$1$?fullText=true",

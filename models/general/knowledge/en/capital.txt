@@ -1,5 +1,5 @@
 # Finds the capital of a country
-capital of *| what is the capital of *|capital *|tell me the capital of * 
+capital of *| what is the capital of *|capital *|tell me the capital of *|do you know the capital of *| search for the capital of *| find the capital of *| tell the capital of *| serach the capital of *|* capital
 !console:$plaintext$
 {
   "url": "https://api.wolframalpha.com/v2/query?input=what+is+the+capital+of+$1$&output=JSON&appid=9WA6XR-26EWTGEVTE&includepodid=Result",
