@@ -1,0 +1,7 @@
+images of *|picture of *|get me images on *|How does  * looks like|show me a picture of *|a picture of *|an image of *|show me a *|can you show me a *|
+!console:$webformatURL$
+{
+    "url":"https://pixabay.com/api/?key=1631539-db8210cabd2636c6df59812df&q=$1$&image_type=photo",
+    "path":"$.hits[2]"
+}
+eol
