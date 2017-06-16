@@ -1,6 +1,6 @@
 #Tells us about currency of country 
 
-Currency of *| What is currency of *| * Currency|tell me the Currency of *|tell abou the currency of *| Name the currency of *| which currency is used in *|Do you know the currency of *|find the currency of *
+Currency of *| What is currency of *| * Currency|tell me the Currency of *|tell about the currency of *| Name the currency of *| which currency is used in *|Do you know the currency of *|find the currency of *
 !console:Currency of $1$ is $object$ 
 {
 "url":"https://restcountries.eu/rest/v1/name/$1$?fullText=true",
@@ -10,7 +10,7 @@ eol
 
 #Tells us about time zone of different countries
 
-Time Zone of *|What is time zone of *| * Time zone|tell me the time zone of * 
+Time Zone of *|What is time zone of *| * Time zone|tell me the time zone of * | Do you know the time zone of *| tell the time zone of *| tell me time zone of *| DO you know time zone of *
 !console:Time zone of $1$ is $object$ 
 {
 "url":"https://restcountries.eu/rest/v1/name/$1$?fullText=true",
@@ -20,17 +20,7 @@ eol
 
 #Tells about area of countries 
 
-Area of *| What is area of *| * Area| What is the size of *| size of *
-!console:Area of $1$ is $object$  km^2
-{
-"url":"https://restcountries.eu/rest/v1/name/$1$?fullText=true",
-"path":"$.[0].area"
-}
-eol
-
-#Tells about area of countries 
-
-Area of *| What is area of *| * Area
+Area of *| What is area of *| * Area| What is the size of *| size of *| Do you know the area of *|tell me the area of *|tell the area of *|How much area is covered by *|
 !console:Area of $1$ is $object$  km^2
 {
 "url":"https://restcountries.eu/rest/v1/name/$1$?fullText=true",
