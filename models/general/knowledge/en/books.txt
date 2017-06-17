@@ -1,0 +1,8 @@
+#Returns the name of the book and link to read more
+what is this book * |is there any book called * ? | book * | is there a book called * ?
+!console:did you mean "$title$" ? Here is a link to read more:  $infoLink$
+{
+"url":"https://www.googleapis.com/books/v1/volumes?q=$1$&key=AIzaSyCt3Wop5gN3S5H0r1CKZlXIgaM908oVDls",
+"path":"$.items[0].volumeInfo"
+}
+eol
