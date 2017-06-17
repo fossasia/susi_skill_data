@@ -1,0 +1,15 @@
+borders with *|neighboring countries of *|countries sharing border with *|adjacent countries with * 
+!console:Countries sharing border with $1$ are $alt$
+{
+"url":"http://api.wolframalpha.com/v2/query?appid=9WA6XR-26EWTGEVTE&input=border%20with%20$1$&output=JSON",
+"path":"$.queryresult.pods[2].subpods[0].img"
+}
+eol
+
+what is the border length of *|full boundary length of *|what is the boundary length of * |boundary length of * 
+!console:Length of boundary of $1$ is $alt$
+{
+"url":"http://api.wolframalpha.com/v2/query?appid=9WA6XR-26EWTGEVTE&input=border%20with%20$1$&output=JSON",
+"path":"$.queryresult.pods[1].subpods[0].img"
+}
+eol
