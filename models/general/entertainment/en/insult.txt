@@ -1,0 +1,7 @@
+generate an insult
+!console: $object$
+{ 
+    "url": "http://quandyfactory.com/insult/json",  
+    "path" : "$.insult"
+}
+eol
