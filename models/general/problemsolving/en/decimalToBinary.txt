@@ -8,3 +8,10 @@ eol
 
 
 
+#The following code returns binary equivalent of a decimal number given by user
+
+convert * into decimal | decimal of *
+!javascript:Decimal for $1$ = $!$
+parseInt(+$1$,2);
+eol
+
