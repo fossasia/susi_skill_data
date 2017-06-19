@@ -1,4 +1,24 @@
+#BBC
+
+News|what's happening in world|Anything new?|
+!console:See this from BBC $url$
+{
+"url":"https://newsapi.org/v1/articles?source=bbc-news&sortBy=top&apiKey=f2a4d77f26054494ab4e013e36911712",
+"path":"$.articles"
+}
+eol
+
+What is the headline?|what's new today?|latest news|what are the latest news
+!console:$description$
+{
+"url":"https://newsapi.org/v1/articles?source=bbc-news&sortBy=top&apiKey=f2a4d77f26054494ab4e013e36911712",
+"path":"$.articles"
+}
+eol
+
+
 # Articles according to new york times
+
 
 most viewed articles in * today | most viewed articles today in * | can you tell me most viewed articles in * today | please tell me today's most viewed articles in * | do you know most viewed articles in * today | can you tell me today's most viewed articles in * 
 !console:
