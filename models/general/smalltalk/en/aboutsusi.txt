@@ -1,3 +1,9 @@
 what is your name ? | What's your name ? | Who are you ?| what should i call you ? | do you have a name 
 !example:what is your name?
 My name is Susi.
+
+
+what is your age? | what's your age ? | how long have you been around ? | how old are you ? 
+!javascript:I am live for $!$ year now
+(new Date()).getFullYear()-(new Date(2016, 1, 1)).getFullYear()
+eol
