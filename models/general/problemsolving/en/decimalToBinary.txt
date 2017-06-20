@@ -1,6 +1,6 @@
 #The following code returns binary equivalent of a decimal number given by user
 
-convert * into binary | binary of * | convert * to binary
+convert * into binary | binary of * | convert * to binary | convert * in binary
 !javascript:Binary for $1$ = $!$
 (+$1$).toString(2);
 eol
@@ -10,7 +10,7 @@ eol
 
 #The following code returns binary equivalent of a decimal number given by user
 
-convert * into decimal | decimal of *
+convert * into decimal | decimal of * | convert * in decimal
 !javascript:Decimal for $1$ = $!$
 parseInt(+$1$,2);
 eol
