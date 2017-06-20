@@ -1,4 +1,4 @@
-matches going on|current matches|score *
+matches going on|current matches|get me a list of matches going on| cricket matches
 !console:
 {
     "url":"http://cricketapi.herokuapp.com/getMatches",
@@ -9,7 +9,7 @@ matches going on|current matches|score *
         }]
 }
 eol
-*
+Score of match with id *| what is the score of id *
 !console:
 {
     "url":"http://cricketapi.herokuapp.com/scorecard?matchId=$1$",
