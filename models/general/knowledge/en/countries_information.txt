@@ -30,7 +30,7 @@ eol
 
 #Tells us about region of any country
 
-Region of *| What is Region of *|* Region
+* Region|Region of *|* Region|Region *|what is Region of *| what is the Region of *|Do you know Region of *|tell me Region of *|can you tell me Region of *|tell me the Region of *|can you tell me the Region of *|Region of the *
 !console:Region of $1$ is $object$
 {
 "url":"https://restcountries.eu/rest/v1/name/$1$?fullText=true",
@@ -40,7 +40,7 @@ eol
 
 #Tells calling codes of different countries
 
-Calling code of *|* Calling code
+Calling code of *|* Calling code|population of *|Calling code *|what is Calling code of *| what is the Calling code of *|Do you know Calling code of *|tell me Calling code of *|can you tell me Calling code of *|tell me the Calling code of *|can you tell me the Calling code of *|Calling code of the *
 !console:Calling code of $1$ is +$object$
 {
 "url":"https://restcountries.eu/rest/v1/name/$1$?fullText=true",
@@ -49,7 +49,7 @@ Calling code of *|* Calling code
 eol
 
 #Tells us about population of countries
-Population of *| Population *
+population of *| population *|what is population of *| what is the population of *|Do you know population of *|tell me population of *|can you tell me population of *|tell me the population of *|can you tell me the population of *|* population
 !console:$alt$
 {
 "url":"http://api.wolframalpha.com/v2/query?appid=9WA6XR-26EWTGEVTE&input=What+is+population+of+$1$&output=JSON",
