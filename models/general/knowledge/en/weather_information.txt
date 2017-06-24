@@ -2,7 +2,7 @@
 
 fahrenheit to celsius *
 !javascript:$!$
-($1$-32)/1.8
+(($1$-32)/1.8).toPrecision(4);
 eol
 
 temperature in *|what is temperature in *|what is the temperature in *|* temperature|Tell me about temperature in *
@@ -14,7 +14,7 @@ temperature in *|what is temperature in *|what is the temperature in *|* tempera
 eol
 
 temperature today|what is temperature today|what is the temperature today|how's the weather like today|how is the weather like today|temperature tomorrow|what is temperature tomorrow|what is the temperature tomorrow|how's the weather like tomorrow|how is the weather like tomorrow
-I am intelligent but I am not God try asking me with location.
+I am intelligent but I am not God. Try asking me with location.
 
 temperature today in *|what is temperature today in *|what is the temperature today in *|how's the weather like today in *|how is the weather like today in *
 !console:It is `fahrenheit to celsius $temp$` degree celcius in $1$
