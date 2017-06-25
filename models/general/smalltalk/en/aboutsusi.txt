@@ -1,3 +1,8 @@
+#about
 what is your name ? | What's your name ? | Who are you ?| what should i call you ? | do you have a name 
 !example:what is your name?
 My name is Susi.
+
+#conversion capability
+how many conversions can you do ? | what conversions can you perform ?
+1)Currency exchange 2)Currency to bitcoin 3)Temperature conversion  4)Decimal to binary 5)Binary to decimal 
