@@ -9,7 +9,7 @@ matches going on|current matches|Do you know about matches going on?|Do you know
         }]
 }
 eol
-Score of match with id *| what is the score of id *
+score of match with id *| what is the score of id *|details of match with id *|match with id *|pull stats of match with id *|score of *|
 !console:
 {
     "url":"http://cricketapi.herokuapp.com/scorecard?matchId=$1$",
