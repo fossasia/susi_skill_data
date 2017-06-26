@@ -1,5 +1,5 @@
 #for now just a sunsign entered by a user is reflected back. Later on we can go on storing sunsign in a variable and respond accordingly!
-daily horoscope for *
+daily horoscope for *|horoscope for *
 !console:$object$
 {
     "url":"http://horoscope-api.herokuapp.com/horoscope/today/$1$",

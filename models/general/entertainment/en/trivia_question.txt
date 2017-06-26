@@ -1,5 +1,5 @@
 # asks user a random question
-ask me a question | ask something | trivia
+ask me a question | ask something|trivia|question me
 !console:$object$
 {
 "url":"http://jservice.io/api/random",

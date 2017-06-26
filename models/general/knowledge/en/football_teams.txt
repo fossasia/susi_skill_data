@@ -1,0 +1,86 @@
+# give table for football teams and its players
+
+tell me the teams in premier leauge| Premier leauge teams
+!console:
+{
+  "url":"http://api.football-data.org/v1/competitions/398/teams",
+  "path":"$.teams",
+  "actions":[{
+    "type":"table",
+    "columns":{"name":"Name","code":"Code","shortName":"Short Name","crestUrl":Logo}
+  }]
+}
+eol
+
+
+give me details of Manchester United | Manchester United team players 
+!console:
+{
+  "url":"http://api.football-data.org/v1/teams/66/players",
+  "path":"$.players",
+  "actions":[{
+    "type":"table",
+    "columns":{"name":"Name","position":"Position","jerseyNumber":"Jersey Number","nationality":"Nationality"}
+  }]
+}
+eol
+
+give me details of Bayern Munich | Bayern Munich team players 
+!console:
+{
+  "url":"http://api.football-data.org/v1/teams/5/players",
+  "path":"$.players",
+  "actions":[{
+    "type":"table",
+    "columns":{"name":"Name","position":"Position","jerseyNumber":"Jersey Number","nationality":"Nationality"}
+  }]
+}
+eol
+give me details of Barcelona  | Barcelona team players 
+!console:
+{
+  "url":"http://api.football-data.org/v1/teams/81/players",
+  "path":"$.players",
+  "actions":[{
+    "type":"table",
+    "columns":{"name":"Name","position":"Position","jerseyNumber":"Jersey Number","nationality":"Nationality"}
+  }]
+}
+eol
+
+give details of Real Madrid | Real Madrid team players
+!console:
+{
+  "url":"http://api.football-data.org/v1/teams/86/players",
+  "path":"$.players",
+  "actions":[{
+    "type":"table",
+    "columns":{"name":"Name","position":"Position","jerseyNumber":"Jersey Number","nationality":"Nationality"}
+  }]
+}
+eol
+
+give details of Chelsea FC | Chelsea team players
+!console:
+{
+  "url":"http://api.football-data.org/v1/teams/72/players",
+  "path":"$.players",
+  "actions":[{
+    "type":"table",
+    "columns":{"name":"Name","position":"Position","jerseyNumber":"Jersey Number","nationality":"Nationality"}
+  }]
+}
+eol
+
+give details of Arsenal FC |Arsenal FC team players
+!console:
+{
+  "url":"http://api.football-data.org/v1/teams/563/players",
+  "path":"$.players",
+  "actions":[{
+    "type":"table",
+    "columns":{"name":"Name","position":"Position","jerseyNumber":"Jersey Number","nationality":"Nationality"}
+  }]
+}
+eol
+
