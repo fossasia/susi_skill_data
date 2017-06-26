@@ -1,9 +1,0 @@
-convert hex * into decimal |decimal of hex *|convert hexadecimal * into decimal|decimal of hex *|decimal of hexadecimal *
-!javascript:Decimal for HEX $1$ = $!$
-parseInt(+$1$,16);
-eol
-
-convert * into hex |hex of * |decimal * to hex|hexadecimal of *|* in hex|* in hexadecimal|* to hex|hexadecimal of decimal *
-!javascript:HEX for $1$ = $!$
-(+$1$).toString(16);
-eol
