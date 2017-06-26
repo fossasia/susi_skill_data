@@ -1,2 +1,2 @@
-flip a coin
+flip a coin|Toss a coin
 heads|tails
