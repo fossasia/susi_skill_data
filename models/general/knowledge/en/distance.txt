@@ -1,6 +1,6 @@
 # Return distance between two destinations
 
-distance between * and *
+distance between * and *|What is distance between * and * ?|What is the distance between * and * ?| What is distance between * and *|do you know distance between * and *?|do you know the distance between * and *|Tell me the distance between * and *?|Tell me distance between * and *?|can you tell me the distance between * and *?|can you tell me distance between * and *?
 !console: $1$ is $plaintext$ away from $2$
 { 
     "url": "https://api.wolframalpha.com/v2/query?input=distance+between+$1$+and+$2$&output=JSON&appid=9WA6XR-26EWTGEVTE&includepodid=Result",  
