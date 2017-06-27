@@ -1,7 +1,7 @@
 # tells a poem of given author
 # example: give me a poem by Emily
 # example: 	give me a poem by Shakespeare
-give me a poem by *|tell me a poem by *
+give me a poem by *|tell me a poem by *| tell a poem| poem| poem by *| random poem| poem for * | start a poem| recite a poem | poem of * | poem about * | poem on * | recite poem on * | poem * | susi start a poem | search for poem | search for poem by * | Shakespeare poem * | Poetry on * | Poetry by * | Poetry for * | search for Poetry | search for Poetry by | Poetry please | give me a Poetry by * | start Poetry | Sonnet | Poetry | sonnet * | kavita |rhythmical literary piece | Poetry random | random Poetry | search for a Poetry | susi, Poetry | Poetry for kids | Poetry for children | Poetry of * | Poetry please | 
 !console:The poem is $title$ by $author$. $lines$
 {
     "url":"http://poetrydb.org/author/$1$",
