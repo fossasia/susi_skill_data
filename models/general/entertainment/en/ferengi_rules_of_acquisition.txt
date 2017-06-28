@@ -1,7 +1,7 @@
 What is rule * of the Ferengi Rules Of Acquisition|What is rule * of the Ferengi Rules Of Acquisition?|Rule * of the Ferengi Rules Of Acquisition|*th rule of the Ferengi Rules Of Acquisition|Rule * of Ferengi Rules Of Acquisition|*th rule of Ferengi Rules Of Acquisition|*th rule of the Ferengi Rules Of Acquisition
 !console: Rule $1$ is "$object$"
 {
-    "url":"https://gist.githubusercontent.com/jyoth1raditya/df3915d9c65123e21ea345065ba3481b/raw/ab2ac45e05744e230ff860a05bb391da2ff9bd5c/ferengi.json",
+    "url":"http://ferengi.surge.sh/rules.json",
     "path":"$.$1$"
 }
 eol
