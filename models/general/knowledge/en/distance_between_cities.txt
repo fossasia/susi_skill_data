@@ -1,4 +1,5 @@
-distance between * and *|What is distance between * and * ?| What is distance between * and * 
+distance between * and *|What is distance between * and * ?| What is distance between * and *
+!example:distance between india and singapore
 !console:$text$
 {
     "url":"https://maps.googleapis.com/maps/api/distancematrix/json?units=imperial&origins=$1$&destinations=$2$&key=AIzaSyDAOBW-obxLzFkbKpPSRE4NpLRhnv_Scqg",

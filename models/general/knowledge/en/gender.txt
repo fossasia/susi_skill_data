@@ -1,6 +1,7 @@
 #returns gender of a person from his/her first name
 
 I am *|My name is *
+!example:My name is Susi
 !console:Hi $1$. You are $object$, I guess? 
 {
 

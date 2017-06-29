@@ -1,5 +1,6 @@
-# Return a list of universities in a country
+# Return list of tweets
 tweets about *| tweet *| 5 tweets about *|Latest tweets about *|Give me tweets about *| Tell me tweets about *| what are latest tweets about *| what are the latest tweets about *| Can you give me tweets about *| I want tweets about *| * tweets about *| * in tweets | * in twitter | I need tweets about * 
+!example:Latest tweets about artificial intelligence
 !console:
     {"url":"http://api.loklak.org/api/search.json?q=$1$&source=cache&count=5",
     "path":"$.statuses",
@@ -13,6 +14,7 @@ eol
 
 #Retrun tweets only from a user
 tweets from *| 5 tweets from *|Latest tweets from *|Give me tweets from *| Tell me tweets from *| what are latest tweets from *| what are the latest tweets from *| Can you give me tweets from *| I want tweets from*| I need tweets from * 
+!example:I need tweets from asksusi
 !console:
     {"url":"http://api.loklak.org/api/search.json?q=from:$1$&source=cache&count=5",
     "path":"$.statuses",
@@ -25,6 +27,7 @@ eol
 
 #Retrun tweets having a user mentioned in any tweets
 tweets having *| 5 tweets with *|Latest tweets having *|Give me tweets having *| Tell me tweets having *| what are latest tweets having *| what are the latest tweets having *| Can you give me tweets having *| I want tweets having*| I need tweets having * | tweets with username * in twitter | * in twitter | * in tweets
+!example:tweets with username asksusi in twitter
 !console:
     {"url":"http://api.loklak.org/api/search.json?q=@$1$&source=cache&count=5",
     "path":"$.statuses",

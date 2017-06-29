@@ -1,6 +1,7 @@
 #BBC
 
 News|what's happening in world|Anything new?|
+!example:News
 !console:See this from BBC $url$
 {
 "url":"https://newsapi.org/v1/articles?source=bbc-news&sortBy=top&apiKey=f2a4d77f26054494ab4e013e36911712",
@@ -9,6 +10,7 @@ News|what's happening in world|Anything new?|
 eol
 
 What is the headline?|what's new today?|latest news|what are the latest news
+!example:latest news
 !console:$description$
 {
 "url":"https://newsapi.org/v1/articles?source=bbc-news&sortBy=top&apiKey=f2a4d77f26054494ab4e013e36911712",
@@ -20,7 +22,8 @@ eol
 # Articles according to new york times
 
 
-most viewed articles in * today | most viewed articles today in * | can you tell me most viewed articles in * today | please tell me today's most viewed articles in * | do you know most viewed articles in * today | can you tell me today's most viewed articles in * 
+most viewed articles in * today | most viewed articles today in * | can you tell me most viewed articles in * today | please tell me today's most viewed articles in * | do you know most viewed articles in * today | can you tell me today's most viewed articles in *
+!example:most viewed articles in science today
 !console:
 {
 "url":"https://api.nytimes.com/svc/mostpopular/v2/mostviewed/$1$/1.json?api-key=418422c826c4460a8909bad0978a3e0a",
@@ -33,6 +36,7 @@ most viewed articles in * today | most viewed articles today in * | can you tell
 eol 
 
 most viewed articles in * in the last week | most viewed articles in the last week in * | can you tell me most viewed articles in * in the last week | please tell me most viewed articles in * in the last week | do you know most viewed articles in * in the last week | can you tell me last week's most viewed articles in *
+!example:most viewed articles in science in the last week
 !console:
 {
 "url":"https://api.nytimes.com/svc/mostpopular/v2/mostviewed/$1$/7.json?api-key=418422c826c4460a8909bad0978a3e0a",
@@ -45,6 +49,7 @@ most viewed articles in * in the last week | most viewed articles in the last we
 eol 
 
 most viewed articles in * in the last month | most viewed articles in the last month in * | can you tell me most viewed articles in * in the last month | please tell me most viewed articles in * in the last month | do you know most viewed articles in * in the last month | can you tell me last month's most viewed articles in *
+!example:most viewed articles in science in the last month
 !console:
 {
 "url":"https://api.nytimes.com/svc/mostpopular/v2/mostviewed/$1$/30.json?api-key=418422c826c4460a8909bad0978a3e0a",
@@ -58,6 +63,7 @@ eol
 
 
 most shared articles in * today | most shared articles today in * | can you tell me most shared articles in * today | please tell me today's most shared articles in * | do you know most shared articles in * today | can you tell me today's most shared articles in * 
+!example:most shared articles in science today
 !console:
 {
 "url":"https://api.nytimes.com/svc/mostpopular/v2/mostshared/$1$/1.json?api-key=418422c826c4460a8909bad0978a3e0a",
@@ -70,6 +76,7 @@ most shared articles in * today | most shared articles today in * | can you tell
 eol 
  
 most shared articles in * in the last week | most shared articles in the last week in * | can you tell me most shared articles in * in the last week | please tell me most shared articles in * in the last week | do you know most shared articles in * in the last week | can you tell me last week's most shared articles in *
+!example:can you tell me last week's most shared articles in science
 !console:
 {
 "url":"https://api.nytimes.com/svc/mostpopular/v2/mostshared/$1$/7.json?api-key=418422c826c4460a8909bad0978a3e0a",
@@ -82,6 +89,7 @@ most shared articles in * in the last week | most shared articles in the last we
 eol 
  
 most shared articles in * in the last month | most shared articles in the last month in * | can you tell me most shared articles in * in the last month | please tell me most shared articles in * in the last month | do you know most shared articles in * in the last month | can you tell me last month's most shared articles in *
+!example:do you know most shared articles in arts in the last month
 !console:
 {
 "url":"https://api.nytimes.com/svc/mostpopular/v2/mostshared/$1$/30.json?api-key=418422c826c4460a8909bad0978a3e0a",
@@ -95,6 +103,7 @@ eol
 
 
 most emailed articles in * today | most emailed articles today in * | can you tell me most emailed articles in * today | please tell me today's most emailed articles in * | do you know most emailed articles in * today | can you tell me today's most emailed articles in * 
+!example:most emailed articles today in arts
 !console:
 {
 "url":"https://api.nytimes.com/svc/mostpopular/v2/mostemailed/$1$/1.json?api-key=418422c826c4460a8909bad0978a3e0a",
@@ -107,6 +116,7 @@ most emailed articles in * today | most emailed articles today in * | can you te
 eol 
  
 most emailed articles in * in the last week | most emailed articles in the last week in * | can you tell me most emailed articles in * in the last week | please tell me most emailed articles in * in the last week | do you know most emailed articles in * in the last week | can you tell me last week's most emailed articles in *
+!example:most emailed articles in science in the last week
 !console:
 {
 "url":"https://api.nytimes.com/svc/mostpopular/v2/mostemailed/$1$/7.json?api-key=418422c826c4460a8909bad0978a3e0a",
@@ -119,6 +129,7 @@ most emailed articles in * in the last week | most emailed articles in the last 
 eol 
  
 most emailed articles in * in the last month | most emailed articles in the last month in * | can you tell me most emailed articles in * in the last month | please tell me most emailed articles in * in the last month | do you know most emailed articles in * in the last month | can you tell me last month's most emailed articles in *
+!example:can you tell me most emailed articles in science in the last month
 !console:
 {
 "url":"https://api.nytimes.com/svc/mostpopular/v2/mostemailed/$1$/30.json?api-key=418422c826c4460a8909bad0978a3e0a",
@@ -131,6 +142,7 @@ most emailed articles in * in the last month | most emailed articles in the last
 eol
 
 articles in *
+!example:articles in science
 !console:
 {
 "url":"https://api.nytimes.com/svc/mostpopular/v2/mostviewed/arts/1.json?api-key=418422c826c4460a8909bad0978a3e0a",
@@ -143,6 +155,7 @@ articles in *
 eol 
 
 most viewed articles | can you tell me most viewed articles | please tell me most viewed articles | tell me most viewed articles susi | show me articles | articles please
+!example:show me articles
 !console:
 {
 "url":"https://api.nytimes.com/svc/mostpopular/v2/mostviewed/all-sections/1.json?api-key=418422c826c4460a8909bad0978a3e0a",
@@ -156,6 +169,7 @@ eol
 
 
 most emailed articles | can you tell me most emailed articles | please tell me most emailed articles | tell me most emailed articles susi
+!example:most emailed articles
 !console:
 {
 "url":"https://api.nytimes.com/svc/mostpopular/v2/mostemailed/all-sections/1.json?api-key=418422c826c4460a8909bad0978a3e0a",
@@ -169,6 +183,7 @@ eol
 
 
 most shared articles | can you tell me most shared articles | please tell me most shared articles | tell me most shared articles susi
+!example:most shared articles
 !console:
 {
 "url":"https://api.nytimes.com/svc/mostpopular/v2/mostshared/all-sections/1.json?api-key=418422c826c4460a8909bad0978a3e0a",
