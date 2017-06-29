@@ -25,3 +25,13 @@ convert * into hex |hex of * |decimal * to hex|hexadecimal of *|* in hex|* in he
 !javascript:HEX for $1$ = $!$
 (+$1$).toString(16);
 eol
+
+convert octal * into decimal |decimal of octal *|convert octal * to decimal|octal * to decimal|octal * into decimal|
+!javascript:Decimal for octal $1$ = $!$
+parseInt(+$1$,8);
+eol
+
+convert * into octal|octal of * |decimal * to octal|+convert * to octal|* to octal|* into octal|* in base8|* into base 8|convert * into base8|convert * in base8|convert * to base8
+!javascript:octal for $1$ = $!$
+(+$1$).toString(8);
+eol
