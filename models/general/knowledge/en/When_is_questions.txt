@@ -1,0 +1,8 @@
+#Tells us about when is any specific event e.g When is christmas? 
+When is *|tell me when is *| do you know when is *| Could you please tell me when is *| please find when is *| find when is *| search when is *
+!console:$alt$
+{
+"url":"http://api.wolframalpha.com/v2/query?appid=9WA6XR-26EWTGEVTE&input=when+is+$1$&output=JSON",
+"path":"$.queryresult.pods[1].subpods[0].img"
+}
+eol

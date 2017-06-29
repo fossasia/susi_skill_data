@@ -41,11 +41,11 @@ In you dream test zone (the etherpad) write:
 roses are red
 susi is a hack
 ```
-This defines one simple Skill: to answer on "roses are red" the phrase "susi is a hack". The other lines mean:
+This defines one simple intent: to answer on "roses are red" the phrase "susi is a hack". The other lines mean:
 * all lines starting with `#` are comment lines and are ignored.
 * all other text lines define Skills. Skills are separated by empty lines. Comment and section declaration modifiers also count as empty lines and separate Skills.
 
-Now you can test the new Skill:
+Now you can test the new intent:
 * send the following query to Susi: "roses are red"
 * Susi will answer with "susi is a hack".
 The Skill file is just a text file where two lines which are not separated by an empty line represent a conversation pattern.
@@ -61,7 +61,7 @@ With that file, Susi would respond on "roses are red" the answer "susi is a hack
 
 ### Tutorial Level 1: Random Answers
 Skills without a deterministic behavior will create less predictable results.
-That can easily be defined with Skills. Lets consider you want a Skill where different answers
+That can easily be defined with intents. Lets consider you want a intent where different answers
 on "What is your favorite dish?" are "Potatoes", "Vegetables" or "Fish". That's easy: add an empty line
 to the end of your test file and then:
 ```
@@ -198,7 +198,7 @@ What is your favorite color?
 
 Here, the colour is randomly generated with the `function colour` call, but only if Susi has not done that yet. If Susi just generated a colour in the answer, that answer will be stored in the variable `_mycolour`. But if that variable already existed, it will be used to make the answer without the `function colour`.
 
-### Tutorial Level 10: Embed Javascript into a Skill
+### Tutorial Level 10: Embed Javascript into an intent
 
 If you are able to compute whatever you want to inside a rule, there are billions of possibilities of what you can do with Susi Skills.
 Embedding Javascript is extremely easy, for example:
@@ -212,7 +212,7 @@ eol
 
 What you see here is the bang-notion which always starts with a '!', followed by the script language name that is used, then followed
 with a ':' and then follows the return statement. The value of the script is represented with the $!$ variable object.
-This javascript skill catches everything up that the script produces: std-out, error-out a direct term computations, i.e.
+This javascript intent catches everything up that the script produces: std-out, error-out a direct term computations, i.e.
 
 ```
 compute * to the power of *
@@ -345,7 +345,7 @@ stock quotes
 eol
 ```
 
-This skill provides a table with the Spanish words "Valuta" and "Quota" for the table with the columns "currency" and "rate".
+This intent provides a table with the Spanish words "Valuta" and "Quota" for the table with the columns "currency" and "rate".
 The table is defined with the type "table" and a columns object which provides a mapping from the column value names to the
 visible descriptive names that shall be rendered in the client's output.
 
@@ -396,7 +396,7 @@ Please be aware that a Susi answer may contain more than one action as answer.
 
 Using Susis variables and if rules can be used to create experts which are able to do a dialog to solve a problem.
 
-(do be continued)
+(to be continued)
 
 ### Tutorial Level 14: Expert Systems with Backtracking
 
@@ -404,7 +404,7 @@ Backtracking is the ability of a program to revert a already made setting and ta
 
 (to be implemented)
 
-### Tutorial Level 15: Skill Reflection
+### Tutorial Level 15: Intent Reflection
 
 We are able to set variable content and read them in skills. But we must also be able to read skills in the same way as we read variables. We should be able to answer questions like 'we cannot solve this because there is no rule for that', or 'we have several rules, which one is preferred'. 
 
@@ -412,13 +412,13 @@ We are able to set variable content and read them in skills. But we must also be
 
 ### Tutorial Level 15: Skills which create Skills
 
-It is a core principle of intelligent systems to be able to learn and enhance themselves. We want to create skill rules which are able to create new skill rules.
+It is a core principle of intelligent systems to be able to learn and enhance themselves. We want to create intents which are able to create new intents.
 
 (to be implemented)
 
 ### Tutorial Level 16: Inter-Susi Instance Dialog
 
-Susi runs in user instances: every chat user of a Susi instance is an individual instance. Instances may be customized i.e. if the user calls Susi to dream with a test skill set. Therefore different Susi instances behave differently. It should be possible that two different Susi instances have different 'opinions' and that two instances start a dialog with each other to find a consensus.
+Susi runs in user instances: every chat user of a Susi instance is an individual instance. Instances may be customized i.e. if the user calls Susi to dream with a test skill. Therefore different Susi instances behave differently. It should be possible that two different Susi instances have different 'opinions' and that two instances start a dialog with each other to find a consensus.
 We will learn here how to connect those instances to each other so they can talk.
 
 (to be implemented)

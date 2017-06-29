@@ -1,0 +1,8 @@
+#Tells us about number of days left for specific event e-g days left in christmas
+Days left in *|How many days are left in *|How far is *
+!console:$alt$
+{
+"url":"http://api.wolframalpha.com/v2/query?appid=9WA6XR-26EWTGEVTE&input=when+is+$1$&output=JSON",
+"path":"$.queryresult.pods[3].subpods[0].img"
+}
+eol

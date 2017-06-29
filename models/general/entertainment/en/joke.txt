@@ -1,4 +1,4 @@
-tell me a joke|recite me a joke|entertain me
+tell me a joke|recite me a joke|entertain me|make me laugh
 !console:$joke$
 {
     "url":"http://api.icndb.com/jokes/random?escape=javascript",
