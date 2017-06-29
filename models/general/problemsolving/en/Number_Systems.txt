@@ -12,7 +12,7 @@ convert binary * into decimal | decimal of binary * | convert binary * in decima
 parseInt(+$1$,2);
 eol
 
-#The following code returns decimal equivalent of a binary number given by user
+#The following code returns decimal equivalent of a hex number given by user
 
 convert hex * into decimal |decimal of hex *|convert hexadecimal * into decimal|decimal of hex *|decimal of hexadecimal *|hex * in decimal|hex * to decimal|hexadecimal * in decimal|hexadecimal * to decimal|convert hex * into base-10 number system| convert hexadecimal * into base-10 number system|convert hex * into base-10 number|convert hexadecimal * into base-10 number
 !javascript:Decimal for HEX $1$ = $!$
@@ -26,10 +26,14 @@ convert * into hex |hex of * |decimal * to hex|hexadecimal of *|* in hex|* in he
 (+$1$).toString(16);
 eol
 
+#The following code returns decimal equivalent of a octal number given by user
+
 convert octal * into decimal |decimal of octal *|convert octal * to decimal|octal * to decimal|octal * into decimal|
 !javascript:Decimal for octal $1$ = $!$
 parseInt(+$1$,8);
 eol
+
+#The following code returns octal equivalent of a decimal number given by user
 
 convert * into octal|octal of * |decimal * to octal|+convert * to octal|* to octal|* into octal|* in base8|* into base 8|convert * into base8|convert * in base8|convert * to base8
 !javascript:octal for $1$ = $!$
