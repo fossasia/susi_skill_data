@@ -1,5 +1,6 @@
 # generates a random GIF
 random gif
+!example:random gif
 !console:$url$
 {
  "url": "http://api.giphy.com/v1/gifs/trending?api_key=dc6zaTOxFJmzC",

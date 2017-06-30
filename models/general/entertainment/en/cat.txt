@@ -1,6 +1,7 @@
 # tells fun fact about cats
 
-tell me a cat fact | tell something intresting about cat | Do you know any amazing cat fact | give me a cat fact | do you know any cat fact | tell me facts about cat | Do you know anything amazing about cats | cats fact | tell me fun trivia about cat| fun trivia about cat | cat fun trivia | What is so special about cats?| tell me awesome fact about cats| tell me awesome cat facts| awesome cat facts| awesome cats fact| cat facts | intresting cat facts | tell me about cats
+tell me a cat fact | tell something interesting about cat | Do you know any amazing cat fact | give me a cat fact | do you know any cat fact | tell me facts about cat | Do you know anything amazing about cats | cats fact | tell me fun trivia about cat| fun trivia about cat | cat fun trivia | What is so special about cats?| tell me awesome fact about cats| tell me awesome cat facts| awesome cat facts| awesome cats fact| cat facts | intresting cat facts | tell me about cats
+!example:tell something interesting about cat
 !console:$object$
      {
         "url" : "http://catfacts-api.appspot.com/api/facts",

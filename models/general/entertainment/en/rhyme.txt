@@ -1,4 +1,5 @@
 word rhyming with *|rhyming word with *|words rhyming with *|rhyming words with *
+!example:word rhyming with apple
 !console:$object$
 {
     "url":"https://api.datamuse.com/words?rel_rhy=$1$",

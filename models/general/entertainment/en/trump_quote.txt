@@ -1,4 +1,5 @@
 trump|donald trump|quote by donald trump|trump quote
+!example:quote by donald trump
 !console:$object$
 {
     "url":"https://api.whatdoestrumpthink.com/api/v1/quotes/random",
