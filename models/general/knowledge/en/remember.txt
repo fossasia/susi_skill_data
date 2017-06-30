@@ -1,0 +1,5 @@
+remember that my * are * | remember that my * is * | remember that * is * | remember that * are *
+Okay, remembered!^$2$^>_$1$
+
+where are my * | where is my * | how is my * | how are my * | what is my * | what are my * | who is my * | who are my * | when is my * | what did i say about my * | what did i say about * | when are my *
+$_$1$$
