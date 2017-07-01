@@ -1,5 +1,7 @@
-remember that my * are * | remember that my * is * | remember that * is * | remember that * are *
+!example: remember that my wallet is on the table
+remember that my * are * | remember that my * is * | remember that * is * | remember that * are * | remember my * is * | remember * is * | remember * are * | remember my * are *
 Okay, remembered!^$2$^>_$1$
 
+!example: where is my wallet
 where are my * | where is my * | how is my * | how are my * | what is my * | what are my * | who is my * | who are my * | when is my * | what did i say about my * | what did i say about * | when are my *
 $_$1$$
