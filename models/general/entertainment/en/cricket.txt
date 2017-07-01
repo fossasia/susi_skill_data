@@ -1,6 +1,6 @@
 matches going on|current matches|Do you know about matches going on?|Do you know cricket matches going on?|Tell me about matches going on?|Tell me about current cricket matches|Do you know about matches going on|Do you know cricket matches going on|is there any cricket match today?|what are the cricket matches going on?|is there any cricket match today|what are the cricket matches going on|find current matches into play|any cricket match to know about?|what is going on in the world of cricket?|
-!console:
 !example:Do you know cricket matches going on?
+!console:
 {
     "url":"http://cricketapi.herokuapp.com/getMatches",
     "path":"$",

@@ -1,7 +1,7 @@
 #Gives recipies and links to cook a dish
 * cook *
-!console:To cook  $title$ , make sure you have $ingredients$ and check out $href$
 !example:how cook biryani
+!console:To cook  $title$ , make sure you have $ingredients$ and check out $href$
 {
 "url":"http://www.recipepuppy.com/api/?q=$2$",
 "path":"$.results"
@@ -19,8 +19,8 @@ eol
 
 #Ex: recipe list for biryani
 recipe list for *
-!console:
 !example:recipe list for biryani
+!console:
 {
 "url":"http://www.recipepuppy.com/api/?q=$1$",
 "path":"$.results",
