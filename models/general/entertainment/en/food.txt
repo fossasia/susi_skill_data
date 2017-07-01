@@ -1,0 +1,33 @@
+places 
+!console:you should think of $name$.
+{ 
+    "url":"https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=$_lat$,$_lng$&radius=500&types=restaurant&key=AIzaSyDX8_2dE6nk8asrG3enOOUh4HjVZPlxifQ", 
+    "path":"$.results[1]"
+    }]
+} 
+eol
+
+latitude *
+!console:$lat$
+{ 
+    "url":"http://maps.google.com/maps/api/geocode/json?address=$1$,%20Punjab&sensor=false", 
+    "path":"$.results[0].geometry.location" 
+} 
+eol
+
+longitude *
+!console:$lng$
+{ 
+    "url":"http://maps.google.com/maps/api/geocode/json?address=$1$,%20Punjab&sensor=false", 
+    "path":"$.results[0].geometry.location" 
+} 
+eol
+
+restaurant in *|restaurants in *|Tell me about nearby restaurant in *|nearby restaurant in *|Is there any restaurant in *|Can you tell me any restaurant in *|tell me any restaurant in *|suggest me any restaurant in *|suggest me restaurant in * 
+^`latitude $1$`^>_lat  ^`longitude $1$`^>_lng `places`
+
+restaurant nearby?|is there any restaurant nearby|tell me any restaurant nearby|tell me nearby restaurant |tell me restaurant nearby|do you know any restaurant nearby?|do you know any restaurant |do you know any restaurants nearby|do you know any resturants|restaurants nearby?|is there any restaurants nearby|tell me any restaurants nearby|tell me nearby restaurants |tell me restaurants nearby
+Try searching with location it will give you accurate results.
+
+What should I eat today|what should I eat|what should I eat|what can I eat today
+You should eat chocolate right now|you should think of having full meal at this time|you can eat almonds and nuts| you should eat food with high proteins| you should go for your favourite dish
