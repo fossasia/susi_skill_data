@@ -1,5 +1,6 @@
 #Ex: search user spartacus in mixcloud
 * user * in mixcloud
+!example:search user spartacus in mixcloud
 !console:For $2$'s user profile - $object$
 {
 "url":"https://api.mixcloud.com/$2$/",
@@ -9,6 +10,7 @@ eol
 
 #Ex: list mixcloud shows from athens
 * mixcloud shows from *
+!example:list mixcloud shows from athens
 !console:For shows from $2$ - $object$
 {
 "url":"https://api.mixcloud.com/discover/city:$2$/",
@@ -18,6 +20,7 @@ eol
 
 #Ex: play any funk genre from mixcloud
 play any * genre from mixcloud|play any * shows from mixcloud|play *|* music
+!example:play any funk genre from mixcloud
 !console:For $1$ shows - $object$
 {
 "url":"https://api.mixcloud.com/discover/$1$/",
@@ -27,6 +30,7 @@ eol
 
 #Ex: play any pop genre from london from mixcloud
 play any * genre from * from mixcloud|play any * shows from * from mixcloud
+!example:play any pop genre from london from mixcloud
 !console:For $1$ shows from $2$ - $object$
 {
 "url":"https://api.mixcloud.com/discover/$1$+city:$2$/",

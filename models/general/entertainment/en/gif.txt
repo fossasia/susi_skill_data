@@ -1,4 +1,5 @@
 gif *|image of *|image of a *|gif of a *|gif of *|picture of *|picture of a *
+!example:image of bird
 !console:$embed_url$
 {
 "url":"http://api.giphy.com/v1/gifs/search?q=$1$&api_key=dc6zaTOxFJmzC",

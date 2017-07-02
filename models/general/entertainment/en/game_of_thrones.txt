@@ -2,6 +2,7 @@
 
 #Ex: who plays tyrion lannister in game of thrones
 in game of thrones who played *|who plays * in game of thrones
+!example:who plays tyrion lannister in game of thrones
 !console:$object$ plays $1$ in game of thrones
 {
 "url":"http://www.anapioficeandfire.com/api/characters?name=$1$",
@@ -11,6 +12,7 @@ eol
 
 #Ex: who is jon snow in game of thrones
 who is * in game of thrones|title of * in game of thrones
+!example:who is jon snow in game of thrones
 !console:$1$ is $object$ in game of thrones
 {
 "url":"http://www.anapioficeandfire.com/api/characters?name=$1$",
@@ -20,6 +22,7 @@ eol
 
 #Ex: alias for jon snow in game of thrones
 in game of thrones * is also known as|alias for * in game of thrones
+!example:alias for jon snow in game of thrones
 !console:$1$ is also known as $object$ in game of thrones
 {
 "url":"http://www.anapioficeandfire.com/api/characters?name=$1$",
@@ -29,6 +32,7 @@ eol
 
 #Ex: coat of arms of House Arryn of the Eyrie
 coat of arms of *
+!example:coat of arms of House Arryn of the Eyrie
 !console:$object$
 {
 "url":"http://www.anapioficeandfire.com/api/houses?name=$1$",
