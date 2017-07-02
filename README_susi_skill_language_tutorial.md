@@ -422,3 +422,16 @@ Susi runs in user instances: every chat user of a Susi instance is an individual
 We will learn here how to connect those instances to each other so they can talk.
 
 (to be implemented)
+
+#### Adding Example to a Skill
+
+Every skill can be given an example query using the bang-notion which always starts with a '!' followed by 'example:' and then the example query for the skill :
+
+```
+what is your name ? | What's your name ? | Who are you ?| what should i call you ? | do you have a name 
+!example:what is your name?
+My name is Susi.
+```
+
+Adding examples for each skill gives us an overview of what Susi can do.
+We can look at all example queries at http://api.susi.ai/cms/getExampleSkill.json
