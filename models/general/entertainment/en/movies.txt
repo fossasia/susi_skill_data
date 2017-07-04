@@ -1,6 +1,7 @@
 #api.themoviedb.org
 
 Show me a popular movie
+!example:Show me a popular movie
 !console:$original_title$ - $overview$
 {
 "url":"https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=7c8618ff3d5fd73e6601c1d5e1ef3f33",
@@ -10,6 +11,7 @@ eol
 
 #example:Provide me details of movie Martian
 * movie *
+!example:Provide me details of movie Martian
 !console:$original_title$ - $overview$  Release date:$release_date$
 {
 "url":"https://api.themoviedb.org/3/search/movie?api_key=7c8618ff3d5fd73e6601c1d5e1ef3f33&query=$2$",

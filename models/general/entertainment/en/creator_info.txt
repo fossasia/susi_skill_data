@@ -1,5 +1,7 @@
- Who made you?|Who created you?
- FOSSASIA|That's a secret|you should know that already
+Who made you?|Who created you?
+!example:Who created you?
+FOSSASIA|That's a secret|you should know that already
  
- what is fossasia?|Tell me about Fossasia|I don't know about Fossasia
- An Open Source Community,you should check them out http://fossasia.org/
+what is fossasia?|Tell me about Fossasia|I don't know about Fossasia
+!example:what is fossasia?
+An Open Source Community,you should check them out http://fossasia.org/

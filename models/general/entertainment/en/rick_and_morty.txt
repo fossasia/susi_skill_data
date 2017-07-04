@@ -1,4 +1,5 @@
 Rick and morty jokes|Rick and morty quotes|Rick & morty jokes|Rick & morty quotes|Rick quotes|Rick*|Morty*|*Rick and morty*|*Rick & morty*
+!example:Rick and morty jokes
 !console:Rick from parallel universe says, "$object$"
 {
     "url":"http://rickandmortyquotes.eu-central-1.elasticbeanstalk.com/",

@@ -387,7 +387,25 @@ The client then should create a table out of the data object where the column na
 <tr><td>USD/CHF</td><td>1.00133</td></tr>
 </table>
 ```
-Different clients may render such tables in a different way.
+
+Now let us say that if a skill developer wants only top 5 rows to be displayed at a time (as at times, APIs send large number JSONArray
+encoded responses.). For that we have an attribute "length" in table action type. Now if you want only top n rows should be displayed, 
+then modify the skill accordingly : 
+
+```
+...
+  "actions":[{
+    "type":"table",
+    "columns":{"currency":"Valuta","rate":"Quota"},
+    "length":"n"
+  }]
+}
+eol
+
+```
+This will send first n elements of the JSONArray it is parsing.
+
+Different clients may render tables in a different way.
 
 Please be aware that a Susi answer may contain more than one action as answer.
 
@@ -422,3 +440,16 @@ Susi runs in user instances: every chat user of a Susi instance is an individual
 We will learn here how to connect those instances to each other so they can talk.
 
 (to be implemented)
+
+#### Adding Example to a Skill
+
+Every skill can be given an example query using the bang-notion which always starts with a '!' followed by 'example:' and then the example query for the skill :
+
+```
+what is your name ? | What's your name ? | Who are you ?| what should i call you ? | do you have a name 
+!example:what is your name?
+My name is Susi.
+```
+
+Adding examples for each skill gives us an overview of what Susi can do.
+We can look at all example queries at http://api.susi.ai/cms/getExampleSkill.json

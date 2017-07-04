@@ -1,5 +1,6 @@
 #Gives rating for tv shows
 * rating for *|* rating of *
+!example:give rating of suits
 !console:$2$ is rated $average$
 {
 "url":"http://api.tvmaze.com/singlesearch/shows?q=$2$",
@@ -8,6 +9,7 @@
 eol
 
 * plot of *|* summary of *
+!example:give plot of suits
 !console:$object$
 {
 "url":"http://api.tvmaze.com/singlesearch/shows?q=$2$",

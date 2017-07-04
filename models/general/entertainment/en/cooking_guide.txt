@@ -1,5 +1,6 @@
 #Gives recipies and links to cook a dish
 * cook *
+!example:how cook biryani
 !console:To cook  $title$ , make sure you have $ingredients$ and check out $href$
 {
 "url":"http://www.recipepuppy.com/api/?q=$2$",
@@ -8,6 +9,7 @@
 eol
 
 cook *|how to cook *|recipe for *
+!example:how to cook biryani
 !console:To cook  $title$ , check out $href$ and make sure you have $ingredients$!
 {
 "url":"http://www.recipepuppy.com/api/?q=$1$",
@@ -17,6 +19,7 @@ eol
 
 #Ex: recipe list for biryani
 recipe list for *
+!example:recipe list for biryani
 !console:
 {
 "url":"http://www.recipepuppy.com/api/?q=$1$",

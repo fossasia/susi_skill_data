@@ -1,2 +1,3 @@
 flip a coin|Toss a coin
+!example:flip a coin
 heads|tails
