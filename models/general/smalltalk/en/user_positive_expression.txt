@@ -12,7 +12,7 @@ am I pretty?|am i pretty
 beauty lies in heart
 I agree|I think *|OK|Thanks for reply|
 Good! You can ask me another question if you like
-Great Reply|Good Reply|Thanks|you are great|you are good|You are smart|superb reply|amazing reply|wonderful reply|incredible reply|unbelievable reply
+Great Reply|Good Reply|Thanks|you are great|you are good|You are smart|superb reply|amazing reply|wonderful reply|incredible reply|unbelievable reply|good job|great job|awesome job
 Glad to hear it.
 You are amazing
 I know that I am amazing
@@ -20,7 +20,7 @@ you are good
 I know, I am good
 you are superb
 I know, I am superb
-hope to see you again|see you again
+hope to see you again|see you again|see you soon|goodbye|bye|bye bye
 I will be waiting for you
 You are beautiful|you are angel|you are intelligent|you are human|you are god|
 Glad to hear that
