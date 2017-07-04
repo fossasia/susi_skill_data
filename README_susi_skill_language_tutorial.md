@@ -387,7 +387,25 @@ The client then should create a table out of the data object where the column na
 <tr><td>USD/CHF</td><td>1.00133</td></tr>
 </table>
 ```
-Different clients may render such tables in a different way.
+
+Now let us say that if a skill developer wants only top 5 rows to be displayed at a time (as at times, APIs send large number JSONArray
+encoded responses.). For that we have an attribute "length" in table action type. Now if you want only top n rows should be displayed, 
+then modify the skill accordingly : 
+
+```
+...
+  "actions":[{
+    "type":"table",
+    "columns":{"currency":"Valuta","rate":"Quota"},
+    "length":"n"
+  }]
+}
+eol
+
+```
+This will send first n elements of the JSONArray it is parsing.
+
+Different clients may render tables in a different way.
 
 Please be aware that a Susi answer may contain more than one action as answer.
 
