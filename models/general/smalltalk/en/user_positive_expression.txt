@@ -1,10 +1,15 @@
 I agree|I think *|OK|Thanks for reply|
+!example: I agree
 Good! You can ask me another question if you like
 Great Reply|Good Reply|Thanks|you are great|you are good|You are smart
+!example: Great Reply
 Glad to hear it.
 You are amazing
+!example: You are amazing
 I know that I am amazing
 you are good
+!example: you are good
 I know, I am good
 hope to see you again|see you again
+!example: see you again
 I will be waiting for you
