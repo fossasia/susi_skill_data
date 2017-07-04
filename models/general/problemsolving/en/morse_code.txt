@@ -1,5 +1,6 @@
 # gives morse code for a given expression
 morse code for *
+!example: morse code for apple
 !console:$plaintext$
 { 
     "url": "https://api.wolframalpha.com/v2/query?input=morse+code+for+$1$&format=plaintext&output=JSON&appid=9WA6XR-26EWTGEVTE",  

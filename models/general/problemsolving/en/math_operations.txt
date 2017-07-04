@@ -1,4 +1,5 @@
 Tell me the cos of *
+!example : Tell me the cos of 70
 !console:$object$
 {
 "url":"https://newton.now.sh/cos/$1$",
@@ -7,6 +8,7 @@ Tell me the cos of *
 eol
 
 simplify * | simplification of *
+!example : simplify 10 - 5 + 5*9
 !console:$object$
 {
 "url":"https://newton.now.sh/simplify/$1$",
@@ -15,6 +17,7 @@ simplify * | simplification of *
 eol
 
 factorization of * | factors of *
+!example : factorization of x^2 - 5x
 !console:$object$
 {
 "url":"https://newton.now.sh/factor/$1$",
@@ -23,6 +26,7 @@ factorization of * | factors of *
 eol
 
 The zeroes of equation *
+!example : The zeroes of equation x^2 - 4
 !console:$object$
 {
 "url":"https://newton.now.sh/zeroes/$1$",
@@ -31,6 +35,7 @@ The zeroes of equation *
 eol
 
 Tell me the tan of *
+!example : Tell me the tan of 45
 !console:$object$
 {
 "url":"https://newton.now.sh/tan/$1$",
@@ -39,6 +44,7 @@ Tell me the tan of *
 eol
 
 Tell me the inverse cos of *
+!example : Tell me the inverse cos of 0.3
 !console:$object$
 {
 "url":"https://newton.now.sh/arccos/$1$",
@@ -47,6 +53,7 @@ Tell me the inverse cos of *
 eol
 
 Tell me the inverse tan of *
+!example : Tell me the inverse tan of 34
 !console:$object$
 {
 "url":"https://newton.now.sh/arctan/$1$",
@@ -55,6 +62,7 @@ Tell me the inverse tan of *
 eol
 
 Tell me the inverse sine of *
+!example : Tell me the inverse sine of 0.7
 !console:$object$
 {
 "url":"https://newton.now.sh/arcsin/$1$",
@@ -63,6 +71,7 @@ Tell me the inverse sine of *
 eol
 
 Tell me the sine of *
+!example : Tell me the sine of 80
 !console:$object$
 {
 "url":"https://newton.now.sh/sin/$1$",
@@ -71,6 +80,7 @@ Tell me the sine of *
 eol
 
 Tell me the absolute of *
+!example : Tell me the absolute of -19
 !console:$object$
 {
 "url":"https://newton.now.sh/abs/$1$",
@@ -79,6 +89,7 @@ Tell me the absolute of *
 eol
 
 Tell me the log of *
+!example : Tell me the log of 5
 !console:$object$
 {
 "url":"https://newton.now.sh/log/$1$",
