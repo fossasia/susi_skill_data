@@ -1,6 +1,6 @@
 # Return distance between two destinations
 
-distance between * and *
+distance between * and *|What is distance between * and * ?|What is the distance between * and * ?| What is distance between * and *|do you know distance between * and *?|do you know the distance between * and *|Tell me the distance between * and *?|Tell me distance between * and *?|can you tell me the distance between * and *?|can you tell me distance between * and *?
 !example:distance between india and singapore
 !console: $1$ is $plaintext$ away from $2$
 { 

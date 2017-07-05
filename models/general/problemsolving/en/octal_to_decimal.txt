@@ -1,9 +1,0 @@
-+convert octal * into decimal |decimal of octal *|convert octal * to decimal|octal * to decimal|octal * into decimal
- +!javascript:Decimal for octal $1$ = $!$
- +parseInt(+$1$,8);
- +eol
- +
- +convert * into octal|octal of * |decimal * to octal|+convert * to octal|* to octal|* into octal
- +!javascript:octal for $1$ = $!$
- +(+$1$).toString(8);
- +eol
