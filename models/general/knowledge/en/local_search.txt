@@ -1,0 +1,13 @@
+find * in * | locate * in *
+!console:
+{
+  "url":"http://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20local.search%20where%20query=%22$1$%22%20and%20location=%22%20$2$%22&format=json",
+  "path":"$.query.results.Result",
+  "actions":[{
+    "type":"table",
+    "columns":{"Title":"Title","Address":"Address","Phone":"Phone"}
+  }]
+}
+eol
+
+
