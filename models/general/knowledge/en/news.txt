@@ -179,3 +179,32 @@ most shared articles | can you tell me most shared articles | please tell me mos
 }]
 }
 eol 
+
+
+tech news
+!console:
+{
+"url":"https://newsapi.org/v1/articles?source=techcrunch&language=en&category=technology&apiKey=f2a4d77f26054494ab4e013e36911712",
+"path":"$.articles",
+"actions":[{
+"type":"table",
+"columns":{"title":"Title","url" : "URL"}
+}]
+}
+eol
+
+Hacker news
+!console:
+{
+"url":"https://newsapi.org/v1/articles?source=techcrunch&language=en&category=technology&apiKey=f2a4d77f26054494ab4e013e36911712",
+"path":"$.articles",
+"actions":[{
+"type":"table",
+"columns":{"title":"Title","url" : "URL"}
+}]
+}
+eol
+
+
+
+
