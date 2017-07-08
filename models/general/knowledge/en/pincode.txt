@@ -8,11 +8,11 @@ city with pincode *
 eol
 
 # Returns the long lat values based on zipcode and country
-tell the longitude and latitude in * with pincode *
-!example:tell the longitude and latitude in India with pincode 160019 
+tell the longitude and latitude in * with pincode *|do you know the longitude and latitude in * with pincode *|find the longitude and latitude in * with pincode *|Search the longitude and latitude in * with pincode *|What is the longitude and latitude in * with pincode *|tell the longitude and latitude in * having pincode *|do you know the longitude and latitude in * having pincode *|find the longitude and latitude in * having pincode *|Search the longitude and latitude in * having pincode *|What is the longitude and latitude in * having pincode *
+!example:tell the longitude and latitude in India having pincode 160019 
 !console:Latitude:$latitude$ and Longitude:$longitude$
 {
-"url":"http://query.yahooapis.com/v1/public/yql?q=select%20centroid%20from%20geo.places%20where%20text%3D%22$1$%2C%20$2$%22&format=json",
+"url":"http://query.yahooapis.com/v1/public/yql?q=select%20centroid%20from%20geo.places%20where%20text%3D%22$2$%2C%20$1$%22&format=json",
 "path":"$.query.results.place.centroid"
 }
 eol
