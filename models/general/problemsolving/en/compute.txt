@@ -1,6 +1,7 @@
 # Computes an expression
 
 compute *| Compute *| Calculate *| calculate *
+!example: compute 7+12
 !console:$plaintext$
 { 
     "url": "https://api.wolframalpha.com/v2/query?input=describe+$1$&output=JSON&appid=9WA6XR-26EWTGEVTE",  
