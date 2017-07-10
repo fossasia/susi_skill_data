@@ -181,7 +181,8 @@ most shared articles | can you tell me most shared articles | please tell me mos
 eol 
 
 
-tech news
+tech news|technology news|tell me tech news|please tell me tech news|today's tech news|whats happening today in tech world?|whats happening today in tech world|whats on tech news|whats on tech news?|whats on technology|whats on technology news?|tell me tech news|please tell me technology news| * tech news *|news in tech word| tell me the news in tech world|* tech news
+!example:tell me news in tech world
 !console:
 {
 "url":"https://newsapi.org/v1/articles?source=techcrunch&language=en&category=technology&apiKey=f2a4d77f26054494ab4e013e36911712",
@@ -193,10 +194,10 @@ tech news
 }
 eol
 
-Hacker news
-!console:
+Hacker news|tell me hacker news|please tell me hacker news|could you tell me hacker news|can you tell me hacker news|whats are todays hacker news|* hacker news| * hacker news *|y combinator hacker news|yc hacker news|* haker news
+!console:tell me hacker news 
 {
-"url":"https://newsapi.org/v1/articles?source=techcrunch&language=en&category=technology&apiKey=f2a4d77f26054494ab4e013e36911712",
+"url":"https://newsapi.org/v1/articles?source=hacker-news&language=en&category=technology&apiKey=f2a4d77f26054494ab4e013e36911712",
 "path":"$.articles",
 "actions":[{
 "type":"table",
