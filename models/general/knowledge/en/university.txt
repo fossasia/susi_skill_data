@@ -7,7 +7,7 @@ universities in *|tell me universties in * |do you know the universties in *|fin
 "path":"$",
 "actions":[{
 "type":"table",
-"columns":{"country" : "Country","name" : "Name", "web_page" : "Website"}
+"columns":{"name" : "Name”, “country" : "Country", "web_page" : "Website"}
 }]
 }
 eol
