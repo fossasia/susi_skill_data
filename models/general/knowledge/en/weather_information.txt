@@ -98,7 +98,7 @@ what is sunrise time in *|Sunrise time in *|sunrise in *|sun rise in *|Tell me a
 }
 eol
 
-Is it hot?|I am feeling very hot here|it is very hot today|It is very hot tomorrow|It was very hot yesterday|it is very hot||it is hot|It is hot outside|It is hot inside|Is it hot outside|is it hot inside
+Is it hot?|I am feeling very hot here|it is very hot today|It is very hot tomorrow|It was very hot yesterday|it is very hot|it is hot|It is hot outside|It is hot inside|Is it hot outside|is it hot inside
 I can't feel it in here but did you try using fan? It will help you. 
 
 Is it cold?|I am feeling very cold here|it is very cold today|It is very cold tomorrow|It was very cold yesterday|it is very cold|it is cold|It is cold outside|it is cold inside|is it cold inside|is it cold outside
