@@ -1,5 +1,6 @@
 #currently most of the currencies are converted to USD. Looking for a method to convert them to any currency. If a user enters wrong code, tell them all the codes along #with country name
 convert * to USD
+!description: SUSI Skill for converting a currency to USD
 !console: $USD$
 {
     "url":"http://api.fixer.io/latest?base=$1$",

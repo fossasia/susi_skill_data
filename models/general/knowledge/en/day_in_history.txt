@@ -3,6 +3,7 @@
 
 #example: What happened on 2/14
 What happened on *
+!description: Gives answers related History e.g who was born, who died etc.
 !console:Year-$year$ - $text$ 
 {
 "url":"http://history.muffinlabs.com/date/$1$",
