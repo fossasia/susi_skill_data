@@ -1,5 +1,6 @@
 #returns derivative of expression
 derivative *|differentiation of *
+!description : Ask for derivative of simple Mathematical functions
 !example: derivative x
 !console:Derivative $1$ is $object$ 
 {
@@ -13,6 +14,7 @@ eol
 
 #returns integral of expression
 integrate *|integration of *
+!description : Ask for integration of simple Mathematical functions
 !example: integrate x
 !console:Integration $1$ is $object$ 
 {

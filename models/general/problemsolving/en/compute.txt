@@ -1,6 +1,7 @@
 # Computes an expression
 
 compute *| Compute *| Calculate *| calculate *
+!description : Get Computations done with ease
 !example: compute 7+12
 !console:$plaintext$
 { 
