@@ -1,6 +1,7 @@
 #Ex: who won f1 season 2016
 who won f1 season *
 !example:who won f1 season 2016
+!description: Intrested in F1 racing, get all the details and race summaries of f1.
 !console:$familyName$ won the f1 season $1$
 {
 "url":"http://ergast.com/api/f1/$1$/driverStandings.json",
