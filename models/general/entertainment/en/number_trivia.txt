@@ -1,6 +1,7 @@
 #
 * math triva|math triva|* number fact|number fact|mathematics|* math
 !example:number fact
+!description: Play with numbers, get to know amzing fun facts about numbers
 !console:$object$
 {
     "url":"http://numbersapi.com/random/math?json",

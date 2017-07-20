@@ -2,6 +2,7 @@
 
 Show me a popular movie
 !example:Show me a popular movie
+!description: Get information about a movie or a TV series that you are interested in. You will be able to get the rating, plot and details of your favourite movie.
 !console:$original_title$ - $overview$
 {
 "url":"https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=7c8618ff3d5fd73e6601c1d5e1ef3f33",
