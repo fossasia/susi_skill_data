@@ -1,3 +1,4 @@
 flip a coin|Toss a coin
 !example:flip a coin
+!description: Ask SUSI to flip a coin for you
 heads|tails
