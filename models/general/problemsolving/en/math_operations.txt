@@ -1,4 +1,5 @@
 Tell me the cos of *
+!description : Get cosine (cos) values
 !example : Tell me the cos of 70
 !console:$object$
 {
@@ -8,6 +9,7 @@ Tell me the cos of *
 eol
 
 simplify * | simplification of *
+!description : Simplified values of mathematical expressions
 !example : simplify 10 - 5 + 5*9
 !console:$object$
 {
@@ -17,6 +19,7 @@ simplify * | simplification of *
 eol
 
 factorization of * | factors of *
+!description : Gives factors of an equation
 !example : factorization of x^2 - 5x
 !console:$object$
 {
@@ -26,6 +29,7 @@ factorization of * | factors of *
 eol
 
 The zeroes of equation *
+!description : Gives out zeros of an equation
 !example : The zeroes of equation x^2 - 4
 !console:$object$
 {
@@ -35,6 +39,7 @@ The zeroes of equation *
 eol
 
 Tell me the tan of *
+!description : Get tangent (tan) values
 !example : Tell me the tan of 45
 !console:$object$
 {
@@ -44,6 +49,7 @@ Tell me the tan of *
 eol
 
 Tell me the inverse cos of *
+!description : Tells value of inverse cosine
 !example : Tell me the inverse cos of 0.3
 !console:$object$
 {
@@ -53,6 +59,7 @@ Tell me the inverse cos of *
 eol
 
 Tell me the inverse tan of *
+!description : Tells value of inverse tangent
 !example : Tell me the inverse tan of 34
 !console:$object$
 {
@@ -62,6 +69,7 @@ Tell me the inverse tan of *
 eol
 
 Tell me the inverse sine of *
+!description : Tells value of inverse sine
 !example : Tell me the inverse sine of 0.7
 !console:$object$
 {
@@ -71,6 +79,7 @@ Tell me the inverse sine of *
 eol
 
 Tell me the sine of *
+!description : Get sine (sin) values
 !example : Tell me the sine of 80
 !console:$object$
 {
@@ -80,6 +89,7 @@ Tell me the sine of *
 eol
 
 Tell me the absolute of *
+!description : answers absolute (mod) value of a number
 !example : Tell me the absolute of -19
 !console:$object$
 {
@@ -89,6 +99,7 @@ Tell me the absolute of *
 eol
 
 Tell me the log of *
+!description : Get logarithmic (log) values
 !example : Tell me the log of 5
 !console:$object$
 {
