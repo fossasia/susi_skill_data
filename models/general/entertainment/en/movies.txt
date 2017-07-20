@@ -1,7 +1,7 @@
-#api.themoviedb.org
+	#api.themoviedb.org
 
-Show me a popular movie
-!example:Show me a popular movie
+Show me a popular movie | Name a popular movie | I want to know a famous movie | * popular movie | * famous movie | * nice movie 
+!example:Name a popular movie
 !console:$original_title$ - $overview$
 {
 "url":"https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=7c8618ff3d5fd73e6601c1d5e1ef3f33",
