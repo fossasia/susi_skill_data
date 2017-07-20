@@ -1,5 +1,6 @@
 what is the ability of *|ability of *
 !example:what is the ability of pikachu
+!description: Get the details of your favourite pokemon, ask about it's type, weight and ablities.
 !console:$1$ has the ability of $name$
 {
 "url":"http://pokeapi.co/api/v2/pokemon/$1$",
