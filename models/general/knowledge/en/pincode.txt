@@ -1,5 +1,6 @@
 # In first parameter you pass the pincode of a city.
 city with pincode *
+!description:Postal code lookup skill
 !console:Name of place is $adminName3$
 {
 "url":"http://api.geonames.org/postalCodeLookupJSON?postalcode=$1$&username=demo",

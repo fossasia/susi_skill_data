@@ -1,6 +1,7 @@
 #BBC
 
 News|what's happening in world|Anything new?|
+!description: SUSI Skill for giving news. 
 !console:See this from BBC $url$
 {
 "url":"https://newsapi.org/v1/articles?source=bbc-news&sortBy=top&apiKey=f2a4d77f26054494ab4e013e36911712",

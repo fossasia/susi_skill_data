@@ -1,6 +1,7 @@
 #Tells us about height of different places and buildings
 
 What is height of *|height of *|* height 
+!description: SUSI Skill for general knowledge.
 !console:$alt$
 {
 "url":"http://api.wolframalpha.com/v2/query?appid=9WA6XR-26EWTGEVTE&input=What+is+height+of+$1$&output=JSON",

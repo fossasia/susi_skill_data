@@ -2,6 +2,7 @@
 
 #returns name
 Whose github username is *|Who is * on github | Name of github user * | What is the name of * on Github | Name of * on Github | Real name of * on Github | Tell me name of the github user *
+!description: gives information about a username on github
 !console:$1$ is github username of $object$
 {
 
