@@ -1,5 +1,5 @@
-# gives morse code for a given expression
 morse code for *
+!description : Gives morse code for a given expression
 !example: morse code for apple
 !console:$plaintext$
 { 
