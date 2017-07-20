@@ -1,6 +1,7 @@
 # give table for football teams and its players
 
 tell me the teams in premier leauge| Premier leauge teams
+!description: SUSI Skills for football teams and its players
 !console:
 {
   "url":"http://api.football-data.org/v1/competitions/398/teams",
