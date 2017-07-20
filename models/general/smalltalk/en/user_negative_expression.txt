@@ -1,3 +1,4 @@
+!description : Handles negative comments from users				
 I don't *|not *|no|do not *| you are a thief |
 Sad :(
 Bad Reply|Poor Reply|What|you are bad|you are waste|You are  unsatisfactory| you are faulty | you are amateurish | not up to scratch | not up to par | seconds class
