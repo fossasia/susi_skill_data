@@ -1,6 +1,7 @@
 # Whois Information for a domain
 
 whois *
+!description: Skill for Whois Information for a domain
 !console:$plaintext$
 { 
     "url": "https://api.wolframalpha.com/v2/query?input=whois+$1$&output=JSON&appid=9WA6XR-26EWTGEVTE",  
