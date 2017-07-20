@@ -1,5 +1,6 @@
 # Returns the name of the president of a country
 president of *|who is the president of *| president *
+!description: SUSI Skill for name of the president of a country
 !console:$plaintext$
 {
   "url": "https://api.wolframalpha.com/v2/query?input=president+$1$&output=JSON&appid=9WA6XR-26EWTGEVTE&includepodid=Result",

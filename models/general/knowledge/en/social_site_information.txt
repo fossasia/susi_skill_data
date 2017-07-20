@@ -1,5 +1,6 @@
 #Tells us about social shares of any specific service e.g social shares of 9gag 
 Social shares of * 
+!description: Tells us about social shares of any specific service e.g social shares of 9gag 
 !console:Total shares of $1$ across all social platforms are $object$
 {
 "url":"https://count.donreach.com/?url=http://$1$.com/&providers=all",
