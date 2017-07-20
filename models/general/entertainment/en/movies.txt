@@ -28,7 +28,7 @@ rating of * series | series * rated at | what is the rating of * series | rate *
 }
 eol
 
-rating of * movie | movie * rated at | what is the rating of * movie | rate * movie | rate * movie please | * movie rating | please tell me rating of * movie | please tell me movie * rated at | please tell me what is the rating of * movie | please rate * movie | rate * movie please | please tell me * movie rating | tell me rating of * movie | tell me movie * rated at | tell me what is the rating of * movie | tell me * movie rating | can you tell me rating of * movie | can you tell me movie * rated at | can you tell me what is the rating of * movie | can you tell me * movie rating | * rating of * movie
+rating of * movie | movie * rated at | what is the rating of * movie | rate * movie | rate * movie please | * movie rating | please tell me rating of * movie | please tell me movie * rated at | please tell me what is the rating of * movie | please rate * movie | rate * movie please | please tell me * movie rating | tell me rating of * movie | tell me movie * rated at | tell me what is the rating of * movie | tell me * movie rating | can you tell me rating of * movie | can you tell me movie * rated at | can you tell me what is the rating of * movie | can you tell me * movie rating | rating of * movie
 !example: what is the rating of rush hour movie
 !console: $vote_average$
 {
