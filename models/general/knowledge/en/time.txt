@@ -1,4 +1,5 @@
 current time | What time is it | What time it is|What is the time|tell me the time |can you tell me the time|tell the time|What's the time|time now|Could you tell me the time| I don't know what time it is| Please tell the time
+!description: SUSI Skill for knowing current time
 !console:It is $plaintext$ 
 {
 "url":"https://api.wolframalpha.com/v2/query?input=what+time+is+it&format=plaintext&output=JSON&appid=9WA6XR-26EWTGEVTE",
