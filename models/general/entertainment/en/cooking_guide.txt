@@ -1,6 +1,7 @@
 #Gives recipies and links to cook a dish
 
 !example:how to cook biryani
+!description:Feeling hungry, don't know how to cook, ask susi to help you out.
 * cook * | * recipie of * | * make * | * prepare *
 !console:To cook  $title$ , make sure you have $ingredients$ and check out $href$
 {
@@ -11,6 +12,7 @@ eol
 
 cook *|how to cook *|recipe for *
 !example:how to cook biryani
+!descriptions: Confused? Susi will tell the recipe and ingredients you need.
 !console:To cook  $title$ , check out $href$ and make sure you have $ingredients$!
 {
 "url":"http://www.recipepuppy.com/api/?q=$1$",
@@ -21,6 +23,7 @@ eol
 #Ex: recipe list for biryani
 recipe list for *
 !example:recipe list for biryani
+!description: Gives the recipe list for a dish.
 !console:
 {
 "url":"http://www.recipepuppy.com/api/?q=$1$",
