@@ -1,0 +1,7 @@
+# skill returns the language of the user. This shall be used to identify problems with language ranking
+
+what is my language|my language
+your language is $language$
+
+was ist meine sprache|meine sprache
+deine sprache ist $language$
