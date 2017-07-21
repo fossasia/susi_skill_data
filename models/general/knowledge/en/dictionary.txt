@@ -1,6 +1,6 @@
 #words with a meaning similar to tree
 define *| Meaning of *| one word for *
-!description: gives words with a meaning similar to another word in spelling, in sound, in rhyme etc.
+!description: Gives words with a meaning similar to another word in spelling, in sound, in rhyme etc.
 !console: $word$
 {
 "url":"https://api.datamuse.com/words?ml=$1$",

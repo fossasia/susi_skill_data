@@ -1,6 +1,6 @@
 # searches wikipedia for a given query
 wiki *| wiki for *| search wiki for *|* wiki|give me wiki results for *| tell me what wiki has to say on *| search wikipedia for *|show me wikipedia results on *| find * on wiki|what wiki says on *
-!description: searches wikipedia for a given query
+!description: Searches wikipedia for a given query
 !console:$object$
 {
 "url":"https://en.wikipedia.org/w/api.php?action=opensearch&search=$1$&limit=1&format=json",
