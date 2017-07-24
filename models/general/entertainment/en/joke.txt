@@ -1,4 +1,4 @@
-tell me a joke|recite me a joke|entertain me|make me laugh
+tell me a joke|recite me a joke|entertain me|make me laugh |tell me something funny|* funny| * joke 
 !example:tell me a joke
 !console:$joke$
 {
@@ -6,4 +6,3 @@ tell me a joke|recite me a joke|entertain me|make me laugh
     "path":"$.value"
 }
 eol
-
