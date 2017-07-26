@@ -2,6 +2,7 @@
 #Hardcoded the languages for now, will try to extend the extend to all languages without hardcoding
 #uses 3 letter language coding
 What is * in french|french for *|translate * in french|tell the translation of * in french 
+!image: https://upload.wikimedia.org/wikipedia/commons/7/7f/Green-talk-icon.png
 !example: What is hello in French
 !description: Translates a query to french
 !console:$text$

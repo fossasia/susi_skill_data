@@ -1,5 +1,5 @@
 # skill returns the language of the user. This shall be used to identify problems with language ranking
-
+!image: https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Pictograms-nps-accessibility-sign_language_interpretation-2.svg/256px-Pictograms-nps-accessibility-sign_language_interpretation-2.svg.png
 what is my language|my language
 your language is $language$
 
