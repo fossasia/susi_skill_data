@@ -1,5 +1,6 @@
 # Describes something
 describe *
+!image: https://lh3.googleusercontent.com/-M1zmwhdhU4I/WXmeOp0eaAI/AAAAAAAABFU/l6X5RNA3Hok1XwwI4BeqKanDSxO0yIrIQCLcBGAs/s1600/projection-screen.png
 !console:$plaintext$
 { 
     "url": "https://api.wolframalpha.com/v2/query?input=describe+$1$&output=JSON&appid=9WA6XR-26EWTGEVTE&includepodid=Result",  

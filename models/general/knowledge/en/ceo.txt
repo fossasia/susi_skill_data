@@ -1,5 +1,6 @@
 # Returns the name of the CEO of a company
 who is the ceo of *| ceo *| tell me the ceo of *| Who is the ceo of * ? | find the ceo of *|do you know the ceo of *|tell about the ceo of *|Name the ceo of *
+!image: https://lh3.googleusercontent.com/-SzezkOCKXx0/WXmalJu7a0I/AAAAAAAABEw/LKqVgUsKCmoLiLLQ8WzR8tz3Wi1gz-xuQCLcBGAs/s1600/chief-executive-officer-2.png
 !console:$plaintext$
 {
   "url": "https://api.wolframalpha.com/v2/query?input=ceo+$1$&output=JSON&appid=9WA6XR-26EWTGEVTE&includepodid=Result",

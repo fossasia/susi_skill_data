@@ -1,5 +1,6 @@
 #words with a meaning similar to tree
 define *| Meaning of *| one word for *
+!image: https://lh3.googleusercontent.com/-OFvymTdV3dk/WXmeQQEyzmI/AAAAAAAABFY/XMpi0WCHRTQMYTJgoVrfbjWyhrwn7ErNgCLcBGAs/s1600/dictionary.png
 !console: $word$
 {
 "url":"https://api.datamuse.com/words?ml=$1$",

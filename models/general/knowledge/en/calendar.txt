@@ -2,6 +2,7 @@
 
 #example: Date today? | Date yesterday | Date tomorrow ?
 Date * ?
+!image: https://lh3.googleusercontent.com/-rwaWPzkHHYo/WXmUorA4ESI/AAAAAAAABEM/AGTpWZYHPMYHGUbT3sBaLRq5IQ_sE6yrQCLcBGAs/s1600/calendar.png
 !console:$1$- $object$
 {
 "url":"http://calapi.inadiutorium.cz/api/v0/en/calendars/default/$1$",

@@ -3,6 +3,7 @@
 
 #example: What happened on 2/14
 What happened on *
+!image: https://lh3.googleusercontent.com/-_gH9EaZWW7E/WXmeJtDIfWI/AAAAAAAABFM/ngWBDTvJJD0GeSGzg3wzxWG_buNULpM1gCLcBGAs/s1600/professor-in-history-class-pointing-year-1874-on-whiteboard.png
 !console:Year-$year$ - $text$ 
 {
 "url":"http://history.muffinlabs.com/date/$1$",

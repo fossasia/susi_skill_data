@@ -1,4 +1,5 @@
 borders with *|neighboring countries of *|countries sharing border with *|adjacent countries with * 
+!image: https://lh3.googleusercontent.com/-txPowLRlfUA/WXmUK2FHIsI/AAAAAAAABEI/_27TiijLXFA0Oiy7rWVPmZwEAhScXf3ugCLcBGAs/s1600/fence.png
 !console:Countries sharing border with $1$ are $alt$
 {
 "url":"http://api.wolframalpha.com/v2/query?appid=9WA6XR-26EWTGEVTE&input=border%20with%20$1$&output=JSON",
