@@ -1,0 +1,5 @@
+!image: https://github.com/fossasia/susi_skill_data/blob/master/models/general/knowledge/en/description.png
+!example: get started
+!description: get started message shown in messenger bots
+get started
+I am a personal assistant built by open source community FOSSASIA.
