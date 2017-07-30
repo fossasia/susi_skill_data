@@ -1,4 +1,4 @@
-	#api.themoviedb.org
+#api.themoviedb.org
 
 Show me a popular movie | Name a popular movie | I want to know a famous movie | * popular movie | * famous movie | * nice movie | * best movie
 !example:Name a popular movie
