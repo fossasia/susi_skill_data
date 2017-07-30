@@ -3,3 +3,8 @@
 !description: get started message shown in messenger bots
 get started
 I am a personal assistant built by open source community FOSSASIA.
+
+!example: start chatting
+!description: start chatting message reply, shown in messenger bots
+start chatting
+Ask me anything like temperature at a place or distance between two countries or any other thing which you would like to ask.
