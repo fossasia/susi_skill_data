@@ -1,6 +1,7 @@
 # give table for football teams and its players
 
 tell me the teams in premier leauge| Premier leauge teams
+!example:Premier leauge teams
 !console:
 {
   "url":"http://api.football-data.org/v1/competitions/398/teams",
@@ -14,6 +15,7 @@ eol
 
 
 give me details of Manchester United | Manchester United team players 
+!example:Manchester United team players
 !console:
 {
   "url":"http://api.football-data.org/v1/teams/66/players",
@@ -25,7 +27,8 @@ give me details of Manchester United | Manchester United team players
 }
 eol
 
-give me details of Bayern Munich | Bayern Munich team players 
+give me details of Bayern Munich | Bayern Munich team players
+!example:give me details of Bayern Munich
 !console:
 {
   "url":"http://api.football-data.org/v1/teams/5/players",
@@ -36,7 +39,9 @@ give me details of Bayern Munich | Bayern Munich team players
   }]
 }
 eol
-give me details of Barcelona  | Barcelona team players 
+
+give me details of Barcelona  | Barcelona team players
+!example:Barcelona team players
 !console:
 {
   "url":"http://api.football-data.org/v1/teams/81/players",
@@ -49,6 +54,7 @@ give me details of Barcelona  | Barcelona team players
 eol
 
 give details of Real Madrid | Real Madrid team players
+!example:Real Madrid team players
 !console:
 {
   "url":"http://api.football-data.org/v1/teams/86/players",
@@ -61,6 +67,7 @@ give details of Real Madrid | Real Madrid team players
 eol
 
 give details of Chelsea FC | Chelsea team players
+!example:give details of Chelsea FC
 !console:
 {
   "url":"http://api.football-data.org/v1/teams/72/players",
@@ -73,6 +80,7 @@ give details of Chelsea FC | Chelsea team players
 eol
 
 give details of Arsenal FC |Arsenal FC team players
+!example:give details of Arsenal FC
 !console:
 {
   "url":"http://api.football-data.org/v1/teams/563/players",

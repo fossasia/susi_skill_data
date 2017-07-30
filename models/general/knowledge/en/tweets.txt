@@ -11,7 +11,6 @@ tweets about *| tweet *| 5 tweets about *|Latest tweets about *|Give me tweets a
         }
 eol
 
-
 #Retrun tweets only from a user
 tweets from *| 5 tweets from *|Latest tweets from *|Give me tweets from *| Tell me tweets from *| what are latest tweets from *| what are the latest tweets from *| Can you give me tweets from *| I want tweets from*| I need tweets from * 
 !example: tweets from potus
@@ -27,6 +26,7 @@ eol
 
 #Retrun tweets having a user mentioned in any tweets
 tweets having *| 5 tweets with *|Latest tweets having *|Give me tweets having *| Tell me tweets having *| what are latest tweets having *| what are the latest tweets having *| Can you give me tweets having *| I want tweets having*| I need tweets having * | tweets with username * in twitter | * in twitter | * in tweets
+!example:tweets with username asksusi in twitter
 !console:
     {"url":"http://api.loklak.org/api/search.json?q=@$1$&source=cache&count=5",
     "path":"$.statuses",
@@ -36,8 +36,6 @@ tweets having *| 5 tweets with *|Latest tweets having *|Give me tweets having *|
         }]
         }
 eol
-<<<<<<< HEAD
-=======
 
 #Return a list of tweets about a term in a location
 tweets about * near *| tweet * near *| 5 tweets about * in *|Latest tweets about * in *|Give me tweets about * near *| Tell me tweets about * near *| what are latest tweets about * near *|  what are latest tweets about * in *| what are the latest tweets about * near *| Can you give me tweets about * near *| I want tweets about * near *| * tweets about * near *| * in tweets near *| * in twitter near * | I need tweets about * near *| hashtags about * near *| top hashtags on * near *| latest hashtags about * near *| latest hashtags on * near * 
@@ -64,4 +62,3 @@ tweets near *| tweet near *| 5 tweets in *|Latest tweets in *|Give me tweets nea
         }]
         }
 eol
->>>>>>> upstream/master
