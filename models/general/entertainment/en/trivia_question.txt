@@ -1,5 +1,6 @@
 # asks user a random question
 ask me a question | ask something|trivia|question me
+!example:question me
 !console:$object$
 {
 "url":"http://jservice.io/api/random",
@@ -10,6 +11,7 @@ eol
 # asks user a  question using https://opentdb.com
 
 ask me something | ask a question 
+!example:ask me something
 !console:$question$   ^$correct_answer$^>_answer
 {
 "url":"https://opentdb.com/api.php?amount=1",
