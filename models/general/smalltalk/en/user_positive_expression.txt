@@ -7,11 +7,10 @@ Glad! to hear that
 am I good?|am i good?|am I great|am I great?|am I best?|am I best|am I wonderful|am I wonderful?
 !example: am I good?
 I am last person to answer this question
-<<<<<<< HEAD
 am I happy?|am i happy | * you think i am happy
 !example: am i haapy
 I don't know, but you should be :)
-am I cool?|am i cool | do you think I am cool
+am I cool?|am i cool|I am cool|I'm cool| do you think I am cool
 !example: am i cool
 I guess so.
 am I pretty?|am i pretty | Do you think I am pretty| am I beautiful?|nobody thinks I am pretty| you think I am pretty| am I beautiful
@@ -23,19 +22,6 @@ am i sweet| am i good
 I think you are :) 
 I agree|I think *|OK|Thanks for reply
 !example: I agree
-=======
-am I happy?|am i haapy 
-!example: am i haapy
-You are happy, I guess
-am I cool?|am i cool|I am cool|I'm cool
-!example: am i cool
-You are cool, I guess
-am I pretty?|am i pretty
-!example: am i pretty
-beauty lies in heart
-I agree|I think *|OK|Thanks for reply|
-!example: I agree
->>>>>>> 717fd5dffa5b867179b572b30337b8234e18338a
 Good! You can ask me another question if you like
 Great Reply|Good Reply|Thanks|you are great|you are good|You are smart|superb reply|amazing reply|wonderful reply|incredible reply|unbelievable reply|good job|great job|awesome job
 !example: Great Reply
@@ -50,15 +36,8 @@ you are superb
 !example: you are superb
 I know, I am superb
 hope to see you again|see you again|see you soon|goodbye|bye|bye bye
-<<<<<<< HEAD
+!example: bye
 Yes, definitely. It was nice talking to you. 
 You are beautiful|you are angel|you are intelligent|you are human|you are god|
 !example: you are angel
 Glad to hear that :P
-=======
-!example: bye
-I will be waiting for you
-You are beautiful|you are angel|you are intelligent|you are human|you are god|
-!example: you are angel
-Glad to hear that
->>>>>>> 717fd5dffa5b867179b572b30337b8234e18338a
