@@ -1,8 +1,8 @@
 #History
 #http://history.muffinlabs.com/
 
-#example: What happened on 2/14
 What happened on *
+!example:What happened on 2/14
 !console:Year-$year$ - $text$ 
 {
 "url":"http://history.muffinlabs.com/date/$1$",
@@ -11,8 +11,8 @@ What happened on *
 eol
 
 
-#example: Who was born on 2/14
 Who was born on *
+!example:Who was born on 2/14
 !console:Year-$year$ - $text$ 
 {
 "url":"http://history.muffinlabs.com/date/$1$",
@@ -20,8 +20,8 @@ Who was born on *
 }
 eol
 
-#example: Who died on 2/14
 Who died on *
+!example:Who died on 2/14
 !console:Year-$year$ - $text$ 
 {
 "url":"http://history.muffinlabs.com/date/$1$",
