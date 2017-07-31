@@ -1,5 +1,6 @@
 #Gives rating for tv shows
 * rating for *|* rating of *
+!image: images/tvshows.png
 !example:give rating of suits
 !console:$2$ is rated $average$
 {
