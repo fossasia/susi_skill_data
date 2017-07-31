@@ -1,6 +1,7 @@
 #returns sentiment of an expression (either positive or negative)
 
 sentiment of *
+!example:sentiment of happy
 !description: SUSI Skill that returns sentiment of an expression (either positive or negative)
 !console:Expression is : $object$ (where P:Positive and N:Negative)
 {

@@ -1,5 +1,6 @@
 # In first parameter you pass the pincode of a city.
 city with pincode *
+!example:city with pincode EC2R 6AB
 !description:Postal code lookup skill
 !console:Name of place is $adminName3$
 {

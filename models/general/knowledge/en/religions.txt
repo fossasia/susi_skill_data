@@ -1,5 +1,6 @@
 #Tells us about percentages of religions in world and in countries 
 Percentage of religions in *| Religions in *
+!example:Religions in India
 !description: SUSI Skill about percentages of religions in world and in countries 
 !console:$alt$
 {

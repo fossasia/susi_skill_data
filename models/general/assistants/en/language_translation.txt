@@ -1,8 +1,9 @@
 #Translating to other languages
 #Hardcoded the languages for now, will try to extend the extend to all languages without hardcoding
 #uses 3 letter language coding
-What is * in french|french for *|translate * in french|tell the translation of * in french 
+What is * in french|french for *|translate * in french|tell the translation of * in french | tell me the translation of * in french |Can you translate * in french | Could you translate * in french
 !example: What is hello in French
+!description: Translates a query to french
 !console:$text$
 {
 "url":"https://glosbe.com/gapi/translate?from=eng&dest=fra&format=json&phrase=$1$&pretty=true",
@@ -10,8 +11,9 @@ What is * in french|french for *|translate * in french|tell the translation of *
 }
 eol
 
-What is * in german|german for *|translate * in german|tell the translation of * in german
+What is * in german|german for *|translate * in german|tell the translation of * in german | tell me the translation of  * in german | Can you translate * in german | Could you translate * in german
 !example: What is Hello in german
+!description: Translates a query to german
 !console:$text$
 {
 "url":"https://glosbe.com/gapi/translate?from=eng&dest=ger&format=json&phrase=$1$&pretty=true",
@@ -19,8 +21,9 @@ What is * in german|german for *|translate * in german|tell the translation of *
 }
 eol
 
-What is * in spanish|spanish for *|translate * in spanish|tell the translation of * in spanish
+What is * in spanish|spanish for *|translate * in spanish|tell the translation of * in spanish | tell me the translation of  * in spanish | Can you translate * in spanish | Could you translate * in spanish
 !example: What is Hello in Spanish
+!description: Translates a query to spanish
 !console:$text$
 {
 "url":"https://glosbe.com/gapi/translate?from=eng&dest=spa&format=json&phrase=$1$&pretty=true",
@@ -28,8 +31,9 @@ What is * in spanish|spanish for *|translate * in spanish|tell the translation o
 }
 eol
 
-What is * in hindi|hindi for *|translate * in hindi|tell the translation of * in hindi
+What is * in hindi|hindi for *|translate * in hindi|tell the translation of * in hindi | tell me the translation of  * in hindi | Can you translate * in hindi | Could you translate * in hindi
 !example: What is Hello in Hindi
+!description: Translates a query to hindi
 !console:$text$
 {
 "url":"https://glosbe.com/gapi/translate?from=eng&dest=hin&format=json&phrase=$1$&pretty=true",

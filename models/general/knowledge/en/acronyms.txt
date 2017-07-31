@@ -2,6 +2,7 @@
 
 Acronym of *|* Acronym|Acronym *|Acronym for *|What is the Acronym of *|Tell me the Acronym of *| find Acronym of *| search Acronym of *| look up Acronym of *| do you know Acronym of *| give me Acronym of *
 !description:Tells us about acronyms. An abbreviation formed from the initial letters of other words and pronounced as a word
+!example:Acronym of NASA
 !console:$lf$
 {
 "url":"http://www.nactem.ac.uk/software/acromine/dictionary.py?sf=$1$",

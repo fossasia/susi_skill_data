@@ -1,5 +1,6 @@
-#Tells us about when is any specific event e.g When is christmas? 
+#Tells us about when is any specific event 
 When is *|tell me when is *| do you know when is *| Could you please tell me when is *| please find when is *| find when is *| search when is *
+!example:When is christmas?
 !description: Tells us about when is any specific event e.g When is Christmas? 
 !console:$alt$
 {

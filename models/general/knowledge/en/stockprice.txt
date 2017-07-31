@@ -1,4 +1,5 @@
 What is stock price of *?|What is stock price of *|stock price of *|* stock price of *
+!example:stock price of oil
 !description: SUSI Skill for stock price
 !console:$l$
 {

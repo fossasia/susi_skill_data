@@ -1,5 +1,7 @@
 #Tells us about height of different places and buildings
 
+What is height of *|height of *|* height
+!example:height of burj khalifa
 What is height of *|height of *|* height 
 !description: SUSI Skill for general knowledge.
 !console:$alt$
@@ -12,6 +14,7 @@ eol
 #Tells us about mass of different places and buildings
 
 What is mass of *|mass of *|* mass
+!example:mass of burj khalifa
 !console:Mass of &1& is $alt$
 {
 "url":"http://api.wolframalpha.com/v2/query?appid=9WA6XR-26EWTGEVTE&input=mass+of+$1$&output=JSON",
@@ -21,8 +24,8 @@ eol
 
 #A dream to answer fact based queries 
 #example: Tell me world largest building
-#example: Tell me distance between sun and earth
 Tell me *
+!example:Tell me distance between sun and earth
 !console:$1$-$plaintext$ 
 {
 "url":"https://api.wolframalpha.com/v2/query?input=$1$&format=plaintext&output=JSON&appid=9WA6XR-26EWTGEVTE",

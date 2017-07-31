@@ -1,5 +1,6 @@
 # gives a site rank based on alexa
 site rank of *
+!example:site rank of www.google.com
 !description: SUSI Skill that gives a site rank based on alexa
 !console:$plaintext$
 {

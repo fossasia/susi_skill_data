@@ -1,6 +1,7 @@
 #Gives a random word
 
 give me a random word|Tell me a random word|Suggest me a random word|Random word
+!example:Tell me a random word
 !description: Gives a random word
 !console:$alt$
 {

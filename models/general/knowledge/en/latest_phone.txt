@@ -1,5 +1,6 @@
 # Name of the latest phone announced or released by a specific brand 
 Tell me latest phone by *
+!example:Tell me latest phone by Apple
 !description: SUSI Skill for the latest phone announced or released by a specific brand 
 !console: $object$
 {

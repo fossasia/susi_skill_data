@@ -1,5 +1,6 @@
-#Tells us about number of days left for specific event e-g days left in christmas
+#Tells us about number of days left for specific event
 Days left in *|How many days are left in *|How far is *
+!example:Days left in christmas
 !description: Tells user about number of days left for specific event e.g days left in Christmas
 !console:$alt$
 {

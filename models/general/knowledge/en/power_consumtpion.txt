@@ -1,4 +1,5 @@
 Power consumption per year in *|what is the power consumption per year in *|Tell me about of power consumption per year in *|Power consumption in *
+!example:Power consumption per year in America
 !description: SUSI Skill for power consumption in a year
 !console:$alt$
 {

@@ -1,6 +1,7 @@
 # Whois Information for a domain
 
 whois *
+!example:whois google.com
 !description: Skill for Whois Information for a domain
 !console:$plaintext$
 { 

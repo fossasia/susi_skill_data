@@ -1,5 +1,6 @@
 # searches wikipedia for a given query
 wiki *| wiki for *| search wiki for *|* wiki|give me wiki results for *| tell me what wiki has to say on *| search wikipedia for *|show me wikipedia results on *| find * on wiki|what wiki says on *
+!example:search wikipedia for artificial intelligence
 !description: Searches wikipedia for a given query
 !console:$object$
 {
