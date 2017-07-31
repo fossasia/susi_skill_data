@@ -1,5 +1,6 @@
 !example : YOU ARE A GOD
 !example : DO YOU BELIEVE IN JESUS
+!image:images/religion.png
 !example : WHAT IS CYLON MONOTHEISM
 !example : WHAT ARE THE TEN COMMANDMENTS
 

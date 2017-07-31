@@ -1,5 +1,6 @@
 I do agree|I agree *|I do agree *|I accept * 
 !example: I do agree
+!image:images/user_positive_expression.png
 Thanks
 I am happy|I am cool|I am excited|I am the best|I am best|I am better than everyone|I am soo happy|I am great|I am wonderful
 !example: I am happy
