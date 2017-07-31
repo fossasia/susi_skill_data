@@ -1,5 +1,4 @@
-!image: https://github.com/fossasia/susi_skill_data/blob/master/models/general/knowledge/en/description.png
-
+!image:./images/description.png
 !example: get started
 !description: when user queries with "get started" during conversation with SUSI messenger bots
 get started
