@@ -30,7 +30,7 @@ Daily contributions by awesome people at FOSSASIA!
 
 !example: I love your answers SUSI
 !description: Handling positive comments about SUSI by the user.
-I love your * SUSI | I love you SUSI | I love you | I love your * | I am in love with you | I am in love with your * | love you
+I love your * SUSI | I love you SUSI | I love you | I love your * | I am in love with you | I am in love with your * | Love you
 Thank you so much. I love you too.
 
 !example: I really like you
