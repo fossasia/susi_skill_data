@@ -1,10 +1,10 @@
 !image:./images/description.png
-!example: get started
-!description: when user queries with "get started" during conversation with SUSI messenger bots
-get started
+!example: Get started
+!description: When user queries with "Get started" during conversation with SUSI messenger bots
+Get started
 I am a personal assistant built by open source community FOSSASIA.
 
-!example: start chatting
-!description: when user clicks "start chatting" button in SUSI messenger bots
-start chatting
+!example: Start chatting
+!description: When user clicks "Start chatting" button in SUSI messenger bots
+Start chatting
 Ask me anything like temperature at a place or distance between two countries or any other thing which you would like to ask.
