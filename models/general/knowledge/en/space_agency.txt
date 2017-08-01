@@ -2,6 +2,7 @@
 
 what is the full form of *
 !example:what is the full form of NASA
+!description: To know the full form and country code of a space agency.
 !console:$name$ 
 {
 "url":"https://launchlibrary.net/1.2/agency/$1$",

@@ -1,5 +1,6 @@
 define *| Meaning of *| one word for *
 !example:Meaning of tree
+!description: Gives words with a meaning similar to another word in spelling, in sound, in rhyme etc.
 !console: $word$
 {
 "url":"https://api.datamuse.com/words?ml=$1$",

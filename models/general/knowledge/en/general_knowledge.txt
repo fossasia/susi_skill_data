@@ -2,6 +2,8 @@
 
 What is height of *|height of *|* height
 !example:height of burj khalifa
+What is height of *|height of *|* height 
+!description: SUSI Skill for general knowledge.
 !console:$alt$
 {
 "url":"http://api.wolframalpha.com/v2/query?appid=9WA6XR-26EWTGEVTE&input=What+is+height+of+$1$&output=JSON",

@@ -2,6 +2,7 @@
 
 I am *|My name is *
 !example:My name is Susi
+!description: Returns gender of a person from his/her first name
 !console:Hi $1$. You are $object$, I guess? 
 {
 

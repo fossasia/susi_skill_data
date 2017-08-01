@@ -1,6 +1,7 @@
 # Describes something
 describe *
 !example:describe artificial intelligence
+!description: Skill to describe anything
 !console:$plaintext$
 { 
     "url": "https://api.wolframalpha.com/v2/query?input=describe+$1$&output=JSON&appid=9WA6XR-26EWTGEVTE&includepodid=Result",  

@@ -1,5 +1,6 @@
 # Return a list of tweets about the given field
 tweets about *| tweet *| 5 tweets about *|Latest tweets about *|Give me tweets about *| Tell me tweets about *| what are latest tweets about *| what are the latest tweets about *| Can you give me tweets about *| I want tweets about *| * tweets about *| * in tweets | * in twitter | I need tweets about * | hashtags about * | top hashtags on * | latest hashtags about *| latest hashtags on * 
+!description: SUSI Skill that return a list of tweets about the given field
 !example: tweets about Donald Trump
 !console:
     {"url":"http://api.loklak.org/api/search.json?q=$1$&source=cache&count=5",

@@ -1,6 +1,7 @@
 # Returns the name of the CEO of a company
 who is the ceo of *| ceo *| tell me the ceo of *| Who is the ceo of * ? | find the ceo of *|do you know the ceo of *|tell about the ceo of *|Name the ceo of *
 !example:who is the ceo of google
+!description:Give answers for the name of the CEO of a company
 !console:$plaintext$
 {
   "url": "https://api.wolframalpha.com/v2/query?input=ceo+$1$&output=JSON&appid=9WA6XR-26EWTGEVTE&includepodid=Result",
