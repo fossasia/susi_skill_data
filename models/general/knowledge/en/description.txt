@@ -22,4 +22,4 @@ Thank you for following me. Tweet by tagging my name with your query, to get it 
 !example: Welcome
 !description: When user tries chatting with SUSI A.I. for the first time.
 Welcome
-Welcome to SUSI A.I.! Please select an option:
+Welcome to SUSI A.I.!
