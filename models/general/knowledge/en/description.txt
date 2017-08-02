@@ -18,3 +18,8 @@ Thank you for following me. Tweet by tagging my name with your query, to get it 
 !description: When user follows the SUSI A.I. account on Twitter but the SUSI account couldn't follow back the user.
 Follow back failed
 Thank you for following me. Tweet by tagging my name with your query, to get it answered.
+
+!example: Welcome
+!description: When user tries chatting with SUSI A.I. for the first time.
+Welcome
+Welcome to SUSI A.I.! Please select an option:
