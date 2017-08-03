@@ -1,7 +1,7 @@
 #Gives recipies and links to cook a dish
-
-!example:how to cook biryani
 * cook * | * recipie of * | * make * | * prepare *
+!image: images/cooking_guide.png
+!example:how to cook biryani
 !console:To cook  $title$ , make sure you have $ingredients$ and check out $href$
 {
 "url":"http://www.recipepuppy.com/api/?q=$2$",
@@ -18,7 +18,6 @@ cook *|how to cook *|recipe for *
 }
 eol
 
-#Ex: recipe list for biryani
 recipe list for *
 !example:recipe list for biryani
 !console:

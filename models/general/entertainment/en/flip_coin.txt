@@ -1,3 +1,4 @@
 flip a coin|Toss a coin
+!image: images/flip_coin.png
 !example:flip a coin
 heads|tails

@@ -1,4 +1,5 @@
 tell me a joke|recite me a joke|entertain me|make me laugh |tell me something funny|* funny| * joke 
+!image: images/joke.png
 !example:tell me a joke
 !console:$joke$
 {

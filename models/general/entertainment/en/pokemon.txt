@@ -1,4 +1,5 @@
 what is the ability of *|ability of *
+!image: images/pokemon.png
 !example:what is the ability of pikachu
 !console:$1$ has the ability of $name$
 {

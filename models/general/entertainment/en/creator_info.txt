@@ -1,3 +1,4 @@
+!image: images/creator_info.png
 !example:Who created you?
 who made you?|who created you? | please tell me who made you?| please tell me who created you? | tell me who made you?| tell me who created you? | can you tell me who made you?| can you tell me who created you? | could you tell me who made you?| could you tell me who created you? | * who made you | * who created you 
 FOSSASIA community|That's a secret|you should know that already
