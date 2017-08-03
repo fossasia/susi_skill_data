@@ -1,4 +1,5 @@
 tell me a quote|give me a quote
+!image: images/quotes.png
 !example:tell me a quote
 !console:$object$
 {

@@ -1,5 +1,6 @@
 # asks user a random question
 ask me a question | ask something|trivia|question me
+!image: images/trivia_question.png
 !example:question me
 !console:$object$
 {

@@ -1,5 +1,6 @@
 #for now just a sunsign entered by a user is reflected back. Later on we can go on storing sunsign in a variable and respond accordingly!
 daily horoscope for *|horoscope for *
+!image: images/horoscope.png
 !example:horoscope for aries
 !console:$object$
 {

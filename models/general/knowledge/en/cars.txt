@@ -1,4 +1,5 @@
 * car models manufactured by *
+!description:Give replies for cars mode by a car manufacturer
 !example:Know any car models manufactured by ford
 !console:$model_name$ model was manufactured by $2$
 {
@@ -8,6 +9,7 @@
 eol
 
 * car models manufactured by * in the year *|* car models manufactured by * in *
+!description:Give answers for cars mode by a car manufacturer in a year
 !example:Know any car models manufactured by ford in the year 2016
 !console:$model_name$ model was manufactured by $2$ in $3$
 {

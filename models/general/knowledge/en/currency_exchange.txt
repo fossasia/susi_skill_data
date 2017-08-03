@@ -2,6 +2,7 @@
 
 convert * to USD
 !example:convert INR to USD
+!description: SUSI Skill for converting a currency to USD
 !console: $USD$
 {
     "url":"http://api.fixer.io/latest?base=$1$",

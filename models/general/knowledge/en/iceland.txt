@@ -2,6 +2,7 @@
 
 * concert in iceland
 !example:name any concert in iceland
+!description: Gives details about concerts in iceland
 !console:check out $eventDateName$ - $name$ on $dateOfShow$ by $userGroupName$ at $eventHallName$. $imageSource$
 {
 "url":"http://apis.is/concerts",
