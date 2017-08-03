@@ -3,7 +3,7 @@
 ::author_url http://github.com/dynamitechetan
 ::description This skill searches for something at a place.  
 ::dynamic_content Yes
-::image images/big_bang_jokes.png
+::image images/local_search.png
 
 find * in * | locate * in * | serach locally for * in * | find me * in * | local seach * in * | search for * in * | search for * at * | search for * at location * | find * in at * | help me find * in * | can you search for * in * | Please find * in * | find me * at * |
 !example: find sushi in miami 
