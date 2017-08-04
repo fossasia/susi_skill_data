@@ -1,4 +1,4 @@
-::name latest_phone
+::name latest Phone
 ::author Ali Ayub Khan
 ::author_url https://www.github.com/AliAyub007
 ::description A skill to give information about latest phone by any company.
