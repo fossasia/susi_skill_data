@@ -1,8 +1,8 @@
 #pass in a random number to get different memes(in result[])
+::image images/memegenerator.png
+::description This skill genrates different memes
 get me a meme
-!image: images/memegenerator.png
 !example:get me a meme
-!description:This skill genrates different memes
 !console:$displayName$ -> $imageUrl$
 {
     "url":"http://version1.api.memegenerator.net/Generators_Select_ByTrending",

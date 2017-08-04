@@ -1,7 +1,8 @@
+::description Play with words, ask susi give words beginning and ending with a particular alphabet.
+::image images/playing_with_words.png
+
 word starting with * and ending with *
-!image: images/playing_with_words.png
 !example:word starting with m and ending with v
-!description:Play with words, ask susi give words beginning and ending with a particular alphabet.
 !console:$object$
 {
     "url":"https://api.datamuse.com/words?sp=$1$??$2$",

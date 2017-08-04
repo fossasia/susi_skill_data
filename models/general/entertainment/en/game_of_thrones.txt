@@ -1,10 +1,10 @@
 #game of thrones tvseries info
+::image images/game_of_thrones.png
+::description Skill gives the information of tvseires Game of thrones.
 
 #Ex: who plays tyrion lannister in game of thrones
 in game of thrones who played *|who plays * in game of thrones
-!image: images/game_of_thrones.png
 !example:who plays tyrion lannister in game of thrones
-!description: Skill gives the information of tvseires Game of thrones
 !console:$object$ plays $1$ in game of thrones
 {
 "url":"http://www.anapioficeandfire.com/api/characters?name=$1$",

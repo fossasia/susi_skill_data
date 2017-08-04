@@ -1,7 +1,8 @@
+::image images/insult.png
+::description Ask Susi to genrate insult
+
 generate an insult | Insult | insult | insut someone | insult me | insult * | insult for a comeback | open insult generator | insult generator
-!image: images/insult.png
 !example:generate an insult 
-!description:Ask Susi to genrate insult
 !console: $object$
 { 
     "url": "http://quandyfactory.com/insult/json",  
