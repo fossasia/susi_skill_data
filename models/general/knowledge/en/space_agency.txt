@@ -1,6 +1,8 @@
 # To know the full form and country code of a space agency.
 
 what is the full form of *
+!example:what is the full form of NASA
+!description: To know the full form and country code of a space agency.
 !console:$name$ 
 {
 "url":"https://launchlibrary.net/1.2/agency/$1$",
@@ -9,6 +11,7 @@ what is the full form of *
 eol
 
 what is * based out of
+!example:what is NASA based out of
 !console: The place's country code is - $countryCode$ 
 {
 "url":"https://launchlibrary.net/1.2/agency/$1$",

@@ -1,5 +1,6 @@
 # asks user a random question
 ask me a question | ask something|trivia|question me
+!image: images/trivia_question.png
 !example:question me
 !description: Test your knowledge, susi will ask a question, let's check if you can answer it
 !console:$object$

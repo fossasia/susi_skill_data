@@ -1,4 +1,6 @@
 Tell the atomic mass of * | atomic mass of * | * atomic mass| find atomic mass of *| do you know the atomic mass of * | do you know atomic mass of * | find the atomic mass of * | search atomic mass of * | tell me the atomic mass of * 
+!description:The mass of an atom of a chemical element expressed in atomic mass units. It is approximately equivalent to the number of protons and neutrons in the atom (the mass number) or to the average number allowing for the relative abundances of different isotopes.
+!example:atomic mass of radium
 !console:The atomic mass of $1$ is $plaintext$ 
 {
 "url":"https://api.wolframalpha.com/v2/query?input=atomic+mass+of+$1$&format=plaintext&output=JSON&appid=9WA6XR-26EWTGEVTE",
@@ -6,10 +8,10 @@ Tell the atomic mass of * | atomic mass of * | * atomic mass| find atomic mass o
 }
 eol
 
-+* element of periodic table | tell me * element of periodic table | * element by atomic number
-+!console: $plaintext$
-+{ 
-+    "url": "https://api.wolframalpha.com/v2/query?input=$1$+element+of+periodic+table&format=plaintext&output=JSON&appid=9WA6XR-26EWTGEVTE&includepodid=Result",  
-+    "path" : "$.queryresult.pods[0].subpods[0]"
-+}
-+eol
+* element of periodic table | tell me * element of periodic table | * element by atomic number
+!console: $plaintext$
+{ 
+    "url": "https://api.wolframalpha.com/v2/query?input=$1$+element+of+periodic+table&format=plaintext&output=JSON&appid=9WA6XR-26EWTGEVTE&includepodid=Result",  
+    "path" : "$.queryresult.pods[0].subpods[0]"
+}
+eol
