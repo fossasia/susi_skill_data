@@ -1,6 +1,8 @@
 # asks user a random question
+::image images/trivia_question.png
+::description Test your knowledge, susi will ask a question, let's check if you can answer it
+
 ask me a question | ask something|trivia|question me
-!image: images/trivia_question.png
 !example:question me
 !console:$object$
 {

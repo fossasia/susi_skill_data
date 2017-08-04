@@ -1,5 +1,7 @@
+::image images/rhyme.png
+::description Ask susi to give rhyming words 
+
 word rhyming with *|rhyming word with *|words rhyming with *|rhyming words with *
-!image: images/rhyme.png
 !example:word rhyming with apple
 !console:$object$
 {

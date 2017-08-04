@@ -1,6 +1,8 @@
 #Gives recipies and links to cook a dish
+::description Feeling hungry, don't know how to cook, ask susi to help you out.Susi will tell the recipe and ingredients you need.
+::image images/cooking_guide.png
+
 * cook * | * recipie of * | * make * | * prepare *
-!image: images/cooking_guide.png
 !example:how to cook biryani
 !console:To cook  $title$ , make sure you have $ingredients$ and check out $href$
 {

@@ -1,6 +1,8 @@
 #Ex: who won f1 season 2016
+::image images/f1_racing.jpg
+::description Intrested in F1 racing, get all the details and race summaries of f1.
+
 who won f1 season *
-!image: images/f1_racing.jpg
 !example:who won f1 season 2016
 !console:$familyName$ won the f1 season $1$
 {

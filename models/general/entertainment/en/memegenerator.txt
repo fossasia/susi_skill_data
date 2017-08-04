@@ -1,6 +1,7 @@
 #pass in a random number to get different memes(in result[])
+::image images/memegenerator.png
+::description This skill genrates different memes
 get me a meme
-!image: images/memegenerator.png
 !example:get me a meme
 !console:$displayName$ -> $imageUrl$
 {

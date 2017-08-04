@@ -1,6 +1,8 @@
 #api.themoviedb.org
+::image images/movies.png
+::description Get information about a movie or a TV series that you are interested in. You will be able to get the rating, plot and details of your favourite movie.
+
 Show me a popular movie | Name a popular movie | I want to know a famous movie | * popular movie | * famous movie | * nice movie | * best movie
-!image: images/movies.png
 !example:Name a popular movie
 !console:$original_title$ - $overview$
 {

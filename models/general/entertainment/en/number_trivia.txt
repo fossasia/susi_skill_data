@@ -1,5 +1,6 @@
+::description Play with numbers, get to know amzing fun facts about numbers
+::image images/number_trivia.png
 * math triva|math triva|* number fact|number fact|mathematics|* math
-!image: images/number_trivia.png
 !example: number fact
 !console:$object$
 {

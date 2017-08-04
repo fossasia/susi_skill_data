@@ -1,6 +1,8 @@
 # to show random dummy text for a mockup 
+::image images/hipster_ipsum.png
+::description Show random dummy text for a mockup
+
 Show me * paragraphs of hipster ipsum
-!image: images/hipster_ipsum.png
 !example:Show me 3 paragraphs of hipster ipsum
 !console:$object$
 {
