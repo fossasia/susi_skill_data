@@ -1,5 +1,9 @@
 # asks user a random question
+::image images/trivia_question.png
+::description Test your knowledge, susi will ask a question, let's check if you can answer it
+
 ask me a question | ask something|trivia|question me
+!example:question me
 !console:$object$
 {
 "url":"http://jservice.io/api/random",
@@ -10,6 +14,7 @@ eol
 # asks user a  question using https://opentdb.com
 
 ask me something | ask a question 
+!example:ask me something
 !console:$question$   ^$correct_answer$^>_answer
 {
 "url":"https://opentdb.com/api.php?amount=1",

@@ -1,5 +1,8 @@
 # Deck of cards http://deckofcardsapi.com/
+::description Ask SUSI to pick a random card for you.
+::image images/draw_a_card.png
 draw a card|pick a card|pick a random card from deck
+!example:draw a card 
 !console:The card drawn is $value$ of $suit$.
 {
     "url":"https://deckofcardsapi.com/api/deck/new/draw/?count=1",

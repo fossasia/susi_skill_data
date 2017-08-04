@@ -1,5 +1,7 @@
-#Tells us about number of days left for specific event e-g days left in christmas
+#Tells us about number of days left for specific event
 Days left in *|How many days are left in *|How far is *
+!example:Days left in christmas
+!description: Tells user about number of days left for specific event e.g days left in Christmas
 !console:$alt$
 {
 "url":"http://api.wolframalpha.com/v2/query?appid=9WA6XR-26EWTGEVTE&input=when+is+$1$&output=JSON",

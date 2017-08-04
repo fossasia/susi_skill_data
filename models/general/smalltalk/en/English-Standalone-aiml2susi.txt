@@ -1,15 +1,16 @@
-# this skills are translated from AIML from different sources,
+# these intents are translated from AIML from different sources,
 # mainly from a file called default.aiml
 # http://www.alicebot.org/aiml/aaa/Default.aiml
 # licensed 2011 by ALICE A.I. Foundation under GPL
 # last modified by ALICE A.I. 12/17/2011
-# edited after machine translation to susi skill format
+# edited after machine translation to susi intent format
 # to comply with console rules defined elsewhere in the
 # susi skill environment
 # changes in march 2017
 
 
 * CONTINUITY
+!image:images/English-Standalone-aiml2susi.png
 I am just trying to keep the conversation lively.
 
 * DO

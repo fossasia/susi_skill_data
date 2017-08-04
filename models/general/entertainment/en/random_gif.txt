@@ -1,5 +1,8 @@
 # generates a random GIF
+::image images/random_gif.png
+::description The skill genrates random GIF
 random gif
+!example:random gif
 !console:$url$
 {
  "url": "http://api.giphy.com/v1/gifs/trending?api_key=dc6zaTOxFJmzC",

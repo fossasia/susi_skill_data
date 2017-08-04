@@ -1,4 +1,7 @@
+How many galaxies are there in this universe| Galaxies in the universe | Number of galaxies in the universe | Number of galaxies
+!example:How many galaxies are there in this universe
 How many galaxies are there in this universe| Galaxies in the universe | Number of galaxies in the universe | Number of galaxies 
+!description: Gives information about galaxies in this universe. 
 !console:There are $alt$ galaxies in observeable universe 
 {
 "url":"http://api.wolframalpha.com/v2/query?appid=9WA6XR-26EWTGEVTE&input=Number+of+galaxies&output=JSON",
@@ -7,6 +10,7 @@ How many galaxies are there in this universe| Galaxies in the universe | Number 
 eol
 
 How many stars are there in this universe| Stars in the universe | Number of stars in the universe|  Number of stars
+!example:Number of stars in the universe
 !console:There are $alt$ stars.
 {
 "url":"http://api.wolframalpha.com/v2/query?appid=9WA6XR-26EWTGEVTE&input=Number+of+stars&output=JSON",
@@ -15,6 +19,7 @@ How many stars are there in this universe| Stars in the universe | Number of sta
 eol
 
 How many planets are there in this universe| planets in the universe | Number of planets in the universe|  Number of planets
+!example:How many planets are there in this universe
 !console:There are $alt$ planets. 
 {
 "url":"http://api.wolframalpha.com/v2/query?appid=9WA6XR-26EWTGEVTE&input=Number+of+planets&output=JSON",
