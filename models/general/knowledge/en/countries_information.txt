@@ -1,8 +1,15 @@
-#Tells us about currency of country 
+::name Countries Information
+::author Ali Ayub Khan
+::author_url https://github.com/AliAyub007
+::description A skill to give answers related to a country’s information.
+::dynamic_content Yes
+::developer_privacy_policy
+::image images/countries_information.png
+::terms_of_use
 
 Currency of *| What is currency of *| * Currency|tell me the Currency of *|tell about the currency of *| Name the currency of *| which currency is used in *|Do you know the currency of *|find the currency of *
 !example:Currency of Singapore
-!description: Gives answers related to a country’s information e.g Currency, areas, population etc.
+!expect: Currency of singapore is SGD
 !console:Currency of $1$ is $object$ 
 {
 "url":"https://restcountries.eu/rest/v1/name/$1$?fullText=true",

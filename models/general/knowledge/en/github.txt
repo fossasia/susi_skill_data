@@ -1,9 +1,15 @@
-#returns information about a username on github
+::name GitHub
+::author Chirag Wadhera
+::author_url https://github.com/chiragw15
+::description A skill to give information about a username on github.
+::dynamic_content Yes
+::developer_privacy_policy
+::image images/github.png
+::terms_of_use
 
-#returns name
 Whose github username is *|Who is * on github | Name of github user * | What is the name of * on Github | Name of * on Github | Real name of * on Github | Tell me name of the github user *
-!example:Whose github username is mariobehling
-!description: Gives information about a username on github
+!example: Whose github username is mariobehling
+!expect: mariobehling is github username of Mario Behling
 !console:$1$ is github username of $object$
 {
 

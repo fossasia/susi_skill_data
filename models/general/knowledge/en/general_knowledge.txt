@@ -1,9 +1,15 @@
-#Tells us about height of different places and buildings
+::name General Knowledge
+::author Ali Ayub Khan
+::author_url https://github.com/AliAyub007
+::description A skill for general knowledge.
+::dynamic_content Yes
+::developer_privacy_policy
+::image images/general_knowledge.png
+::terms_of_use
 
 What is height of *|height of *|* height
-!example:height of burj khalifa
-What is height of *|height of *|* height 
-!description: SUSI Skill for general knowledge.
+!example: height of burj khalifa
+!expect: 828 meters (city rank: 1st | national rank: 1st | world rank: 1st)
 !console:$alt$
 {
 "url":"http://api.wolframalpha.com/v2/query?appid=9WA6XR-26EWTGEVTE&input=What+is+height+of+$1$&output=JSON",
@@ -22,8 +28,6 @@ What is mass of *|mass of *|* mass
 }
 eol
 
-#A dream to answer fact based queries 
-#example: Tell me world largest building
 Tell me *
 !example:Tell me distance between sun and earth
 !console:$1$-$plaintext$ 

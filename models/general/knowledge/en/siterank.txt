@@ -1,4 +1,12 @@
-# gives a site rank based on alexa
+::name Site Ranking 
+::author Chetan Kaushik
+::author_url https://github.com/dynamitechetan
+::description A skill that gives a site rank based on alexa.
+::dynamic_content Yes
+::developer_privacy_policy
+::image images/siterank.png
+::terms_of_use
+
 site rank of *
 !example:site rank of www.google.com
 !description: SUSI Skill that gives a site rank based on alexa
