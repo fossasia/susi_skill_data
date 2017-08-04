@@ -1,7 +1,8 @@
+::image images/rick_and_morty.png
+::description Rick and Morty has quickly become of the Internet’s favorite shows. Ask susi to give funny Rick & Morty jokes
+
 Rick and morty jokes|Rick and morty quotes|Rick & morty jokes|Rick & morty quotes|Rick quotes|Rick*|Morty*|*Rick and morty*|*Rick & morty*
-!image: images/rick_and_morty.png
 !example:Rick and morty jokes
-!description:Rick and Morty has quickly become of the Internet’s favorite shows. Ask susi to give funny Rick & Morty jokes
 !console:Rick from parallel universe says, "$object$"
 {
     "url":"http://rickandmortyquotes.eu-central-1.elasticbeanstalk.com/",
