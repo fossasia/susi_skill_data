@@ -1,7 +1,16 @@
 # In first parameter you pass the pincode of a city.
+
+::name Pincode
+::author Chetan Kaushik
+::authorurl https://github.com/dynamitechetan
+::dynamic_content Yes
+::description Postal code lookup skill. Know the details of city using the postal code, Susi will provide you to the name, longitude and latitude of that city.
+::image images/pincode.jpeg
+::terms_of_use 
+::developer_privacy_policy
+
 city with pincode *
 !example:city with pincode EC2R 6AB
-!description:Postal code lookup skill
 !console:Name of place is $adminName3$
 {
 "url":"http://api.geonames.org/postalCodeLookupJSON?postalcode=$1$&username=demo",
