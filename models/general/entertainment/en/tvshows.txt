@@ -1,4 +1,7 @@
 #Gives rating for tv shows
+::image images/tvshows.png
+::description Get the rating, plot, summary of your favourite tv shows.
+
 * rating for *|* rating of *
 !example:give rating of suits
 !console:$2$ is rated $average$

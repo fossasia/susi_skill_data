@@ -1,4 +1,7 @@
 #Ex: search user spartacus in mixcloud
+::image images/music.png
+::description Play any genre song from mixcloud
+
 * user * in mixcloud
 !example:search user spartacus in mixcloud
 !console:For $2$'s user profile - $object$

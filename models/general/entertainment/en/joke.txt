@@ -1,4 +1,7 @@
-tell me a joke|recite me a joke|entertain me|make me laugh
+::description This skill would tell you a joke.
+::image images/joke.png
+
+tell me a joke|recite me a joke|entertain me|make me laugh |tell me something funny|* funny| * joke 
 !example:tell me a joke
 !console:$joke$
 {
@@ -6,4 +9,3 @@ tell me a joke|recite me a joke|entertain me|make me laugh
     "path":"$.value"
 }
 eol
-

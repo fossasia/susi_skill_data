@@ -1,4 +1,7 @@
 #for now just a sunsign entered by a user is reflected back. Later on we can go on storing sunsign in a variable and respond accordingly!
+::image images/horoscope.png
+::description The skills gives the daily horoscopes based on sunsign entered by the user.
+
 daily horoscope for *|horoscope for *
 !example:horoscope for aries
 !console:$object$

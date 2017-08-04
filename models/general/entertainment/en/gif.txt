@@ -1,3 +1,6 @@
+::image images/gif.png
+::descripton Get random GIF, just ask susi eg: gif of bird.
+
 gif *|image of *|image of a *|gif of a *|gif of *|picture of *|picture of a *
 !example:image of bird
 !console:$embed_url$

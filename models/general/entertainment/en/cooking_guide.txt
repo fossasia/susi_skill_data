@@ -1,6 +1,9 @@
 #Gives recipies and links to cook a dish
-* cook *
-!example:how cook biryani
+::description Feeling hungry, don't know how to cook, ask susi to help you out.Susi will tell the recipe and ingredients you need.
+::image images/cooking_guide.png
+
+* cook * | * recipie of * | * make * | * prepare *
+!example:how to cook biryani
 !console:To cook  $title$ , make sure you have $ingredients$ and check out $href$
 {
 "url":"http://www.recipepuppy.com/api/?q=$2$",
@@ -17,7 +20,6 @@ cook *|how to cook *|recipe for *
 }
 eol
 
-#Ex: recipe list for biryani
 recipe list for *
 !example:recipe list for biryani
 !console:

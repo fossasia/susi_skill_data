@@ -1,4 +1,6 @@
 current time | What time is it | What time it is|What is the time|tell me the time |can you tell me the time|tell the time|What's the time|time now|Could you tell me the time| I don't know what time it is| Please tell the time
+!example:What time is it
+!description: SUSI Skill for knowing current time
 !console:It is $plaintext$ 
 {
 "url":"https://api.wolframalpha.com/v2/query?input=what+time+is+it&format=plaintext&output=JSON&appid=9WA6XR-26EWTGEVTE",
@@ -7,6 +9,7 @@ current time | What time is it | What time it is|What is the time|tell me the ti
 eol
 
 current time in * | What time is it in * ?| What time it is in * ?|What is the time in * ?|tell me the time in *| can you tell me the time in *| please tell the time in *| What's the time in *| time in *| Could you tell me the time in *| Could you please tell me the time in *.
+!example:current time in london
 !console:In $1$ it is $plaintext$ 
 {
 "url":"https://api.wolframalpha.com/v2/query?input=what+time+is+it+in+$1$&format=plaintext&output=JSON&appid=9WA6XR-26EWTGEVTE",

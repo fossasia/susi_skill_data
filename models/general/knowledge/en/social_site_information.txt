@@ -1,5 +1,7 @@
-#Tells us about social shares of any specific service e.g social shares of 9gag 
+#Tells us about social shares of any specific service 
 Social shares of * 
+!example:social shares of 9gag
+!description: Tells us about social shares of any specific service e.g social shares of 9gag 
 !console:Total shares of $1$ across all social platforms are $object$
 {
 "url":"https://count.donreach.com/?url=http://$1$.com/&providers=all",
@@ -10,6 +12,7 @@ eol
 #Tells us about social site visits per minutes
 
 How many visit of * per minute|visits of * per minute|* visits per minute
+!example:visits of google per minute
 !console:Number of $1$ visits are $alt$
 {
 "url":"http://api.wolframalpha.com/v2/query?appid=9WA6XR-26EWTGEVTE&input=users+on+$1$&output=JSON",
@@ -20,6 +23,7 @@ eol
 #Tells us about social site visits per seconds
 
 How many visit of * per second|visits of * per second|* visits per second
+!example:How many visit of google per second
 !console:Number of $1$ visits are $alt$
 {
 "url":"http://api.wolframalpha.com/v2/query?appid=9WA6XR-26EWTGEVTE&input=users+on+$1$&output=JSON",
@@ -30,6 +34,7 @@ eol
 #Tells us about social site visits per day
 
 How many visit of *|visits of *|* visits
+!example:visits of google
 !console:Number of $1$ visits are $alt$
 {
 "url":"http://api.wolframalpha.com/v2/query?appid=9WA6XR-26EWTGEVTE&input=users+on+$1$&output=JSON",

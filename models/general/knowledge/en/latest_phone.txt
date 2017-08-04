@@ -1,5 +1,7 @@
 # Name of the latest phone announced or released by a specific brand 
 Tell me latest phone by *
+!example:Tell me latest phone by Apple
+!description: SUSI Skill for the latest phone announced or released by a specific brand 
 !console: $object$
 {
     "url": "https://fonoapi.freshpixl.com/v1/getlatest?token=2661a712297c79463e1b03dfca6571267f318c11a94d4ceb&brand=$1$&limit=1",

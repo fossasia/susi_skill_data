@@ -1,7 +1,8 @@
 #Gives details about concerts in iceland
 
-#Ex: name any concert in iceland
 * concert in iceland
+!example:name any concert in iceland
+!description: Gives details about concerts in iceland
 !console:check out $eventDateName$ - $name$ on $dateOfShow$ by $userGroupName$ at $eventHallName$. $imageSource$
 {
 "url":"http://apis.is/concerts",
@@ -9,8 +10,8 @@
 }
 eol
 
-#Ex: what is the status of cyclecounters in iceland
 * cyclecounters in iceland
+!example:what is the status of cyclecounters in iceland
 !console:As of $Date$ - $Time$ , the day count is $DayCount$ and the year count is $YearCount$
 {
 "url":"http://apis.is/cyclecounter",

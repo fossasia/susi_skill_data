@@ -1,3 +1,5 @@
+::image images/trump_quote.png
+::description Get the quotes by Donald Trump
 trump|donald trump|quote by donald trump|trump quote
 !example:quote by donald trump
 !console:$object$

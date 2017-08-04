@@ -1,3 +1,6 @@
+::image images/insult.png
+::description Ask Susi to genrate insult
+
 generate an insult | Insult | insult | insut someone | insult me | insult * | insult for a comeback | open insult generator | insult generator
 !example:generate an insult 
 !console: $object$

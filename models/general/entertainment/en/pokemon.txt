@@ -1,3 +1,7 @@
+
+::image images/pokemon.png
+::description Get the details of your favourite pokemon, ask about it's type, weight and ablities.
+
 what is the ability of *|ability of *
 !example:what is the ability of pikachu
 !console:$1$ has the ability of $name$

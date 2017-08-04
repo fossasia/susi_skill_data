@@ -1,3 +1,6 @@
+::image images/flip_coin.png
+::description Ask SUSI to flip a coin for you
+
 flip a coin|Toss a coin
 !example:flip a coin
 heads|tails

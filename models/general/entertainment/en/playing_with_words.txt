@@ -1,3 +1,6 @@
+::description Play with words, ask susi give words beginning and ending with a particular alphabet.
+::image images/playing_with_words.png
+
 word starting with * and ending with *
 !example:word starting with m and ending with v
 !console:$object$

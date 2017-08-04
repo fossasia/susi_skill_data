@@ -1,4 +1,6 @@
 # generates a random GIF
+::image images/random_gif.png
+::description The skill genrates random GIF
 random gif
 !example:random gif
 !console:$url$
