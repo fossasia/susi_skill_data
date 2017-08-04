@@ -31,3 +31,8 @@ Welcome
 !example:Welcome
 !expect:Welcome to SUSI A.I.!
 Welcome to SUSI A.I.!
+
+Share
+!example:Share
+!expect:I had an amazing chat with SUSI! Do you want to try it too?
+I had an amazing chat with SUSI! Do you want to try it too?
