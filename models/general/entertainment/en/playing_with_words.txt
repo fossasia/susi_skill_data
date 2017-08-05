@@ -1,3 +1,10 @@
+::name Playing With Words
+::auhtor Dravit Lochan
+::auhtor_url https://github.com/DravitLochan
+::description Play with words, ask susi give words beginning and ending with a particular alphabet.
+::dynamic_content Yes
+::image images/playing_with_words.png
+
 word starting with * and ending with *
 !example:word starting with m and ending with v
 !console:$object$

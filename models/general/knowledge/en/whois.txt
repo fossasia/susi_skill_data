@@ -1,9 +1,0 @@
-# Whois Information for a domain
-
-whois *
-!console:$plaintext$
-{ 
-    "url": "https://api.wolframalpha.com/v2/query?input=whois+$1$&output=JSON&appid=9WA6XR-26EWTGEVTE",  
-    "path" : "$.queryresult.pods[1].subpods[0]"
-}
-eol

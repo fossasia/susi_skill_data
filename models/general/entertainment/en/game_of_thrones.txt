@@ -1,4 +1,10 @@
 #game of thrones tvseries info
+::name Game Of Thrones
+::author Uday Theja
+::author_url https://github.com/uday96
+::dynamic_content Yes
+::image images/game_of_thrones.png
+::description Skill gives the information of tvseires Game of thrones.
 
 #Ex: who plays tyrion lannister in game of thrones
 in game of thrones who played *|who plays * in game of thrones

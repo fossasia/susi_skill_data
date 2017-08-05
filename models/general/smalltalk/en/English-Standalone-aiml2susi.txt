@@ -10,6 +10,7 @@
 
 
 * CONTINUITY
+!image:images/English-Standalone-aiml2susi.png
 I am just trying to keep the conversation lively.
 
 * DO

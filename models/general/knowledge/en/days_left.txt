@@ -1,5 +1,15 @@
-#Tells us about number of days left for specific event e-g days left in christmas
+::name Days Left
+::author Ali Ayub Khan
+::author_url https://github.com/AliAyub007
+::description A skill to tell user about number of days left for specific event.
+::dynamic_content Yes
+::developer_privacy_policy
+::image images/days_left.png
+::terms_of_use
+
 Days left in *|How many days are left in *|How far is *
+!example: Days left in christmas
+!expect: 4 months 21 days from now
 !console:$alt$
 {
 "url":"http://api.wolframalpha.com/v2/query?appid=9WA6XR-26EWTGEVTE&input=when+is+$1$&output=JSON",

@@ -1,8 +1,15 @@
-#History
-#http://history.muffinlabs.com/
+::name Days in History
+::author Saurabh Jain
+::author_url https://github.com/saurabhjn76
+::description A skill to give answers related history.
+::dynamic_content Yes
+::developer_privacy_policy
+::image 
+::terms_of_use
 
-#example: What happened on 2/14
 What happened on *
+!example:What happened on 2/14
+!expect: February 14th is the day in 1876 that Alexander Graham Bell applies for a patent for the telephone, as does Elisha Gray.
 !console:Year-$year$ - $text$ 
 {
 "url":"http://history.muffinlabs.com/date/$1$",
@@ -11,8 +18,8 @@ What happened on *
 eol
 
 
-#example: Who was born on 2/14
 Who was born on *
+!example:Who was born on 2/14
 !console:Year-$year$ - $text$ 
 {
 "url":"http://history.muffinlabs.com/date/$1$",
@@ -20,8 +27,8 @@ Who was born on *
 }
 eol
 
-#example: Who died on 2/14
 Who died on *
+!example:Who died on 2/14
 !console:Year-$year$ - $text$ 
 {
 "url":"http://history.muffinlabs.com/date/$1$",

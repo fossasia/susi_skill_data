@@ -33,6 +33,38 @@ Now all Skills you enter in the dream zone are available instantly in your chat!
 
 To stop testing your new Susi Skills, write `stop dreaming`.
 
+### Skill Format
+```
+::name <Skill_name>
+::author <author_name>
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image <image_url>
+::term_of_use <link>
+
+#Intent
+User query1|query2|quer3....
+Answer answer1|answer2|answer3...
+```
+
+### Schema to organize Skills
+An expert is a set of skills. That means if we edit one text file, that text file represents one expert an it may contain several skills which all belong together.
+
+An 'expert' is stored within the following ontology:
+```
+* model
+|-- * group
+    |-- * language
+         |-- * expert
+             |-- skill
+```
+Therefore, we can access every expert with the 4-tupel
+```
+{model, group, language, expert}
+```
+
 ### Tutorial Level 0: Fixed Query-Answer Phrase Collections
 
 In you dream test zone (the etherpad) write:

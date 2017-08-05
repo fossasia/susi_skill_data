@@ -1,12 +1,18 @@
-#returns gender of a person from his/her first name
+::name Gender
+::author Chirag Wadhera
+::author_url https://github.com/chiragw15
+::description A skill to give gender of a person from his/her first name.
+::dynamic_content Yes
+::developer_privacy_policy
+::image images/gender.png
+::terms_of_use
 
 I am *|My name is *
+!example: My name is Susi
+!expect: Hi susi. You are female, I guess?
 !console:Hi $1$. You are $object$, I guess? 
 {
-
     "url":"https://api.genderize.io/?name=$1$",
-
     "path":"$.gender"
-
 }
 eol

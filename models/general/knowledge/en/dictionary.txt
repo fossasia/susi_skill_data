@@ -1,5 +1,15 @@
-#words with a meaning similar to tree
+::name Dictionary
+::author Rishi Raj
+::author_url https://github.com/rishiraj824
+::description A skill to tell words with a meaning similar to another word in spelling, in sound, in rhyme etc.
+::dynamic_content Yes
+::developer_privacy_policy
+::image images/dictionary.png
+::terms_of_use
+
 define *| Meaning of *| one word for *
+!example: Meaning of tree
+!expect: tree diagram
 !console: $word$
 {
 "url":"https://api.datamuse.com/words?ml=$1$",
@@ -7,9 +17,8 @@ define *| Meaning of *| one word for *
 }
 eol
 
-
-#words related to duck that start with the letter b
 word related to * that start with the letter *
+!example:word related to duck that start with the letter b
 !console: $word$
 {
 "url":"https://api.datamuse.com/words?ml=$1$&sp=$2$*",
@@ -17,8 +26,8 @@ word related to * that start with the letter *
 }
 eol
 
-#words that sound like elefint
 word that sound like *|sounding like *
+!example:word that sound like elefint
 !console: $word$
 {
 "url":"https://api.datamuse.com/words?sl=$1$",
@@ -26,10 +35,8 @@ word that sound like *|sounding like *
 }
 eol
 
-
-
-#words that are spelled similarly to coneticut
 words that are spelled similarly to *| similar spelling to *| spelling of *
+!example:words that are spelled similarly to coneticut
 !console: $word$
 {
 "url":"https://api.datamuse.com/words?sp=$1$",
@@ -37,9 +44,8 @@ words that are spelled similarly to *| similar spelling to *| spelling of *
 }
 eol
 
-
-#words that rhyme with forgetful
 rhyme *| word rhyming with *
+!example:word rhyming with forgetful
 !console: $word$
 {
 "url":"https://api.datamuse.com/words?rel_rhy=$1$",
@@ -47,10 +53,8 @@ rhyme *| word rhyming with *
 }
 eol
 
-
-
-#adjectives that are often used to describe ocean
 adjective to describe *|show adjective for *|adjective for *
+!example:adjective for ocean
 !console: $word$
 {
 "url":"https://api.datamuse.com/words?rel_jjb=$1$",
@@ -58,12 +62,11 @@ adjective to describe *|show adjective for *|adjective for *
 }
 eol
 
-#suggestions for the user if they have typed in rawand so far
 suggestions for *| show words like *| similar words to * | words like *
+!example:suggestions for rawand
 !console: $word$
 {
 "url":"https://api.datamuse.com/sug?s=$1$",
 "path":"$.[0]"
 }
 eol
-
