@@ -4,7 +4,7 @@
 ::description Information about SUSI.AI 
 ::dynamic_content No
 ::developer_privacy_policy  
-::image:./images/aboutsusi.png
+::image images/aboutsusi.png
 ::terms_of_use  
 
 What is your name ? | What's your name ? | Who are you ?| What should I call you ? | Do you have a name | I want to know you
