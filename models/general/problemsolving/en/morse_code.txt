@@ -1,6 +1,15 @@
+::name Mose Code
+::author Chetan Kaushik
+::author_url https://www.github.com/dynamitechetan
+::description Gives morse code for a given expression
+::dynamic_content Yes
+::developer_privacy_policy  
+::image
+::terms_of_use  
+
 morse code for *
-!description : Gives morse code for a given expression
-!example: morse code for apple
+!example:morse code for apple
+!expect:.- .--. .--. .-.. .
 !console:$plaintext$
 { 
     "url": "https://api.wolframalpha.com/v2/query?input=morse+code+for+$1$&format=plaintext&output=JSON&appid=9WA6XR-26EWTGEVTE",  
