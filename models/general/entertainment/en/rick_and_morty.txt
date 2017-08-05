@@ -1,3 +1,6 @@
+::name Rick And Morty
+::author Jyothir Aditya
+::author_url https://github.com/jyoth1raditya
 ::image images/rick_and_morty.png
 ::description Rick and Morty has quickly become of the Internet’s favorite shows. Ask susi to give funny Rick & Morty jokes
 

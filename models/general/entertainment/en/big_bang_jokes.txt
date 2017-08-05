@@ -1,3 +1,6 @@
+::name Big Bang Jokes
+::author Jyothir Aditya
+::author_url https://github.com/jyoth1raditya
 ::description Getting bored, ask susi to tell you jokes on Big bang theory.
 ::image images/big_bang_jokes.png
 

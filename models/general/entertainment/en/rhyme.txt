@@ -1,3 +1,6 @@
+::name Rhyme
+::auhtor Dravit Lochan
+::auhtor_url https://github.com/DravitLochan
 ::image images/rhyme.png
 ::description Ask susi to give rhyming words 
 

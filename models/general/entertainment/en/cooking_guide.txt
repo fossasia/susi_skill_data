@@ -1,4 +1,7 @@
 #Gives recipies and links to cook a dish
+::name Cooking Guide
+::author Uday Theja
+::author_url https://github.com/uday96
 ::description Feeling hungry, don't know how to cook, ask susi to help you out.Susi will tell the recipe and ingredients you need.
 ::image images/cooking_guide.png
 

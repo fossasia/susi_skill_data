@@ -1,4 +1,6 @@
-
+::name Pokemon
+::author Rishi Raj
+::author_url https://github.com/rishiraj824
 ::image images/pokemon.png
 ::description Get the details of your favourite pokemon, ask about it's type, weight and ablities.
 

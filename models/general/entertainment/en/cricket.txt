@@ -1,3 +1,6 @@
+::name Cricket
+::auhtor Dravit Lochan
+::auhtor_url https://github.com/DravitLochan
 ::image images/cricket.png
 ::description Fond of cricket, now susi helps to keep track of live matches going on, ask susi to get you the match stats 
 

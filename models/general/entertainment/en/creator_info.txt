@@ -1,3 +1,6 @@
+::name Creator Info
+::author Madhav Rathi
+::author_url https://github.com/madhavrathi
 ::image images/creator_info.png
 ::description Want to know about fossasia, just ask susi to tell that, Susi tells about the SUSI.AI creators
 
