@@ -1,7 +1,17 @@
-# skill returns the language of the user. This shall be used to identify problems with language ranking
+::name Language
+::author Michael Christen
+::author_url https://github.com/Orbiter
+::description A skill to tells user about his/her language.
+::dynamic_content No
+::developer_privacy_policy
+::image images/language.png
+::terms_of_use
 
 what is my language|my language
+!example: what is my language
+!expect: your language is english
 your language is $language$
 
 was ist meine sprache|meine sprache
+!example: was ist meine sprache
 deine sprache ist $language$
