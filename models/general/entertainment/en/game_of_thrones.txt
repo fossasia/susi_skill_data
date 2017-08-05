@@ -2,6 +2,7 @@
 ::name Game Of Thrones
 ::author Uday Theja
 ::author_url https://github.com/uday96
+::dynamic_content Yes
 ::image images/game_of_thrones.png
 ::description Skill gives the information of tvseires Game of thrones.
 

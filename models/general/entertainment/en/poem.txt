@@ -4,6 +4,7 @@
 ::name Poem
 ::author Saurabh Jain
 ::author_url https://github.com/saurabhjn76
+::dynamic_content Yes
 ::image images/poem.png
 ::description The skill gives poem by a given author
 

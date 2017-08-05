@@ -2,6 +2,7 @@
 ::name Movies
 ::author Saurabh Jain
 ::author_url https://github.com/saurabhjn76	
+::dynamic_content Yes
 ::image images/movies.png
 ::description Get information about a movie or a TV series that you are interested in. You will be able to get the rating, plot and details of your favourite movie.
 

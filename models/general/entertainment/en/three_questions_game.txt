@@ -3,6 +3,7 @@
 ::name Three Question Game
 ::author Chetan Kaushik
 ::author_url https://github.com/dynamitechetan
+::dynamic_content Yes
 ::image images/three_questions_game.png
 ::description Ask Susi to play three question game,three Questions presents you with three challenging questions pulled from a range of topics, including science, literature and popular culture.
 

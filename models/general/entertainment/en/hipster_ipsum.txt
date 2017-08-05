@@ -2,6 +2,7 @@
 ::name Hipster Ipsum
 ::author Manveer Singh
 ::author_url https://github.com/Manveer695
+::dynamic_content Yes
 ::image images/hipster_ipsum.png
 ::description Show random dummy text for a mockup
 

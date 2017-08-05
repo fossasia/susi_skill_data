@@ -1,8 +1,10 @@
 ::name Ferengi Rules Of Acquistition
 ::author Jyothir Aditya
 ::author_url https://github.com/jyoth1raditya
+::dynamic_content Yes
 ::image images/ferengi_rules_of_acquisition.png
 ::description Want to know about Ferengi Rules Of Acquisition , ask Susi about it.
+
 What is rule * of the Ferengi Rules Of Acquisition|What is rule * of the Ferengi Rules Of Acquisition?|Rule * of the Ferengi Rules Of Acquisition|*th rule of the Ferengi Rules Of Acquisition|Rule * of Ferengi Rules Of Acquisition|*th rule of Ferengi Rules Of Acquisition|*th rule of the Ferengi Rules Of Acquisition
 !console: Rule $1$ is "$object$"
 {

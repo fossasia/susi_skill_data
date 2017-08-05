@@ -1,6 +1,7 @@
 ::name Joke
 ::auhtor Dravit Lochan
 ::auhtor_url https://github.com/DravitLochan
+::dynamic_content Yes
 ::description This skill would tell you a joke.
 ::image images/joke.png
 

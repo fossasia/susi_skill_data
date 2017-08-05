@@ -1,7 +1,8 @@
 # asks user a random question
 ::name Trivia Question
 ::author Saurabh Jain
-::author_url https://github.com/saurabhjn76
+::author_url https://github.com/saurabhjn76	
+::dynamic_content Yes
 ::image images/trivia_question.png
 ::description Test your knowledge, susi will ask a question, let's check if you can answer it
 

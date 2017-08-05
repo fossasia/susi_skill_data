@@ -3,6 +3,7 @@
 ::author Chashmeet Singh
 ::author_url https://github.com/chashmeetsingh
 ::image images/random_gif.png
+::dynamic_content Yes
 ::description The skill genrates random GIF
 random gif
 !example:random gif

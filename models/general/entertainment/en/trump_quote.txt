@@ -1,6 +1,7 @@
 ::name Trump Quote
 ::author Jyothir Aditya
 ::author_url https://github.com/jyoth1raditya
+::dynamic_content Yes
 ::image images/trump_quote.png
 ::description Get the quotes by Donald Trump
 trump|donald trump|quote by donald trump|trump quote
