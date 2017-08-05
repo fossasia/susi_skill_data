@@ -1,4 +1,8 @@
+::name Rhyme
+::auhtor Dravit Lochan
+::auhtor_url https://github.com/DravitLochan
 ::image images/rhyme.png
+::dynamic_content Yes
 ::description Ask susi to give rhyming words 
 
 word rhyming with *|rhyming word with *|words rhyming with *|rhyming words with *

@@ -81,8 +81,6 @@ convert bitcoin to jpy| convert btc to jpy| convert btc to japanese yen| btc to 
 }
 eol
 
-
-
 convert bitcoin to swedish krona | convert btc to sek| convert btc to swedish krona |btc to swedish krona |what is latest exchange rate for swedish krona  to bitcoin|what is latest exchange rate for swedish krona  to BTC | can you convert bitcoin to swedish krona | can you convert btc to swedish krona | can you convert btc to sek| can you convert btc to sek| btc to sek|btc to sek|btc to sek|can you tell me what is latest exchange rate for sek to bitcoin|can you tell me what is latest exchange rate for sek to btc |could you tell me what is latest exchange rate for sek to btc |could you convert bitcoin to sek| could you convert btc to sek| could you convert btc to sek| could you convert btc to swedish krona | btc to swedish krona |btc to swedish krona |btc to swedish krona |could you tell me what is latest exchange rate for swedish krona  to bitcoin|could you tell me what is latest exchange rate for sek to btc | do you know what is latest exchange rate for sek to btc | can you convert bitcoin to sek| can you convert btc to sek| can you convert btc to sek| can you convert btc to swedish krona | btc to swedish krona |btc to swedish krona |btc to sek|do you know the latest exchange rate for swedish krona  to bitcoin|do you know what is the latest exchange rate for swedish krona  to btc
 !example:btc to swedish krona
 !console:Latest exchange rate is 1 BTC = $last$ SEK
@@ -208,5 +206,3 @@ convert bitcoin to russian ruble | convert btc to rub| convert btc to russian ru
 "path":"$.RUB"
 }
 eol
-
-

@@ -1,4 +1,8 @@
+::name Creator Info
+::author Madhav Rathi
+::author_url https://github.com/madhavrathi
 ::image images/creator_info.png
+::dynamic_content No
 ::description Want to know about fossasia, just ask susi to tell that, Susi tells about the SUSI.AI creators
 
 who made you?|who created you? | please tell me who made you?| please tell me who created you? | tell me who made you?| tell me who created you? | can you tell me who made you?| can you tell me who created you? | could you tell me who made you?| could you tell me who created you? | * who made you | * who created you 

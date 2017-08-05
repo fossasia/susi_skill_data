@@ -1,4 +1,8 @@
 #Ex: search user spartacus in mixcloud
+::name Music
+::author Uday Theja
+::author_url https://github.com/uday96
+::dynamic_content Yes
 ::image images/music.png
 ::description Play any genre song from mixcloud
 

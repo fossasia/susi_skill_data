@@ -1,4 +1,8 @@
 #for now just a sunsign entered by a user is reflected back. Later on we can go on storing sunsign in a variable and respond accordingly!
+::name Horoscope
+::auhtor Dravit Lochan
+::auhtor_url https://github.com/DravitLochan
+::dynamic_content Yes
 ::image images/horoscope.png
 ::description The skills gives the daily horoscopes based on sunsign entered by the user.
 
