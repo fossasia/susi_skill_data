@@ -1,18 +1,16 @@
-#Tells us about social shares of any specific service 
-Social shares of * 
-!example:social shares of 9gag
-!description: Tells us about social shares of any specific service e.g social shares of 9gag 
-!console:Total shares of $1$ across all social platforms are $object$
-{
-"url":"https://count.donreach.com/?url=http://$1$.com/&providers=all",
-"path":"$.total"
-}
-eol
+::name Social Site Information
+::author Ali Ayub Khan
+::author_url https://github.com/AliAyub007
+::description A skill to tell us about social site visits per second, minute and day.
+::dynamic_content Yes
+::developer_privacy_policy
+::image images/social_site_information.jpg
+::terms_of_use
 
 #Tells us about social site visits per minutes
-
 How many visit of * per minute|visits of * per minute|* visits per minute
-!example:visits of google per minute
+!example: visits of google per minute
+!expect: Number of google per minute visits are 1.5 billion visits/day (visits per day) | per minute
 !console:Number of $1$ visits are $alt$
 {
 "url":"http://api.wolframalpha.com/v2/query?appid=9WA6XR-26EWTGEVTE&input=users+on+$1$&output=JSON",

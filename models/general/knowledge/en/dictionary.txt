@@ -1,6 +1,15 @@
+::name Dictionary
+::author Rishi Raj
+::author_url https://github.com/rishiraj824
+::description A skill to tell words with a meaning similar to another word in spelling, in sound, in rhyme etc.
+::dynamic_content Yes
+::developer_privacy_policy
+::image images/dictionary.png
+::terms_of_use
+
 define *| Meaning of *| one word for *
-!example:Meaning of tree
-!description: Gives words with a meaning similar to another word in spelling, in sound, in rhyme etc.
+!example: Meaning of tree
+!expect: tree diagram
 !console: $word$
 {
 "url":"https://api.datamuse.com/words?ml=$1$",

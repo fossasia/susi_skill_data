@@ -1,7 +1,16 @@
+::name Wikipedia
+::author Chetan Kaushik
+::author_url https://github.com/dynamitechetan
+::description A skill to search wikipedia for a given query.
+::dynamic_content Yes
+::developer_privacy_policy
+::image images/Wikipedia.png
+::terms_of_use
+
 # searches wikipedia for a given query
 wiki *| wiki for *| search wiki for *|* wiki|give me wiki results for *| tell me what wiki has to say on *| search wikipedia for *|show me wikipedia results on *| find * on wiki|what wiki says on *
-!example:search wikipedia for artificial intelligence
-!description: Searches wikipedia for a given query
+!example: search wikipedia for artificial intelligence
+!expect: Artificial intelligence (AI) is intelligence exhibited by machines. In computer science, the field of AI research defines itself as the study of "intelligent agents": any device that perceives its environment and takes actions that maximize its chance of success at some goal.
 !console:$object$
 {
 "url":"https://en.wikipedia.org/w/api.php?action=opensearch&search=$1$&limit=1&format=json",

@@ -1,6 +1,15 @@
+::name Time
+::author Saurabh Jain
+::author_url https://github.com/saurabhjn76
+::description A skill to tell current time
+::dynamic_content Yes
+::developer_privacy_policy
+::image images/time.png
+::terms_of_use
+
 current time | What time is it | What time it is|What is the time|tell me the time |can you tell me the time|tell the time|What's the time|time now|Could you tell me the time| I don't know what time it is| Please tell the time
-!example:What time is it
-!description: SUSI Skill for knowing current time
+!example: What time is it
+!expect: it is 2 minutes past 17
 !console:It is $plaintext$ 
 {
 "url":"https://api.wolframalpha.com/v2/query?input=what+time+is+it&format=plaintext&output=JSON&appid=9WA6XR-26EWTGEVTE",
