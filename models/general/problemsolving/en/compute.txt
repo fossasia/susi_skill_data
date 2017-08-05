@@ -1,5 +1,11 @@
-# Computes an expression
-
+::name Evaluate Statements
+::author Chashmeet Singh
+::author_url https://www.github.com/chashmeetsingh
+::description Allows the user to evaluate/compute basic algebra 
+::dynamic_content Yes
+::developer_privacy_policy  
+::image
+::terms_of_use
 compute *| Compute *| Calculate *| calculate *
 !example: compute 7+12
 !console:$plaintext$

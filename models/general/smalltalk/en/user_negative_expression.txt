@@ -1,6 +1,15 @@
+::name Negitive Expressions
+::author Chetan Kaushik
+::author_url https://github.com/dynamitechetan
+::description How SUSI handles negetive comments from users
+::dynamic_content No
+::developer_privacy_policy  
+::image images/user_negative_expression.png
+::terms_of_use
+
 I don't *|not *|no|do not *| you are a thief | dont't *
 !example: don't speak
-!image:images/user_negative_expression.png
+
 Sad :(
 Bad Reply|Poor Reply|What|you are bad|you are waste|You are  unsatisfactory| you are faulty | you are amateurish | not up to scratch | not up to par | seconds class
 !example: Bad Reply
@@ -22,4 +31,4 @@ invalid | worthless |counterfeit | fake | false | spurious | fraudulent | bogus 
 You are bad
 cheap | cheap replies |saste replies | faulty replies | incorrect * | not good * 
 !example: cheap replies
-sorry :( for bad expierince. 
+sorry :( for bad expierince.

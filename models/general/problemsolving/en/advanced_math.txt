@@ -1,6 +1,15 @@
-#returns derivative of expression
+::name Derivatives of functions of x
+::author Chirag Wadhera
+::author_url https://www.github.com/chiragw15
+::description Derivatives of functions of x 
+::dynamic_content Yes
+::developer_privacy_policy  
+::image
+::terms_of_use
+
 derivative *|differentiation of *
-!example: derivative x
+!example:derivative x
+!expect:Derivative x is 1
 !console:Derivative $1$ is $object$ 
 {
 
@@ -11,9 +20,9 @@ derivative *|differentiation of *
 }
 eol
 
-#returns integral of expression
 integrate *|integration of *
-!example: integrate x
+!example:integrate x
+!expect:Integration x is 1/2 x^2
 !console:Integration $1$ is $object$ 
 {
 
