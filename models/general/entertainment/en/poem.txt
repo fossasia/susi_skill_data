@@ -1,7 +1,9 @@
 # tells a poem of given author
 # example: give me a poem by Emily
 # example: 	give me a poem by Shakespeare
-
+::name Poem
+::author Saurabh Jain
+::author_url https://github.com/saurabhjn76
 ::image images/poem.png
 ::description The skill gives poem by a given author
 

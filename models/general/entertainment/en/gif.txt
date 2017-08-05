@@ -1,3 +1,6 @@
+::name GIF
+::author Chetan Kaushik
+::author_url https://github.com/dynamitechetan
 ::image images/gif.png
 ::descripton Get random GIF, just ask susi eg: gif of bird.
 

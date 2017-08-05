@@ -1,4 +1,7 @@
 # to show random dummy text for a mockup 
+::name Hipster Ipsum
+::author Manveer Singh
+::author_url https://github.com/Manveer695
 ::image images/hipster_ipsum.png
 ::description Show random dummy text for a mockup
 

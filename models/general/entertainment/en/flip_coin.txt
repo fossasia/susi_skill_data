@@ -1,3 +1,6 @@
+::name Flip a coin
+::author Madhav Rathi
+::author_url https://github.com/madhavrathi
 ::image images/flip_coin.png
 ::description Ask SUSI to flip a coin for you
 

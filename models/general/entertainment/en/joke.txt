@@ -1,3 +1,6 @@
+::name Joke
+::auhtor Dravit Lochan
+::auhtor_url https://github.com/DravitLochan
 ::description This skill would tell you a joke.
 ::image images/joke.png
 

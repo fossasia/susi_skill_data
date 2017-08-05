@@ -1,3 +1,6 @@
+::name Insult
+::author Chetan Kaushik
+::author_url https://github.com/dynamitechetan
 ::image images/insult.png
 ::description Ask Susi to genrate insult
 

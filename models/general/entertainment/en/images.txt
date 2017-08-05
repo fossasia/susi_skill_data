@@ -1,3 +1,6 @@
+::name Images
+::auhtor Dravit Lochan
+::auhtor_url https://github.com/DravitLochan
 ::description Ask Susi to fetch images for you
 ::image images/images.png
 
