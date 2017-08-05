@@ -1,4 +1,8 @@
 #pass in a random number to get different memes(in result[])
+::name Meme Generator
+::auhtor Dravit Lochan
+::auhtor_url https://github.com/DravitLochan
+::dynamic_content Yes
 ::image images/memegenerator.png
 ::description This skill genrates different memes
 get me a meme
