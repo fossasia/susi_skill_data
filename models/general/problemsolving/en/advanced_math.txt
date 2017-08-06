@@ -4,7 +4,7 @@
 ::description Derivatives of functions of x 
 ::dynamic_content Yes
 ::developer_privacy_policy  
-::image
+::image images/advanced_math.png
 ::terms_of_use
 
 derivative *|differentiation of *

@@ -4,7 +4,7 @@
 ::description Allows the user to evaluate/compute basic algebra 
 ::dynamic_content Yes
 ::developer_privacy_policy  
-::image
+::image images/compute.png
 ::terms_of_use
 compute *| Compute *| Calculate *| calculate *
 !example: compute 7+12
