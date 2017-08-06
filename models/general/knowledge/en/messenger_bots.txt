@@ -36,3 +36,35 @@ Share
 !example:Share
 !expect:I had an amazing chat with SUSI.AI! Do you want to try it too?
 I had an amazing chat with SUSI.AI! Do you want to try it too?
+ 
+Contribution
+!example:Contribution
+!expect:You can visit the SUSI.AI repository and start contributing.
+You can visit the SUSI.AI repository and start contributing.
+
+Gitter channel
+!example:Gitter channel
+!expect:You can also join us on our Gitter channel.
+You can also join us on our Gitter channel.
+
+#The below queries are shown as examples of what the user can try asking SUSI.AI
+
+Borders
+!example:Borders
+!expect:Borders with INDIA.
+Borders with INDIA.
+
+Distance
+!example:Distance
+!expect:Distance between China and U.S.A.
+Distance between China and U.S.A.
+
+Cos
+!example:Cos
+!expect:Tell me the Cos of pi
+Tell me the Cos of pi
+
+Rating
+!example:Rating
+!expect:Rating of Game Of Thrones series.
+Rating of Game of Thrones series.
