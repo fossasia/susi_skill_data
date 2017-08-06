@@ -1,3 +1,12 @@
+::name Math Operations
+::author Manveer Singh
+::author_url https://github.com/Manveer695
+::description Facing difficulties in Maths, Susi is there to help you, ask Susi for any simplifications, trigonometric equations, factors of equations and much more. 
+::dynamic_content Yes
+::developer_privacy_policy
+::image images/math_operations.png
+::terms_of_use 
+
 Tell me the cos of *
 !example : Tell me the cos of 70
 !console:$object$
