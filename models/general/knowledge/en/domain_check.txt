@@ -8,8 +8,8 @@
 ::terms_of_use
 
 validate email domain *|check email domain *|status of the email domain *
-!example: validate email domain gmail.com
-!expect: The domain gmail.com is ACTIVE
+!example:validate email domain gmail.com
+!expect:The domain gmail.com is ACTIVE
 !console:The domain $1$ is $object$
 {
     "url":"https://api.mailtest.in/v1/$1$",

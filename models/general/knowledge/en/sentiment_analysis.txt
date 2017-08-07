@@ -8,8 +8,8 @@
 ::terms_of_use
 
 sentiment of *
-!example: sentiment of happy
-!expect: Expression is : P (where P:Positive and N:Negative)
+!example:sentiment of happy
+!expect:Expression is : P (where P:Positive and N:Negative)
 !console:Expression is : $object$ (where P:Positive and N:Negative)
 {
     "url":"https://api.meaningcloud.com/sentiment-2.1?key=5aa3b16fb713e77467cca4aaec134cbc&of=json&txt=$1$&lang=en",

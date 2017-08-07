@@ -15,8 +15,8 @@ fahrenheit to celsius *
 eol
 
 temperature in *|what is temperature in *|what is the temperature in *|* temperature|Tell me about temperature in *
-!example: what is the temperature in Islamabad
-!expect: It is 27.22 degree celcius in Islamabad
+!example:what is the temperature in Islamabad
+!expect:It is 27.22 degree celcius in Islamabad
 !console:It is `fahrenheit to celsius $temp$` degree celcius in $1$
 {
 "url":"https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20(select%20woeid%20from%20geo.places(1)%20where%20text%3D%22$1$%2C%20ak%22)&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys",

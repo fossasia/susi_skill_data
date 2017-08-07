@@ -8,8 +8,8 @@
 ::terms_of_use
 
 What is height of *|height of *|* height
-!example: height of burj khalifa
-!expect: 828 meters (city rank: 1st | national rank: 1st | world rank: 1st)
+!example:height of burj khalifa
+!expect:828 meters (city rank: 1st | national rank: 1st | world rank: 1st)
 !console:$alt$
 {
 "url":"http://api.wolframalpha.com/v2/query?appid=9WA6XR-26EWTGEVTE&input=What+is+height+of+$1$&output=JSON",

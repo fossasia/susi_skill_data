@@ -9,7 +9,7 @@
 
 What happened on *
 !example:What happened on 2/14
-!expect: February 14th is the day in 1876 that Alexander Graham Bell applies for a patent for the telephone, as does Elisha Gray.
+!expect:February 14th is the day in 1876 that Alexander Graham Bell applies for a patent for the telephone, as does Elisha Gray.
 !console:Year-$year$ - $text$ 
 {
 "url":"http://history.muffinlabs.com/date/$1$",

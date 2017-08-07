@@ -8,8 +8,8 @@
 ::terms_of_use
 
 give me a random word|Tell me a random word|Suggest me a random word|Random word
-!example: Tell me a random word
-!expect: megamillionaire
+!example:Tell me a random word
+!expect:megamillionaire
 !console:$alt$
 {
 "url":"http://api.wolframalpha.com/v2/query?appid=9WA6XR-26EWTGEVTE&input=give%20me%20random%20word&output=JSON",

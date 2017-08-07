@@ -8,8 +8,8 @@
 ::terms_of_use
 
 define *| Meaning of *| one word for *
-!example: Meaning of tree
-!expect: tree diagram
+!example:Meaning of tree
+!expect:tree diagram
 !console: $word$
 {
 "url":"https://api.datamuse.com/words?ml=$1$",

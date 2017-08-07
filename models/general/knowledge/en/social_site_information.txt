@@ -9,8 +9,8 @@
 
 #Tells us about social site visits per minutes
 How many visit of * per minute|visits of * per minute|* visits per minute
-!example: visits of google per minute
-!expect: Number of google per minute visits are 1.5 billion visits/day (visits per day) | per minute
+!example:visits of google per minute
+!expect:Number of google per minute visits are 1.5 billion visits/day (visits per day) | per minute
 !console:Number of $1$ visits are $alt$
 {
 "url":"http://api.wolframalpha.com/v2/query?appid=9WA6XR-26EWTGEVTE&input=users+on+$1$&output=JSON",
