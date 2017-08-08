@@ -8,8 +8,8 @@
 ::terms_of_use
 
 News|what's happening in world|Anything new?|
-!example: News
-!expect: See this from BBC http://www.bbc.co.uk/news/world-us-canada-40820863
+!example:News
+!expect:See this from BBC http://www.bbc.co.uk/news/world-us-canada-40820863
 !console:See this from BBC $url$
 {
 "url":"https://newsapi.org/v1/articles?source=bbc-news&sortBy=top&apiKey=f2a4d77f26054494ab4e013e36911712",

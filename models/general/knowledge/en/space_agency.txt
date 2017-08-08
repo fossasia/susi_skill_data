@@ -8,8 +8,8 @@
 ::terms_of_use
 
 what is the full form of *
-!example: what is the full form of NASA
-!expect: National Aeronautics and Space Administration
+!example:what is the full form of NASA
+!expect:National Aeronautics and Space Administration
 !console:$name$ 
 {
 "url":"https://launchlibrary.net/1.2/agency/$1$",

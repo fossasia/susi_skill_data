@@ -8,8 +8,8 @@
 ::terms_of_use
 
 describe *
-!example: describe artificial intelligence
-!expect: artificial intelligence is a branch of computer science that develops machines and software with human-like intelligence.
+!example:describe artificial intelligence
+!expect:artificial intelligence is a branch of computer science that develops machines and software with human-like intelligence.
 !console:$plaintext$
 { 
     "url": "https://api.wolframalpha.com/v2/query?input=describe+$1$&output=JSON&appid=9WA6XR-26EWTGEVTE&includepodid=Result",  

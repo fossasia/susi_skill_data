@@ -8,8 +8,8 @@
 ::terms_of_use
 
 * concert in iceland
-!example: name any concert in iceland
-!expect: check out Alþjóðlegt Orgelsumar - Tónleikar on 2017-08-05T12:00:00 by Listvinafélag Hallgrímskirkju at Hallgrímskirkja.
+!example:name any concert in iceland
+!expect:check out Alþjóðlegt Orgelsumar - Tónleikar on 2017-08-05T12:00:00 by Listvinafélag Hallgrímskirkju at Hallgrímskirkja.
 !console:check out $eventDateName$ - $name$ on $dateOfShow$ by $userGroupName$ at $eventHallName$. $imageSource$
 {
 "url":"http://apis.is/concerts",

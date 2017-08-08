@@ -7,7 +7,6 @@
 ::image images/football_teams.png
 ::terms_of_use
 
-
 tell me the teams in premier leauge| Premier leauge teams
 !example:Premier leauge teams
 !console:

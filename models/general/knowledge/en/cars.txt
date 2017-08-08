@@ -7,10 +7,9 @@
 ::image images/cars.png
 ::terms_of_use
 
-
 * car models manufactured by *
-!example: Know any car models manufactured by ford
-!expect: 021 C model was manufactured by ford
+!example:Know any car models manufactured by ford
+!expect:021 C model was manufactured by ford
 !console:$model_name$ model was manufactured by $2$
 {
 "url":"https://www.carqueryapi.com/api/0.3/?callback=?&cmd=getModels&make=$2$",

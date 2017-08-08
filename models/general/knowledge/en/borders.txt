@@ -4,13 +4,13 @@
 ::description A skill to tell us about neighbouring countries of a country.
 ::dynamic_content Yes
 ::developer_privacy_policy
-::image images/borders.png
+::image images/borders.jpg
 ::terms_of_use
 
 
 borders with *|neighbouring countries of *|which are neighbouring countries of *|Do you know which are neighbouring countries of *|what are neighbouring countries of *|do you know what are neighbouring countries of *|Tell me neighbouring countries of *|can you tell me neighbouring countries of *|names of neighbouring countries of *|* neighbouring countries|countries sharing border with *|which countries are sharing border with *|what countries are sharing border with *|name of countries are sharing border with *|can you tell me names of countries are sharing border with *|tell me names of countries are sharing border with *|adjacent countries with *|names of adjacent countries with *|which are adjacent countries with *|what are adjacent countries with *|tell me names of adjacent countries with *|can you tell me names of adjacent countries with *|which borders are there with *|Tell me names of borders with *|can you tell me names of borders with *|which countries have border with *|Do you know about borders with *|what are countries bordering *|what are the countries bordering *|what are countries bordering country *|what are the countries bordering country *|which countries are bordering *|Tell me names of countries bordering *|Do you know about countries bordering *|Do you know countries bordering *
 !example:neighbouring countries of india
-!expect: Countries sharing border with india are Bangladesh | Bhutan | China | Myanmar | Nepal | Pakistan
+!expect:Countries sharing border with india are Bangladesh | Bhutan | China | Myanmar | Nepal | Pakistan
 !console:Countries sharing border with $1$ are $alt$
 {
 "url":"http://api.wolframalpha.com/v2/query?appid=9WA6XR-26EWTGEVTE&input=border%20with%20$1$&output=JSON",

@@ -8,8 +8,8 @@
 ::terms_of_use
 
 Whose github username is *|Who is * on github | Name of github user * | What is the name of * on Github | Name of * on Github | Real name of * on Github | Tell me name of the github user *
-!example: Whose github username is mariobehling
-!expect: mariobehling is github username of Mario Behling
+!example:Whose github username is mariobehling
+!expect:mariobehling is github username of Mario Behling
 !console:$1$ is github username of $object$
 {
 

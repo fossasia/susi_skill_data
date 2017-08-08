@@ -8,8 +8,8 @@
 ::terms_of_use
 
 I am *|My name is *
-!example: My name is Susi
-!expect: Hi susi. You are female, I guess?
+!example:My name is Susi
+!expect:Hi susi. You are female, I guess?
 !console:Hi $1$. You are $object$, I guess? 
 {
     "url":"https://api.genderize.io/?name=$1$",

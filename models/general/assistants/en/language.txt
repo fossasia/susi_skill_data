@@ -8,10 +8,10 @@
 ::terms_of_use
 
 what is my language|my language
-!example: what is my language
-!expect: your language is english
+!example:what is my language
+!expect:your language is english
 your language is $language$
 
 was ist meine sprache|meine sprache
-!example: was ist meine sprache
+!example:was ist meine sprache
 deine sprache ist $language$
