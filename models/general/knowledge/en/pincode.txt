@@ -2,7 +2,7 @@
 
 ::name Pincode
 ::author Chetan Kaushik
-::authorurl https://github.com/dynamitechetan
+::author_url https://github.com/dynamitechetan
 ::dynamic_content Yes
 ::description Postal code lookup skill. Know the details of city using the postal code, Susi will provide you to the name, longitude and latitude of that city.
 ::image images/pincode.jpeg
