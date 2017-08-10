@@ -1,3 +1,12 @@
+::name Hindi News
+::author Madhav Rathi
+::author_url https://github.com/madhavrathi
+::description A skill to give news in hindi language.
+::dynamic_content Yes
+::developer_privacy_policy
+::image images/hindi_news.png
+::terms_of_use
+
 hindi samachar | news in hindi |hindi news |समाचार | समाचार  *| * समाचार | ख़बर | ख़बर *| * ख़बर |  नूज़ | न्यूज़ | नूज़ * | न्यूज़ * | * नूज़ | * न्यूज़ | खबर | खबर * | ताजी खबर |  नया समाचार | समाचार बुलेटिन | समाचार प्रसारण | समाचार विवरण
 !example: hindi news
 !console:
