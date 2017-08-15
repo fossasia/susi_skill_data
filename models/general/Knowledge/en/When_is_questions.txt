@@ -4,7 +4,7 @@
 ::description A skill to tell us about when is any specific event e.g When is Christmas?
 ::dynamic_content Yes
 ::developer_privacy_policy
-::image images/When_is_questions.png
+::image images/when_is_questions.png
 ::terms_of_use
 
 #Tells us about when is any specific event 
