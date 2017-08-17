@@ -4,7 +4,7 @@
 ::description To reply to user queries during their conversation with SUSI messenger bots. 
 ::dynamic_content No
 ::developer_privacy_policy  
-::image: images/messenger_bots.png
+::image: images/messenger_bots_susi.png
 ::terms_of_use  
 
 Get started
