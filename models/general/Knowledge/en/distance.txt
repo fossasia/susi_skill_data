@@ -1,7 +1,7 @@
 ::name Distance
 ::author Chashmeet Singh
 ::author_url https://github.com/chashmeetsingh
-::description A skill to tell distance between two destinations.
+::description A skill to tell distance between two destinations and places
 ::dynamic_content Yes
 ::developer_privacy_policy
 ::image images/distance.png
