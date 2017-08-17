@@ -1,5 +1,5 @@
 ::name Petnames
-::author azka
+::author Azka Hafeez
 ::author_url http://github.com/ahafeez8/
 ::description This skill will suggests petnames 
 ::dynamic_content no
