@@ -4,7 +4,7 @@
 ::description A skill to search wikipedia for a given query.
 ::dynamic_content Yes
 ::developer_privacy_policy
-::image images/wikipedia.png
+::image images/Wikipedia.png
 ::terms_of_use
 
 # searches wikipedia for a given query
