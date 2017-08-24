@@ -1,0 +1,14 @@
+::name Hello world
+::author CMS
+::author_url github.com/fossasia
+::description A skill that returns hello world when user says hello world 
+::dynamic_content No
+::developer_privacy_policy 
+::image images/hello_world.png
+::terms_of_use 
+
+
+hello world | helloworld
+!example:Hello World
+!expect:Hello World
+Hello World
