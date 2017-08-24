@@ -50,7 +50,7 @@ Answer answer1|answer2|answer3...
 ```
 
 ### Schema to organize Skills
-An expert is a set of skills. That means if we edit one text file, that text file represents one expert an it may contain several skills which all belong together.
+An expert is a set of skills. That means if we edit one text file, that text file represents one expert as it may contain several skills which all belong together.
 
 An 'expert' is stored within the following ontology:
 ```
@@ -60,7 +60,7 @@ An 'expert' is stored within the following ontology:
          |-- * expert
              |-- skill
 ```
-Therefore, we can access every expert with the 4-tupel
+Therefore, we can access every expert with the 4-tuple
 ```
 {model, group, language, expert}
 ```
