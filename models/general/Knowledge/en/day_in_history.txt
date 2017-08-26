@@ -1,10 +1,10 @@
-::name Days in History
+::name Day in History
 ::author Saurabh Jain
 ::author_url https://github.com/saurabhjn76
 ::description A skill to give answers related history.
 ::dynamic_content Yes
 ::developer_privacy_policy
-::image 
+::image images/calender.jpg
 ::terms_of_use
 
 What happened on *
