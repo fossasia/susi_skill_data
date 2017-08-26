@@ -1,4 +1,4 @@
-::name acronyms
+::name Acronyms
 ::author Madhav Rathi
 ::author_url https://www.github.com/madhavrathi
 ::description Tells us about acronyms. An abbreviation formed from the initial letters of other words and pronounced as a word
