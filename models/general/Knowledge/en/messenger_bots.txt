@@ -62,7 +62,7 @@ Distance between China and U.S.A.
 Cos
 !example:Cos
 !expect:Tell me the Cos of pi
-Cos of pi is zero!
+Tell me the Cos of pi
 
 Rating
 !example:Rating
