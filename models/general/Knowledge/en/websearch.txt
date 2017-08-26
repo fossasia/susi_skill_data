@@ -1,6 +1,6 @@
 ::name Websearch
-::author Madhav Rathi
-::author_url https://github.com/madhavrathi
+::author Uday Theja
+::author_url https://github.com/uday96
 ::description A skill to search query on search engines.
 ::dynamic_content Yes
 ::developer_privacy_policy
