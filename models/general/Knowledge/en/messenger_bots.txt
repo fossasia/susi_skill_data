@@ -1,4 +1,4 @@
-::name Messenger_bots
+::name Messenger bots
 ::author Manveer Singh
 ::author_url https://www.github.com/Manveer695
 ::description To reply to user queries during their conversation with SUSI messenger bots. 
