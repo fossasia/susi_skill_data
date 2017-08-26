@@ -1,4 +1,3 @@
-#game of thrones tvseries info
 ::name Game Of Thrones
 ::author Uday Theja
 ::author_url https://github.com/uday96
