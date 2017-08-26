@@ -1,4 +1,4 @@
-::name Game Of Thrones
+::name Game of thrones
 ::author Uday Theja
 ::author_url https://github.com/uday96
 ::dynamic_content Yes
