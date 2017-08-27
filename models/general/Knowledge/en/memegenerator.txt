@@ -5,7 +5,7 @@
 ::dynamic_content Yes
 ::image images/memegenerator.png
 ::description This skill genrates different memes
-get me a meme
+get me a meme|show me a meme|entertain me with a meme|pull up a meme|How 'bout a meme?|a meme can do much anyway|meme always interests me|maybe show me a meme|
 !example:get me a meme
 !console:$displayName$ -> $imageUrl$
 {
