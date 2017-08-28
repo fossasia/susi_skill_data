@@ -14,12 +14,26 @@ Read https://github.com/fossasia/susi_skill_data/blob/master/README_susi_skill_l
 ### Add intents to a skill or create a new skill
 The place to store your intents is a skill. A skill is simply a plain text file with '.txt' extension, placed within a language folder within a topic. So to add a new skill, you first have to choose a topic. You can choose from:
 
-* assistants
-* entertainment
-* knowledge
-* problemsolving
-* shopping
-* smalltalk
+* Business and Finance
+* Communication
+* Connected Car
+* Food and Drink
+* Games, Trivia and Accessories
+* Health and Fitness
+* Knowledge
+* Lifestyle
+* Movies and TV
+* Music and Audio
+* News
+* Novelty and Humour
+* Problem Solving
+* Productivity
+* Shopping
+* Social
+* Sports
+* Travel and Transportation
+* Utilities
+* Weather
 
 You can find these topics in https://github.com/fossasia/susi_skill_data/tree/master/models/general
 
