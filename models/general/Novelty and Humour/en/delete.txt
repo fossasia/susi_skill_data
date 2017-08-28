@@ -4,6 +4,3 @@
 ::description Getting bored, delete this then
 ::dynamic_content Yes
 
-hi
-ihihi
-eol
