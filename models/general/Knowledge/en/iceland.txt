@@ -1,14 +1,14 @@
 ::name Iceland
 ::author Uday Theja
 ::author_url https://github.com/uday96
-::description A skill to give details about concerts in iceland.
+::description A skill to give details about concerts in Iceland.
 ::dynamic_content Yes
 ::developer_privacy_policy
 ::image images/iceland.png
 ::terms_of_use
 
-* concert in iceland
-!example:name any concert in iceland
+* concert in Iceland
+!example:name any concert in Iceland
 !expect:check out Alþjóðlegt Orgelsumar - Tónleikar on 2017-08-05T12:00:00 by Listvinafélag Hallgrímskirkju at Hallgrímskirkja.
 !console:check out $eventDateName$ - $name$ on $dateOfShow$ by $userGroupName$ at $eventHallName$. $imageSource$
 {
@@ -17,8 +17,8 @@
 }
 eol
 
-* cyclecounters in iceland
-!example:what is the status of cyclecounters in iceland
+* cyclecounters in Iceland
+!example:what is the status of cyclecounters in Iceland
 !console:As of $Date$ - $Time$ , the day count is $DayCount$ and the year count is $YearCount$
 {
 "url":"http://apis.is/cyclecounter",
