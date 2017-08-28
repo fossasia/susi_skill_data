@@ -1,2 +1,9 @@
 ::name delete
 ::image images/ToBeDeleted.jpg
+::author_url https://github.com/cms
+::description Getting bored, delete this then
+::dynamic_content Yes
+
+hi
+ihihi
+eol
