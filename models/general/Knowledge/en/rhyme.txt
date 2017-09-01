@@ -5,7 +5,7 @@
 ::dynamic_content Yes
 ::description Ask susi to give rhyming words 
 
-word rhyming with *|rhyming word with *|words rhyming with *|rhyming words with *
+word rhyming with *|rhyming word with *|words rhyming with *|rhyming words with *|find me a rhyme of *
 !example:word rhyming with apple
 !console:$object$
 {
