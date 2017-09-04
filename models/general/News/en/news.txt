@@ -7,24 +7,16 @@
 ::image images/news.png
 ::terms_of_use
 
-News|what's happening in world|Anything new?|
+News|what's happening in world|Anything new?|What is the headline?|what's new today?|latest news|what are the latest news
 !example:News
-!expect:See this from BBC http://www.bbc.co.uk/news/world-us-canada-40820863
-!console:See this from BBC $url$
+!expect:US seeks tough UN approach to N Korea See more here: http://www.bbc.co.uk/news/world-asia-41152509
+!console:$title$ See more here: $url$
 {
 "url":"https://newsapi.org/v1/articles?source=bbc-news&sortBy=top&apiKey=f2a4d77f26054494ab4e013e36911712",
 "path":"$.articles"
 }
 eol
 
-What is the headline?|what's new today?|latest news|what are the latest news
-!example:latest news
-!console:$description$
-{
-"url":"https://newsapi.org/v1/articles?source=bbc-news&sortBy=top&apiKey=f2a4d77f26054494ab4e013e36911712",
-"path":"$.articles"
-}
-eol
 
 
 # Articles according to new york times
@@ -228,7 +220,3 @@ Hacker news|tell me hacker news|please tell me hacker news|could you tell me hac
 }]
 }
 eol
-
-
-
-
