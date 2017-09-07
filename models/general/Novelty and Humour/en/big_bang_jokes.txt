@@ -1,12 +1,12 @@
-::name Big Bang Jokes
-::author Jyothir Aditya
-::author_url https://github.com/jyoth1raditya
-::description Getting bored, ask susi to tell you jokes on Big bang theory.
+::name Chuck Norris Jokes
+::author Akash Agrawal
+::author_url https://github.com/akash1997
+::description Getting bored? Ask susi to tell you a joke on Chuck Norris.
 ::dynamic_content Yes
 ::image images/big_bang_jokes.png
 
-* big bang theory| tell me about big bang theory|geek jokes|geek joke| please tell me about big bang theory| please tell me geek jokes|please tell me a geek joke| please tell me geek joke| big bang theory * | tell me geek jokes| tell me geek joke| can you please tell me about big bang theory| can you please tell me geek jokes| can you please tell me geek joke | can you please tell me a geek joke| can you tell me about big bang theory| can you tell me geek jokes| can you tell me geek joke | can you tell me a geek joke | could you tell me about big bang theory| could you tell me geek jokes| could you tell me a geek joke| * geek joke | * joke for geeks * | * jokes for geeks *
-!example:tell me about big bang theory 
+* chuck norris joke | * joke on chuck norris | * geeky joke * | * geek joke * | * jokes on chuck norris | * chuck norris jokes
+!example:tell me a joke on Chuck Norris
 !console:$joke$
 {
     "url":"http://api.icndb.com/jokes/random",
