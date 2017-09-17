@@ -8,5 +8,5 @@
 ::terms_of_use
 
 founder of *| who is the founder of * ?|Name the founder of * ?| Who is the father of * ?|can you tell me who is the founder of * ?| * was founded by whom ? |Who is founder of *| Name of founder of *| what is the name of the founder of *|what is name of founder of *|Name of founder of *|Tell me about the founder of *|* founder|tell me who founded *
-!example:Name the founder of naja?
+!example:Name the founder of naaaja?
 !console: jackson
