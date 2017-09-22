@@ -1,7 +1,7 @@
 ::name Atomic
 ::author Chetan Kaushik
 ::author_url https://github.com/dynamitechetan
-::description A skill to tell atomic mass and elemen
+::description A skill to tell atomic mass of an element
 ::dynamic_content Yes
 ::developer_privacy_policy
 ::image images/atomic.png
