@@ -8,7 +8,7 @@
 ::terms_of_use
 
 capital of *| what is the capital of *|capital *|tell me the capital of *|do you know the capital of *| search for the capital of *| find the capital of *| tell the capital of *| search the capital of *|* capital
-!example:capital of India
+!example:What is the capital of India?
 !expect:New Delhi, India
 !console:$plaintext$
 {
