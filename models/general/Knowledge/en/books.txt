@@ -8,8 +8,8 @@
 ::terms_of_use
 
 #Returns the name of the book and link to read more
-what is this book * |is there any book called * ? | book * | is there a book called * ? | give me a book named * |Tell me about book * | do you know any book called * | can you give me a book called * | can you provide me book * | can you provide me book called * | what do you know about book * | is there any book named *
-!example:Tell me about book Harry Potter
+what is this book * |is there any book called * ? | book * | is there a book called * ? | give me a book named * |Tell me about a book *|Tell me about the book * | Do you know any book called * | Can you give me a book called * | Can you provide me book * | can you provide me book called * | what do you know about book * | is there any book named *
+!example:Tell me about the book Harry Potter
 !expect:did you mean "Harry Potter - geretteter Retter im Kampf gegen dunkle Mächte?" ?Here is a link to read more: https://play.google.com/store/books/details?id=Oe1s6jjPK6UC&source=gbs_api
 !console:did you mean "$title$" ? Here is a link to read more:  $infoLink$
 {
