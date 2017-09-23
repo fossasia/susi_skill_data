@@ -1,0 +1,17 @@
+::name Petnames
+::author Azka Hafeez
+::author_url http://github.com/ahafeez8/
+::description This skill will suggests petnames 
+::dynamic_content no
+::developer_privacy_policy 
+::image images/Petnames.jpg
+::terms_of_use
+
+Suggest good pet names | I need pet name suggestions | Pet names needed
+Good petnames are Jacky, Tommy, Marley, Chichi
+
+Suggest good cat names | Cat name suggestions needed | Cat names needed
+Good catnames are Kitty, Smokey, Shadow
+
+Suggest good dog names | Dog names needed | Suggestions for dog names
+Good dog names are Bailey, Max, Charlie, Jackey 
