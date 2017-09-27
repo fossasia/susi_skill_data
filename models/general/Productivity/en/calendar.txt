@@ -9,7 +9,7 @@
 
 Date *|what is date *|can you tell what is date *|can you tell me what is date *|can you tell me what date is *|can you tell what date is *|can you tell me what date is it *|can you tell what date is it *|tell what is date *|tell me what date is *|tell me what date is *|tell what date is *|tell what date is it *|tell what date is it *|Do you know what is date *|do you know what date is it *|Do you know what date is *|Do you know date *|what was date *|can you tell what was date *|can you tell me what was date *|can you tell me what date was *|can you tell what date was *|can you tell me what date was it *|can you tell what date was it *|tell what was date *|tell me what date was *|tell me what data was *|tell what date was *|tell what date was it *|tell what date was it *|Do you know what was date *|do you know what date was it *|Do you know what date is *
 !example:Date tomorrow?
-!expect:It's 2017-08-05 tomorrow
+!expect:It's 05-08-2017 tomorrow
 !console:It's $object$ $1$
 {
 "url":"http://calapi.inadiutorium.cz/api/v0/en/calendars/default/$1$",
