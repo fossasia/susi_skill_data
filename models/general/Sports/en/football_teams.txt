@@ -7,8 +7,8 @@
 ::image images/football_teams.png
 ::terms_of_use
 
-tell me the teams in premier leauge| Premier leauge teams
-!example:Premier leauge teams
+tell me the teams in premier league| Premier league teams
+!example:Premier league teams
 !console:
 {
   "url":"http://api.football-data.org/v1/competitions/398/teams",
