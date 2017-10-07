@@ -1,4 +1,4 @@
-::name Cars
+::name Car
 ::author Uday Theja
 ::author_url https://github.com/uday96
 ::description A skill to tell user about cars made by a car manufacturer
