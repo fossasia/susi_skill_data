@@ -3,7 +3,7 @@ This is the storage place for susi skills. It is for now a temporary solution fo
 
 ## Installation
 This repository must be cloned along https://github.com/fossasia/susi_server to make it available to susi.
-The production plattform of http://susi.ai will do a `git pull origin master` every minute. That means, every change will be available very soon.
+The production platform of http://susi.ai will do a `git pull origin master` every minute. That means, every change will be available very soon.
 
 ## Create a new skill
 Creation of a new skill is easy, DO NOT PANIC!
@@ -22,7 +22,7 @@ The place to store your intents is a skill. A skill is simply a plain text file 
 * Health and Fitness
 * Knowledge
 * Lifestyle
-* Movies and TV
+* Movies and TV Shows
 * Music and Audio
 * News
 * Novelty and Humour
@@ -42,7 +42,7 @@ Place your intents along one existing skill, or create a new one.
 
 If there is an expert which you want to extend, modify that expert file. If there is not already an expert file, create a new one. Choose a nice name which describes your expert, use lowercase letters only and give the expert file the file name extension ".txt".
 
-Do NOT create a new model in the models subfolder and do NOT create a new topic in the models/general subfolder.
+Do **NOT** create a new model in the models subfolder and do **NOT** create a new topic in the models/general subfolder.
 If you want a new topic, create an issue and describe your topic and it's purpose.
 
 ## License
