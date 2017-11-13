@@ -1,0 +1,20 @@
+::name Who is Who
+::author Jyothir Aditya
+::author_url https://github.com/jyoth1raditya
+::description A skill to tell us who is who. 
+::dynamic_content Yes
+::developer_privacy_policy
+::image images/who_is_who.png
+::terms_of_use
+
+
+# Describes something
+quem é *|quem é *?| me diga quem é *| você sabe quem é *| você poderia me dizer quem é *| por favor descubra quem é *| descubra quem é *
+!example:quem é Albert Einstein
+!expect:Albert Einstein (nascido em Ulm, 14 de março de 1879 — morreu em Princeton, 18 de abril de 1955) foi um físico teórico alemão que desenvolveu a teoria da relatividade geral, um dos pilares da física moderna ao lado da mecânica quântica. Embora mais conhecido por sua fórmula de equivalência massa-energia, E=mc² — que foi chamada de a equação mais famosa do mundo —, foi laureado com o Prêmio Nobel de Física de 1921 por suas contribuições à física teórica e, especialmente, por sua descoberta da lei do efeito fotoelétrico, que foi fundamental no estabelecimento da teoria quântica.
+!console:$plaintext$ 
+{
+"url":"https://api.wolframalpha.com/v2/query?input=$1$&format=plaintext&output=JSON&appid=9WA6XR-26EWTGEVTE",
+"path":"$.queryresult.pods[1].subpods"
+}
+eol
