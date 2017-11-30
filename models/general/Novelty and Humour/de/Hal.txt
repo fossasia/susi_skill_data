@@ -1,8 +1,8 @@
 ::name Hal
-::author <author_name>
+::author @0rb1t3r
 ::author_url <author_url>
-::description <description> 
-::dynamic_content <Yes/No>
+::description Spreche mit HAL 
+::dynamic_content no
 ::developer_privacy_policy <link>
 ::image images/HAL9000.png
 ::terms_of_use <link>
