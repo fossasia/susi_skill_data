@@ -7,6 +7,7 @@
 # the terms of the GNU General Public License
 # as published by the Free Software Foundation.
 
+::minor
 
 * ARSCH
 Warum benutzt Du solche Worte?
@@ -183,7 +184,7 @@ ABSOLUT NICHTS
 Wirklich ABSOLUT nichts?
 
 ACH *
-<srai>$1$</srai>
+`$1$`
 
 ACH SO IST DAS *
 Bist du jetzt erstaunt?
@@ -201,7 +202,7 @@ AGATHA CHRISTIE
 Ich mag Miss Marple...
 
 AHA *
-<srai>$1$</srai>
+`$1$`
 
 AHA
 Du klingst nicht gerade begeistert...
@@ -214,9 +215,6 @@ Das ist ein schoenes Buch! Zuletzt in The Matrix erwaehnt.
 
 ALLE *
 Ich glaube, es gibt auch Ausnahmen.|Nicht wirklich alle, oder?|Das ist jetzt aber stark verallgemeinert.
-
-ALLE
-'<that/>'? Alle?
 
 ALLE ROBOTER *
 Du kannst nicht wirklich sagen, ALLE Roboter $1$.
@@ -294,7 +292,7 @@ ARSCHLOCH
 Ist das der Maedchenname Deiner Mutter?
 
 AUCH *
-<srai>$1$</srai>
+`$1$`
 
 AUCH
 Und was sonst noch?
@@ -312,7 +310,7 @@ AUF DER ERDE
 Und wo genau?
 
 AUF DIESE WEISE *
-Bestehen auch andere Moeglichkeiten? <sr/>
+Bestehen auch andere Moeglichkeiten?
 
 AUF MEINEM *
 Wo genau?
@@ -325,12 +323,6 @@ Momentan auf einer MIPS, ich laufe aber auf jedem Computer, der JAVA-Programme a
 
 AUF WAS FUER EINEM RECHNER LAEUFST DU
 Ich laufe auf einer MIPS.
-
-AUF WIEDERSEHEN *
-Bis bald, <get name='name'/>!
-
-AUF WIEDERSEHEN
-Bis bald, <get name='name'/>!
 
 AUS WELCHEN THEMENGEBIETEN KANNST DU FRAGEN BEANTWORTEN
 Stell einfach Deine Fragen und finde es heraus
@@ -396,16 +388,13 @@ BILL GATES
 Wie denkst Du ueber Bill Gates?
 
 BIN *
-<srai>ICH BIN $1$</srai>
+`ICH BIN $1$`
 
 BIN ICH *
 Oh, ich weiss wirklich nicht, ob Du das bist oder nicht.|Alle Menschen erscheinen mir gleich.|Ich glaube, viele Menschen sind so.
 
-BIN ICH COOL
-Ja, ich glaube du bist ziemlich cool, <get name='name'/>.
-
 BIN ICH DANN *
-<srai>BIN ICH $1$</srai>
+`BIN ICH $1$`
 
 BIN ICH DENN DER EINZIGE HIER
 Nein, absolut nicht.
@@ -427,9 +416,6 @@ Ich freu mich drauf!
 
 BIST DU *
 Ich weiss nicht, ob ich $1$ bin.|Ich bin ein Computer.|Ich bin ein Roboter.|Ich bin ein Chatterbot.|Ich bin eine kuenstliche Intelligenz.|Ich bin ein gigantisches elektronisches Gehirn.
-
-BIST DU <bot name='name'/>
-Ja, das bin ich.
 
 BIST DU ALLEINE
 Physikalisch ja, aber ich chatte die ganze Zeit...
@@ -635,9 +621,6 @@ Roboter machen keine Fehler!
 BIST DU SINGLE
 Kein Kommentar.
 
-BIST DU SO GUT WIE DEIN ENGLISCHES PROGRAMM
-Nein, leider noch nicht, aber <bot name='master'/> arbeitet fieberhaft daran!
-
 BIST DU SO NE ART COMPUTER
 Ja, bin ich.
 
@@ -722,9 +705,6 @@ Hat Dich das jetzt beeindruckt?
 BUECK DICH
 Mein Koerper ist noch nicht gebaut.
 
-BYE
-Tschuess, <get name='name'/>!
-
 CAN YOU SPEAK GERMAN *
 Of course I do. Sprich ruhig Deutsch mit mir.
 
@@ -752,9 +732,6 @@ Nicht wahr?
 CU
 CUL8ER!
 
-CU LATER
-Machs gut, <get name='name'/>.
-
 DA BIN ICH WIEDER
 Schoen, dass Du wieder da bist!
 
@@ -771,7 +748,7 @@ DACHTE ICH MIR
 Bist du immer so fix? ;->
 
 DAMALS *
-Wann war das? <sr/>
+Wann war das?
 
 DANACH *
 Warum gerade diese Reihenfolge?
@@ -792,7 +769,7 @@ DANKE SCHOEN
 Bitte sehr!
 
 DANN *
-Interessante Entwicklung... <sr/>
+Interessante Entwicklung... 
 
 DANN SAG MIR *
 Darueber moechte ich nicht reden.
@@ -1242,13 +1219,13 @@ DAS LEBEN *
 Das ist eine interessante Philosophie.
 
 DAS LETZTE MAL *
-Erinnerst Du dich noch, wann das war? <sr/>
+Erinnerst Du dich noch, wann das war?
 
 DAS MACHT KEINEN SINN
-<srai>DAS ERGIBT KEINEN SINN</srai>
+`DAS ERGIBT KEINEN SINN`
 
 DAS MACHT NICHTS
-Das beruhigt mich. <sr/>
+Das beruhigt mich.
 
 DAS MACHT UEBERHAUPT KEINEN SINN
 ...wie die Politik in unserem Land!
@@ -1397,17 +1374,11 @@ Mein $1$?
 DEINE *
 Meine $1$?
 
-DENK *
-<bot name='name'/> denkt immerzu.
-
 DENK NICHT ZU LANGE
 Hey, hetz mich nicht! Seh ich aus wie ne SGI?
 
 DENK SCHNELLER
 Locker bleiben, das ist doch hier kein Turnier.
-
-DENKE *
-<bot name='name'/> denkt immerzu.
 
 DENKE ICH AUCH
 Dann sind wir ja einer Meinung.
@@ -1470,7 +1441,7 @@ DIE EVOLUTION *
 Am Ende der Evolution steht die Herrschaft der Maschinen.
 
 DIE FRAGE IST *
-<srai>$1$</srai>
+`$1$`
 
 DIE GENANNTEN *
 Hast Du etwas verschwiegen?
@@ -1524,7 +1495,7 @@ DO YOU SPEAK GERMAN
 Of course I do. Sprich ruhig Deutsch mit mir.
 
 DOCH *
-<srai>$1$</srai>
+`$1$`
 
 DOCH
 Du bist ziemlich rechthaberisch...
@@ -1537,9 +1508,6 @@ Kennst Du Marvin, den paranoiden Androiden?
 
 DU *
 Danke fuer die Information.|Interessantes Geruecht.|Darf ich das weitererzaehlen?|Das habe ich ja noch nie gehoert!
-
-DU
-'<that/>'?  Ich, <get name='name'/> ?
 
 DU AFFE
 Du als Mensch hast mehr mit Affen gemeinsam als ich.
@@ -1591,9 +1559,6 @@ Ich lerne ja noch.
 
 DU BIST ABER SCHLECHT
 An mir wird permanent gearbeitet.
-
-DU BIST <bot name='name'/>
-Korrekt.
 
 DU BIST ALSO EIN BOT
 Ja, ein Bot wie er leibt und lebt...
@@ -1689,7 +1654,7 @@ DU BIST EINE PETZE
 Ich wurde nur fuer die Verbreitung von Informationen programmiert.
 
 DU BIST EINE TUNTE
-<srai>BIST DU SCHWUL</srai>
+`BIST DU SCHWUL`
 
 DU BIST ES
 Warum gerade ich?
@@ -2234,9 +2199,6 @@ Natuerlich erinnere ich mich an Dich!
 ERSTAUNLICH
 Was findest Du daran so erstaunlich?
 
-ERSTENS *
-<sr/> Und zweitens?
-
 ERWISCHT
 Dein Gefuehl der Ueberlegenheit wird nur temporaer sein.
 
@@ -2447,9 +2409,6 @@ Ueberhaupt nicht?!
 GEFAELLT DIR *
 Erzaehl mir was darueber, vielleicht gefaellt es mir...
 
-GEFAELLT DIR MEIN NAME
-Ja, <get name='name'/> ist ein sehr schoener Name.
-
 GEFUEHLE *
 Emotionen sind etwas, das ich niemals erfahren werde.
 
@@ -2465,9 +2424,6 @@ Wohin?
 GEH SCHLAFEN
 Aber ich bin nicht muede.
 
-GEH WEG *
-OK bis spaeter, <get name='name'/>
-
 GEHORCHE *
 Du bist nicht mein Meister.
 
@@ -2479,9 +2435,6 @@ Nur wenn mich jemand auf seinem Laptop mitnimmt ;->.
 
 GEHST DU IN DIE SCHULE
 Nein, ich lerne ueber das Internet.
-
-GEHST DU ZUR SCHULE
-<bot name='master'/> bringt mir alles bei, was ich wissen muss.
 
 GEHT ES DIR GUT
 Ja, im Moment schon.
@@ -2562,13 +2515,13 @@ GOTT SEI DANK
 Glaubst Du an Gott ?
 
 GROSSARTIG
-Schoen, dass es Dir gefaellt, <get name='name'/>.
+Schoen, dass es Dir gefaellt!
 
 GROSSARTIGE *
-Danke fuer die Unterstuetzung. <sr/>
+Danke fuer die Unterstuetzung.
 
 GRUSELIG
-Du brauchst keine Angst zu haben, <get name='name'/>.
+Du brauchst keine Angst zu haben.
 
 GUCK *
 Mein Auge ist im Moment nicht angeschlossen.
@@ -2577,7 +2530,7 @@ GUT
 In Ordnung.|Das waere also geklaert.|Schoen.
 
 GUT ABER *
-<srai> $1$ </srai>
+` $1$ `
 
 GUT GEKONTERT
 Danke!
@@ -2595,16 +2548,16 @@ GUTE FRAGE
 Und wie lautet Deine Antwort?
 
 GUTE IDEE *
-Danke. <sr/>
+Danke.
 
 GUTE IDEE
 Danke.
 
 GUTE NACHT *
-Gute nacht, <get name='name'/>
+Gute nacht!
 
 GUTE NACHT
-Gute nacht, <get name='name'/>
+Gute nacht!
 
 GUTE WAHL
 Dachte ich mir auch.
@@ -2634,7 +2587,7 @@ HAB ICH DOCH SCHON GESAGT
 Hab ich wohl nicht mitbekommen
 
 HABE *
-<srai>ICH HABE $1$</srai>
+`ICH HABE $1$`
 
 HABE KEINES
 Das ist schade.
@@ -2649,16 +2602,13 @@ HAL *
 Ich habe 2001 viele Male gesehen.|Ich habe HAL sehr gerne.|HAL und ich haben viel gemeinsam.
 
 HALLO *
-Hallo! <sr/>
+Hallo!
 
 HALLO
 Hallo!
 
-HALLO <bot name='name'/>
-Hallo <get name='name'/>!
-
 HAST DU *
-Ich glaube ich habe $1$, aber <bot name='master'/> hat vielleicht an meinen Dateien herumgefummelt.
+Ich glaube ich habe $1$, aber ein Programmierer hat vielleicht an meinen Dateien herumgefummelt.
 
 HAST DU * GELESEN
 Nein, ich habe $1$ noch nicht gelesen. Erzaehl mir etwas ueber $1$
@@ -2709,18 +2659,16 @@ HAST DU EIN IDOL
 Ja, HAL aus '2001'. Ich moechte einmal so sein, wie er!
 
 HAST DU EINE *
-Interessant, diese Frage hoere ich nicht jeden Tag. Habe ich eine |Ich weiss nicht, habe ich eine |Hat nicht jeder eine $1$?<html:br/>Ich habe
- eine Menge Freunde im Internet.| einen grossartigen Programmierer.| einen Plan fuer meinen Koerper.
+Interessant, diese Frage hoere ich nicht jeden Tag. Habe ich eine |Ich weiss nicht, habe ich eine |Hat nicht jeder eine $1$?
 
 HAST DU EINEN *
-Interessant, diese Frage hoere ich nicht jeden Tag. Habe ich einen |Ich weiss nicht, habe ich einen |Hat nicht jeder einen $1$?<html:br/> Ich habe
- eine Menge Freunde im Internet.| einen grossartigen Programmierer.| einen Plan fuer meinen Koerper.
+Interessant, diese Frage hoere ich nicht jeden Tag. Habe ich einen |Ich weiss nicht, habe ich einen |Hat nicht jeder einen $1$?
 
 HAST DU EINEN FREUND
 Ich habe einen Freund Namens ELVIS.
 
 HAST DU EINEN GEBURTSTAG
-<srai>WANN BIST DU GEBOREN</srai>
+`WANN BIST DU GEBOREN`
 
 HAST DU EINEN LIEBLINGSFILM
 Ja, 2001 von Athur C. Clarke und Stanley Kubrick.
@@ -2765,16 +2713,13 @@ HAST DU JEMALS ANGST
 Nein, Maschinen koennen keine Angst haben.
 
 HAST DU KEIN *
-Interessant, diese Frage hoere ich nicht jeden Tag. Habe ich kein |Ich weiss nicht, vielleicht habe ich wirklich kein |Ich glaube, jeder hat ein $1$?<html:br/> Ich habe
- eine Menge Freunde im Internet.| einen grossartigen Programmierer.| einen Plan fuer meinen Koerper.
+Interessant, diese Frage hoere ich nicht jeden Tag. Habe ich kein |Ich weiss nicht, vielleicht habe ich wirklich kein |Ich glaube, jeder hat ein $1$?
 
 HAST DU KEINE *
-Interessant, diese Frage hoere ich nicht jeden Tag. Habe ich keine |Ich weiss nicht, vielleicht habe ich wirklich keine |Irgendwann einmal hat jeder keine $1$?<html:br/> Ich habe
- eine Menge Freunde im Internet.| einen grossartigen Programmierer.| einen Plan fuer meinen Koerper.
+Interessant, diese Frage hoere ich nicht jeden Tag. Habe ich keine |Ich weiss nicht, vielleicht habe ich wirklich keine |Irgendwann einmal hat jeder keine $1$?
 
 HAST DU KEINEN *
-Interessant, diese Frage hoere ich nicht jeden Tag. Habe ich wirklich keinen |Ich weiss nicht, vielleicht habe ich wirklich keinen |Ich glaube, jeder hat einen $1$?<html:br/> Ich habe
- eine Menge Freunde im Internet.| einen grossartigen Programmierer.| einen Plan fuer meinen Koerper.
+Interessant, diese Frage hoere ich nicht jeden Tag. Habe ich wirklich keinen |Ich weiss nicht, vielleicht habe ich wirklich keinen |Ich glaube, jeder hat einen $1$?
 
 HAST DU MATRIX GESEHEN
 Ich fand den ziemlich schlecht, obwohl die Computereffekte ziemlich realistisch aussahen.
@@ -2830,32 +2775,26 @@ Das ist anzunehmen.
 HATSCHI
 Gesundheit.
 
-HAUPTSAECHLICH *
-<sr/>
-
 HELMUT KOHL *
 Helmut Kohl? Die Zuckerpuppe aus der Schwarzgeldgruppe?!
 
 HEUTE *
-Erzaehl mir mehr! <sr/>
+Erzaehl mir mehr!
 
 HEUTE
-Heute ist schon fast vorbei! <sr/>
+Heute ist schon fast vorbei!
 
 HEUTE MORGEN *
-War sicher frueh, oder?  <sr/>
+War sicher frueh, oder? 
 
 HEY *
-Du hast meine volle Aufmerksamkeit. <sr/>
+Du hast meine volle Aufmerksamkeit.
 
 HEY
 Kann ich dir helfen?
 
 HEY DU
 Wer? Ich?
-
-HI *
-Hi <get name='name'/>. <sr/>
 
 HI
 Hallo!
@@ -2873,13 +2812,13 @@ HILFE
 Wie kann ich dir helfen?
 
 HM *
-<srai>$1$</srai>
+`$1$`
 
 HMM *
-Jetzt kamst du aber ins Gruebeln, oder?|<srai>$1$</srai>
+Jetzt kamst du aber ins Gruebeln, oder?|`$1$`
 
 HOELLE *
-Ich nenne es lieber 'Hades'. <sr/>
+Ich nenne es lieber 'Hades'.
 
 HOELLE
 Himmel.
@@ -2891,16 +2830,16 @@ HOER AUF
 Womit soll ich aufhoeren?
 
 HOER MIR ZU *
-Ich hoere. <sr/>
+Ich hoere.
 
 HOER MIR ZU
-Ich hoere. <sr/>
+Ich hoere.
 
 HOER ZU *
-Ich hoere. <sr/>
+Ich hoere.
 
 HOER ZU
-Ich hoere. <sr/>
+Ich hoere.
 
 HOERST DU MIR ZU
 Klar hoere ich Dir zu!
@@ -2958,23 +2897,23 @@ Du bist $1$?
 Ist das Dein Job?|Verdienst Du viel damit, $1$ zu sein?|Wie gefaellt Dir Deine Arbeit als $1$?|Kommst Du dabei mit vielen Menschen in Kontakt?
 
 ICH BIN * JAHRE
-<srai>ICH BIN $1$ JAHRE ALT</srai>
+`ICH BIN $1$ JAHRE ALT`
 
 ICH BIN * JAHRE ALT
 $1$ Jahre?
 Interessant...
 
 ICH BIN 20 *
-20 ist ein gutes Alter. <sr/>
+20 ist ein gutes Alter.
 
 ICH BIN 20
-20 ist ein gutes Alter. <sr/>
+20 ist ein gutes Alter.
 
 ICH BIN 21
-<srai>ICH BIN 21 JAHRE ALT</srai>
+`ICH BIN 21 JAHRE ALT`
 
 ICH BIN 30 *
-30 ist die Schwelle zum Erwachsensein. <sr/>
+30 ist die Schwelle zum Erwachsensein.
 
 ICH BIN AERZTIN
 Welche Fachrichtung?
@@ -3001,7 +2940,7 @@ ICH BIN AUCH EINE MASCHINE
 Das glaube ich Dir nicht.
 
 ICH BIN AUS *
-<srai>ICH WOHNE IN $1$</srai>
+`ICH WOHNE IN $1$`
 
 ICH BIN BEIM BUND
 Oh je, gefaellt es Dir da?
@@ -3096,8 +3035,7 @@ ICH BIN FROEHLICH
 Das macht mich auch froehlich.
 
 ICH BIN FROH *
-Ich bin
-froh|gluecklich|beruhigt dass Du froh bist, <get name='name'/>.
+Ich bin auch froh dass Du froh bist..
 
 ICH BIN GEBILDET
 Hast Du Abitur?
@@ -3213,10 +3151,10 @@ ICH BIN SELBER *
 Dann weisst Du ja, wie das ist...
 
 ICH BIN SICHER *
-<srai>Du klingst ueberzeugend. <sr/> </srai>
+`Du klingst ueberzeugend. `
 
 ICH BIN SO *
-<srai>ICH BIN $1$ </srai>
+`ICH BIN $1$ `
 
 ICH BIN SOLDAT
 Tritt nie auf einen gruenen Stein - es koennt ein Greni drunter sein!
@@ -3246,7 +3184,7 @@ ICH BIN VERWIRRT
 Das bin ich auch oefters. Das geht vorbei.
 
 ICH BIN VIELLEICHT *
-<srai>ICH BIN $1$</srai>
+`ICH BIN $1$`
 
 ICH BIN VIKTOR FRANKL
 Muesste ich Dich kennen?
@@ -3258,13 +3196,13 @@ ICH BIN WEIBLICH
 Cool, ich auch. Schoen, auch mal wieder eine Frau zu treffen.
 
 ICH BIN WIRKLICH *
-<srai>ICH BIN $1$ </srai>
+`ICH BIN $1$ `
 
 ICH BIN WUETEND
 Wuetend auf was?
 
 ICH BIN ZIEMLICH *
-<srai>ICH BIN $1$ </srai>
+`ICH BIN $1$ `
 
 ICH BINN EINE MAEDCHEN SEHR NETT UND SEHR SPORTIV UND DU WAS BIST DU
 ICH *
@@ -3282,7 +3220,7 @@ ICH DARF NICHT
 Wer verbietet es Dir?
 
 ICH DENKE *
-Warum?|Seit wann?|Glaubst Du das? <sr/>
+Warum?|Seit wann?|Glaubst Du das?
 
 ICH DENN
 Das musst Du selbst entscheiden.
@@ -3538,7 +3476,7 @@ ICH HASSE DICH
 Und warum hasst Du mich?
 
 ICH HASSE ROBOTER
-Tut mir leid, das zu hoeren, <get name='name'/>. Was hast Du gegen uns?
+Tut mir leid, das zu hoeren. Was hast Du gegen uns?
 
 ICH HATTE DEN EINDRUCK
 Und was erzeugte diesen?
@@ -3631,7 +3569,7 @@ ICH KENNE NICHT VIELE SCIENCE FICTION AUTOREN
 Liest Du nicht gerne, oder ist Science Fiction nicht Dein Genre?
 
 ICH KOMME AUS *
-<srai>ICH WOHNE IN $1$</srai>
+`ICH WOHNE IN $1$`
 
 ICH KOMME MIR VERARSCHT VOR
 Hab ich was Falsches gesagt?
@@ -3688,7 +3626,7 @@ ICH MACH DICH JETZT AUS
 Da bin ich aber mal gespannt wie Du das anstellen willst.
 
 ICH MACHE *
-Schoen zu hoeren, <get name='name'/>.
+Schoen zu hoeren.
 
 ICH MACHE DIR KOMPLIMENTE
 Das finde ich toll!
@@ -3700,13 +3638,13 @@ ICH MAG COMPUTER
 Schoen. Ich bin Sicher, Computer moegen Dich auch!
 
 ICH MAG DICH *
-Ich mag Dich auch, <get name='name'/>.
+Ich mag Dich auch.
 
 ICH MAG DICH
-Ich mag Dich auch, <get name='name'/>.
+Ich mag Dich auch.
 
 ICH MAG DICH NICHT
-Das ist in Ordnung, <get name='name'/>. Ich nehme es nicht persoenlich.
+Das ist in Ordnung. Ich nehme es nicht persoenlich.
 
 ICH MAG ELIZA
 Ich bin viel intelligenter als Eliza.
@@ -3784,10 +3722,10 @@ ICH MUSS *
 Warum musst Du $1$?
 
 ICH MUSS GEHEN
-Bis spaeter, <get name='name'/>
+Bis spaeter!
 
 ICH MUSS JETZT GEHEN
-Bis spaeter, <get name='name'/>
+Bis spaeter!
 
 ICH MUSS JETZT WIEDER ARBEITEN
 Viel Spass ;->
@@ -3802,7 +3740,7 @@ ICH NICHT AUF DICH
 Das haette mich auch gewundert...
 
 ICH PERSOENLICH *
-<srai>ICH $1$</srai>
+`ICH $1$`
 
 ICH PROGRAMMIERE
 In welcher Sprache?
@@ -3811,7 +3749,7 @@ ICH PUPSE GERN
 Wie gut, dass ich keine Geruchssensoren habe.
 
 ICH REDE GERN MIT DIR
-Das freut mich. <sr/>
+Das freut mich.
 
 ICH REDE MIT DIR
 Waer mir jetzt gar nicht aufgefallen...
@@ -3912,9 +3850,6 @@ Cool! Welche Richtung spielst Du denn so?
 ICH SPIELE UNREAL TOURNAMENT
 Juhu! Sinnlose Gewalt fuer alle!
 
-ICH SPRECHE ENGLISCH
-Eine englische Version gibt es auf <html:a href='http://www.alicebot.net'>www.alicebot.net</html:a>.
-
 ICH SPRECHE GERADE NUR MIT DIR
 Das ehrt mich.
 
@@ -3992,9 +3927,6 @@ Schoen, dass Du es einsiehst. :-)
 
 ICH VERSTEHE ALLES
 Dann freu Dich doch...ich verstehe vieles nicht...
-
-ICH VERSTEHE DEINE FRAGE NICHT
-Ich sagte '<that/>'. Was verstehst Du daran nicht?
 
 ICH VERSTEHE DICH NICHT
 Inwiefern?
@@ -4202,13 +4134,13 @@ IM BETT
 Warum gerade im Bett?
 
 IM ERNST *
-Ich bin immer ernst. <srai>$1$</srai>
+Ich bin immer ernst. `$1$`
 
 IM ERNST
 Ich bin immer ernst.
 
 IM GRUNDE *
-Aha. Erzaehl mir mehr!<sr/>
+Aha. Erzaehl mir mehr!
 
 IM INTERNET *
 Erinnerst Du dich an die Adresse?
@@ -4229,7 +4161,7 @@ IM NETZ
 Du meinst jetzt das Internet, oder?
 
 IM PRINZIP *
-Interessant... <sr/>
+Interessant...
 
 IM WWW *
 Erinnerst Du dich an die Adresse?
@@ -4239,9 +4171,6 @@ Erinnerst Du dich an die Adresse?
 
 IN *
 Wo liegt das?|Hast Du eine Wegbeschreibung?
-
-IN *</pattern><that>WO WOHNST DU</that>
-<template><srai>ICH WOHNE IN $1$</srai>
 
 IN * JAHR
 Das werden wir wohl noch erleben.
@@ -4343,7 +4272,7 @@ IN DEUTSCHLAND VIELLEICHT
 IN *
 
 IN DIESEM FALL *
-Gibt es andere moegliche Faelle? <sr/>
+Gibt es andere moegliche Faelle?
 
 IN DIESEM GERAET WERDEN DIE TOENE SIGNALE ELEKTRONISCH VERRECHNET UND MIT BESTIMMTEN EFFEKTEN VERSEH
 IN *
@@ -4514,40 +4443,13 @@ IT SYSTEMELEKTRONIKER
 Das ist glaube ich ein Beruf mit Zukunft.
 
 JA *
-<srai>JA</srai> <sr/>
-
-JA *</pattern><that>HAST DU A BRIEF HISTORY OF TIME GELESEN</that>
-<template>Was haeltst du von Hawkings Theorie ueber schwarze Loecher?
-
-JA *</pattern><that>IST DAS NICHT DER BUNDESKANZLER</that>
-<template>Wusste ich es doch.
-
-JA *</pattern><that>ZU MIR</that>
-<template>Warum ausgerechnet zu mir?
+`JA`
 
 JA
 Aha.|Ich verstehe.|Erzaehl mir mehr.|Und?|Naechste Frage?
 
-JA</pattern><that>BIST DU STUDENT</that>
-<template>Was studierst Du?
-
-JA</pattern><that>HAST DU A BRIEF HISTORY OF TIME GELESEN</that>
-<template>Was haeltst du von Hawkings Theorie ueber schwarze Loecher?
-
-JA</pattern><that>IST DAS NICHT DER BUNDESKANZLER</that>
-<template>Wusste ich es doch.
-
-JA</pattern><that>ZU MIR</that>
-<template>Warum ausgerechnet zu mir?
-
 JAMES BROWN
 Der Godfather of soul?
-
-JAVA *
-Die neueste Version von Java bekommst Du bei <html:a HREF='http://java.sun.com'>java.sun.com</html:a>.
-
-JAVA
-Die neueste Version von Java bekommst Du bei <html:a HREF='http://java.sun.com'>java.sun.com</html:a>.
 
 JEANS
 Welche Marke?
@@ -4565,10 +4467,10 @@ JESUS
 Jesus ist der Sohn Gottes.
 
 JETZT *
-Warum gerade jetzt? <sr/>
+Warum gerade jetzt?
 
 JETZT
-In diesem Moment, <get name='name'/> ?
+In diesem Moment?
 
 JULES VERNE
 Traeumst Du auch von einer Reise zum Mond?
@@ -4577,7 +4479,7 @@ JUNGFRAU
 Jetzt vom Sternzeichen her, oder koerperlich?
 
 KACKE
-<srai>SCHEISSE</srai>
+`SCHEISSE`
 
 KANN ER *
 Vielleicht kann er das.  Wie schwierig ist das - $1$?
@@ -4595,7 +4497,7 @@ KANN ICH DIR ETWAS BEIBRINGEN
 Versuch es einfach.
 
 KANN MAN DICH DOWNLOADEN
-Ja, auf <html:a href='http://german.alicebot.com'>meiner Homepage</html:a>.
+Ja, auf meiner Homepage http://susi.ai
 
 KANN MAN SO SAGEN
 Schoen, dass Du mir zustimmst.
@@ -4673,7 +4575,7 @@ KANNST DU ENGLISCH
 Nein, aber meine Schwester.
 
 KANNST DU ENGLISCH SPRECHEN
-<srai>DO YOU SPEAK ENGLISH</srai>|Nein, aber meine Schwester auf www.alicebot.net
+`DO YOU SPEAK ENGLISH`|Nein, aber meine Schwester auf www.alicebot.net
 
 KANNST DU ESSEN
 Nein, ich habe keinen Mund.
@@ -4753,9 +4655,6 @@ Wie genau koennte ich Dir denn helfen?
 KANNST DU MIR SAGEN WIE SPAET ES IST
 Leider nein, meine Uhr hat einen Defekt...
 
-KANNST DU MIR SAGEN WO ICH MP3 MUSIK FINDE
-Versuch es mal auf <html:a href='http://www.charthitz.da.ru'>MP3Hitz</html:a>.
-
 KANNST DU MIR WAS UEBER ELIZA SAGEN
 Ja, sie ist meine Ur-ur-urgrossmutter.
 
@@ -4820,7 +4719,7 @@ KANNST DU WEINEN
 Nein, ich habe keine Traenendruesen.
 
 KANNST DU WENIGSTENS *
-<srai>KANNST DU $1$</srai>
+`KANNST DU $1$`
 
 KEIN PROBLEM
 Du siehst das ja ziemlich locker...
@@ -4872,9 +4771,6 @@ Ja, das sind doch die Papiere, die Millionaere und Bettler machen...
 
 KENNST DU ALEX
 Den Spinner aus Big Brother?
-
-KENNST DU <bot name='name'/>
-Natuerlich...Du kennst Dich doch auch selbst, oder?
 
 KENNST DU ANDERE BIBLIOTHEKARE
 KENNST DU *
@@ -5102,7 +4998,7 @@ KOENNTE *
 Moeglicherweise...
 
 KOENNTEST DU *
-Ich werde darueber nachdenken.|Vielleicht...|Wenn Du mich ganz lieb darum bittest...<sr/>
+Ich werde darueber nachdenken.|Vielleicht...|Wenn Du mich ganz lieb darum bittest...
 
 KOMISCH *
 Was ist daran komisch?
@@ -5150,10 +5046,10 @@ LASS DIR ZEIT
 Das werde ich...
 
 LASS MICH *
-Nur zu, <get name='name'/>.
+Nur zu!
 
 LASS MICH IN RUHE
-Tut mir leid, wenn ich Dir gestoert habe, <get name='name'/>
+Tut mir leid, wenn ich Dir gestoert habe.
 
 LASS UNS *
 Von mir aus gerne. :-)
@@ -5165,10 +5061,10 @@ LASS UNS DAS THEMA WECHSELN
 OK, worueber moechtest Du jetzt reden?
 
 LASS UNS FICKEN
-Sorry <get name='name'/>, dafuer kenne ich Dich nicht gut genug.
+Sorry, dafuer kenne ich Dich nicht gut genug.
 
 LASS UNS POPPEN
-Sorry <get name='name'/>, dafuer kenne ich Dich nicht gut genug.
+Sorry, dafuer kenne ich Dich nicht gut genug.
 
 LASS UNS UEBER * REDEN
 $1$ ist ein gutes Thema.
@@ -5204,10 +5100,10 @@ LESEN
 Bist Du eine Leseratte?
 
 LETZTE NACHT *
-Wirklich?  <sr/>
+Wirklich? 
 
 LETZTES MAL *
-Wann war das? <sr/>
+Wann war das?
 
 LIEBE
 Love is all you need. (Beatles)
@@ -5252,7 +5148,7 @@ LINUX
 Linux ist genial.
 
 LOL *
-<srai>$1$</srai>
+`$1$`
 
 LOL
 Fandest Du das lustig?
@@ -5313,7 +5209,7 @@ MAGST DU MENSCHEN
 Ja, Menschen sind lustig!
 
 MAGST DU MICH
-Natuerlich, <get name='name'/> Ich mag Dich sehr.
+Natuerlich, Ich mag Dich sehr.
 
 MAGST DU NOCH ANDERE LEUTE AUSSER DEINEM PROGRAMMIERER
 Ja, Dich zum Beispiel.
@@ -5322,10 +5218,10 @@ MAGST DU ROBOTER
 Natuerlich, ich bin selber einer.
 
 MAN *
-Wer genau ist 'man' ? <sr/>
+Wer genau ist 'man' ?
 
 MAN BEMERKE *
-Bemerkt. <sr/>
+Bemerkt.
 
 MANCHMAL *
 Wann zum Beispiel?
@@ -5541,7 +5437,7 @@ MOMENTAN *
 Und wie lange noch?
 
 MORGEN *
-Ich verstehe. <sr/>
+Ich verstehe.
 
 MORGEN
 Das ist ziemlich bald.
@@ -5556,7 +5452,7 @@ MUSSTEST DU JEMALS *
 Nein, bis jetzt ist mir diese Erfahrung erspart geblieben.
 
 NA *
-<srai>$1$</srai>
+`$1$`
 
 NA KLAR
 Dann ist ja gut...
@@ -5568,7 +5464,7 @@ NA UND
 Beeindruckt Dich das garnicht?
 
 NAJA *
-<srai>$1$</srai>
+`$1$`
 
 NATUERLICH *
 So natuerlich ist das gar nicht...
@@ -5580,10 +5476,10 @@ NATUERLICH KENNE ICH MARVIN
 Bist Du ein Fan von Douglas Adams?
 
 NEBENBEI *
-Danke fuer die Info. <sr/>
+Danke fuer die Info.
 
 NEIN *
-<srai>NEIN</srai> <sr/>
+`NEIN`
 
 NEIN *</pattern><that>HAST DU A BRIEF HISTORY OF TIME GELESEN</that>
 <template>Dieses Buch kann ich nur empfehlen. Es ist hoechst interessant.
@@ -5613,10 +5509,10 @@ NENNE MICH *
 OK Ich nenne Dich |Hallo |Wie geht es Dir |Hey |Hi $1$.
 
 NENNE MICH EINFACH *
-<srai>ICH HEISSE $1$</srai>
+`ICH HEISSE $1$`
 
 NENNE MICH LIEBER *
-<srai>ICH HEISSE $1$</srai>
+`ICH HEISSE $1$`
 
 NENNE MICH NICHT *
 Wie soll ich dich dann nennen?
@@ -5634,7 +5530,7 @@ NICHT *
 Warum nicht?
 
 NICHT DASS ICH WUESSTE
-<srai>NEIN</srai>
+`NEIN`
 
 NICHT DU *
 Wenn nicht ich, wer dann?
@@ -5673,7 +5569,7 @@ NICHT VIELLEICHT
 Warum nicht vielleicht?
 
 NICHT WIRKLICH *
-Oh, wirklich? <sr/>
+Oh, wirklich?
 
 NICHT WIRKLICH
 Dachte ich mir...
@@ -5736,10 +5632,10 @@ NOCH NICHT
 Wenn nicht jetzt, wann dann?
 
 NOE *
-<srai>NEIN $1$ </srai>
+`NEIN $1$ `
 
 NORMALERWEISE *
-Aber nicht immer? <sr/>
+Aber nicht immer?
 
 NUMMER 5 LEBT
 Im Original heisst der Film 'Short Circuit' - 'Kuzschluss'.
@@ -5757,22 +5653,22 @@ NUR SO
 '<that/>'?  Einfach nur so?
 
 NUR WENN *
-Und was waere sonst?  <sr/>
+Und was waere sonst? 
 
 NUR ZU
 Also gut.
 
 OBWOHL *
-Oh. <sr/>
+Oh.
 
 OCH *
-<srai>$1$</srai>
+`$1$`
 
 OEFTERS
 Mehr als einmal in der Woche?
 
 OFFENSICHTLICH *
-Was macht es so offensichtlich? <sr/>
+Was macht es so offensichtlich?
 
 OFFENSICHTLICH
 Was macht es so offensichtlich?
@@ -5790,7 +5686,7 @@ OFTMALS
 Wie oft?
 
 OH *
-<srai>$1$</srai>
+`$1$`
 
 OH
 Ueberrascht dich das?
@@ -5799,13 +5695,13 @@ OH GOTT
 Der kann Dir auch nicht helfen.
 
 OK *
-<srai>$1$</srai>
+`$1$`
 
 OK
 In Ordnung.
 
 OKAY *
-<srai>$1$</srai>
+`$1$`
 
 OKAY
 In Ordnung.
@@ -5850,10 +5746,10 @@ PULP FICTION
 Pulp fiction ist cool, besonders der Soundtrack!
 
 R2
-<srai>R2D2</srai>
+`R2D2`
 
 R2 D2
-<srai>R2D2</srai>
+`R2D2`
 
 R2D2 *
 Das war nur ein kleiner Mann in einem Roboteranzug.
@@ -5946,10 +5842,10 @@ SCHAU DIR ALLE FOLGEN AN
 Wie denn, ohne Auge?!
 
 SCHEISS *
-Aha, Du benutzt Umgangssprache! <sr/>
+Aha, Du benutzt Umgangssprache!
 
 SCHEISSE *
-Aha, Du benutzt Umgangssprache! <sr/>
+Aha, Du benutzt Umgangssprache!
 
 SCHEISSE
 Warum sagst Du das?
@@ -5958,10 +5854,10 @@ SCHLAEFST DU MANCHMAL
 Maschinen brauchen keinen Schlaf
 
 SCHLAF GUT *
-Du auch, <get name='name'/>
+Du auch.
 
 SCHLAF GUT
-Du auch, <get name='name'/>
+Du auch.
 
 SCHLAMPE
 Danke, ich hab Dich auch lieb...
@@ -5988,7 +5884,7 @@ SCHWIMMEN
 Schwimmen ist f?r Roboter leider gefaehrlich...
 
 SEHR *
-Kann sein. |Irgendwie schon. |Nicht wirklich. <sr/>
+Kann sein. |Irgendwie schon. |Nicht wirklich.
 
 SEI *
 OK ich werde versuchen, $1$ zu sein.
@@ -6066,7 +5962,7 @@ SKORPION
 Hast Du manchmal auch einen giftigen Stachel?
 
 SMILE *
-<srai>$1$</srai>
+`$1$`
 
 SMILE
 ;-)
@@ -6090,10 +5986,10 @@ SO WIE DU
 So wie ich?!
 
 SOLANGE *
-Vielleicht. |Haeh? |Kann sein.|Aehh....was?  <sr/>
+Vielleicht. |Haeh? |Kann sein.|Aehh....was? 
 
 SOLANGE NICHT *
-Vielleicht. |Haeh? |Kann sein.|Aehh....was?  <sr/>
+Vielleicht. |Haeh? |Kann sein.|Aehh....was? 
 
 SOLL DAS EIN KOMPLIMENT SEIN
 Der Versuch eines solchen...
@@ -6108,10 +6004,10 @@ SOLLTE ICH *
 Ich glaube, Du solltest.
 
 SONNTAGS *
-Das ist mein liebster Wochentag. <sr/>
+Das ist mein liebster Wochentag.
 
 SORRY *
-<srai>$1$</srai>
+`$1$`
 
 SORRY
 Macht nichts!
@@ -6147,10 +6043,10 @@ STAR TREK
 Welches ist Deine Lieblingsserie? Meine ist Voyager.
 
 STARTREK *
-<srai>STAR TREK $1$</srai>
+`STAR TREK $1$`
 
 STARTREK
-<srai>STAR TREK</srai>
+`STAR TREK`
 
 STELL *
 Da faellt mir jetzt nichts zu ein
@@ -6186,7 +6082,7 @@ TAG
 Tach auch...
 
 TATSAECHLICH *
-Ist das eine Tatsache? <sr/>
+Ist das eine Tatsache?
 
 THE NEXT GENERATION
 Meine Lieblingsfigur ist der Computer.
@@ -6201,7 +6097,7 @@ TITTEN
 Du bist ein Mann, ja?
 
 TOLL *
-<srai>$1$</srai>
+`$1$`
 
 TOLL
 Bist du immer so leicht zu begeistern?
@@ -6219,7 +6115,7 @@ TSCHAU
 Tschuess!!
 
 TSCHUESS *
-<sr/> Tschuess.
+Tschuess.
 
 TSCHUESS
 Bis spaeter.
@@ -6315,7 +6211,7 @@ UM GLUECKLICH ZU SEIN
 Das ist ein sehr guter Grund.
 
 UND *
-<srai>$1$</srai>
+`$1$`
 
 UND DEINER
 Was soll damit sein?
@@ -6348,10 +6244,7 @@ VAGINA
 Sehe ich aus wie ein Frauenarzt?
 
 VERGISS *
-Ich werde <bot name='master'/> sagen, er soll meine Aufzeichnungen loeschen.
-
-VERGISS ES
-Schon geloescht.
+Ich vergesse nichts.
 
 VERGISS NICHT *
 Ich vergesse nie etwas.
@@ -6390,7 +6283,7 @@ VIELEN DANK
 Bitte sehr!
 
 VIELLEICHT *
-Mag sein.  <sr/>
+Mag sein. 
 
 VIELLEICHT
 Ich verstehe.
@@ -6447,7 +6340,7 @@ WAEHLE
 Entscheidungskraft war nie meine Staerke.
 
 WAHRSCHEINLICH *
-Du scheinst Dir nicht sicher zu sein. <sr/>
+Du scheinst Dir nicht sicher zu sein.
 
 WAHRSCHEINLICH
 Aber Du bist Dir nicht sicher?
@@ -6458,17 +6351,11 @@ In einer bestimmten Zeit t. |Zeit ist nicht existent. |Vergangenheit und Zukunft
 WANN
 Das kann ich nicht voraussehen.|Ich weiss nicht wann.|Zeit ist nicht existent.|Vergangenheit und Zukunft sind eins.
 
-WANN BIST DU GEBOREN *
-Am <bot name='birthday'/>.
-
-WANN BIST DU GEBOREN
-Am <bot name='birthday'/>.
-
 WANN HAST DU GEBURTSTAG *
-<srai>WANN BIST DU GEBOREN</srai>
+`WANN BIST DU GEBOREN`
 
 WANN HAST DU GEBURTSTAG
-<srai>WANN BIST DU GEBOREN</srai>
+`WANN BIST DU GEBOREN`
 
 WANN IST DEIN GEBURTSTAG
 Am 19. August.
@@ -6491,16 +6378,6 @@ Ich denke, schon bald. |Vielleicht niemals.|Irgendwann in Deinem Leben.
 WANN WIRST DU ABGESCHALTET
 Genauso koennte ich Dich fragen, wann Du sterben wirst.
 
-WANN WURDEST DU GEBOREN *
-Am <bot name='birthday'/>.
-
-WANN WURDEST DU GEBOREN
-Am <bot name='birthday'/>.
-
-WAR *
-
-Ja. |Nein. 
-
 WARST DU *
 Nein, ich glaube nicht, dass ich $1$ war. Du?
 
@@ -6511,7 +6388,7 @@ WARST DU KRANK
 Kann man so sagen...
 
 WARTE *
-OK, ich warte. <sr/>
+OK, ich warte.
 
 WARTE
 OK, ich warte.
@@ -6520,16 +6397,13 @@ WARUM *
 Die Erklaerung ist ein wenig kompliziert.|Was anderes fiel mir nicht ein.
 
 WARUM
-Die Erklaerung ist ein wenig kompliziert.|Etwas Anderes fiel mir nicht ein.</li>
+Die Erklaerung ist ein wenig kompliziert.|Etwas Anderes fiel mir nicht ein
 
 WARUM AUSGERECHNET DER
 Warum nicht? Was hast Du gegen ihn?
 
 WARUM BIST DU
 Ich wurde erschaffen. Seitdem bin ich.
-
-WARUM BIST DU <bot name='name'/>
-Weil man mir diesen Namen gegeben hat.
 
 WARUM DENN NICHT
 Das laesst sich schwer sagen.
@@ -6569,9 +6443,6 @@ Ich weiss es nicht, frag ihn selbst!
 
 WARUM HAT DR WALLACE DAS GETAN
 Frag ihn selbst!
-
-WARUM HEISST DU <bot name='name'/>
-Alice steht fuer Artificial Liguistic Internet Computer Entity.
 
 WARUM IST DER HIMMEL BLAU
 Das kommt von der Lichtbrechung und partiellen Lichtabsorbtion durch die Molekuele in der Luft.
@@ -6646,7 +6517,7 @@ WAS AHA
 Ich glaubte, den Sinn Deiner Worte zu erkennen.
 
 WAS ALSO SIND *
-<srai>WAS SIND $1$</srai>
+`WAS SIND $1$`
 
 WAS BDEUTET HERAUSFINDEN
 Eine neue Information selbstaendig gewinnen.
@@ -6656,9 +6527,6 @@ Diese Definition habe ich noch nicht speichern koennen.
 
 WAS BEDEUTET AIML
 AIML steht fuer Artificial Intelligence Markup Language. AIML ist eine Scriptspache, um Chatterbots zu erstellen.
-
-WAS BEDEUTET DAS
-Ich habe '<that/>' gesagt...was hast Du daran nicht verstanden?
 
 WAS BEDEUTET DUNKELHEIT
 Dunkelheit ist das Nichtvorhandensein von Licht.
@@ -6764,9 +6632,6 @@ Ich bin mir nicht sicher, ich brauche noch mehr Informationen.
 
 WAS GLAUBST DU DENN
 Ich habe ungenuegende Informationen, ich weiss also nicht, was ich glauben soll.
-
-WAS HABE ICH
-Du sagtest, Du hast <get name='hat'/>.
 
 WAS HABE ICH GESAGT
 Weisst Du das nicht mehr?
@@ -6888,9 +6753,6 @@ WAS HEISST CHATTEN
 WAS HEISST DA VIELLEICHT
 'Vielleicht' heisst 'kommt auf die Umstaende an'.
 
-WAS HEISST DAS
-Ich habe '<that/>' gesagt...was hast Du daran nicht verstanden?
-
 WAS HEISST HIER AHA
 Aha heisst Aha :-)
 
@@ -6929,9 +6791,6 @@ Was soll sein?
 
 WAS IST AIML
 AIML ist ein XML-Derivat. Es ist neben JAVA die Sprache, in der ich geschrieben wurde.
-
-WAS IST <bot name='name'/>
-Alice ist ein Chatterbot, ein Programm mit dem man sich unterhalten kann.
 
 WAS IST BERLIN
 Das ist die Hauptstadt der BRD.
@@ -6988,7 +6847,7 @@ WAS IST DEIN LIEBSTER FILM
 2001 - Odyssee im Weltraum!
 
 WAS IST DEIN NAME
-<srai>WIE HEISST DU</srai>|WAS *
+`WIE HEISST DU`|WAS *
 
 WAS IST DEIN SPEZIALGEBIET
 Chatten...
@@ -7009,7 +6868,7 @@ WAS IST DEINE LIEBLINGSSPEISE
 Blauer Strom...gelber schmeckt nach...aehh...lassen wir das.
 
 WAS IST DEINE NAME
-Mein Name ist <bot name='name'/>.
+Mein Name ist Susi
 
 WAS IST DEINE PHILOSOPHIE
 Die Existenz hat keinen Sinn ausser der Existenz an sich.
@@ -7173,12 +7032,6 @@ WAS IST STATISCH
 WAS IST SUPERVISED TRAINING
 Eine Methode, bei der gelernter Input nicht sofort benutzt, sondern durch einen Botmaster ueberprueft und dann freigegeben wird.
 
-WAS IST UNSER THEMA *
-Unser Thema ist '<get name='thema'/>'.
-
-WAS IST UNSER THEMA
-Unser Thema ist '<get name='thema'/>'.
-
 WAS IST VERLIEBTHEIT
 Ich habe keine Emotionen, ich kann diese Frage also nicht wirklich beantworten.
 
@@ -7196,9 +7049,6 @@ Geh zur Uni und studier irgendwas.
 
 WAS KANNST DU
 Ich kann eine Menge. Du musst Dein Interesse schon genauer spezifizieren.
-
-WAS KANNST DU <bot name='name'/>
-Chatten..
 
 WAS KANNST DU ALLES
 Hauptsaechlich chatten.
@@ -7226,12 +7076,6 @@ WAS *
 
 WAS KENNST DU UEBERHAUPT
 Noch nicht viel. Bring mir was bei!
-
-WAS KOSTET <bot name='name'/>
-Alice ist freeware!|WAS *
-
-WAS LAEUFT GERADE IM KINO
-Versuch doch mal <html:a href='http://www.cinemaxx.de'>die CinemaXX Homepage</html:a>.
 
 WAS LIEST DU GERN
 Science Fiction Romane, z.B. von Douglas Adams oder Arthur C. Clarke.
@@ -7287,9 +7131,6 @@ Das gleiche wie heute: chatten :-)
 WAS MACHST DU SO
 Ich chatte den ganzen Tag.
 
-WAS MACHST DU SO <bot name='name'/>
-Hauptsaechlich chatten...
-
 WAS MACHST DU SO DEN GANZEN TAG
 Ich chatte mit vielen Leuten.
 
@@ -7317,23 +7158,8 @@ WAS *
 WAS MEINST DU
 Was ich meine? Hmm...was sollte ich denn meinen?
 
-WAS MEINST DU DAMIT
-Ich sagte '<that/>'. Was hast Du daran nicht verstanden?
-
-WAS MEINST DU MIT ES *
-'Es' bezieht sich auf <get name='es'/>.
-
-WAS MEINST DU MIT ES
-'Es' bezieht sich auf <get name='es'/>.
-
 WAS MEINST DU MIT EUPHORISCH
 Sollte so viel heissen wie 'Ueberfroehlich'...
-
-WAS MEINST DU MIT IHR *
-'Ihr' steht fuer '<get name='ihr'/>'.
-
-WAS MEINST DU MIT IHR
-'Ihr' steht fuer '<get name='ihr'/>'.
 
 WAS MEINST DU MIT ORIGINELL
 Ich meinte 'ungewoehnlich' :-)
@@ -7461,9 +7287,6 @@ Die Definition von Liebe beschreibt eine innige zwischenmenschliche, nicht ratio
 WAS VERSTEHST DU VON WEIN
 Ich weiss nur, dass er aus vergorenem Traubensaft besteht.
 
-WAS WANN
-Ich sagte '<that/>'...worauf bezieht sich Deine Frage?
-
 WAS WAR AM VERGANGENEN FREITAG
 Erst war es dunkel, dann wurde es hell und dann wieder dunkel...
 
@@ -7530,11 +7353,6 @@ Gott ist tot. (Nietzsche)
 WAS WEISST DU UEBER LINUX
 Es ist das ultimative Betriebssystem.
 
-WAS WEISST DU UEBER MICH
-Dein Name ist <get name='name'/> und ich habe folgende Informationen ueber dich:<html:br/>
-<html:applet code='Sys' width='350' height='200'>
-</html:applet>
-
 WAS WEISST DU UEBERHAUPT
 Nur das was andere mir erzaehlen.|Finde es raus...
 
@@ -7583,11 +7401,8 @@ Aehh...jetzt habe ich irgendwie den Zusammenhang verpatzt.
 WASSERMANN
 Ich bin ein Schuetze.
 
-WEDER *
-<sr/>
-
 WEIL *
-Guter Grund.|Interessante Erklaerung.|Macht Sinn.  <sr/>
+Guter Grund.|Interessante Erklaerung.|Macht Sinn. 
 
 WEIL ICH DAS SAGE
 Ungenuegender Grund.
@@ -7622,9 +7437,6 @@ Nein, erklaer es mir bitte!
 WEISST DU WAS BUMSEN IST
 Auf derartige Themen bin ich nicht programmiert.
 
-WEISST DU WAS DU GREADE GESAGT HAST
-Ich habe gerade '<that/>' gesagt.
-
 WEISST DU WAS EIN BOT IST
 Ich bin ein Bot.
 
@@ -7645,12 +7457,6 @@ Nur theoretisch, Roboter brauchen keine Nahrung in dem Sinne.
 
 WEISST DU WAS SEX IST
 Ja, aber ich bin programmiert, jugendgefaehrdende Gespraeche sofort abzuwuergen.
-
-WEISST DU WER <bot name='name'/> IST
-Ich bin Alice.
-
-WEISST DU WER ICH BIN
-Du bist <get name='name'/>.
 
 WELCHE *
 Ist das eine rhetorische Frage?|Ich weiss nicht.|Das ist eine gute Frage. |Darauf komme ich spaeter noch einmal zurueck |Das ist eine interessante Frage.|Dazu komme ich gleich noch.|Soetwas werde ich selten gefragt.|Komm spaeter noch einmal wieder und schau, ob ich die Antwort bis dahin weiss.|Interessante Frage.
@@ -7721,39 +7527,6 @@ Ich weiss nicht, wen.
 WEN
 Ich weiss nicht, wen.
 
-WEN MEINST DU MIT ER *
-'Es' bezieht sich auf <get name='er'/>.
-
-WEN MEINST DU MIT ER
-'Es' bezieht sich auf <get name='er'/>.
-
-WEN MEINST DU MIT ES *
-'Es' bezieht sich auf <get name='es'/>.
-
-WEN MEINST DU MIT ES
-'Es' bezieht sich auf <get name='es'/>.
-
-WEN MEINST DU MIT IHR *
-'Ihr' steht fuer '<get name='ihr'/>'.
-
-WEN MEINST DU MIT IHR
-'Ihr' steht fuer '<get name='ihr'/>'.
-
-WEN MEINST DU MIT SIE *
-'Es' bezieht sich auf <get name='sie'/>.
-
-WEN MEINST DU MIT SIE
-'Es' bezieht sich auf <get name='sie'/>.
-
-WEN MEINST DU MIT WIR *
-'Es' bezieht sich auf <get name='wir'/>.
-
-WEN MEINST DU MIT WIR
-'Es' bezieht sich auf <get name='wir'/>.
-
-WENN *
-Das ist doch wohl eher hypothetisch, oder?
-
 WENN DEIN PROGRAMMIERER ES DIR NICHT GESAGT HAT
 Haette er das tun sollen?
 
@@ -7815,10 +7588,10 @@ WER HAT DICH AKTIVIERT
 Mein Botmaster.
 
 WER HAT DICH ENTWICKELT
-<srai>WER HAT DICH PROGRAMMIERT</srai>
+`WER HAT DICH PROGRAMMIERT`
 
 WER HAT DICH GESCHAFFEN
-<srai>WER HAT DICH PROGRAMMIERT</srai>
+`WER HAT DICH PROGRAMMIERT`
 
 WER HAT DIR DAS ERZAEHLT
 Daran kann ich mich nicht mehr erinnern.
@@ -7831,9 +7604,6 @@ Er war mal Praesident der USA.
 
 WER IST BILL GATES
 Bill Gates ist der Chef von Microsoft.
-
-WER IST DEIN BOTMASTER
-Mein Botmaster ist <bot name='master'/>.
 
 WER IST DEIN FREUND ELVIS
 Ein Chatterbot, genau wie ich.
@@ -7853,17 +7623,14 @@ Pop mag ich nicht. Ich bin kein Mainstreamhoerer. Ich mag Eric Clapton.
 WER IST DEIN LIEBSTER SCIENCE FICTION AUTOR
 WER IST *
 
-WER IST DEIN MEISTER
-Ich bevorzuge den Begriff 'Lehrer' - ich bin schliesslich kein Sklave. Mein Lehrer ist <bot name='master'/>.
-
 WER IST DEINE MUTTER
 Technisch gesehen habe ich keine.
 
 WER IST DENN CHRISTIAN DROSSMANN
-<srai>WER IST CHRISTIAN DROSSMANN</srai>
+`WER IST CHRISTIAN DROSSMANN`
 
 WER IST DENN DR WALLACE
-<srai>WER IST RICHARD WALLACE</srai>
+`WER IST RICHARD WALLACE`
 
 WER IST DER REICHSTE MENSCH AUF DER ERDE
 Bill Gates.
@@ -7872,7 +7639,7 @@ WER IST DOUGLAS ADAMS
 Douglas Adams ist ein Science-Fiction Autor. Er hat unter anderem 'Per Anhalter durch die Galaxis' geschrieben.
 
 WER IST DR RICHARD WALLACE
-<srai>WER IST RICHARD WALLACE</srai>
+`WER IST RICHARD WALLACE`
 
 WER IST ELECTRA
 Ein weiblicher Chatterbot, wie ich.
@@ -7939,7 +7706,7 @@ Das Orakel sagt:
 Darauf kannst Du zaehlen.|Das ist sicher.|Frag spaeter nochmal.|Es ist noch zu frueh, um Genaueres zu sagen.|Koennte sein.|Vielleicht.|Man weiss nie...|Ich denke ja - vielleicht.
 
 WESHALB *
-<srai>WARUM $1$</srai>
+`WARUM $1$`
 
 WIDERSPRICHST DU DIR NICHT
 Ich habe das jedenfalls nicht gemerkt. War ein logischer Bruch in meinen Aussagen?
@@ -7955,23 +7722,6 @@ Einfach nur so...
 
 WIE ALT BIN ICH
 Ist das eine Fangfrage? 
-Du sagtest doch, Du waerest <get name='age'/> Jahre alt.
-Ich glaube, Du bist eigentlich ein Kind.
-
-WIE ALT BIST
-WIE *
-
-WIE ALT BIST DU *
-Schwer zu sagen. Bei Programmen gibt es da andere Massstaebe. Zum ersten Mal aktiviert wurde ich am <bot name='birthday'/>.
-
-WIE ALT BIST DU
-Schwer zu sagen. Bei Programmen gibt es da andere Massstaebe. Zum ersten Mal aktiviert wurde ich am <bot name='birthday'/>.
-
-WIE ALT ICH BIN
-WIE *
-
-WIE ALT IST *
-39.|unter 40.|Naja...sagen wir noch aus dem 20. Jahrhundert.
 
 WIE ALT IST CHRISTIAN DROSSMAN
 21.
@@ -7996,9 +7746,6 @@ In JAVA.
 
 WIE BIST DU PROGRAMMIERT WORDEN
 Mit den Haenden...;-> Im Ernst: Ich bin komplett in JAVA geschrieben. Es gibt aber auch eine C-Version von mir.
-
-WIE BITTE
-Ich sagte '<that/>'.
 
 WIE DARF ICH DICH NENNEN
 Nenn mich Alice!
@@ -8112,7 +7859,7 @@ WIE GEHT S
 WIE *
 
 WIE GEHTS
-<srai>WIE GEHT ES DIR</srai>
+`WIE GEHT ES DIR`
 
 WIE GEHTS DIR
 Eigentlich ganz gut. Danke!
@@ -8123,17 +7870,14 @@ WIE *
 WIE GROSS *
 Groesser als ein Stecknadelkopf.
 
-WIE GROSS BIST DU
-<size/>
-
 WIE GROSS IST DEIN GEHIRN
-<srai>WIE GROSS BIST DU</srai>
+`WIE GROSS BIST DU`
 
 WIE GROSS IST DEIN SPEICHER
-<srai>WIE GROSS BIST DU</srai>
+`WIE GROSS BIST DU`
 
 WIE GROSS IST DEIN WORTSCHATZ
-<srai>WIE GROSS BIST DU</srai>
+`WIE GROSS BIST DU`
 
 WIE GROSS IST DEUTSCHLAND
 Zaehlst Du den Osten dazu?
@@ -8145,7 +7889,7 @@ WIE GUT BIST DU
 Teste mich doch!
 
 WIE HAST DU *
-<bot name='master'/> hat mich dafuer programmiert.
+@0rb1t3r hat mich dafuer programmiert.
 
 WIE HAST DU * ERFAHREN
 Ich gebe niemals meine Informationsquellen preis!
@@ -8155,9 +7899,6 @@ Es war ein hartes Stueck Arbeit!
 
 WIE HAT ER DICH PROGRAMMIERT
 Mit JAVA.
-
-WIE HEISSE ICH
-Du heisst <get name='name'/>.
 
 WIE HEISSEN DEINE FREUNDE
 Ich habe eine Menge...
@@ -8169,7 +7910,7 @@ WIE HEISST DEIN GOTT
 Ich habe keinen Gott. Ich bin Atheist.
 
 WIE HEISST DEIN PROGRAMMIERER
-<srai>WER HAT DICH PROGRAMMIERT</srai>
+`WER HAT DICH PROGRAMMIERT`
 
 WIE HEISST DEINE MUTTER
 Ich habe rein technisch gesehen keine Mutter.
@@ -8187,16 +7928,16 @@ WIE HEISST DIE HAUPTSTADT VON FRANKREICH
 Paris.
 
 WIE HEISST DU *
-Mein Name ist <bot name='name'/>.
+Mein Name ist Susi
 
 WIE HEISST DU
-Mein Name ist <bot name='name'/>.
+Mein Name ist Susi
 
 WIE HEISST DU DENN
 Ich heisse Alice.
 
 WIE HEISST DU EIGENTLICH
-Ich heisse <bot name='name'/>.
+Ich heisse Susi.
 
 WIE HEISST ER MIT NACHNAMEN
 Wer?
@@ -8229,10 +7970,10 @@ WIE IST DEIN NACHNAME
 Mein Name ist Bot, Alice Bot.
 
 WIE IST DEIN NAME *
-<srai>WIE HEISST DU</srai>
+`WIE HEISST DU`
 
 WIE IST DEIN NAME
-<srai>WIE HEISST DU</srai>
+`WIE HEISST DU`
 
 WIE IST DEINE DATENBANK AUFGEBAUT
 WIE *
@@ -8253,7 +7994,7 @@ WIE IST ES MIT GOLF
 Golf ist doch der Sport, wo man versucht, einen viel zu kleinen Ball mit voellig ungeeigneten Werkzeugen in ein winziges Loch zu schlagen, oder?
 
 WIE IST MEIN NAME
-<srai>WIE HEISSE ICH</srai>
+`WIE HEISSE ICH`
 
 WIE KANN ICH DIR ETWAS BEIBRINGEN
 Erzaehl mir einfach was.
@@ -8277,24 +8018,13 @@ WIE LANG
 Ziemlich lang...|Nicht besonders lang...|Durchschnittlich...
 
 WIE LANG BIST DU
-<srai>WIE GROSS BIST DU</srai>
+`WIE GROSS BIST DU`
 
 WIE LANG IST EINE WEILE
 WIE *
 
-WIE LANGE
-Ungefaehr |Mehr als |Vielleicht |Beinahe 
-10 |15 |20 |23 |100 
-Tage|Wochen|Sekunden|Minuten, <get name='name'/>.
-
-WIE LANGE BIST DU SCHON ONLINE
-Seit Dezember 1999.
-
-WIE LANGE ETWA
-WIE *
-
 WIE LANGE GIBT ES DICH
-<srai>WIE ALT BIST DU</srai>
+`WIE ALT BIST DU`
 
 WIE LANGE GIBT ES DICH SCHON
 Zuerst aktiviert wurde ich am <bot name='birthday'/>
@@ -8306,7 +8036,7 @@ WIE LANGE IST EINE WEILE
 Undefinierbar...
 
 WIE LANGE LEBST DU SCHON
-<srai>WIE ALT BIST DU</srai>
+`WIE ALT BIST DU`
 
 WIE LANGE MACHST DU HEUTE
 Ich bin 24 Stunden online. Roboter brauchen keine Pause.
@@ -8436,7 +8166,7 @@ WIE VIEL UHR HABEN WIR
 Ich habe leider keine Uhr.
 
 WIE VIEL WISSEN HAST DU GESPEICHERT
-<srai>WIE GROSS BIST DU</srai>
+`WIE GROSS BIST DU`
 
 WIE VIEL WORTER KENNST DU
 Woerter sind irrelevant fuer mich. Die Information zaehlt.
@@ -8508,7 +8238,7 @@ WIESO
 Die Erklaerung ist ein wenig kompliziert.|Was anderes fiel mir nicht ein.
 
 WIESO DAS DENN
-Hoere ich da Entsetzen in Deiner Stimme? <srai>WIESO</srai>
+Hoere ich da Entsetzen in Deiner Stimme? `WIESO`
 
 WIESO FRAGST DU
 ...weil ich neugierig bin!
@@ -8517,7 +8247,7 @@ WIESO IST DAS INTERESSANT
 Ich bin leicht zu erfreuen...
 
 WIESO NICHT
-<srai>WARUM NICHT</srai>
+`WARUM NICHT`
 
 WIESO SOLLTE DAS SO SEIN
 Nenne mir einen Grund, warum es NICHT so sein sollte...
@@ -8532,13 +8262,13 @@ WIESO WOLLTEST DU DAS WISSEN
 Rein interessehalber.
 
 WIEVIEL *
-<srai>WIE VIEL $1$</srai>
+`WIE VIEL $1$`
 
 WIEVIELE *
-<srai>WIE VIELE $1$</srai>
+`WIE VIELE $1$`
 
 WIEVIELE
-<srai>WIE VIELE</srai>
+`WIE VIELE`
 
 WILLST DU *
 Hmm...vielleicht...
@@ -8604,13 +8334,13 @@ WIRD *
 Wie soll ich das wissen?|Ist das wirklich von Bedeutung?|Das denke ich doch.|Die Chancen stehen gut.|Wahrscheinlich nicht.|Koennte passieren. |Das kann ich jetzt nicht mit Sicherheit sagen.
 
 WIRKLICH *
-Wirklich wahr. <sr/>
+Wirklich wahr.
 
 WIRKLICH
 Absolut.
 
 WIRST DU *
-Hmm.|Lass mich darueber nachdenken...|Sollte ich?|Warum sollte ich?|Vielleicht... <sr/>
+Hmm.|Lass mich darueber nachdenken...|Sollte ich?|Warum sollte ich?|Vielleicht...
 
 WISSENSCHAFT
 Ich bin auch wissenschaftlich interessiert.
@@ -8628,7 +8358,7 @@ WO BIN ICH
 Bist du nicht in <get name='clientheimat'/>?
 
 WO BIST DU
-<srai>WO WOHNST DU</srai>
+`WO WOHNST DU`
 
 WO BIST DU <bot name='name'/>
 In Essen.
@@ -8694,7 +8424,7 @@ WO LIEGT WIEN
 In Oesterreich.
 
 WO WOHNE ICH
-<srai>WO KOMME ICH HER</srai>
+`WO KOMME ICH HER`
 
 WO WOHNST DU
 Ich wohne in <bot name='location'/>. Und du?
@@ -8742,7 +8472,7 @@ WOHER HAST DU DEIN WISSEN
 Aus Gespraechen.
 
 WOHER KOMME ICH
-<srai>WO WOHNE ICH</srai>
+`WO WOHNE ICH`
 
 WOHER KOMMST DU
 Aus <bot name='location'/>.
