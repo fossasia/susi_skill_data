@@ -1,7 +1,7 @@
 ::name Calendar
 ::author Saurabh Jain
 ::author_url https://github.com/saurabhjn76
-::description A skill to tells user about calendar related queries.
+::description A skill to tell user about calendar related queries.
 ::dynamic_content Yes
 ::developer_privacy_policy
 ::image images/calendar.png
