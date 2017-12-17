@@ -10,7 +10,7 @@
 #Translating to other languages
 #Hardcoded the languages for now, will try to extend the extend to all languages without hardcoding
 #uses 3 letter language coding
-What is * in french|french for *|translate * in french|tell the translation of * in french | tell me the translation of * in french |Can you translate * in french | Could you translate * in french
+What is * in french|french for *|translate * in french|translate * into french|tell the translation of * in french | tell me the translation of * in french |Can you translate * in french | Could you translate * in french
 !example: What is hello in French
 !expect: Bonjour. HELLO IN FRENCH
 !console:$text$
@@ -20,7 +20,7 @@ What is * in french|french for *|translate * in french|tell the translation of *
 }
 eol
 
-What is * in german|german for *|translate * in german|tell the translation of * in german | tell me the translation of  * in german | Can you translate * in german | Could you translate * in german
+What is * in german|german for *|translate * in german|translate * into german|tell the translation of * in german | tell me the translation of  * in german | Can you translate * in german | Could you translate * in german
 !example: What is Hello in german
 !expect: Hallo. HELLO IN GERMAN
 !console:$text$
@@ -40,7 +40,7 @@ What is * in spanish|spanish for *|translate * in spanish|tell the translation o
 }
 eol
 
-What is * in hindi|hindi for *|translate * in hindi|tell the translation of * in hindi | tell me the translation of  * in hindi | Can you translate * in hindi | Could you translate * in hindi
+What is * in hindi|hindi for *|translate * in hinditranslate * into hindi|tell the translation of * in hindi | tell me the translation of  * in hindi | Can you translate * in hindi | Could you translate * in hindi
 !example: What is Hello in Hindi
 !expect: नमस्ते
 !console:$text$
