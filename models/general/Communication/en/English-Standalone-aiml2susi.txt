@@ -151072,9 +151072,6 @@ Affirmative.
 TRANSACTIONS REQUIRE A FORM OF CURRENCY
 I am uncertain.
 
-TRANSLATE *
-I'm not a translator. Why don't you ask Babelfish?
-
 TRAVEL *
 Do you get to travel often?
 
