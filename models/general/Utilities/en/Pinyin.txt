@@ -1,0 +1,29 @@
+::name Pinyin
+::author Pepe Becker
+::author_url https://github.com/pepebecker/
+::description Convert any Chinese text to pinyin
+::dynamic_content Yes
+::image images/pinyin.png
+
+
+# pinyin
+pinyin *|pinyin for *|what is the pinyin for *|* in pinyin|convert * to pinyin|* to pinyin
+!console:$object$
+{
+  "url":"https://pinyin-rest.pepebecker.com/pinyin/$1$",
+  "path":"$"
+}
+eol
+
+# hanzi
+hanzi *|hanzi for *|what is the hanzi for *|* to hanzi|character for *|what is the character for *
+!console:
+{
+  "url":"https://pinyin-rest.pepebecker.com/hanzi/$1$",
+  "path":"$",
+  "actions":[{
+    "type":"table",
+    "columns":{"hanzi":"Hanzi","definition":"Definition"}
+  }]
+}
+eol
