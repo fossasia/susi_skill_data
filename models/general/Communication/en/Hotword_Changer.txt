@@ -22,5 +22,5 @@ Hotword is $_hotword$ you can use it now
 *
 !example: lulu
 !expect: Hi,How are you
-?$_hotword$=$1$:Hi,How are you
+?$_hotword$=$1$:Hi,How can I help?
 
