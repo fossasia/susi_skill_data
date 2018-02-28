@@ -12,7 +12,8 @@ current time | What time is it | What time it is|What is the time|tell me the ti
 !expect:it is 2 minutes past 17
 !console:It is $plaintext$ 
 {
-"url":"https://api.wolframalpha.com/v2/query?input=what+time+is+it&format=plaintext&output=JSON&appid=9WA6XR-26EWTGEVTE",
+"url":"https://www.wolframcloud.com/objects/9611ca1b-5214-4887-863e-6ef6e4d44941"
+//"url":"https://api.wolframalpha.com/v2/query?input=what+time+is+it&format=plaintext&output=JSON&appid=9WA6XR-26EWTGEVTE",
 "path":"$.queryresult.pods[1].subpods"
 }
 eol
