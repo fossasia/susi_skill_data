@@ -3,9 +3,9 @@
 ::author_url https://github.com/KrUciFieR-Jr
 ::description Profanity is a underated content in Chat Applications so we definitely need Language skill
 ::dynamic_content No
-::image images/profane-language-14.jpg
+::image images/profaneLanguage.jpg
 
 
-wtf ? | who the fuck are ? | moron | Who are you bitch ? | bitch | what the hell ? | wth | wtf | motherfucker | bc  
-!example: Who the fuck are you ?
+wtf ? | who the fuck are ? | moron | Who are you bitch ? | bitch | what the hell ? | wth | wtf | motherfucker | bc |  How the fuck did you do that ?
+!example: Who the fuck are you ? | How the fuck did you do that ?
 Language Please ! | Language Iron Man/Woman | Please be nice otherwise we will take over your race 
