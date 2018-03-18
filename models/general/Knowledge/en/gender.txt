@@ -7,7 +7,7 @@
 ::image images/gender.png
 ::terms_of_use
 
-I am *|My name is *|What is the gender of *|the gender of *|gender of *
+What is the gender of *|the gender of *|gender of *|gender of name *
 !example:My name is Susi
 !expect:Hi susi. You are female, I guess?
 !console:Hi $1$. You are $object$, I guess? 
