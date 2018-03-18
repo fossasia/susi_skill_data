@@ -10,7 +10,7 @@
 What is your name ? | What's your name ? |Who are you ?|What should I call you ? |Do you have a name |I want to know you|Who are you?
 !example:Do you have a name
 !expect:Hi! My name is SUSI.
-Hi! My name is SUSI.
+Hi! My name is SUSI!
 
 Where do you belong? | Where are you from | Where do you live
 !example:Where do you belong?

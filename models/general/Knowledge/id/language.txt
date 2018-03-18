@@ -16,3 +16,8 @@ was ist meine sprache|meine sprache
 !example:was ist meine sprache
 deine sprache ist $language$
 kk
+
+apa kamu tau bahasa ku|bahasaku
+!example:apa bahasaku?
+!expect:Bahasamu adalah Indonesia
+Bahasamu adalah $language$

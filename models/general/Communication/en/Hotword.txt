@@ -1,0 +1,20 @@
+::name Hotword
+::author Isuru Abeywardana
+::author_url https://github.com/isuruAb
+::description Skill that changes the hotword of the application
+::dynamic_content Yes
+::developer_privacy_policy 
+::image images/hotword.jpeg
+::terms_of_use
+
+
+Hotword * | Change Hotword to *| Hot word *
+!example: Hotword lulu
+!expect: Hotword changed to "lulu"
+Hotword changed to  $1$>_hotword
+
+
+* Hotword 
+!example: Hotword lulu
+!expect: Hotword is _hotword
+Hotword is $_hotword$

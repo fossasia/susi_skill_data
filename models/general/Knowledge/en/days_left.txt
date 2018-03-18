@@ -7,8 +7,8 @@
 ::image images/days_left.png
 ::terms_of_use
 
-Days left in *|How many days are left in *|How far is *
-!example:Days left in christmas
+Days left in *|Days left until *|How many days are left in *|How far is *|how long until *|how many days are left until *|how much time is left until *
+!example:Days left until christmas
 !expect:4 months 21 days from now
 !console:$alt$
 {

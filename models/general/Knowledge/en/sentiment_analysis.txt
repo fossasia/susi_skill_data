@@ -7,7 +7,7 @@
 ::image images/sentiment_analysis.png
 ::terms_of_use
 
-sentiment of *
+sentiment of *|what is the sentiment of *|the sentiment of *|describe the sentiment of *|explain the sentiment of *
 !example:sentiment of happy
 !expect:Expression is : P (where P:Positive and N:Negative)
 !console:Expression is : $object$ (where P:Positive and N:Negative)

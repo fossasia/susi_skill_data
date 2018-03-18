@@ -17,7 +17,6 @@ What happened on *
 }
 eol
 
-
 Who was born on *
 !example:Who was born on 2/14
 !console:Year-$year$ - $text$ 
@@ -35,3 +34,12 @@ Who died on *
 "path":"$.data.Deaths"
 }
 eol
+
+Who was born on Pi day
+Albert Einstein
+
+Who died on Pi day
+Stephen Hawking
+
+What happened on Pi day
+Albert Einstein was born on Pi day and Stephen Hawking died on Pi day

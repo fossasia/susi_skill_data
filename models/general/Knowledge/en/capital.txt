@@ -7,7 +7,7 @@
 ::image images/capital.png
 ::terms_of_use
 
-capital of *| what is the capital of *|capital *|tell me the capital of *|do you know the capital of *| search for the capital of *| find the capital of *| tell the capital of *| search the capital of *|* capital
+capital of *|the capital of *|what is the capital of *|capital *|tell me the capital of *|do you know the capital of *|search for the capital of *|find the capital of *|tell the capital of *|search the capital of *|* capital
 !example:What is the capital of India?
 !expect:New Delhi
 !console:$plaintext$
