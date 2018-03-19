@@ -9,7 +9,7 @@
 
 
 # Describes something
-who is *|who is *?| tell me who is *| do you know who is *| Could you please tell me who is *| please find who is *| find who is *
+who is *|who was *|tell me who was *| tell me who is *| do you know who is *| Could you please tell me who is *| please find who is *| find who is *
 !example:who is Albert Einstein
 !expect:full name  Albert Einstein date of birth  Friday, March 14, 1879 (138 years ago) place of birth wht the fuck man Ulm, Baden‐Wurttemberg date of death  Monday, April 18, 1955 (age: 76 years) (62 years ago) place of death  Princeton, New Jersey,Fuck off
 !console:$plaintext$ 
