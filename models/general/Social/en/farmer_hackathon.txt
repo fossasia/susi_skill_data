@@ -1,0 +1,12 @@
+::name farmer_hackathon
+::author fossasia
+::author_url fossasia
+::description nan
+::dynamic_content no
+::developer_privacy_policy nan
+::image images/farmer.png
+::terms_of_use nan
+
+
+when it will rain
+i don't know
