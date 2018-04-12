@@ -1,0 +1,14 @@
+::name Dunman High School
+::author Dunman High School
+::author_url www.dunmanhigh.moe.edu.sg
+::description Dunman High School (DHS) (formerly known as Dunman Government Chinese Middle School) is an autonomous co-educational secondary school in Singapore offering the Integrated Programme. It has always been the top co-educational secondary school in Singapore in terms of academic results. 
+::dynamic_content Yes
+::developer_privacy_policy <link>
+::image images/DunmanHighSchoolCrest.png
+::terms_of_use <link>
+
+
+Dunman High School
+!example:What is your name?
+!expect:Dunman High School
+Dunman High School
