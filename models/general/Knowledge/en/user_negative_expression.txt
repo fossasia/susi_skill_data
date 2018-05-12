@@ -1,7 +1,7 @@
 ::name Negitive Expressions
 ::author Chetan Kaushik
 ::author_url https://github.com/dynamitechetan
-::description How SUSI handles negetive comments from users
+::description How SUSI handles negative comments from users
 ::dynamic_content No
 ::developer_privacy_policy  
 ::image images/user_negative_expression.png
