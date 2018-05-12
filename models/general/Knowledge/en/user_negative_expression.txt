@@ -18,7 +18,7 @@ You are bad
 !example: You are bad
 I am constanly improving myself
 you are of poor quality
-!example: you are of poor quality
+!example: you are of poor quality 
 Sorry :(
 never see you again | don't talk to me | don't reply again | stop talking to me
 !example: don't talk to me
