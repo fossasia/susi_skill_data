@@ -9,7 +9,7 @@ The production platform of http://susi.ai will do a `git pull origin master` eve
 Creation of a new skill is easy, DO NOT PANIC!
 
 ### Learn the skill language
-Read https://github.com/fossasia/susi_skill_data/blob/master/README_susi_skill_language_tutorial.md and test your skill using a susi dream! Then, if your susi dream works, add the skill to this repository, read next topic...
+Read https://github.com/fossasia/susi_skill_cms/blob/master/docs/Skill_Tutorial.md and test your skill using a [susi dream!](https://dream.susi.ai) Then, if your susi dream works, add the skill to this repository, read next topic...
 
 ### Add intents to a skill or create a new skill
 The place to store your intents is a skill. A skill is simply a plain text file with '.txt' extension, placed within a language folder within a topic. So to add a new skill, you first have to choose a topic. You can choose from:
