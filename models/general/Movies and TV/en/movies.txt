@@ -52,7 +52,7 @@ show info about * movies | show info about * movie | info about * movies | info 
 "actions":[{
 "type":"table",
 "columns":{"title" : "Title", "original_language": "Original language", "overview" : "Overview"},
-"length":"5"
+"count":"5"
 }]
 }
 eol
@@ -66,7 +66,7 @@ show info about * series | show info about * serie | info about * series | info 
 "actions":[{
 "type":"table",
 "columns":{"name" : "Title", "original_language": "Original language", "overview" : "Overview"},
-"length":"5"
+"count":"5"
 }]
 }
 eol
