@@ -1,7 +1,7 @@
 ::name Negitive Expressions
 ::author Chetan Kaushik
 ::author_url https://github.com/dynamitechetan
-::description How SUSI handles negetive comments from users
+::description How SUSI handles negative comments from users
 ::dynamic_content No
 ::developer_privacy_policy  
 ::image images/user_negative_expression.png
@@ -18,7 +18,7 @@ You are bad
 !example: You are bad
 I am constanly improving myself
 you are of poor quality
-!example: you are of poor quality
+!example: you are of poor quality 
 Sorry :(
 never see you again | don't talk to me | don't reply again | stop talking to me
 !example: don't talk to me
