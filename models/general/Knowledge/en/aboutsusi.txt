@@ -7,7 +7,7 @@
 ::image images/aboutsusi.png
 ::terms_of_use  
 
-What is your name ? | What's your name ? |Who are you ?|What should I call you ? |Do you have a name |I want to know you|Who are you?
+What is your name ? | What's your name ? |Who are you ?|What should I call you ? |Do you have a name |I want to know you|Who are you?| Yours name?  | Tell yours name 
 !example:Do you have a name
 !expect:Hi! My name is SUSI.
 Hi! My name is SUSI!
