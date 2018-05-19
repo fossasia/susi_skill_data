@@ -8,7 +8,7 @@
 ::terms_of_use
 
 
-What is the time now ?|Tell me the time|What's the time now?|Can you tell me the time?|Which time is it now?| * Please tell me the time *|Time now?|Do you know the time now?|what is the current time?|What time is it?
+What is the time now ?|Tell me the time|What's the time now?|Can you tell me the time?|Which time is it now?|  Please tell me the time now |Time now?|Do you know the time now?|what is the current time?|What time is it?| Can you please tell me the time now?
 !example:What is the time now ?
 !expect:9:42:09 pm IST | Saturday, May 19, 2018
 !console:$plaintext$
