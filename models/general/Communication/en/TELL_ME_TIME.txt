@@ -13,7 +13,7 @@ What is the time now ?|Tell me the time|What's the time now?|Can you tell me the
 !expect:9:42:09 pm IST | Saturday, May 19, 2018
 !console:$plaintext$
 {
-  "url": "https://api.wolframalpha.com/v2/query?input=time%20now$1$&output=JSON&appid=9WA6XR-26EWTGEVTE&includepodid=Result",
+  "url": "https://api.wolframalpha.com/v2/query?input=time%20now&output=JSON&appid=9WA6XR-26EWTGEVTE&includepodid=Result",
   "path" : "$.queryresult.pods[0].subpods[0]"
 }
 eol
