@@ -16,7 +16,11 @@ Do you read me HAL
 Affirmative, Dave. I read you.
 
 Open the pod bay doors HAL|Open the pod bay doors|Open the shuttle bay doors HAL|Open the shuttle bay doors|Open the pod bay door HAL|Open the pod bay door|Open the shuttle bay door HAL|Open the shuttle bay door
-I'm sorry, Dave. I'm afraid I can't do that.
+!console:I'm sorry, Dave. I'm afraid I can't do that.
+{"actions":[
+{"type":"audio_play", "identifier_type":"youtube", "identifier":"7qnd-hdmgfk"}
+]}
+eol
 
 What's the problem?
 I think you know what the problem is just as well as I do.
