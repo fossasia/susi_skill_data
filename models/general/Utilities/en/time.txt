@@ -12,13 +12,12 @@ current time | What time is it | What time it is|What is the time|tell me the ti
 !expect:it is 2 minutes past 17
 !console:It is $plaintext$ 
 {
-"url":"https://www.wolframcloud.com/objects/9611ca1b-5214-4887-863e-6ef6e4d44941"
-//"url":"https://api.wolframalpha.com/v2/query?input=what+time+is+it&format=plaintext&output=JSON&appid=9WA6XR-26EWTGEVTE",
+"url":"https://www.wolframcloud.com/objects/9611ca1b-5214-4887-863e-6ef6e4d44941",
 "path":"$.queryresult.pods[1].subpods"
 }
 eol
 
-current time in * | What time is it in * ?| What time it is in * ?|What is the time in * ?|tell me the time in *| can you tell me the time in *| please tell the time in *| What's the time in *| time in *| Could you tell me the time in *| Could you please tell me the time in *.
+current time in * | What time is it in * ?| What time it is in * ?|What is the time in * ?|tell me the time in *| can you tell me the time in *| please tell the time in *| What's the time in *| time in *| Could you tell me the time in *| Could you please tell me the time in *
 !example:current time in london
 !console:In $1$ it is $plaintext$ 
 {
