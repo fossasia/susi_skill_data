@@ -18,7 +18,7 @@ Affirmative, Dave. I read you.
 Open the pod bay doors HAL|Open the pod bay doors|Open the shuttle bay doors HAL|Open the shuttle bay doors|Open the pod bay door HAL|Open the pod bay door|Open the shuttle bay door HAL|Open the shuttle bay door
 !console:I'm sorry, Dave. I'm afraid I can't do that.
 {"actions":[
-{"type":"audio_play", "identifier_type":"youtube", "identifier":"7qnd-hdmgfk"}
+{"type":"video_play", "identifier_type":"youtube", "identifier":"7qnd-hdmgfk"}
 ]}
 eol
 
