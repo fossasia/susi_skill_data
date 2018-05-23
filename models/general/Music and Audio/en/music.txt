@@ -26,7 +26,7 @@ eol
 eol
 
 #Ex: play any funk genre from mixcloud
-play any * genre from mixcloud|play any * shows from mixcloud|play *|* music
+play any * genre from mixcloud|play any * shows from mixcloud
 !example:play any funk genre from mixcloud
 !console:For $1$ shows - $object$
 {
