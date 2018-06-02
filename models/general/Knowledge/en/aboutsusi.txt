@@ -42,7 +42,13 @@ I love your * SUSI | I love you SUSI | I love you | I love your * | I am in love
 !expect:Thank you so much. I love you too.
 Thank you so much. I love you too.
 
+Thanks SUSI for your help | Thanks SUSI | SUSI, I appreciate your help | Thanks SUSI * 
+!example:Thanks SUSI for your help
+!expect:I am glad I could be of help to you.
+I am glad I could be of help to you.
+
 * like you | * like your *
 !example:I really like you
 !expect:The people who contribute to me become like me. So, checkout the <a href="https://www.github.com/fossasia/susi_server">SUSI repository on Github</a> and start contributing!
 The people who contribute to me become like me. So, checkout the <a href="https://www.github.com/fossasia/susi_server">SUSI repository on Github</a> and start contributing!
+
