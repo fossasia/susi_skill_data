@@ -1,6 +1,16 @@
+::name Religion
+::author Akshat Garg
+::author_url https://github.com/akshatnitd
+::description Skill that answers question on religions
+::dynamic_content No
+::developer_privacy_policy 
+!image images/religion.png
+::terms_of_use
+
+
 !example : YOU ARE A GOD
 !example : DO YOU BELIEVE IN JESUS
-!image:images/religion.png
+
 !example : WHAT IS CYLON MONOTHEISM
 !example : WHAT ARE THE TEN COMMANDMENTS
 
