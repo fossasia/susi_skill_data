@@ -4,7 +4,7 @@
 ::description Skill that answers question on religions
 ::dynamic_content No
 ::developer_privacy_policy 
-!image images/religion.png
+::image images/religion.jpg
 ::terms_of_use
 
 
