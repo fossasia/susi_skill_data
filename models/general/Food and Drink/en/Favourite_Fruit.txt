@@ -8,4 +8,4 @@
 
 Favourite Fruit| What is your favourite fruit|Suggest me a fruit|
 !example:Suggest me a fruit
-!expect:I like Mango| I like Apple | I like raspberry |
+I like Mango| I like Apple | I like raspberry |
