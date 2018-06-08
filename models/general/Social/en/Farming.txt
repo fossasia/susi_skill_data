@@ -1,14 +1,14 @@
-::name farmer_hackathon
-::author fossasia
-::author_url https://github.com/fossasia
+::name Farming
+::author FOSSASIA
+::author_url https://github.com/akshatnitd
 ::description Skill to give farming related answers
 ::dynamic_content no
 ::developer_privacy_policy 
-::image images/farmer.png
+::image images/farmering.jpg
 ::terms_of_use 
 
-!example:When it will rain
 When it will rain
+!example:When it will rain
 It will rain after two days
 
 Which Crop should I grow
