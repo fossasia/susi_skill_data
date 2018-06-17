@@ -10,7 +10,7 @@
 
 
 Give me doctor names having speciality * | Who are doctors having speciality *
-!example:Give me doctor names having speciality toothache
+!example:Give me doctor names having speciality Toothache
 !expect:Steven Toschi
 !console:Doctors having speciality $1$ are $object$ 
 {
