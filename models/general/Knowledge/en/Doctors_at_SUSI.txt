@@ -1,0 +1,20 @@
+::author_email prateekkol21@gmail.com
+::name Doctors at SUSI
+::author Prateek Chanda
+::author_url https://github.com/prateekiiest
+::description Get the Best Doctors from your home
+::dynamic_content Yes
+::developer_privacy_policy
+::image images/red_cross_round_red.png
+::terms_of_use
+
+
+Give me doctor names having speciality * | Who are doctors having speciality *
+!example:Give me doctor names having speciality toothache
+!expect:Steven Toschi
+!console:Doctors having speciality $1$ are $object$ 
+{
+"url":"https://api.betterdoctor.com/2016-03-01/doctors?query=$1$&skip=0&limit=1&user_key=0ecd452cbc6ded81f018d01b1a472740",
+"path":"$.name"
+}
+eol
