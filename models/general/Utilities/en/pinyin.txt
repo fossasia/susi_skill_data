@@ -12,7 +12,7 @@ pinyin *|pinyin for *|what is the pinyin for *|* in pinyin|convert * to pinyin|*
 !console:$object$
 {
   "url":"https://pinyin-rest.pepebecker.com/pinyin/$1$",
-  "path":"$"
+  "path":"$.text"
 }
 eol
 
