@@ -14,7 +14,7 @@ Give me doctor names having speciality * | Who are doctors having speciality *
 !expect:Steven Toschi
 !console:Doctors having speciality $1$ are $object$ 
 {
-"url":"https://api.betterdoctor.com/2016-03-01/doctors?query=$1$&skip=0&limit=1&user_key=0ecd452cbc6ded81f018d01b1a472740",
+"url":"https://api.betterdoctor.com/2016-03-01/doctors?query=$1$&user_key=0ecd452cbc6ded81f018d01b1a472740",
 "path":"$.name"
 }
 eol
