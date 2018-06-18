@@ -9,12 +9,12 @@
 ::terms_of_use
 
 
-Give me doctor names having speciality * | Who are doctors having speciality * | List doctors specializing in *
-!example:Give me doctor names having speciality Toothache
+Who are doctors with names * having speciality * 
+!example:Who are doctors with names Alen having speciality Diabetes
 !expect:Steven Toschi
-!console:Doctors having speciality $1$ are $plaintext$
+!console:Doctors with name $1$ having speciality $2$ are $object$
 {
-    "url":"https://api.betterdoctor.com/2016-03-01/doctors?query=$1$&skip=0&limit=10&user_key=0ecd452cbc6ded81f018d01b1a472740",
-    "path":"$.meta.count"
+    "url":"https://api.betterdoctor.com/2016-03-01/doctors?first_name=$1$&query=$2$&skip=0&limit=10&user_key=0ecd452cbc6ded81f018d01b1a472740",
+    "path":"$.data[0]"
 }
 eol
