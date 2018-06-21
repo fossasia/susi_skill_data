@@ -36,6 +36,7 @@ world cup group B | group B standings | group B table | Get me points table for 
      eol
      
 world cup group C | group C standings | group C table | Get me points table for group C|* group C
+!example:Fifa world cup group A
      !console:
      {
        "url":"http://api.football-data.org/v1/competitions/467/leagueTable",
