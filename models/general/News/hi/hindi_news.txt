@@ -1,8 +1,8 @@
-::name Hindi News
-::author Madhav Rathi
+::name समाचार
+::author माधव राठी
 ::author_url https://github.com/madhavrathi
-::description A skill to give news in hindi language.
-::dynamic_content Yes
+::description हिंदी भाषा में समाचार देने के लिए एक कौशल।
+::dynamic_content हाँ
 ::developer_privacy_policy
 ::image images/hindi_news.png
 ::terms_of_use
