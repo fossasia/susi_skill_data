@@ -7,7 +7,7 @@
 ::author_url https://github.com/anshumanv
 ::description A skill to suggest animes 
 ::dynamic_content No
-::image images/op.png
+::image images/anime.png
 
 
 Suggest an anime| Suggest me an anime| SUSI suggest anime| SUSI suggest me an anime| Recommend anime| Give anime recommendations| Give anime suggestions
