@@ -1,4 +1,5 @@
 ::name Synonyms
+::author_email akjn11@gmail.com
 ::author Akshat Jain
 ::author_url https://github.com/Akshat-Jain
 ::description A skill that returns the synonyms for a word
