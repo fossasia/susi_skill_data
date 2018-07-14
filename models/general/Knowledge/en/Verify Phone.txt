@@ -10,7 +10,8 @@
 
 
 
-Where is this phone number * located ?
+Where is this phone number * located?| Location of phone number *
+!example:Where is this phone number 896XXXXXXX located
 !console: Location is at $object$
 {    "url":"http://apilayer.net/api/validate?access_key=640e7b4337ffc2c9900d31127b8ec011&number=$1$&country_code=&format=1",
     "path":"$.location"
@@ -33,6 +34,7 @@ eol
 
 
 What carrier is this phone number * registered with ?
+!example: What carrier is this phone number 896XXXXXXX registered with ?
 !console: This number is  registered with $object$
 {    "url":"http://apilayer.net/api/validate?access_key=640e7b4337ffc2c9900d31127b8ec011&number=$1$&country_code=&format=1",
     "path":"$.carrier"
