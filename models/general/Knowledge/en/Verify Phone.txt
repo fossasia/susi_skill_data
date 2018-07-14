@@ -1,6 +1,9 @@
 ::author_email prateekkol21@gmail.com
 ::name Verify Phone
 ::author Prateek Chanda
+::name Verify Phone Number
+::category Knowledge
+::language en
 ::author_url https://github.com/prateekiiest
 ::description Verify Phone numbers and check the corresponding location , line_type and carrier registered with a particular phone number
 ::dynamic_content Yes
