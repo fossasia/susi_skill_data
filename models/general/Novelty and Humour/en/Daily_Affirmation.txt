@@ -1,6 +1,6 @@
 ::protected No
 ::author_email 1anuppanwar@gmail.com
-::name Daily Affimation
+::name Daily Affirmation
 ::category Novelty and Humour
 ::language en
 ::author Anup Kumar Panwar
