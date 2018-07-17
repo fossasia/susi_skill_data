@@ -5,12 +5,12 @@
 ::language en
 ::author Anup Kumar Panwar
 ::author_url https://github.com/anupkumarpanwar
-::description The Walking Affirmations Daily Affirmation skill provides a daily uplifting, positive thought for you to take throughout the day. Affirmations are sentences aimed to affect the conscious and the subconscious mind. The words that combine to create the affirmation, automatically and involuntarily, bring up related mental images into the mind, which could inspire, energize and motivate. Repeating affirmations, and the resultant mental images, affect the subconscious mind, which in turn, influences the behavior, habits, actions and reactions.
+::description The Walking Affirmations Daily Affirmation skill provides a daily uplifting, positive thought for you to take throughout the day.
 ::dynamic_content Yes
 ::image images/focus.png
 
-# Returns the daily affirmation
-Daily Affirmation| open daily affirmation| ask Daily Affirmation for my affirmation| Open Daily Affirmation and ask for help| inspire me| motivate me| quote of the day| today affirmation
+
+Daily Affirmation| open daily affirmation| ask Daily Affirmation for my affirmation| inspire me| motivate me| quote of the day| today affirmation
 !example: Open daily affirmation
 !console:$quote$
 {
