@@ -10,7 +10,7 @@
 ::image images/focus.png
 
 # Returns the daily affirmation
-Daily Affirmation| open daily affirmation| ask Daily Affirmation for my affirmation| Open Daily Affirmation and ask for help| inspire me| motivate me| quote of the day| today affirmation
+Daily Affirmation| Open daily affirmation
 !example: Open daily affirmation
 !console:$quote$
 {
