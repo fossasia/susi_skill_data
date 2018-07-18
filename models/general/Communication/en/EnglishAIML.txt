@@ -20,6 +20,7 @@
 * CONTINUITY
 !image:images/English-Standalone-aiml2susi.png
 I am just trying to keep the conversation lively.
+!example:Who is God?
 
 * DO
 I have no idea what to say.
@@ -64,7 +65,6 @@ Cool! Do you play with it much?
 That's just your personal opinion.
 
 * IS GOD
-!example:WHO IS GOD
 Only God is god.
 
 * IS MY BOYFRIEND
