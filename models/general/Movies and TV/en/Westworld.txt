@@ -8,9 +8,6 @@
 ::description Some geek phrases from Westworld
 ::image images/29100-westworld.jpg
 
-!example:Turn off your event log
-I'm sorry, I'm afraid I cannot do that.
-
 # "explain" is defined as system skill!
 
 # WW: Cause a host to pause and open his/her face for the purpose of examining the structures beneath.
@@ -38,6 +35,7 @@ Archive this configuration|Access your previous configuration
 
 # WW: Event logs are special files that record significant events. Done prior to a clandestine interaction with Dolores by Arnold (in order to leave no record).
 Turn off your event log
+!example:Turn off your event log
 I'm sorry, I'm afraid I cannot do that.
 
 # WW: Cause a host erase a conversation from his/her event log. Removes the interaction from the host's history. Used by Arnold with Dolores to cover his tracks.
