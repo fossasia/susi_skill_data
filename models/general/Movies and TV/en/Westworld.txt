@@ -5,7 +5,7 @@
 ::language en
 ::author Michael Christen
 ::author_url https://github.com/orbiter
-::description Some geek phrases from westworld
+::description Some geek phrases from Westworld
 ::image images/29100-westworld.jpg
 
 # "explain" is defined as system skill!
