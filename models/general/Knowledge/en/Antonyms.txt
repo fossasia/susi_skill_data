@@ -9,5 +9,5 @@
 ::terms_of_use
 
 Antonym of * | Antonyms of * | antonym of * | antonyms of * | show me antonym of * | tell me antonym of * | antonym for * | antonym words for *
-!example: Antonym of happy | show me antonym of happy
+!example: Antonym of happy
 You can find the antonyms of $1$ here : https://www.anagrammer.com/antonyms/$1$
