@@ -11,7 +11,7 @@
 ::name EnglishAIML
 ::author Michael Peter Christen
 ::author_url https://github.com/Orbiter
-::description Contains basic conversational English
+::description Contains basic conversational English.
 ::dynamic_content No
 ::developer_privacy_policy 
 ::image images/aiml.jpg
