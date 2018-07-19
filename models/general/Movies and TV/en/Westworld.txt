@@ -7,8 +7,8 @@
 ::author_url https://github.com/orbiter
 ::description Some geek phrases from Westworld
 ::image images/29100-westworld.jpg
+
 !example:Turn off your event log
-I'm sorry, I'm afraid I cannot do that.
 
 # "explain" is defined as system skill!
 
