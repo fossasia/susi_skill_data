@@ -11,8 +11,9 @@
 ::dynamic_content No
 ::image images/gambler.png
 
-
-Toss a dice| Toss a die| Roll a dice| Roll a die| 
 !example:Roll a die
 !example:Throw a die
+
+
+Toss a dice| Toss a die| Roll a dice| Roll a die| 
 1| 2| 3| 4| 5| 6
