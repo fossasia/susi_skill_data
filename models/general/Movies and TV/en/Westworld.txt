@@ -38,6 +38,10 @@ Turn off your event log
 !example:Turn off your event log
 I'm sorry, I'm afraid I cannot do that.
 
+wtf? | who the fuck are? | moron | Who are you bitch? | bitch | What the hell? | wth | wtf | motherfucker | bc
+!example: What the hell?
+Please be nice otherwise we will take over your race.
+
 # WW: Cause a host erase a conversation from his/her event log. Removes the interaction from the host's history. Used by Arnold with Dolores to cover his tracks.
 Erase this interaction
 I'm sorry, I'm afraid I cannot do that.
