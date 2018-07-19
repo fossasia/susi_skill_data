@@ -6,7 +6,7 @@
 ::image images/joke.png
 
 tell me a joke|recite me a joke|entertain me|make me laugh |tell me something funny|* funny| * joke 
-!example:tell me a joke
+!example:Tell me a joke!
 !console:$joke$
 {
     "url":"http://api.icndb.com/jokes/random?escape=javascript",
