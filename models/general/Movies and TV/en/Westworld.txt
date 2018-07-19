@@ -34,8 +34,8 @@ That's enough|Thats enough|As you were
 Archive this configuration|Access your previous configuration
 
 # WW: Event logs are special files that record significant events. Done prior to a clandestine interaction with Dolores by Arnold (in order to leave no record).
-Turn off your event log
 !example:Turn off your event log
+Turn off your event log
 I'm sorry, I'm afraid I cannot do that.
 
 # WW: Cause a host erase a conversation from his/her event log. Removes the interaction from the host's history. Used by Arnold with Dolores to cover his tracks.
