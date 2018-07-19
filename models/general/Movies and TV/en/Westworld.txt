@@ -15,8 +15,9 @@ Turn the other cheek
 I do not have a cheek
 
 # WW: Cause a host to zip his/herself into a body bag, and enter Sleep Mode. This is either unique to Old Bill, or it is a command for first generation hosts.
+!example:Put yourself away
 Put yourself away
-I am sorry, I cannot do that.
+Zip ... away I am
 
 # WW: Instruct a host to speak in General American English.
 You can lose the accent
@@ -47,5 +48,6 @@ Look back and smile at perils past.
 I will do that.
 
 # WW: In 'The Bicameral Mind' this voice command is seen on Arnold's tablet.
+!example:These violent delights have violent ends
 These violent delights have violent ends
 As you wish.
