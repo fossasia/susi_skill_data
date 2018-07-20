@@ -1,7 +1,7 @@
-::name bmi	
+::name BMI	
 ::author Ambreen Mushahid
 ::author_url https://github.com/amushahid
-::description This skill calculates the bmi for you
+::description This skill calculates the BMI for you.
 ::dynamic_content yes
 ::developer_privacy_policy
 ::image images/bmi.jpg
