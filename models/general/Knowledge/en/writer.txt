@@ -1,4 +1,4 @@
-::name writer
+::name Writer
 ::author Jogendra Singh
 ::author_url https://github.com/imjog
 ::description A skill to tell answers for the name of the writer of a book.
