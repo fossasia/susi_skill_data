@@ -8,7 +8,7 @@
 ::terms_of_use
 
 What is the gender of *|the gender of *|gender of *|gender of name *| Can you tell me the gender of *| Please tell me the gender of *|Tell me the gender of name *|
-!example:My name is Susi
+!example:What is the gender of Susi
 !expect:Hi susi. You are female, I guess?
 !console:Hi $1$. You are $object$, I guess? 
 {
