@@ -21,7 +21,7 @@ Zip ... away I am
 
 # WW: Instruct a host to speak in General American English.
 You can lose the accent
-I do not have an accent.
+I know where I am. I'm in a dream.
 
 # WW: Instruct a host to halt an emotional display and adopt a placid demeanor.
 Cognition only *|Cognition only|no emotional affect|Cognition only, no emotional affect
