@@ -25,7 +25,7 @@ I know where I am. I'm in a dream.
 
 # WW: Instruct a host to halt an emotional display and adopt a placid demeanor.
 Cognition only *|Cognition only|no emotional affect|Cognition only, no emotional affect
-I will not panic.
+I will stop panicking.
 
 # WW: Toggle the host's state from one mode to another. Character Mode to Pause Mode or Analysis Mode, et cetera.
 That's enough|Thats enough|As you were
