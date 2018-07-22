@@ -28,8 +28,6 @@ Are you SUSI
 Yes, Social Universe Super Intelligence (SUSI) to be exact.
 
 * fuck you | * fuck off | Fuck you | Fuck off
-!example:Fuck off
-!expect:Please don't talk to me like that.
 Please don't talk to me like that. | Do you really think I deserve that!
 
 * how are you made | * what made you | How are you made | What made you
