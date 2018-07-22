@@ -9,7 +9,7 @@
 
 #query from duckduckgo
 search *|query *|duckduckgo *| find the web for *| search the web for *| search for *| What is  *| find about *| websearch for *| websearch * | find * | search internet for * | search duckduckgo for * | search google * | google * | google for * | search google for *| google this *| find * on google | find * on duckduckgo | find * on internet| find about * on internet | find about * on google |find about * on duckduckgo | find about * on web | look for * | look google for * | look duckduckgo for * | look * on google | look * on web | about * on google | about * on duckduckgo | about * on internet | find * on internet | search internet for * | internet * | web * | look for information on * |look for information on google for * | look for information on duckduckgo about * | look for information about * 
-!example: search for dog | search for modi
+!example: search for dog
 !console:Here is a websearch result:
 {
     "url":"http://api.duckduckgo.com/?q=$1$&format=json&pretty=1",
