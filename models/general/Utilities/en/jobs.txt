@@ -1,0 +1,40 @@
+::name Jobs
+::author Tushar Mittal 
+::author_url https://techytushar.github.io/
+::description A skill to search for jobs based on keywords or location.
+::dynamic_content Yes
+::developer_privacy_policy 
+::image images/jobs.jpg 
+::terms_of_use 
+
+#Job search based on skill
+* jobs|search for * jobs|show me * jobs|jobs related to *|jobs with * skill|jobs for *|* job|job for *
+!example:Java jobs 
+!expect:Java Developer, Location: Lehi, Utah, Apply Here
+!console: 
+{ 
+"url":"https://jobs.github.com/positions.json?description=$1$",
+"path":"$",
+"actions":[{
+    "type":"table",
+    "columns":{"how_to_apply":"Apply","location":"Location","title":"Title"},
+    "count":5
+  }]
+} 
+eol
+
+#Job search based on location
+* jobs|search for jobs in *|jobs in *|show me jobs in *|jobs at *|jobs near *|job in *|job near *
+!example:Jobs in SF
+!expect:Software Engineer, Location: San Francisco, Apply Here
+!console: 
+{ 
+"url":"https://jobs.github.com/positions.json?location=$1$",
+"path":"$",
+"actions":[{
+    "type":"table",
+    "columns":{"how_to_apply":"Apply","location":"Location","title":"Title"},
+    "count":5
+  }]
+} 
+eol 
