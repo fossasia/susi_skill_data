@@ -21,7 +21,7 @@ What is * in french|french for *|translate * in french|translate * into french|t
 eol
 
 What is * in german|german for *|translate * in german|translate * into german|tell the translation of * in german | tell me the translation of  * in german | Can you translate * in german | Could you translate * in german
-!example: What is Hello in german
+!example: Could you translate Hello in german
 !expect: Hallo. HELLO IN GERMAN
 !console:$text$
 {
