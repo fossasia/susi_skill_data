@@ -1,7 +1,7 @@
 ::name Language !
 ::author Karthik Nair
 ::author_url https://github.com/KrUciFieR-Jr
-::description Profanity is a underated content in Chat Applications so we definitely need Language skill
+::description Profanity is a underated content in Chat Applications so we definitely need a skill
 ::dynamic_content No
 ::image images/profaneLanguage.jpg
 
