@@ -41,7 +41,7 @@ What is * in spanish|spanish for *|translate * in spanish|tell the translation o
 eol
 
 What is * in hindi|hindi for *|translate * in hinditranslate * into hindi|tell the translation of * in hindi | tell me the translation of  * in hindi | Can you translate * in hindi | Could you translate * in hindi
-!example: What is Hello in Hindi
+!example: Can you translate Hello in hindi
 !expect: नमस्ते
 !console:$text$
 {
