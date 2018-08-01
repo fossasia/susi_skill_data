@@ -14,19 +14,6 @@ fahrenheit to celsius *
 (($1$-32)/1.8).toPrecision(4);
 eol
 
-5 days weather forecast in * | five days weather forecast in *
-!example:five days weather forecast in Delhi
-!console:
-{
-    "url":"http://api.openweathermap.org/data/2.5/forecast?appid=81b01dac9afd096e60d4da37aefbf168&q=$1$,in",
-    "path":"$.list",
-    "actions":[{
-    "type":"table",
-    "columns":{ main['temp']:"Temperature", main['temp_min']:"Temperature(Min)", main['temp_max']:"Temperature(Max)"}
-    }]
-}
-eol
-
 temperature in *|what is temperature in *|what is the temperature in *|* temperature|Tell me about temperature in *
 !example:what is the temperature in Islamabad
 !expect:It is 27.22 degree celcius in Islamabad
