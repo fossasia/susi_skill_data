@@ -1,4 +1,4 @@
-::name NEWS
+::name News
 ::author Ali Ayub Khan
 ::author_url https://github.com/AliAyub007
 ::description A skill to give news. 
