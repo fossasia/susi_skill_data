@@ -1,4 +1,4 @@
-::name Aboutsusi
+::name About SUSI
 ::author Manveer Singh
 ::author_url https://www.github.com/Manveer695
 ::description Information about SUSI.AI 
