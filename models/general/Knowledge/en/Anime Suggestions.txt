@@ -5,7 +5,7 @@
 ::language en
 ::author Anshuman
 ::author_url https://github.com/anshumanv
-::description A skill to suggest animes 
+::description A skill which will suggest your next anime!
 ::dynamic_content No
 ::image images/anime.png
 
