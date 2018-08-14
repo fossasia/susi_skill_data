@@ -1,4 +1,4 @@
-::name hal_persona
+::name hal persona
 ::author Michael Christen
 ::author_url <author_url>
 ::description Quotes from Hal
