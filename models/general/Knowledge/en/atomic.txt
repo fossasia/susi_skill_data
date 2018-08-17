@@ -18,6 +18,7 @@ Tell the atomic mass of * | atomic mass of * | * atomic mass| find atomic mass o
 eol
 
 * element of periodic table | tell me * element of periodic table | * element by atomic number
+!example element of periodic table
 !console: $plaintext$
 { 
     "url": "https://api.wolframalpha.com/v2/query?input=$1$+element+of+periodic+table&format=plaintext&output=JSON&appid=9WA6XR-26EWTGEVTE&includepodid=Result",  
