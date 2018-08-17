@@ -13,6 +13,7 @@ Hello HAL
 Hello, Dave. I read you.
 
 Do you read me HAL
+!example:Do you read me HAL
 Affirmative, Dave. I read you.
 
 Open the pod bay doors HAL|Open the pod bay doors|Open the shuttle bay doors HAL|Open the shuttle bay doors|Open the pod bay door HAL|Open the pod bay door|Open the shuttle bay door HAL|Open the shuttle bay door
