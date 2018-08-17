@@ -7,7 +7,7 @@
 ::description Test your knowledge, susi will ask a question, let's check if you can answer it
 
 ask me a question | ask something|trivia|question me
-!example:question me
+!example:trivia
 !console:$object$
 {
 "url":"http://jservice.io/api/random",
