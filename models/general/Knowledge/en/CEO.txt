@@ -9,7 +9,7 @@
 
 # Returns the name of the CEO of a company
 who is the ceo of *| ceo *| tell me the ceo of *| Who is the ceo of * ? | find the ceo of *|do you know the ceo of *|tell about the ceo of *|Name the ceo of *
-!example:Who is the CEO of Google
+!example:Who is the ceo of Google
 !expect:Sundar Pichai (Chief Executive Officer, Google Inc) Larry Page (Chief Executive Officer and Director)
 !console:$plaintext$
 {
