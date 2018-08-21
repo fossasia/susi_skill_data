@@ -36,7 +36,7 @@ most viewed articles in * today | most viewed articles today in * | can you tell
 eol 
 
 most viewed articles in * in the last week | most viewed articles in the last week in * | can you tell me most viewed articles in * in the last week | please tell me most viewed articles in * in the last week | do you know most viewed articles in * in the last week | can you tell me last week's most viewed articles in *
-!example:most viewed articles in science in the last week wk
+!example:most viewed articles in science in the last week
 !console:
 {
 "url":"https://api.nytimes.com/svc/mostpopular/v2/mostviewed/$1$/7.json?api-key=418422c826c4460a8909bad0978a3e0a",
