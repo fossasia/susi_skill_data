@@ -13,7 +13,7 @@ Tell the atomic mass of * | atomic mass of * | * atomic mass| find atomic mass o
 !console:The atomic mass of $1$ is $plaintext$ 
 {
 "url":"https://api.wolframalpha.com/v2/query?input=atomic+mass+of+$1$&format=plaintext&output=JSON&appid=9WA6XR-26EWTGEVTE",
-"path":"$.queryresult.pods[1].subpods"
+"path":"$.queryresult.pods[1].subpods[0]"
 }
 eol
 
