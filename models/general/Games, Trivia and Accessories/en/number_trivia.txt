@@ -13,7 +13,7 @@
 }
 eol
 
-tell me a fact about number *|explain number *
+tell me a fact about number *|explain the number *|explain number *|fact about the number *|fact about number *|about number *|about the number *
 !example: tell me a fact about number 7
 !console:$object$
 {
