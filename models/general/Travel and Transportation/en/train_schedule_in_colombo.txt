@@ -6,7 +6,7 @@
 ::author <author_name>
 ::author_url <author_url>
 ::description <description> 
-::dynamic_content <Yes/No>
+::dynamic_content Yes
 ::developer_privacy_policy <link>
 ::image images/Classical-Music-Wallpaper.jpg
 ::terms_of_use <link>
