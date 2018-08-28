@@ -12,7 +12,7 @@
 ::terms_of_use <link>
 
 
-User query1|query2|quer3....
-!example:<The question that should be shown in public skill displays>
-!expect:<The answer expected for the above example>
+User query1|query2|quer3
+example:Is there a train from colombo to mathara
+expect:There is few in morning and evening too
 Answer for the user query
