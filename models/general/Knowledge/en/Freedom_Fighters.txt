@@ -5,11 +5,11 @@
 ::author_url https://github.com/SanjanaSanikommu
 ::image images/Freedom.jpg
 ::dynamic_content Yes
-::description Interesting facts on numbers,trivia,date
+::description A query on Indian freedom fighter.
 
 
-Susi,do you know any Indian freedom fighter? | Do you know any Indian freedom fighter?
+Susi,do you know any Indian freedom fighter? | Do you know any Indian freedom fighter? | Tell me any Indian freedom fighter? | 
 
-!example:Do you know any freedom fighter
+!example:Do you know any freedom fighter?
 !expect:Mahatma Gandhi is a great Indian freedom fighter
 Tipu sultan was the first Indian freedom Fighter
