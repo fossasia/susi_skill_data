@@ -1,0 +1,18 @@
+::protected No
+::author_email yogesh02011998@gmail.com
+::name test skilll
+::category Business and Finance
+::language en
+::author <author_name>
+::author_url https://github.com/YogeshSharma0201
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/paperplane.svg
+::terms_of_use <link>
+
+
+User query1|query2|quer3....
+!example:<The question that should be shown in public skill displays>
+!expect:<The answer expected for the above example>
+Answer for the user query
