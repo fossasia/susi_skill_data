@@ -7,7 +7,7 @@
 ::image images/news.png
 ::terms_of_use
 
-News|what's happenin in world|Anything new?|What is the headline?|what's new today?|latest news|what are the latest news|please tell me today's news
+News|what's happenin in world|Anything new?|What is the headline?|what's new today?|latest news|what are the latest news|please tell me today's news|what is the news for today?
 !example:News
 !expect:US seeks tough UN approach to N Korea See more here: http://www.bbc.co.uk/news/world-asia-41152509
 !console:$title$ See more here: $url$
