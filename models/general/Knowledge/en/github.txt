@@ -22,7 +22,7 @@ eol
 #returns number of followers
 Number of followers of * | How many followers of * on Github | Total Followers for * on Github | Github Followers of * | Search Github Followers for * | * is followed by how many people |
 !example:Number of followers of mariobehling
-!console:$1$ has $object$ followers
+!console:$1$ has $object$ followers on GitHub.
 {
 
     "url":"https://api.github.com/users/$1$",
