@@ -11,7 +11,7 @@
 ::terms_of_use 
 
 Name of bank with IFSC code * | Bank's name with IFSC code *
-!example:bank wih IFSC code SBIN0007245
+!example:Name of bank with IFSC code SBIN0007245
 !expect: The name of bank is SBI
 !console:The name of bank with IFSC code $1$ is $object$
 {
