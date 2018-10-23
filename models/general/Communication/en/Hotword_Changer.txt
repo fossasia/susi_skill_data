@@ -10,7 +10,7 @@
 
 Hotword * | Change Hotword to *| Hot word *
 !example: Hotword lulu
-!expect: Hotword changed to "lulu"
+!expect: Hotword changed to Darlin
 Hotword changed to  $1$>_hotword
 
 
