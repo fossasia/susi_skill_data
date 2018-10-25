@@ -8,7 +8,7 @@
 ::description This is Daisy(Personal AI Bot , This Bot  is the project for GCI )  it can have show temprature and show some jokes on demand...
 ::dynamic_content Yes
 ::developer_privacy_policy 
-::image images/GCI2.png
+::image images/Ai.png
 ::terms_of_use
 
 
