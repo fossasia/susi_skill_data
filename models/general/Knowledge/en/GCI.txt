@@ -3,7 +3,7 @@
 ::name GCI
 ::category Knowledge
 ::language en
-::author Mario Behling
+::author Shreesh
 ::author_url <author_url>
 ::description <description> 
 ::dynamic_content <Yes/No>
