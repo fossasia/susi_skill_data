@@ -16,5 +16,5 @@
 !example:Compute the area of a circle of radius 4
 !expect:The area of a circle of radius 4 = 50.24
 !javascript: The area of a circle of radius $2$ = $!$
-3.14*$2$*$2$
+$!$ = 3.14*$2$*$2$
 eol
