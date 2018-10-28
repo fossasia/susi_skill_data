@@ -16,5 +16,5 @@ Random number from * to *
 !example:Random number from 10 to 20
 !expect:17
 !javascript:$!$
-Math.floor(Math.random() * ($2$-$1$))+$1$;
+Math.floor(Math.random() * ($2$-$1$+1))+$1$;
 eol
