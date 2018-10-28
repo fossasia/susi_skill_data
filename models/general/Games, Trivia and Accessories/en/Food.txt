@@ -1,0 +1,18 @@
+::protected No
+::author_email siddharthsinha9752@gmail.com
+::name Food
+::category Games, Trivia and Accessories
+::language en
+::author <author_name>
+::author_url https://github.com/Sid911
+::description The Food fun bot
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/895.png
+::terms_of_use <link>
+
+
+User query1|query2|quer3....
+!example: do you eat?
+!expect:I can't tell if I eat, I am very busy person 🍝😋.
+Answer for the user query
