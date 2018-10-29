@@ -6,13 +6,11 @@
 ::author _supun_tharinda_
 ::author_url https://github.com/STEdirisuriya
 ::description This skill helps for webdevelopers to learn, solve problems.
-::dynamic_content <Yes/No>
+::dynamic_content yes
 ::developer_privacy_policy <link>
 ::image images/HTML.png
 ::terms_of_use <link>
 
-
-User query1|query2|quer3....
 What is the HTML means?
 HTML means HyperText Markup Langauge.
 
