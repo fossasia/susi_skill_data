@@ -1,8 +1,8 @@
 ::protected Yes
 ::author_email xyz@fsdn.com
 ::name sample
-::category Communication
-::language en
+::category ghgh
+::language ghjghj
 ::author sample
 ::author_url <author_url>
 ::description <description> 
@@ -15,4 +15,4 @@
 User query1|query2|quer3....
 !example:<The question that should be shown in public skill displays>
 !expect:<The answer expected for the above example>
-Answer for the user query
+Answer for the user query3
