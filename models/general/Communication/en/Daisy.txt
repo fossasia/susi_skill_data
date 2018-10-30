@@ -11,6 +11,7 @@
 ::image images/Ai.png
 ::terms_of_use
 
+::on daisy
 
 User query1|query2|quer3....
 !example:<The question that should be shown in public skill displays>
