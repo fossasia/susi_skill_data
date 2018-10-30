@@ -15,4 +15,4 @@
 User query1|query2|quer3....
 !example: do you eat?
 !expect:I can't tell if I eat, I am very busy person 🍝😋.
-Answer for the user query
+I will die only because of eating
