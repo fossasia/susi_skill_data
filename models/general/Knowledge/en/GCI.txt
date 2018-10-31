@@ -15,7 +15,9 @@ What is google code-in?|What * Gci| what * GCI
 Google Code-in is an annual programming competition hosted by Google Inc. that allows pre-university students to complete tasks specified by various,partnering open source organizations.
 
 How do I participate?| * join | * eligible * 
-You can participate in the GCI (Google Code in)
+You can participate in the GCI (Google Code in) by clicking on this link "https://codein.withgoogle.com/", also note that you should read the terms and coditions for participating here "https://codein.withgoogle.com/terms/"
+
+
 
 
 User query1|query2|quer3....
