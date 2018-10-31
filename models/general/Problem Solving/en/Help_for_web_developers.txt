@@ -17,7 +17,7 @@ HTML stands for HyperText Markup Langauge.
 * CSS means?|* CSS stands for?|CSS
 CSS stands for Cascading Style Sheets.
 
-* HTML for?
+What is the HTML for?|* use of HTML?
 HTML elements are the building blocks of HTML pages.
 For more details, visit this link - https://www.w3schools.com/html/html_intro.asp
 
