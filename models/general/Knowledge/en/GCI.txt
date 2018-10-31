@@ -1,12 +1,12 @@
 ::protected No
-::author_email siddharthsinha9752@gmail.com
+::author_email siddharthsinha9752@gmail.com | supuntharindaedirisuriya@gmail.com
 ::name GCI
 ::category Knowledge
 ::language en
-::author Siddharth_Sinha
-::author_url https://github.com/Sid911
+::author Siddharth_Sinha | _supun_tharinda_
+::author_url https://github.com/Sid911 | https://github.com/STEdirisuriya
 ::description This the Query bot made for GCI 
-::dynamic_content <Yes>
+::dynamic_content No
 ::developer_privacy_policy <link>
 ::image images/google.png
 ::terms_of_use <link>
@@ -16,7 +16,7 @@ What is google code-in?|What * Gci| what * GCI
 Google Code-in is an annual programming competition hosted by Google Inc. that allows pre-university students to complete tasks specified by various,partnering open source organizations.
 
 How do I participate?| * join | * eligible * 
-You can participate in the GCI (Google Code in) by clicking on this link "https://codein.withgoogle.com/", also note that you should read the terms and coditions for participating here "https://codein.withgoogle.com/terms/"
+You can participate in the GCI (Google Code in) by clicking on this link: https://codein.withgoogle.com/ also note that you should read the terms and coditions for participating here: https://codein.withgoogle.com/terms/
 
 
 *help*|*Help*|about
@@ -25,16 +25,26 @@ This is a chatbot made to clearify the quries that people might have about Googl
 Why should I participate? | Why * join
 Google Codein is more about the experience that the participants gain from working in a open source organisation. And if you ever get stuck there are a number of mentors who could help 😊
 
-* programmer * | are only programmers *allowed?
+* GCI only for programmers * | are only programmers * allowed to GCI?
 No, You don't need to be a programmer to join GCI. You can start by choosing beginners task, which are fairly simple even for people with little to no experience in programming. But remember you can only do 2 beginners task, So make them count 😊
 
-
-User query1|query2|quer3....
-!example: What is Google Code-in?
-!expect:Google Google Code-in is an annual programming competition hosted by Google Inc. that allows pre-university students to complete tasks specified by various,partnering open source organizations.
-Answer for the user query
 #endSid
 
-#Supun_TE
+#STEdirisuriya
 
-#end Supun_TE
+* allowed to take part*|Can I join?
+Pre-university students ages 13 to 17 are invited to take part in Google Code-in.
+
+* aim of GCI?|* aim of Google Code-in *
+Main aim of GCI to global, online contest introducing teenagers to the world of open source development.
+
+* organizations in GCI *| * organizations in Google Code-in *
+Every years there are lot of organizations. FOSSASIA is also an organization. You can found some more details from here: https://codein.withgoogle.com/organizations/
+
+* tasks related to *|* tasks belongs to *
+You have tasks related to coding, documentation & writing, outreach and research, quality assurance, design in GCI. You can see some example tasks from here: https://developers.google.com/open-source/gci/resources/example-tasks
+
+* see previous contests * in gci|* see previous contests * in Google Code-in
+You can see details about previous from here: https://codein.withgoogle.com/archive/ 
+
+#end STEdirisuriya
