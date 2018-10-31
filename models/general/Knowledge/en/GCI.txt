@@ -18,6 +18,14 @@ How do I participate?| * join | * eligible *
 You can participate in the GCI (Google Code in) by clicking on this link "https://codein.withgoogle.com/", also note that you should read the terms and coditions for participating here "https://codein.withgoogle.com/terms/"
 
 
+*help*|*Help*|about
+This is a chatbot made to clearify the quries that people might have about Google Codein, try asking "How Do I particpate" or What is google codein.🤖 
+
+Why should I participate? | Why * join
+Google Codein is more about the experience that the participants gain from working in a open source organisation. And if you ever get stuck there are a number of mentors who could help 😊
+
+* programmer * | are only programmers *allowed?
+No, You don't need to be a programmer to join GCI. You can start by choosing beginners task, which are fairly simple even for people with little to no experience in programming. But remember you can only do 2 beginners task
 
 
 User query1|query2|quer3....
