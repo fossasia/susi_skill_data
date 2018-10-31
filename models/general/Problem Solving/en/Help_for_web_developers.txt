@@ -18,10 +18,14 @@ HTML stands for HyperText Markup Langauge.
 CSS stands for Cascading Style Sheets.
 
 What is the HTML for?|* use of HTML?
-HTML elements are the building blocks of HTML pages. For more details, visit this link - https://www.w3schools.com/html/html_intro.asp .
+HTML elements are the building blocks of HTML pages. For more details, visit this link: https://www.w3schools.com/html/html_intro.asp
 
 I want to learn HTML
-Here's good reference for you, https://www.w3schools.com/html .
+Here's good reference for you: https://www.w3schools.com/html
+
+* code with HTML?|How to write HTML?
+You can use any text editor. For more details, visit this link: https://www.w3schools.com/html/html_editors.asp
+
 
 
 
