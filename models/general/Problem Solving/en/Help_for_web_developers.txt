@@ -6,7 +6,7 @@
 ::author _supun_tharinda_
 ::author_url https://github.com/STEdirisuriya
 ::description This skill helps for webdevelopers to learn, solve problems.
-::dynamic_content yes
+::dynamic_content no
 ::developer_privacy_policy <link>
 ::image images/HTML.png
 ::terms_of_use <link>
