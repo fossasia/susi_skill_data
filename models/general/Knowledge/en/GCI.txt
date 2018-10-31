@@ -10,6 +10,7 @@
 ::developer_privacy_policy <link>
 ::image images/google.png
 ::terms_of_use <link>
+#Sid
 
 What is google code-in?|What * Gci| what * GCI
 Google Code-in is an annual programming competition hosted by Google Inc. that allows pre-university students to complete tasks specified by various,partnering open source organizations.
@@ -32,3 +33,8 @@ User query1|query2|quer3....
 !example: What is Google Code-in?
 !expect:Google Google Code-in is an annual programming competition hosted by Google Inc. that allows pre-university students to complete tasks specified by various,partnering open source organizations.
 Answer for the user query
+#endSid
+
+#Supun_TE
+
+#end Supun_TE
