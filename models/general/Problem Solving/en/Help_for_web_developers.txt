@@ -26,6 +26,24 @@ Here's good reference for you: https://www.w3schools.com/html
 * code with HTML?|How to write HTML?
 You can use any text editor. For more details, visit this link: https://www.w3schools.com/html/html_editors.asp
 
+* elements in HTML?|* HTML element *
+Web page that written in the HTML shows what is in the elements. For more details, visit this link: https://www.w3schools.com/html/html_elements.asp
+
+* attributes in HTML?|* HTML attribute *
+Attributes provide additional information about HTML elements. For more details, visit this link: https://www.w3schools.com/html/html_attributes.asp
+
+* headings in HTML?|* H tags *|* Heading tags *
+H tags or Heading tags are used for show headings in your web page. For more details, visit this link: https://www.w3schools.com/html/html_headings.asp
+
+* paragraphs in HTML?|* P tags *|* Paragraph tags *
+P tags or Paragraphs tags are used for show paragraphs in your web page. For more details, visit this link: https://www.w3schools.com/html/html_paragraphs.asp
+
+
+
+
+
+
+
 
 
 
