@@ -1,10 +1,10 @@
 ::name News
-::author Ali Ayub Khan
+::author Me
 ::author_url https://github.com/AliAyub007
 ::description A skill to give news. 
 ::dynamic_content Yes
 ::developer_privacy_policy
-::image images/news.png
+::image images/paperplane.svg
 ::terms_of_use
 
 News|what's happenin in world|Anything new?|What is the headline?|what's new today?|latest news|what are the latest news|please tell me today's news|what is the news for today?
