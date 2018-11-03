@@ -38,6 +38,9 @@ Every years there are lot of organizations. FOSSASIA is also an organization. Yo
 
 * tasks related to *|* tasks belongs to *
 You have tasks related to coding, documentation & writing, outreach and research, quality assurance, design in GCI. You can see some example tasks from here: https://developers.google.com/open-source/gci/resources/example-tasks
-
+* Programming languages do I need to know  *| * programming languages required *
+Historically there have been tasks in Python, C++, C, JavaScript, HTML, CSS and more.
+* pick organizations *|* which organisation *
+You can work with one organization or multiple organizations during the contest. (for eg. Fossasia)
 * see previous contests * in gci|* see previous contests * in Google Code-in
 You can see details about previous from here: https://codein.withgoogle.com/archive/ 
