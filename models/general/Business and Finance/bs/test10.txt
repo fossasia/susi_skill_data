@@ -8,7 +8,7 @@
 ::description <description> 
 ::dynamic_content <Yes/No>
 ::developer_privacy_policy <link>
-::image images/download1.jpeg
+::image images/download.png
 ::terms_of_use <link>
 
 
