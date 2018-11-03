@@ -17,7 +17,8 @@ Google Code-in is an annual programming competition hosted by Google Inc. that a
 How do I participate?| * join | * eligible * 
 You can participate in the GCI (Google Code in) by clicking on this link: https://codein.withgoogle.com/ also note that you should read the terms and coditions for participating here: https://codein.withgoogle.com/terms/
 
-
+What are the prizes | * prizes *
+There are a ton of prizes, check them out here - https://developers.google.com/open-source/gci/how-it-works
 *help*|*Help*|about
 This is a chatbot made to clearify the quries that people might have about Google Codein, try asking "How Do I particpate" or What is google codein.🤖 
 
