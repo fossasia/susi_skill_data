@@ -45,3 +45,6 @@ Historically there have been tasks in Python, C++, C, JavaScript, HTML, CSS and 
 You can work with one organization or multiple organizations during the contest. (for eg. Fossasia)
 * see previous contests * in gci|* see previous contests * in Google Code-in
 You can see details about previous from here: https://codein.withgoogle.com/archive/ 
+
+* i had completed three tasks can i get a T-shirt|How do i get my T-shirt|How are T-Shirts shipped*
+if you had completed three tasks you will receive a confirmation mail for your size and address to be shipped.this year google takes the help of Shumsky to ship all the T-shirts.
