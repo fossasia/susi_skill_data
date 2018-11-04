@@ -16,3 +16,4 @@ User query1|query2|quer3....
 !example:<How are you?>
 !expect:<I am fine and you.>
 Answer for the user query
+I am fine and you.
