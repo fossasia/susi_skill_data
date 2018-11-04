@@ -14,7 +14,7 @@
 ::description Contains basic conversational English.
 ::dynamic_content No
 ::developer_privacy_policy 
-::image images/aiml.jpg
+::image images/download.png
 ::terms_of_use 
 
 * CONTINUITY
