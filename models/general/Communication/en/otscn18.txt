@@ -1,0 +1,22 @@
+::protected No
+::author_email dhppat@gmail.com
+::name test
+::category Communication
+::language en
+::author hpdang
+::author_url http://twitter.com/hpdang
+::description This is a playground
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/39277404650_095a9fc154_o.jpg
+::terms_of_use <link>
+
+
+When is the first OpenFest? 
+2003 
+
+What is OpenFest? 
+OpenFest is the best open source event in the Balkans | OpenFest is the biggest event in Bulgaria 
+
+
+
