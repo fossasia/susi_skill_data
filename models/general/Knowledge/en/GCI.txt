@@ -48,3 +48,67 @@ You can see details about previous from here: https://codein.withgoogle.com/arch
 
 * i had completed three tasks can i get a T-shirt|How do i get my T-shirt|How are T-Shirts shipped*
 if you had completed three tasks you will receive a confirmation mail for your size and address to be shipped.this year google takes the help of Shumsky to ship all the T-shirts.
+
+*
+Google Code-in Frequently Asked Questions
+Contest Overview
+How do I pick which organizations to work with?
+You can work with one organization or multiple organizations during the contest.
+
+Each organization is different, so we encourage you to review the organization's information and pick one that interests you. If you try an organization and don't like it, you can always switch to another.
+
+If you're trying to be a Finalist or win a Grand Prize, you need to be in the top-twenty task completers for an organization.
+
+Why should I participate in the contest?
+Google Code-in will introduce you to open source and give you the opportunity to become part of the open source community by working on a real-world software project.
+
+You'll be supported by an international community of volunteer mentors from our participating organizations to help you learn and succeed. You can ask questions and learn about all aspects of open source including programming, testing, code reviews, writing documentation, bugs, and design.
+
+Google Code-in is a gateway to learning new skills as well as learning the importance of collaborative and open software development.
+
+At the end of the contest, you can show your friends, teachers, and family members the work you did on a public project used by thousands or even millions of people!
+
+Also Prizes! Digital Certificates, T-Shirts, Hoodies, and a chance to win a trip to Google Headquarters in California!
+
+How does Google pick the participating open source organizations?
+Google chooses the participating organizations from organizations who have previously participated in Google Summer of Code and have shown strong ability in mentoring beginners across many time zones.
+
+Skills
+Do I have to know how to code in order to participate?
+No, you do not need to be a programmer -- you don’t have to know how to code at all! All contestants are welcome to choose non-coding tasks that may better fit their interests/skills. Non-coding tasks include documentation, training, outreach, research, design, and quality assurance (e.g., find bugs and report them, etc.) tasks.
+
+If you know how to program in particular languages, then we encourage you to look into the organizations that use those languages and see if there are tasks that you would like to try. If you have non-programming skills, we encourage you to look for tasks that use those skills.
+
+Tasks are designed to be learning experiences and you are not expected to know how to do all of the tasks. We recommend that you ask organizations for advice on which tasks would be a good fit for your skills and interests.
+
+What programming languages do I need to know to complete programming tasks?
+Until we have announced the mentoring organizations for this year, we won’t know exactly what languages will be used but historically there have been tasks in Python, C++, C, JavaScript, HTML, CSS and more.
+
+Eligibility and Paperwork
+Who can participate in the contest? What are the eligibility requirements?
+Contestants must have the consent of their parent or guardian, and be 13 to 17 years old and enrolled in a pre-university educational program.
+
+Please read the contest rules for the details.
+
+What is a pre-university program?
+Pre-university programs are often known as middle schools, high schools, or secondary schools. In some countries they are called colleges.
+
+Can homeschooled students participate in the contest?
+Yes.
+
+I turn 13 a couple of weeks after the contest starts. Can I participate in the contest?
+Yes, but not until you turn 13. Students must be 13 years old when they register for the contest.
+
+For example, if a student turns 13 years old on November 1st, they may register for the program on November 1st.
+
+I am enrolled in a university and am only 17. Can I participate in the contest?
+No.
+
+You must be currently enrolled in a pre-university program.
+
+Students are not eligible to participate if they are enrolled in a university, even if they are only 17.
+
+Students are also not eligible to participate if they have already graduated a pre-university program and are in between the pre-university program and university.
+
+I am in a high school but am 18 years old. Can I participate in the contest?
+No. You must be under 18 at the time of registration to participate.
