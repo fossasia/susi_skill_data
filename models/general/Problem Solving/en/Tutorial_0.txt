@@ -18,4 +18,5 @@ User query1|query2|quer3....
 Answer for the user query
 # SUSI Skill tutorial playground
 roses are red
-SUSI is a hack
+susi is a hack
+skynet is back
