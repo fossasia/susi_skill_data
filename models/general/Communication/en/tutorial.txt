@@ -13,7 +13,7 @@
 
 
 # SUSI Skill tutorial playground
-
-
-What is your favorite color?
-?$_mycolour$:My favorite colour is $_mycolour$!:I like `function colour`>_mycolour!
+javascript hello
+!javascript:$!$ from Nashorn
+print('Hello world');
+eol
