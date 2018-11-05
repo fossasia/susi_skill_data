@@ -17,12 +17,5 @@ User query1|query2|quer3....
 !expect:<The answer expected for the above example>
 Answer for the user query
 # SUSI Skill tutorial playground
-roses are red
-susi is a hack
-skynet is back
-
-What is your favorite dish
-Potatoes|Vegetables|Fish
-
-Bonjour|Buenos días|Ciao
-Hello
+привет|Привет
+Привет!
