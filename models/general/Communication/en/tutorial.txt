@@ -12,7 +12,6 @@
 ::terms_of_use <link>
 
 
-User query1|query2|quer3....
 # SUSI Skill tutorial playground
 what is your favourite dish
-potatoes|fish|eggs|vegetables
+potatoes|fish|vegetables
