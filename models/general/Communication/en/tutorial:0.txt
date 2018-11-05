@@ -13,6 +13,6 @@
 
 
 User query1|query2|quer3....
-!example:<how are you>
-!expect<I am feeling great!>
-Answer for the user query
+# SUSI Skill tutorial playground
+roses are red
+SUSI is a hack
