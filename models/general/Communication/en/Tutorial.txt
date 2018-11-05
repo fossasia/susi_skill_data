@@ -16,3 +16,4 @@ User query1|query2|quer3....
 # SUSI Skill tutorial playground
 roses are red
 SUSI is a hack
+Skynet is back
