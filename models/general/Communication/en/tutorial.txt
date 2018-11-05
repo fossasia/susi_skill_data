@@ -13,5 +13,5 @@
 
 
 # SUSI Skill tutorial playground
-what is your favourite dish
-potatoes|fish|vegetables
+hi|hello
+hey there!
