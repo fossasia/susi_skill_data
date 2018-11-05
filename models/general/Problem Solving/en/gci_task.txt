@@ -20,3 +20,9 @@ Answer for the user query
 roses are red
 susi is a hack
 skynet is back
+
+What is your favorite dish
+Potatoes|Vegetables|Fish
+
+Bonjour|Buenos días|Ciao
+Hello
