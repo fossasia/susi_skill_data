@@ -13,5 +13,5 @@
 
 
 # SUSI Skill tutorial playground
-hi|hello
-hey there!
+May I * you?
+Yes you may.
