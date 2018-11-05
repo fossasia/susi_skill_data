@@ -13,11 +13,5 @@
 
 
 # SUSI Skill tutorial playground
-I am so happy!
-Good for you!^excited^>_mood
-
-I am bored.
-Make something!^inactive^>_mood
-
 How do I feel?
-You are $_mood$.
+?$_mood$:You are $_mood$.:I don't know your mood.
