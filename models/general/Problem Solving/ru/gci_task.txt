@@ -1,8 +1,7 @@
-::protected No
 ::author_email anna.groshenkova@gmail.com
-::name Tutorial_0
+::name gci_task
 ::category Problem Solving
-::language en
+::language rus
 ::author angr_pukhlya
 ::author_url <author_url>
 ::description <description> 
