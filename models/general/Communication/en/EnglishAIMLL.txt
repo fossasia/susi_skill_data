@@ -8,7 +8,7 @@
 # susi skill environment
 # changes in march 2017
 
-::name EnglishAIML
+::name EnglishAIMLL
 ::author Michael Peter Christen
 ::author_url https://github.com/Orbiter
 ::description Contains basic conversational English.
