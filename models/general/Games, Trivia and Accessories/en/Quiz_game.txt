@@ -32,6 +32,9 @@ next question
 When when the Treaty of Brest-Litovsk was signed?(year)^Treaty^>_now_question|Who wrote Moby-Dick, or The Whal?^Moby-Dick^>_now_question
 
 1918
+wow
+
+1918
 ?$_now_question$=Treaty:Great! If you want to continue, write "next question"^$_questions_count$ + 1^>_questions_count^_right_questions + 1^>_right_questions:It`s wrong!^0^>_now_question:what
 
 Herman Melville|Melville
