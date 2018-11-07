@@ -14,6 +14,9 @@
 What is google code-in?|What * Gci| what * GCI
 Google Code-in is an annual programming competition hosted by Google Inc. that allows pre-university students to complete tasks specified by various,partnering open source organizations.
 
+What is open source? | What * open source
+The term "open source" refers to something people can modify and share because its design is publicly accessible.
+
 How do I participate?| * join | * eligible * 
 You can participate in the GCI (Google Code in) by clicking on this link: https://codein.withgoogle.com/ also note that you should read the terms and coditions for participating here: https://codein.withgoogle.com/terms/
 
@@ -25,6 +28,9 @@ This is a chatbot made to clearify the quries that people might have about Googl
 Why should I participate? | Why * join
 Google Codein is more about the experience that the participants gain from working in a open source organisation. And if you ever get stuck there are a number of mentors who could help 😊
 
+How will I win the competition? | How * win
+The number of tasks you for a single organisation will get you into the top ten for that organisation. Furthermore, your work will be analysed by mentors as to what you have done during the course of the competition. Remember, quality is more important than quantity.
+
 * GCI only for programmers * | are only programmers * allowed to GCI?
 No, You don't need to be a programmer to join GCI. You can start by choosing beginners task, which are fairly simple even for people with little to no experience in programming. But remember you can only do 2 beginners task, So make them count 😊
 
@@ -35,12 +41,12 @@ Pre-university students ages 13 to 17 are invited to take part in Google Code-in
 Main aim of GCI to global, online contest introducing teenagers to the world of open source development.
 
 * organizations in GCI *| * organizations in Google Code-in *
-Every years there are lot of organizations. FOSSASIA is also an organization. You can found some more details from here: https://codein.withgoogle.com/organizations/
+Every years there are lot of organizations, for GCI 2018, there are 27. FOSSASIA is also an organization. You can found some more details from here: https://codein.withgoogle.com/organizations/
 
 * tasks related to *|* tasks belongs to *
-You have tasks related to coding, documentation & writing, outreach and research, quality assurance, design in GCI. You can see some example tasks from here: https://developers.google.com/open-source/gci/resources/example-tasks
+You have tasks related to coding, documentation & training, outreach & research, quality assurance and design in GCI. You can see some example tasks from here: https://developers.google.com/open-source/gci/resources/example-tasks
 * Programming languages do I need to know  *| * programming languages required *
-Historically there have been tasks in Python, C++, C, JavaScript, HTML, CSS and more.
+Historically there have been tasks in Python, C++, C, JavaScript, HTML, CSS, Android, Scala, iOS and more.
 * pick organizations *|* which organisation *
 You can work with one organization or multiple organizations during the contest. (for eg. Fossasia)
 * see previous contests * in gci|* see previous contests * in Google Code-in
@@ -57,7 +63,7 @@ You can work with one organization or multiple organizations during the contest.
 
 Each organization is different, so we encourage you to review the organization's information and pick one that interests you. If you try an organization and don't like it, you can always switch to another.
 
-If you're trying to be a Finalist or win a Grand Prize, you need to be in the top-twenty task completers for an organization.
+If you're trying to be a Finalist or win a Grand Prize, you need to be in the top-ten task completers for an organization.
 
 Why should I participate in the contest?
 Google Code-in will introduce you to open source and give you the opportunity to become part of the open source community by working on a real-world software project.
