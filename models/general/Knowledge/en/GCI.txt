@@ -1,10 +1,10 @@
 ::protected No
-::author_email siddharthsinha9752@gmail.com | supuntharindaedirisuriya@gmail.com
+::author_email siddharthsinha9752@gmail.com 
 ::name GCI
 ::category Knowledge
 ::language en
 ::author Siddharth_Sinha | _supun_tharinda_
-::author_url https://github.com/Sid911 | https://github.com/STEdirisuriya
+::author_url https://github.com/Sid911 
 ::description This the Query bot made for GCI 
 ::dynamic_content No
 ::developer_privacy_policy <link>
