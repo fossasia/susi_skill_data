@@ -10,7 +10,7 @@
 ::developer_privacy_policy <link>
 ::image images/google.png
 ::terms_of_use <link>
-
+//sid
 What is google code-in?|What * Gci| what * GCI
 Google Code-in is an annual programming competition hosted by Google Inc. that allows pre-university students to complete tasks specified by various,partnering open source organizations.
 
@@ -36,7 +36,7 @@ No, You don't need to be a programmer to join GCI. You can start by choosing beg
 
 * allowed to take part*|Can I join?
 Pre-university students ages 13 to 17 are invited to take part in Google Code-in.
-
+//sid
 * aim of GCI?|* aim of Google Code-in *
 Main aim of GCI to global, online contest introducing teenagers to the world of open source development.
 
