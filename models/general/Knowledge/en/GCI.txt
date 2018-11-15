@@ -126,3 +126,17 @@ How much time does it take for a mentor to reply?
 Typically all mentors reply within 24 hours but the maximum time that can be taken is 36 hours.
 How to contact support?
 You can type a mail to gci-support@google.com or join the gci discuss Google group.
+
+
+Why do I have to give you my birthday when I first sign in?
+Yes, It indeed is to verify that you are eligible for this contest.
+
+Where do I find the required Parental Consent Form?
+After you register for the contest and you are eligible, you will be provided with option to either fill the details in paper or digitaly whether of these your parents would like to fill in.
+
+How do I know if my Parental Consent Form has been verified by Google’s contest administrators?
+You will receive an email when you will complete your registration with parental consent as well.
+You will be notified whether your consent form is  verified or not  within 72 hours of submitting your Parental Consent form.
+If there is a problem with your Parental Consent Form, the contest administrators will send you an email telling you about the problem and giving you a chance to fix it.
+
+
