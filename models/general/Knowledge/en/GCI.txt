@@ -10,136 +10,99 @@
 ::developer_privacy_policy <link>
 ::image images/google.png
 ::terms_of_use <link>
-//sid
-What is google code-in?|What * Gci| what * GCI
-Google Code-in is an annual programming competition hosted by Google Inc. that allows pre-university students to complete tasks specified by various,partnering open source organizations.
-
-What is open source? | What * open source
-The term "open source" refers to something people can modify and share because its design is publicly accessible.
-
-Why do I have to give my birthdate during the registeration process?
-The birthdate is needed so as to verify your eligibility.
-
-How do I participate?| * join | * eligible * 
-You can participate in the GCI (Google Code in) by clicking on this link: https://codein.withgoogle.com/ also note that you should read the terms and coditions for participating here: https://codein.withgoogle.com/terms/
-
-What are the prizes | * prizes *
-There are a ton of prizes, check them out here - https://developers.google.com/open-source/gci/how-it-works
-*help*|*Help*|about
-This is a chatbot made to clearify the quries that people might have about Google Codein, try asking "How Do I particpate" or What is google codein.🤖 
-
-Why should I participate? | Why * join
-Google Codein is more about the experience that the participants gain from working in a open source organisation. And if you ever get stuck there are a number of mentors who could help 😊
-
-How will I win the competition? | How * win
-The number of tasks you for a single organisation will get you into the top ten for that organisation. Furthermore, your work will be analysed by mentors as to what you have done during the course of the competition. Remember, quality is more important than quantity.
-
-* GCI only for programmers * | are only programmers * allowed to GCI?
-No, You don't need to be a programmer to join GCI. You can start by choosing beginners task, which are fairly simple even for people with little to no experience in programming. But remember you can only do 2 beginners task, So make them count 😊
-
-* allowed to take part*|Can I join?
-Pre-university students ages 13 to 17 are invited to take part in Google Code-in.
-//sid
-* aim of GCI?|* aim of Google Code-in *
-Main aim of GCI to global, online contest introducing teenagers to the world of open source development.
-
-* organizations in GCI *| * organizations in Google Code-in *
-Every years there are lot of organizations, for GCI 2018, there are 27. FOSSASIA is also an organization. You can found some more details from here: https://codein.withgoogle.com/organizations/
-
-* tasks related to *|* tasks belongs to *
-You have tasks related to coding, documentation & training, outreach & research, quality assurance and design in GCI. You can see some example tasks from here: https://developers.google.com/open-source/gci/resources/example-tasks
-* Programming languages do I need to know  *| * programming languages required *
-Historically there have been tasks in Python, C++, C, JavaScript, HTML, CSS, Android, Scala, iOS and more.
-* pick organizations *|* which organisation *
-You can work with one organization or multiple organizations during the contest. (for eg. Fossasia)
-* see previous contests * in gci|* see previous contests * in Google Code-in
-You can see details about previous from here: https://codein.withgoogle.com/archive/ 
-
-* i had completed three tasks can i get a T-shirt|How do i get my T-shirt|How are T-Shirts shipped*
-if you had completed three tasks you will receive a confirmation mail for your size and address to be shipped.this year google takes the help of Shumsky to ship all the T-shirts.
 
 *
-Google Code-in Frequently Asked Questions
-Contest Overview
-How do I pick which organizations to work with?
-You can work with one organization or multiple organizations during the contest.
+Google Code-in Frequently Asked Questions - https://developers.google.com/open-source/gci/faq
 
-Each organization is different, so we encourage you to review the organization's information and pick one that interests you. If you try an organization and don't like it, you can always switch to another.
+gci*|gci|google code-in*|google code-in|google code in*|google code in|google codein*|google codein|what*gci|what*google code-in|what*google code in|what*google codein
+Google Code-in is an annual programming competition hosted by Google Inc. that allows pre-university students to complete tasks specified by various partnering open-source organisations.
 
-If you're trying to be a Finalist or win a Grand Prize, you need to be in the top-ten task completers for an organization.
+open source|what*open source?|what*open source
+The term 'open source' refers to something people can modify and share because its design is publicly accessible.
 
-Why should I participate in the contest?
-Google Code-in will introduce you to open source and give you the opportunity to become part of the open source community by working on a real-world software project.
+why*birth date|why*date of birth|why*birthdate|why*birth-date|why*birthday|birth date*|birth date|date of birth*|date of birth|birthdate*|birthdate|birth-date*|birth-date|birthday*|birthday
+When you first sign in, you must provide your birth date to verify your eligibility.
 
-You'll be supported by an international community of volunteer mentors from our participating organizations to help you learn and succeed. You can ask questions and learn about all aspects of open source including programming, testing, code reviews, writing documentation, bugs, and design.
+how*participate|can i participate*|can i participate|*participate*|participate|how*join|can i join*|can i join|join*|join|*eligible*|eligible|*eligibility*|eligibility|*allowed to take part*
+You can participate in Google Code-in by visiting https://codein.withgoogle.com/. The terms and conditions are at https://codein.withgoogle.com/terms/. Essentially, contestants must have the consent of their parent or guardian, and be 13 to 17 years old and enrolled in a pre-university educational programme.
 
-Google Code-in is a gateway to learning new skills as well as learning the importance of collaborative and open software development.
+*prizes*|prizes|*prize*|prize
+There are a ton of prizes. Check them out here - https://developers.google.com/open-source/gci/how-it-works
 
-At the end of the contest, you can show your friends, teachers, and family members the work you did on a public project used by thousands or even millions of people!
+*help*|about
+This is a chatbot made to clarify the queries people may have about Google Code-in. Try asking 'How do I participate?' or 'What is Google Code-in?' 🤖
 
-Also Prizes! Digital Certificates, T-Shirts, Hoodies, and a chance to win a trip to Google Headquarters in California!
+why*participate|why*join|why participate|why join|why
+Google Code-in is about the experience that the participants gain from working with an open-source organisation. And if you ever get stuck, there are a number of mentors who can help. 😊
 
-How does Google pick the participating open source organizations?
-Google chooses the participating organizations from organizations who have previously participated in Google Summer of Code and have shown strong ability in mentoring beginners across many time zones.
+how*win*competition|how*win competition|how*win*|how*win|winning|win requirement|win requirements|winning requirement|winning requirements|victory requirement|victory requirements
+The number of tasks you complete for a single organisation will get you into the top ten for that organisation. Furthermore, your work will be analysed by mentors regarding what you have done during the course of the competition. Remember, quality is more important than quantity.
 
-Skills
-Do I have to know how to code in order to participate?
-No, you do not need to be a programmer -- you don’t have to know how to code at all! All contestants are welcome to choose non-coding tasks that may better fit their interests/skills. Non-coding tasks include documentation, training, outreach, research, design, and quality assurance (e.g., find bugs and report them, etc.) tasks.
+*only*programmers*|only*programmers|*only programmers*|only programmers|*be a programmer*|be a programmer|*know programming*|know programming|*know how to program*|know how to program|*only*coders*|only*coders|*only coders*|only coders|*be a coder*|be a coder|*know coding*|know coding|*know how to code*|know how to code
+You don't need to be a programmer to join GCI. You can start by choosing beginner tasks, which are fairly simple even for inexperienced people. (You can only do two such tasks, so make them count. 😊) There are also documentation, training, outreach, research, design and quality assurance (for instance, find bugs and report them) tasks, which are non-coding.
 
-If you know how to program in particular languages, then we encourage you to look into the organizations that use those languages and see if there are tasks that you would like to try. If you have non-programming skills, we encourage you to look for tasks that use those skills.
+*aim*|aim|*aims*|aims|*goal*|goal|*goals*|goals|*objective*|objective|*objectives*|objectives
+Google Code-in aims to introduce teenagers around the globe to the field of open-source development in a competitive way.
 
-Tasks are designed to be learning experiences and you are not expected to know how to do all of the tasks. We recommend that you ask organizations for advice on which tasks would be a good fit for your skills and interests.
+*organisation*|organisation|*organisations*|organisations|*organization*|organization|*organizations*|organizations
+A lot of organisations participate in Google Code-in every year - 27 in 2018, of which FOSSASIA is one. Google chooses the participating organisations from organisations that have previously participated in Google Summer of Code and shown strong ability in mentoring beginners across many time zones. More details here: https://codein.withgoogle.com/organizations/.
 
-What programming languages do I need to know to complete programming tasks?
-Until we have announced the mentoring organizations for this year, we won’t know exactly what languages will be used but historically there have been tasks in Python, C++, C, JavaScript, HTML, CSS and more.
+*tasks related to*|tasks related to|*task related to*|task related to|*tasks about*|tasks about|*task about*|task about
+Google Code-in has tasks related to coding, documentation & training, outreach & research, quality assurance and design. See some example tasks here: https://developers.google.com/open-source/gci/resources/example-tasks
 
-Eligibility and Paperwork
-Who can participate in the contest? What are the eligibility requirements?
-Contestants must have the consent of their parent or guardian, and be 13 to 17 years old and enrolled in a pre-university educational program.
+*programming languages*know*|programming languages*know|*programming languages needed*|programming languages needed|*programming languages required*|programming languages required|*programming languages include*|programming languages include|*programming languages includes*|programming languages includes|*programming languages included*|programming languages included|*programming languages including*|programming languages including|*programming language*know*|programming language*know|*programming language needed*|programming language needed|*programming language required*|programming language required|*programming language included*|programming language included|*programming language including*|programming language including|*prior knowledge*|prior knowledge
+Historically, there have been tasks in Python, C++, C, JavaScript, HTML, CSS, Android, Scala, iOS and more.
 
-Please read the contest rules for the details.
+*pick organisation*|*pick organisations*|*pick organization*|*pick organizations*|pick organisation|pick organisations|pick organization|pick organizations|*which organisation*|*which organisations*|*which organization*|*which organizations*|which organisation|which organisations|which organization|which organizations
+Google chooses the participating organisations from organisations that have previously participated in Google Summer of Code and shown strong ability in mentoring beginners across many time zones. You can work with one organisation or multiple organisations during the contest, not least FOSSASIA. Each organisation is different, so do review the organisation's information and pick one that interests you. If you try an organisation and don't like it, you can always switch to another. If you're trying to be a Finalist or win a Grand Prize, you must be in the top ten task completers for an organisation.
 
-What is a pre-university program?
-Pre-university programs are often known as middle schools, high schools, or secondary schools. In some countries they are called colleges.
+*previous contests*|previous contests|*previous years*|previous years|*previous google code-ins*|previous google code-ins|*previous google code ins*|previous google code ins|*previous google codeins*|previous google codeins|*previous gcis*|previous gcis|*previous competitions*|previous competitions|*previous iterations*|previous iterations|*previous contest*|previous contest|*previous year*|previous year|*previous google code-in*|previous google code-in|*previous google code in*|previous google code in|*previous google codein*|previous google codein|*previous gci*|previous gci|*previous competition*|previous competition|*previous iteration*|previous iteration|*earlier contests*|earlier contests|*earlier years*|earlier years|*earlier google code-ins*|earlier google code-ins|*earlier google code ins*|earlier google code ins|*earlier google codeins*|earlier google codeins|*earlier gcis*|earlier gcis|*earlier competitions*|earlier competitions|*earlier iterations*|earlier iterations|*earlier contest*|earlier contest|*earlier year*|earlier year|*earlier google code-in*|earlier google code-in|*earlier google code in*|earlier google code in|*earlier google codein*|earlier google codein|*earlier gci*|earlier gci|*earlier competition*|earlier competition|*earlier iteration*|earlier iteration|*contests before*|contests before|*years before*|years before|*google code-ins before*|google code-ins before|*google code ins before*|google code ins before|*google codeins before*|google codeins before|*gcis before*|gcis before|*competitions before*|competitions before|*iterations before*|iterations before|*contest before*|contest before|*year before*|year before|*google code-in before*|google code-in before|*google code in before*|google code in before|*google codein before*|google codein before|*gci before*|gci before|*competition before*|competition before|*iteration before*|iteration before
+Learn more about the earlier iterations of Google Code-in here: https://codein.withgoogle.com/archive/
 
-Can homeschooled students participate in the contest?
-Yes.
+*t-shirt*|t-shirt|*t-shirts*|t-shirts|*t shirt*|t shirt|*t shirts*|t shirts
+If you've completed three tasks (beginner tasks count), you'll get a confirmation notice for your size and the shipping address. This year, Google is shipping all the T-shirts with the help of Shumsky.
 
-I turn 13 a couple of weeks after the contest starts. Can I participate in the contest?
-Yes, but not until you turn 13. Students must be 13 years old when they register for the contest.
+*pre-university*|pre-university|*pre-uni*|pre-uni|*pre-u*|pre-u|*pre university*|pre university|*pre uni*|pre uni|*pre u*|pre u|*preuniversity*|preuniversity|*preuni*|preuni
+Pre-university programmes may be known as middle schools, high schools or secondary schools. They are called colleges in some countries.
 
-For example, if a student turns 13 years old on November 1st, they may register for the program on November 1st.
+*homeschooled*|homeschooled|*homeschooling*|homeschooling*|homeschool*|homeschool|*home-schooled*|home-schooled|*home-schooling*|home-schooling*|home-school*|home-school|*home schooled*|home schooled|*home schooling*|home schooling*|home school*|home school|
+Homeschooled students can participate in Google Code-in if they're at least 13 and no more than 17 years old.
 
-I am enrolled in a university and am only 17. Can I participate in the contest?
-No.
+// Please add input cases as applicable, especially for the last three ~dxa_kly
+// ↓
 
-You must be currently enrolled in a pre-university program.
+13 a few weeks after*starts|13 shortly after*starts|13 a few weeks after start|13 shortly after start|13 when already started|13 a few weeks after*begins|13 shortly after*begins|13 a few weeks after beginning|13 shortly after beginning|13 when already begun // add
+You can participate, but only when you've turned 13. Students must be 13 years old when they register. For example, if a student turns 13 years old on 1 November, they may register for the program on 1 November.
 
-Students are not eligible to participate if they are enrolled in a university, even if they are only 17.
+in university and*17|17 and in university|in uni and*17|17 and in uni|in university but*17|17 but in university|in uni but*17|17 but in uni
+No. You must be currently enrolled in a pre-university program. Students are not eligible to participate if they are enrolled in a university, even if they are only 17. Students are also not eligible to participate if they have already graduated a pre-university program and are in between the pre-university program and university.
 
-Students are also not eligible to participate if they have already graduated a pre-university program and are in between the pre-university program and university.
-
-I am in a high school but am 18 years old. Can I participate in the contest?
+in high school but*18|18 but in high school|in highschool but*18|18 but in highschool|in high school and*18|18 and in high school|in highschool and*18|18 and in highschool
 No. You must be under 18 at the time of registration to participate.
-I am situated in a restricted country, Can i still participate?
-Yes,but you may or may not be elligible for prizes.
-How to get a free t-shirt?
-You have to complete 3 tasks inclusive of beginer tasks in order to be elligible.
-How much time does it take for a mentor to reply?
+
+*restricted country*|restricted country|*country restricted*|country restricted
+Yes, but you may or may not be eligible for prizes.
+
+*time for mentor to*|time for mentor to*|*time for a mentor to*|time for a mentor to*|*time for the mentor to*|time for the mentor to*|*time for my mentor to*|time for my mentor to*|*time for mentors to*|time for mentors to*|*time for a mentors to*|time for a mentors to*|*time for the mentors to*|time for the mentors to*|*time for my mentors to*|time for my mentors to*|*time taken for mentor to*|time taken for mentor to*|*time taken for a mentor to*|time taken for a mentor to*|*time taken for the mentor to*|time taken for the mentor to*|*time taken for my mentor to*|time taken for my mentor to*|*time taken for mentors to*|time taken for mentors to*|*time taken for a mentors to*|time taken for a mentors to*|*time taken for the mentors to*|time taken for the mentors to*|*time taken for my mentors to*|time taken for my mentors to*|*how long for mentor to*|how long for mentor to*|*how long for a mentor to*|how long for a mentor to*|*how long for the mentor to*|how long for the mentor to*|*how long for my mentor to*|how long for my mentor to*|*how long for mentors to*|how long for mentors to*|*how long for a mentors to*|how long for a mentors to*|*how long for the mentors to*|how long for the mentors to*|*how long for my mentors to*|how long for my mentors to*
 Typically all mentors reply within 24 hours but the maximum time that can be taken is 36 hours.
-How to contact support?
-You can type a mail to gci-support@google.com or join the gci discuss Google group.
 
+*contact*|contact|*support*|support
+You can email gci-support@google.com or join the GCI Discuss Google group.
 
-Why do I have to give you my birthday when I first sign in?
-Yes, It indeed is to verify that you are eligible for this contest.
+*consent form*|consent form
+If you are eligible for the contest and register, you'll have the option to fill the details either on paper or digitally, whichever of these your parents prefer.
 
-Where do I find the required Parental Consent Form?
-After you register for the contest and you are eligible, you will be provided with option to either fill the details in paper or digitaly whether of these your parents would like to fill in.
+// Please add input cases as applicable, especially for the last three ~dxa_kly
+// ↓
 
-How do I know if my Parental Consent Form has been verified by Google’s contest administrators?
-You will receive an email when you will complete your registration with parental consent as well.
-You will be notified whether your consent form is  verified or not  within 72 hours of submitting your Parental Consent form.
-If there is a problem with your Parental Consent Form, the contest administrators will send you an email telling you about the problem and giving you a chance to fix it.
+*verified*form*|verified*form|*validated*form*|validated*form|*confirmed*form*|confirmed*form|*checked*form*|checked*form|*done checking*form*|done checking*form|*finished checking*form*|finished checking*form|*form*verified*|form*verified|*form*validated*|form*validated|*form*confirmed*|form*confirmed|*form*checked*|form*checked|*form*done checking*|form*done checking|*form*finished checking*|form*finished checking|*form verified*|form verified|*form validated*|form validated|*form confirmed*|form confirmed|*form checked*|form checked|*form done checking*|form done checking|*form finished checking*|form finished checking
+You'll get an email when you've completed your registration with parental consent. You'll be notified whether your consent form is verified within 72 hours of submitting the form. If there's a problem with your Parental Consent Form, the contest administrators will send you an email telling you about the problem and giving you a chance to fix it.
 
+13 a few weeks after*starts|13 shortly after*starts|13 a few weeks after start|13 shortly after start|13 when already started|13 a few weeks after*begins|13 shortly after*begins|13 a few weeks after beginning|13 shortly after beginning|13 when already begun // add
+You can participate, but only when you've turned 13. Students must be 13 years old when they register. For example, if a student turns 13 years old on 1 November, they may register for the program on 1 November.
 
+in university and*17|17 and in university|in uni and*17|17 and in uni|in university but*17|17 but in university|in uni but*17|17 but in uni
+No. You must be currently enrolled in a pre-university program. Students are not eligible to participate if they are enrolled in a university, even if they are only 17. Students are also not eligible to participate if they have already graduated a pre-university program and are in between the pre-university program and university.
+
+in high school but*18|18 but in high school|in highschool but*18|18 but in highschool|in high school and*18|18 and in high school|in highschool and*18|18 and in highschool
+No. You must be under 18 at the time of registration to participate.
