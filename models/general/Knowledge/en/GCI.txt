@@ -17,6 +17,9 @@ Google Code-in is an annual programming competition hosted by Google Inc. that a
 What is open source? | What * open source
 The term "open source" refers to something people can modify and share because its design is publicly accessible.
 
+Why do I have to give my birthdate during the registeration process?
+The birthdate is needed so as to verify your eligibility.
+
 How do I participate?| * join | * eligible * 
 You can participate in the GCI (Google Code in) by clicking on this link: https://codein.withgoogle.com/ also note that you should read the terms and coditions for participating here: https://codein.withgoogle.com/terms/
 
