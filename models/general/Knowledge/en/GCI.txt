@@ -54,7 +54,7 @@ Google Code-in has tasks related to coding, documentation & training, outreach &
 Historically, there have been tasks in Python, C++, C, JavaScript, HTML, CSS, Android, Scala, iOS and more.
 
 *pick organisation*|*pick organisations*|*pick organization*|*pick organizations*|pick organisation|pick organisations|pick organization|pick organizations|*which organisation*|*which organisations*|*which organization*|*which organizations*|which organisation|which organisations|which organization|which organizations
-Google chooses the participating organisations from organisations that have previously participated in Google Summer of Code and shown strong ability in mentoring beginners across many time zones. You can work with one organisation or multiple organisations during the contest, not least FOSSASIA. Each organisation is different, so do review the organisation's information and pick one that interests you. If you try an organisation and don't like it, you can always switch to another. If you're trying to be a Finalist or win a Grand Prize, you must be in the top ten task completers for an organisation.
+Google chooses the participating organisations from organisations that have previously participated in Google Summer of Code and shown strong ability in mentoring beginners across many time zones. You can work with one organisation or multiple organisations during the contest, not least FOSSASIA. Each organisation is different, so do review the organisation's information and pick one that interests you. If you try an organisation and don't like it, you can always switch to another. If you're trying to be a Finalist or win a Grand Prize, you must be in the top twenty task completers for an organisation.
 
 *previous contests*|previous contests|*previous years*|previous years|*previous google code-ins*|previous google code-ins|*previous google code ins*|previous google code ins|*previous google codeins*|previous google codeins|*previous gcis*|previous gcis|*previous competitions*|previous competitions|*previous iterations*|previous iterations|*previous contest*|previous contest|*previous year*|previous year|*previous google code-in*|previous google code-in|*previous google code in*|previous google code in|*previous google codein*|previous google codein|*previous gci*|previous gci|*previous competition*|previous competition|*previous iteration*|previous iteration|*earlier contests*|earlier contests|*earlier years*|earlier years|*earlier google code-ins*|earlier google code-ins|*earlier google code ins*|earlier google code ins|*earlier google codeins*|earlier google codeins|*earlier gcis*|earlier gcis|*earlier competitions*|earlier competitions|*earlier iterations*|earlier iterations|*earlier contest*|earlier contest|*earlier year*|earlier year|*earlier google code-in*|earlier google code-in|*earlier google code in*|earlier google code in|*earlier google codein*|earlier google codein|*earlier gci*|earlier gci|*earlier competition*|earlier competition|*earlier iteration*|earlier iteration|*contests before*|contests before|*years before*|years before|*google code-ins before*|google code-ins before|*google code ins before*|google code ins before|*google codeins before*|google codeins before|*gcis before*|gcis before|*competitions before*|competitions before|*iterations before*|iterations before|*contest before*|contest before|*year before*|year before|*google code-in before*|google code-in before|*google code in before*|google code in before|*google codein before*|google codein before|*gci before*|gci before|*competition before*|competition before|*iteration before*|iteration before
 Learn more about the earlier iterations of Google Code-in here: https://codein.withgoogle.com/archive/
@@ -106,3 +106,27 @@ No. You must be currently enrolled in a pre-university program. Students are not
 
 in high school but*18|18 but in high school|in highschool but*18|18 but in highschool|in high school and*18|18 and in high school|in highschool and*18|18 and in highschool
 No. You must be under 18 at the time of registration to participate.
+
+*review tasks|review*tasks|task review*|*task review
+Your tasks will be reviewed by volunteer mentors from the open source organization. These mentors are regular contributors to the organization and are often the people who authored the task.
+
+grand prize*|winner*|*grand prize|*winner|grand prize winner*|*grand prize winner
+Each open source organization will review the work of the 20 students with the highest number of tasks completed during the contest with their particular organization. Work will be reviewed considering quality, creativity, thoroughness, complexity, and community involvement. From the 20 highest scoring students, each organization will name 6 Finalists. From those 6 Finalists, they will choose 2 students as the Grand Prize Winners for their organization. It is possible that someone who completed 15 challenging tasks could be chosen as a Grand Prize Winner over someone who completed 35 trivial tasks.
+
+community involvement*|*community involvement|community*involvement|meaning*community|meaning*involvement
+Community involvement means doing more than just working on the defined tasks. This might mean participating on the organization's IRC channel or mailing list to help others. It can also include work to improve things for others. For example, improving documentation you've used to complete a task.
+
+increase chances to win*|win chances*|increase*chances*win|win*chances|*win chances|*win grand prize|win grand prize*
+Demonstrate a genuine interest in the organization. Listen and take action on feedback. It can help to work with only one organization so you are more likely to be in the top 20, but quality is as important as quantity.
+
+task*|*what is task*|what*task
+A task is a small project that is expected to take between 3-5 hours of work to complete.
+
+types of tasks*|type*tasks|
+Tasks are categorized with the following labels:
+    Code: Tasks related to writing or refactoring code
+    Documentation/Training: Tasks related to creating/editing documents and helping others learn more
+    Outreach/Research: Tasks related to community management, outreach/marketing, or studying problems and recommending solutions
+    Quality Assurance: Tasks related to testing and ensuring code is of high quality
+    Design: Tasks related to user experience research or user interface design and interaction
+
