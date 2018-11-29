@@ -3,8 +3,9 @@
 ::name GCI
 ::category Knowledge
 ::language en
-::author Siddharth_Sinha | _supun_tharinda_
+::author Siddharth_Sinha | _supun_tharinda_ | Sahil_Saha
 ::author_url https://github.com/Sid911 
+::author_url https://github.com/sahilsaha7773
 ::description This the Query bot made for GCI 
 ::dynamic_content No
 ::developer_privacy_policy <link>
@@ -129,4 +130,20 @@ Tasks are categorized with the following labels:
     Outreach/Research: Tasks related to community management, outreach/marketing, or studying problems and recommending solutions
     Quality Assurance: Tasks related to testing and ensuring code is of high quality
     Design: Tasks related to user experience research or user interface design and interaction
+    
+T shirt|google code in t shirt|*t shirt|t shirt*
+Complete 3 tasks to get a Google Code in t-shirt
+
+open source|*open source
+Open-source software is a type of computer software in which source code is released under a license in which the copyright holder grants users the rights to study, change, and distribute the software to anyone and for any purpose. Open-source software may be developed in a collaborative public manner. 
+    - From Wikipedia
+
+current leaders list|*current leaders list
+It is the list of top students on the basis of number of tasks done per organization.
+
+google groups|*google groups for google code in|*google groups*
+Link to Google Groups https://groups.google.com/forum/#!forum/gci-discuss
+
+FAQ|*FAQ|FAQ*|frequently asked questions|*frequently asked questions*
+Link to FAQs https://developers.google.com/open-source/gci/faq    
 
