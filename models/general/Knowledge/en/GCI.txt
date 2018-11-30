@@ -21,7 +21,7 @@ open source|what*open source?|what*open source
 The term 'open source' refers to something people can modify and share because its design is publicly accessible.
 
 why*birth date|why*date of birth|why*birthdate|why*birth-date|why*birthday|birth date*|birth date|date of birth*|date of birth|birthdate*|birthdate|birth-date*|birth-date|birthday*|birthday
-When you first sign in, you must provide your birth date to verify your eligibility.
+When you first sign up in GCI, you must provide your birth date to verify your eligibility. Only 13-17 year old pre-university students are eligible.
 
 how*participate|can i participate*|can i participate|*participate*|participate|how*join|can i join*|can i join|join*|join|*eligible*|eligible|*eligibility*|eligibility|*allowed to take part*
 You can participate in Google Code-in by visiting https://codein.withgoogle.com/. The terms and conditions are at https://codein.withgoogle.com/terms/. Essentially, contestants must have the consent of their parent or guardian, and be 13 to 17 years old and enrolled in a pre-university educational programme.
@@ -122,7 +122,7 @@ Demonstrate a genuine interest in the organization. Listen and take action on fe
 task*|*what is task*|what*task
 A task is a small project that is expected to take between 3-5 hours of work to complete.
 
-types of tasks*|type*tasks|
+types of tasks*|type*tasks|*tasks types*
 Tasks are categorized with the following labels:
     Code: Tasks related to writing or refactoring code
     Documentation/Training: Tasks related to creating/editing documents and helping others learn more
@@ -130,7 +130,7 @@ Tasks are categorized with the following labels:
     Quality Assurance: Tasks related to testing and ensuring code is of high quality
     Design: Tasks related to user experience research or user interface design and interaction
 
-T shirt|google code in t shirt|*t shirt|t shirt*
+T shirt|google code in t shirt|*t shirt|t shirt*|T-shirt|google code in t-shirt|*t-shirt|t-shirt*|t shirt|t-shirt|*tshirt*|*T-shirt*
 Complete 3 tasks to get a Google Code in t-shirt
 
 open source|*open source
@@ -143,6 +143,6 @@ It is the list of top students on the basis of number of tasks done per organiza
 google groups|*google groups for google code in|*google groups for gci
 Link to Google Groups https://groups.google.com/forum/#!forum/gci-discuss
 
-FAQ|*FAQ|FAQ*|frequently asked questions|*frequently asked questions*
+FAQ|*FAQ|FAQ*|frequently asked questions|*frequently asked questions*|*FAQ*|*faq*|*frequently asked questions*|*Frequently Asked Questions*
 Link to FAQs https://developers.google.com/open-source/gci/faq    
 
