@@ -1,5 +1,5 @@
 ::name Weather Information
-::author Ali Ayub 
+::author Ali Ayub Khan
 ::author_url https://github.com/AliAyub007
 ::description A skill to tell weather information like temperature, humidity etc.
 ::dynamic_content Yes
