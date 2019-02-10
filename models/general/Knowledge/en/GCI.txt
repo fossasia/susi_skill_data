@@ -15,6 +15,7 @@
 Google Code-in Frequently Asked Questions - https://developers.google.com/open-source/gci/faq
 
 gci*|gci|google code-in*|google code-in|google code in*|google code in|google codein*|google codein|what*gci|what*google code-in|what*google code in|what*google codein
+!example: what is gci
 Google Code-in is an annual programming competition hosted by Google Inc. that allows pre-university students to complete tasks specified by various partnering open-source organisations.
 
 open source|what*open source?|what*open source

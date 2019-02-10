@@ -1,14 +1,14 @@
 ::protected No
-::author_email yashsri421@gmail.com
-::name skill1
+::author_email 29hj29@gmail.com
+::name 
 ::category Business and Finance
 ::language en
-::author <author_name>
+::author batman
 ::author_url <author_url>
 ::description <description> 
 ::dynamic_content <Yes/No>
 ::developer_privacy_policy <link>
-::image images/deadline.png
+::image images/batman.jpg
 ::terms_of_use <link>
 
 
