@@ -4,7 +4,7 @@
 ::description A skill to tell weather information like temperature, humidity etc.
 ::dynamic_content Yes
 ::developer_privacy_policy
-::image images/weather_information.png
+::image images/IMG_20190219_191725739.jpg
 ::terms_of_use
 
 
