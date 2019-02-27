@@ -1,0 +1,18 @@
+::protected No
+::author_email schildberg@scoid.de
+::name Calculation
+::category Productivity
+::language en
+::author agricola
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/Разнообразие_семян_small.jpg
+::terms_of_use <link>
+
+
+compute * to the power of *
+!javascript:$1$^$2$ = $!$
+Math.pow($1$, $2$)
+eol
