@@ -1,0 +1,19 @@
+
+::author Sanjana Sanikommu 
+::author_email sanjanasanikommu@gmail.com
+::name India Travels
+::category Travel and Transportation
+::language en
+
+::author_url https://github.com/SanjanaSanikommu
+::description A skill to enable susi to tell about Indian tourist places 
+::dynamic_content Yes
+::developer_privacy_policy 
+::image images/Inidatravel.jpg
+::terms_of_use 
+
+
+What are famous tourist spots at India?|Susi, Tell me famous tourist attractions at India?|....
+!example: What are famous tourist spots at India?
+!expect:<Taj Mahal , Charminar , The RedFort, Qutb Minar, Mysore Palace are few famous Tourist attractions in India>
+Taj Mahal , Charminar , The RedFort, Qutb Minar, Mysore Palace are few famous Tourist attractions in India

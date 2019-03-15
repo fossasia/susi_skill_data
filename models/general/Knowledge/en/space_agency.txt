@@ -1,0 +1,27 @@
+::name Space Agency
+::author Manveer Singh
+::author_url https://github.com/Manveer695
+::description A skill to give the full form and country code of a space agency.
+::dynamic_content Yes
+::developer_privacy_policy
+::image images/space_agency.png
+::terms_of_use
+
+what is the full form of *
+!example:what is the full form of NASA
+!expect:National Aeronautics and Space Administration
+!console:$name$ 
+{
+"url":"https://launchlibrary.net/1.2/agency/$1$",
+"path":"$.agencies[0]"
+}
+eol
+
+what is * based out of
+!example: what is NASA based out of
+!console: The place's country code is - $countryCode$ 
+{
+"url":"https://launchlibrary.net/1.2/agency/$1$",
+"path":"$.agencies[0]"
+}
+eol

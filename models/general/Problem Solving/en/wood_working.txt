@@ -1,0 +1,18 @@
+::protected No
+::author_email d1003730@students.katyisd.org
+::name wood working
+::category Problem Solving
+::language en
+::author Driver
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/photoshop picture.PNG
+::terms_of_use <link>
+
+
+User how do i remove the bit from my lathe|query2|quer3....
+!example:<how do i remove the bit from my lathe>
+!expect:<use the metal rod to push out the bit or a magnet to pull it out>
+Answer for the user query use the metal rod to push it out or a magnet to pull it out

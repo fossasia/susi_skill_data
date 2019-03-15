@@ -1,0 +1,18 @@
+::name Religions
+::author Ali Ayub Khan
+::author_url https://github.com/AliAyub007
+::description A skill to give percentages of religions in world and in countries.
+::dynamic_content Yes
+::developer_privacy_policy
+::image images/religions.png
+::terms_of_use
+
+Percentage of religions in *| Religions in *
+!example:Religions in India
+!expect:Hinduism (74%) | Islam (12%) | Christianity (6.2%) | ethnic religions (3.8%) | Sikhism (2.2%) | Buddhism (0.69%) | Jainism (0.41%) | Bahá'í Faith (0.17%) | Zoroastrianism (0.015%) | Chinese Universism (0.013%) | Judaism (9×10^-4%) (2001 estimate)
+!console:$alt$
+{
+"url":"http://api.wolframalpha.com/v2/query?appid=9WA6XR-26EWTGEVTE&input=religions+in+$1$&output=JSON",
+"path":"$.queryresult.pods[1].subpods[0].img"
+}
+eol
