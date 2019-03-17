@@ -1,0 +1,101 @@
+::name Football Teams
+::author Saurabh Jain
+::author_url https://github.com/saurabhjn76
+::description A skill for football teams and its players.
+::dynamic_content No
+::developer_privacy_policy
+::image images/football_teams.png
+::terms_of_use
+
+tell me the teams in premier league| Premier league teams
+!example:Premier league teams
+!console:
+{
+  "url":"http://api.football-data.org/v1/competitions/398/teams",
+  "path":"$.teams",
+  "actions":[{
+    "type":"table",
+    "columns":{"name":"Name","code":"Code","shortName":"Short Name","crestUrl":Logo}
+  }]
+}
+eol
+
+
+give me details of Manchester United | Manchester United team players 
+!example:Manchester United team players
+!console:
+{
+  "url":"http://api.football-data.org/v1/teams/66/players",
+  "path":"$.players",
+  "actions":[{
+    "type":"table",
+    "columns":{"name":"Name","position":"Position","jerseyNumber":"Jersey Number","nationality":"Nationality"}
+  }]
+}
+eol
+
+give me details of Bayern Munich | Bayern Munich team players
+!example:give me details of Bayern Munich
+!console:
+{
+  "url":"http://api.football-data.org/v1/teams/5/players",
+  "path":"$.players",
+  "actions":[{
+    "type":"table",
+    "columns":{"name":"Name","position":"Position","jerseyNumber":"Jersey Number","nationality":"Nationality"}
+  }]
+}
+eol
+
+give me details of Barcelona  | Barcelona team players
+!example:Barcelona team players
+!console:
+{
+  "url":"http://api.football-data.org/v1/teams/81/players",
+  "path":"$.players",
+  "actions":[{
+    "type":"table",
+    "columns":{"name":"Name","position":"Position","jerseyNumber":"Jersey Number","nationality":"Nationality"}
+  }]
+}
+eol
+
+give details of Real Madrid | Real Madrid team players
+!example:Real Madrid team players
+!console:
+{
+  "url":"http://api.football-data.org/v1/teams/86/players",
+  "path":"$.players",
+  "actions":[{
+    "type":"table",
+    "columns":{"name":"Name","position":"Position","jerseyNumber":"Jersey Number","nationality":"Nationality"}
+  }]
+}
+eol
+
+give details of Chelsea FC | Chelsea team players
+!example:give details of Chelsea FC
+!console:
+{
+  "url":"http://api.football-data.org/v1/teams/72/players",
+  "path":"$.players",
+  "actions":[{
+    "type":"table",
+    "columns":{"name":"Name","position":"Position","jerseyNumber":"Jersey Number","nationality":"Nationality"}
+  }]
+}
+eol
+
+give details of Arsenal FC |Arsenal FC team players
+!example:give details of Arsenal FC
+!console:
+{
+  "url":"http://api.football-data.org/v1/teams/563/players",
+  "path":"$.players",
+  "actions":[{
+    "type":"table",
+    "columns":{"name":"Name","position":"Position","jerseyNumber":"Jersey Number","nationality":"Nationality"}
+  }]
+}
+eol
+

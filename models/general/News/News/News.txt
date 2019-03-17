@@ -1,0 +1,222 @@
+::name News
+::author Me
+::author_url https://github.com/AliAyub007
+::description A skill to give news. 
+::dynamic_content Yes
+::developer_privacy_policy
+::image images/paperplane.svg
+::terms_of_use
+
+News|what's happenin in world|Anything new?|What is the headline?|what's new today?|latest news|what are the latest news|please tell me today's news|what is the news for today?
+!example:News
+!expect:US seeks tough UN approach to N Korea See more here: http://www.bbc.co.uk/news/world-asia-41152509
+!console:$title$ See more here: $url$
+{
+"url":"https://newsapi.org/v1/articles?source=bbc-news&sortBy=top&apiKey=f2a4d77f26054494ab4e013e36911712",
+"path":"$.articles"
+}
+eol
+
+
+
+# Articles according to new york times
+
+
+most viewed articles in * today | most viewed articles today in * | can you tell me most viewed articles in * today | please tell me today's most viewed articles in * | do you know most viewed articles in * today | can you tell me today's most viewed articles in *
+!example:most viewed articles in science today
+!console:
+{
+"url":"https://api.nytimes.com/svc/mostpopular/v2/mostviewed/$1$/1.json?api-key=418422c826c4460a8909bad0978a3e0a",
+"path":"$.results",
+"actions":[{
+"type":"table",
+"columns":{"title":"Title", "byline":"Author/s","url" : "URL"}
+}]
+}
+eol 
+
+most viewed articles in * in the last week | most viewed articles in the last week in * | can you tell me most viewed articles in * in the last week | please tell me most viewed articles in * in the last week | do you know most viewed articles in * in the last week | can you tell me last week's most viewed articles in *
+!example:most viewed articles in science in the last week
+!console:
+{
+"url":"https://api.nytimes.com/svc/mostpopular/v2/mostviewed/$1$/7.json?api-key=418422c826c4460a8909bad0978a3e0a",
+"path":"$.results",
+"actions":[{
+"type":"table",
+"columns":{"title":"Title", "byline":"Author/s","url" : "URL"}
+}]
+}
+eol 
+
+most viewed articles in * in the last month | most viewed articles in the last month in * | can you tell me most viewed articles in * in the last month | please tell me most viewed articles in * in the last month | do you know most viewed articles in * in the last month | can you tell me last month's most viewed articles in *
+!example:most viewed articles in science in the last month
+!console:
+{
+"url":"https://api.nytimes.com/svc/mostpopular/v2/mostviewed/$1$/30.json?api-key=418422c826c4460a8909bad0978a3e0a",
+"path":"$.results",
+"actions":[{
+"type":"table",
+"columns":{"title":"Title", "byline":"Author/s","url" : "URL"}
+}]
+}
+eol 
+
+
+most shared articles in * today | most shared articles today in * | can you tell me most shared articles in * today | please tell me today's most shared articles in * | do you know most shared articles in * today | can you tell me today's most shared articles in * 
+!example:most shared articles in science today
+!console:
+{
+"url":"https://api.nytimes.com/svc/mostpopular/v2/mostshared/$1$/1.json?api-key=418422c826c4460a8909bad0978a3e0a",
+"path":"$.results",
+"actions":[{
+"type":"table",
+"columns":{"title":"Title", "byline":"Author/s","url" : "URL"}
+}]
+}
+eol 
+ 
+most shared articles in * in the last week | most shared articles in the last week in * | can you tell me most shared articles in * in the last week | please tell me most shared articles in * in the last week | do you know most shared articles in * in the last week | can you tell me last week's most shared articles in *
+!example:can you tell me last week's most shared articles in science
+!console:
+{
+"url":"https://api.nytimes.com/svc/mostpopular/v2/mostshared/$1$/7.json?api-key=418422c826c4460a8909bad0978a3e0a",
+"path":"$.results",
+"actions":[{
+"type":"table",
+"columns":{"title":"Title", "byline":"Author/s","url" : "URL"}
+}]
+}
+eol 
+ 
+most shared articles in * in the last month | most shared articles in the last month in * | can you tell me most shared articles in * in the last month | please tell me most shared articles in * in the last month | do you know most shared articles in * in the last month | can you tell me last month's most shared articles in *
+!example:do you know most shared articles in arts in the last month
+!console:
+{
+"url":"https://api.nytimes.com/svc/mostpopular/v2/mostshared/$1$/30.json?api-key=418422c826c4460a8909bad0978a3e0a",
+"path":"$.results",
+"actions":[{
+"type":"table",
+"columns":{"title":"Title", "byline":"Author/s","url" : "URL"}
+}]
+}
+eol
+
+
+most emailed articles in * today | most emailed articles today in * | can you tell me most emailed articles in * today | please tell me today's most emailed articles in * | do you know most emailed articles in * today | can you tell me today's most emailed articles in * 
+!example:most emailed articles today in arts
+!console:
+{
+"url":"https://api.nytimes.com/svc/mostpopular/v2/mostemailed/$1$/1.json?api-key=418422c826c4460a8909bad0978a3e0a",
+"path":"$.results",
+"actions":[{
+"type":"table",
+"columns":{"title":"Title", "byline":"Author/s","url" : "URL"}
+}]
+}
+eol 
+ 
+most emailed articles in * in the last week | most emailed articles in the last week in * | can you tell me most emailed articles in * in the last week | please tell me most emailed articles in * in the last week | do you know most emailed articles in * in the last week | can you tell me last week's most emailed articles in *
+!example:most emailed articles in science in the last week
+!console:
+{
+"url":"https://api.nytimes.com/svc/mostpopular/v2/mostemailed/$1$/7.json?api-key=418422c826c4460a8909bad0978a3e0a",
+"path":"$.results",
+"actions":[{
+"type":"table",
+"columns":{"title":"Title", "byline":"Author/s","url" : "URL"}
+}]
+}
+eol 
+ 
+most emailed articles in * in the last month | most emailed articles in the last month in * | can you tell me most emailed articles in * in the last month | please tell me most emailed articles in * in the last month | do you know most emailed articles in * in the last month | can you tell me last month's most emailed articles in *
+!example:can you tell me most emailed articles in science in the last month
+!console:
+{
+"url":"https://api.nytimes.com/svc/mostpopular/v2/mostemailed/$1$/30.json?api-key=418422c826c4460a8909bad0978a3e0a",
+"path":"$.results",
+"actions":[{
+"type":"table",
+"columns":{"title":"Title", "byline":"Author/s","url" : "URL"}
+}]
+}
+eol
+
+articles in *
+!example:articles in science
+!console:
+{
+"url":"https://api.nytimes.com/svc/mostpopular/v2/mostviewed/arts/1.json?api-key=418422c826c4460a8909bad0978a3e0a",
+"path":"$.results",
+"actions":[{
+"type":"table",
+"columns":{"title":"Title", "byline":"Author/s","url" : "URL"}
+}]
+}
+eol 
+
+most viewed articles | can you tell me most viewed articles | please tell me most viewed articles | tell me most viewed articles susi | show me articles | articles please
+!example:show me articles
+!console:
+{
+"url":"https://api.nytimes.com/svc/mostpopular/v2/mostviewed/all-sections/1.json?api-key=418422c826c4460a8909bad0978a3e0a",
+"path":"$.results",
+"actions":[{
+"type":"table",
+"columns":{"title":"Title", "byline":"Author/s","url" : "URL"}
+}]
+}
+eol 
+
+
+most emailed articles | can you tell me most emailed articles | please tell me most emailed articles | tell me most emailed articles susi
+!example:most emailed articles
+!console:
+{
+"url":"https://api.nytimes.com/svc/mostpopular/v2/mostemailed/all-sections/1.json?api-key=418422c826c4460a8909bad0978a3e0a",
+"path":"$.results",
+"actions":[{
+"type":"table",
+"columns":{"title":"Title", "byline":"Author/s","url" : "URL"}
+}]
+}
+eol 
+
+
+most shared articles | can you tell me most shared articles | please tell me most shared articles | tell me most shared articles susi
+!example:most shared articles
+!console:
+{
+"url":"https://api.nytimes.com/svc/mostpopular/v2/mostshared/all-sections/1.json?api-key=418422c826c4460a8909bad0978a3e0a",
+"path":"$.results",
+"actions":[{
+"type":"table",
+"columns":{"title":"Title", "byline":"Author/s","url" : "URL"}
+}]
+}
+eol 
+
+
+tech news|technology news|tell me tech news|please tell me tech news|today's tech news|whats happening today in tech world?|whats happening today in tech world|whats on tech news|whats on tech news?|whats on technology|whats on technology news?|tell me tech news|please tell me technology news| * tech news *|news in tech word| tell me the news in tech world|* tech news
+!example:tell me news in tech world
+!console:
+{
+"url":"https://newsapi.org/v1/articles?source=techcrunch&language=en&category=technology&apiKey=f2a4d77f26054494ab4e013e36911712",
+"path":"$.articles",
+"actions":[{
+"type":"table",
+"columns":{"title":"Title","url" : "URL"}
+}]
+}
+eol
+
+Hacker news|tell me hacker news|please tell me hacker news|could you tell me hacker news|can you tell me hacker news|whats are todays hacker news|* hacker news| * hacker news *|y combinator hacker news|yc hacker news|* haker news
+!console:tell me hacker news 
+{
+"url":"https://newsapi.org/v1/articles?source=hacker-news&language=en&category=technology&apiKey=f2a4d77f26054494ab4e013e36911712",
+"path":"$.articles",
+"actions":[{
+"type":"table",
+"columns":{"title":"Title","url" : "URL"}
+}]
+}
+eol

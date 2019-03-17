@@ -1,0 +1,26 @@
+::protected No
+::author_email sk9331657@gmail.com
+::name Learn Languages
+::category Knowledge
+::language en
+::author Shubham Kumar
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/WhatsApp Image 2019-03-16 at 9.27.30 PM.jpeg
+::terms_of_use <link>
+
+
+User query1|query2|quer3....
+!example:<The question that should be shown in public skill displays>
+!expect:<The answer expected for the above example>
+Answer for the user query
+
+Learn * 
+!console:$text$
+{
+  "url":"http://127.0.0.1:3000/api/getwords",
+  "path":"$.statuses"
+}
+ eol

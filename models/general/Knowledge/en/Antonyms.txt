@@ -1,0 +1,13 @@
+::name Antonyms
+::author_email akjn11@gmail.com
+::author Akshat Jain
+::author_url https://github.com/Akshat-Jain
+::description A skill that gives the antonyms for a word
+::dynamic_content Yes
+::developer_privacy_policy
+::image images/antonyms.png
+::terms_of_use
+
+Antonym of * | Antonyms of * | antonym of * | antonyms of * | show me antonym of * | tell me antonym of * | antonym for * | antonym words for * | show me antonyms of *
+!example: Antonym of happy
+You can find the antonyms of $1$ here : https://www.anagrammer.com/antonyms/$1$

@@ -1,0 +1,10 @@
+::name Language !
+::author Karthik Nair
+::author_url https://github.com/KrUciFieR-Jr
+::description Profanity is a underated content in Chat Applications so we definitely need a skill
+::dynamic_content No
+::image images/profaneLanguage.jpg
+
+wtf? | who the fuck are? | moron | Who are you bitch? | bitch | What the hell? | wth | wtf | motherfucker | bc
+!example: What the hell?
+Please be nice otherwise we will take over your race.
