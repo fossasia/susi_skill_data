@@ -1,0 +1,16 @@
+#pass in a random number to get different memes(in result[])
+::name Meme Generator
+::author Dravit Lochan
+::author_url https://github.com/DravitLochan
+::dynamic_content Yes
+::image images/memegenerator.png
+::description This skill genrates different memes
+get me a meme|show me a meme|entertain me with a meme|pull up a meme|How 'bout a meme?|a meme can do much anyway|meme always interests me|maybe show me a meme|
+!example:get me a meme
+!console:$displayName$ -> $imageUrl$
+{
+    "url":"http://version1.api.memegenerator.net/Generators_Select_ByTrending",
+    "path":"$.result[15]";
+}
+eol
+

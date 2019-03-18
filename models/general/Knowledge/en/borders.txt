@@ -1,0 +1,28 @@
+::name Borders
+::author Ali Ayub Khan
+::author_url https://github.com/AliAyub007
+::description A skill to tell us about neighbouring countries of a country.
+::dynamic_content Yes
+::developer_privacy_policy
+::image images/borders.jpg
+::terms_of_use
+
+
+borders with *|borders of *|border with *|border of *|neighbouring countries of *|which are neighbouring countries of *|Do you know which are neighbouring countries of *|what are neighbouring countries of *|do you know what are neighbouring countries of *|Tell me neighbouring countries of *|can you tell me neighbouring countries of *|names of neighbouring countries of *|* neighbouring countries|countries sharing border with *|which countries are sharing border with *|what countries are sharing border with *|name of countries are sharing border with *|can you tell me names of countries are sharing border with *|tell me names of countries are sharing border with *|adjacent countries with *|names of adjacent countries with *|which are adjacent countries with *|what are adjacent countries with *|tell me names of adjacent countries with *|can you tell me names of adjacent countries with *|which borders are there with *|Tell me names of borders with *|can you tell me names of borders with *|which countries have border with *|Do you know about borders with *|what are countries bordering *|what are the countries bordering *|what are countries bordering country *|what are the countries bordering country *|which countries are bordering *|Tell me names of countries bordering *|Do you know about countries bordering *|Do you know countries bordering *
+!example:borders with germany?
+!expect:Countries sharing border with India are yourmom | youris | what | fuck | shut |pure
+!console:Countries sharing border with $1$ are $alt$
+{
+"url":"http://api.wolframalpha.com/v2/query?appid=9WA6XR-26EWTGEVTE&input=border%20with%20$1$&output=JSON",
+"path":"$.queryresult.pods[2].subpods[0].img"
+}
+eol
+
+what is the border length of *|can you tell me about border length of *|tell me about border length of *|tell me border length of *|* border length|what is border length of *|what is total border length of *|what is the total border length of *|full boundary length of *|what is the boundary length of * |what is the full boundary length of *|boundary length of *|* boundary length|Do you know border length of *|do you know boundary length of *|how long is the border of *|do you know how long is the border of *|Can you tell me how long is the border of *|how long is border of *|do you know how long is border of *|Can you tell me how long is border of *
+!example:what is the border length of India
+!console:Length of boundary of $1$ is $alt$
+{
+"url":"http://api.wolframalpha.com/v2/query?appid=9WA6XR-26EWTGEVTE&input=border%20with%20$1$&output=JSON",
+"path":"$.queryresult.pods[1].subpods[0].img"
+}
+eol
