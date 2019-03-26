@@ -1,0 +1,19 @@
+::name When is what
+::author Ali Ayub Khan
+::author_url hhttps://github.com/AliAyub007
+::description A skill to tell us about when is any specific event e.g When is Christmas?
+::dynamic_content Yes
+::developer_privacy_policy
+::image images/when_is_questions.png
+::terms_of_use
+
+#Tells us about when is any specific event 
+When is *|tell me when is *| do you know when is *| Could you please tell me when is *| please find when is *| find when is *| search when is *
+!example:When is christmas?
+!expect:Monday, December 25, 2017
+!console:$alt$
+{
+"url":"http://api.wolframalpha.com/v2/query?appid=9WA6XR-26EWTGEVTE&input=when+is+$1$&output=JSON",
+"path":"$.queryresult.pods[1].subpods[0].img"
+}
+eol

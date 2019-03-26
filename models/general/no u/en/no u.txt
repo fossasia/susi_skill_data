@@ -1,0 +1,94 @@
+::protected No
+::author_email jacob64steimle@gmail.com
+::name no u
+::category no u
+::language en
+::author volleo 6144
+::author_url https://volleo6144.net
+::description no u
+::dynamic_content No
+::developer_privacy_policy None
+::image images/volleo.png
+::terms_of_use https://discordapp.com/terms
+
+*A*
+!example: WATCH FOR ROLLING ROCKS in 0.5x A PRESSES
+I want to write a suicide note but I have no idea what to write in it :(
+
+*a*
+I want to write a suicide note but I have no idea what to write in it :(
+
+*b*
+I want to write a suicide note but I have no idea what to write in it :(
+
+*c*
+I want to write a suicide note but I have no idea what to write in it :(
+
+*d*
+I want to write a suicide note but I have no idea what to write in it :(
+
+*e*
+I want to write a suicide note but I have no idea what to write in it :(
+
+*f*
+I want to write a suicide note but I have no idea what to write in it :(
+
+*g*
+I want to write a suicide note but I have no idea what to write in it :(
+
+*h*
+I want to write a suicide note but I have no idea what to write in it :(
+
+*i*
+I want to write a suicide note but I have no idea what to write in it :(
+
+*j*
+I want to write a suicide note but I have no idea what to write in it :(
+
+*k*
+I want to write a suicide note but I have no idea what to write in it :(
+
+*l*
+I want to write a suicide note but I have no idea what to write in it :(
+
+*m*
+I want to write a suicide note but I have no idea what to write in it :(
+
+*n*
+I want to write a suicide note but I have no idea what to write in it :(
+
+*o*
+I want to write a suicide note but I have no idea what to write in it :(
+
+*p*
+I want to write a suicide note but I have no idea what to write in it :(
+
+*q*
+I want to write a suicide note but I have no idea what to write in it :(
+
+*r*
+I want to write a suicide note but I have no idea what to write in it :(
+
+*s*
+I want to write a suicide note but I have no idea what to write in it :(
+
+*t*
+I want to write a suicide note but I have no idea what to write in it :(
+
+*u*
+I want to write a suicide note but I have no idea what to write in it :(
+
+*v*
+I want to write a suicide note but I have no idea what to write in it :(
+
+*w*
+I want to write a suicide note but I have no idea what to write in it :(
+
+*x*
+I want to write a suicide note but I have no idea what to write in it :(
+
+*y*
+I want to write a suicide note but I have no idea what to write in it :(
+
+*z*
+I want to write a suicide note but I have no idea what to write in it :(

@@ -1,0 +1,21 @@
+::name University
+::author Chashmeet Singh
+::author_url https://github.com/chashmeetsingh
+::description A skill to return list of universities in a country.
+::dynamic_content Yes
+::developer_privacy_policy
+::image images/university.png
+::terms_of_use
+
+universities in *|tell me universities in * |do you know the universities in *|find universities in *| show universities in *| search for universities in *| name the universities in *| tell me about universities in *|give me list of universities in *| What all universities are in *|tell me names of universities in *|tell me the names of universities in *|can you tell me names of universities in *|can you tell me the names of universities in *|do you know the any universities in *|do you know the names of universities in *|which are universities in *|which universities are in *|Provide me list of universities in *|
+!example:universities in germany
+!console:Sure, here is a list of universities
+{
+"url":"http://universities.hipolabs.com/search?country=$1$",
+"path":"$",
+"actions":[{
+"type":"table",
+"columns":{"name" : "Name", "country" : "Country", "web_pages" : "Website"}
+}]
+}
+eol
