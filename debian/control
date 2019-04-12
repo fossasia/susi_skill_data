@@ -1,6 +1,6 @@
 Source: susi-skill-data
 Section: misc
-Priority: extra
+Priority: optional
 Maintainer: SUSI.AI Packaging Team <norbert@preining.info>
 Build-Depends: debhelper (>= 12)
 Standards-Version: 4.2.1
