@@ -1,0 +1,15 @@
+#!/usr/bin/make -f
+
+DDIR=debian/susi-skill-data
+BASE=/usr/share/susi-server
+SSKILL=$(BASE)/susi_skill_data
+
+
+%:
+	dh $@
+
+override_dh_auto_install:
+	mkdir -p $(DDIR)$(SSKILL)
+	cp -R _config.yml models/ $(DDIR)$(SSKILL)
+
+

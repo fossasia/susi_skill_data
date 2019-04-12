@@ -1,0 +1,14 @@
+#!/bin/sh -e
+
+if [ "$1" = configure ]; then
+    adduser --system \
+            --quiet \
+            --home /nonexistent \
+            --no-create-home \
+            --disabled-password \
+	    --group \
+	    --force-badname \
+	    _susiserver
+    chown _susiserver._susiserver /var/lib/susi-server/data
+fi
+
