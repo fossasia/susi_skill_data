@@ -1,0 +1,16 @@
+::protected No
+::author_email 1anuppanwar@gmail.com
+::protected No
+::author_email 1anuppanwar@gmail.com
+::name Roll a Die
+::category Games, Trivia and Accessories
+::language en
+::author Anup Kumar Panwar
+::author_url https://github.com/anupkumarpanwar
+::description A skill to roll a die and tell the number on the die. 
+::dynamic_content No
+::image images/gambler.png
+
+Toss a dice| Toss a die| Roll a dice| Roll a die| 
+!example:Roll a die
+1| 2| 3| 4| 5| 6

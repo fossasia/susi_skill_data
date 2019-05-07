@@ -1,0 +1,12 @@
+::name Shop At Amazon
+::author Y S Ramya
+::author_url https://github.com/meriki
+::description Searches items on Amazon.com for shopping
+::dynamic_content Yes
+::developer_privacy_policy
+::image images/amazon_shopping.png
+::terms_of_use
+
+Buy * | Shop for * |I want to buy a * | I want to buy * |I wanna buy * | Buy a * | Shop * | Shop for *| Where can I buy * | Find me *
+!example: Buy a dress
+Found $1$ on amazon.com https://www.amazon.com/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=$1$

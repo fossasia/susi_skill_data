@@ -1,0 +1,22 @@
+# three Questions presents you with three challenging questions pulled from a range of topics, including science, literature and popular culture.
+
+::name Three Question Game
+::author Chetan Kaushik
+::author_url https://github.com/dynamitechetan
+::dynamic_content Yes
+::image images/three_questions_game.png
+::description Ask Susi to play three question game,three Questions presents you with three challenging questions pulled from a range of topics, including science, literature and popular culture.
+
+ask me 3 questions | 3 questions | three questions | three quest | please ask me 3 questions | SUSI ask me 3 questions | Lets play 3 questions | start 3 questions game | random 3 questions game | ask 3 questions | ask 3 trivia questions | start 3 questions | random 3 questions | play Three Questions | ask Three Questions
+!example:ask me 3 questions
+!console:
+{
+  "url":"https://opentdb.com/api.php?amount=3",
+  "path":"$.results",
+  "actions":[{
+    "type":"table",
+    "columns":{"question":"Question"},
+    "count":3
+  }]
+}
+eol
