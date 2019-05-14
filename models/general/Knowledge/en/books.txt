@@ -1,0 +1,19 @@
+::name Books
+::author Isuru Abeywardana
+::author_url https://github.com/isuruAb
+::description A skill to give user the name of the book and link to read more.
+::dynamic_content Yes
+::developer_privacy_policy
+::image images/books.png
+::terms_of_use
+
+#Returns the name of the book and link to read more
+what is this book * |is there any book called * ? | book * | is there a book called * ? | give me a book named * |Tell me about a book *|Tell me about the book * | Do you know any book called * | Can you give me a book called * | Can you provide me book * | can you provide me book called * | what do you know about book * | is there any book named * | Give me a link to a book called * | Can you provide me a link to the book called *
+!example:Tell me about the book Harry Potter
+!expect:did you mean "Harry Potter - geretteter Retter im Kampf gegen dunkle Mächte?" ?Here is a link to read more: https://play.google.com/store/books/details?id=Oe1s6jjPK6UC&source=gbs_api
+!console:did you mean the book "$title$" ? Here is a link to read more about it:  $infoLink$
+{
+"url":"https://www.googleapis.com/books/v1/volumes?q=$1$&key=AIzaSyCt3Wop5gN3S5H0r1CKZlXIgaM908oVDls",
+"path":"$.items[0].volumeInfo"
+}
+eol

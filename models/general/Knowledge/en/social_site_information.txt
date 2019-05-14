@@ -1,0 +1,41 @@
+::name Social Site Information
+::author Ali Ayub Khan
+::author_url https://github.com/AliAyub007
+::description A skill to tell us about social site visits per second, minute and day.
+::dynamic_content Yes
+::developer_privacy_policy
+::image images/social_site_information.jpg
+::terms_of_use
+
+#Tells us about social site visits per minutes
+How many visit of * per minute|visits of * per minute|* visits per minute
+!example:visits of google per minute
+!expect:Number of google per minute visits are 1.5 billion visits/day (visits per day) | per minute
+!console:Number of $1$ visits are $alt$
+{
+"url":"http://api.wolframalpha.com/v2/query?appid=9WA6XR-26EWTGEVTE&input=users+on+$1$&output=JSON",
+"path":"$.queryresult.pods[2].subpods[1].img"
+}
+eol
+
+#Tells us about social site visits per seconds
+
+How many visit of * per second|visits of * per second|* visits per second
+!example:How many visit of google per second
+!console:Number of $1$ visits are $alt$
+{
+"url":"http://api.wolframalpha.com/v2/query?appid=9WA6XR-26EWTGEVTE&input=users+on+$1$&output=JSON",
+"path":"$.queryresult.pods[2].subpods[0].img"
+}
+eol
+
+#Tells us about social site visits per day
+
+How many visit of *|visits of *|* visits
+!example:visits of google
+!console:Number of $1$ visits are $alt$
+{
+"url":"http://api.wolframalpha.com/v2/query?appid=9WA6XR-26EWTGEVTE&input=users+on+$1$&output=JSON",
+"path":"$.queryresult.pods[1].subpods[0].img"
+}
+eol
