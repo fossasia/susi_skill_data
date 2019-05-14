@@ -1,0 +1,19 @@
+::protected No
+::author_email jocund.isha@gmail.com
+:name Sports Quiz
+::category Sports
+::language en
+::author <Sakshee Jain>
+::author_url https://github.com/sakshee-19
+::description <description> 
+::dynamic_content <Yes>
+::image images/download.jpeg
+
+ask me a question| take a quiz | Lets play a quiz game on Sports| Lets see how much you know about sports
+!example:ask me a question
+!console:$question$
+{
+  "url":"https://opentdb.com/api.php?amount=10&category=21",
+  "path":"$.results"
+}
+eol

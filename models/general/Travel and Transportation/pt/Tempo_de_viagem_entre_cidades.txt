@@ -1,0 +1,20 @@
+::protected No
+::author_email andriusgabriel@live.com
+::name Tempo de viagem entre cidades
+::author GabLuz
+::description A skill to tell travel times between cities.
+::dynamic_content Yes
+::developer_privacy_policy
+::image images/Googlemapslogo2014.png
+::terms_of_use
+
+Quanto tempo leva de * a *
+
+!example:how long it will take to travel between india and singapore
+!expect:4 days 9 hours
+!console:$text$
+{
+    "url":"https://maps.googleapis.com/maps/api/distancematrix/json?units=imperial&origins=$1$&destinations=$2$&key=AIzaSyDAOBW-obxLzFkbKpPSRE4NpLRhnv_Scqg&language=pt",
+    "path":"$.rows[0].elements[0].duration"
+}
+eol

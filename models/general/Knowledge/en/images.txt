@@ -1,0 +1,15 @@
+::name Images
+::author Dravit Lochan
+::author_url https://github.com/DravitLochan
+::description Ask Susi to fetch images for you
+::dynamic_content Yes
+::image images/images.png
+
+images of *|pictures of *|get me images on *|How does  * looks like|show me a picture of *|a picture of *|an image of *|show me a *|can you show me a *|visuals on *|visuals of *|image of *|picture of *|how would * look like|get me a glipmse of *|pictorial representation of *|fetch me some *|diagram of *
+!example:images of bird
+!console:$webformatURL$
+{
+    "url":"https://pixabay.com/api/?key=1631539-db8210cabd2636c6df59812df&q=$1$&image_type=photo",
+    "path":"$.hits[2]"
+}
+eol

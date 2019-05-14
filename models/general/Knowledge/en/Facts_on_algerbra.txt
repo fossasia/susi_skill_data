@@ -1,0 +1,15 @@
+::author_email sanjanasanikommu@gmail.com
+# tells facts on numbers
+::name  Facts on algerbra
+::author Sanjana Sanikommu
+::category Knowledge
+::author_url https://github.com/SanjanaSanikommu
+::image images/Facts.jpg
+::dynamic_content Yes
+::description Interesting facts on numbers,trivia,date
+
+
+Susi, tell me an algebraic fact? | tell me something interesting about maths | Do you know any amazing maths fact? | give me a maths fact | do you know any maths fact ?| tell me facts about maths | do you know any number fact? | Do you know any amazing maths fact|do you know any random algebra facts?|Give me a random math fact|
+
+!example:Tell me something interesting about maths!
+!expect:<There are 177,147 ways to tie a tie, according to mathematicians.111,111,111 x 111,111,111 = 12,345,678,987,654,321. | If you have a pizza with radius Z and thickness A, its volume is = Pi*Z*Z*A | 1089x 9 =9801. | 2,520 is the smallest number that can be exactly divided by all the numbers 1 to 10. | There are 177,147 ways to tie a tie, according to mathematicians. | Multiplying 21978 by 4 reverses the order of the numbers: 87912. | Isaac Newton's Principia Mathematica contained a simple calculation error that went unnoticed for 300 years.>
