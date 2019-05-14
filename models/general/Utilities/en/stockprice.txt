@@ -1,0 +1,18 @@
+::name Stock Price
+::author Jyothir Aditya
+::author_url https://github.com/jyoth1raditya
+::description A skill to tell about stock price.
+::dynamic_content Yes
+::developer_privacy_policy
+::image images/stockprice.png
+::terms_of_use
+
+What is stock price of *?|What is stock price of *|stock price of *|* stock price of *
+!example:stock price of oil
+!expect:price of oil: 5.2023
+!console:$l$
+{
+    "url":"http://finance.google.com/finance/info?client=ig&q=NASDAQ:$1$",
+    "path":"$.[0]"
+}
+eol

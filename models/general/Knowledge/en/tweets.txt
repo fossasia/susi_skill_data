@@ -1,0 +1,73 @@
+::name Tweets
+::author Rishi Raj
+::author_url https://github.com/rishiraj824
+::description A skill that return a list of tweets about the given field.
+::dynamic_content Yes
+::developer_privacy_policy
+::image images/tweets.png
+::terms_of_use
+
+# Return a list of tweets about the given field
+tweets about *| tweet *| 5 tweets about *|Latest tweets about *|Give me tweets about *| Tell me tweets about *| what are latest tweets about *| what are the latest tweets about *| Can you give me tweets about *| I want tweets about *| * tweets about *| * in tweets | * in twitter | I need tweets about * | hashtags about * | top hashtags on * | latest hashtags about *| latest hashtags on * 
+!example:tweets about Donald Trump
+!console:
+    {"url":"http://api.loklak.org/api/search.json?q=$1$&source=cache&count=5",
+    "path":"$.statuses",
+    "actions":[
+        {"type":"table",
+        "columns":{"screen_name" : "Username","text" : "Tweet"}
+        }]
+        }
+eol
+
+#Retrun tweets only from a user
+tweets from *| 5 tweets from *|Latest tweets from *|Give me tweets from *| Tell me tweets from *| what are latest tweets from *| what are the latest tweets from *| Can you give me tweets from *| I want tweets from*| I need tweets from * 
+!example:tweets from potus
+!console:
+    {"url":"http://api.loklak.org/api/search.json?q=from:$1$&source=cache&count=5",
+    "path":"$.statuses",
+    "actions":[
+        {"type":"table",
+        "columns":{"screen_name" : "Username","text" : "Tweet"}
+        }]
+        }
+eol
+
+#Retrun tweets having a user mentioned in any tweets
+tweets having *| 5 tweets with *|Latest tweets having *|Give me tweets having *| Tell me tweets having *| what are latest tweets having *| what are the latest tweets having *| Can you give me tweets having *| I want tweets having*| I need tweets having * | tweets with username * in twitter | * in twitter | * in tweets
+!example:tweets with username asksusi in twitter
+!console:
+    {"url":"http://api.loklak.org/api/search.json?q=@$1$&source=cache&count=5",
+    "path":"$.statuses",
+    "actions":[
+        {"type":"table",
+        "columns":{"screen_name" : "Username","text" : "Tweet"}
+        }]
+        }
+eol
+
+#Return a list of tweets about a term in a location
+tweets about * near *| tweet * near *| 5 tweets about * in *|Latest tweets about * in *|Give me tweets about * near *| Tell me tweets about * near *| what are latest tweets about * near *|  what are latest tweets about * in *| what are the latest tweets about * near *| Can you give me tweets about * near *| I want tweets about * near *| * tweets about * near *| * in tweets near *| * in twitter near * | I need tweets about * near *| hashtags about * near *| top hashtags on * near *| latest hashtags about * near *| latest hashtags on * near * 
+!example:tweets about Trump in Canada
+!console:
+    {"url":"http://api.loklak.org/api/search.json?q=$1$%20near:$2$&source=cache&count=5",
+    "path":"$.statuses",
+    "actions":[
+        {"type":"table",
+        "columns":{"screen_name" : "Username","text" : "Tweet"}
+        }]
+        }
+eol
+
+#Returns a list of tweets near a given area
+tweets near *| tweet near *| 5 tweets in *|Latest tweets in *|Give me tweets near *| Tell me tweets near *| what are latest tweets near *|  what are latest tweets in *| what are the latest tweets near *| Can you give me tweets near *| I want tweets near *| I need tweets near * 
+!example:Tweets near Sydney
+!console:
+    {"url":"http://api.loklak.org/api/search.json?q=near:$1$&source=cache&count=5",
+    "path":"$.statuses",
+    "actions":[
+        {"type":"table",
+        "columns":{"screen_name" : "Username","text" : "Tweet"}
+        }]
+        }
+eol
