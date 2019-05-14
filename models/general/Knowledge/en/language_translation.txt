@@ -1,0 +1,51 @@
+::name Language Translation
+::author Uday Theja
+::author_url https://github.com/uday96
+::description A skill to translate a query into other languages.
+::dynamic_content Yes
+::developer_privacy_policy
+::image images/language_translation.png
+::terms_of_use
+
+#Translating to other languages
+#Hardcoded the languages for now, will try to extend the extend to all languages without hardcoding
+#uses 3 letter language coding
+What is * in french|french for *|translate * in french|translate * into french|tell the translation of * in french | tell me the translation of * in french |Can you translate * in french | Could you translate * in french
+!example: What is hello in French
+!expect: Bonjour. HELLO IN FRENCH
+!console:$text$
+{
+"url":"https://glosbe.com/gapi/translate?from=eng&dest=fra&format=json&phrase=$1$&pretty=true",
+"path":"$.tuc[0].phrase"
+}
+eol
+
+What is * in german|german for *|translate * in german|translate * into german|tell the translation of * in german | tell me the translation of  * in german | Can you translate * in german | Could you translate * in german
+!example: Could you translate Hello in german
+!expect: Hallo. HELLO IN GERMAN
+!console:$text$
+{
+"url":"https://glosbe.com/gapi/translate?from=eng&dest=ger&format=json&phrase=$1$&pretty=true",
+"path":"$.tuc[0].phrase"
+}
+eol
+
+What is * in spanish|spanish for *|translate * in spanish|tell the translation of * in spanish | tell me the translation of  * in spanish | Can you translate * in spanish | Could you translate * in spanish
+!example: What is Hello in Spanish
+!expect: Hola
+!console:$text$
+{
+"url":"https://glosbe.com/gapi/translate?from=eng&dest=spa&format=json&phrase=$1$&pretty=true",
+"path":"$.tuc[0].phrase"
+}
+eol
+
+What is * in hindi|hindi for *|translate * in hinditranslate * into hindi|tell the translation of * in hindi | tell me the translation of  * in hindi | Can you translate * in hindi | Could you translate * in hindi
+!example: Can you translate Hello in hindi
+!expect: नमस्ते
+!console:$text$
+{
+"url":"https://glosbe.com/gapi/translate?from=eng&dest=hin&format=json&phrase=$1$&pretty=true",
+"path":"$.tuc[0].phrase"
+}
+eol

@@ -1,0 +1,26 @@
+::name Hotword Changer
+::author Isuru Abeywardana
+::author_url https://github.com/isuruAb
+::description Skill that changes the hotword of the application according to the user's choice
+::dynamic_content Yes
+::developer_privacy_policy 
+::image images/hotword_changer.jpeg
+::terms_of_use
+
+
+Hotword * | Change Hotword to *| Hot word *
+!example: Hotword lulu
+!expect: Hotword changed to Darlin
+Hotword changed to  $1$>_hotword
+
+
+* Hotword | Hotword
+!example: Hotword lulu
+!expect: Hotword is _hotword
+Hotword is $_hotword$ you can use it now
+
+*
+!example: lulu
+!expect: Hi,How are you
+?$_hotword$=$1$:Hi,How can I help?
+

@@ -1,0 +1,18 @@
+::name President
+::author Chashmeet Singh
+::author_url https://github.com/chashmeetsingh
+::description A skill to give name of the president of a country.
+::dynamic_content Yes
+::developer_privacy_policy
+::image images/president.jpg
+::terms_of_use
+
+president of *|who is the president of *|president *|who is president of *
+!example:president of USA
+!expect:Donald Trump (from 20. January 2017 to present)
+!console:$plaintext$
+{
+  "url": "https://api.wolframalpha.com/v2/query?input=president+$1$&output=JSON&appid=9WA6XR-26EWTGEVTE&includepodid=Result",
+  "path" : "$.queryresult.pods[0].subpods[0]"
+}
+eol
