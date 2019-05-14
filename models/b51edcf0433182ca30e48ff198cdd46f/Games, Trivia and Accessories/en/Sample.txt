@@ -1,0 +1,33 @@
+::protected Yes
+::author_email 123divyanshu.n.s4@gmail.com
+::allow_bot_only_on_own_sites no
+!Write all the domains below separated by commas on which you want to enable your chatbot
+::allowed_sites 
+!Choose if you want to enable the default susi skills or not
+::enable_default_skills yes
+!Choose if you want to enable chatbot in your devices or not
+::enable_bot_in_my_devices no
+!Choose if you want to enable chatbot in other user's devices or not
+::enable_bot_for_other_users no
+::bodyBackground #ffffff
+::bodyBackgroundImage 
+::userMessageBoxBackground #0077e5
+::userMessageTextColor #ffffff
+::botMessageBoxBackground #f8f8f8
+::botMessageTextColor #455a64
+::botIconColor #000000
+::botIconImage 
+::name Sample
+::category Games, Trivia and Accessories
+::language en
+::author <author_name>
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/anime_naruto_sasuke_uchiha_71998_3840x2160.jpg
+::terms_of_use <link>
+
+
+hi|hello
+What
