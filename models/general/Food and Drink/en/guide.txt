@@ -1,0 +1,28 @@
+::protected No
+::author_email wang.xiaohang@dhs.sg
+::name guide
+::category Food and Drink
+::language en
+::author xh
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/Guide-Transparent-Background.png
+::terms_of_use <link>
+
+
+Where do i find chicken rice?
+hawker centers
+
+where can i eat chinese food?
+chinatown
+
+where do i go if i want to eat cheap food?
+hawker centers 
+
+When do the hawker center open?
+almost all the time
+
+Where are most hawker centers at?
+they are everywhere

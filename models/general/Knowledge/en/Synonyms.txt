@@ -1,0 +1,13 @@
+::name Synonyms
+::author_email akjn11@gmail.com
+::author Akshat Jain
+::author_url https://github.com/Akshat-Jain
+::description A skill that returns the synonyms for a word
+::dynamic_content Yes
+::developer_privacy_policy
+::image images/synonyms.png
+::terms_of_use
+
+Synonym of * | Synonyms of * | synonym of * | synonyms of * | show me synonym of * | tell me synonym of * | synonym for * | synonym words for *
+!example: Synonym of happy
+You can find the synonyms of $1$ here : https://www.anagrammer.com/synonyms/$1$
