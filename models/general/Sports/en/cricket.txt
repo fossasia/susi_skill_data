@@ -1,0 +1,34 @@
+::name Cricket
+::author Dravit Lochan
+::author_url https://github.com/DravitLochan
+::dynamic_content Yes
+::image images/cricket.png
+::description Fond of cricket, now susi helps to keep track of live matches going on, ask susi to get you the match stats 
+
+matches going on|current matches|Do you know about matches going on?|Do you know cricket matches going on?|Tell me about matches going on?|Tell me about current cricket matches|Do you know about matches going on|Do you know cricket matches going on|is there any cricket match today?|what are the cricket matches going on?|is there any cricket match today|what are the cricket matches going on|find current matches into play|any cricket match to know about?|what is going on in the world of cricket?|
+!example:Do you know cricket matches going on?
+!console:
+{
+    "url":"http://cricketapi.herokuapp.com/getMatches",
+    "path":"$",
+    "actions":[{
+        "type":"table",
+        "columns":{ "id":"id","mchdesc":"Description"}
+        }]
+}
+eol
+score of match with id *| what is the score of id *|details of match with id *|match with id *|pull stats of match with id *|score of * match
+!console:
+{
+    "url":"http://cricketapi.herokuapp.com/scorecard?matchId=$1$",
+    "path":"$.scorecard",
+    "actions":[{
+        "type":"table",
+        "columns":{
+            "batteam":"Batting team",
+            "runs":"Runs",
+            "wickets":"Wickets"
+            }
+        }]
+}
+eol
