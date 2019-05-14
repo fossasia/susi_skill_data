@@ -1,0 +1,19 @@
+::name BMI	
+::author Ambreen Mushahid
+::author_url https://github.com/amushahid
+::description This skill calculates the BMI for you.
+::dynamic_content yes
+::developer_privacy_policy
+::image images/bmi.jpg
+::terms_of_use 
+
+calculate bmi for * weight and * heights |What will * weight and * heights have the bmi|Give me the bmi for * weight and * heights
+!example:Calculate bmi for 50kg weight and 1.6m heights
+!console:Your bmi is $bmi$ and it is $description$
+{
+"url":"http://bakharevich.by/projects/bmi/public/get/?weight=$1$&height=$2$&unit=metric",
+"path":"$.data"
+}
+eol
+
+

@@ -1,0 +1,28 @@
+::protected No
+::author_email ashwanth7230@gmail.com
+::name SAV
+::category Business and Finance
+::language en
+::author Ashwanth7230
+::author_url https://github.com/Ashwanth7230
+::description this skill shows you how to upload and create a video on youtube
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/download.jpg
+::terms_of_use <link>
+
+
+how to create a channel in youtube?
+Sign into YouTube and click on the user icon at the top right of the screen.Click on the gear icon to get to your account’s YouTube Settings.Click on Create a new channel.Then choose “Use a business or other name”.Add your Brand name and click create
+
+how to upload a video on youtube from pc?
+Sign in to YouTube.At the top of the page, click Upload .Select Upload video.Before you start uploading the video, you can choose the video privacy settings.Select the video you'd like to upload from your computer.You can also import a video from Google Photos.As the video is uploading, you can edit both the basic information and the advanced settings of the video and decide if you want to notify subscribers (if you uncheck this option, no communication will be shared with your subscribers). Partners will also be able to adjust their Monetization settings. You can have a title up to 100 characters and a description up to 5,000 characters.Click Publish to finish uploading a public video to YouTube. If you set the video privacy setting to Private or Unlisted, just click Done to finish the upload or click Share to privately share your video.If you haven’t clicked Publish, your video won’t be viewable by other people. You can always publish your video at a later time in your Video Manager.
+
+how to upload a video on youtube from android?
+Sign in to YouTube and your desired channel.Tap the camera  at the top of the home page from any navigation page.Record a new video or select an existing one to upload.To record a new video: Tap the video camera icon and begin recording.To select an existing video: Use the gallery to select your video.Apply optional enhancements to your video and tap Next.Adjust your video's title, description, and privacy settings. You can have a title up to 100 characters and a description up to 5,000 characters.Tap Upload.
+
+how to download videos using YouTube app?
+YouTube allows you to download certain videos on Android and iOS. Follow these steps to download those videos.Open the YouTube app on your smartphone.Open any video on the app.Below the title you will see a Download button between Share and Add to. This will show up only if the creator of the video allows downloads.Once you tap Download, the video will begin downloading and you can watch it from the app whenever you want to.
+
+How to download YouTube videos on Windows, Mac, or Linux
+To download YouTube videos on Windows, macOS, and Linux, there is a free app called 4K Video Downloader. It downloads videos and lets you choose the resolution as well. Follow these steps.Download 4K Video Downloader.Find a YouTube video you want to download. Copy the URL from the address bar of your browser.Open 4K Video Downloader and click the green Paste Link button.Now the app will parse the video and then offer a bunch of resolutions for you to download the video. Select the button next to the resolution you want. Click Browse to choose where you want to save the downloaded video. Then click Download.
