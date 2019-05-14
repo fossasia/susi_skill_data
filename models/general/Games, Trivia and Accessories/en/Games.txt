@@ -1,0 +1,31 @@
+::protected No
+::author_email yeo.shuting.vernice@dhs.sg
+::name Games
+::category Games, Trivia and Accessories
+::language en
+::author minsugajjangjjang
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/header.jpg
+::terms_of_use <link>
+
+
+User query1|query2|quer3....
+!example:<The question that should be shown in public skill displays>
+!expect:<The answer expected for the above example>
+Answer for the user query
+
+query_line_1
+answer_line_1
+
+query_line2
+answer_line2
+
+query_line_3
+answer_line_3
+
+query_line4
+answer_line4
+
