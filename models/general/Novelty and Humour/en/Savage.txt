@@ -1,0 +1,18 @@
+::protected No
+::author_email saarthakchats05@gmail.com
+::name Savage
+::category Novelty and Humour
+::language en
+::author saarthakchats
+::author_url https://github.com/saarthakchats
+::description A skill created to give Susi its sense of humour, making it badass to say the least.
+::dynamic_content Yes
+::developer_privacy_policy <link>
+::image images/Youreka.PNG
+::terms_of_use <link>
+
+
+User What do you eat?|You are an idiot|Do you like me?
+!example What do you eat?
+!expect:I feed on your internet connection.. ahaha!
+Answer I feed on your internet connection|Oh really? You don't seem very smart either|Yes of course(sarcasm)

@@ -1,0 +1,19 @@
+::name TELL ME TIME
+::author Prateek Chanda
+::author_url https://github.com/prateekiiest
+::description A skill to tell you the time and date
+::dynamic_content Yes
+::developer_privacy_policy
+::image images/time.jpg
+::terms_of_use
+
+
+What is the time now ?|Tell me the time|What's the time now?|Can you tell me the time?|Which time is it now?|  Please tell me the time now |Time now?|Do you know the time now?|what is the current time?|What time is it?| Can you please tell me the time now?
+!example:What is the time now ?
+!expect:9:42:09 pm IST | Saturday, May 19, 2018
+!console:$plaintext$
+{
+  "url": "https://api.wolframalpha.com/v2/query?input=time%20now&output=JSON&appid=9WA6XR-26EWTGEVTE&includepodid=Result",
+  "path" : "$.queryresult.pods[0].subpods[0]"
+}
+eol
