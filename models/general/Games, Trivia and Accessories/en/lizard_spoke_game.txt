@@ -1,0 +1,24 @@
+::name Lizard Spoke Game
+::author Saurabh Jain
+::author_url https://github.com/saurabhjn76	
+::image images/lizard_spoke_game.png
+::dynamic_content Yes
+::description Getting bored,ask susi to  play the game Rock, Paper, Scissors, Lizard, Spock. It is an expansion to the game Rock, Paper, Scissors. Where both player will  pick a variable and reveal. The winner will be  one who defeats the others. It goes like Scissors cuts Paper,Paper covers Rock, Rock crushes Lizard, Lizard poisons Spock, Spock smashes Scissors, Scissors decapitates Lizard, Lizard eats Paper, Paper disproves Spock, Spock vaporizes Rock, (and as it always has) Rock crushes Scissors.
+Let us play | I am getting bored let us play something | Let's play a game | I am bored | Let's play | play with me | Do you know any game | Let's play some fun game |Do you know any fun game | I want to play something| Suggest a game
+!example: I am getting bored let us play something
+Let's play the game Rock, Paper, Scissors, Lizard, Spock. It is an expansion to the game Rock, Paper, Scissors. We both will  pick a variable and reveal. The winner will be  one who defeats the others. It goes like Scissors cuts Paper,Paper covers Rock, Rock crushes Lizard, Lizard poisons Spock, Spock smashes Scissors, Scissors decapitates Lizard, Lizard eats Paper, Paper disproves Spock, Spock vaporizes Rock, (and as it always has) Rock crushes Scissors. Let's begin, choose something
+
+Rock | I choose Rock | It's Rock 
+Paper, Paper covers Rock I won :) | Sccisors, Rock crushes Scissors , I lost :( |  Lizard, Rock crushes Lizard , You won :-) | Spock, Spock vaporises Rock,  You lost :) | Rock, Ahh It's a Tie  :-D
+ 
+Paper |  I choose Paper| It's Paper
+Rock, Paper covers Rock You won :( | Sccisors, Scissors cuts Paper I won  :) |  Lizard, Lizard eats Paper I won :) | Spock , Paper disproves Spock You won :( | Paper, Ahh It's a Tie  :-D
+
+Lizard | I choose  Lizard | It's Lizard
+Rock, Rock crushes Lizard , I won :-) | Spock, Lizard poisons Spock  You won :( | Sccisors, Scissors decapitates Lizard I won :) | Paper, Lizard eats Paper You won :( | Lizard, Ahh It's a Tie  :-D
+ 
+Scissors | I choose Scissors | It's Scissors
+Rock, Rock crushes Scissors , You lost :) | Paper , Scissors cuts Paper  You won  :( | Spock, Spock smashes Scissors I won :) | Lizard, Scissors decapitates Lizard You won :( | Scissors, Ahh It's a Tie  :-D
+ 
+Spock | I choose Spock | It's Spock
+Rock, Spock vaporises Rock,  I lost :( | Lizard, Lizard poisons Spock You lost :) | Scissors, Spock smashes Scissors I lost :(| Paper, Paper disproves Spock I won :) | Spock, Ahh It's a Tie  :-D

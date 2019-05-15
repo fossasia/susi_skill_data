@@ -1,0 +1,15 @@
+::name Chuck Norris Jokes
+::author Akash Agrawal
+::author_url https://github.com/akash1997
+::description Getting bored? Ask susi to tell you a joke on Chuck Norris.
+::dynamic_content Yes
+::image images/big_bang_jokes.png
+
+* chuck norris joke | * joke on chuck norris | * geeky joke * | * geek joke * | * jokes on chuck norris | * chuck norris jokes
+!example:tell me a joke on Chuck Norris
+!console:$joke$
+{
+    "url":"http://api.icndb.com/jokes/random",
+    "path":"$.value."
+}
+eol
