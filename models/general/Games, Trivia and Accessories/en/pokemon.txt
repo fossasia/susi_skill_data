@@ -1,0 +1,35 @@
+::name Pokemon
+::author Rishi Raj
+::author_url https://github.com/rishiraj824
+::image images/pokemon.png
+::dynamic_content Yes
+::description Get the details of your favourite pokemon, ask about it's type, weight and ablities.
+
+what is the ability of *|ability of *
+!example:what is the ability of pikachu
+!console:$1$ has the ability of $name$
+{
+"url":"http://pokeapi.co/api/v2/pokemon/$1$",
+"path":"$.abilities[0].ability"
+}
+eol
+
+
+what type of pokemon is  *| * type
+!example:what type of pokemon is  pikachu
+!console:$1$ is of type $name$
+{
+"url":"http://pokeapi.co/api/v2/pokemon/$1$",
+ "path": "$.types[0].type"
+}
+eol
+
+what is the weight of * | * weight
+!example:what is the weight of pikachu
+!console:$1$'s weight is $weight$
+{
+"url":"http://pokeapi.co/api/v2/pokemon/$1$",
+"path":"$"
+}
+eol
+
