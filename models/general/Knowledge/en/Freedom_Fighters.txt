@@ -1,0 +1,15 @@
+::author_email sanjanasanikommu@gmail.com
+# tells facts on numbers
+::name  Freedom Fighters
+::author Sanjana Sanikommu
+::author_url https://github.com/SanjanaSanikommu
+::image images/Freedom.jpg
+::dynamic_content Yes
+::description A query on Indian freedom fighter.
+
+
+Susi,do you know any Indian freedom fighter? | Do you know any Indian freedom fighter? | Tell me any Indian freedom fighter? | 
+
+!example:Do you know any freedom fighter?
+!expect:Mahatma Gandhi is a great Indian freedom fighter
+Tipu sultan was the first Indian freedom Fighter
