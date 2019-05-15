@@ -1,0 +1,17 @@
+::name GIF
+::author Chetan Kaushik
+::author_url https://github.com/dynamitechetan
+::dynamic_content Yes
+::image images/gif.png
+::descripton Get random GIF, just ask susi eg: gif of bird.
+
+gif *|image of *|image of a *|gif of a *|gif of *|picture of *|picture of a *
+!example:image of bird
+!console:$embed_url$
+{
+"url":"http://api.giphy.com/v1/gifs/search?q=$1$&api_key=dc6zaTOxFJmzC",
+ "path": "$.data[0]"
+}
+eol
+
+

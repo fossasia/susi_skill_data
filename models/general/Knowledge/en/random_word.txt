@@ -1,0 +1,18 @@
+::name Random Word
+::author Ali Ayub Khan
+::author_url https://github.com/AliAyub007
+::description A skill to give a random word.
+::dynamic_content Yes
+::developer_privacy_policy
+::image images/random_word.png
+::terms_of_use
+
+give me a random word|Tell me a random word|Suggest me a random word|Random word
+!example:Tell me a random word
+!expect:megamillionaire
+!console:$alt$
+{
+"url":"http://api.wolframalpha.com/v2/query?appid=9WA6XR-26EWTGEVTE&input=give%20me%20random%20word&output=JSON",
+"path":"$.queryresult.pods[1].subpods[0].img"
+}
+eol
