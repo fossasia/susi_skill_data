@@ -1,0 +1,21 @@
+::protected No
+::author_email mark.leonard@dhs.sg
+::name Favourite Food
+::category Food and Drink
+::language en
+::author mark.leonard
+::author_url https://github.com/dhscomputingmarkleonard
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/logo.png
+::terms_of_use <link>
+
+Malay
+Nasi Lemak|Mee Siam|Longtong
+
+Indian
+Bryani
+
+Chinese
+Chicken Rise

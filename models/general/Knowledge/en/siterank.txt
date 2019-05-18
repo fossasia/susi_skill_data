@@ -1,0 +1,20 @@
+::name Site Ranking 
+::author Chetan Kaushik
+::author_url https://github.com/dynamitechetan
+::description A skill that gives a site rank based on alexa.
+::dynamic_content Yes
+::developer_privacy_policy
+::image images/siterank.png
+::terms_of_use
+
+site rank of *
+!example:site rank of www.google.com
+!console:$plaintext$
+{
+    "url": "https://api.wolframalpha.com/v2/query?input=site+rank+of+$1$&format=plaintext&output=JSON&&appid=9WA6XR-26EWTGEVTE&includepodid=Result",  
+    "path" : "$.queryresult.pods[0].subpods[0]"
+}
+eol
+
+
+
