@@ -1,0 +1,13 @@
+::name Tech Events
+::author Mohit Sharma
+::author_url https://github.com/ms10398
+::description Ask Susi to tell tech events near you
+::dynamic_content Yes
+Tell me tech events within * near *,*
+!example:Tell me tech events within 1w near Delhi,IN
+!console:Meetup URL-$event_url$ Name - $name$
+{
+   "url" : "https://api.meetup.com/2/open_events?&sign=true&photo-host=public&city=$2$&country=$3$&time=,$1$&category=34&page=1&key=636c63837c7a4a556432103d2352",
+   "path" : "$.results"
+}
+eol
