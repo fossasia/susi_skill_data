@@ -1,0 +1,16 @@
+::protected No
+::author_email kzhang015@e.ntu.edu.sg
+::name Guageland
+::category Knowledge
+::language en
+::author Guageland Team
+::author_url https://github.com/liumcse/fosshack
+::description Save indigenous languages!
+::dynamic_content No
+::image images/logo.png
+
+
+User what does guageland do|what is guageland
+!example:What does guageland do?
+!expect:We save indigenous languages
+We save indigenous languages!!

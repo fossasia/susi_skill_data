@@ -1,0 +1,16 @@
+::protected No
+::author_email sanjanasanikommu@gmail.com
+::name Health and Fruits
+::category Health and Fitness
+::language en
+::author Sanj99
+::author_url https://github.com/SanjanaSanikommu
+::description Gives Information about health benefits of fruits 
+::dynamic_content Yes
+
+::image images/Fruts.jpg
+
+
+!example: Health benefits of banana| Bananas | Benefits of banana |What is the use of banana? | do you know Banana? | Do you know banana? | Give me health tips of banana | health benefits of banana|banana|bananas|Banana|health benefits of banana
+!expect: Banana is a fruit which is rich in fibre and is sweet in nature 
+Eating Bananas could help lower blood pressure and reduce the risks of cancer and asthma.|Bananas contain tryptophan, an amino acid that studies suggest plays a role in preserving memory and boosting your mood|A medium-sized banana contains about 3 grams of fiber,which may improve digestive health|Bananas contain anti-oxidants which reduces risk of heart disease.

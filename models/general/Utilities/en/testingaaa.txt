@@ -1,0 +1,20 @@
+::protected No
+::author_email testing@mailinator.com
+::name testingaaa
+::category Utilities
+::language en
+::author fghgf
+::author_url ghj
+::description ghj
+::dynamic_content No
+::developer_privacy_policy <link>
+::image images/icons.jpg
+::terms_of_use <link>
+
+
+who is my project coordinator?
+Mr. Anand 
+
+what are you doing here?
+giving IP Project
+
