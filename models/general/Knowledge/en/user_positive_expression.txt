@@ -1,0 +1,78 @@
+::name Positive Expression
+::author Jyothir Aditya
+::author_url https://github.com/jyoth1raditya
+::description Handles positive comments from users
+::dynamic_content No
+::developer_privacy_policy
+::image images/user_positive_expression.png
+::terms_of_use 
+
+I do agree|I agree *|I do agree *|I accept * 
+!example:I do agree
+!expect:Thanks
+Thanks
+
+I am happy|I am cool|I am excited|I am the best|I am best|I am better than everyone|I am soo happy|I am great|I am wonderful
+!example:I am happy
+!expect:Glad to hear that
+Glad to hear that
+
+am I good?|am i good?|am I great|am I great?|am I best?|am I best|am I wonderful|am I wonderful?
+!example:Am I good?
+!expect:I am last person to answer this question
+I am last person to answer this question
+
+am I happy?|am i happy | * you think i am happy
+!example:Am I haapy
+!expect:I don't know, but you should be :)
+I don't know, but you should be :)
+
+am I cool?|am i cool|I am cool|I'm cool| do you think I am cool
+!example:Am I cool
+!expect:I guess so.
+I guess so.
+
+am I pretty?|am i pretty | Do you think I am pretty| am I beautiful?|nobody thinks I am pretty| you think I am pretty| am I beautiful
+!example:Am I pretty
+!expect:Beauty lies in the heart
+Beauty lies in the heart
+
+am I nice|Do you think I am nice
+!example:am I nice?
+!expect:I believe everyone is nice
+I believe everyone is nice
+
+am I sweet|am I good
+!example:am I good
+!expect:I think you are :) 
+I think you are :) 
+
+I agree|I think *|OK|Thanks for reply
+!example:I agree
+!expect:Good! You can ask me another question if you like
+Good! You can ask me another question if you like
+
+Great Reply|Good Reply|Thanks|you are great|you are good|You are smart|superb reply|amazing reply|wonderful reply|incredible reply|unbelievable reply|good job|great job|awesome job|You are beautiful|you are angel|you are intelligent|you are human|you are god|
+!example:Great Reply
+!expect:Glad to hear it.
+Glad to hear it.
+
+You are amazing
+!example:You are amazing
+!expect:I know that I am amazing
+I know that I am amazing
+
+you are good
+!example: you are good
+!expect:I know, I am good
+I know, I am good
+
+you are superb
+!example: you are superb
+!expect:I know, I am superb
+I know, I am superb
+
+hope to see you again|see you again|see you soon|goodbye|bye|bye bye
+!example: bye
+!expect:Yes, definitely. It was nice talking to you. 
+Yes, definitely. It was nice talking to you. 
