@@ -1,0 +1,16 @@
+::protected No
+::author_email codekille@gmail.com
+::name test-api
+::category Utilities
+::language en
+::author Codekille
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/languagegame.jpg
+::terms_of_use <link>
+
+
+sad gjk sfajkg jaf kjg as
+ajfskkj
