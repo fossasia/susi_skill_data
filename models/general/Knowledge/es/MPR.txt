@@ -11,14 +11,12 @@
 ::image images/mpr.jpeg
 ::terms_of_use <link>
 
+chismes de *
+!console:$text$
+{
+  "url":"http://api.loklak.org/api/search.json?q=$1$",
+  "path":"$.statuses"
+}
+eol
 
-User query1|query2|quer3....
-!example:<The question that should be shown in public skill displays>
-!expect:<The answer expected for the above example>
-Answer for the user query
 
-# SUSI Skill tutorial playground
-::prior
-donde vivo
-Vivis en Argentina
-Vivo en el Universo
