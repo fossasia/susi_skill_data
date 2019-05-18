@@ -1,0 +1,11 @@
+::author_email andriusgabriel@live.com
+::name Comprar no Mercado Livre
+::author Gab Luz
+::description Searches items on MercadoLivre.com.br for shopping
+::dynamic_content Yes
+::image images/mercado-livre-logo.png
+::terms_of_use
+
+Quero comprar um *|Quero comprar *
+!example: Quero comprar um tênis da nike
+Found $1$ on MercadoLivre.com.br https://www.mercadolivre.com.br/jm/search?as_word=$1$

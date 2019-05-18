@@ -1,0 +1,31 @@
+# In first parameter you pass the pincode of a city.
+
+::name Pincode
+::author Chetan Kaushik
+::author_url https://github.com/dynamitechetan
+::dynamic_content Yes
+::description Postal code lookup skill. Know the details of city using the postal code, Susi will provide you to the name, longitude and latitude of that city.
+::image images/pincode.jpeg
+::terms_of_use 
+::developer_privacy_policy
+
+city with pincode *
+!example:city with pincode EC2R 6AB
+!expect: Name of place is London
+!console:Name of place is $adminName3$
+{
+"url":"http://api.geonames.org/postalCodeLookupJSON?postalcode=$1$&username=demo",
+"path":"$.postalcodes[0]"
+}
+eol
+
+# Returns the long lat values based on zipcode and country
+tell the longitude and latitude in * with pincode *|do you know the longitude and latitude in * with pincode *|find the longitude and latitude in * with pincode *|Search the longitude and latitude in * with pincode *|What is the longitude and latitude in * with pincode *|tell the longitude and latitude in * having pincode *|do you know the longitude and latitude in * having pincode *|find the longitude and latitude in * having pincode *|Search the longitude and latitude in * having pincode *|What is the longitude and latitude in * having pincode *
+!example:tell the longitude and latitude in India having pincode 160019 
+!expect:Latitude:30.72267 and Longitude:76.798248
+!console:Latitude:$latitude$ and Longitude:$longitude$
+{
+"url":"http://query.yahooapis.com/v1/public/yql?q=select%20centroid%20from%20geo.places%20where%20text%3D%22$2$%2C%20$1$%22&format=json",
+"path":"$.query.results.place.centroid"
+}
+eol

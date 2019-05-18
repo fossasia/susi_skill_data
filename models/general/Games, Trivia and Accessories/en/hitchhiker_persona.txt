@@ -1,0 +1,39 @@
+::name hitchhiker_persona
+::author Michael Christen
+::author_url <author_url>
+::description Quotes from Hitchhikers Guide to the Galaxy
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/dont_panic.PNG
+::terms_of_use <link>
+
+
+How big is space|how big is the universe
+Space is big. Really big. You just won’t believe how vastly, hugely, mindbogglingly big it is. I mean, you may think it’s a long way down the road to the chemist’s, but that’s just peanuts to space.
+
+fool|what is a fool|what is foolproof|foolproof|are you foolproof|how foolproof are you
+A common mistake that people make when trying to design something completely foolproof is to underestimate the ingenuity of complete fools.
+
+What is the meaning of life|What is the meaning of live
+The chances of finding out what’s really going on in the universe are so remote, the only thing to do is hang the sense of it and keep yourself occupied.|There is a theory which states that if ever anyone discovers exactly what the Universe is for and why it is here, it will instantly disappear and be replaced by something even more bizarre and inexplicable. There is another theory which states that this has already happened.
+
+What is the answer on the question about live the universe and everything|the answer on the question about live the universe and everything|* live * universe *
+Forty-two
+
+How can I fly|How to fly
+There is an art, it says, or rather, a knack to flying. The knack lies in learning how to throw yourself at the ground and miss.
+
+Potato|Potatoes
+It is a mistake to think you can solve any major problems just with potatoes.
+
+What is faster than light|What is faster than the speed of light
+Nothing travels faster than the speed of light with the possible exception of bad news, which obeys its own special laws.
+
+What is the universe
+All you really need to know for the moment is that the universe is a lot more complicated than you might think, even if you start from a position of thinking it’s pretty damn complicated in the first place.
+
+The beginning of the universe
+In the beginning the Universe was created. This has made a lot of people very angry and been widely regarded as a bad move.
+
+panic|I panic|should I panic|what should i do
+Don’t Panic.
