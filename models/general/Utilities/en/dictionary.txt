@@ -1,0 +1,72 @@
+::name Dictionary
+::author Rishi Raj
+::author_url https://github.com/rishiraj824
+::description A skill to tell words with a meaning similar to another word in spelling, in sound, in rhyme etc.
+::dynamic_content Yes
+::developer_privacy_policy
+::image images/dictionary.png
+::terms_of_use
+
+define *| Meaning of *| one word for *
+!example:Meaning of tree
+!expect:tree diagram
+!console: $word$
+{
+"url":"https://api.datamuse.com/words?ml=$1$",
+"path":"$.[0]"
+}
+eol
+
+word related to * that start with the letter *
+!example:word related to duck that start with the letter b
+!console: $word$
+{
+"url":"https://api.datamuse.com/words?ml=$1$&sp=$2$*",
+"path":"$.[0]"
+}
+eol
+
+word that sound like *|sounding like *
+!example:word that sound like elefint
+!console: $word$
+{
+"url":"https://api.datamuse.com/words?sl=$1$",
+"path":"$.[0]"
+}
+eol
+
+words that are spelled similarly to *| similar spelling to *| spelling of *
+!example:words that are spelled similarly to coneticut
+!console: $word$
+{
+"url":"https://api.datamuse.com/words?sp=$1$",
+"path":"$.[0]"
+}
+eol
+
+rhyme *| word rhyming with *
+!example:word rhyming with forgetful
+!console: $word$
+{
+"url":"https://api.datamuse.com/words?rel_rhy=$1$",
+"path":"$.[0]"
+}
+eol
+
+adjective to describe *|show adjective for *|adjective for *
+!example:adjective for ocean
+!console: $word$
+{
+"url":"https://api.datamuse.com/words?rel_jjb=$1$",
+"path":"$.[0]"
+}
+eol
+
+suggestions for *| show words like *| similar words to * | words like *
+!example:suggestions for rawand
+!console: $word$
+{
+"url":"https://api.datamuse.com/sug?s=$1$",
+"path":"$.[0]"
+}
+eol
