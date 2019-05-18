@@ -1,0 +1,16 @@
+::protected No
+::author_email humble.discipulus@gmail.com
+::name Corpus generator
+::category Communication
+::language en
+::author Aakash Mallik
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/screenshot-codepen.io-2018.12.10-12-33-06.png
+::terms_of_use <link>
+
+
+Quiz me on *?
+Can you convert this $1$?
