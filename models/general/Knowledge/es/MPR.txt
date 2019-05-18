@@ -11,7 +11,7 @@
 ::image images/mpr.jpeg
 ::terms_of_use <link>
 
-(hablame de | contame de | noticias de | saber de) *
+hablame de *|contame de *|noticias de *|saber de *
 !console:$text$
 {
   "url":"http://api.loklak.org/api/search.json?q=$1$",
