@@ -1,0 +1,38 @@
+::name Number of Galaxies
+::author Ali Ayub Khan
+::author_url https://github.com/uAliAyub007
+::description A skill to give information about galaxies in this universe.
+::dynamic_content No
+::developer_privacy_policy
+::image images/number_of_galaxies.png
+::terms_of_use
+
+How many galaxies are there in this universe| Galaxies in the universe | Number of galaxies in the universe | Number of galaxies
+!example:How many galaxies are there in this universe
+!expect:There are 2 trillion (according to NASA, as of 2016) galaxies in observable universe
+How many galaxies are there in this universe| Galaxies in the universe | Number of galaxies in the universe | Number of galaxies 
+!description: Gives information about galaxies in this universe. 
+!console:There are $alt$ galaxies in observable universe 
+{
+"url":"http://api.wolframalpha.com/v2/query?appid=9WA6XR-26EWTGEVTE&input=Number+of+galaxies&output=JSON",
+"path":"$.queryresult.pods[1].subpods[0].img"
+}
+eol
+
+How many stars are there in this universe| Stars in the universe | Number of stars in the universe|  Number of stars
+!example:Number of stars in the universe
+!console:There are $alt$ stars.
+{
+"url":"http://api.wolframalpha.com/v2/query?appid=9WA6XR-26EWTGEVTE&input=Number+of+stars&output=JSON",
+"path":"$.queryresult.pods[1].subpods[0].img"
+}
+eol
+
+How many planets are there in this universe| planets in the universe | Number of planets in the universe|  Number of planets
+!example:How many planets are there in this universe
+!console:There are $alt$ planets. 
+{
+"url":"http://api.wolframalpha.com/v2/query?appid=9WA6XR-26EWTGEVTE&input=Number+of+planets&output=JSON",
+"path":"$.queryresult.pods[1].subpods[0].img"
+}
+eol
