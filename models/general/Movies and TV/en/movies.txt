@@ -1,3 +1,5 @@
+::protected No
+::author_email aviavinash0464@gmail.com
 #api.themoviedb.org
 ::name Movies
 ::author Saurabh Jain
