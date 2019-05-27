@@ -1,0 +1,18 @@
+::protected No
+::author_email l.dinukadesilva@gmail.com
+::name Train Schedule in Colombo
+::category Travel and Transportation
+::language en
+::author <author_name>
+::author_url <author_url>
+::description <description> 
+::dynamic_content Yes
+::developer_privacy_policy <link>
+::image images/Classical-Music-Wallpaper.jpg
+::terms_of_use <link>
+
+
+User query1|query2|quer3
+example:Is there a train from colombo to mathara
+expect:There is few in morning and evening too
+Answer for the user query

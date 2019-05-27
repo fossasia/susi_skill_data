@@ -1,0 +1,25 @@
+::protected No
+::author_email rahulmuj@gmail.com
+::name CryptoRates
+::category Business and Finance
+::language en
+::author Rahul Mj
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/DSC_6720.JPG
+::terms_of_use <link>
+
+
+BTC
+!console:
+{
+  "url":"https://blockchain.info/ticker",
+  "path":"$.USD",
+  "actions":[{
+    "type":"table",
+    "columns":{"symbol":"Currency","buy":"LastBuy","sell":"LastSell"}
+  }]
+}
+eol

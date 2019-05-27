@@ -1,0 +1,29 @@
+::protected No
+::author_email sanjanasanikommu@gmail.com
+::name Inventions
+::category Knowledge
+::language en
+::author Sanjana Sanikommu
+::author_url https://github.com/SanjanaSanikommu
+::description Gives information about Newton,Einstein.
+::dynamic_content Yes
+::developer_privacy_policy <link>
+::image images/science.png
+::terms_of_use <link>
+
+
+
+
+!example: who is newton? | Do you know who is newton? | What is newton famous for ? |Who is Issac Newton ? | do you know newton? | Who is newton? | who is Newton? | Who is Newton? | Newton | Issac Newton
+!expect: Newton is famous for his laws of gravity.
+Isaac Newton is known for his law of gravity |  He laid the foundations for classical mechanics, explaining the law of gravity and the laws of motion | Newton was a polymath who made investigations into a whole range of subjects including mathematics, optics, physics, and astronomy.
+
+
+!example: who is Einstein? | Do you know who is Einstein? | What is Einstein famous for ? |Who is Albert Einstein ? | do you know Einstein? | Who is Einstein? | who is einstein? | Who is albert Einstein? | Albert Einstein | Einstein | What did albert einstein do?
+!expect: Famous for theory of relativity.
+Einstein is famous for this theory of relativity | He won the Nobel Prize in Physics (1921) for his discovery of the Photoelectric effect which formed the basis of Quantum Theory.
+
+
+
+
+

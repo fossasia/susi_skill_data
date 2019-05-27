@@ -1,0 +1,18 @@
+::name Capital
+::author Chashmeet Singh
+::author_url https://github.com/chashmeetsingh
+::description A skill to tell user about capital of any country.
+::dynamic_content Yes
+::developer_privacy_policy
+::image images/capital.png
+::terms_of_use
+
+capital of *|the capital of *|what is the capital of *|capital *|tell me the capital of *|do you know the capital of *|search for the capital of *|find the capital of *|tell the capital of *|search the capital of *|* capital
+!example:What is the capital of India?
+!expect:New Delhi
+!console:$plaintext$
+{
+  "url": "https://api.wolframalpha.com/v2/query?input=what+is+the+capital+of+$1$&output=JSON&appid=9WA6XR-26EWTGEVTE&includepodid=Result",
+  "path" : "$.queryresult.pods[0].subpods[0]"
+}
+eol
