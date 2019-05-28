@@ -2,6 +2,8 @@
 ::author_email nikolaos.christou@yahoo.com
 ::protected No
 ::author_email nikolaos.christou@yahoo.com
+::protected No
+::author_email nikolaos.christou@yahoo.com
 ::name Datum
 ::category Utilities
 ::language de
@@ -16,4 +18,7 @@
 Datum heute
 !example:Datum heute
 !expect: http://datumheute.com/
-Gibt es im Moment hier http://datumheute.com/
+!javascript:$!$
+var d = new Date();
+print(d.getDate()+"."+d.getMonth()+"."+(d.getYear()+1900));
+eol   
