@@ -2,9 +2,7 @@
 ::author_email nikolaos.christou@yahoo.com
 ::protected No
 ::author_email nikolaos.christou@yahoo.com
-::protected No
-::author_email nikolaos.christou@yahoo.com
-::name Datum
+::name Datum_heute
 ::category Utilities
 ::language de
 ::author nchris
@@ -15,10 +13,10 @@
 ::image images/Untitled.png
 ::terms_of_use <link>
 
-Datum heute
-!example:Datum heute
+Datum heute|Heute ist der
+!example:Datum heute, Heute ist der
 !expect: http://datumheute.com/
 !javascript:$!$
-var d = new Date();
-print(d.getDate()+"."+d.getMonth()+"."+(d.getYear()+1900));
+var heute = new Date();
+print(heute.getDate()+"."+heute.getMonth()+"."+(heute.getYear()+1900));
 eol   
