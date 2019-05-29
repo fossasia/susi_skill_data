@@ -1,0 +1,20 @@
+::protected No
+::author_email nikolaos.christou@yahoo.com
+::protected No
+::author_email nikolaos.christou@yahoo.com
+::name Mein_Suchbegriff
+::category Utilities
+::language de
+::author nchris
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes>
+::developer_privacy_policy <link>
+::image images/Capture.PNG
+::terms_of_use <link>
+
+
+Mein Suchbegriff ist *
+!example:Mein Suchbegriff ist Maus
+!expect:Dein Suchbegriff ist Maus
+Dein Suchbegriff ist $1$!
