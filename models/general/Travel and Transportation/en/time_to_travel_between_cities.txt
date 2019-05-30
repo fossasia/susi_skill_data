@@ -1,0 +1,18 @@
+::name Time to Travel Between Cities
+::author Jyothir Aditya
+::author_url https://github.com/jyoth1raditya
+::description A skill to tell travel times between cities.
+::dynamic_content Yes
+::developer_privacy_policy
+::image images/time_to_travel_between_cities.png
+::terms_of_use
+
+time to travel between * and *|time to go from * to *|time taken to travel from * to * | how long will it take to travel from * to *| how long it will take to travel from * to *| how much time it will take to travel from * to *| how much time will it take to travel from * to *| tell me the time to travel from * to *|how long will it take to go from * to *| how long it will take to go from * to *| how much time it will take to go from * to *| how much time will it take to go from * to *| tell me the time to go from * to *| how long will it take to travel between * and *| how long it will take to travel between * and *| how much time it will take to travel between * and *| how much time will it take to travel between * and *| tell me the time to travel between * and *
+!example:how long it will take to travel between india and singapore
+!expect:4 days 9 hours
+!console:$text$
+{
+    "url":"https://maps.googleapis.com/maps/api/distancematrix/json?units=imperial&origins=$1$&destinations=$2$&key=AIzaSyDAOBW-obxLzFkbKpPSRE4NpLRhnv_Scqg",
+    "path":"$.rows[0].elements[0].duration"
+}
+eol

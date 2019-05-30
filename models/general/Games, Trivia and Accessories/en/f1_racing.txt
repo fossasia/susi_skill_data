@@ -1,0 +1,91 @@
+#Ex: who won f1 season 2016
+::name F1 Racing
+::author Uday Theja
+::dynamic_content Yes
+::author_url https://github.com/uday96
+::image images/f1_racing.png
+::description Intrested in F1 racing, get all the details and race summaries of f1.
+
+who won f1 season *
+!example:who won f1 season 2016
+!console:$familyName$ won the f1 season $1$
+{
+"url":"http://ergast.com/api/f1/$1$/driverStandings.json",
+"path":"$.MRData.StandingsTable.StandingsLists[0].DriverStandings[0].Driver"
+}
+eol
+
+#Ex: which constructor topped f1 season 2016
+which constructor topped f1 season *
+!example:which constructor topped f1 season 2016
+!console:$name$ topped the f1 season $1$
+{
+"url":"http://ergast.com/api/f1/$1$/constructorStandings.json",
+"path":"$.MRData.StandingsTable.StandingsLists[0].ConstructorStandings[0].Constructor"
+}
+eol
+
+#Ex: how may races did hamilton finish in f1 season 2008
+how may races did * finish in f1 season *
+!example:how may races did hamilton finish in f1 season 2008
+!console:$status$ count $count$ for $1$ in season $2$
+{
+"url":"http://ergast.com/api/f1/$2$/drivers/$1$/status.json",
+"path":"$.MRData.StatusTable.Status[0]"
+}
+eol
+
+#Ex: fastest lap time in f1 season 2008 round 1
+fastest lap time in f1 season * round *
+!example:fastest lap time in f1 season 2008 round 1
+!console:$time$ was the fastest time in f1 season $1$ round $2$
+{
+"url":"http://ergast.com/api/f1/$1$/$2$/fastest/1/results.json",
+"path":"$.MRData.RaceTable.Races[0].Results[0].FastestLap.Time"
+}
+eol
+
+#Ex: circuit for f1 season 2016 round 3
+circuit for f1 season * round *
+!example:circuit for f1 season 2016 round 3
+!console:$circuitName$ - $url$ for more details
+{
+"url":"http://ergast.com/api/f1/$1$/$2$/circuits.json",
+"path":"$.MRData.CircuitTable.Circuits[0]"
+}
+eol
+
+#Ex: f1 constructor ferrari
+f1 constructor *
+!example:f1 constructor ferrari
+!console:$name$ is a $nationality$ constructor - $url$ for more details
+{
+"url":"http://ergast.com/api/f1/constructors/$1$.json",
+"path":"$.MRData.ConstructorTable.Constructors[0]"
+}
+eol
+
+#Ex: f1 driver hamilton
+f1 driver *
+!example:f1 driver hamilton
+!console:$givenName$ $familyName$ was born on $dateOfBirth$. His nationality is $nationality$ - $url$ for more details
+{
+"url":"http://ergast.com/api/f1/drivers/$1$.json",
+"path":"$.MRData.DriverTable.Drivers[0]"
+}
+eol
+
+
+Ex: race summary of hamilton in f1 season 2009
+race summary of  * in f1 season *|race stats of  * in f1 season *
+!example:race summary of hamilton in f1 season 2009
+!console:
+{
+"url":"http://ergast.com/api/f1/$2$/drivers/$1$/status.json",
+"path":"$.MRData.StatusTable.Status",
+"actions":[{
+"type":"table",
+"columns":{"status":"Race Status","count":"Number Of Races"}
+}]
+}
+eol

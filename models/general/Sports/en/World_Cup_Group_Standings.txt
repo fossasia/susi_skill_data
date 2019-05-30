@@ -1,0 +1,118 @@
+::author_email Snehit.86@gmail.com
+::name World Cup Group Standings
+::author Snehit P
+::author_url https://github.com/Redarcher9
+::description A skill that gets the group standings of Fifa World Cup 2018
+::dynamic_content No
+::developer_privacy_policy <link>
+::image images/FifaWC18.png
+::terms_of_use 
+
+world cup group A | group A standings | group A table | Get me points table for group A |* group A
+!example:Get me points table for group A
+     !console:
+     {
+       "url":"http://api.football-data.org/v1/competitions/467/leagueTable",
+       "path":"$.standings.A",
+       "actions":[{
+         "type":"table",
+         "columns":{"rank":"position","team":"Country","points":"points"}
+       }]
+       }]
+     }
+     eol
+     
+world cup group B | group B standings | group B table | Get me points table for group B|* group B
+     !console:
+     {
+       "url":"http://api.football-data.org/v1/competitions/467/leagueTable",
+       "path":"$.standings.B",
+       "actions":[{
+         "type":"table",
+         "columns":{"rank":"position","team":"Country","points":"points"}
+       }]
+       }]
+     }
+     eol
+     
+world cup group C | group C standings | group C table | Get me points table for group C|* group C
+!example:Fifa world cup group A
+     !console:
+     {
+       "url":"http://api.football-data.org/v1/competitions/467/leagueTable",
+       "path":"$.standings.C",
+       "actions":[{
+         "type":"table",
+         "columns":{"rank":"position","team":"Country","points":"points"}
+       }]
+       }]
+     }
+     eol
+     
+world cup group D | group D standings | group D table | Get me points table for group D|* group D
+     !console:
+     {
+       "url":"http://api.football-data.org/v1/competitions/467/leagueTable",
+       "path":"$.standings.D",
+       "actions":[{
+         "type":"table",
+         "columns":{"rank":"position","team":"Country","points":"points"}
+       }]
+       }]
+     }
+     eol
+     
+ world cup group E | group E standings | group E table | Get me points table for group E|* group E
+     !console:
+     {
+       "url":"http://api.football-data.org/v1/competitions/467/leagueTable",
+       "path":"$.standings.E",
+       "actions":[{
+         "type":"table",
+         "columns":{"rank":"position","team":"Country","points":"points"}
+       }]
+       }]
+     }
+     eol
+     
+ world cup group F | group F standings | group F table | Get me points table for group F|* group F
+ !example:group F table
+     !console:
+     {
+       "url":"http://api.football-data.org/v1/competitions/467/leagueTable",
+       "path":"$.standings.F",
+       "actions":[{
+         "type":"table",
+         "columns":{"rank":"position","team":"Country","points":"points"}
+       }]
+       }]
+     }
+     eol    
+     
+world cup group G | group G standings | group G table | Get me points table for group G|* group G
+!example:world cup group G
+     !console:
+     {
+       "url":"http://api.football-data.org/v1/competitions/467/leagueTable",
+       "path":"$.standings.G",
+       "actions":[{
+         "type":"table",
+         "columns":{"rank":"position","team":"Country","points":"points"}
+       }]
+       }]
+     }
+     eol
+     
+world cup group H | group H standings | Get me points table for group B|* group B | group G table
+!example:group H standings
+     !console:
+     {
+       "url":"http://api.football-data.org/v1/competitions/467/leagueTable",
+       "path":"$.standings.H",
+       "actions":[{
+         "type":"table",
+         "columns":{"rank":"position","team":"Country","points":"points"}
+       }]
+       }]
+     }
+     eol         
