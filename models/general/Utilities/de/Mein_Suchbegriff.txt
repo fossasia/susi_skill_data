@@ -7,8 +7,6 @@
 ::protected No
 ::author_email nikolaos.christou@yahoo.com
 ::protected No
-::author_email nikolaos.christou@yahoo.com
-::protected No
 ::author_email
 ::name Mein_Suchbegriff
 ::category Utilities
@@ -22,12 +20,12 @@
 ::terms_of_use <link>
 
 
-Mein Suchbegriff ist *
+Mein Suchbegriff ist Haus *
 !example:Mein Suchbegriff ist Maus
 !expect:Dein Suchbegriff ist Maus
 !console:For $1$'s user profile - $object$
 {
-"url":"https://www.in.gr/$1$",
+"url":"https://en.wikipedia.org/w/api.php?action=opensearch&search=Te",
 "path":"$.url"
 }
 eol
