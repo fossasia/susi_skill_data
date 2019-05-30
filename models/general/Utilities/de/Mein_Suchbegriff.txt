@@ -2,6 +2,12 @@
 ::author_email nikolaos.christou@yahoo.com
 ::protected No
 ::author_email nikolaos.christou@yahoo.com
+::protected No
+::author_email nikolaos.christou@yahoo.com
+::protected No
+::author_email nikolaos.christou@yahoo.com
+::protected No
+::author_email
 ::name Mein_Suchbegriff
 ::category Utilities
 ::language de
@@ -17,4 +23,9 @@
 Mein Suchbegriff ist *
 !example:Mein Suchbegriff ist Maus
 !expect:Dein Suchbegriff ist Maus
-Dein Suchbegriff ist $1$!
+!console:For $1$'s user profile - $object$
+{
+"url":"https://www.in.gr/",
+"path":"$.url"
+}
+eol
