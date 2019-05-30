@@ -6,6 +6,16 @@
 ::author_email nikolaos.christou@yahoo.com
 ::protected No
 ::author_email nikolaos.christou@yahoo.com
+::protected No
+::author_email nikolaos.christou@yahoo.com
+::protected No
+::author_email nikolaos.christou@yahoo.com
+::protected No
+::author_email nikolaos.christou@yahoo.com
+::protected No
+::author_email nikolaos.christou@yahoo.com
+::protected No
+::author_email nikolaos.christou@yahoo.com
 ::author_email
 ::name Mein_Suchbegriff
 ::category Utilities
@@ -18,14 +28,20 @@
 ::image images/Capture.PNG
 ::terms_of_use <link>
 
-suche jjetz sofort nach den begriff *
+suche jjetz sofort nach den begriff
 !console:Here is a websearch result:
 {
-    "url":"http://api.duckduckgo.com/?q=$1$&format=json&pretty=1",
-    "path":"$",
-    "actions":[{
-    "type":"websearch",
-    "query":$1$
-    }]
+  "query": "Oh freddled gruntbuggly",
+  "answers": [{
+    "data": [],
+    "metadata": {"count": 0},
+    "actions": [
+      {"type": "answer", "expression": "I found this on the web:"},
+      {
+      "type": "websearch",
+      "query": "Oh freddled gruntbuggly",
+      "count": 3
+      }
+    ]
+  }],
 }
-eol
