@@ -1,7 +1,5 @@
 ::protected No
 ::author_email nikolaos.christou@yahoo.com
-::author_email nikolaos.christou@yahoo.com
-::protected No
 ::author_email
 ::name Mein_Suchbegriff
 ::category Utilities
@@ -15,6 +13,6 @@
 ::terms_of_use <link>
 
 
-kukuruku kukuruku
-!javascript:$!$ from Nashorn
-print('Hello world');eol
+Mein haus ist schoen
+!example: Mein haus ist schoen
+https://www.spiegel.de/schlagzeilen
