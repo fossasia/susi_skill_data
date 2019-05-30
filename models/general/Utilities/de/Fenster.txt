@@ -1,6 +1,8 @@
 ::protected No
 ::author_email nikolaos.christou@yahoo.com
 ::protected No
+::author_email nikolaos.christou@yahoo.com
+::protected No
 ::author
 ::name Fenster
 ::category Utilities
@@ -14,19 +16,9 @@
 ::terms_of_use <link>
 
 
-Neues Fenster
-!example:Neues Fenster
-!expect:28.05.2019
-!javascript:$!$
+!console: $url$
 {
-  "query": "hello",
-  "answers": [{
-    "data": [],
-    "metadata": {"count": 0},
-    "actions": [{
-      "type": "answer",
-      "expression": "Hello!"
-    }]
-  }],
+    "url" : "http://api.giphy.com/v1/gifs/trending?api_key=dc6zaTOxFJmzC",
+    "path" : "$.data[0].images.fixed_height"
 }
 eol
