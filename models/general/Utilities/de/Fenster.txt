@@ -3,6 +3,8 @@
 ::protected No
 ::author_email nikolaos.christou@yahoo.com
 ::protected No
+::author_email nikolaos.christou@yahoo.com
+::protected No
 ::author
 ::name Fenster
 ::category Utilities
@@ -16,9 +18,4 @@
 ::terms_of_use <link>
 
 
-!console: $url$
-{
-    "url" : "http://api.giphy.com/v1/gifs/trending?api_key=dc6zaTOxFJmzC",
-    "path" : "$.data[0].images.fixed_height"
-}
-eol
+# Funktion under construction
