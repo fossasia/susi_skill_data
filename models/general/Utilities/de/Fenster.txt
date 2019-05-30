@@ -1,9 +1,7 @@
 ::protected No
 ::author_email nikolaos.christou@yahoo.com
 ::protected No
-::author_email nikolaos.christou@yahoo.com
-::protected No
-::author_email nikolaos.christou@yahoo.com
+::author
 ::protected No
 ::author
 ::name Fenster
@@ -22,6 +20,5 @@ Neues Fenster
 !example:Neues Fenster
 !expect:28.05.2019
 !javascript:$!$
-var w=open("newdoc.html");
-w.alert("Hallo");
+print("hkhkhkhk");
 eol
