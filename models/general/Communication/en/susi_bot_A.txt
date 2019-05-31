@@ -4,6 +4,12 @@
 ::author_email f.giessauf@icloud.com
 ::protected No
 ::author_email f.giessauf@icloud.com
+::protected No
+::author_email f.giessauf@icloud.com
+::protected No
+::author_email f.giessauf@icloud.com
+::protected No
+::author_email f.giessauf@icloud.com
 ::name susi_bot_A
 ::category Communication
 ::language en
@@ -21,8 +27,10 @@ User query1|query2|quer3....
 !expect:<The answer expected for the above example>
 Answer for the user query
 
-# SUSI.AI tutorial playground
-::prior
+
 tomatoes are red
 susi wears a hat
 it´s cold outside
+
+hatschi
+gesundheit
