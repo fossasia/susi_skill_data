@@ -1,5 +1,7 @@
 ::protected No
 ::author_email jacob64steimle@gmail.com
+::protected No
+::author_email jacob64steimle@gmail.com
 ::name Memes
 ::category Novelty and Humour
 ::language en
@@ -11,7 +13,7 @@
 ::image images/terrence.png
 ::terms_of_use http://[::1]/tos
 
-*QPU*
-!example:QPU
+*!*|*"*|*#*|*$*|*%*|*&*|*'*|*(*|*)*|*+*|*,*|*-*|*.*|*0*|*1*|*2*|*3*|*4*|*5*|*6*|*7*|*8*|*9*|*:*|*;*|*<*|*=*|*>*|*?*|*@*|*A*|*B*|*C*|*D*|*E*|*F*|*G*|*H*|*I*|*J*|*K*|*L*|*M*|*N*|*O*|*P*|*Q*|*R*|*S*|*T*|*U*|*V*|*W*|*X*|*Y*|*Z*|*[*|*\*|*]*|*^*|*_*|*`*|*a*|*b*|*c*|*d*|*e*|*f*|*g*|*h*|*i*|*j*|*k*|*l*|*m*|*n*|*o*|*p*|*q*|*r*|*s*|*t*|*u*|*v*|*w*|*x*|*y*|*z*|*{*|*}*|*~*
+!example:Roses are red, violets are blue, susi.ai is flawed like you
 !expect:n/a
 So it has come to this. An A press is an A press. You can't say it's only a half.
