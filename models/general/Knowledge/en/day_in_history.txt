@@ -1,0 +1,45 @@
+::name Day in History
+::author Saurabh Jain
+::author_url https://github.com/saurabhjn76
+::description A skill to give answers related history.
+::dynamic_content Yes
+::developer_privacy_policy
+::image images/calender.jpg
+::terms_of_use
+
+What happened on *
+!example:What happened on 2/14.
+!expect:February 14th is the day in 1876 that Alexander Graham Bell applies for a patent for the telephone, as does Elisha Gray.
+!console:Year-$year$ - $text$ 
+{
+"url":"http://history.muffinlabs.com/date/$1$",
+"path":"$.data.Events"
+}
+eol
+
+Who was born on *
+!example:Who was born on 2/14
+!console:Year-$year$ - $text$ 
+{
+"url":"http://history.muffinlabs.com/date/$1$",
+"path":"$.data.Births"
+}
+eol
+
+Who died on *
+!example:Who died on 2/14
+!console:Year-$year$ - $text$ 
+{
+"url":"http://history.muffinlabs.com/date/$1$",
+"path":"$.data.Deaths"
+}
+eol
+
+Who was born on Pi day
+Albert Einstein
+
+Who died on Pi day
+Stephen Hawking
+
+What happened on Pi day
+Albert Einstein was born on Pi day and Stephen Hawking died on Pi day
