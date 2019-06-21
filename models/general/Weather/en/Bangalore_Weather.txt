@@ -1,0 +1,18 @@
+::protected No
+::author_email 29hj29@gmail.com
+::name Bangalore Weather
+::category Weather
+::language en
+::author harsh
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/superman.jpg
+::terms_of_use <link>
+
+
+User Maximum temperature of bangalore ? |
+!example: Maximum temperature of bangalore ?
+!expect: 34 degrees
+Answer for the user query
