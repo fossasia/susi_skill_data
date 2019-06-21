@@ -1,0 +1,19 @@
+::name Ceo
+::author Chashmeet Singh
+::author_url https://github.com/chashmeetsingh
+::description A skill to tell answers for the name of the CEO of a company.
+::dynamic_content Yes
+::developer_privacy_policy
+::image images/ceo.png
+::terms_of_use
+
+# Returns the name of the CEO of a company
+who is the ceo of *| ceo *| tell me the ceo of *| Who is the ceo of * ? | find the ceo of *|do you know the ceo of *|tell about the ceo of *|Name the ceo of *
+!example:Who is the CEO of Google
+!expect:Sundar Pichai (Chief Executive Officer, Google Inc) Larry Page (Chief Executive Officer and Director)
+!console:$plaintext$
+{
+  "url": "https://api.wolframalpha.com/v2/query?input=ceo+$1$&output=JSON&appid=9WA6XR-26EWTGEVTE&includepodid=Result",
+  "path" : "$.queryresult.pods[0].subpods[0]"
+}
+eol

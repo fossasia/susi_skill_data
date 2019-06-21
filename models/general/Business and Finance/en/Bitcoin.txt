@@ -1,0 +1,198 @@
+::name Bitcoin
+::author Saurabh Jain
+::author_url https://github.com/saurabhjn76
+::description A skill to tell bitcoin price and exchange rate of bitcoin and currencies
+::dynamic_content Yes
+::developer_privacy_policy
+::image images/bitcoin.jpg
+::terms_of_use
+
+# Exchange rate from a currency to bitcoin
+what is the bitcoin price?|Bitcoin price in USD|Bitcoin value in USD|value of a bitcoin| convert bitcoin to usd| convert btc to us dollars| convert btc to us dollar| btc to us dollar|btc to us dollars|btc to usd|what is latest exchange rate for US dollars to bitcoin|what is latest exchange rate for USD to BTC | can you tell me value of a bitcoin| can you convert bitcoin to usd| can you convert btc to usd| can you convert btc to us dollars| can you convert btc to us dollar| btc to us dollar|btc to us dollars|btc to usd|can you tell me what is latest exchange rate for US dollars to bitcoin|can you tell me what is latest exchange rate for USD to BTC |could you tell me what is latest exchange rate for USD to BTC | could you tell me value of a bitcoin| could you convert bitcoin to usd| could you convert btc to usd| could you convert btc to us dollars| could you convert btc to us dollar| btc to us dollar|btc to us dollars|btc to usd|could you tell me what is latest exchange rate for US dollars to bitcoin|could you tell me what is latest exchange rate for USD to BTC | do you know what is latest exchange rate for USD to BTC | do you know the value of a bitcoin| can you convert bitcoin to usd| can you convert btc to usd| can you convert btc to us dollars| can you convert btc to us dollar| btc to us dollar|btc to us dollars|btc to usd|do you know the latest exchange rate for US dollars to bitcoin|do you know what is the latest exchange rate for USD to BTC
+!example:what is latest exchange rate for USD to BTC
+!console:Latest exchange rate is 1 BTC = $last$ USD 
+{
+"url":"https://blockchain.info/ticker",
+"path":"$.USD."
+}
+eol
+
+convert bitcoin to euros | convert btc to eur| convert btc to euros| btc to euros|what is latest exchange rate for euros to bitcoin|what is latest exchange rate for euros to BTC | can you convert bitcoin to euros| can you convert btc to euros| can you convert btc to eur| can you convert btc to eur| btc to eur|can you tell me what is latest exchange rate for eur to bitcoin|can you tell me what is latest exchange rate for eur to btc |could you tell me what is latest exchange rate for eur to btc |could you convert bitcoin to eur| could you convert btc to eur| could you convert btc to euros| btc to euros|could you tell me what is latest exchange rate for euros to bitcoin|could you tell me what is latest exchange rate for eur to btc | do you know what is latest exchange rate for eur to btc | can you convert bitcoin to eur| can you convert btc to eur| can you convert btc to euros| btc to euros|btc to eur|do you know the latest exchange rate for euros to bitcoin|do you know what is the latest exchange rate for euros to btc
+!example:convert bitcoin to euros
+!console:Latest exchange rate is 1 BTC = $last$ EUR
+{
+"url":"https://blockchain.info/ticker",
+"path":"$.EUR."
+}
+eol
+
+convert bitcoin to cad| convert btc to cad| convert btc to canadian dollars|btc to canadian dollars|btc to cad|what is latest exchange rate for canadian dollars to bitcoin|what is latest exchange rate for cad to btc | can you convert bitcoin to cad| can you convert btc to cad| can you convert btc to canadian dollars| can you convert btc to canadian dollar| btc to canadian dollars|btc to canadian dollars|btc to cad|can you tell me what is latest exchange rate for canadian dollars to bitcoin|can you tell me what is latest exchange rate for cad to btc |could you tell me what is latest exchange rate for cad to btc | could you convert bitcoin to cad| could you convert btc to cad| could you convert btc to canadian dollars| could you convert btc to canadian dollar| btc to canadian dollar|btc to canadian dollars|could you tell me what is latest exchange rate for canadian dollars to bitcoin|could you tell me what is latest exchange rate for cad to btc | do you know what is latest exchange rate for cad to btc | can you convert bitcoin to cad| can you convert btc to cad| can you convert btc to canadian dollars| can you convert btc to canandian dollar|do you know the latest exchange rate for canadian dollars to bitcoin|do you know what is the latest exchange rate for cad to btc
+!example:btc to cad
+!console:Latest exchange rate is 1 BTC = $last$ CAD 
+{
+"url":"https://blockchain.info/ticker",
+"path":"$.CAD."
+}
+eol
+
+convert bitcoin to inr| convert btc to inr| convert btc to indian rupees| btc to indian rupees|btc to inr|what is latest exchange rate for indian rupees to bitcoin|what is latest exchange rate for inr to btc | can you convert bitcoin to inr| can you convert btc to inr| can you convert btc to indian rupees| btc to indian rupees|btc to inr|can you tell me what is latest exchange rate for indian rupees to bitcoin|can you tell me what is latest exchange rate for inr to btc |could you tell me what is latest exchange rate for inr to btc | could you convert bitcoin to inr| could you convert btc to inr| could you convert btc to indian rupees| btc to indian rupees|btc to inr|could you tell me what is latest exchange rate for indian rupees to bitcoin|could you tell me what is latest exchange rate for inr to btc | do you know what is latest exchange rate for inr to btc | can you convert bitcoin to inr| can you convert btc to inr| can you convert btc to indian rupees| do you know the latest exchange rate for indian rupees to bitcoin|do you know what is the latest exchange rate for inr to btc
+!example:what is latest exchange rate for indian rupees to bitcoin
+!console:Latest exchange rate is 1 BTC = $last$ INR
+{
+"url":"https://blockchain.info/ticker",
+"path":"$.INR."
+}
+eol
+
+convert bitcoin to aud| convert btc to aud| convert btc to australian dollars|btc to australian dollars|btc to aud|what is latest exchange rate for australian dollars to bitcoin|what is latest exchange rate for aud to btc | can you convert bitcoin to aud| can you convert btc to aud| can you convert btc to australian dollars| btc to australian dollars|btc to aud|can you tell me what is latest exchange rate for australian dollars to bitcoin|can you tell me what is latest exchange rate for aud to btc |could you tell me what is latest exchange rate for aud to btc | could you convert bitcoin to aud| could you convert btc to aud| could you convert btc to australian dollars|could you tell me what is latest exchange rate for australian dollars to bitcoin|could you tell me what is latest exchange rate for aud to btc | do you know what is latest exchange rate for aud to btc | btc to australian dollars|do you know the latest exchange rate for australian dollars to bitcoin|do you know what is the latest exchange rate for aud to btc
+!example:could you tell me what is latest exchange rate for aud to btc
+!console:Latest exchange rate is 1 BTC = $last$ AUD 
+{
+"url":"https://blockchain.info/ticker",
+"path":"$.AUD."
+}
+eol
+
+convert bitcoin to cny| convert btc to cny| convert btc to chinese yuan| btc to chinese yuan|btc to cny|what is latest exchange rate for chinese yuan to bitcoin|what is latest exchange rate for cny to btc | can you convert bitcoin to cny| can you convert btc to cny| can you convert btc to chinese yuan|btc to chinese yuan|btc to cny|can you tell me what is latest exchange rate for chinese yuan to bitcoin|can you tell me what is latest exchange rate for cny to btc |could you tell me what is latest exchange rate for cny to btc | could you convert bitcoin to cny| could you convert btc to cny| could you convert btc to chinese yuan| btc to chinese yuan|btc to cny|could you tell me what is latest exchange rate for chinese yuan to bitcoin|could you tell me what is latest exchange rate for cny to btc | do you know what is latest exchange rate for cny to btc | do you know the latest exchange rate for chinese yuan to bitcoin|do you know what is the latest exchange rate for cny to btc
+!example:do you know the latest exchange rate for chinese yuan to bitcoin
+!console:Latest exchange rate is 1 BTC = $last$ CNY  
+{
+"url":"https://blockchain.info/ticker",
+"path":"$.CNY."
+}
+eol
+
+convert bitcoin to jpy| convert btc to jpy| convert btc to japanese yen| btc to japanese yen|btc to jpy|what is latest exchange rate for japanese yen to bitcoin|what is latest exchange rate for jpy to btc | can you convert bitcoin to jpy| can you convert btc to jpy| can you convert btc to japanese yen| can you convert btc to japanese yen| btc to japanese yen|btc to japanese yen|btc to jpy|can you tell me what is latest exchange rate for japanese yen to bitcoin|can you tell me what is latest exchange rate for jpy to btc |could you tell me what is latest exchange rate for jpy to btc | could you convert bitcoin to jpy| could you convert btc to jpy| could you convert btc to japanese yen| btc to japanese yen|could you tell me what is latest exchange rate for japanese yen to bitcoin|could you tell me what is latest exchange rate for jpy to btc | do you know what is latest exchange rate for jpy to btc | can you convert bitcoin to jpy| can you convert btc to jpy| can you convert btc to japanese yen| btc to japanese yen|do you know the latest exchange rate for japanese yen to bitcoin|do you know what is the latest exchange rate for jpy to btc
+!example:can you convert btc to jpy
+!console:Latest exchange rate is 1 BTC = $last$ JPY
+{
+"url":"https://blockchain.info/ticker",
+"path":"$.JPY."
+}
+eol
+
+convert bitcoin to swedish krona | convert btc to sek| convert btc to swedish krona |btc to swedish krona |what is latest exchange rate for swedish krona  to bitcoin|what is latest exchange rate for swedish krona  to BTC | can you convert bitcoin to swedish krona | can you convert btc to swedish krona | can you convert btc to sek| can you convert btc to sek| btc to sek|btc to sek|btc to sek|can you tell me what is latest exchange rate for sek to bitcoin|can you tell me what is latest exchange rate for sek to btc |could you tell me what is latest exchange rate for sek to btc |could you convert bitcoin to sek| could you convert btc to sek| could you convert btc to sek| could you convert btc to swedish krona | btc to swedish krona |btc to swedish krona |btc to swedish krona |could you tell me what is latest exchange rate for swedish krona  to bitcoin|could you tell me what is latest exchange rate for sek to btc | do you know what is latest exchange rate for sek to btc | can you convert bitcoin to sek| can you convert btc to sek| can you convert btc to sek| can you convert btc to swedish krona | btc to swedish krona |btc to swedish krona |btc to sek|do you know the latest exchange rate for swedish krona  to bitcoin|do you know what is the latest exchange rate for swedish krona  to btc
+!example:btc to swedish krona
+!console:Latest exchange rate is 1 BTC = $last$ SEK
+{
+"url":"https://blockchain.info/ticker",
+"path":"$.SEK"
+}
+eol
+
+convert bitcoin to new taiwan dollar | convert btc to twd| convert btc to new taiwan dollar |btc to new taiwan dollar |what is latest exchange rate for new taiwan dollar  to bitcoin|what is latest exchange rate for new taiwan dollar  to BTC | can you convert bitcoin to new taiwan dollar | can you convert btc to new taiwan dollar | can you convert btc to twd| can you convert btc to twd| btc to twd|btc to twd|btc to twd|can you tell me what is latest exchange rate for twd to bitcoin|can you tell me what is latest exchange rate for twd to btc |could you tell me what is latest exchange rate for twd to btc |could you convert bitcoin to twd| could you convert btc to twd| could you convert btc to twd| could you convert btc to new taiwan dollar | btc to new taiwan dollar |btc to new taiwan dollar |btc to new taiwan dollar |could you tell me what is latest exchange rate for new taiwan dollar  to bitcoin|could you tell me what is latest exchange rate for twd to btc | do you know what is latest exchange rate for twd to btc | can you convert bitcoin to twd| can you convert btc to twd| can you convert btc to twd| can you convert btc to new taiwan dollar | btc to new taiwan dollar |btc to new taiwan dollar |btc to twd|do you know the latest exchange rate for new taiwan dollar  to bitcoin|do you know what is the latest exchange rate for new taiwan dollar  to btc
+!example:could you convert btc to twd
+!console:Latest exchange rate is 1 BTC = $last$ TWD
+{
+"url":"https://blockchain.info/ticker",
+"path":"$.TWD"
+}
+eol
+
+convert bitcoin to hong kong dollar | convert btc to hkd| convert btc to hong kong dollar |btc to hong kong dollar |what is latest exchange rate for hong kong dollar  to bitcoin|what is latest exchange rate for hong kong dollar to BTC | can you convert bitcoin to hong kong dollar | can you convert btc to hong kong dollar | can you convert btc to hkd| can you convert btc to hkd| btc to hkd|can you tell me what is latest exchange rate for hkd to bitcoin|can you tell me what is latest exchange rate for hkd to btc |could you tell me what is latest exchange rate for hkd to btc |could you convert bitcoin to hkd| could you convert btc to hkd|  could you convert btc to hong kong dollar | btc to hong kong dollar |could you tell me what is latest exchange rate for hong kong dollar to bitcoin|could you tell me what is latest exchange rate for hkd to btc | do you know what is latest exchange rate for hkd to btc | can you convert bitcoin to hkd| can you convert btc to hkd| can you convert btc to hong kong dollar | btc to hong kong dollar |btc to hkd|do you know the latest exchange rate for hong kong dollar  to bitcoin|do you know what is the latest exchange rate for hong kong dollar  to btc
+!example:btc to hong kong dollar
+!console:Latest exchange rate is 1 BTC = $last$ HKD
+{
+"url":"https://blockchain.info/ticker",
+"path":"$.HKD"
+}
+eol
+
+convert bitcoin to swiss franc | convert btc to chf| convert btc to swiss franc | btc to swiss franc |what is latest exchange rate for swiss franc  to bitcoin|what is latest exchange rate for swiss franc to BTC | can you convert bitcoin to swiss franc | can you convert btc to swiss franc | can you convert btc to chf| can you convert btc to chf| btc to chf|can you tell me what is latest exchange rate for chf to bitcoin|can you tell me what is latest exchange rate for chf to btc |could you tell me what is latest exchange rate for chf to btc |could you convert bitcoin to chf| could you convert btc to chf|  could you convert btc to swiss franc | btc to swiss franc |could you tell me what is latest exchange rate for swiss franc to bitcoin|could you tell me what is latest exchange rate for chf to btc | do you know what is latest exchange rate for chf to btc | can you convert bitcoin to chf| can you convert btc to chf| can you convert btc to swiss franc | btc to swiss franc |btc to chf|do you know the latest exchange rate for swiss franc  to bitcoin|do you know what is the latest exchange rate for swiss franc  to btc
+!example:convert bitcoin to swiss franc
+!console:Latest exchange rate is 1 BTC = $last$ CHF
+{
+"url":"https://blockchain.info/ticker",
+"path":"$.CHF"
+}
+eol
+
+convert bitcoin to danish krone | convert btc to dkk| convert btc to danish krone |btc to danish krone |what is latest exchange rate for danish krone  to bitcoin|what is latest exchange rate for danish krone to BTC | can you convert bitcoin to danish krone | can you convert btc to danish krone | can you convert btc to dkk| can you convert btc to dkk| btc to dkk|can you tell me what is latest exchange rate for dkk to bitcoin|can you tell me what is latest exchange rate for dkk to btc |could you tell me what is latest exchange rate for dkk to btc |could you convert bitcoin to dkk| could you convert btc to dkk|  could you convert btc to danish krone | btc to danish krone |could you tell me what is latest exchange rate for danish krone to bitcoin|could you tell me what is latest exchange rate for dkk to btc | do you know what is latest exchange rate for dkk to btc | can you convert bitcoin to dkk| can you convert btc to dkk| can you convert btc to danish krone | btc to danish krone |btc to dkk|do you know the latest exchange rate for danish krone  to bitcoin|do you know what is the latest exchange rate for danish krone  to btc
+!example:could you convert btc to danish krone
+!console:Latest exchange rate is 1 BTC = $last$ DKK
+{
+"url":"https://blockchain.info/ticker",
+"path":"$.DKK"
+}
+eol
+
+convert bitcoin to chilean peso | convert btc to clp| convert btc to chilean peso |btc to chilean peso |what is latest exchange rate for chilean peso  to bitcoin|what is latest exchange rate for chilean peso to BTC | can you convert bitcoin to chilean peso | can you convert btc to chilean peso | can you convert btc to clp| can you convert btc to clp| btc to clp|can you tell me what is latest exchange rate for clp to bitcoin|can you tell me what is latest exchange rate for clp to btc |could you tell me what is latest exchange rate for clp to btc |could you convert bitcoin to clp| could you convert btc to clp|  could you convert btc to chilean peso | btc to chilean peso |could you tell me what is latest exchange rate for chilean peso to bitcoin|could you tell me what is latest exchange rate for clp to btc | do you know what is latest exchange rate for clp to btc | can you convert bitcoin to clp| can you convert btc to clp| can you convert btc to chilean peso | btc to chilean peso |btc to clp|do you know the latest exchange rate for chilean peso  to bitcoin|do you know what is the latest exchange rate for chilean peso  to btc
+!example:convert bitcoin to chilean peso
+!console:Latest exchange rate is 1 BTC = $last$ CLP
+{
+"url":"https://blockchain.info/ticker",
+"path":"$.CLP"
+}
+eol
+
+convert bitcoin to south korean won | convert btc to krw| convert btc to south korean won |btc to south korean won |what is latest exchange rate for south korean won  to bitcoin|what is latest exchange rate for south korean won to BTC | can you convert bitcoin to south korean won | can you convert btc to south korean won | can you convert btc to krw| can you convert btc to krw| btc to krw|can you tell me what is latest exchange rate for krw to bitcoin|can you tell me what is latest exchange rate for krw to btc |could you tell me what is latest exchange rate for krw to btc |could you convert bitcoin to krw| could you convert btc to krw|  could you convert btc to south korean won | btc to south korean won |could you tell me what is latest exchange rate for south korean won to bitcoin|could you tell me what is latest exchange rate for krw to btc | do you know what is latest exchange rate for krw to btc | can you convert bitcoin to krw| can you convert btc to krw| can you convert btc to south korean won | btc to south korean won |btc to krw|do you know the latest exchange rate for south korean won  to bitcoin|do you know what is the latest exchange rate for south korean won  to btc
+!example:do you know what is latest exchange rate for krw to btc
+!console:Latest exchange rate is 1 BTC = $last$ KRW
+{
+"url":"https://blockchain.info/ticker",
+"path":"$.KRW"
+}
+eol
+
+convert bitcoin to singapore dollar | convert btc to sgd| convert btc to singapore dollar |btc to singapore dollar |what is latest exchange rate for singapore dollar  to bitcoin|what is latest exchange rate for singapore dollar to BTC | can you convert bitcoin to singapore dollar | can you convert btc to singapore dollar | can you convert btc to sgd| can you convert btc to sgd| btc to sgd|can you tell me what is latest exchange rate for sgd to bitcoin|can you tell me what is latest exchange rate for sgd to btc |could you tell me what is latest exchange rate for sgd to btc |could you convert bitcoin to sgd| could you convert btc to sgd|  could you convert btc to singapore dollar | btc to singapore dollar |could you tell me what is latest exchange rate for singapore dollar to bitcoin|could you tell me what is latest exchange rate for sgd to btc | do you know what is latest exchange rate for sgd to btc | can you convert bitcoin to sgd| can you convert btc to sgd| can you convert btc to singapore dollar | btc to singapore dollar |btc to sgd|do you know the latest exchange rate for singapore dollar  to bitcoin|do you know what is the latest exchange rate for singapore dollar  to btc
+!example:btc to sgd
+!console:Latest exchange rate is 1 BTC = $last$ SGD
+{
+"url":"https://blockchain.info/ticker",
+"path":"$.SGD"
+}
+eol
+
+convert bitcoin to thai baht | convert btc to thb| convert btc to thai baht |btc to thai baht |what is latest exchange rate for thai baht  to bitcoin|what is latest exchange rate for thai baht to BTC | can you convert bitcoin to thai baht | can you convert btc to thai baht | can you convert btc to thb| can you convert btc to thb| btc to thb|can you tell me what is latest exchange rate for thb to bitcoin|can you tell me what is latest exchange rate for thb to btc |could you tell me what is latest exchange rate for thb to btc |could you convert bitcoin to thb| could you convert btc to thb|  could you convert btc to thai baht | btc to thai baht |could you tell me what is latest exchange rate for thai baht to bitcoin|could you tell me what is latest exchange rate for thb to btc | do you know what is latest exchange rate for thb to btc | can you convert bitcoin to thb| can you convert btc to thb| can you convert btc to thai baht | btc to thai baht |btc to thb|do you know the latest exchange rate for thai baht  to bitcoin|do you know what is the latest exchange rate for thai baht  to btc
+!example:do you know what is the latest exchange rate for thai baht  to btc
+!console:Latest exchange rate is 1 BTC = $last$ THB
+{
+"url":"https://blockchain.info/ticker",
+"path":"$.THB"
+}
+eol
+
+convert bitcoin to polish zloty | convert btc to pln| convert btc to polish zloty |btc to polish zloty |what is latest exchange rate for polish zloty  to bitcoin|what is latest exchange rate for polish zloty to BTC | can you convert bitcoin to polish zloty | can you convert btc to polish zloty | can you convert btc to pln| can you convert btc to pln| btc to pln|can you tell me what is latest exchange rate for pln to bitcoin|can you tell me what is latest exchange rate for pln to btc |could you tell me what is latest exchange rate for pln to btc |could you convert bitcoin to pln| could you convert btc to pln|  could you convert btc to polish zloty | btc to polish zloty |could you tell me what is latest exchange rate for polish zloty to bitcoin|could you tell me what is latest exchange rate for pln to btc | do you know what is latest exchange rate for pln to btc | can you convert bitcoin to pln| can you convert btc to pln| can you convert btc to polish zloty | btc to polish zloty |btc to pln|do you know the latest exchange rate for polish zloty  to bitcoin|do you know what is the latest exchange rate for polish zloty  to btc
+!example:what is latest exchange rate for polish zloty to BTC
+!console:Latest exchange rate is 1 BTC = $last$ PLN
+{
+"url":"https://blockchain.info/ticker",
+"path":"$.PLN"
+}
+eol
+
+convert bitcoin to british pound | convert btc to gbp| convert btc to british pound | btc to british pound |what is latest exchange rate for british pound  to bitcoin|what is latest exchange rate for british pound to BTC | can you convert bitcoin to british pound | can you convert btc to british pound | can you convert btc to gbp| can you convert btc to gbp| btc to gbp|can you tell me what is latest exchange rate for gbp to bitcoin|can you tell me what is latest exchange rate for gbp to btc |could you tell me what is latest exchange rate for gbp to btc |could you convert bitcoin to gbp| could you convert btc to gbp|  could you convert btc to british pound | btc to british pound |could you tell me what is latest exchange rate for british pound to bitcoin|could you tell me what is latest exchange rate for gbp to btc | do you know what is latest exchange rate for gbp to btc | can you convert bitcoin to gbp| can you convert btc to gbp| can you convert btc to british pound | btc to british pound |btc to gbp|do you know the latest exchange rate for british pound  to bitcoin|do you know what is the latest exchange rate for british pound  to btc
+!example:could you convert btc to gbp|  could you convert btc to british pound
+!console:Latest exchange rate is 1 BTC = $last$ GBP
+{
+"url":"https://blockchain.info/ticker",
+"path":"$.GBP"
+}
+eol
+
+convert bitcoin to new zealand dollar | convert btc to nzd| convert btc to new zealand dollar |btc to new zealand dollar |what is latest exchange rate for new zealand dollar  to bitcoin|what is latest exchange rate for new zealand dollar to BTC | can you convert bitcoin to new zealand dollar | can you convert btc to new zealand dollar | can you convert btc to nzd| can you convert btc to nzd| btc to nzd|can you tell me what is latest exchange rate for nzd to bitcoin|can you tell me what is latest exchange rate for nzd to btc |could you tell me what is latest exchange rate for nzd to btc |could you convert bitcoin to nzd| could you convert btc to nzd|  could you convert btc to new zealand dollar | btc to new zealand dollar |could you tell me what is latest exchange rate for new zealand dollar to bitcoin|could you tell me what is latest exchange rate for nzd to btc | do you know what is latest exchange rate for nzd to btc | can you convert bitcoin to nzd| can you convert btc to nzd| can you convert btc to new zealand dollar | btc to new zealand dollar |btc to nzd|do you know the latest exchange rate for new zealand dollar  to bitcoin|do you know what is the latest exchange rate for new zealand dollar  to btc
+!example:can you convert btc to nzd
+!console:Latest exchange rate is 1 BTC = $last$ NZD
+{
+"url":"https://blockchain.info/ticker",
+"path":"$.NZD"
+}
+eol
+
+convert bitcoin to brazilian real | convert btc to brl| convert btc to brazilian real | btc to brazilian real |btc to brazilian real  |what is latest exchange rate for brazilian real  to bitcoin|what is latest exchange rate for brazilian real to BTC | can you convert bitcoin to brazilian real | can you convert btc to brazilian real | can you convert btc to brl| can you convert btc to brl| btc to brl|can you tell me what is latest exchange rate for brl to bitcoin|can you tell me what is latest exchange rate for brl to btc |could you tell me what is latest exchange rate for brl to btc |could you convert bitcoin to brl| could you convert btc to brl|  could you convert btc to brazilian real | btc to brazilian real |could you tell me what is latest exchange rate for brazilian real to bitcoin|could you tell me what is latest exchange rate for brl to btc | do you know what is latest exchange rate for brl to btc | can you convert bitcoin to brl| can you convert btc to brl| can you convert btc to brazilian real | btc to brazilian real |btc to brl|do you know the latest exchange rate for brazilian real  to bitcoin|do you know what is the latest exchange rate for brazilian real  to btc
+!example:do you know what is latest exchange rate for brl to btc
+!console:Latest exchange rate is 1 BTC = $last$ BRL
+{
+"url":"https://blockchain.info/ticker",
+"path":"$.BRL"
+}
+eol
+
+convert bitcoin to russian ruble | convert btc to rub| convert btc to russian ruble |btc to russian ruble |what is latest exchange rate for russian ruble to bitcoin|what is latest exchange rate for russian ruble to btc | can you convert bitcoin to russian ruble | can you convert btc to russian ruble | can you convert btc to rub| can you convert btc to rub| btc to rub|can you tell me what is latest exchange rate for rub to bitcoin|can you tell me what is latest exchange rate for rub to btc |could you tell me what is latest exchange rate for rub to btc |could you convert bitcoin to rub| could you convert btc to rub| could you convert btc to russian ruble | btc to russian ruble |could you tell me what is latest exchange rate for russian ruble to bitcoin|could you tell me what is latest exchange rate for rub to btc | do you know what is latest exchange rate for rub to btc | can you convert bitcoin to rub| can you convert btc to rub| can you convert btc to russian ruble | btc to russian ruble |btc to rub|do you know the latest exchange rate for russian ruble to bitcoin|do you know what is the latest exchange rate for russian ruble to btc
+!example:btc to russian ruble
+!console:Latest exchange rate is 1 BTC = $last$ RUB
+{
+"url":"https://blockchain.info/ticker",
+"path":"$.RUB"
+}
+eol
