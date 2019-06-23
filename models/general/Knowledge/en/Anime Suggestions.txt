@@ -1,4 +1,6 @@
 ::protected No
+::author_email 29hj29@gmail.com
+::protected No
 ::author_email anshu.av97@gmail.com
 ::name Anime Suggestions
 ::category Knowledge

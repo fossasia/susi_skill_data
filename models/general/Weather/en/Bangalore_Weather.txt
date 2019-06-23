@@ -1,5 +1,7 @@
 ::protected No
 ::author_email 29hj29@gmail.com
+::protected No
+::author_email 29hj29@gmail.com
 ::name Bangalore Weather
 ::category Weather
 ::language en
