@@ -1,6 +1,8 @@
 ::protected No
 ::author_email 29hj29@gmail.com
-::name Translator
+::protected No
+::author_email 29hj29@gmail.com
+::name translate_to_other_language
 ::category Utilities
 ::language en
 ::author harsh
