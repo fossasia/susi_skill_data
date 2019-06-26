@@ -2,6 +2,8 @@
 ::author_email jindalh.29@gmail.com
 ::protected No
 ::author_email jindalh.29@gmail.com
+::protected No
+::author_email jindalh.29@gmail.com
 ::name Get_every_thing_you_asks
 ::category Utilities
 ::language en
@@ -10,7 +12,7 @@
 ::description <description> 
 ::dynamic_content <Yes/No>
 ::developer_privacy_policy <link>
-::image images/background1.jpeg
+::image images/superman.jpg
 ::terms_of_use <link>
 
 May I get a *?
