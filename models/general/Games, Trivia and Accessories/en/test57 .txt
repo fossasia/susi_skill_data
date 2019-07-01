@@ -1,0 +1,24 @@
+::name test57 
+::author Stephan Schildberg
+::author_url https://github.com/thundercomb/poetrydb
+::dynamic_content Yes
+::image images/poem.png
+
+What is rule * of the Ferengi Rules Of Acquisition|What is rule * of the Ferengi Rules Of Acquisition?|Rule * of the Ferengi Rules Of Acquisition|*th rule of the Ferengi Rules Of Acquisition|Rule * of Ferengi Rules Of Acquisition|*th rule of Ferengi Rules Of Acquisition|*th rule of the Ferengi Rules Of Acquisition
+!example:What is rule 1 of the Ferengi Rules Of Acquisition?
+!console: Rule $1$ is "$object$"
+{
+    "url":"http://ferengi.surge.sh/rules.json",
+    "path":"$.$1$"
+}
+eol
+
+What is the poem
+!example:What is the poem?
+!console: Rule $1$ is "$object$"
+{
+    "url":"http://poetrydb.org/title/Ozymandias/lines.json",
+
+}
+eol
+
