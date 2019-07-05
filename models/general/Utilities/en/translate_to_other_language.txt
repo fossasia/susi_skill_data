@@ -14,5 +14,5 @@
 ::terms_of_use <link>
 
 
-Bonjour|Buenos días|Ciao
+Bonjour|Buenos días|Ciao|Hallo
 Hello
