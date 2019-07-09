@@ -1,0 +1,20 @@
+::protected No
+::author_email a.m.sawicka@wp.pl
+::name Random integer
+::category Games, Trivia and Accessories
+::language en
+::author AS
+::author_url
+::description Displays a random integer from given interval
+::dynamic_content Yes
+::developer_privacy_policy
+::image images/Linear.png
+::terms_of_use
+
+
+Random number from * to *
+!example:Random number from 10 to 20
+!expect:17
+!javascript:$!$
+Math.floor(Math.random() * ($2$-$1$+1))+$1$;
+eol

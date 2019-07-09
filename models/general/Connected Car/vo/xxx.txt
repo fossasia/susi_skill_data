@@ -1,0 +1,18 @@
+::protected No
+::author_email showuon@gmail.com
+::name xxx
+::category Connected Car
+::language vo
+::author estt<s>xxx</s>
+::author_url estt<s>xxx</s>
+::description estt<s>xxx</s>
+::dynamic_content esY
+::developer_privacy_policy <link>
+::image images/image (2).png
+::terms_of_use <link>
+
+
+User query1|query2|quer3....
+!example:<The question that should be shown in public skill displays>
+!expect:<The answer expected for the above example>
+Answer for the user query

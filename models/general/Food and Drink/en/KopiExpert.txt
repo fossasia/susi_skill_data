@@ -1,0 +1,51 @@
+::protected No
+::author_email mc@yacy.net
+::name KopiExpert
+::category Food and Drink
+::language en
+::author Michael Christen
+::author_url https://github.com/Orbiter
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/kopi.jpg
+::terms_of_use <link>
+
+coffee
+which one? kopi
+
+Kopi
+Black Coffee with condensed milk
+
+Kopi Peng
+Sweet black coffee with condensed milk and ice
+
+Kopi O Siew Dai
+Black coffee with less sugar
+
+Kopi-O
+Sweet black coffee
+
+Kopi-Kosong
+Unsweetened black coffee
+
+Kopi Kosong Peng
+Unsweetened black coffee with ice
+
+Kopi-O Peng
+Sweet black coffee with ice
+
+Kopi Gah Dai
+Black coffee with extra condensed milk
+
+Kopi Po
+A weaker coffee with condensed milk
+
+Kopi Gau
+Strong coffee with condensed milk
+
+Kopi-C
+Coffee with unsweetened evaporated milk (the C is for Carnation); but they’ll still add sugar
+
+Kopi Ta Bao
+To-go

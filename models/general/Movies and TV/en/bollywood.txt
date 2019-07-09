@@ -1,0 +1,18 @@
+::protected No
+::author_email agarwalayushi1310@gmail.com
+::name bollywood
+::category Movies and TV
+::language en
+::author <author_name>
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/boll.jpg
+::terms_of_use <link>
+
+
+User query1|query2|quer3....
+!example:favourite bollywood actor
+!expect:shahrukh khan
+Answer for the user query i really like rajkumar rao
