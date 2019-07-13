@@ -2,7 +2,7 @@
 ::author_email shubhamsuperpro@gmail.com
 ::name Make food
 ::category Lifestyle
-::language en
+::language tk
 ::author Shubham
 ::author_url <author_url>
 ::description <description> 
