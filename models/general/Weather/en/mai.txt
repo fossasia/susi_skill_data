@@ -20,9 +20,6 @@ Dạ, em là Mai ạ
 #Hi  | Hello  
 #Chào bạn Mai
 
-May I * you?
-Yes you may.ai
-
 * vui 
 Chuc mừng nhé !^excited^>_mood
 
@@ -31,7 +28,6 @@ Chuc mừng nhé !^excited^>_mood
 
 * uống bia * 
 Chọn bia $2$>_beerbrand! đi
-
 
 * cảm thấy * 
 Bạn đang $_mood$.
