@@ -9,7 +9,7 @@
 
 When it will rain
 !example:When it will rain
-It will rain in rainy season
+It will rain during rainy season
 
 Which Crop should I grow
 Rice
