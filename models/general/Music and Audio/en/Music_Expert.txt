@@ -1,0 +1,52 @@
+::protected No
+::author_email mc@yacy.net
+::name Music Expert
+::category Music and Audio
+::language en
+::author Michael Christen
+
+
+play some music
+play `music style`
+
+play some * music
+play `$1$ music style`
+
+music style
+``music main style` music style`
+
+music main style
+Blues|Caribbean|Easy listening|Electronic|Folk song|Hip hop|Jazz|Latin|Pop|Rock|Classical
+
+Blues music style
+African blues|Blues rock|Blues shouter|British blues|Canadian blues|Chicago blues|Classic female blues|Contemporary R&B|Country blues|Delta blues|Detroit blues|Electric blues|Funk blues|Gospel blues|Hill country blues|Hokum|Hokum blues|Jump blues|Kansas City blues|Louisiana blues|Memphis blues|Piedmont blues|Punk blues|Rhythm and blues|Soul blues|St. Louis blues|Swamp blues|Texas blues|West Coast blues
+
+Caribbean music style
+Baithak Gana|Dancehall|Bouyon|Cadence-lypso|Calypso|Cha-cha-chá|Chutney
+
+Easy listening music style
+Background|Beautiful|Muzak|Elevator|Furniture|Lounge|Middle of the road|New-age
+
+Electronic music style
+Ambient|Breakbeat|Disco|Downtempo|Drum and bass|Dub|Dub|Electro|Electroacoustic|Electronic rock|Electronica|Hardcore (electronic dance genre)|Hardcore|Hardstyle|Hi-NRG|House|Industrial|Intelligent dance|IDM|Oldschool jungle|Jungle|Post-disco|Techno|Trance|UK garage|Vaporwave|Video game|Stylophonic Pop
+
+Folk song music style
+American folk revival|Americana (music)|Americana|Anti-folk|British folk revival|Celtic|Chalga|Contemporary folk|Contemporary folk|Corrido|Filk|Folk rock|Folktronica|Freak folk|Indie folk|Industrial folk|Industrial folk|Neofolk|Mariachik|Skiffle|Sung poetry|Western (North America)|Cowboy/Western
+
+Hip hop music style
+Alternative hip hop|Australian hip hop|Bongo flava|Boom bap|British hip hop|Chap hop|Chopper (rap)|Chopper rap|Christian hip hop|Cloud rap|Conscious hip hop|Crunk|Crunkcore|Drill (music genre)|Drill|Electro|Experimental hip hop|G-funk|Gangsta rap|Ghetto house|Ghettotech|Golden age hip hop|Grime (music)|Grime|Hardcore hip hop|Hip house|Hiplife|Hip pop|Hyphy|Industrial hip hop|Instrumental hip hop|Jazz rap|Jersey club|Kwaito|Lyrical hip hop|Low Bap|Merenrap|Motswako|Mumble rap|Nerdcore|New jack swing|New school hip hop|Old school hip hop|Political hip hop|Ragga|Reggaeton|Snap|Snap
+
+Jazz music style
+Acid jazz|Afro-Cuban jazz|Alt-jazz|Asian American jazz|Avant-garde jazz|Bebop|Boogie-woogie|Bossa nova|British dance band|Cape jazz|Chamber jazz|Continental jazz|Cool jazz|Crossover jazz|Dixieland|Ethno jazz|European free jazz|Free funk|Free improvisation|Free jazz|Gypsy jazz|Hard bop|Jazz blues|Jazz-funk|Jazz fusion|Jazz rap|Jazz rock|Kansas City blues|Kansas City jazz|Latin jazz|Livetronica|M-Base|Mainstream jazz|Modal jazz|Neo-bop jazz|Neo-swing|Novelty ragtime|Nu jazz|Orchestral jazz|Post-bop|Punk jazz|Ragtime|Shibuya-kei|Ska jazz|Smooth jazz|Soul jazz|Stride jazz|Straight-ahead jazz|Swing|Swing|Third stream|Trad jazz|Vocal jazz|West Coast jazz
+
+Latin music style
+Music of Brazil|Brazilian
+
+Pop music style
+Adult contemporary|Arabic pop|Arab pop|Baroque pop|Brill Building (genre)|Brill Building|Britpop|Bubblegum pop|Canción|Canzone|Chalga|Chanson|Christian pop|Classical crossover|Country pop|C-popp|Jangle pop|K-pop
+
+Rock music style
+Alternative rock|Grunge|Post-grunge|Ocean Grunge|Indie rock|Dunedin sound|Math rock|Post-punk revival|Sadcore|Dream pop|Shoegaze|Slowcore|Beat|Christian rock|Dark cabaret|Electronic rock|Electronicore|Experimental rock|Art rock|Industrial rock|Post-punk|Gothic rock|No wave|Noise rock|Post-rock|Post-metal|Folk rock|Garage rock|Glam rock|Hard rock|Heavy metal|Heavy metal|Alternative metal|Funk Metal|Nu Metal|Rap Metal|Avant-garde metal|Black metal|Symphonic black metal|Viking metal|National Socialist Black Metal|Atmospheric Black Metal|Melodic Black Metal|Ambient Black Metal|Depressive Black Metal|Depressive Suicidal Black Metal|War metal|Christian metal|Unblack metal|Death metal|Death 'n' roll|Melodic death metal|Technical death metal|Deathgrind|Doom metal|Death-doom|Drone metal|Folk metal|Celtic metal|Medieval metal|Pagan metal|Glam metal|Gothic metal|Industrial metal|Kawaii metal|Latin metal|Metalcore|Melodic metalcore|Deathcore|Mathcore|Metalstep|Neoclassical metal|Neue Deutsche Härte|Post-metal|Power metal|Progressive metal|Djent|Sludge metal|Speed metal|Symphonic metal|Thrash metal|Crossover thrash|Groove metal|Jazz rock|New wave|New wave|World fusion|Paisley Underground|Palm Desert Scene|Desert rock|Pop rock|Soft rock|Progressive rock|Canterbury scene|Krautrock|New prog|Rock in Opposition|Space rock|Psychedelic rock|Acid rock|Freakbeat|Neo-psychedelia|Raga rock|Punk rock|Anarcho punk|Crust punk|D-beat|Art punk|Christian punk|Deathrock|Digital hardcore|Folk punk|Celtic punk|Cowpunk|Gypsy punk|Garage punk (fusion genre)|Garage punk|Grindcore|Crustgrind|Noisegrind|Goregrind|Hardcore punk|Post-hardcore|Emo|Emo pop|Screamo|Thrashcore|Crossover thrash|Powerviolence|Street punk|Horror punk|Pop punk|Neon pop|Nazi punk|Psychobilly|Riot grrrl|Ska punk|Skate punk|Rap rock|Rapcore|Eric_Lewis_(pianist)#Later_career_and_"Rockjazz"|Rockjazz|Rock and roll|Southern rock|Stoner rock|Sufi rock|Surf rock|Visual kei|Nagoya kei|Worldbeat
+
+Classical music style
+Medieval|Renaissance|Baroque|Romantic|Impressionism|Neoclassicism|Contemporary classical
