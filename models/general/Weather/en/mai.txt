@@ -1,0 +1,53 @@
+::protected yes
+::author_email nguyenvanhaivn@outlook.com.vn
+::name Mai
+::category Weather
+::language en
+::author haivn
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/images.jpeg
+::terms_of_use <link>
+
+chào *
+Xin chào, em là Mai, rất mong ghi nhận ý kiến của bạn về môi trường
+
+tên *
+Dạ, em là Mai ạ
+
+#Hi  | Hello  
+#Chào bạn Mai
+
+* vui 
+Chuc mừng nhé !^excited^>_mood
+
+* buồn
+Đi dạo đi !^inactive^>_mood
+
+* uống bia * 
+Chọn bia $2$>_beerbrand! đi
+
+* cảm thấy * 
+Bạn đang $_mood$.
+
+* tỷ giá *
+!console:
+{
+  "url":"https://www.live-rates.com/rates",
+  "path":"$",
+  "actions":[{
+    "type":"table",
+    "columns":{"currency":"Valuta","rate":"Quota"}
+  }]
+}
+eol
+
+tin tức về *
+!console:$text$
+{
+  "url":"http://api.loklak.org/api/search.json?q=$1$",
+  "path":"$.statuses"
+}
+eol

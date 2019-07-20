@@ -1,0 +1,18 @@
+::name Distance
+::author Chashmeet Singh
+::author_url https://github.com/chashmeetsingh
+::description A skill to tell distance between two destinations and places
+::dynamic_content Yes
+::developer_privacy_policy
+::image images/distance.png
+::terms_of_use
+
+distance between * and *|What is distance between * and * ?|What is the distance between * and * ?| What is distance between * and *|do you know distance between * and *?|do you know the distance between * and *|Tell me the distance between * and *?|Tell me distance between * and *?|can you tell me the distance between * and *?|can you tell me distance between * and *?
+!example:distance between india and singapore
+!expect:india is 3572 km (kilometers) away from singapore
+!console: $1$ is $plaintext$ away from $2$
+{ 
+    "url": "https://api.wolframalpha.com/v2/query?input=distance+between+$1$+and+$2$&output=JSON&appid=9WA6XR-26EWTGEVTE&includepodid=Result",  
+    "path" : "$.queryresult.pods[0].subpods[0]"
+}
+eol
