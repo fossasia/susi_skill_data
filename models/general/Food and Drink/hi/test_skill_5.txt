@@ -1,14 +1,14 @@
 ::protected No
-::author_email shubhamsuperpro@gmail.com
-::name Testing Skill
+::author_email 29hj29@gmail.com
+::name test_skill_5
 ::category Food and Drink
-::language en
-::author <author_name>
+::language hi
+::author Adolph Blaine Charles David
 ::author_url <author_url>
 ::description <description> 
 ::dynamic_content <Yes/No>
 ::developer_privacy_policy <link>
-::image images/000-min (2).png
+::image images/superman.jpg
 ::terms_of_use <link>
 
 
