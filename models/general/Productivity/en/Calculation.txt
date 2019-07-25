@@ -12,11 +12,13 @@
 ::terms_of_use public domain
 
 
-which day 
-!javascript:today is $!$
-document.getElementById("demo").innerHTML = $1$
-$1$ = new Date()
-eol
+Gib das heutige Datum
+!example:Datum heute? Welches Datum haben wir heute? Heute ist der?
+!expect:28.05.2019
+!javascript:$!$
+var heute = new Date();
+print(heute.getDate()+"."+heute.getMonth()+"."+(heute.getYear()+1900));
+eol 
 
 which day is today?|give the date of today|give the date|what date is today|what date is today?|give the current date|tell the date|tell the date of today|tell me the date|tell me the date of today|tell me the current date|give me the date of today|which date we have|which date we have?|tell the date|what day we have|which day it is|which day it is?|which day we have|which day we have?
 !javascript:today is $!$
