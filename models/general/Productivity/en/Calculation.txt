@@ -24,8 +24,8 @@ which month we have
 !example:which month we have
 !expect:28.05.2019
 !javascript:$!$
-var today = new Date();
-print(today.getMonth());
+var month = new Date();
+print(month.getMonth());
 eol 
 
 
