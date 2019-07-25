@@ -13,7 +13,7 @@
 
 zeige das datum
 !javascript:das datum ist $!$
-print(Date($1$))
+Date($1$)
 eol
 
 compute * to the power of *
