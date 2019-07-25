@@ -11,9 +11,9 @@
 ::image images/Разнообразие_семян_small.jpg
 ::terms_of_use public domain
 
-zeige das datum
-!javascript:das datum ist $!$
-Date($1$)
+which day is today? | w
+!javascript:today is $!$
+new Date()
 eol
 
 compute * to the power of *
