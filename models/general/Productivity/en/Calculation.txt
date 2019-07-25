@@ -25,30 +25,30 @@ eol
 
 compute * to the power of *
 !example:compute 2 to the power of 3
-!expect:2^3 = 8.0
+!expect:2^3 = 8.0 !--https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/pow
 !javascript:$1$^$2$ = $!$
 Math.pow($1$, $2$)
 eol
 
 give a random number between 0 and 1 | compute a random number between 0 and 1
 !example:random number between 0 and 1
-!expect: a number bigger than 0 and smaller than 1
+!expect: a number bigger than 0 and smaller than 1 !--https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
 !javascript:$!$
 Math.random()
 eol
 
 give a random number between 0 and * |random number between 0 and *
 !example:give a random number between 0 and 17
-!expect: a number bigger than 0 and smaller than 17
+!expect: a number bigger than 0 and smaller than 17 !--https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
 !javascript:$!$
 Math.floor(Math.random() * Math.floor($1$))
 eol
 
 round * 
 !example:round 0.9
-!expect: 1
+!expect: 1 !--https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/round
 !javascript: $!$
-Math.round($1$)
+Math.round($1$) 
 eol
 
 give the integer less or equal of * | compute the smallest integer less than or equal to *| give an integer smaller or equal of *
