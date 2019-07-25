@@ -96,8 +96,8 @@ compute the natural logarithm with base * of a number, that is *
 Math.log($1$) / Math.log($2$)
 eol
 
-!-----------------  oooops, not working due to my misinterpretation :-( ------
 
+!-----------------  oooops, not working due to my misinterpretation :-( ------
 
 returns the lowest-valued number * * *
 !expect:$!$
