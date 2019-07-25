@@ -11,9 +11,14 @@
 ::image images/Разнообразие_семян_small.jpg
 ::terms_of_use public domain
 
-which day is today? | w
+which month is now?
 !javascript:today is $!$
-new Date()
+d.getMonth()
+eol 
+
+which day is today?
+!javascript:today is $!$
+Date()
 eol
 
 compute * to the power of *
