@@ -12,8 +12,9 @@
 ::terms_of_use public domain
 
 which year is now?|the eary
-!javascript:today is $!$
-getFullYear()
+!javascript:the year is $!$
+var d = new Date();
+document.getElementById("demo").innerHTML = d.getFullYear();
 eol 
 
 which day is today?|give the date of today
