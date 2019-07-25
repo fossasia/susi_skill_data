@@ -27,7 +27,7 @@ which month we have
 var d = new Date();
 var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 document.getElementById("demo").innerHTML = months[d.getMonth()];
-print(d.getMonth());
+
 eol 
 
 
