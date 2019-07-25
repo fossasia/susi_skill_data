@@ -12,12 +12,12 @@
 ::terms_of_use public domain
 
 
-Gib das heutige Datum
-!example:Gib das heutige Datum
+give the date of today
+!example:give the date of today
 !expect:28.05.2019
 !javascript:$!$
-var heute = new Date();
-print(heute.getDate()+"."+heute.getMonth()+"."+(heute.getYear()+1900));
+var today = new Date();
+print(today.getDate()+"."+today.getMonth()+"."+(today.getYear()+1900));
 eol 
 
 which day is today?|give the date of today|give the date|what date is today|what date is today?|give the current date|tell the date|tell the date of today|tell me the date|tell me the date of today|tell me the current date|give me the date of today|which date we have|which date we have?|tell the date|what day we have|which day it is|which day it is?|which day we have|which day we have?
