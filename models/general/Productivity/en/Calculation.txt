@@ -12,8 +12,8 @@
 ::terms_of_use public domain
 
 zeige das datum
-!javascript:das datum
-print(document.getElementById('demo').innerHTML = Date())
+!javascript:das datum ist $!$
+print(Date($1$))
 eol
 
 compute * to the power of *
