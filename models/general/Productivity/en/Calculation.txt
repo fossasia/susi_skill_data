@@ -33,7 +33,7 @@ give the year|what year we have|in which year we are living|what year it is now
 !expect:2019
 !javascript:$!$
 var today = new Date();
-print("We live in the year "+today.getYear()+1900+"th"+);
+print("We live in the year "+today.getYear()+"th"+);
 eol 
 
 which month we have
