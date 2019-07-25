@@ -11,9 +11,9 @@
 ::image images/Разнообразие_семян_small.jpg
 ::terms_of_use public domain
 
-print the date
-!javascript:heute ist $!$
-document.getElementById('demo').innerHTML = Date()
+zeige das datum
+!javascript:das datum
+print(document.getElementById('demo').innerHTML = Date())
 eol
 
 compute * to the power of *
