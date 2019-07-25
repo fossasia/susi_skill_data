@@ -17,7 +17,7 @@ var d = new Date();
 document.getElementById("demo").innerHTML = d.getFullYear();
 eol 
 
-which day is today?|give the date of today|give the date|what date is today|what date is today?|give the current date|tell the date|tell the date of today|tell me the date|tell me the date of today|tell me the current date
+which day is today?|give the date of today|give the date|what date is today|what date is today?|give the current date|tell the date|tell the date of today|tell me the date|tell me the date of today|tell me the current date|give me the date of today
 !javascript:today is $!$
 Date()
 eol
