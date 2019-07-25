@@ -11,6 +11,10 @@
 ::image images/Разнообразие_семян_small.jpg
 ::terms_of_use public domain
 
+javascript hello
+!javascript:$!$ from Nashorn
+print(document.getElementById("demo").innerHTML = 5 + 6;);
+eol
 
 compute * to the power of *
 !example:compute 2 to the power of 3
