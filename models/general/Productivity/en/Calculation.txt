@@ -20,9 +20,17 @@ var today = new Date();
 print(today.getDate()+"."+today.getMonth()+"."+(today.getYear()+1900));
 eol 
 
+give the year|what year we have?
+!example:give the year
+!expect:2019
+!javascript:$!$
+var today = new Date();
+print((today.getYear()+1900));
+eol 
+
 which month we have
 !example:which month we have
-!expect:28.05.2019
+!expect:6
 !javascript:$!$
 id="demo"
 var d = new Date();
