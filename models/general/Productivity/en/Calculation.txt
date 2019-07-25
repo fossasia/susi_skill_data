@@ -24,6 +24,22 @@ which month we have
 !example:which month we have
 !expect:28.05.2019
 !javascript:$!$
+var months = new Date();
+var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+document.getElementById("demo").innerHTML = months[d.getMonth()];
+print(months.getMonth());
+eol 
+
+
+
+
+
+
+
+which month we have
+!example:which month we have
+!expect:28.05.2019
+!javascript:$!$
 var month = new Date();
 print(month.getMonth());
 eol 
