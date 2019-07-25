@@ -20,7 +20,7 @@ var today = new Date();
 print(today.getDate()+"."+today.getMonth()+"."+(today.getYear()+1900));
 eol 
 
-give the year|what year we have?
+give the year|what year we have
 !example:give the year
 !expect:2019
 !javascript:$!$
@@ -54,7 +54,7 @@ print(month.getMonth());
 eol 
 
 
-which day is today?|give the date|what date is today|what date is today?|give the current date|tell the date|tell the date of today|tell me the date|tell me the date of today|tell me the current date|give me the date of today|which date we have|which date we have?|tell the date|what day we have|which day it is|which day it is?|which day we have|which day we have?
+which day is today?|give the date|what date is today|give the current date|tell the date|tell the date of today|tell me the date|tell me the date of today|tell me the current date|give me the date of today|which date we have|tell the date|what day we have|which day it is|which day we have
 !javascript:today is $!$
 Date()
 eol
