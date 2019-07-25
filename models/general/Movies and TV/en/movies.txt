@@ -1,0 +1,94 @@
+::protected No
+::author_email aviavinash0464@gmail.com
+#api.themoviedb.org
+::name Movies
+::author Saurabh Jain
+::author_url https://github.com/saurabhjn76	
+::dynamic_content Yes
+::image images/movies.png
+::description Get information about a movie or a TV series that you are interested in. You will be able to get the rating, plot and details of your favourite movie.
+
+Show me a popular movie | Name a popular movie | I want to know a famous movie | * popular movie | * famous movie | * nice movie | * best movie
+!example:Name a popular movie
+!console:$original_title$ - $overview$
+{
+"url":"https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=7c8618ff3d5fd73e6601c1d5e1ef3f33",
+"path":"$.results"
+}
+eol
+
+#example:Provide me details of movie Martian
+* movie *
+!example:Provide me details of movie Martian
+!console:$original_title$ - $overview$  Release date:$release_date$
+{
+"url":"https://api.themoviedb.org/3/search/movie?api_key=7c8618ff3d5fd73e6601c1d5e1ef3f33&query=$2$",
+"path":"$.results"
+}
+eol
+
+rating of * series | series * rated at | what is the rating of * series | rate * series | rate * series please | * series rating | please tell me rating of * series | please tell me series * rated at | please tell me what is the rating of * series | please rate * series | rate * series please | please tell me * series rating | tell me rating of * series | tell me series * rated at | tell me what is the rating of * series | tell me * series rating | can you tell me rating of * series | can you tell me series * rated at | can you tell me what is the rating of * series | can you tell me * series rating | * rating of * series
+!example: what is the rating of game of thrones series
+!console: $vote_average$
+{
+"url":"https://api.themoviedb.org/3/search/tv?query=$1$&api_key=80e10d97d8a98315fd4448112aea0197&language=en-US&page=1&include_adult=false",
+"path":"$.results[0]"
+}
+eol
+
+rating of * movie | movie * rated at | what is the rating of * movie | rate * movie | rate * movie please | * movie rating | please tell me rating of * movie | please tell me movie * rated at | please tell me what is the rating of * movie | please rate * movie | rate * movie please | please tell me * movie rating | tell me rating of * movie | tell me movie * rated at | tell me what is the rating of * movie | tell me * movie rating | can you tell me rating of * movie | can you tell me movie * rated at | can you tell me what is the rating of * movie | can you tell me * movie rating | rating of * movie
+!example: what is the rating of rush hour movie
+!console: $vote_average$
+{
+"url":"https://api.themoviedb.org/3/search/movie?query=$1$&api_key=80e10d97d8a98315fd4448112aea0197&language=en-US&page=1&include_adult=false",
+"path":"$.results[0]"
+}
+eol
+
+show info about * movies | show info about * movie | info about * movies | info about * movie | info of * movies | info of * movie | can you show info about * movies | can you show info about * movie | please show info about * movies | please show info about * movie | please tell me info about * movies | please tell me info about * movie | please tell me info of * movies | please tell me info of * movie | tell me info about * movies | tell me info about * movie | tell me info of * movies | tell me info of * movie | tell info about * movies | tell info about * movie | tell info of * movies | tell info of * movie | I want to know about * movie | I wish to know about * movie | Can you tell me about * movie | Could you please tell me about * movie | Can you tell me about * movies | I would like to know about * movie | info on * movie | Tell me info on * movie
+!example: can you show info about transformers movies
+!console:
+{
+"url":"https://api.themoviedb.org/3/search/movie?query=$1$&api_key=80e10d97d8a98315fd4448112aea0197&language=en-US&page=1&include_adult=false",
+"path":"$.results",
+"actions":[{
+"type":"table",
+"columns":{"title" : "Title", "original_language": "Original language", "overview" : "Overview"},
+"count":"5"
+}]
+}
+eol
+
+show info about * series | show info about * serie | info about * series | info about * serie | info of * series | info of * serie | can you show info about * series | can you show info about * serie | please show info about * series | please show info about * serie | please tell me info about * series | please tell me info about * serie | please tell me info of * series | please tell me info of * serie | tell me info about * series | tell me info about * serie | tell me info of * series | tell me info of * serie | tell info about * series | tell info about * serie | tell info of * series | tell info of * serie | I want to know about * series | I wish to know about * series | Can you tell me about * series | Could you please tell me about * series | Can you tell me about * series | I would like to know about * series | info on * series | Tell me info on * series
+!example: can you show info about friends series
+!console:
+{
+"url":"https://api.themoviedb.org/3/search/tv?query=$1$&api_key=80e10d97d8a98315fd4448112aea0197&language=en-US&page=1&include_adult=false",
+"path":"$.results",
+"actions":[{
+"type":"table",
+"columns":{"name" : "Title", "original_language": "Original language", "overview" : "Overview"},
+"count":"5"
+}]
+}
+eol
+
+plot of * movie | movie * plot | what is the plot of * movie | plot * movie | plot * movie please | plot of * movie please | * movie overview | overview of * movie | movie * overview | what is the overview of * movie | overview * movie | overview * movie please | overview of * movie please | * movie overview | tell me plot of * movie | tell me movie * plot | tell me what is the plot of * movie | tell me plot of * movie please | tell me * movie overview | tell me overview of * movie | tell me movie * overview | tell me what is the overview of * movie | tell me overview * movie | tell me overview * movie please | tell me overview of * movie please | tell me * movie overview | please tell me plot of * movie | please tell me movie * plot | please tell me what is the plot of * movie | please tell me plot * movie | please tell me plot * movie please | please tell me plot of * movie please | please tell me * movie overview | please tell me overview of * movie | please tell me movie * overview | please tell me what is the overview of * movie | please tell me overview * movie | please tell me * movie overview | can you tell me plot of * movie | can you tell me movie * plot | can you tell me what is the plot of * movie | can you tell me plot * movie | can you tell me plot * movie please | can you tell me plot of * movie please | can you tell me * movie overview | can you tell me overview of * movie | can you tell me movie * overview | can you tell me what is the overview of * movie | can you tell me overview * movie | can you tell me * movie overview | I want to know * movie overview | I want to know * movie plot | I want to know plot of * movie
+!example: what is the plot of forrest gump movie
+!console: $overview$
+{
+"url":"https://api.themoviedb.org/3/search/movie?query=$1$&api_key=80e10d97d8a98315fd4448112aea0197&language=en-US&page=1&include_adult=false",
+"path":"$.results[0]"
+}
+eol
+
+plot of * series | series * plot | what is the plot of * series | plot * series | plot * series please | plot of * series please | * series overview | overview of * series | series * overview | what is the overview of * series | overview * series | overview * series please | overview of * series please | * series overview | tell me plot of * series | tell me series * plot | tell me what is the plot of * series | tell me plot of * series please | tell me * series overview | tell me overview of * series | tell me series * overview | tell me what is the overview of * series | tell me overview * series | tell me overview * series please | tell me overview of * series please | tell me * series overview | please tell me plot of * series | please tell me series * plot | please tell me what is the plot of * series | please tell me plot * series | please tell me plot * series please | please tell me plot of * series please | please tell me * series overview | please tell me overview of * series | please tell me series * overview | please tell me what is the overview of * series | please tell me overview * series | please tell me * series overview | can you tell me plot of * series | can you tell me series * plot | can you tell me what is the plot of * series | can you tell me plot * series | can you tell me plot * series please | can you tell me plot of * series please | can you tell me * series overview | can you tell me overview of * series | can you tell me series * overview | can you tell me what is the overview of * series | can you tell me overview * series | can you tell me * series overview | I want to know * series overview | I want to know * series plot 
+!example: what is the plot of 13 reasons why series
+!console: $overview$
+{
+"url":"https://api.themoviedb.org/3/search/tv?query=$1$&api_key=80e10d97d8a98315fd4448112aea0197&language=en-US&page=1&include_adult=false",
+"path":"$.results[0]"
+}
+eol
+
+

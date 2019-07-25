@@ -1,0 +1,18 @@
+# tells a poem of given author
+# example: give me a poem by Emily
+# example: 	give me a poem by Shakespeare
+::name Poem
+::author Saurabh Jain
+::author_url https://github.com/saurabhjn76
+::dynamic_content Yes
+::image images/poem.png
+::description The skill gives poem by a given author
+
+give me a poem by *|tell me a poem by *| tell a poem by *| poem *| poem by *| random poem by *| poem by * for * | start a poem by *| recite a poem by *| poem of * | poem by * about * | poem by * on * | recite poem by * |*'s poem | susi start a poem by * | search for poem by * | search for poem by * | Shakespeare poem * | Poetry by *  on * | Poetry by * | Poetry by * for * | search for Poetry by | *'s Poetry please | give me a Poetry by * | start Poetry by * | Sonnet by * | Poetry by *| sonnet * | kavita by *|rhythmical literary piece by *|*'s random Poetry | search for a Poetry by * | susi, Poetry by * | Poetry for kids by *| Poetry for children by * | Poetry of * | *'s Poetry please
+!example:start a poem by love 
+!console:The poem is $title$ by $author$. $lines$
+{
+    "url":"http://poetrydb.org/author/$1$",
+    "path":"$.[0]"
+}
+eol

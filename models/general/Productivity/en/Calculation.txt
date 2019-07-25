@@ -1,0 +1,173 @@
+::protected No
+::author_email schildberg@scoid.de
+::name Calculation
+::category Productivity
+::language en
+::author agricola
+::author_url <author_url>
+::description Attempt and test to implement https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math into  SUSI.AI 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/Разнообразие_семян_small.jpg
+::terms_of_use public domain
+
+
+give the date of today
+!example:give the date of today
+!expect:28.05.2019
+!javascript:$!$
+var today = new Date();
+print(today.getDate()+"."+today.getMonth()+"."+(today.getYear()+1900));
+eol 
+
+which day is today?|give the date of today|give the date|what date is today|what date is today?|give the current date|tell the date|tell the date of today|tell me the date|tell me the date of today|tell me the current date|give me the date of today|which date we have|which date we have?|tell the date|what day we have|which day it is|which day it is?|which day we have|which day we have?
+!javascript:today is $!$
+Date()
+eol
+
+compute * to the power of *
+!example:compute 2 to the power of 3
+!expect:2^3 = 8.0 !--https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/pow
+!javascript:$1$^$2$ = $!$
+Math.pow($1$, $2$)
+eol
+
+give a random number between 0 and 1 | compute a random number between 0 and 1
+!example:random number between 0 and 1
+!expect: a number bigger than 0 and smaller than 1 !--https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
+!javascript:$!$
+Math.random()
+eol
+
+give a random number between 0 and * |random number between 0 and *
+!example:give a random number between 0 and 17
+!expect: a number bigger than 0 and smaller than 17 !--https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
+!javascript:$!$
+Math.floor(Math.random() * Math.floor($1$))
+eol
+
+round * 
+!example:round 0.9
+!expect: 1 !--https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/round
+!javascript: $!$
+Math.round($1$) 
+eol
+
+give the integer less or equal of * | compute the smallest integer less than or equal to *| give an integer smaller or equal of *
+!example:give the integer less or equal of 5.95
+!expect: 5 !--https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/floor
+!javascript: $!$
+Math.floor($1$)
+eol
+
+compute the smallest integer greater than or equal to *
+!example:compute the smallest integer greater than or equal to 7.004
+!expect: 8 !--https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/ceil
+!javascript: $!$
+Math.ceil($1$)
+eol
+
+compute Euler's number of * | compute the Napier's constant of *
+!example:compute Euler's number of 2
+!expect:7.38905609893065 !--https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/exp
+!javascript: $!$
+Math.exp($1$)
+eol
+
+get tangens from * degrees
+!example: get tangens from 45 degrees
+!expect:0.9999999999999999 !--https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/tan
+!javascript: $!$
+Math.tan($1$ * Math.PI/180)
+eol
+
+compute the base 2 logarithm of a number, that is *
+!example: compute the base 2 logarithm of a number, that is 3
+!expect:1.584962500721156 !-- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/log2
+!javascript: $!$
+Math.log($1$) * Math.LOG2E
+eol
+
+compute the base 10 logarithm of a number, that is *
+!example: compute the base 10 logarithm of a number, that is 100000
+!expect:5 !-- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/log10
+!javascript: $!$
+Math.log($1$) * Math.LOG10E
+eol
+
+compute the natural logarithm of * | logarithm of * | compute the natural logarithm with base e of 1 plus a number, that is *
+!example: compute the natural logarithm with base e of 1 plus a number, that is 1
+!expect:0.6931471805599453 !-- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/log
+!javascript: $!$
+Math.log(1 + $1$)
+eol
+
+compute the natural logarithm with base * of a number, that is *
+!example: compute the natural logarithm with base 8 of a number, that is 2
+!expect:3 !--https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/log10
+!javascript: $!$
+Math.log($1$) / Math.log($2$)
+eol
+
+
+!-----------------  oooops, not working due to my misinterpretation :-( ------
+
+returns the lowest-valued number * * *
+!expect:$!$
+!javascript: $!$
+Math.min($1$,$2$,$3$)
+eol
+
+
+compute the hyperbolic sine of a number *| compute the hyperbolic sine of a number *, that can be expressed using the constant e
+!expect:$!$
+!javascript: $!$
+(Math.exp($1$) - Math.exp(-$1$)) / 2
+eol
+
+returns the sine with radians * and radius * !works partially
+!expect:$!$
+!javascript: $!$
+Math.sin($1$) * $2$
+eol
+
+compute the hyperbolic tangent of a number, that is *
+!expect:$!$
+!javascript: $!$
+Math.log((1+$1$)/(1-$1$)) / 2
+eol
+
+trunc of *
+!expect:$!$
+!javascript: $!$
+Math.trunc()
+eol
+
+compute the square root * of the sum of squares of its arguments *
+!expect:$!$
+!javascript: $!$
+Math.hypot()
+eol
+
+compute the cube root of a number, that is *
+!expect:$!$
+!javascript: Math.cbrt($1$) = $!$
+Math.cbrt($1$)
+eol
+
+return the nearest 32-bit single precision float
+!javascript: $!$
+Math.fround()
+eol
+
+calculate circumference with radius *
+!javascript:return Math.PI * ($1$ + $1$) = $!$
+Math.PI()
+eol
+
+return pi
+!javascript: $!$
+Math.PI()
+eol
+
+

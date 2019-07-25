@@ -1,0 +1,20 @@
+::name Who is Who
+::author Jyothir Aditya
+::author_url https://github.com/jyoth1raditya
+::description A skill to tell us who is who. 
+::dynamic_content Yes
+::developer_privacy_policy
+::image images/who_is_who.png
+::terms_of_use
+
+
+# Describes something
+who is *|who was *|tell me who was *|tell me who is *|do you know who is *|Could you please tell me who is *|please find who is *|find who is *
+!example:who is Albert Einstein
+!expect:full name  Albert Einstein date of birth  Friday, March 14, 1879 (138 years ago) place of birth wht the fuck man Ulm, Baden‐Wurttemberg date of death  Monday, April 18, 1955 (age: 76 years) (62 years ago) place of death  Princeton, New Jersey,Fuck off
+!console:$plaintext$
+{
+"url":"https://api.wolframalpha.com/v2/query?input=$1$&format=plaintext&output=JSON&appid=9WA6XR-26EWTGEVTE",
+"path":"$.queryresult.pods[1].subpods"
+}
+eol

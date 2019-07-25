@@ -1,0 +1,27 @@
+::name Atomic
+::author Chetan Kaushik
+::author_url https://github.com/dynamitechetan
+::description A skill to tell atomic mass and elements of periodic table
+::dynamic_content Yes
+::developer_privacy_policy
+::image images/atomic.png
+::terms_of_use
+
+Tell the atomic mass of * | atomic mass of * | * atomic mass| find atomic mass of *| do you know the atomic mass of * | do you know atomic mass of * | find the atomic mass of * | search atomic mass of * | tell me the atomic mass of * | search for atomic mass of *
+!example:atomic mass of radium
+!expect:The atomic mass of radium is 226 u (unified atomic mass units) (atomic mass number given for longest lived isotope)
+!console:The atomic mass of $1$ is $plaintext$ 
+{
+"url":"https://api.wolframalpha.com/v2/query?input=atomic+mass+of+$1$&format=plaintext&output=JSON&appid=9WA6XR-26EWTGEVTE",
+"path":"$.queryresult.pods[1].subpods[0]"
+}
+eol
+
+* element of periodic table | tell me * element of periodic table | * element by atomic number
+!example:first element of periodic table
+!console: $plaintext$
+{ 
+    "url": "https://api.wolframalpha.com/v2/query?input=$1$+element+of+periodic+table&format=plaintext&output=JSON&appid=9WA6XR-26EWTGEVTE&includepodid=Result",  
+    "path" : "$.queryresult.pods[0].subpods[0]"
+}
+eol

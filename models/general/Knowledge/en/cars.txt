@@ -1,0 +1,36 @@
+::name Cars
+::author Uday Theja
+::author_url https://github.com/uday96
+::description A skill to tell user about cars made by a car manufacturer
+::dynamic_content Yes
+::developer_privacy_policy
+::image images/cars.png
+::terms_of_use
+
+* car models manufactured by *
+!example:Know any car models manufactured by ford
+!expect:021 C model was manufactured by ford
+!console:$model_name$ model was manufactured by $2$
+{
+"url":"https://www.carqueryapi.com/api/0.3/?callback=?&cmd=getModels&make=$2$",
+"path":"$.Models[0]"
+}
+eol
+
+* car models manufactured by * in the year *|* car models manufactured by * in *
+!example:Know any car models manufactured by ford in the year 2016
+!console:$model_name$ model was manufactured by $2$ in $3$
+{
+"url":"https://www.carqueryapi.com/api/0.3/?callback=?&cmd=getModels&make=$2$&year=$3$",
+"path":"$.Models[0]"
+}
+eol
+
+* car models manufactured in the year * by *|* car models manufactured in * by *
+!example:Know any car models manufactured in 2016 by ford
+!console:$model_name$ model was manufactured by $3$ in $2$
+{
+"url":"https://www.carqueryapi.com/api/0.3/?callback=?&cmd=getModels&make=$3$&year=$2$",
+"path":"$.Models[0]"
+}
+eol

@@ -1,0 +1,18 @@
+::protected No
+::author_email 29hj29@gmail.com
+::protected No
+::author_email 29hj29@gmail.com
+::name translate_to_other_language
+::category Utilities
+::language en
+::author harsh
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/superman.jpg
+::terms_of_use <link>
+
+
+Bonjour|Buenos días|Ciao|Hallo
+Hello
