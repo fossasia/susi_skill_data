@@ -11,12 +11,12 @@
 ::image images/Разнообразие_семян_small.jpg
 ::terms_of_use public domain
 
-which month is now?
+which year is now?|the eary
 !javascript:today is $!$
-d.getMonth()
+getFullYear()
 eol 
 
-which day is today?
+which day is today?|give the date of today
 !javascript:today is $!$
 Date()
 eol
