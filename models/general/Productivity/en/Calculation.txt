@@ -20,7 +20,15 @@ var today = new Date();
 print(today.getDate()+"."+today.getMonth()+"."+(today.getYear()+1900));
 eol 
 
-give the year|what year we have
+What day do we just have in the month?
+!example:give the date of today
+!expect:28
+!javascript:$!$
+var today = new Date();
+print(today.getDate());
+eol 
+
+give the year|what year we have|in which year we are living|what year it is now
 !example:give the year
 !expect:2019
 !javascript:$!$
