@@ -13,7 +13,7 @@
 
 
 Gib das heutige Datum
-!example:Datum heute? Welches Datum haben wir heute? Heute ist der?
+!example:Gib das heutige Datum
 !expect:28.05.2019
 !javascript:$!$
 var heute = new Date();
