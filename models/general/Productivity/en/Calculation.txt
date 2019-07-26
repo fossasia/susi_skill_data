@@ -44,7 +44,7 @@ id="demo"
 var today = new Date();
 var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 document.getElementById("demo").innerHTML = months[today.getMonth()];
-print("It is the "+today.getMonth()+"th"+);
+print("It is the "+today.getMonth()+"th month in this year");
 eol 
 
 
