@@ -25,7 +25,7 @@ What day do we just have in the month?
 !expect:28
 !javascript:$!$
 var today = new Date();
-print("It is the "+today.getDate()+"th in this month"+);
+print("It is the "+today.getDate()+"th of this month");
 eol 
 
 give the year|what year we have|in which year we are living|what year it is now
@@ -33,7 +33,7 @@ give the year|what year we have|in which year we are living|what year it is now
 !expect:2019
 !javascript:$!$
 var today = new Date();
-print("It is the "+today.getYear()+"th"+);
+print("It is the "+today.getYear()+1900);
 eol 
 
 which month we have
