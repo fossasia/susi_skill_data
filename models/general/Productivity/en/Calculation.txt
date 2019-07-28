@@ -20,7 +20,7 @@ var today = new Date();
 print(today.getDate()+"."+today.getMonth()+"."+(today.getYear()+1900));
 eol
 
-give the date of today|give the date of today in US format
+give the date of today as US format|give the date of today in US format
 !example:give the date of today
 !expect:28.05.2019
 !javascript:$!$
@@ -28,7 +28,7 @@ var today = new Date();
 print(today.getMonth()+"."+today.getDate()+"."+(today.getYear()+1900));
 eol
 
-give the date of today according to ISO 8601|give the date of today in ISO 8601 format
+give the date of today according to ISO 8601|give the date of today in ISO 8601 format|give the date with the internationaler Standard
 !example:give the date of today
 !expect:28.05.2019
 !javascript:$!$
