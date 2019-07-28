@@ -11,6 +11,7 @@
 ::image images/Разнообразие_семян_small.jpg
 ::terms_of_use public domain
 
+!-----------------  date formats ------
 
 give the date of today|give the date of today in European format| give the date of today according to DIN 1355-1
 !example:give the date of today
@@ -68,6 +69,8 @@ which day is today?|give the date|what date is today|give the current date|tell 
 !javascript:today is $!$
 Date()
 eol
+
+!-----------------  calculations ------
 
 compute * to the power of *
 !example:compute 2 to the power of 3
