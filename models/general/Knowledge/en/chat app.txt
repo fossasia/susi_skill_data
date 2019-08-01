@@ -1,5 +1,3 @@
-::protected No
-::author_email parth.chauhan.daiict@gmail.com
 ::name chat app
 ::category Knowledge
 ::language en
