@@ -164,6 +164,10 @@ var y = Math.exp($1$);
 (y - 1 / y) / 2;
 eol
 
+calculate circumference with radius *
+!javascript:return Math.PI * ($1$ + $1$) = $!$
+Math.PI($1$)
+eol
 
 !-----------------  oooops, not working due to my misinterpretation :-( ------
 
@@ -208,14 +212,11 @@ return the nearest 32-bit single precision float
 Math.fround()
 eol
 
-calculate circumference with radius *
-!javascript:return Math.PI * ($1$ + $1$) = $!$
-Math.PI($1$)
-eol
+
 
 return pi
 !javascript: $!$
-Math.PI($1$)
+Math.PI()
 eol
 
 
