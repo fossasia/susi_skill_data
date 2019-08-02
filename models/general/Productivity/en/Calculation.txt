@@ -164,9 +164,9 @@ var y = Math.exp($1$);
 (y - 1 / y) / 2;
 eol
 
-calculate circumference with radius *
+calculate circumference with radius * |calculate the circumference of a circle with a passed radius of *
 !example: calculate circumference with radius 3
-!expect: 6 π≈18.8496
+!expect: 6 π≈18.8496 !--https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/PI
 !javascript:return Math.PI * ($1$ + $1$) = $!$
 Math.PI($1$)
 eol
@@ -219,6 +219,7 @@ eol
 return pi
 !javascript: $!$
 Math.PI()
+print(Math.PI());
 eol
 
 
