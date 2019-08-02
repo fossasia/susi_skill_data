@@ -218,8 +218,8 @@ eol
 
 return pi|compute pi|return π| view π|show π|show number of pi
 !javascript: $!$
-!javascript:return Math.PI
-Math.PI()
+!javascript:return Math.PI * 1 = $!$
+Math.PI($1$)
 eol
 
 
