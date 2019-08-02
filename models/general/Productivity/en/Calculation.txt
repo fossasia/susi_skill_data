@@ -47,10 +47,10 @@ eol
 
 give the year|what year we have|in which year we are living|what year it is now|which year do we have|what year we are in
 !example:give the year
-!expect:It is 2019
+!expect:It is the year 2019 in the 21st century according to our calendar
 !javascript:$!$
 var today = new Date();
-print("It is "+(today.getYear()+1900)+" in the 21st century");
+print("It is "+(today.getYear()+1900)+" in the 21st century according to our calendar");
 eol 
 
 which month we have|which month do we have
