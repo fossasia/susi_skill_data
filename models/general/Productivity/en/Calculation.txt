@@ -45,7 +45,7 @@ var today = new Date();
 print("It is the "+today.getDate()+"th of this month");
 eol 
 
-give the year|what year we have|in which year we are living|what year it is now|which year do we have|what year we are in
+give the year|what year we have|in which year we are living|what year it is now|which year do we have|what year we are in|say the year we live in|Tell us the year we live|say the year we live
 !example:give the year
 !expect:It is the year 2019 in the 21st century according to our calendar
 !javascript:$!$
