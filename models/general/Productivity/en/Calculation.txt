@@ -11,7 +11,7 @@
 ::image images/Разнообразие_семян_small.jpg
 ::terms_of_use public domain
 
-!-----------------  date formats ------
+!----------------- questions to different date formats ------
 
 give the date of today|give the date of today in European format| give the date of today according to DIN 1355-1
 !example:give the date of today
@@ -195,7 +195,8 @@ Math.sin($1$) * $2$
 eol
 
 compute the hyperbolic tangent of a number, that is *
-!expect:$!$
+!-- example:compute the hyperbolic tangent of a number, that is 1
+!expect:0.7615941559557649 !-- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/tanh
 !javascript: $!$
 Math.log((1+$1$)/(1-$1$)) / 2
 eol
