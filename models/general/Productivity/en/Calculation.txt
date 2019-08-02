@@ -209,12 +209,12 @@ eol
 
 calculate circumference with radius *
 !javascript:return Math.PI * ($1$ + $1$) = $!$
-Math.PI()
+Math.PI($1$)
 eol
 
 return pi
 !javascript: $!$
-Math.PI()
+Math.PI($1$)
 eol
 
 
