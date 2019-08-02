@@ -166,11 +166,16 @@ Math.min($1$,$2$,$3$)
 eol
 
 
-compute the hyperbolic sine of a number *| compute the hyperbolic sine of a number *, that can be expressed using the constant e
+compute the hyperbolic sine of a number *| compute the hyperbolic sine of a number *, that can be expressed using the constant e 
+!not working: console.log(Math.sinh(-1))
 !expect:$!$
 !javascript: $!$
-(Math.exp($1$) - Math.exp(-$1$)) / 2
+(Math.exp($1$) - Math.exp-($1$)) / 2
 eol
+
+Math.sinh = Math.sinh || function(x) {
+  return (Math.exp(x) - Math.exp(-x)) / 2;
+}
 
 returns the sine with radians * and radius * !works partially
 !expect:$!$
