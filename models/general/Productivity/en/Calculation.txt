@@ -50,7 +50,7 @@ give the year|what year we have|in which year we are living|what year it is now|
 !expect:It is 2019
 !javascript:$!$
 var today = new Date();
-print("It is "+(today.getYear()+1900)+"in the 21st century");
+print("It is "+(today.getYear()+1900)+" in the 21st century");
 eol 
 
 which month we have|which month do we have
