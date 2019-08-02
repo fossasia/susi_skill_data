@@ -171,7 +171,9 @@ calculate circumference with radius * |calculate the circumference of a circle w
 Math.PI($1$)
 eol
 
-return pi|compute pi|return π| view π|show π|show number of pi
+return pi|compute pi|return π| view π|show π|show number of pi|return number of pi
+!example: return pi
+!expect: 3.1415926535897932384626433 !--https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/PI
 !javascript:return Math.PI * (1) = $!$
 Math.PI($1$)
 eol
