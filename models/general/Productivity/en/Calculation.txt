@@ -165,6 +165,8 @@ var y = Math.exp($1$);
 eol
 
 calculate circumference with radius *
+!example: calculate circumference with radius 3
+!expect: 6 π≈18.8496
 !javascript:return Math.PI * ($1$ + $1$) = $!$
 Math.PI($1$)
 eol
