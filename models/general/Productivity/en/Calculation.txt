@@ -37,7 +37,7 @@ var today = new Date();
 print("The date of today is "+(today.getYear()+1900)+"."+today.getMonth()+"."+today.getDate());
 eol
 
-What day do we just have in the month?
+What day do we just have in the month?|What's the date?
 !example:give the date of today
 !expect:It is the 2th of this month
 !javascript:$!$
