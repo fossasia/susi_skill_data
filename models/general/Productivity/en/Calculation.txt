@@ -176,8 +176,8 @@ eol
 !-----------------  oooops, not working due to (my) misinterpretation :-( ------
 
 return pi|compute pi|return π| view π|show π|show number of pi|return number of pi
-!example: return pi
-!expect: 3.141592653589793 !--https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/PI
+!-- example: return pi
+!-- expect: 3.141592653589793 !--https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/PI
 !javascript:return Math.PI * (1) = $!$
 Math.PI(1)
 eol
@@ -203,7 +203,7 @@ eol
 trunc of *
 !expect:$!$
 !javascript: $!$
-Math.trunc($1$)
+Math.trunc($1$);
 eol
 
 compute the square root * of the sum of squares of its arguments *
