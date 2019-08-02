@@ -22,7 +22,7 @@ print("The date of today is "+today.getDate()+"."+today.getMonth()+"."+(today.ge
 eol
 
 give the date of today as US format|give the date of today in US format
-!example:give the date of today
+!example:give the date of today in US format
 !expect:The date of today is 28.05.2019
 !javascript:$!$
 var today = new Date();
@@ -171,14 +171,16 @@ calculate circumference with radius * |calculate the circumference of a circle w
 Math.PI($1$)
 eol
 
+
+
+!-----------------  oooops, not working due to (my) misinterpretation :-( ------
+
 return pi|compute pi|return π| view π|show π|show number of pi|return number of pi
 !example: return pi
-!expect: 3.1415926535897932384626433 !--https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/PI
+!expect: 3.141592653589793 !--https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/PI
 !javascript:return Math.PI * (1) = $!$
 Math.PI($1$)
 eol
-
-!-----------------  oooops, not working due to my misinterpretation :-( ------
 
 returns the lowest-valued number * * *
 !expect:$!$
