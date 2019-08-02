@@ -39,7 +39,7 @@ eol
 
 What day do we just have in the month?
 !example:give the date of today
-!expect:28
+!expect:It is the 2th of this month
 !javascript:$!$
 var today = new Date();
 print("It is the "+today.getDate()+"th of this month");
