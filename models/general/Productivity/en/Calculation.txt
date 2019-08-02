@@ -30,7 +30,7 @@ print("The date of today is "+today.getMonth()+"."+today.getDate()+"."+(today.ge
 eol
 
 give the date of today according to ISO 8601|give the date of today in ISO 8601 format|give the date with the internationaler Standard
-!example:give the date of today
+!example:give the date of today according to ISO 8601
 !expect:The date of today is 28.05.2019
 !javascript:$!$
 var today = new Date();
@@ -38,7 +38,7 @@ print("The date of today is "+(today.getYear()+1900)+"."+today.getMonth()+"."+to
 eol
 
 What day do we just have in the month?|What's the date?
-!example:give the date of today
+!example:What's the date?
 !expect:It is the 2th of this month
 !javascript:$!$
 var today = new Date();
@@ -46,7 +46,7 @@ print("It is the "+today.getDate()+"th of this month");
 eol 
 
 give the year|what year we have|in which year we are living|what year it is now|which year do we have|what year we are in|say the year we live in|Tell us the year we live|say the year we live
-!example:give the year
+!example:what year we are in
 !expect:It is the year 2019 in the 21st century according to our calendar
 !javascript:$!$
 var today = new Date();
