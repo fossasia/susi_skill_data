@@ -171,6 +171,11 @@ calculate circumference with radius * |calculate the circumference of a circle w
 Math.PI($1$)
 eol
 
+return pi|compute pi|return π| view π|show π|show number of pi
+!javascript:return Math.PI * (1) = $!$
+Math.PI($1$)
+eol
+
 !-----------------  oooops, not working due to my misinterpretation :-( ------
 
 returns the lowest-valued number * * *
@@ -216,10 +221,6 @@ eol
 
 
 
-return pi|compute pi|return π| view π|show π|show number of pi
-!javascript: $!$
-!javascript:return Math.PI * 1 = $!$
-Math.PI($1$)
-eol
+
 
 
