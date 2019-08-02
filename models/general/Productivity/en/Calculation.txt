@@ -156,6 +156,14 @@ compute the natural logarithm with base * of a number, that is *
 Math.log($1$) / Math.log($2$)
 eol
 
+compute the hyperbolic sine of a number *| compute the hyperbolic sine of a number *, that can be expressed using the constant e
+!example:compute the hyperbolic sine of a number 2
+!expect:3.626860407847019 !--https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/sinh
+!javascript: $!$
+var y = Math.exp($1$);
+(y - 1 / y) / 2;
+eol
+
 
 !-----------------  oooops, not working due to my misinterpretation :-( ------
 
@@ -164,16 +172,6 @@ returns the lowest-valued number * * *
 !javascript: $!$
 Math.min($1$,$2$,$3$)
 eol
-
-
-compute the hyperbolic sine of a number *| compute the hyperbolic sine of a number *, that can be expressed using the constant e 
-!not working: console.log(Math.sinh(-1))
-!expect:$!$
-!javascript: $!$
-var y = Math.exp($1$);
-(y - 1 / y) / 2;
-eol
-
 
 returns the sine with radians * and radius * !works partially
 !expect:$!$
