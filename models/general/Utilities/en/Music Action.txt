@@ -16,3 +16,7 @@
 set alarm in one minute to play music
 !example: set alarm in one minute to play music
 alarm set in 1 minute to play music
+
+set alarm to play music in one minute
+!example: set alarm to play music in one minute
+alarm set for 1 miniute to play music
