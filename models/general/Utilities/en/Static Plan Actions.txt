@@ -15,7 +15,6 @@
 //replace the following lines:
 plan a joke at * | set alarm for a joke at * |plan something funny * | plan a joke | set alarm for a joke
 !example:plan a joke
-!example:set alarm for a joke
 !console:$joke$
 {
     "url":"http://api.icndb.com/jokes/random?escape=javascript",
