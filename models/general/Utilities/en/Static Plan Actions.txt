@@ -13,7 +13,7 @@
 
 
 //replace the following lines:
-plan a joke at * | set alarm for a joke at * |plan something funny * | plan a joke | set alarm for a joke
+plan a joke at * | set alarm for a joke at ** |plan something funny * | plan a joke | set alarm for a joke
 !example:plan a joke
 !console:$joke$
 {
