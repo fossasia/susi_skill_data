@@ -12,7 +12,7 @@ search for *|query *|duckduckgo *| search the web for *| find about *| websearch
 !example: search dog
 !console:Here is a websearch result:
 {
-    "url":"http://api.duckduckgo.com/?q=$1$&format=json&pretty=1",
+    "url":"https://cors-anywhere.herokuapp.com/https://api.duckduckgo.com/?q=$1$&format=json&pretty=1",
     "path":"$",
     "actions":[{ 
     "type":"websearch",
