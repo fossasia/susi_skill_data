@@ -2,7 +2,7 @@
 ::author_email schildberg@scoid.de
 ::name api-tests
 ::category Productivity
-::language <Language>
+::language en
 ::author agricola
 ::author_url <author_url>
 ::description <description> 
