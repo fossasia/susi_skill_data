@@ -62,6 +62,14 @@ var today = new Date();
 print("It is "+(today.getYear()+1900+$1$));
 eol  
 
+give the year * years ago|what year we had * years ago|in which year we were living * years ago|what year was * years ago|which year did we have * years ago|what year we were * years ago|say the year we lived * years ago|Tell us the year we lived in * years ago|say the year we lived in * years ago
+!example:what year was 5 years ago
+!expect:It is the year 2019 in the 21st century according to our calendar
+!javascript:$!$
+var today = new Date();
+print("It is "+(today.getYear()+1900-$1$));
+eol 
+
 
 which month we have|which month do we have
 !example:which month we have
