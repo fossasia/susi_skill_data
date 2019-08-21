@@ -5,7 +5,7 @@
 ::language en
 ::author agricola
 ::author_url <author_url>
-::description <description> 
+::description testing api's 
 ::dynamic_content <Yes/No>
 ::developer_privacy_policy <link>
 ::image images/<image_name_job>
