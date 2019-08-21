@@ -1,5 +1,0 @@
-::protected No
-::author_email victorianf.89@hotmail.com
-# SUSI Skill tutorial playground
-roses are red
-SUSI is a hack
