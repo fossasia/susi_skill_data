@@ -1,0 +1,16 @@
+::protected No
+::author_email schildberg@scoid.de
+::name api-tests
+::category Productivity
+::language <Language>
+::author agricola
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/<image_name_job>
+::terms_of_use <link>
+
+
+What is your name? | Why do you want this job? | What are your skills?
+!example: Jimmy | It will be helpful for my career | Web developement
