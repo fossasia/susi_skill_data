@@ -53,6 +53,16 @@ var today = new Date();
 print("It is "+(today.getYear()+1900)+" in the 21st century according to our calendar");
 eol 
 
+
+give the year in * year|what year we have in * years|in which year we are living in * years|what year will be in * years|which year do we have in * years|what year we are in * years|say the year we live in * years|Tell us the year we live in * years|say the year we live in * years
+!example:what year we are in 5 years
+!expect:It is the year 2019 in the 21st century according to our calendar
+!javascript:$!$
+var today = new Date();
+print("It is "+(today.getYear()+1900+$1$));
+eol  
+
+
 which month we have|which month do we have
 !example:which month we have
 !expect:6
