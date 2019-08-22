@@ -96,7 +96,7 @@ eol
 !expect:5 plus 8 is 13
 !javascript:$1$+$2$ = $!$
 !print($1$" plus "+$2$+" is "+$!$);
-print($1$" plus "+$2$+" is "+($1$+$2$));
+print(($1$)" plus "+($2$)+" is "+($1$+$2$));
 eol
 
 
