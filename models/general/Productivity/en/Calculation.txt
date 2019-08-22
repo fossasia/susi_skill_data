@@ -91,7 +91,7 @@ eol
 
 !-----------------  basic algebra ------
 
-*+*|* + *|compute *+*|calculate *+*|what is *+*|what is the sum of *+*|the sum of *+*|compute * plus *|calculate * plus *|what is * plus *|what is the sum of * plus *|the sum of * plus *|
+*+*|* + *|compute *+*|calculate *+*|what is *+*|what is the sum of *+*|the sum of *+*|sum of *+*|compute * plus *|calculate * plus *|what is * plus *|what is the sum of * plus *|the sum of * plus *|
 !example:compute 5 + 8
 !expect:5 plus 8 is 13
 !javascript:$1$+$2$ = $!$
