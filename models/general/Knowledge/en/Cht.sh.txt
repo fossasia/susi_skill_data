@@ -11,7 +11,7 @@
 ::image images/none.jpg
 ::terms_of_use <link>
 
-
+# https://dream.susi.ai/p/cht.sh
 # replace the following lines - click on the (i) to get a tutorial:
 
 query1|query2|query3...
