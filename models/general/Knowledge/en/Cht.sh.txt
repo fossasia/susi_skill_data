@@ -16,5 +16,11 @@
 
 query1|query2|query3...
 !example: How in python get fibbonachi set?
-!expect:<The answer expected for the above example>
+!expect: 
+while (a < 100):
+     c = b  
+     b = a  
+     a = c + b  
+     print(a) 
+
 Answer for the user query
