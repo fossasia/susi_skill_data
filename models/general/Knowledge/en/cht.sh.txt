@@ -8,7 +8,7 @@
 ::description  Connect to cht.sh and get answers from there.
 ::dynamic_content Yes
 ::developer_privacy_policy dunno
-::image images/none.jpg
+::image images/RSy7XXS-mc-escher-wallpapers.jpg
 ::terms_of_use <link>
 
 # https://dream.susi.ai/p/cht.sh
@@ -16,11 +16,11 @@
 
 query1|query2|query3...
 !example: How in python get fibbonachi set?
-!expect: 
-while (a < 100):
+!expect: {
+"data" : "while (a < 100):
      c = b  
      b = a  
      a = c + b  
-     print(a) 
-
+     print(a)"
+}
 Answer for the user query
