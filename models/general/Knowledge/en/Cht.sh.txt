@@ -4,11 +4,11 @@
 ::category Knowledge
 ::language en
 ::author gliolio
-::author_url>
-::description <description> 
-::dynamic_content <Yes/No>
-::developer_privacy_policy <link>
-::image images/<image_name>
+::author_url <no url>
+::description  Connect to cht.sh and get answers from there.
+::dynamic_content Yes
+::developer_privacy_policy dunno
+::image images/none.jpg
 ::terms_of_use <link>
 
 
