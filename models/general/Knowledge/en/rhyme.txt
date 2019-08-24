@@ -7,7 +7,7 @@
 
 word rhyming with *|rhyming word with *|words rhyming with *|rhyming words with *|find me a rhyme of *|rhyme for *
 !example:word rhyming with apple
-!console:$object$
+!console:$!$
 {
     "url":"https://api.datamuse.com/words?rel_rhy=$1$",
     "path":"$.[1].word"

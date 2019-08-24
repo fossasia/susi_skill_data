@@ -29,7 +29,7 @@ eol
 # give wikipage link 
 wiki *| wikipagina *| wikipedia *|* wiki de *|link wikipedia de *|buscar la wiki de * 
 !example:find the wikipage of Elon Musk
-!console:$object$
+!console:$!$
 {
 "url":"https://es.wikipedia.org/w/api.php?action=opensearch&search=$1$&limit=1&format=json",
 "path":"$.[3]"

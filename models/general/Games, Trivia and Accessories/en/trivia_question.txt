@@ -8,7 +8,7 @@
 
 ask me a question | ask something|trivia|question me
 !example:trivia
-!console:$object$
+!console:$!$
 {
 "url":"http://jservice.io/api/random",
 "path":"$.[0].question"

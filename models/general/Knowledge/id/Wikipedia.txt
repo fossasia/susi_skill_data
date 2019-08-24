@@ -11,7 +11,7 @@
 beritahu saya *| beritahu saya tentang *| cari di wiki tentang *| tentang *| wikipedia tentang *
 !example:wikipedia tentang Indonesia
 !expect:Republik Indonesia (RI), umumnya disebut Indonesia, adalah negara di Asia Tenggara yang dilintasi garis khatulistiwa dan berada di antara benua Asia dan Australia serta antara Samudra Pasifik dan Samudra Hindia.
-!console:$object$
+!console:$!$
 {
 "url":"https://id.wikipedia.org/w/api.php?action=opensearch&search=$1$&limit=1&format=json",
 "path":"$.[2].[0]"

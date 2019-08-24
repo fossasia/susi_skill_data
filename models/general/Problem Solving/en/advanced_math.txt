@@ -10,7 +10,7 @@
 derivative *|differentiation of *
 !example:derivative x
 !expect:Derivative x is 1
-!console:Derivative $1$ is $object$ 
+!console:Derivative $1$ is $!$ 
 {
 
     "url":"https://newton.now.sh/derive/$1$",
@@ -23,7 +23,7 @@ eol
 integrate *|integration of *
 !example:integrate x
 !expect:Integration x is 1/2 x^2
-!console:Integration $1$ is $object$ 
+!console:Integration $1$ is $!$ 
 {
 
     "url":"https://newton.now.sh/integrate/$1$",

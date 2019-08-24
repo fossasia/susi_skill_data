@@ -6,7 +6,7 @@
 ::description Need some motivation, ask susi to recite a quote for you
 tell me a quote|give me a quote
 !example: tell me a quote
-!console:$object$
+!console:$!$
 {
     "url":"http://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=json",
     "path":"$.quoteText"

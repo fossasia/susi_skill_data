@@ -10,7 +10,7 @@
 sentiment of *|what is the sentiment of *|the sentiment of *|describe the sentiment of *|explain the sentiment of *
 !example:sentiment of happy
 !expect:Expression is : P (where P:Positive and N:Negative)
-!console:Expression is : $object$ (where P:Positive and N:Negative)
+!console:Expression is : $!$ (where P:Positive and N:Negative)
 {
     "url":"https://api.meaningcloud.com/sentiment-2.1?key=5aa3b16fb713e77467cca4aaec134cbc&of=json&txt=$1$&lang=en",
     "path":"$.score_tag"

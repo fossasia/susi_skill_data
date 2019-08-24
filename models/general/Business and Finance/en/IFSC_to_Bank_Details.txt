@@ -13,7 +13,7 @@
 Name of bank with IFSC code * | Bank's name with IFSC code *
 !example:Name of bank with IFSC code SBIN0007245
 !expect: The name of bank is SBI
-!console:The name of bank with IFSC code $1$ is $object$
+!console:The name of bank with IFSC code $1$ is $!$
 {
 "url":"https://ifsc.razorpay.com/$1$",
 "path":"$.BANK"
@@ -23,7 +23,7 @@ eol
 Address of bank with IFSC code * | Bank's address with IFSC code *
 !example:Address of bank wih IFSC code SBIN0007245
 !expect: The address of bank is 
-!console:The address of bank with IFSC code $1$ is $object$
+!console:The address of bank with IFSC code $1$ is $!$
 {
 "url":"https://ifsc.razorpay.com/$1$",
 "path":"$.ADDRESS"

@@ -7,7 +7,7 @@
 Name of bank with IFSC code * | Bank's name with IFSC code *
 !example:Name of bank with IFSC code SBIN0007245
 !expect: The name of bank is SBI
-!console:The name of bank with IFSC code $1$ is $object$
+!console:The name of bank with IFSC code $1$ is $!$
 {
 "url":"https://ifsc.razorpay.com/$1$",
 "path":"$.BANK"
@@ -16,7 +16,7 @@ eol
 
 What is the poem of *
 !example:What is the poem of Ozymandias?
-!console: Author $1$ is $object$
+!console: Author $1$ is $!$
 {
     "url":"http://poetrydb.org/title/$1$/lines.json",
     "path":"author"

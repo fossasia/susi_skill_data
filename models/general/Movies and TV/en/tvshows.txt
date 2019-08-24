@@ -17,7 +17,7 @@ eol
 
 * plot of *|* summary of *
 !example:give plot of suits
-!console:$object$
+!console:$!$
 {
 "url":"http://api.tvmaze.com/singlesearch/shows?q=$2$",
 "path":"$.summary"

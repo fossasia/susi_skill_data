@@ -9,7 +9,7 @@
 # pinyin
 pinyin *|pinyin for *|what is the pinyin for *|* in pinyin|convert * to pinyin|* to pinyin
 !example:what is the pinyin for 漢字
-!console:$object$
+!console:$!$
 {
   "url":"https://pinyin-rest.pepebecker.com/pinyin/$1$",
   "path":"$.text"

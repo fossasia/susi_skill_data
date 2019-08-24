@@ -8,7 +8,7 @@
 
 daily horoscope for *|horoscope for *
 !example:horoscope for aries
-!console:$object$
+!console:$!$
 {
     "url":"http://horoscope-api.herokuapp.com/horoscope/today/$1$",
     "path":"$.horoscope"

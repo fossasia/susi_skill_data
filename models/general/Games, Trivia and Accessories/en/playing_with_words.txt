@@ -7,7 +7,7 @@
 
 word starting with * and ending with *
 !example:word starting with m and ending with v
-!console:$object$
+!console:$!$
 {
     "url":"https://api.datamuse.com/words?sp=$1$??$2$",
     "path":"$.[0].word"

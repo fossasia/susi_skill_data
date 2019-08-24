@@ -13,7 +13,7 @@
 
 cowsay *
 !example:cowsay I am a cow
-!console:<pre>$object$</pre>
+!console:$!$
 {
     "url": "http://cowsay.morecode.org/say?message=$1$&format=json",
     "path": "$.cow"
