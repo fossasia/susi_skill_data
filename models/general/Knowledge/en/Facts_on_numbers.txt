@@ -8,7 +8,7 @@
 
 tell me a math fact | tell something interesting about maths | Do you know any amazing maths fact | give me a maths fact | do you know any maths fact | tell me facts about maths | 
 !example:Tell me something interesting about maths!
-!console:$object$
+!console:$!$
      {
         "url" : " http://numbersapi.com/number/type",
         "path":"$.type"
