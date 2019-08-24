@@ -15,22 +15,25 @@
 
 Where is this phone number * located?| Location of phone number *
 !example:Where is this phone number 896XXXXXXX located
-!console: Location is at $object$
-{    "url":"http://apilayer.net/api/validate?access_key=640e7b4337ffc2c9900d31127b8ec011&number=$1$&country_code=&format=1",
+!console: Location is at $!$
+{
+    "url":"http://apilayer.net/api/validate?access_key=640e7b4337ffc2c9900d31127b8ec011&number=$1$&country_code=&format=1",
     "path":"$.location"
 }
 eol
 
 In which country is this phone number * based?
-!console: This number is based in $object$
-{    "url":"http://apilayer.net/api/validate?access_key=640e7b4337ffc2c9900d31127b8ec011&number=$1$&country_code=&format=1",
+!console: This number is based in $!$
+{
+    "url":"http://apilayer.net/api/validate?access_key=640e7b4337ffc2c9900d31127b8ec011&number=$1$&country_code=&format=1",
     "path":"$.country_name"
 }
 eol
 
 What is the line type of this phone number * ?
-!console: The line type of this number is $object$
-{    "url":"http://apilayer.net/api/validate?access_key=640e7b4337ffc2c9900d31127b8ec011&number=$1$&country_code=&format=1",
+!console: The line type of this number is $!$
+{
+    "url":"http://apilayer.net/api/validate?access_key=640e7b4337ffc2c9900d31127b8ec011&number=$1$&country_code=&format=1",
     "path":"$.line_type"
 }
 eol
@@ -38,8 +41,9 @@ eol
 
 What carrier is this phone number * registered with ?
 !example: What carrier is this phone number 896XXXXXXX registered with ?
-!console: This number is  registered with $object$
-{    "url":"http://apilayer.net/api/validate?access_key=640e7b4337ffc2c9900d31127b8ec011&number=$1$&country_code=&format=1",
+!console: This number is registered with $!$
+{
+    "url":"http://apilayer.net/api/validate?access_key=640e7b4337ffc2c9900d31127b8ec011&number=$1$&country_code=&format=1",
     "path":"$.carrier"
 }
 eol
