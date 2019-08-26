@@ -2,7 +2,7 @@
 ::author_email schildberg@scoid.de
 ::protected No
 ::author_email schildberg@scoid.de
-::name Date Calculations with Offline Device
+::name date calculations_with_offline_device
 ::category Productivity
 ::language en
 ::author agricola
