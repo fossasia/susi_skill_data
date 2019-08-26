@@ -17,7 +17,7 @@
 !-----------------  basic algebra ------
 ! this sample does not work at 15:00, 22 August 2019 , why?
 
-*+*|* + *|compute *+*|calculate *+*|what is *+*|what is the sum of *+*|the sum of *+*|sum of *+*|compute * plus *|calculate * plus *|what is * plus *|what is the sum of * plus *|the sum of * plus *|
+what is *+*|what is the sum of *+*|the sum of *+*|sum of *+*|compute * plus *|calculate * plus *|what is * plus *|what is the sum of * plus *|the sum of * plus *|
 !example:compute 5 + 8
 !expect:5 plus 8 is 13
 !javascript:$1$+$2$ = $!$
