@@ -1,6 +1,6 @@
 ::protected No
 ::author_email schildberg@scoid.de
-::name Calculation - offline 
+::name Calculation offline
 ::category Productivity
 ::language en
 ::author agricola
