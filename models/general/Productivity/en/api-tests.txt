@@ -15,7 +15,7 @@ pageid of *
 !example:pageid of Q43261
 !console:
 {
-"url":"https://www.wikidata.org/w/api.php?format=json&action=wbgetentities&ids=Q43261",
+"url":"https://www.wikidata.org/w/api.php?format=json&action=wbgetentities&ids=$!$",
 "path":"$.entities"
 "actions":[{
 "type":"table",
