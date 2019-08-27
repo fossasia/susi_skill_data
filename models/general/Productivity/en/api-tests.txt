@@ -22,7 +22,7 @@ Longitude of IP number *
 }
 eol
 
-Country of IP number *
+Country of IP number *|In which country is the IP * located
 !example:In which country is the IP 80.122.124.100 located?
 !expect:The IP is located in Austria.
 !console:The IP is located in $!$.
