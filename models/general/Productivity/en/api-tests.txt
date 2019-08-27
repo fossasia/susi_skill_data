@@ -60,8 +60,8 @@ cook *|how to cook *|recipe for *
 }
 eol
 
-recipe list for *
-!example:recipe list for biryani
+rezept list for *
+!example:rezept list for biryani
 !console:
 {
 "url":"http://www.recipepuppy.com/api/?q=$1$",
