@@ -31,7 +31,7 @@ eol
 
 compute * to the power of *|calculate * to the power of *
 !example:compute 2 to the power of 3
-!expect:2^3 = 8.0 !--https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/pow
+!expect:The power of  2^3 = 8.0 !--https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/pow
 !javascript:The power of $1$^$2$ = $!$
 Math.pow($1$, $2$)
 eol
