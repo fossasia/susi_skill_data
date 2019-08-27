@@ -22,8 +22,8 @@ pageid of *
 eol
 
 
-Country Code of IP number *|country_code of IP number *
-!example:Which country_code has the IP 80.122.124.100?
+Country Code of IP number *|country_code of IP number *|Which country_code has the IP *
+!example:Country Code of IP number 80.122.124.100?
 !expect:The country_code is DE
 !console:The country_code is $!$.
 {
