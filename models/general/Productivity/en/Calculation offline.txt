@@ -19,11 +19,12 @@
 
 what is *+*|what is the sum of *+*|the sum of *+*|sum of *+*|compute * plus *|calculate * plus *|what is * plus *|what is the sum of * plus *|the sum of * plus *|
 !example:compute 5 + 8
-!expect:5 plus 8 is 13
-!javascript:$1$+$2$ = $!$
-!print($1$" plus "+$2$+" is "+$!$);
-print(($1$)" plus "+($2$)+" is "+($1$+$2$));
+!expect:5 plus 8 equals 13
+!javascript:$1$ plus $2$ equals $!$
+print($1$+$2$);
 eol
+
+
 
 
 
