@@ -11,15 +11,6 @@
 ::image images/<image_name_job>
 ::terms_of_use <link>
 
-Where is IP *|Where is IP * located|What is the location of IP *|Where is the IP *|Where is the IP * located|What is the location of the IP *|Where is this IP *|Location of IP *|Where is the IP address *|Where is the IP address * located|What is the location of the IP address *|Where is this IP address *|Location of IP address *|Where is the IP number *|Where is the IP number * located|What is the location of the IP number *|Where is this IP number *|Location of IP number *
-!example:Where is the IP 80.122.124.100 located?
-!expect:The IP is located in Vienna.
-!console:The IP is located in $!$.
-{
-"url":"https://api.hostip.info/get_json.php?ip=$1$",
-"path":"$.city"
-}
-eol
 
 Country of IP number *
 !example:In which country is the IP 80.122.124.100 located?
@@ -30,6 +21,19 @@ Country of IP number *
 "path":"$.country_name"
 }
 eol
+
+
+Where is IP *|Where is IP * located|What is the location of IP *|Where is the IP *|Where is the IP * located|What is the location of the IP *|Where is this IP *|Location of IP *|Where is the IP address *|Where is the IP address * located|What is the location of the IP address *|Where is this IP address *|Location of IP address *|Where is the IP number *|Where is the IP number * located|What is the location of the IP number *|Where is this IP number *|Location of IP number *
+!example:Where is the IP 80.122.124.100 located?
+!expect:The IP is located in Vienna.
+!console:The IP is located in $!$.
+{
+"url":"https://api.hostip.info/get_json.php?ip=$1$",
+"path":"$.city"
+}
+eol
+
+
 
 
 Date *|what is date *|can you tell what is date *|can you tell me what is date *|can you tell me what date is *|can you tell what date is *|can you tell me what date is it *|can you tell what date is it *|tell what is date *|tell me what date is *|tell me what date is *|tell what date is *|tell what date is it *|tell what date is it *|Do you know what is date *|do you know what date is it *|Do you know what date is *|Do you know date *|what was date *|can you tell what was date *|can you tell me what was date *|can you tell me what date was *|can you tell what date was *|can you tell me what date was it *|can you tell what date was it *|tell what was date *|tell me what date was *|tell me what data was *|tell what date was *|tell what date was it *|tell what date was it *|Do you know what was date *|do you know what date was it *|Do you know what date is *
