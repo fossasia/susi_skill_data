@@ -31,10 +31,14 @@ eol
 
 compute * to the power of *|calculate * to the power of *
 !example:compute 2 to the power of 3
-!expect:The power of  2^3 = 8.0 !--https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/pow
-!javascript:The power of $1$^$2$ = $!$
+!expect:2 to the power of 3 results in 8 !--https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/pow
+!javascript:$1$ to the power of $2$ results in $!$
 Math.pow($1$, $2$)
 eol
+
+
+
+
 
 give a random number between 0 and 1 | compute a random number between 0 and 1|caculate a random number between 0 and 1
 !example:random number between 0 and 1
