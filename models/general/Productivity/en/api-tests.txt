@@ -11,21 +11,7 @@
 ::image images/<image_name_job>
 ::terms_of_use <link>
 
-
-
-
-Sensor *
-!example:Data from 5bb1eb44043f3f001ba6285b ? !https://api.opensensemap.org/boxes/5bb1eb44043f3f001ba6285b/sensors
-!expect:The id is 5bb1eb44043f3f001ba6285b.
-!console:The id is $!$.
-{
-"url":"https://api.opensensemap.org/boxes/$!$/sensors",
-"path":"$._id"
-}
-eol
-
-
-Horizon
+pageid of *
 !example:Horizon?
 !expect:They are 43261.
 !console:They are $!$.
