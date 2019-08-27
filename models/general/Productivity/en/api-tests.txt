@@ -115,6 +115,7 @@ eol
 
 !-------------------------------- end recipepuppy.com -----------------------------------------
 
+!-------------------------------- inadiutorium.cz -----------------------------------------
 
 Date *|what is date *|can you tell what is date *|can you tell me what is date *|can you tell me what date is *|can you tell what date is *|can you tell me what date is it *|can you tell what date is it *|tell what is date *|tell me what date is *|tell me what date is *|tell what date is *|tell what date is it *|tell what date is it *|Do you know what is date *|do you know what date is it *|Do you know what date is *|Do you know date *|what was date *|can you tell what was date *|can you tell me what was date *|can you tell me what date was *|can you tell what date was *|can you tell me what date was it *|can you tell what date was it *|tell what was date *|tell me what date was *|tell me what data was *|tell what date was *|tell what date was it *|tell what date was it *|Do you know what was date *|do you know what date was it *|Do you know what date is *
 !example:Date tomorrow?
@@ -144,6 +145,10 @@ Day on year * month * date *|what is day on year * month * date *|can you tell w
 }
 eol
 
+!-------------------------------- end inadiutorium.cz -----------------------------------------
+
+!-------------------------------- wolframalpha.com -----------------------------------------
+
 day on *|what is day on *|can you tell what is day on *|can you tell me what is day on *|can you tell me what day is on *|can you tell what day is on *|can you tell me what day is it on *|can you tell what day is it on *|tell what is day on *|tell me what day is on *|tell me what day is on *|tell what day is on *|tell what day is it on *|tell what day is it on *|Do you know what is day on *|do you know what day is it on *|Do you know what day is on *|Do you know day on *|what was day on *|can you tell what was day on *|can you tell me what was day on *|can you tell me what day was on *|can you tell what day was on *|can you tell me what day was it on *|can you tell what day was it on *|tell what was day on *|tell me what day was on *|tell me what day was on *|tell what day was on *|tell what day was it on *|tell what day was it on *|Do you know what was day on *|do you know what day was it on *|Do you know what day is on *
 !example:day on 21/6/2017
 !console:It's $alt$ on $1$
@@ -152,3 +157,4 @@ day on *|what is day on *|can you tell what is day on *|can you tell me what is 
 "path":"$.queryresult.pods[1].subpods[0].img"
 }
 eol
+!-------------------------------- end wolframalpha.com -----------------------------------------
