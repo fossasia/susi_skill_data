@@ -5,7 +5,7 @@
 ::language en
 ::author agricola
 ::author_url <author_url>
-::description testing api's , only for test purposes
+::description testing api's , only for test purposes. Origins of these examples are not mine, I pulled them from other skills. Just to say.
 ::dynamic_content <Yes/No>
 ::developer_privacy_policy <link>
 ::image images/<image_name_job>
