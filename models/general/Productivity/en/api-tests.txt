@@ -11,12 +11,12 @@
 ::image images/<image_name_job>
 ::terms_of_use <link>
 
-Beeteinfassung
-!example:Beeteinfassung?
-!expect:They are 5396903.
+Horizon
+!example:Horizon?
+!expect:They are 43261.
 !console:They are $!$.
 {
-"url":"https://www.wikidata.org/w/api.php?format=json&action=wbgetentities&ids=Q66715031",
+"url":"https://www.wikidata.org/w/api.php?format=json&action=wbgetentities&ids=Q43261",
 "path":"$.pageid"
 }
 eol
