@@ -11,7 +11,7 @@
 ::image images/<image_name_job>
 ::terms_of_use <link>
 
-pageid of *
+page id of *
 !example:pageid of Q43261
 !console:
 {
