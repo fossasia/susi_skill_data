@@ -13,6 +13,16 @@
 
 
 Country of IP number *
+!example:On which longitude is the IP 80.122.124.100 located?
+!expect:The IP is located in Austria.
+!console:The IP is located in $!$.
+{
+"url":"https://api.hostip.info/get_json.php?ip=$1$",
+"path":"$.longitude"
+}
+eol
+
+Country of IP number *
 !example:In which country is the IP 80.122.124.100 located?
 !expect:The IP is located in Austria.
 !console:The IP is located in $!$.
