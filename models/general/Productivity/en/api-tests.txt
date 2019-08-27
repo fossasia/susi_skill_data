@@ -67,7 +67,6 @@ rezept list for *
 "url":"http://www.recipepuppy.com/api/?q=$1$",
 "path":"$.results",
 "actions":[{
-
 "columns":{"title":"Recipe","ingredients":"Ingredients","href":"Instructions Link"}
 }]
 }
