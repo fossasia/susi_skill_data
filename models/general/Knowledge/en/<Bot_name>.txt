@@ -1,0 +1,41 @@
+::protected No
+::author_email Lukas.Schichler@avl.com
+::name <Bot_name>
+::category Knowledge
+::language en
+::author <author_name>
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+
+# replace the following lines - click on the (i) to get a tutorial:
+Javis can you hear me?
+Yes!
+
+* expensive * test bed?
+
+That varies a lot, but you can expect around 4-7 million Euro without the car.
+
+* measured * test bed?
+A lot of different Parameters, for example....
+
+* show * something * ?
+Of course, I will show you where the liquids are flowing!
+
+*?*
+
+Unfortunately, I have no answer to your question, because I have not learnt that yet. Maybe I will know t
+he answer next time.
+
+*r*
+
+Unfortunately, I have no answer to your question, because I have not learnt that yet. Maybe I will know t
+he answer next time.
+
+*i*
+Unfortunately, I have no answer to your question, because I have not learnt that yet. Maybe I will know the answer next time.
+
