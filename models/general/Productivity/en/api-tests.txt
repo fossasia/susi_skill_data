@@ -14,7 +14,7 @@
 !-------------------------------- wikidata.org -----------------------------------------
 
 page id of *
-!example:pageid of Q43261
+!example:page id of Q43261
 !console:
 {
 "url":"https://www.wikidata.org/w/api.php?format=json&action=wbgetentities&ids=$!$",
