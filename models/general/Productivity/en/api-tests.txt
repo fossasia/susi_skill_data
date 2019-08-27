@@ -17,7 +17,7 @@ Beeteinfassung
 !console:They are $!$.
 {
 "url":"https://www.wikidata.org/w/api.php?format=json&action=wbgetentities&ids=Q66715031",
-"path":"$.value"
+"path":"$.pageid"
 }
 eol
 
