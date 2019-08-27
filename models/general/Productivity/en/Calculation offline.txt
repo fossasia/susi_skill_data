@@ -29,7 +29,7 @@ eol
 
 !-----------------  calculations ------
 
-compute * to the power of *|calculate * to the power of *
+compute * to the power of *|calculate * to the power of *|* to the power of * results in what|* to the power of * is what
 !example:compute 2 to the power of 3
 !expect:2 to the power of 3 results in 8 !--https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/pow
 !javascript:$1$ to the power of $2$ results in $!$
