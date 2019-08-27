@@ -70,7 +70,7 @@ rezept list for *
 "path":"$.results",
 "actions":[{
 "type":"table",
-"columns":{"title":"Rezept","ingredients":"Inhaltsstoffe","thumbnail":"Bild-Vignette"}
+"columns":{"title":"Rezept","ingredients":"Inhaltsstoffe","thumbnail":"Bild-Vignette","href":"Verlinkung"}
 }]
 }
 eol
