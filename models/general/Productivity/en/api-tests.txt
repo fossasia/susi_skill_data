@@ -59,6 +59,7 @@ cook *|how to cook *|recipe for *
 "path":"$.results"
 }
 eol
+
 rezept list for *
 !example:rezept list for biryani
 !console:
