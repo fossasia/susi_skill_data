@@ -11,6 +11,16 @@
 ::image images/<image_name_job>
 ::terms_of_use <link>
 
+How many people wikidata knows
+!example:How many people wikidata knows?
+!expect:They are 5396903.
+!console:They are $!$.
+{
+"url":"https://query.wikidata.org/#%23Anzahl%20der%20Menschen%20in%20Wikidata%0ASELECT%20%28COUNT%28%3Fitem%29%20AS%20%3Fcount%29%0AWHERE%20%7B%0A%09%3Fitem%20wdt%3AP31%2Fwdt%3AP279%2a%20wd%3AQ5%20.%0A%7D=$1$",
+"path":"$.count"
+}
+eol
+
 
 Longitude of IP number *|On which longitude is the IP * located
 !example:On which longitude is the IP 80.122.124.100 located?
