@@ -75,19 +75,6 @@ neuesrezept list for *
 }
 eol
 
-rezept list for *
-!example:rezept list for biryani
-!console:
-{
-"url":"http://www.recipepuppy.com/api/?q=$1$",
-"path":"$.results",
-"actions":[{
-"type":"table",
-"columns":{"title":"Rezept","ingredients":"Inhaltsstoffe","thumbnail":"Bild-Vignette","href":"Verlinkung"}
-}]
-}
-eol
-
 
 altesrezept list for *
 !example:altesrezept list for biryani
