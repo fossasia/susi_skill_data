@@ -67,7 +67,11 @@ rezept list for *
 !console:
 {
 "url":"http://www.recipepuppy.com/api/?q=$1$",
-"path":"$.results"
+"path":"$.results",
+"actions":[{
+"type":"table",
+"columns":{"ingredients":"Ingredients"}
+}]
 }
 eol
 
