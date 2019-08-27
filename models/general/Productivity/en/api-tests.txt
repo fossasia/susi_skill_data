@@ -42,6 +42,8 @@ Country of IP number *|In which country is the IP * located
 }
 eol
 
+!-------------------------------- cooking -----------------------------------------
+
 * cook * | * recipe of * | * make * | * prepare *
 !example:how to cook biryani
 !console:To cook $title$, make sure you have $ingredients$ and check out $href$
@@ -65,10 +67,7 @@ rezept list for *
 !console:
 {
 "url":"http://www.recipepuppy.com/api/?q=$1$",
-"path":"$.results",
-"actions":[{
-"columns":{"title":"Recipe","ingredients":"Ingredients","href":"Instructions Link"}
-}]
+"path":"$.results"
 }
 eol
 
@@ -85,6 +84,8 @@ altesrezept list for *
 }]
 }
 eol
+
+!-------------------------------------------------------------------------
 
 
 Where is IP *|Where is IP * located|What is the location of IP *|Where is the IP *|Where is the IP * located|What is the location of the IP *|Where is this IP *|Location of IP *|Where is the IP address *|Where is the IP address * located|What is the location of the IP address *|Where is this IP address *|Location of IP address *|Where is the IP number *|Where is the IP number * located|What is the location of the IP number *|Where is this IP number *|Location of IP number *
