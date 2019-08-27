@@ -22,13 +22,13 @@ pageid of *
 eol
 
 
-Longitude of IP number *|On which longitude is the IP * located
-!example:On which longitude is the IP 80.122.124.100 located?
-!expect:The IP is located at xxxx
-!console:The IP is located at $!$.
+Country Code of IP number *|country_code of IP number *
+!example:Which country_code has the IP 80.122.124.100?
+!expect:The country_code is DE
+!console:The country_code is $!$.
 {
 "url":"https://api.hostip.info/get_json.php?ip=$1$",
-"path":"$.longitude"
+"path":"$.country_code"
 }
 eol
 
