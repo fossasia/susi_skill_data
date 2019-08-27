@@ -84,7 +84,7 @@ altesrezept list for *
 "path":"$.results",
 "actions":[{
 "type":"table",
-"columns":{float: right; "title":"Recipe","ingredients":"Ingredients","href":"Instructions Link"}
+"columns":{"title":"Recipe","ingredients":"Ingredients","href":"Instructions Link"}
 }]
 }
 eol
