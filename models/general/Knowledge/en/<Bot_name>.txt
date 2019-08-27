@@ -1,5 +1,3 @@
-::protected No
-::author_email Lukas.Schichler@avl.com
 ::name <Bot_name>
 ::category Knowledge
 ::language en
@@ -11,31 +9,32 @@
 ::image images/<image_name>
 ::terms_of_use <link>
 
+#Intro	--------------------------------------------------------------------
+start Javis
+^intro^>_status
 
-# replace the following lines - click on the (i) to get a tutorial:
-Javis can you hear me?
-Yes!
+#Lobby	--------------------------------------------------------------------
+Hello Javis
+?$_status$=intro:Oh hello! Ask me something!^lobby^>_status : ^^>_na
 
-* expensive * test bed?
+#Q1	------------------------------------------------------------------------
+* expensive * test bed? | * expensive * testbed?
+?$_status$=lobby:That varies a lot, but you can expect around 4-7 million Euro without the car. ^q1^>_status : ^^>_na
 
-That varies a lot, but you can expect around 4-7 million Euro without the car.
+#Q2	------------------------------------------------------------------------
+* measured * test bed? | * measured * test bed?
+?$_status$=lobby:A lot of different Parameters, for example....^q2^>_status : ^^>_na
 
-* measured * test bed?
-A lot of different Parameters, for example....
-
+#Q3	------------------------------------------------------------------------
 * show * something * ?
-Of course, I will show you where the liquids are flowing!
+?$_status$=lobby:Of course, I will show you where the liquids are flowing!^q3^>_status : ^^>_na
 
-*?*
+#no answer	----------------------------------------------------------------
+*e* | *i* | *r*
+?$_status$=lobby:Unfortunately, I have no answer to your question, because I have not learned that yet. Maybe I will know the answer next time. ^na^>_status : ^^>_na
 
-Unfortunately, I have no answer to your question, because I have not learnt that yet. Maybe I will know t
-he answer next time.
+#End	--------------------------------------------------------------------
 
-*r*
-
-Unfortunately, I have no answer to your question, because I have not learnt that yet. Maybe I will know t
-he answer next time.
-
-*i*
-Unfortunately, I have no answer to your question, because I have not learnt that yet. Maybe I will know the answer next time.
-
+#Var
+var
+$_status$
