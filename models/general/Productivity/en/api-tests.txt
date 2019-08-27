@@ -12,9 +12,8 @@
 ::terms_of_use <link>
 
 pageid of *
-!example:Horizon?
-!expect:They are 43261.
-!console:They are $!$.
+!example:pageid of Q43261
+!console:
 {
 "url":"https://www.wikidata.org/w/api.php?format=json&action=wbgetentities&ids=Q43261",
 "path":"$.entities"
