@@ -73,8 +73,8 @@ rezept list for *
 eol
 
 
-altes rezept list for *
-!example:altes rezept list for biryani
+altesrezept list for *
+!example:altesrezept list for biryani
 !console:
 {
 "url":"http://www.recipepuppy.com/api/?q=$1$",
