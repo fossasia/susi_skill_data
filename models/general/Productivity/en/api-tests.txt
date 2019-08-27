@@ -17,7 +17,7 @@ pageid of *
 !console:They are $!$.
 {
 "url":"https://www.wikidata.org/w/api.php?format=json&action=wbgetentities&ids=Q43261",
-"path":"$.pageid"
+"path":"$.entities"
 }
 eol
 
