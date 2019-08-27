@@ -70,7 +70,7 @@ rezept list for *
 "path":"$.results",
 "actions":[{
 "type":"table",
-"columns":{"ingredients":"Ingredients"}
+"columns":{"title":"Recipe","ingredients":"Ingredients"}
 }]
 }
 eol
