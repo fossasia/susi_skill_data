@@ -59,9 +59,22 @@ cook *|how to cook *|recipe for *
 "path":"$.results"
 }
 eol
-
 rezept list for *
 !example:rezept list for biryani
+!console:
+{
+"url":"http://www.recipepuppy.com/api/?q=$1$",
+"path":"$.results",
+"actions":[{
+
+"columns":{"title":"Recipe","ingredients":"Ingredients","href":"Instructions Link"}
+}]
+}
+eol
+
+
+altes rezept list for *
+!example:altes rezept list for biryani
 !console:
 {
 "url":"http://www.recipepuppy.com/api/?q=$1$",
