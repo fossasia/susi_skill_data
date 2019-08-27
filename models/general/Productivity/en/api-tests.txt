@@ -12,7 +12,7 @@
 ::terms_of_use <link>
 
 
-Country of IP number *
+Longitude of IP number *
 !example:On which longitude is the IP 80.122.124.100 located?
 !expect:The IP is located in Austria.
 !console:The IP is located in $!$.
