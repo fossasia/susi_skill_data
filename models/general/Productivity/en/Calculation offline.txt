@@ -33,7 +33,7 @@ compute * to the power of *|calculate * to the power of *|* to the power of * re
 Math.pow($1$, $2$)
 eol
 
-give a random number between 0 and 1 | compute a random number between 0 and 1|caculate a random number between 0 and 1
+give a random number between 0 and 1 | compute a random number between 0 and 1|caculate a random number between 0 and 1|random number between 0 and 1
 !example:random number between 0 and 1
 !expect: a random number bigger than 0 and smaller than 1 equals 0.3 !--https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
 !javascript:a random number bigger than 0 and smaller than 1 equals $!$
