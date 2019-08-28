@@ -28,29 +28,29 @@ eol
 
 compute * to the power of *|calculate * to the power of *|* to the power of * results in what|* to the power of * is what
 !example:compute 2 to the power of 3
-!expect:2 to the power of 3 results in 8 !--https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/pow
-!javascript:$1$ to the power of $2$ results in $!$
+!expect:2 to the power of 3 equals 8 !--https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/pow
+!javascript:$1$ to the power of $2$ equals $!$
 Math.pow($1$, $2$)
 eol
 
 give a random number between 0 and 1 | compute a random number between 0 and 1|caculate a random number between 0 and 1
 !example:random number between 0 and 1
-!expect: a number bigger than 0 and smaller than 1 !--https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
-!javascript:$!$
+!expect: a random number bigger than 0 and smaller than 1 equals 0.3 !--https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
+!javascript:a random number bigger than 0 and smaller than 1 equals $!$
 Math.random()
 eol
 
 give a random number between 0 and * |random number between 0 and *|calcute a random number between 0 and *
 !example:give a random number between 0 and 17
-!expect: a number bigger than 0 and smaller than 17 !--https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
-!javascript:$!$
+!expect: a number bigger than 0 and smaller than 17  equals 6 !--https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
+!javascript:a number bigger than 0 and smaller than $1$ equals $!$
 Math.floor(Math.random() * Math.floor($1$))
 eol
 
 round * 
 !example:round 0.9
-!expect: 1 !--https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/round
-!javascript: $!$
+!expect: 0.9 rounded equals 1 !--https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/round
+!javascript: $1$ rounded equals $!$
 Math.round($1$) 
 eol
 
