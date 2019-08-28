@@ -97,8 +97,8 @@ Math.log($1$) * Math.LOG10E
 eol
 
 Compute the natural logarithm of * | Logarithm of * | Compute the natural logarithm with base e of 1 plus a number, that is *|Calculate the natural logarithm of *|Calculate the logarithm of *
-!example: Compute the natural logarithm with base e of 1 plus a number, that is 1
-!expect:The natural logarithm with base e of 1 plus a number, that is 1 equals 0.6931471805599453 !-- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/log
+!example: Compute the natural logarithm with base e of 1 plus a number that is 1
+!expect:The natural logarithm with base e of 1 plus a number that is 1 equals 0.6931471805599453 !-- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/log
 !javascript: The natural logarithm with base e of 1 plus a number, that is $1$ equals $!$
 Math.log(1 + $1$)
 eol
