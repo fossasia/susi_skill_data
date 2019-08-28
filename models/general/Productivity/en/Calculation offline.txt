@@ -20,7 +20,7 @@ what is *+*|what is the sum of *+*|the sum of *+*|sum of *+*|compute * plus *|ca
 !example:Compute 5 plus 8
 !expect:5 plus 8 equals 13
 !javascript:$1$+$2$ = $!$
-$1$+$2$=$!$;
+($1$+$2$);
 eol
 
 
