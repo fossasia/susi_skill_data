@@ -8,7 +8,7 @@
 ::description Show random dummy text for a mockup
 ::dynamic_content Yes
 ::developer_privacy_policy
-::image images/skate_ipsum.png
+::image images/skateboard-skateboarding-silhou.jpg
 ::terms_of_use
 
 
