@@ -19,7 +19,7 @@
 what is *+*|what is the sum of *+*|the sum of *+*|sum of *+*|compute * plus *|calculate * plus *|what is * plus *|what is the sum of * plus *|the sum of * plus *|compute *+*|
 !example:compute 5+8
 !expect:5 plus 8 equals 13
-!javascript:$1$ + $2$ = $!$
+!javascript:$1$+$2$ = $!$
 $1$+$2$=$!$;
 eol
 
@@ -77,50 +77,50 @@ eol
 
 get tangens from * degrees|calculate the tangens from * degrees|compute the tangens from * degrees
 !example: get tangens from 45 degrees
-!expect:0.9999999999999999 !--https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/tan
-!javascript: $!$
+!expect:The tangens from $1$ degrees equals 0.9999999999999999 !--https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/tan
+!javascript: The tangens from $1$ degrees equals $!$
 Math.tan($1$ * Math.PI/180)
 eol
 
 compute the base 2 logarithm of a number, that is *|calculate the base 2 logarithm of a number, that is *
 !example: compute the base 2 logarithm of a number, that is 3
-!expect:1.584962500721156 !-- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/log2
-!javascript: $!$
+!expect:The base 2 logarithm of a number, that is 3 equals 1.584962500721156 !-- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/log2
+!javascript: The base 2 logarithm of a number, that is $1$ equals $!$
 Math.log($1$) * Math.LOG2E
 eol
 
 compute the base 10 logarithm of a number, that is *|calculate the base 10 logarithm of a number, that is *
 !example: compute the base 10 logarithm of a number, that is 100000
-!expect:5 !-- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/log10
-!javascript: $!$
+!expect:The base 10 logarithm of a number, that is 100000 equals 5 !-- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/log10
+!javascript: The base 10 logarithm of a number, that is $1$ equals $!$
 Math.log($1$) * Math.LOG10E
 eol
 
 compute the natural logarithm of * | logarithm of * | compute the natural logarithm with base e of 1 plus a number, that is *|calculate the natural logarithm of *|calculate the logarithm of *
 !example: compute the natural logarithm with base e of 1 plus a number, that is 1
-!expect:0.6931471805599453 !-- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/log
-!javascript: $!$
+!expect:The natural logarithm with base e of 1 plus a number, that is 1 equals 0.6931471805599453 !-- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/log
+!javascript: The natural logarithm with base e of 1 plus a number, that is $1$ equals $!$
 Math.log(1 + $1$)
 eol
 
 compute the natural logarithm with base * of a number, that is *|calculate the natural logarithm with base * of a number, that is *
 !example: compute the natural logarithm with base 8 of a number, that is 2
-!expect:3 is the natural logarithm with base 8 of a number, that is 2 !--https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/log10
-!javascript: $!$ is the natural logarithm with base $1$ of a number, that is $2$
+!expect:The natural logarithm with base 8 of a number, that is 2 equals $!$ !--https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/log10
+!javascript: The natural logarithm with base $1$ of a number, that is $2$ equals $!$
 Math.log($1$) / Math.log($2$)
 eol
 
 compute the hyperbolic sine of a number *| compute the hyperbolic sine of a number *, that can be expressed using the constant e|calculate the hyperbolic sine of a number *
 !example:compute the hyperbolic sine of a number 2
-!expect:3.626860407847019 !--https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/sinh
-!javascript: The hyperbolic sine of a number 2 is $!$
+!expect:The hyperbolic sine of a number 2 equals 3.626860407847019 !--https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/sinh
+!javascript: The hyperbolic sine of a number $1$ equals $!$
 var y = Math.exp($1$);
 (y - 1 / y) / 2;
 eol
 
 compute the circumference with radius * |calculate the circumference of a circle with a passed radius of *|calculate the circumference with radius *|calculate circumference with radius *
 !example: calculate circumference with radius 3
-!expect: 6 π≈18.8496 !--https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/PI
+!expect: The circumference with radius 3 equals 18.8496 !--https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/PI
 !javascript:return Math.PI * ($1$ + $1$) = $!$
 Math.PI($1$)
 eol
