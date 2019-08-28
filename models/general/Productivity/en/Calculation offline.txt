@@ -14,8 +14,7 @@
 
 
 
-!-----------------  basic algebra ------
-! this sample does not work at 15:00, 22 August 2019 , why?
+!-----------------  basic algebra (not working) ------
 
 compute * + *|what is *+*|what is the sum of *+*|the sum of *+*|sum of *+*|compute * plus *|calculate * plus *|what is * plus *|what is the sum of * plus *|the sum of * plus *|
 !example:compute 5 + 8
@@ -23,9 +22,6 @@ compute * + *|what is *+*|what is the sum of *+*|the sum of *+*|sum of *+*|compu
 !javascript:$1$ plus $2$ equals $!$
 $1$+$2$=$!$;
 eol
-
-
-
 
 
 !-----------------  calculations ------
@@ -36,10 +32,6 @@ compute * to the power of *|calculate * to the power of *|* to the power of * re
 !javascript:$1$ to the power of $2$ results in $!$
 Math.pow($1$, $2$)
 eol
-
-
-
-
 
 give a random number between 0 and 1 | compute a random number between 0 and 1|caculate a random number between 0 and 1
 !example:random number between 0 and 1
@@ -113,15 +105,15 @@ eol
 
 compute the natural logarithm with base * of a number, that is *|calculate the natural logarithm with base * of a number, that is *
 !example: compute the natural logarithm with base 8 of a number, that is 2
-!expect:3 !--https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/log10
-!javascript: $!$
+!expect:3 is the natural logarithm with base 8 of a number, that is 2 !--https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/log10
+!javascript: $!$ is the natural logarithm with base $1$ of a number, that is $2$
 Math.log($1$) / Math.log($2$)
 eol
 
 compute the hyperbolic sine of a number *| compute the hyperbolic sine of a number *, that can be expressed using the constant e|calculate the hyperbolic sine of a number *
 !example:compute the hyperbolic sine of a number 2
 !expect:3.626860407847019 !--https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/sinh
-!javascript: $!$
+!javascript: The hyperbolic sine of a number 2 is $!$
 var y = Math.exp($1$);
 (y - 1 / y) / 2;
 eol
