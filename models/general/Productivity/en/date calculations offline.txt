@@ -16,7 +16,7 @@
 
 !----------------- questions to different date formats ------
 
-give the date of today|give the date of today in European format| give the date of today according to DIN 1355-1
+give the date of today|give the date of today in European format| give the date of today according to DIN 1355-1|What's the date?|What is the date|What date is it|Which date is it
 !example:give the date of today
 !expect:The date of today is 28.05.2019
 !javascript:$!$
@@ -40,7 +40,7 @@ var today = new Date();
 print("The date of today is "+(today.getYear()+1900)+"."+today.getMonth()+"."+today.getDate());
 eol
 
-What day do we just have in the month?|What's the date?
+What day do we just have in the month?|What's the day in the month?|What day in the month is it|Which day in the month is it|What's the day of the month?|What day of the month is it|Which day of the month is it
 !example:What's the date?
 !expect:It is the 2th of this month
 !javascript:$!$
