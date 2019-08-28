@@ -129,51 +129,51 @@ eol
 
 !-----------------  oooops, not working due to (my) misinterpretation :-( ------
 
-return pi|compute pi|return π| view π|show π|show number of pi|return number of pi
+Return pi|Compute pi|Return π| View π|Show π|Show number of pi|Return number of pi
 !-- example: return pi
 !-- expect: 3.141592653589793 !--https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/PI
 !javascript:return Math.PI * (1) = $!$
 Math.PI(1)
 eol
 
-returns the lowest-valued number * * *
+Return the lowest-valued number * * *
 !expect:$!$
 !javascript: $!$
 Math.min($1$,$2$,$3$)
 eol
 
-returns the sine with radians * and radius * !works partially
+Return the sine with radians * and radius * !-- works partially
 !expect:$!$
 !javascript: $!$
 Math.sin($1$) * $2$
 eol
 
-compute the hyperbolic tangent of a number, that is *
+Compute the hyperbolic tangent of a number, that is *
 !-- example:compute the hyperbolic tangent of a number, that is 1
 !expect:0.7615941559557649 !-- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/tanh
 !javascript: $!$
 Math.log((1+$1$)/(1-$1$)) / 2
 eol
 
-trunc of *
+Trunc of *
 !expect:$!$
 !javascript: $!$
 Math.trunc($1$);
 eol
 
-compute the square root * of the sum of squares of its arguments *
+Compute the square root * of the sum of squares of its arguments *
 !expect:$!$
 !javascript: $!$
 Math.hypot()
 eol
 
-compute the cube root of a number, that is *
+Compute the cube root of a number, that is *
 !expect:$!$
 !javascript: Math.cbrt($1$) = $!$
 Math.cbrt($1$)
 eol
 
-return the nearest 32-bit single precision float
+Return the nearest 32-bit single precision float
 !javascript: $!$
 Math.fround()
 eol
