@@ -48,7 +48,7 @@ var today = new Date();
 print("It is the "+today.getDate()+"th of this month");
 eol 
 
-give the year|what year we have|in which year we are living|what year it is now|which year do we have|what year we are in|say the year we live in|Tell us the year we live|say the year we live
+give the year|what year we have|in which year we are living|what year it is now|which year do we have|what year we are in|say the year we live in|Tell us the year we live|say the year we live|what year is it|which year is it
 !example:what year we are in
 !expect:It is the year 2019 in the 21st century according to our calendar
 !javascript:$!$
@@ -57,7 +57,7 @@ print("It is "+(today.getYear()+1900)+" in the 21st century according to our cal
 eol 
 
 
-give the year in * year|what year we have in * years|in which year we are living in * years|what year will be in * years|which year do we have in * years|what year we are in * years|say the year we live in * years|Tell us the year we live in * years|say the year we live in * years
+give the year in * year|what year we have in * years|in which year we are living in * years|what year will be in * years|which year do we have in * years|what year we are in * years|say the year we live in * years|Tell us the year we live in * years|say the year we live in * years|what year is it in * years|which year is it in * years
 !example:what year we are in 5 years
 !expect:It is the year 2019 in the 21st century according to our calendar
 !javascript:$!$
@@ -65,7 +65,7 @@ var today = new Date();
 print("It will be the year "+(today.getYear()+1900+$1$));
 eol  
 
-give the year * years ago|what year we had * years ago|in which year we were living * years ago|what year was * years ago|which year did we have * years ago|what year we were * years ago|say the year we lived * years ago|Tell us the year we lived in * years ago|say the year we lived in * years ago
+give the year * years ago|what year we had * years ago|in which year we were living * years ago|what year was * years ago|which year did we have * years ago|what year we were * years ago|say the year we lived * years ago|Tell us the year we lived in * years ago|say the year we lived in * years ago|what year was * years ago|which year was * years ago
 !example:what year was 5 years ago
 !expect:It is the year 2019 in the 21st century according to our calendar
 !javascript:$!$
@@ -74,19 +74,33 @@ print("It was the year "+(today.getYear()+1900-$1$));
 eol 
 
 
-which month we have|which month do we have
+which month we have|which month do we have|what month is it|which month is it
 !example:which month we have
 !expect:6
 !javascript:$!$
 id="demo"
 var today = new Date();
 var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-document.getElementById("demo").innerHTML = months[today.getMonth()];
-print("It is the "+today.getMonth()+"th month in this year");
+var indexMonth = today.getMonth();
+var postfix;
+switch (indexMonth) {
+    case 0:
+        postfix="st"
+        break;
+    case 1:
+        postfix="nd"
+        break;   
+    case 0:
+        postfix="rd"
+        break;   
+    default:
+        postfix="th"    
+}
+print("It is "+months[indexMonth]+", the "+(indexMonth+1)+postfix+" month in this year");
 eol 
 
 
-which day is today?|give the date|what date is today|give the current date|tell the date|tell the date of today|tell me the date|tell me the date of today|tell me the current date|give me the date of today|which date we have|tell the date|what day we have|which day it is|which day we have
+which day is today?|give the date|what date is today|which date is today|give the current date|tell the date|tell the date of today|tell me the date|tell me the date of today|tell me the current date|give me the date of today|which date we have|tell the date|what day we have|which day it is|which day we have|which day is it|what day is it
 !javascript:today is $!$
 Date()
 eol
