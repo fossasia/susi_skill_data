@@ -16,11 +16,11 @@
 
 !-----------------  basic algebra (not working) ------
 
-what is *+*|what is the sum of *+*|the sum of *+*|sum of *+*|compute * plus *|calculate * plus *|what is * plus *|what is the sum of * plus *|the sum of * plus *|compute *+*|
+What is *+*|What is the sum of *+*|The sum of *+*|Sum of *+*|Compute * plus *|Calculate * plus *|What is * plus *|What is the sum of * plus *|The sum of * plus *|Compute *+*|
 !example:Compute 5 plus 8
 !expect:5 plus 8 equals 13
 !javascript:$1$+$2$ = $!$
-($1$+$2$);
+!($1$+$2$);
 eol
 
 
@@ -97,8 +97,8 @@ Math.log($1$) * Math.LOG10E
 eol
 
 Compute the natural logarithm of * | Logarithm of * | Compute the natural logarithm with base e of 1 plus a number, that is *|Calculate the natural logarithm of *|Calculate the logarithm of *
-!example: Compute the natural logarithm with base e of 1 plus a number that is 1
-!expect:The natural logarithm with base e of 1 plus a number that is 1 equals 0.6931471805599453 !-- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/log
+!example: Compute the natural logarithm with base e of 1 plus a number, that is 1
+!expect:The natural logarithm with base e of 1 plus a number, that is 1 equals 0.6931471805599453 !-- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/log
 !javascript: The natural logarithm with base e of 1 plus a number, that is $1$ equals $!$
 Math.log(1 + $1$)
 eol
