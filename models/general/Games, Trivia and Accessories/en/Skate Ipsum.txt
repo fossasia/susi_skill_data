@@ -21,8 +21,8 @@ Show me * paragraphs of skate ipsum|Show * paragraphs of skate ipsum|Print * par
 }
 eol
 
-Show me skate ipsum|Show skate ipsum|Print skate ipsum
-!example:Show me 3 paragraphs of skate ipsum
+Show me skate ipsum|Show skate ipsum|Print skate ipsum|Show 1 paragraph of skate ipsum|Show 1 paragraph of skate ipsum|Print 1 paragraph of skate ipsum
+!example:Show me skate ipsum
 !console:$!$
 {
     "url": "http://skateipsum.com/get/1/1/JSON",
