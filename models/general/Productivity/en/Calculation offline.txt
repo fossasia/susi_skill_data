@@ -16,8 +16,8 @@
 
 !-----------------  basic algebra (not working) ------
 
-what is *+*|what is the sum of *+*|the sum of *+*|sum of *+*|compute * plus *|calculate * plus *|what is * plus *|what is the sum of * plus *|the sum of * plus *|compute * + *|
-!example:compute 5 + 8
+what is *+*|what is the sum of *+*|the sum of *+*|sum of *+*|compute * plus *|calculate * plus *|what is * plus *|what is the sum of * plus *|the sum of * plus *|compute *+*|
+!example:compute 5+8
 !expect:5 plus 8 equals 13
 !javascript:$1$ + $2$ = $!$
 $1$+$2$=$!$;
@@ -54,24 +54,24 @@ round *
 Math.round($1$) 
 eol
 
-give the integer less or equal of * | compute the smallest integer less than or equal to *| give an integer smaller or equal of *|calculate an integer smaller or equal of *
+give the integer less or equal of * | compute the smallest integer less than or equal to *| give an integer smaller or equal of *|calculate an integer smaller or equal of *|tell the integer less or equal of *
 !example:give the integer less or equal of 5.95
-!expect: 5 !--https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/floor
-!javascript: $!$
+!expect: The integer less or equal of 5.95 equals 5 !--https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/floor
+!javascript: The integer less or equal of $1$ equals $!$
 Math.floor($1$)
 eol
 
 compute the smallest integer greater than or equal to *|calculate the smallest integer greater than or equal to *
 !example:compute the smallest integer greater than or equal to 7.004
-!expect: 8 !--https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/ceil
-!javascript: $!$
+!expect: The smallest integer greater than or equal to 7.0048 equals 8 !--https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/ceil
+!javascript: The smallest integer greater than or equal to $1$ equals $!$
 Math.ceil($1$)
 eol
 
 compute Euler's number of * | compute the Napier's constant of *|calculate Euler's number of * | calculate the Napier's constant of *
 !example:compute Euler's number of 2
-!expect:7.38905609893065 !--https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/exp
-!javascript: $!$
+!expect:Euler's number of 2 equals 7.38905609893065 !--https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/exp
+!javascript: Euler's number of $1$ equals $!$
 Math.exp($1$)
 eol
 
