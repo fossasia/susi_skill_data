@@ -8,7 +8,7 @@
 ::image images/hipster_ipsum.png
 ::description Show random dummy text for a mockup
 
-Show me * paragraphs of hipster ipsum|Show me * paragraph of hipster ipsum|Show me hipster ipsum|Print hipster ipsum
+Show me * paragraphs of hipster ipsum|Show me * paragraph of hipster ipsum
 !example:Show me 3 paragraphs of hipster ipsum
 !console:$!$
 {
@@ -16,3 +16,13 @@ Show me * paragraphs of hipster ipsum|Show me * paragraph of hipster ipsum|Show 
     "path": "$.text"
 }
 eol
+
+Show me hipster ipsum|Print hipster ipsum
+!example:Show me hipster ipsum
+!console:$!$
+{
+    "url": "http://hipsterjesus.com/api?html=false",
+    "path": "$.text"
+}
+eol
+
