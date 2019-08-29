@@ -5,7 +5,7 @@
 ::language en
 ::author Marc Nause
 ::author_url https://low.audioattack.de/
-::description Tells if the moon is full or not
+::description Tells if the moon is full or not.
 ::dynamic_content Yes
 ::developer_privacy_policy
 ::image images/moon-far-side.jpg
