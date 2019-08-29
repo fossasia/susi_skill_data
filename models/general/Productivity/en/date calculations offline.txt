@@ -16,7 +16,7 @@
 
 !----------------- questions to different date formats ------
 
-give the date of today|give the date of today in European format| give the date of today according to DIN 1355-1|What's the date?|What is the date|What date is it|Which date is it
+give the date of today|give the date of today in European format| give the date of today according to DIN 1355-1|What's the date?|What is the date|What date is it|Which date is it|What is the current date
 !example:give the date of today
 !expect:The date of today is 28.05.2019
 !javascript:$!$
