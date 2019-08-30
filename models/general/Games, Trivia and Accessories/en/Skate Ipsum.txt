@@ -4,7 +4,7 @@
 ::category Games, Trivia and Accessories
 ::language en
 ::author Marc Nause
-::author_url https://low.audioattack.de
+::author_url https://github.com/Low012
 ::description Show random dummy text for a mockup
 ::dynamic_content Yes
 ::developer_privacy_policy

@@ -4,7 +4,7 @@
 ::category Utilities
 ::language en
 ::author Marc Nause
-::author_url https://low.audioattack.de/
+::author_url https://github.com/Low012
 ::description A skill to give the user the location of an IP address.
 ::dynamic_content yes
 ::developer_privacy_policy 
