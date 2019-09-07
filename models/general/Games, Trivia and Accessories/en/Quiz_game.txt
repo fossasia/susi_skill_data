@@ -12,10 +12,6 @@
 ::terms_of_use <link>
 
 
-User query1|query2|quer3....
-!example:<The question that should be shown in public skill displays>
-!expect:<The answer expected for the above example>
-Answer for the user query
 * quiz game *|quiz game *|* quiz game|quiz game
 Let's play! Choose a complexity, easy, medium or difficult?^_game_status^>_start^0^>_questions_count^0^>_right_questions
 

@@ -57,9 +57,3 @@ It takes 1432 liters of water to produce 1 kg of rice
 
 What is rice cultivation|What is the rice cultivation|what rice cultivation
 The basic stages of cultivation include; Seed selection. Land preparation. 
-
-
-User query1|query2|quer3....
-!example:<The question that should be shown in public skill displays>
-!expect:<The answer expected for the above example>
-Answer for the user query
