@@ -1,14 +1,14 @@
 ::protected No
-::author_email yogesh02011998@gmail.com
-::name test skill
+::author_email 17ucs096@lnmiit.ac.in
+::name Test Skill
 ::category Business and Finance
 ::language en
-::author <author_name>
-::author_url https://github.com/YogeshSharma0201
+::author <Naman Jain>
+::author_url <author_url>
 ::description <description> 
 ::dynamic_content <Yes/No>
 ::developer_privacy_policy <link>
-::image images/paperplane.svg
+::image images/account.png
 ::terms_of_use <link>
 
 

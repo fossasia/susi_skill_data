@@ -50,8 +50,7 @@ nacio el *-*
 !example:Who was born on 2/14
 !console:Year-$year$ - $text$ 
 {
-var fecha = $3$+'/'+$2$;
-"url":"http://history.muffinlabs.com/date/$fecha$",
+"url":"http://history.muffinlabs.com/date/$3$/$2$",
 "path":"$.data.Births"
 }
 eol
