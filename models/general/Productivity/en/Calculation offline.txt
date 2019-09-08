@@ -12,18 +12,6 @@
 ::terms_of_use public domain
 
 
-
-
-!-----------------  basic algebra (not working) ------
-
-What is *+*|What is the sum of *+*|The sum of *+*|Sum of *+*|Compute * plus *|Calculate * plus *|What is * plus *|What is the sum of * plus *|The sum of * plus *|Compute *+*|
-!example:Compute 5 plus 8
-!expect:5 plus 8 equals 13
-!javascript:$1$+$2$ = $!$
-!($1$+$2$);
-eol
-
-
 !-----------------  calculations ------
 
 Compute * to the power of *|Calculate * to the power of *|* to the power of * results in what|* to the power of * is what
@@ -176,6 +164,16 @@ eol
 Return the nearest 32-bit single precision float
 !javascript: $!$
 Math.fround()
+eol
+
+
+!-----------------  basic algebra (not working) ------
+
+What is *+*|What is the sum of *+*|The sum of *+*|Sum of *+*|Compute * plus *|Calculate * plus *|What is * plus *|What is the sum of * plus *|The sum of * plus *|Compute *+*|
+!example:Compute 5 plus 8
+!expect:5 plus 8 equals 13
+!javascript:$1$+$2$ = $!$
+!($1$+$2$);
 eol
 
 
