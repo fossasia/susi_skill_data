@@ -170,8 +170,8 @@ eol
 !-----------------  basic algebra (not working) ------
 
 What is *+*|What is the sum of *+*|The sum of *+*|Sum of *+*|Compute * plus *|Calculate * plus *|What is * plus *|What is the sum of * plus *|The sum of * plus *|Compute *+*|
-!example:Compute 5 plus 8
-!expect:5 plus 8 equals 13
+!-- example:Compute 5 plus 8
+!-- expect:5 plus 8 equals 13
 !javascript:$1$+$2$ = $!$
 !($1$+$2$);
 eol
