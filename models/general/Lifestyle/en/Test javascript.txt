@@ -11,18 +11,21 @@
 ::image images/<image_name>
 ::terms_of_use <link>
 
+honigwurst
+!console:$!$
 
 erdbeerkäse
-!javascript:$!$ - wow
-let respone = await fetch("http://192.168.178.29/rest/items/red", {
-    method : "POST",
-    body: "ON"    
-});
+!javascript:$!$
+{
+    let respone = await fetch("http://192.168.178.29/rest/items/red", {method : "POST",body:"ON"});
+}
 eol
 
 klabusterbeere
-!javascript: - yay
-let xhr = new XMLHttpRequest();
-xhr.open("POST", "http://192.168.178.29/rest/items/red", true);
-xhr.send("ON");
+!javascript:$!$ 
+{
+    let xhr = new XMLHttpRequest();
+    xhr.open("POST", "http://192.168.178.29/rest/items/red", true);
+    xhr.send("ON");
+}
 eol
