@@ -14,8 +14,5 @@
 
 klabusterbeere
 !javascript:$!$ - yay
-let xhr = new XMLHttpRequest();
-var url = "http://192.168.178.29/rest/items/red";
-xhr.open("POST", url, true);
-xhr.send("ON");
+new XMLHttpRequest().open("POST", "http://192.168.178.29/rest/items/red", true).send("ON");
 eol
