@@ -18,8 +18,17 @@ Greet Node.js
 !console:$text$
 {
     "url":"http://127.0.0.1:8080"
+    "path":"$"    
 }
 eol
 
 Are you ready for this?
 ZIMZALABIM!
+
+tweet about *
+!console:$text$
+{
+  "url":"http://api.loklak.org/api/search.json?q=$1$",
+  "path":"$.statuses"
+}
+eol
