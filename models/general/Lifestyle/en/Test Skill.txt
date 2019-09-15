@@ -17,7 +17,7 @@ Are you ready for this?
 
 Greet node * | is it ma boi node?
 !example:Greet node please
-!console:$!$ Test
+!console:$!$ 
 {
     "url":"https://api.myjson.com/bins/11wb5x",
     "path": "$.text"
