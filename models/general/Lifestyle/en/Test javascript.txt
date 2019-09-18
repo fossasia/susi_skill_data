@@ -34,3 +34,7 @@ klabusterbeere
     xhr.send("ON");
 }
 eol
+
+How do I feel?
+?$_mood$:You are $_mood$.:I don't know, you tell me!
+
