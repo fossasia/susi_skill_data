@@ -33,5 +33,6 @@ klabusterbeere
     let xhr = new XMLHttpRequest();
     xhr.open("POST", "http://192.168.178.29/rest/items/red", true);
     xhr.send("ON");
+    document.write(xhr.responseText);    
 }
 eol
