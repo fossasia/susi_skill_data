@@ -35,6 +35,6 @@ klabusterbeere
 }
 eol
 
-How do I feel?
+coocoo
 ?$_mood$:You are $_mood$.:I don't know, you tell me!
 
