@@ -23,6 +23,7 @@ erdbeerkäse
 !javascript:$!$
 {
     let respone = await fetch("http://192.168.178.29/rest/items/red", {method : "POST",body:"ON"});
+    document.write(response)    
 }
 eol
 
