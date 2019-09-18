@@ -15,7 +15,6 @@
 # replace the following lines - click on the (i) to get a tutorial:
 
 June wants you to do the thing we talked about
-!example: June wants you to do the thing we talked about
 !console:$!$
 {
     "url":"http://127.0.0.1:8080/",
