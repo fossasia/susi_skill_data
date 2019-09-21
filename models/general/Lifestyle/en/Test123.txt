@@ -14,7 +14,7 @@
 
 # replace the following lines - click on the (i) to get a tutorial:
 
-June wants you to do the thing we talked about
+Test localhost
 !console:$!$
 {
     "url":"http://127.0.0.1:8080/",
