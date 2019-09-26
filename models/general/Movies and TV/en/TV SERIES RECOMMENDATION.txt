@@ -17,4 +17,4 @@
 Suggest some good tv series|recommend some tv series|query3...
 !example:<what should i watch?>
 !expect:<House of cards>
-Answer for the user query
+house of cards
