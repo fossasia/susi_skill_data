@@ -1,6 +1,6 @@
 ::protected No
 ::author_email blueroseri121@gmail.com
-::name what?
+::name Answer questions
 ::category Knowledge
 ::language en
 ::author <author_name>
@@ -14,6 +14,6 @@
 
 # replace the following lines - click on the (i) to get a tutorial:
 
-what?|What?|why?|Why?|How?|how?
+what?|What?|why?|Why?|How?|how?|when?|When?|?|when|why|how|where
 !example:what?
 I did not understand, please rephrase your question clearly.
