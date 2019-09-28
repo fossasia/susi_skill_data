@@ -1,6 +1,6 @@
 ::protected No
 ::author_email blueroseri121@gmail.com
-::name <Bot_name>
+::name what?
 ::category Knowledge
 ::language en
 ::author <author_name>
