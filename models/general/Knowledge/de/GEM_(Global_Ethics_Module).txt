@@ -1,0 +1,19 @@
+::protected No
+::author_email sol1@uber.space
+::name GEM (Global_Ethics_Module)
+::category Knowledge
+::language de
+::author <author_name>
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+
+# replace the following lines - click on the (i) to get a tutorial:
+
+
+Was ist Ethik
+Das sittliche Verständnis|Skeptizismus als Teilnahme an einem Diskurs|Spezifisch moralisches Handeln hinsichtlich Begründbarkeit und Reflexion|Ethik befasst scih mit dem menschlichen Handeln.
