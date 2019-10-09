@@ -1,13 +1,13 @@
 ::protected No
 ::author_email sinope@seznam.cz
-::name Pozdrav
+::name konverzace
 ::category Knowledge
 ::language cs
 ::author Michal
 ::author_url sinope@seznam.cz
-::description <description> 
+::description Konverzace 
 ::dynamic_content No
-::developer_privacy_policy <link>
+::developer_privacy_policy 
 ::image images/<image_name>
 ::terms_of_use <link>
 
