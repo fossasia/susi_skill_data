@@ -18,7 +18,7 @@ page id of *
 !console:
 {
 "url":"https://www.wikidata.org/w/api.php?format=json&action=wbgetentities&ids=$!$",
-"path":"$.entities"
+"path":"$.entities",
 "actions":[{
 "type":"table",
 "columns":{"pageid":"SeitenID","title":"Titel","modified":"verändert","id":"ID"}

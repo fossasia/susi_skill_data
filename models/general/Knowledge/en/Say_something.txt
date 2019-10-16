@@ -13,7 +13,7 @@
 
 
 # replace the following lines - click on the (i) to get a tutorial:
-facts={
+
 say something|Say something
 !example: say something
 Did you know that, A bolt of lightning contains enough energy to toast 100,000 slices of bread?
