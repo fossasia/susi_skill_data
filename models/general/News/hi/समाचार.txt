@@ -2,6 +2,10 @@
 ::author_email atulpan98@gmail.com
 ::protected No
 ::author_email atulpan98@gmail.com
+::protected No
+::author_email atulpan98@gmail.com
+::protected No
+::author_email atulpan98@gmail.com
 ::name समाचार
 ::author माधव राठी
 ::author_url https://github.com/madhavrathi
