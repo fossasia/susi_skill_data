@@ -1,5 +1,7 @@
 ::protected No
 ::author_email atulpan98@gmail.com
+::protected No
+::author_email atulpan98@gmail.com
 ::name समाचार
 ::author माधव राठी
 ::author_url https://github.com/madhavrathi
@@ -10,7 +12,7 @@
 ::terms_of_use
 
 hindi news | news in hindi |hindi news |समाचार | समाचार  *| * समाचार | ख़बर | ख़बर *| * ख़बर |  नूज़ | न्यूज़ | नूज़ * | न्यूज़ * | * नूज़ | * न्यूज़ | खबर | खबर * | ताजी खबर |  नया समाचार |news समाचार बुलेटरस asdfasdfasdfeारण | समाचार विवरण
-!example: Монгол хэл
+!example: समाचार
 !console:
 {
   "url":"https://api.rss2json.com/v1/api.json?rss_url=http%3A%2F%2Ffeeds.bbc.co.uk%2Fhindi%2Findex.xml",
