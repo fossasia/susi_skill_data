@@ -1,0 +1,19 @@
+::protected No
+::author_email shubhamsuperpro@gmail.com
+::name test shubham
+::category Food and Drink
+::language bg
+::author Shubham Gupta
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/Screenshot 2019-07-19 at 4.16.40 PM (2).png
+::terms_of_use <link>
+
+
+//replace the following lines:
+query1|query2|query3...
+!example:<The question that should be shown in public skill displays>
+!expect:<The answer expected for the above example>
+Answer for the user query

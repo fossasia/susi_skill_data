@@ -1,0 +1,25 @@
+::protected No
+::author_email marc.nause@audioattack.de
+::name Rhymes
+::category Knowledge
+::language en
+::author Marc Nause
+::author_url https://github.com/Low012
+::description Finds words that rhyme.
+::dynamic_content Yes
+::developer_privacy_policy
+::image images/children-poster-medieval-jester.jpg
+::terms_of_use
+
+
+# replace the following lines - click on the (i) to get a tutorial:
+
+What rhymes with *|Rhyme for *|Which word rhymes with *|What word ryhmes with *|Find a rhyme for *|Find rhyme for *
+!example:What rhymes with plate?
+!expect:A word that rhymes is "state".
+!console:A word that rhymes is "$word$".
+{
+  "url":"https://api.datamuse.com/words?rel_rhy=$1$",
+  "path":"$.[0]"
+}
+eol

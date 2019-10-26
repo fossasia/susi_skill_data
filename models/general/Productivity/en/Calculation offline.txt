@@ -1,0 +1,183 @@
+::protected No
+::author_email schildberg@scoid.de
+::name Calculation offline
+::category Productivity
+::language en
+::author agricola
+::author_url <author_url>
+::description Attempt and test to implement https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math into  SUSI.AI 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/Разнообразие_семян_small.jpg
+::terms_of_use public domain
+
+
+!-----------------  calculations ------
+
+Compute * to the power of *|Calculate * to the power of *|* to the power of * results in what|* to the power of * is what
+!example:Compute 2 to the power of 3
+!expect:2 to the power of 3 equals 8 !--https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/pow
+!javascript:$1$ to the power of $2$ equals $!$
+Math.pow($1$, $2$)
+eol
+
+Give a random number between 0 and 1 | Compute a random number between 0 and 1|Caculate a random number between 0 and 1|Random number between 0 and 1|Return a random number between 0 and 1
+!example:Random number between 0 and 1
+!expect: A random number bigger than 0 and smaller than 1 equals 0.3 !--https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
+!javascript:A random number bigger than 0 and smaller than 1 equals $!$
+Math.random()
+eol
+
+Give a random number between 0 and * |Random number between 0 and *|Calcute a random number between 0 and *
+!example:Give a random number between 0 and 17
+!expect: A number bigger than 0 and smaller than 17  equals 6 !--https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
+!javascript:A number bigger than 0 and smaller than $1$ equals $!$
+Math.floor(Math.random() * Math.floor($1$))
+eol
+
+Round * 
+!example:Round 0.9
+!expect: 0.9 rounded equals 1 !--https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/round
+!javascript: $1$ rounded equals $!$
+Math.round($1$) 
+eol
+
+Give the integer less or equal of * | Compute the smallest integer less than or equal to *| Give an integer smaller or equal of *|Calculate an integer smaller or equal of *|Tell the integer less or equal of *
+!example:Give the integer less or equal of 5.95
+!expect: The integer less or equal of 5.95 equals 5 !--https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/floor
+!javascript: The integer less or equal of $1$ equals $!$
+Math.floor($1$)
+eol
+
+Compute the smallest integer greater than or equal to *|Calculate the smallest integer greater than or equal to *
+!example:Compute the smallest integer greater than or equal to 7.004
+!expect: The smallest integer greater than or equal to 7.0048 equals 8 !--https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/ceil
+!javascript: The smallest integer greater than or equal to $1$ equals $!$
+Math.ceil($1$)
+eol
+
+Compute Euler's number of * | compute the Napier's constant of *|calculate Euler's number of * | calculate the Napier's constant of *
+!example:Compute Euler's number of 2
+!expect:Euler's number of 2 equals 7.38905609893065 !--https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/exp
+!javascript: Euler's number of $1$ equals $!$
+Math.exp($1$)
+eol
+
+Get tangens from * degrees|Calculate the tangens from * degrees|Compute the tangens from * degrees
+!example: Get tangens from 45 degrees
+!expect:The tangens from $1$ degrees equals 0.9999999999999999 !--https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/tan
+!javascript: The tangens from $1$ degrees equals $!$
+Math.tan($1$ * Math.PI/180)
+eol
+
+Compute the base 2 logarithm of a number, that is *|Calculate the base 2 logarithm of a number, that is *
+!example: Compute the base 2 logarithm of a number, that is 3
+!expect:The base 2 logarithm of a number, that is 3 equals 1.584962500721156 !-- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/log2
+!javascript: The base 2 logarithm of a number, that is $1$ equals $!$
+Math.log($1$) * Math.LOG2E
+eol
+
+Compute the base 10 logarithm of a number, that is *|Calculate the base 10 logarithm of a number, that is *
+!example: Compute the base 10 logarithm of a number, that is 100000
+!expect:The base 10 logarithm of a number, that is 100000 equals 5 !-- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/log10
+!javascript: The base 10 logarithm of a number, that is $1$ equals $!$
+Math.log($1$) * Math.LOG10E
+eol
+
+Compute the natural logarithm of * | Logarithm of * | Compute the natural logarithm with base e of 1 plus a number, that is *|Calculate the natural logarithm of *|Calculate the logarithm of *
+!example: Compute the natural logarithm with base e of 1 plus a number, that is 1
+!expect:The natural logarithm with base e of 1 plus a number, that is 1 equals 0.6931471805599453 !-- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/log
+!javascript: The natural logarithm with base e of 1 plus a number, that is $1$ equals $!$
+Math.log(1 + $1$)
+eol
+
+Compute the natural logarithm with base * of a number, that is *|Calculate the natural logarithm with base * of a number, that is *
+!example: Compute the natural logarithm with base 8 of a number, that is 2
+!expect:The natural logarithm with base 8 of a number, that is 2 equals $!$ !--https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/log10
+!javascript: The natural logarithm with base $1$ of a number, that is $2$ equals $!$
+Math.log($1$) / Math.log($2$)
+eol
+
+Compute the hyperbolic sine of a number *| Compute the hyperbolic sine of a number *, that can be expressed using the constant e|Calculate the hyperbolic sine of a number *
+!example:Compute the hyperbolic sine of a number 2
+!expect:The hyperbolic sine of a number 2 equals 3.626860407847019 !--https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/sinh
+!javascript: The hyperbolic sine of a number $1$ equals $!$
+var y = Math.exp($1$);
+(y - 1 / y) / 2;
+eol
+
+Compute the circumference with radius * |Calculate the circumference of a circle with a passed radius of *|Calculate the circumference with radius *|Calculate circumference with radius *
+!example: Calculate circumference with radius 3
+!expect: The circumference with radius 3 equals 18.8496 !--https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/PI
+!javascript:return Math.PI * ($1$ + $1$) = $!$
+Math.PI($1$)
+eol
+
+
+
+!-----------------  oooops, not working due to (my) misinterpretation :-( ------
+
+Return pi|Compute pi|Return π| View π|Show π|Show number of pi|Return number of pi
+!-- example: return pi
+!-- expect: 3.141592653589793 !--https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/PI
+!javascript:return Math.PI * (1) = $!$
+Math.PI(1)
+eol
+
+Return the lowest-valued number * * *
+!expect:$!$
+!javascript: $!$
+Math.min($1$,$2$,$3$)
+eol
+
+Return the sine with radians * and radius * !-- works partially
+!expect:$!$
+!javascript: $!$
+Math.sin($1$) * $2$
+eol
+
+Compute the hyperbolic tangent of a number, that is *
+!-- example:compute the hyperbolic tangent of a number, that is 1
+!expect:0.7615941559557649 !-- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/tanh
+!javascript: $!$
+Math.log((1+$1$)/(1-$1$)) / 2
+eol
+
+Trunc of *
+!expect:$!$
+!javascript: $!$
+Math.trunc($1$);
+eol
+
+Compute the square root * of the sum of squares of its arguments *
+!expect:$!$
+!javascript: $!$
+Math.hypot()
+eol
+
+Compute the cube root of a number, that is *
+!expect:$!$
+!javascript: Math.cbrt($1$) = $!$
+Math.cbrt($1$)
+eol
+
+Return the nearest 32-bit single precision float
+!javascript: $!$
+Math.fround()
+eol
+
+
+!-----------------  basic algebra (not working) ------
+
+What is *+*|What is the sum of *+*|The sum of *+*|Sum of *+*|Compute * plus *|Calculate * plus *|What is * plus *|What is the sum of * plus *|The sum of * plus *|Compute *+*|
+!-- example:Compute 5 plus 8
+!-- expect:5 plus 8 equals 13
+!javascript:$1$+$2$ = $!$
+!($1$+$2$);
+eol
+
+
+
+
+
+

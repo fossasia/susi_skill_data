@@ -1,0 +1,59 @@
+::name GitHub
+::author Chirag Wadhera
+::author_url https://github.com/chiragw15
+::description A skill to give information about a username on github.
+::dynamic_content Yes
+::developer_privacy_policy
+::image images/github.png
+::terms_of_use
+
+Whose github username is *|Who is * on github | Name of github user * | What is the name of * on Github | Name of * on Github | Real name of * on Github | Tell me name of the github user *|find * on Github|find user with username * on github
+!example:Whose github username is mariobehling
+!expect:mariobehling is github username of Mario Behling
+!console:$1$ is github username of $!$
+{
+
+    "url":"https://api.github.com/users/$1$",
+    "path":"$.name"
+
+}
+eol
+
+#returns number of followers
+Number of followers of * | How many followers of * on Github | Total Followers for * on Github | Github Followers of * | Search Github Followers for * | * is followed by how many people |
+!example:Number of followers of mariobehling
+!console:$1$ has $!$ followers on GitHub.
+{
+
+    "url":"https://api.github.com/users/$1$",
+
+    "path":"$.followers"
+
+}
+eol
+
+#returns number of people the person follows
+How many people is * following on github | How many users is * following on github | people is * following on github  | users is * following on github 
+!example:How many people is mariobehling following on github
+!console:$1$ is following $!$ people on github
+{
+
+    "url":"https://api.github.com/users/$1$",
+
+    "path":"$.following"
+
+}
+eol
+
+#returns users bio
+What does bio of * say|bio of * | Search github for bio of * | Give bio of * | Search bio of * | Search about * on Github | Search about * on Git | about * on Github | Do you know about * on Github
+!example:Search about mariobehling on Github
+!console:$1$'s bio says : $!$
+{
+
+    "url":"https://api.github.com/users/$1$",
+
+    "path":"$.bio"
+
+}
+eol

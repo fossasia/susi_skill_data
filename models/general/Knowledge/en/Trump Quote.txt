@@ -1,0 +1,14 @@
+::name Trump Quote
+::author Jyothir Aditya
+::author_url https://github.com/jyoth1raditya
+::dynamic_content Yes
+::image images/trump_quote.png
+::description Get quotes by Donald Trump.
+trump|donald trump|quote by donald trump|trump quote|quote by trump|quote of trump|quote from trump
+!example:Quote by Donald Trump
+!console:$!$
+{
+    "url":"https://api.whatdoestrumpthink.com/api/v1/quotes/random",
+    "path":"$.message"
+}
+eol

@@ -1,0 +1,21 @@
+::name Currency Exchange
+::author Dravit Lochan
+::author_url https://github.com/DravitLochan
+::description A skill  for converting a currency to USD.
+::dynamic_content Yes
+::developer_privacy_policy
+::image images/currency_exchange.png
+::terms_of_use
+
+#currently most of the currencies are converted to USD. Looking for a method to convert them to any currency. If a user enters wrong code, tell them all the codes along #with country name
+
+convert * to USD
+!example:convert INR to USD
+!expect:0.015704
+!console: $USD$
+{
+    "url":"http://api.fixer.io/latest?base=$1$",
+    "path":"$.rates"
+}
+eol
+

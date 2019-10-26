@@ -1,0 +1,18 @@
+::name Acronyms
+::author Madhav Rathi
+::author_url https://www.github.com/madhavrathi
+::description A skill that tells about acronyms. An acronym is an abbreviation formed from the initial letters of other words and pronounced as a word.
+::dynamic_content Yes
+::developer_privacy_policy  
+::image images/acronyms.png
+::terms_of_use  
+
+Acronym of *|* Acronym|Acronym *|Acronym for *|What is the Acronym of *|Tell me the Acronym of *| find Acronym of *| search Acronym of *| look up Acronym of *| do you know Acronym of *| give me Acronym of *
+!example:Acronym of NASA
+!expect:National Aeronautics and Space Administration
+!console:$lf$
+{
+"url":"http://www.nactem.ac.uk/software/acromine/dictionary.py?sf=$1$",
+"path":"$.[0].lfs[0]"
+}
+eol

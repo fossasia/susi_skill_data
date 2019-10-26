@@ -1,0 +1,16 @@
+# tells facts on numbers
+::name  Facts on numbers
+::author Sanjana Sanikommu
+::author_url https://github.com/SanjanaSanikommu
+::image images/Facts.jpg
+::dynamic_content Yes
+::description Interesting facts on numbers,trivia,date
+
+tell me a math fact | tell something interesting about maths | Do you know any amazing maths fact | give me a maths fact | do you know any maths fact | tell me facts about maths | 
+!example:Tell me something interesting about maths!
+!console:$!$
+     {
+        "url" : " http://numbersapi.com/number/type",
+        "path":"$.type"
+      }
+eol

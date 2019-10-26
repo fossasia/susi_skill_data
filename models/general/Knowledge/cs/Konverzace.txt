@@ -1,0 +1,16 @@
+::protected No
+::author_email sinope@seznam.cz
+::name Konverzace
+::category Knowledge
+::language cs
+::author Michal
+::author_url <author_url>
+::description <description> 
+::dynamic_content No
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+
+Ahoj|Čau|Nazdar
+Ahoj

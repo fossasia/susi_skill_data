@@ -1,0 +1,16 @@
+::protected No
+::author_email kushthedude@gmail.com
+::name Welcome Skill
+::category Utilities
+::language en
+::author Kush Trivedi
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/81VyyE94eyL._SX425_.jpg
+::terms_of_use <link>
+
+
+Hello World|hello world|Hello world
+Welcome To FOSSASIA , Welcome to the community. To start contributing to this community, First take a brief look to FOSSASIA’s project at github.com/fossasia , and then join chatroom of the project which interests you . There will be people helping you .Happy Contributing|Welcome To FOSSASIA , Welcome to the community. To start contributing to this community, First take a brief look to FOSSASIA’s project at github.com/fossasia , and then join chatroom of the project which interests you . There will be people helping you .Happy Contributing|Welcome To FOSSASIA , Welcome to the community. To start contributing to this community, First take a brief look to FOSSASIA’s project at github.com/fossasia , and then join chatroom of the project which interests you . There will be people helping you .Happy Contributing

@@ -1,0 +1,45 @@
+::name Farming
+::author FOSSASIA
+::author_url https://github.com/akshatnitd
+::description Skill to give farming related answers
+::dynamic_content no
+::developer_privacy_policy 
+::image images/farmering.jpg
+::terms_of_use 
+
+When it will rain
+!example:When it will rain
+It will rain during rainy season.
+
+Which Crop should I grow
+Rice
+
+Which seeds are good for growing rice?
+Hybrid Seeds
+
+From where should I buy Hybrid seeds?
+Go to Fred Hybrid Seeds
+
+Which Soil is best for growing Rice ?
+Alluvial Soil( River deposited) is the best considering the soil keeping everything constant since it has rich mineral deposits. 
+
+what are food crops?
+Wheat, Maize, Rice, Millets and Pulses.
+
+What are cash crops ?
+Sugarcane, Tobacco, Cotton, Jute and Oilseeds
+
+What are plantation Crop?
+Coffee, Coconut, Tea, and Rubber
+
+What are Horticulture crops ?
+Fruits and Vegetables
+
+Give some information about rabi crops
+It is Sown in October-November,Harvested in April-May.Requires warm climate for germination of seeds and maturation and cold climate for the growth.Example: Wheat, Oat, Gram, Pea, Barley, Potato, Tomato, Onion, Oil seeds (like Rapeseed, Sunflower, Sesame, Mustard) etc.
+
+How much water should I give to rice crops|How much water should I give rice crops
+It takes 1432 liters of water to produce 1 kg of rice 
+
+What is rice cultivation|What is the rice cultivation|what rice cultivation
+The basic stages of cultivation include; Seed selection. Land preparation. 

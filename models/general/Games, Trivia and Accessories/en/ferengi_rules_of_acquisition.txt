@@ -1,0 +1,27 @@
+::name Ferengi Rules Of Acquistition
+::author Jyothir Aditya
+::author_url https://github.com/jyoth1raditya
+::dynamic_content Yes
+::image images/ferengi_rules_of_acquisition.png
+::description Want to know about Ferengi Rules Of Acquisition , ask Susi about it.
+
+What is rule * of the Ferengi Rules Of Acquisition|What is rule * of the Ferengi Rules Of Acquisition?|Rule * of the Ferengi Rules Of Acquisition|*th rule of the Ferengi Rules Of Acquisition|Rule * of Ferengi Rules Of Acquisition|*th rule of Ferengi Rules Of Acquisition|*th rule of the Ferengi Rules Of Acquisition
+!example:What is rule 1 of the Ferengi Rules Of Acquisition?
+!console: Rule $1$ is "$!$"
+{
+    "url":"http://ferengi.surge.sh/rules.json",
+    "path":"$.$1$"
+}
+eol
+
+What are the Ferengi Rules of Acquisition?|What are the Ferengi Rules of Acquisition|Ferengi Rules of Acquisition|tell me about Ferengi Rules of Acquisition|explain Ferengi Rules of Acquisition|explain Ferengi Rules of Acquisition?
+The Ferengi Rules of Acquisition are a collection of two hundred and eighty-five sayings that form the basis of Ferengi philosophy.The Rules of Acquisition were written by Gint, the first Grand Nagus of the Ferengi people.
+
+1st rule of Ferengi Rules Of Acquisition|first rule of Ferengi Rules Of Acquisition
+"Once you have their money, you never give it back."
+
+2nd rule of Ferengi Rules Of Acquisition|second rule of Ferengi Rules Of Acquisition
+"The best deal is the one that makes the most profit."
+
+3rd rule of Ferengi Rules Of Acquisition|third rule of Ferengi Rules Of Acquisition
+"Never spend more for an acquisition than you have to."

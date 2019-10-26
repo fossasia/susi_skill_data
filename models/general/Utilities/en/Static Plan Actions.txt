@@ -1,0 +1,23 @@
+::protected No
+::author_email hayyoulistentome@gmail.com
+::name Static Plan Actions
+::category Utilities
+::language en
+::author Amartya Mondal
+::author_url https://github.com/atm1504
+::description To tell a joke using planned action
+::dynamic_content Yes
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+
+//replace the following lines:
+plan a joke at * | set alarm for a joke at ** |plan something funny * | plan a joke | set alarm for a joke
+!example:plan a joke
+!console:$joke$
+{
+    "url":"http://api.icndb.com/jokes/random?escape=javascript",
+    "path":"$.value"
+}
+eol
