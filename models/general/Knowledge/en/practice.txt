@@ -19,5 +19,5 @@ Potatoes|Vegetables|Fish|Rajma
 Bonjour|Hola|Ciao
 Hello
 
-May I * you *?
-Yes why not
+May I tell you *
+Yes tell me $1$.
