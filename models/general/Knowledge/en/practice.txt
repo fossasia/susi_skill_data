@@ -15,3 +15,6 @@
 # SUSI Skill tutorial playground
 What is your favorite dish
 Potatoes|Vegetables|Fish|Rajma
+
+Bonjour|Hola|Ciao
+Hello
