@@ -13,10 +13,5 @@
 
 
 # SUSI Skill tutorial playground
-::prior
-roses are red
-
-SUSI is a hack
-
-skynet is back
-
+What is your favorite dish
+Potatoes|Vegetables|Fish|Rajma
