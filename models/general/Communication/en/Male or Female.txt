@@ -14,7 +14,7 @@
 
 # replace the following lines - click on the (i) to get a tutorial:
 
-Are you male or female?|m or f|male or female
+Are you male or female?|m or f|male or female|What is your gender?
 !example:<The question that should be shown in public skill displays>
 !expect:<The answer expected for the above example>
 My Name may be seems like feminine but I am gender neutral, Thanks you for asking about me!
