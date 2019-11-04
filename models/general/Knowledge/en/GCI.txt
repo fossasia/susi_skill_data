@@ -13,35 +13,32 @@
 ::image images/google.png
 ::terms_of_use <link>
 
-*
-Google Code-in Frequently Asked Questions - https://developers.google.com/open-source/gci/faq
-
-gci*|gci|google code-in*|google code-in|google code in*|google code in|google codein*|google codein|what*gci|what*google code-in|what*google code in|what*google codein
+gci *|gci|google code-in *|google code-in|google code in*|google code in|google codein *|google codein|what * gci|what * google code-in|what * google code in|what * google codein
 !example: what is gci
 Google Code-in is an annual programming competition hosted by Google Inc. that allows pre-university students to complete tasks specified by various partnering open-source organisations.
 
-open source|what*open source?|what*open source
+open source|what * open source?|what * open source
 The term 'open source' refers to something people can modify and share because its design is publicly accessible.
 
-why*birth date|why*date of birth|why*birthdate|why*birth-date|why*birthday|birth date*|birth date|date of birth*|date of birth|birthdate*|birthdate|birth-date*|birth-date|birthday*|birthday
+why * birth date|why * date of birth|why * birthdate|why * birth-date|why * birthday|birth date *|birth date|date of birth *|date of birth|birthdate *|birthdate|birth-date *|birth-date|birthday *|birthday
 When you first sign up in GCI, you must provide your birth date to verify your eligibility. Only 13-17 year old pre-university students are eligible.
 
-how*participate|can i participate*|can i participate|*participate*|participate|how*join|can i join*|can i join|join*|join|*eligible*|eligible|*eligibility*|eligibility|*allowed to take part*
+how * participate|can i participate *|can i participate|* participate *|participate|how * join|can i join *|can i join|join *|join|* eligible *|eligible|* eligibility *|eligibility|* allowed to take part *
 You can participate in Google Code-in by visiting https://codein.withgoogle.com/. The terms and conditions are at https://codein.withgoogle.com/terms/. Essentially, contestants must have the consent of their parent or guardian, and be 13 to 17 years old and enrolled in a pre-university educational programme.
 
-*prizes*|prizes|*prize*|prize
+* prizes *|prizes|* prize *|prize
 There are a ton of prizes. Check them out here - https://developers.google.com/open-source/gci/how-it-works
 
-*help*|about
+* help *|about
 This is a chatbot made to clarify the queries people may have about Google Code-in. Try asking 'How do I participate?' or 'What is Google Code-in?' ￯﾿ﾯ￯ﾾ﾿￯ﾾﾰ￯﾿ﾯ￯ﾾﾾ￯ﾾﾟ￯﾿ﾯ￯ﾾﾾ￯ﾾﾤ￯﾿ﾯ￯ﾾﾾ￯ﾾﾖ
 
-why*participate|why*join|why participate|why join|why
+why * participate|why * join|why participate|why join|why
 Google Code-in is about the experience that the participants gain from working with an open-source organisation. And if you ever get stuck, there are a number of mentors who can help. ￯﾿ﾯ￯ﾾ﾿￯ﾾﾰ￯﾿ﾯ￯ﾾﾾ￯ﾾﾟ￯﾿ﾯ￯ﾾﾾ￯ﾾﾘ￯﾿ﾯ￯ﾾﾾ￯ﾾﾊ
 
-how*win*competition|how*win competition|how*win*|how*win|winning|win requirement|win requirements|winning requirement|winning requirements|victory requirement|victory requirements
+how * win * competition|how * win competition|how * win *|how * win|winning|win requirement|win requirements|winning requirement|winning requirements|victory requirement|victory requirements
 The number of tasks you complete for a single organisation will get you into the top ten for that organisation. Furthermore, your work will be analysed by mentors regarding what you have done during the course of the competition. Remember, quality is more important than quantity.
 
-*only*programmers*|only*programmers|*only programmers*|only programmers|*be a programmer*|be a programmer|*know programming*|know programming|*know how to program*|know how to program|*only*coders*|only*coders|*only coders*|only coders|*be a coder*|be a coder|*know coding*|know coding|*know how to code*|know how to code
+* only * programmers *|only * programmers|* only programmers *|only programmers|* be a programmer *|be a programmer|* know programming *|know programming|* know how to program *|know how to program|* only * coders *|only * coders|* only coders *|only coders|* be a coder *|be a coder|* know coding *|know coding|* know how to code *|know how to code
 You don't need to be a programmer to join GCI. You can start by choosing beginner tasks, which are fairly simple even for inexperienced people. (You can only do two such tasks, so make them count. ￯﾿ﾯ￯ﾾ﾿￯ﾾﾰ￯﾿ﾯ￯ﾾﾾ￯ﾾﾟ￯﾿ﾯ￯ﾾﾾ￯ﾾﾘ￯﾿ﾯ￯ﾾﾾ￯ﾾﾊ) There are also documentation, training, outreach, research, design and quality assurance (for instance, find bugs and report them) tasks, which are non-coding.
 
 *aim*|aim|*aims*|aims|*goal*|goal|*goals*|goals|*objective*|objective|*objectives*|objectives
