@@ -5,6 +5,9 @@ The skill categories are the subdirectories here.
 In each of the containing skill category subdirectories you find paths for a language in ISO 639-2 code.
 Each of those language subdirectories can contain a skill. A skill is a file with a set of intents.
 
+## Art and Beauty
+"You can create art and beauty on a computer." (Hackerethics, https://www.ccc.de/en/hackerethics)
+
 
 ## Business and Finance
 Skills which helps to manage buisness and finances. This may contain skills related to stock market updates, financial data for the cryptocurrencies.
