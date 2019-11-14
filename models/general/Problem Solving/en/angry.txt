@@ -16,5 +16,5 @@
 
 query1|query2|query3...
 !python:
-'print("Hello World")'
+print("Hello World")
 eol
