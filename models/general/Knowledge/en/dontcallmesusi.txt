@@ -17,3 +17,7 @@ What is your preferred name ? | What is your real name? |What's your preferred n
 !expect:Hi! My real name is SUSHI.
 Hi! My preferred name is SUSHI!
 
+What does SUSHI stand for?
+!example:What does SUSHI stand for?
+!expect:Nothing. Everything.
+Nothing. Everything.
