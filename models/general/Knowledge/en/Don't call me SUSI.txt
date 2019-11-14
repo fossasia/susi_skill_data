@@ -1,6 +1,6 @@
 ::protected No
 ::author_email pickanmix@gmail.com
-::name dontcallmesusi
+::name Don't call me SUSI
 ::category Knowledge
 ::language en
 ::author <author_name>
