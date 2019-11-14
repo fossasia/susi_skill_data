@@ -1,0 +1,19 @@
+::protected No
+::author_email pickanmix@gmail.com
+::name dontcallmesusi
+::category Knowledge
+::language en
+::author <author_name>
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+
+What is your preferred name ? | What is your real name? |What's your preferred name ? |What do you wish you were called ?|But what should I call you? |Do you have another name |I want to know your real name|Who are you?| Yours name?  | Tell yours name 
+!example:Do you have a name
+!expect:Hi! My name is SUSHI.
+Hi! My name is SUSHI!
+
