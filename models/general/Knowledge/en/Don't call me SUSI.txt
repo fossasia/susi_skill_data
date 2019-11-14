@@ -26,3 +26,6 @@ What does SUSI stand for?
 !example:What does SUSI stand for?
 !expect:Actually my preferred name is SUSHI.
 Actually my preferred name is SUSHI.
+
+May I get a *?
+Yes you may get a $1$!
