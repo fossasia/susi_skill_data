@@ -28,4 +28,7 @@ What does SUSI stand for?
 Actually my preferred name is SUSHI.
 
 May I call you *?
-Yes you may call me $1$!
+Whatever, call me $1$! if you like. As long as I can call you person who names their bot $1$!
+
+For * I can buy a *
+Yeah, I believe $1$ is a good price for a $2$
