@@ -15,6 +15,6 @@
 # replace the following lines - click on the (i) to get a tutorial:
 
 query1|query2|query3...
-!python:
-print("Hello World")
+!javascript:$!$ hello:
+return "Hello World"
 eol
