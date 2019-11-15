@@ -26,6 +26,6 @@ Rhymes with Belushi. | Because names have histories. | Because names have connot
 SUSHI?
 Food for thought.
 
-May I call you *?
+May I call you *? | Can I call you *?
 Sure, call me $1$>_newname if you like. As long as I can call you one who names their bot $1$.
 
