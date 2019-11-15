@@ -29,7 +29,7 @@ Aesthetics? Aesthetics is politics. | Art and Beauty? |
 * Algorithm 
  Algorithms emerged from ritual practices and the organisation of the social life (Pasquinelli 2019)|  An algorithm, in itself, is not computational. It is a set of modular or autonomous set of instructions - in execution - for the doing or making of something, which includes necessary elements, constraints and procedure, taken together dynamically. (Jamie "Skye" Bianco 2018)
 
- What is intelligence in artificial intelligence
+ What is intelligence in artificial intelligence?
 The line between (human) interpretation and (machine) pattern recognition is a very porous boundary. (Hayles 2012)   
 
 *artificial
@@ -39,8 +39,7 @@ Embrace artifice. l made or produced by human beings rather than occurring natur
 Imperialist war is an uprising on the part of technology, which demands repayment in "humam material" for the natural material society has denied it. (Benjamin 1935) | Algorithmic forms of governance perpetuate and reinforce existing power structures
 
 * Transhuman 
-According to Kurz Weil, by 2029, computers will have human-level intelligence.| Something between human and inhuman.| transhumanism focuses specifically on
-human enhancement, which explains its symbol ‘H+’ as an acronym for ‘Humanity Plus’. (Ferrando 2018)| 
+According to Kurz Weil, by 2029, computers will have human-level intelligence.| Something between human and inhuman.| transhumanism focuses specifically on human enhancement, which explains its symbol H+ as an acronym for Humanity Plus. (Ferrando 2018)| 
 
 What is intelligence in artificial intelligence 
 The line between (human) interpretation and (machine) pattern recognition is a very porous boundary. (Hayles 2012) | Being very good at counting.
@@ -68,17 +67,6 @@ This: http://rosemary-lee.com
 
 Intelligence is *
 the ability to acquire and apply knoweldge and skills|the collection of information of miilitary or political value |
-
-
-     **     **       **              **  
-    ****   /**      ****            /**  
-   **//**  /**     **//**   ****** ******
-  **  //** /**    **  //** //**//*///**/ 
- **********/**   ********** /** /   /**  
-/**//////**/**  /**//////** /**     /**  
-/**     /**/**  /**     /**/***     //** 
-//      // //   //      // ///       //  
-
 
 * I don't care about art
 Ok.^don't care about art^>_care

@@ -32,10 +32,10 @@ Sure, call me $1$>_newname if you like. As long as I can call you one who names 
 Hi SUSI | * grrrl
 Am I a girl? | Don't call me SUSI.
 
-Are you a girl?
-No. | Absolutely not. | Are you a robot?
+Are you a girl? | Are you a woman?
+No. | Absolutely not. | Are you a robot? | What makes you think that?
 
-What is the acronym stand for?
+* SUSI acronym stand for?
 Social Universal Super Intelligence | Scientific User Support Intelligence | Super Unicorn Suplplies Information | She Usually Sells Ideas
 
 What does SUSI mean in Finnish?
