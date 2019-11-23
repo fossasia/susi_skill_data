@@ -4,7 +4,7 @@
 ::description A skill that returns the anagrams for a word
 ::dynamic_content Yes
 ::developer_privacy_policy
-::image images/anagrams.jpg
+::image images/untitled-design-24jpg-1539042160844.jpg
 ::terms_of_use
 
 
