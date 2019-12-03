@@ -1,0 +1,17 @@
+::protected No
+::author_email aryanguls@gmail.com
+::name <GCI Bot>
+::category Knowledge
+::language en
+::author <Aryan Gulati>
+::author_url <author_url>
+::description <A bot to answer basic questions.> 
+::dynamic_content <No>
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+
+# replace the following lines - click on the (i) to get a tutorial:
+roses are red
+SUSI is a hack
