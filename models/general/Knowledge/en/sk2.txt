@@ -1,0 +1,16 @@
+::protected No
+::author_email amartua2002@gmail.com
+::name sk2
+::category Knowledge
+::language en
+::author <author_name>
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+doing great |fine|Doing fine|Doing great|I am fine 
+Great!Where are you from?
+
+
