@@ -1,0 +1,14 @@
+::protected No
+::author_email amartua2002@gmail.com
+::name sk1
+::category Knowledge
+::language en
+::author <author_name>
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+Hello|hello|HELLO|hi|H
+Hello,my name is Susi,I'm a chatbot,how are you doing?
