@@ -10,5 +10,8 @@
 ::developer_privacy_policy <link>
 ::image images/<image_name>
 ::terms_of_use <link> 
-I'm from India
+I'm from India|India|india
 Oh!Pretty cold right now,isn't it?
+
+yes|yo|yeah|Yes|no|No
+:)
