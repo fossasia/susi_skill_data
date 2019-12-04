@@ -16,4 +16,4 @@ How does a Macbook looks like
 Like a small beautiful thin laptop with great performance|Like a cute laptop|Like a beast
 !example:<How does a Macbook looks like>
 !expect:<Like a small beautiful thin laptop with great performance >
-Answer for the user query
+
