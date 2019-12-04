@@ -11,9 +11,10 @@
 ::image images/<image_name>
 ::terms_of_use <link>
 
-# replace the following lines - click on the (i) to get a tutorial:
 How does a Macbook looks like
 Like a small beautiful thin laptop with great performance|Like a cute laptop|Like a beast
-!example:<How does a Macbook looks like>
-!expect:<Like a small beautiful thin laptop with great performance >
+
+Bonjour|Guten Morgen|Buenos días
+Good Moring!
+
 
