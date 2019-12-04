@@ -14,7 +14,8 @@
 
 # replace the following lines - click on the (i) to get a tutorial:
 
-query1|query2|query3...
+hey jarvis|how are you|jarvis where i am from...
 !example:<Hey>
 !expect:<The answer expected for the above example>
 Answer for the user query
+Hello Aadarsh Sir|I'am fine sir|You Are from India
