@@ -1,0 +1,19 @@
+::protected No
+::author_email vdaita@gmail.com
+::name FaveFood
+::category Knowledge
+::language en
+::author vijay
+::author_url github.com/vdaita
+::description Simple bot
+::dynamic_content No
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+
+# replace the following lines - click on the (i) to get a tutorial:
+
+# Intent
+User What should I do?
+Answer Do well.
