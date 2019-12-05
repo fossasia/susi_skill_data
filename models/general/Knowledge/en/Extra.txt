@@ -13,8 +13,8 @@
 
 
 
-What is the HTML means?
+What does HTML means?
 HTML means HyperText Markup Langauge.
 
-What is the CSS means?
+What does CSS means?
 CSS means Cascading Style Sheets.
