@@ -14,6 +14,6 @@
 
 # replace the following lines - click on the (i) to get a tutorial:
 
-# Intent
-User What should I do?
-Answer Do well.
+what should I do? | What do I do?
+!example:what should I do?
+Study.
