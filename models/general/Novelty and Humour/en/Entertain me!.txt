@@ -42,11 +42,14 @@ will die? Its an ice cube!|
 
 
 
-* joke on *
-!console:$text$
+||
+!example:Random fun!
+!console:$jokes$
 {
-    "url": "https://geek-jokes.sameerkumar.website/api"
+    "url": "https://api.chucknorris.io/jokes/random",
+    "path":"$.value"    
 }
 eol
+||
 
 
