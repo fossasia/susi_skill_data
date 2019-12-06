@@ -1,6 +1,6 @@
 ::protected Yes
 ::author_email vrishinshah@hotmail.com
-::name Entertainment
+::name Entertain me!
 ::category Novelty and Humour
 ::language en
 ::author PicantaData
@@ -17,7 +17,7 @@ Hey|Hi|Hello!|Hello|Bonjour|Guten Morgan|Good morning|Good Evening
 Hello! How can I help you?|Hey!
 
 
-* * joke|Refresh *|* Entertainment|*Entertain|* funny
+* * joke|Refresh *|* Entertainment|*Entertain|* funny|Entertain *
 Sure! Here's one for you.\
 Why do we tell actors to “break a leg?”\
 Because every play has a cast.|Upcoming!\

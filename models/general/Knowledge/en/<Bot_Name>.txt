@@ -1,6 +1,6 @@
 ::protected No
-::author_email zedongsaw@gmail.com
-::name asdasdewf
+::author_email 
+::name <Bot_Name>
 ::category Knowledge
 ::language en
 ::author <author_name>
@@ -15,7 +15,3 @@
 # replace the following lines - click on the (i) to get a tutorial:
 
 
-* Singapore founded?
-!example: How was Singapore founded?
-!expect:Singapore was founded in 1819.... 
-Singapore was founded in 1819|Singapore was founded by Sir...
