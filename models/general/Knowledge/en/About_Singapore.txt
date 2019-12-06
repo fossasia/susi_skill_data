@@ -1,0 +1,36 @@
+::protected No
+::author_email zedongsaw@gmail.com
+::name About Singapore
+::category Knowledge
+::language en
+::author SZD
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+
+# replace the following lines - click on the (i) to get a tutorial:
+
+* Singapore founded|* Singapore * founded|* founding * Singapore|founding * Singapore|* Singapura founded|* Singapura * founded|* founding * Singapura|founding * Singapura|* Raffles|Raffles
+!example: How was Singapore founded?
+!expect: Singapore was founded in 1819 by Sir Stamford Raffles. He wanted to set up a British port back then, and as Singapore fulfilled the requirements, he signed a treaty and set up a port in Singapore, marking Singapore's founding. Find out more at: https://rb.gy/zkybp4
+Singapore was founded in 1819 by Sir Stamford Raffles. He wanted to set up a British port back then, and as Singapore fulfilled the requirements, he signed a treaty and set up a port in Singapore, marking Singapore's founding. Find out more at: https://rb.gy/zkybp4
+
+* Singapore named|* named Singapore|* Singapore * name|* name * Singapore|* Singapura named|* named Singapura|* Singapura * name|* name * Singapura
+!example: How was Singapore named?
+!expect: Legend has it that when Sang Nila Utama landed in present-day Singapore, he spotted a lion, a auspicious symbol, hence naming the place Singapura (or Singapore), or Lion City. Find out more at: https://rb.gy/jclspr
+Legend has it that when Sang Nila Utama landed in present-day Singapore, he spotted a lion, a auspicious symbol, hence naming the place Singapura (or Singapore), or Lion City. Find out more at: https://rb.gy/jclspr
+
+Facts * Singapore|Singapore facts|* facts * Singapore|* fact * Singapore|Singapore fact
+!example: A fact about Singapore
+!expect: Singapore’s national anthem is in micro-text on the back of their $1,000 note.
+Singapore’s national anthem is in micro-text on the back of their $1,000 note.|Singapore is one of only three surviving city-states in the world. The other two are Monaco and the Vatican City.|In addition to its main island, the nation of Singapore includes 63 additional islands, most of which are uninhabited.|Singapore is among the 20 smallest countries in the world, with a total land area of only 682.7 square kilometers. The United States is about 15,000 times bigger.|Singapore’s Bukit Timah Nature Reserve holds more species of trees than the entire North American continent.|Buildings in Singapore cannot be higher than 280 metres. Currently, there are three buildings of that height – OUB Centre, UOB Plaza and Republic Plaza.|Singapore has more than 3,000 kilometres of roads. Stretched out end to end, they would cover the distance from Singapore to Hong Kong.|The national language of Singapore is Malay. The four official languages of the country are English, Chinese, Tamil, and Malay.
+
+* Singapore * flag|* Singapore Flag|Flag * Singapore
+!example: Tell me about the Singapore Flag
+!expect: The red of Singapore’s flag represents universal brotherhood and equality of man while the white symbolizes purity and virtue. The crescent moon stands for a young nation on the rise and the five stars signify the ideals of democracy, peace, progress, justice and equality. Find out more at: https://rb.gy/ihqtks
+The red of Singapore’s flag represents universal brotherhood and equality of man while the white symbolizes purity and virtue. The crescent moon stands for a young nation on the rise and the five stars signify the ideals of democracy, peace, progress, justice and equality. Find out more at: https://rb.gy/ihqtks
+

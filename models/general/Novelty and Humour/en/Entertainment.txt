@@ -1,0 +1,32 @@
+::protected No
+::author_email vrishinshah@hotmail.com
+::name Entertainment
+::category Novelty and Humour
+::language en
+::author PicantaData
+::author_url <author_url>
+::description < this is an mind refresher bot!> 
+::dynamic_content <Yes>
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+
+# replace the following lines - click on the (i) to get a tutorial:
+
+#Wish
+Hey|Hi|Hello!|Hello|Bonjour|Guten Morgan|Good morning|Good Evening
+Hello! How can I help you?|Hey!|Hi, I am SUSI
+
+* * joke|Refresh *|* Entertainment|*Entertain|
+Sure! Here's one for you.\
+Why do we tell actors to “break a leg?”\
+Because every play has a cast.|Upcoming!\
+Hear about the new restaurant called Karma?\
+There’s no menu: You get what you deserve :O|Yeah!\
+Did you hear about the actor who fell through the floorboards?\
+He was just going through a stage.|There you go..\
+Did you hear about the claustrophobic astronaut?\
+He just needed a little space.:)
+
+

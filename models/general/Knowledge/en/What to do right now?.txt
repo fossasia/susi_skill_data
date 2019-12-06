@@ -17,3 +17,11 @@
 what should I do? | What do I do?
 !example:what should I do?
 Study.
+
+how do I do it? | How do I do that?
+!example:how do I do it?
+Focus hard, concentrate, and crank out some work!
+
+how will I ever pay you back? | Thanks!
+!example:how will I ever pay you back?
+Give this bot a shoutout if you are on an awards stage.
