@@ -1,5 +1,0 @@
-::protected No
-::author_email chamodperera87@gmail.com
-# SUSI Skill tutorial playground
-roses are red
-SUSI is a hack
