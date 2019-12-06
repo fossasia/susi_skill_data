@@ -1,6 +1,6 @@
 ::protected No
 ::author_email vdaita@gmail.com
-::name FaveFood
+::name What to do right now?
 ::category Knowledge
 ::language en
 ::author vijay
