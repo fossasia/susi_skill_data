@@ -1,0 +1,15 @@
+::name Insult
+::author Chetan Kaushik
+::author_url https://github.com/dynamitechetan
+::dynamic_content Yes
+::image images/insult.png
+::description Ask Susi to genrate insult
+
+generate an insult | Insult | insult | insut someone | insult me | insult * | insult for a comeback | open insult generator | insult generator
+!example:generate an insult 
+!console: $!$
+{ 
+    "url": "http://quandyfactory.com/insult/json",  
+    "path" : "$.insult"
+}
+eol

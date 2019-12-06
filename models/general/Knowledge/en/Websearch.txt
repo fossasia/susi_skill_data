@@ -1,0 +1,22 @@
+::name Websearch
+::author Uday Theja
+::author_url https://github.com/uday96
+::description A skill to search query on search engines.
+::dynamic_content Yes
+::developer_privacy_policy
+::image images/websearch.png
+::terms_of_use
+
+#query from duckduckgo
+search for *|query *|duckduckgo *| search the web for *| find about *| websearch for *| websearch * |find * on internet| find * | search internet for * | search duckduckgo for * | search google for * | google for * | google * | search google *| google this *| find * on google |  find the web for * | find * on duckduckgo | find about * on internet | find about * on google |find about * on duckduckgo | find about * on web | look for * | look google for * | look duckduckgo for * | look * on google | look * on web | about * on google | about * on duckduckgo | about * on internet | find * on internet | search internet for * | search * | internet * | web * | look for information on * |look for information on google for * | look for information on duckduckgo about * | look for information about * 
+!example: search dog
+!console:Here is a websearch result:
+{
+    "url":"https://cors-anywhere.herokuapp.com/https://api.duckduckgo.com/?q=$1$&format=json&pretty=1",
+    "path":"$",
+    "actions":[{ 
+    "type":"websearch",
+    "query":$1$
+    }]
+}
+eol

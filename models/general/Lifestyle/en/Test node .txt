@@ -1,0 +1,25 @@
+::protected No
+::author_email jula.albert@yahoo.de
+::name Test node 
+::category Lifestyle
+::language en
+::author june
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+
+June wants you do your thing
+!example:Say hello my friend.
+!console:$!$ 
+{
+    "url":"http://127.0.0.1:8080",
+    "path": "$.text"
+}
+eol
+
+ayo | AYO
+GG!

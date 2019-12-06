@@ -1,0 +1,19 @@
+::protected No
+::author_email danielschool14@gmail.com
+::name name
+::category Knowledge
+::language en
+::author <author_name>
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+
+# replace the following lines - click on the (i) to get a tutorial:
+
+!example:<what is your name>
+!expect:<I'm your Buddy of course!>
+Answer for the user query

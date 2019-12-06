@@ -1,0 +1,18 @@
+::name Domain Check
+::author Uday Theja
+::author_url https://github.com/uday96
+::description A skill to check if a domain is a valid one for a mailing address or emailID 
+::dynamic_content Yes
+::developer_privacy_policy
+::image images/domain_check.png
+::terms_of_use
+
+validate email domain *|check email domain *|status of the email domain *
+!example:validate email domain gmail.com
+!expect:The domain gmail.com is ACTIVE
+!console:The domain $1$ is $!$
+{
+    "url":"https://api.mailtest.in/v1/$1$",
+    "path":"$.status"
+}
+eol

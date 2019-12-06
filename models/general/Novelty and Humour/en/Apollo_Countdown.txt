@@ -1,0 +1,24 @@
+::protected No
+::author_email mc@yacy.net
+::name Apollo Countdown
+::category Novelty and Humour
+::language en
+::author 0rb1t3r
+
+
+rocket launch|lauch rocket|apollo countdown|go to moon|go to the moon
+!plan 1000: twelve
+!plan 2000: eleven
+!plan 3000: ten
+!plan 4000: nine
+!plan 5000: ignition sequence starts
+!plan 7000: six
+!plan 8000: five
+!plan 9000: four
+!plan 10000: three
+!plan 11000: two
+!plan 12000: one
+!plan 13000: zero
+!plan 14000: all engines running
+!plan 16000: liftoff, we have a liftoff!
+starting countdown

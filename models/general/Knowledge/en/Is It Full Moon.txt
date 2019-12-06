@@ -1,0 +1,22 @@
+::protected No
+::author_email marc.nause@audioattack.de
+::name Is It Full Moon
+::category Knowledge
+::language en
+::author Marc Nause
+::author_url https://github.com/Low012
+::description Tells if the moon is full or not.
+::dynamic_content Yes
+::developer_privacy_policy
+::image images/moon-far-side.jpg
+::terms_of_use
+
+
+Is the moon full tonight|Is it full moon tonight|Is it fullmoon tonight|Is the moon full today|Is the moon full|Is it full moon today|Is it full moon|Is it fullmoon today|Is it fullmoon?
+!example:Is the moon full tonight?
+!console:$status$.
+{
+    "url": "https://isitfullmoon.com/api.php?format=json",
+    "path": "$.isitfullmoon"
+}
+eol

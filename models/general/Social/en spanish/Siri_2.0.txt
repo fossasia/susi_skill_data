@@ -1,0 +1,19 @@
+::protected No
+::author_email smr04.2020@gmail.com
+::name Siri_2.0
+::category Social
+::language en spanish
+::author <author_name>
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+
+# SUSI.AI tutorial playground
+::prior
+roses are red
+susi is a hack
+skynet is back

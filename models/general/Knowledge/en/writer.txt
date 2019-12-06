@@ -1,0 +1,19 @@
+::name Writer
+::author Jogendra Singh
+::author_url https://github.com/imjog
+::description A skill to tell answers for the name of the writer of a book.
+::dynamic_content Yes
+::developer_privacy_policy
+::image images/writer.png
+::terms_of_use
+
+# Returns the name of the writer of a book
+who is the writer of *| writer *| tell me the writer of *| Who is the writer of * ? | find the writer of *|do you know the writer of *|tell about the writer of *|Name the writer of *| Can you tell me who is the writer of *| Please let me know who is the writer of * | Do you know about the writer of *
+!example:who is the writer of game of thrones
+!expect:George R. R. Martin
+!console:$plaintext$
+{
+  "url": "http://api.wolframalpha.com/v2/query?input=writer+$1$&appid=9WA6XR-26EWTGEVTE&output=JSON&includepodid=Result",
+  "path" : "$.queryresult.pods[0].subpods[0]"
+}
+eol

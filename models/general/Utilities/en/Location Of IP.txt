@@ -1,0 +1,24 @@
+::protected No
+::author_email marc.nause@audioattack.de
+::name Location Of IP
+::category Utilities
+::language en
+::author Marc Nause
+::author_url https://github.com/Low012
+::description A skill to give the user the location of an IP address.
+::dynamic_content yes
+::developer_privacy_policy 
+::image images/Earth-Globe-Sketch.png
+::terms_of_use 
+
+Where is IP *|Where is IP * located|What is the location of IP *|Where is the IP *|Where is the IP * located|What is the location of the IP *|Where is this IP *|Location of IP *|Where is the IP address *|Where is the IP address * located|What is the location of the IP address *|Where is this IP address *|Location of IP address *|Where is the IP number *|Where is the IP number * located|What is the location of the IP number *|Where is this IP number *|Location of IP number *
+!example:Where is the IP 80.122.124.100 located?
+!expect:The IP is located in Vienna.
+!console:The IP is located in $!$.
+{
+"url":"https://api.hostip.info/get_json.php?ip=$1$",
+"path":"$.city"
+}
+eol
+
+

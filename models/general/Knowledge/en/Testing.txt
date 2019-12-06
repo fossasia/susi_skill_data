@@ -1,0 +1,18 @@
+::protected No
+::author_email zedongsaw@gmail.com
+::name Testing
+::category Knowledge
+::language en
+::author <author_name>
+::author_url <author_url>
+::description <description> 
+::dynamic_content No
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+
+# replace the following lines - click on the (i) to get a tutorial:
+
+User Testing query one|Testing query two|Testing query three
+Answer Chocolate one|Strawberry two|Vanilla three

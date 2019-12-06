@@ -1,0 +1,31 @@
+::name Wikipedia
+::author Chetan Kaushik
+::author_url https://github.com/dynamitechetan
+::description A skill to search wikipedia for a given query.
+::dynamic_content Yes
+::developer_privacy_policy
+::image images/Wikipedia.png
+::terms_of_use
+
+# searches wikipedia for a given query
+wiki *| wiki for *| search wiki for *|* wiki|give me wiki results for *| tell me what wiki has to say on *| search wikipedia for *|show me wikipedia results on *| find * on wiki|what wiki says on *
+!example:search wikipedia for artificial intelligence
+!expect:Artificial intelligence (AI) is intelligence exhibited by machines. In computer science, the field of AI research defines itself as the study of "intelligent agents": any device that perceives its environment and takes actions that maximize its chance of success at some goal.
+!console:$!$
+{
+"url":"https://en.wikipedia.org/w/api.php?action=opensearch&search=$1$&limit=1&format=json",
+"path":"$.[2].[0]"
+}
+eol
+
+
+# give wikipage link 
+wiki page *| wikipage *| wikipedia *| give me the wikipage for *| wikipedia page link for *|find the wikipage of *|tell the wikipage url for *|get me the wikipage for *| get me the wikipage of *| give the wikipedia page link for * | do you know the wikipage of * | do you know the wikipage for * | tell me the wikipage of *| find me the wikipage for *| find me the wikipage link for *| tell me the wikipedia page of *| do you know the wikipedia page for * 
+!example:find the wikipage of Elon Musk
+!console:$!$
+{
+"url":"https://en.wikipedia.org/w/api.php?action=opensearch&search=$1$&limit=1&format=json",
+"path":"$.[3]"
+}
+eol
+
