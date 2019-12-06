@@ -1,5 +1,5 @@
 ::protected Yes
-::author_email vrishinshah@hotmail.com
+::author_email 
 ::name Entertain me!
 ::category Novelty and Humour
 ::language en
@@ -20,9 +20,9 @@ Hello! How can I help you?|Hey!
 * * joke|Refresh *|* Entertainment|*Entertain|* funny|Entertain *
 Sure! Here's one for you.\
 Why do we tell actors to “break a leg?”\
-Because every play has a cast.|Upcoming!\
+Because every play has a cast.|Upcoming! \
 Hear about the new restaurant called Karma?\
-There’s no menu: You get what you deserve :O|Yeah!\
+There’s no menu: You get what you deserve :O|Yeah! \
 Did you hear about the actor who fell through the floorboards?\
 He was just going through a stage.|There you go..\
 Did you hear about the claustrophobic astronaut?\
@@ -39,3 +39,14 @@ What is it? ..I bet you wouldn't have guessed it correctly --Its a coffin.|Durin
 which month do people sleep the least?\
 Dont stress much- its February :)|What is made of water but if you put it into water it\
 will die? Its an ice cube!|
+
+
+
+* joke on *
+!console:$text$
+{
+    "url": "https://geek-jokes.sameerkumar.website/api"
+}
+eol
+
+
