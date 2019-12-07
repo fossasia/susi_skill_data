@@ -1,6 +1,6 @@
 ::protected Yes
-::author_email 
-::name Entertain me!
+::author_email vrishinshah@hotmail.com
+::name Entertainment
 ::category Novelty and Humour
 ::language en
 ::author PicantaData
@@ -11,13 +11,12 @@
 ::image images/<image_name>
 ::terms_of_use <link>
 
-
 #Wish
 Hey|Hi|Hello!|Hello|Bonjour|Guten Morgan|Good morning|Good Evening
 Hello! How can I help you?|Hey!
 
 
-* * joke|Refresh *|* Entertainment|*Entertain|* funny|Entertain *
+* * joke|Refresh *|* Entertainment|*Entertain|* funny|Entertain *|
 Sure! Here's one for you.\
 Why do we tell actors to “break a leg?”\
 Because every play has a cast.|Upcoming! \
@@ -28,7 +27,8 @@ He was just going through a stage.|There you go..\
 Did you hear about the claustrophobic astronaut?\
 He just needed a little space.:)|Here..\
 Why don’t scientists trust atoms?\
-Because they make up everything.
+Because they make up everything.|
+
 
 * riddle|riddle|riddle *|ask * * riddle|
 What can travel around the world while staying in a corner?\
@@ -38,18 +38,17 @@ Who uses it can neither see nor feel it.\
 What is it? ..I bet you wouldn't have guessed it correctly --Its a coffin.|During\
 which month do people sleep the least?\
 Dont stress much- its February :)|What is made of water but if you put it into water it\
-will die? Its an ice cube!|
+will die? Its an ice cube!
 
+#UNDER TRIAL
 
-
-||
-!example:Random fun!
-!console:$jokes$
+!console:$fun$
 {
-    "url": "https://api.chucknorris.io/jokes/random",
-    "path":"$.value"    
+    "url":"https://api.chucknorris.io/jokes/random?value=$",
+    "path":"$.value"
 }
 eol
-||
+
+
 
 
