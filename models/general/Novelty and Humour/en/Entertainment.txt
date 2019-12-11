@@ -41,13 +41,17 @@ Dont stress much- its February :)|What is made of water but if you put it into w
 will die? Its an ice cube!
 
 #UNDER TRIAL
-
-!console:$fun$
+heyyy
+!console:$text$
+!example:Random Fun!
 {
-    "url":"https://api.chucknorris.io/jokes/random?value=$",
-    "path":"$.value"
+    "url":"https://api.chucknorris.io/jokes/random?escape=json",
+    "path":"value"    
+        
+                    
 }
 eol
+
 
 
 

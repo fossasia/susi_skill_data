@@ -1,0 +1,18 @@
+::protected No
+::author_email ayushtech272004@gmail.com
+::name SecondBot
+::category Knowledge
+::language en
+::author <author_name>
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+
+# replace the following lines - click on the (i) to get a tutorial:
+
+What is your favorite dish
+Potatoes|Vegetables|Fish
