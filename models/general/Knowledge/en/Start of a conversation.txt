@@ -14,5 +14,17 @@
 
 # replace the following lines - click on the (i) to get a tutorial:
 
+I wrote an exam
+Oh really? Good or bad?
+
+Good|It was fine|It was okay
+That's nice!
+
+Bad
+Oh no. I think you should learn next time!
+
 *
-^$1$^>_athome ?$1$=hello:Oh hi!  What did you do in school? | ?$_athome$=how are you?:I'm fine and you? What did you do in school?
+^$1$^>_universal
+
+*
+?$_universal$=hello:Oh hi!  What did you do in school? | ?$_universal$=how are you?:I'm fine and you? What did you do in school?
