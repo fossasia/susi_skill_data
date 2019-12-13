@@ -1,0 +1,25 @@
+::protected No
+::author_email pranav.karthik@icloud.com
+::name About FOSSASIA
+::category Knowledge
+::language en
+::author <author_name>
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+
+# replace the following lines - click on the (i) to get a tutorial:
+
+What is fossasia? | What is foss? |What is FOSSASIA|
+!example:What is fossasia
+!expect:FOSSASIA is a inspiring community to form a better future using Open Technologies.
+FOSSASIA is a inspiring community to form a better future using Open Technologies.
+
+What do they do? | What does foss do?| What does fossasia do?| 
+!example: What does fossasia do?
+!expect:FOSSASIA organizes training programs and coding events for people all over the world.
+FOSSASIA organizes training programs and coding events for people all over the world.
