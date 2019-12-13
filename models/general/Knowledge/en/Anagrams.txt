@@ -1,0 +1,14 @@
+::name Anagrams
+::author Vivek Iyer
+::author_url https://github.com/Remorax
+::description A skill that returns the anagrams for a word
+::dynamic_content Yes
+::developer_privacy_policy
+::image images/untitled-design-24jpg-1539042160844.jpg
+::terms_of_use
+
+
+User Anagram of *|* Anagram|Anagram for *|What is the Anagram of *|Tell me the Anagram of *| find Anagram of *| search Anagram of *| look up Anagram of *| do you know Anagram of *| give me Anagram of *
+!example:Anagram for best
+!expect:Best, bets
+You can find the anagrams of $1$ here: https://anagram-solver.net/$1$

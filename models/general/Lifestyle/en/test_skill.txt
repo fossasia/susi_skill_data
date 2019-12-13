@@ -1,0 +1,25 @@
+::protected No
+::author_email jula.albert@yahoo.de
+::name Test Skill
+::category Lifestyle
+::language en
+::author <june>
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+
+Are you ready for this?
+((Wendy voice)) Zimzalabim! 
+
+Greet node * | is it ma boi node?
+!example:Greet node please
+!console:$!$ 
+{
+    "url":"https://api.myjson.com/bins/11wb5x",
+    "path": "$.text"
+}
+eol

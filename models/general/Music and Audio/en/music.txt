@@ -1,0 +1,46 @@
+#Ex: search user spartacus in mixcloud
+::name Music
+::author Uday Theja
+::author_url https://github.com/uday96
+::dynamic_content Yes
+::image images/music.png
+::description Play any genre song from mixcloud
+
+* user * in mixcloud
+!example:search user spartacus in mixcloud
+!console:For $2$'s user profile - $!$
+{
+"url":"https://api.mixcloud.com/$2$/",
+"path":"$.url"
+}
+eol
+
+#Ex: list mixcloud shows from athens
+* mixcloud shows from *
+!example:list mixcloud shows from athens
+!console:For shows from $2$ - $!$
+{
+"url":"https://api.mixcloud.com/discover/city:$2$/",
+"path":"$.url"
+}
+eol
+
+#Ex: play any funk genre from mixcloud
+play any * genre from mixcloud|play any * shows from mixcloud
+!example:play any funk genre from mixcloud
+!console:For $1$ shows - $!$
+{
+"url":"https://api.mixcloud.com/discover/$1$/",
+"path":"$.url"
+}
+eol
+
+#Ex: play any pop genre from london from mixcloud
+play any * genre from * from mixcloud|play any * shows from * from mixcloud
+!example:play any pop genre from london from mixcloud
+!console:For $1$ shows from $2$ - $!$
+{
+"url":"https://api.mixcloud.com/discover/$1$+city:$2$/",
+"path":"$.url"
+}
+eol

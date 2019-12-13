@@ -1,0 +1,28 @@
+::protected No
+::author_email hayyoulistentome@gmail.com
+::name Greetings
+::category Communication
+::language en
+::author Amartya Mondal
+::author_url https://github.com/atm1504
+::description Skill related to greetings 
+::dynamic_content No
+::developer_privacy_policy
+::image images/greeting.jpg
+::terms_of_use
+
+
+//replace the following lines:
+Good Morning | Say Good Morning
+!example:Good Morning
+Good Morning! Have a nice day!
+
+Good Night | Say Good Night
+!example:Good Night
+Good Night! Have sweet dreams.
+
+Good Evening | Say Good Evening
+Good Evening!
+
+Good Afternoon | Say Good Afternoon
+Good Afternoon!

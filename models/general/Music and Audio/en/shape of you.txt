@@ -1,0 +1,18 @@
+::protected No
+::author_email chamodperera87@gmail.com
+::name shape of you
+::category Music and Audio
+::language en
+::author <author_name>
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/download (6).jpg
+::terms_of_use <link>
+
+
+#intent
+who is the singer of shape of you
+ed sheeran
+

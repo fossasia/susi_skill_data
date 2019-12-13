@@ -1,0 +1,30 @@
+::protected No
+::author_email marc.nause@audioattack.de
+::name Resistor Color Code Calculator
+::category Utilities
+::language en
+::author Marc Nause
+::author_url https://github.com/Low012
+::description Calculates the value for a resistor color code.
+::dynamic_content Yes
+::developer_privacy_policy
+::image images/resistor-public-domain.jpg
+::terms_of_use
+
+
+Resistor * and * and *|Value of resistor * and * and *|Value of resistor with * and * and *|Value of resistor marked * and * and *|Value of resistor marked with * and * and *|Value of resistor with color code * and * and *|Value of resistor with colors * and * and *|What is the value of the resistor with colors * and * and *|What is the value of the resistor with the colors * and * and *
+!example:What is the value of the resistor with colors yellow and purple and brown?
+!expect:The value is 470.0 Ω.
+!javascript:The value is $!$ Ω.
+var myMap = { "silver": -2, "gold": -1, "black": 0, "brown":  1, "red":  2, "orange":  3, "yellow":  4, "green":  5, "blue":  6, "purple":  7, "violet":  7, "grey":  8, "gray":  8, "white":  9 };
+(myMap["$1$"] * 10 + myMap["$2$"]) * Math.pow(10, myMap["$3$"]);
+eol
+
+Resistor * and * and * and *|Value of resistor * and * and * and *|Value of resistor with * and * and * and *|Value of resistor marked * and * and * and *|Value of resistor marked with * and * and * and *|Value of resistor with color code * and * and * and *|Value of resistor with colors * and * and * and *|What is the value of the resistor with colors * and * and * and *|What is the value of the resistor with the colors * and * and * and *
+!example:What is the value of the resistor with colors yellow and purple and brown and silver?
+!expect:The value is 470 Ω ±10%.
+!javascript:The value is $!$.
+var myMap = { "silver": -2, "gold": -1, "black": 0, "brown":  1, "red":  2, "orange":  3, "yellow":  4, "green":  5, "blue":  6, "purple":  7, "violet":  7, "grey":  8, "gray":  8, "white":  9 };
+var tolerance = { "silver": "±10%", "gold": "±5%", "brown":  "±1%", "red":  "±2%", "green":  "±0.5%", "blue":  "±0.25%", "purple":  "±0.1%", "violet":  "±0.1%", "grey":  "±0.01%", "gray":  "±0.01%" };
+(myMap["$1$"] * 10 + myMap["$2$"]) * Math.pow(10, myMap["$3$"]) + " Ω " +(tolerance["$4$"]);
+eol

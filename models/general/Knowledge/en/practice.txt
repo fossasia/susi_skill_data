@@ -1,0 +1,23 @@
+::protected No
+::author_email atulpan98@gmail.com
+::name practice
+::category Knowledge
+::language en
+::author <author_name>
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+
+# SUSI Skill tutorial playground
+What is your favorite dish
+Potatoes|Vegetables|Fish|
+
+Bonjour|Hola|Ciao
+Hello
+
+May I tell you *
+Yes tell me $1$.

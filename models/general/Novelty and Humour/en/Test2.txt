@@ -1,0 +1,17 @@
+::protected No
+::author_email victorianf.89@hotmail.com
+# SUSI Skill tutorial playground
+
+* CONTINUITY
+!image:images/English-Standalone-aiml2susi.png
+I am just trying to keep the conversation lively.
+
+* ARE ROSES RED ?
+!example:Are roses red? 
+Roses does not exist. 
+
+* DO
+roses are red
+
+* DO
+SUSI is a hack

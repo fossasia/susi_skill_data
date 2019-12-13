@@ -1,0 +1,18 @@
+::name Latest Phone
+::author Ali Ayub Khan
+::author_url https://www.github.com/AliAyub007
+::description A skill to give information about latest phone by any company.
+::dynamic_content Yes
+::developer_privacy_policy
+::image images/latest_phone.png
+::terms_of_use
+
+Tell me latest phone by *|can you tell me latest phone by *| can you tell me name of latest phone by *|Tell me name of latest phone by *|Do you know name of latest phone by *|I want to know name of latest phone by *|what is latest phone by *|which is latest phone by *| what is name of latest phone by *|Tell me the latest phone by *|can you tell me the latest phone by *| can you tell me the name of latest phone by *|Tell me the name of latest phone by *|Do you know the name of latest phone by *|I want to know the name of latest phone by *|what is the latest phone by *|what is the name of latest phone by *|which is the latest phone by *
+!example:Tell me latest phone by LG
+!expect:The name of latest phone by Samsung is LG V30
+!console:The name of latest phone by $1$ is $!$
+{
+    "url": "https://fonoapi.freshpixl.com/v1/getlatest?token=2661a712297c79463e1b03dfca6571267f318c11a94d4ceb&brand=$1$&limit=1",
+    "path": "$.[0].DeviceName"
+}
+eol

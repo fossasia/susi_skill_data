@@ -1,0 +1,16 @@
+::protected No
+::author_email yashsri421@gmail.com
+::name skill1
+::category Communication
+::language en
+::author <author_name>
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/index.png
+::terms_of_use <link>
+
+
+User What's your namewa?
+Answer Susi

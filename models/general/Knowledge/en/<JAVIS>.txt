@@ -1,0 +1,30 @@
+::name <JAVIS>
+::category Knowledge
+::language en
+::author <author_name>
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+
+#return asked Parameters from a Project
+	#read parameter > print
+
+	
+#send Project to next step
+	#read status > analysis JSON (and update Project) > send to next API
+
+	
+#search for all Projects in one status
+	#list Projects > search for asked status > print list
+
+send JSON
+!javascript: $!$ | hello
+var myObj = {name: "John", age: 31, city: "New York"};
+var myJSON = JSON.stringify(myObj);
+print(myJSON);
+eol
+#"/home/lschichler?x=" + myJSON

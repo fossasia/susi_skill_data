@@ -1,0 +1,18 @@
+::name Power Consumption
+::author Ali Ayub Khan
+::author_url https://github.com/AliAyub007
+::description A skill to give details about power consumption in a year in different countries.
+::dynamic_content Yes
+::developer_privacy_policy
+::image images/power_consumption.png
+::terms_of_use
+
+Power consumption per year in *|what is the power consumption per year in *|Tell me about of power consumption per year in *|Power consumption in *
+!example:Power consumption per year in America
+!expect:3.832 trillion kW h/yr (kilowatt hours per year) (2012 estimate)
+!console:$alt$
+{
+"url":"http://api.wolframalpha.com/v2/query?appid=9WA6XR-26EWTGEVTE&input=power%20consumption%20in%20$1$&output=JSON",
+"path":"$.queryresult.pods[1].subpods[0].img"
+}
+eol

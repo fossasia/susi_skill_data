@@ -1,0 +1,20 @@
+::protected No
+::author_email sk9331657@gmail.com
+::name Learn Languages
+::category Communication
+::language en
+::author Shubham Kumar
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/WhatsApp Image 2019-03-14 at 9.36.54 PM.jpeg
+::terms_of_use <link>
+
+Learn *
+!console:$text$
+{
+  "url":"http://127.0.0.1:3000/api/getwords/$1$",
+  "path":"$.data"
+}
+eol
