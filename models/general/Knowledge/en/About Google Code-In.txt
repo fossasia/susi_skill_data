@@ -3,7 +3,7 @@
 ::name About Google Code-In
 ::category Knowledge
 ::language en
-::author <author_name>
+::author Pranav Karthik
 ::author_url <author_url>
 ::description <description> 
 ::dynamic_content <Yes/No>
