@@ -1,0 +1,20 @@
+::protected No
+::author_email meetoza08@gmail.com
+::name TV SERIES RECOMMENDATION
+::category Movies and TV
+::language en
+::author <author_name>
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+
+# replace the following lines - click on the (i) to get a tutorial:
+
+Suggest some good tv series|recommend some tv series|query3...
+!example:<what should i watch?>
+!expect:<House of cards>
+house of cards

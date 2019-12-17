@@ -1,0 +1,66 @@
+::protected No
+::author_email amunoz@e.email
+::name MPR
+::category Knowledge
+::language es
+::author Alejandro M
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes>
+::developer_privacy_policy <link>
+::image images/mpr.jpeg
+::terms_of_use <link>
+
+hablame de *|contame de *|noticias de *|saber de *
+!console:$text$
+{
+  "url":"http://api.loklak.org/api/search.json?q=$1$",
+  "path":"$.statuses"
+}
+eol
+
+hora|* hora|hora *|* hora *
+!javascript: $!$
+var objToday = new Date();
+var hours = (objToday.getHours()>=5)?(objToday.getHours()-5):(19+objToday.getHours());
+print('es la hora ' + hours + ' y ' + objToday.getMinutes() + ' minutitos');
+eol
+
+# give wikipage link 
+wiki *| wikipagina *| wikipedia *|* wiki de *|link wikipedia de *|buscar la wiki de * 
+!example:find the wikipage of Elon Musk
+!console:$!$
+{
+"url":"https://es.wikipedia.org/w/api.php?action=opensearch&search=$1$&limit=1&format=json",
+"path":"$.[3]"
+}
+eol
+
+What happened on *
+!example:What happened on 2/14.
+!expect:February 14th is the day in 1876 that Alexander Graham Bell applies for a patent for the telephone, as does Elisha Gray.
+!console:Year-$year$ - $text$ 
+{
+"url":"http://history.muffinlabs.com/date/$1$",
+"path":"$.data.Events"
+}
+eol
+
+nacio el *-*
+!example:Who was born on 2/14
+!console:Year-$year$ - $text$ 
+{
+"url":"http://history.muffinlabs.com/date/$3$/$2$",
+"path":"$.data.Births"
+}
+eol
+
+Who died on *
+!example:Who died on 2/14
+!console:Year-$year$ - $text$ 
+{
+"url":"http://history.muffinlabs.com/date/$1$",
+"path":"$.data.Deaths"
+}
+eol
+

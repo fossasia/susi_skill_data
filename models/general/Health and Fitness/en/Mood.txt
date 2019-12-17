@@ -1,0 +1,22 @@
+::protected No
+::author_email hayyoulistentome@gmail.com
+::name Mood
+::category Health and Fitness
+::language en
+::author Amartya Mondal
+::author_url https://github.com/atm1504
+::description Skill that responses to queries of mood of an individual
+::dynamic_content On
+::developer_privacy_policy <link>
+::image images/mood.jpg
+::terms_of_use <link>
+
+
+//replace the following lines:
+I am depressed | Feeling depressed | Feeling mentally depressed
+!example: Feeling depressed
+I am sorry to hear that. Please seek help from professionals.
+
+How to overcome depression | Overcome depression
+!example: How to overcome depression
+One can overcome depression by visualizing happy memory, telling something good, exploring the nature.

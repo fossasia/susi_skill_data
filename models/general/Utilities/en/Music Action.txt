@@ -1,0 +1,22 @@
+::protected No
+::author_email hayyoulistentome@gmail.com
+::name Music Action
+::category Utilities
+::language en
+::author Amartya Mondal
+::author_url https://github.com/atm1504
+::description A skill that helps to execute planned action to play music
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/download.jpeg
+::terms_of_use <link>
+
+
+//replace the following lines:
+set alarm in one minute to play music
+!example: set alarm in one minute to play music
+alarm set in 1 minute to play music
+
+set alarm to play music in one minute
+!example: set alarm to play music in one minute
+alarm set for 1 miniute to play music

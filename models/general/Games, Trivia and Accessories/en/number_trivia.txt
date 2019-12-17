@@ -1,0 +1,45 @@
+::name Number Trivia
+::author Saurabh Jain
+::author_url https://github.com/saurabhjn76
+::dynamic_content Yes
+::description Play with numbers, get to know amazing fun facts about numbers
+::image images/number_trivia.png
+* math triva|math triva|* number fact|number fact|mathematics|* math
+!example: number fact
+!console:$!$
+{
+    "url":"http://numbersapi.com/random/math?json",
+    "path":"$.text"
+}
+eol
+
+tell me a fact about number *|explain the number *|explain number *|fact about the number *|fact about number *|about number *|about the number *
+!example: tell me a fact about number 7
+!console:$!$
+{
+    "url":"http://numbersapi.com/$1$/math?json",
+    "path":"$.text"
+}
+eol
+
+#example:what is special about the date 2/29
+what is special about the date *|on date *|what happened on *
+!example: what is special about the date 2/29
+!console:$!$
+{
+    "url":"http://numbersapi.com/$1$/date?json",
+    "path":"$.text"
+}
+eol
+
+tell me a random fact|random fact|be smart
+!example: tell me a random fact
+!console:$!$
+{
+    "url":"http://numbersapi.com/random/trivia?json",
+    "path":"$.text"
+}
+eol
+
+
+

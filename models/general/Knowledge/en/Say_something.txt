@@ -1,0 +1,19 @@
+::protected No
+::author_email blueroseri121@gmail.com
+::name Say something
+::category Knowledge
+::language en
+::author <author_name>
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+
+# replace the following lines - click on the (i) to get a tutorial:
+
+say something|Say something
+!example: say something
+Did you know that, A bolt of lightning contains enough energy to toast 100,000 slices of bread?

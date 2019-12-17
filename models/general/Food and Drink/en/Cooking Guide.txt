@@ -1,0 +1,38 @@
+#Gives recipies and links to cook a dish
+::name Cooking Guide
+::author Uday Theja
+::author_url https://github.com/uday96
+::description Feeling hungry, don't know how to cook, ask susi to help you out.Susi will tell the recipe and ingredients you need.
+::dynamic_content Yes
+::image images/cooking_guide.png
+
+* cook * | * recipe of * | * make * | * prepare *
+!example:how to cook biryani
+!console:To cook $title$, make sure you have $ingredients$ and check out $href$
+{
+"url":"http://www.recipepuppy.com/api/?q=$2$",
+"path":"$.results"
+}
+eol
+
+cook *|how to cook *|recipe for *
+!example:how to cook biryani
+!console:To cook $title$, check out $href$ and make sure you have $ingredients$!
+{
+"url":"http://www.recipepuppy.com/api/?q=$1$",
+"path":"$.results"
+}
+eol
+
+recipe list for *
+!example:recipe list for biryani
+!console:
+{
+"url":"http://www.recipepuppy.com/api/?q=$1$",
+"path":"$.results",
+"actions":[{
+"type":"table",
+"columns":{"title":"Recipe","ingredients":"Ingredients","href":"Instructions Link"}
+}]
+}
+eol

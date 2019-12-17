@@ -1,0 +1,50 @@
+::name Number System
+::author Jyothir Aditya
+::author_url https://www.github.com/jyoth1raditya
+::description Convert into Binary, Octal, Decimal and Hexadecimal
+::dynamic_content Yes
+::developer_privacy_policy  
+::image images/number_systems.png
+::terms_of_use
+
+convert * into binary | binary of * | convert * to binary | convert * in binary| * to binary | * in binary  | * into binary
+!example:convert 134 into binary
+!expect:Binary for 134 = 10000110
+!javascript:Binary for $1$ = $!$
+(+$1$).toString(2);
+eol
+
+convert binary * into decimal | decimal of binary * | convert binary * in decimal|convert binary * to decimal
+!example:convert binary 100 into decimal
+!expect:Decimal for 100 = 4
+!javascript:Decimal for $1$ = $!$
+parseInt(+$1$,2);
+eol
+
+convert hex * into decimal |decimal of hex *|convert hexadecimal * into decimal|decimal of hex *|decimal of hexadecimal *|hex * in decimal|hex * to decimal|hexadecimal * in decimal|hexadecimal * to decimal|convert hex * into base-10 number system| convert hexadecimal * into base-10 number system|convert hex * into base-10 number|convert hexadecimal * into base-10 number
+!example:convert hex 145 into decimal
+!expect:Decimal for HEX 145 = 325
+!javascript:Decimal for HEX $1$ = $!$
+parseInt(+$1$,16);
+eol
+
+convert * into hex |hex of * |decimal * to hex|hexadecimal of *|* in hex|* into hex|* in hexadecimal|* to hex|hexadecimal of decimal *|* to hexadecimal|convert * into base-6 number system|convert * into base-6 number|convert * in base-6 number system|convert * in base-6 number|convert * to base-6 number system|convert * to base-6 number|
+!example:convert 325 into hex
+!expect:HEX for 325 = 145
+!javascript:HEX for $1$ = $!$
+(+$1$).toString(16);
+eol
+
+convert octal * into decimal |decimal of octal *|convert octal * to decimal|octal * to decimal|octal * into decimal|
+!example:convert octal 456 into decimal
+!expect:Decimal for octal 456 = 302.0
+!javascript:Decimal for octal $1$ = $!$
+parseInt(+$1$,8);
+eol
+
+convert * into octal|octal of * |decimal * to octal|+convert * to octal|* to octal|* in octal|* into octal|* in base8|* into base 8|convert * into base8|convert * in base8|convert * to base8
+!example:convert 540 into octal
+!expect:octal for 540 = 1034
+!javascript:octal for $1$ = $!$
+(+$1$).toString(8);
+eol

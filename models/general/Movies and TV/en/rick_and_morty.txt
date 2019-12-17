@@ -1,0 +1,15 @@
+::name Rick And Morty
+::author Jyothir Aditya
+::author_url https://github.com/jyoth1raditya
+::image images/rick_and_morty.png
+::dynamic_content No
+::description Rick and Morty has quickly become of the Internet’s favorite shows. Ask susi to give funny Rick & Morty jokes
+
+Rick and morty jokes|Rick and morty quotes|Rick & morty jokes|Rick & morty quotes|Rick quotes|Rick*|Morty*|*Rick and morty*|*Rick & morty*
+!example:Rick and morty jokes
+!console:Rick from parallel universe says, "$!$"
+{
+    "url":"http://rickandmortyquotes.eu-central-1.elasticbeanstalk.com/",
+    "path":"$.what"
+}
+eol

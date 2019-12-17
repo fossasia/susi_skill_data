@@ -1,0 +1,15 @@
+::name Rhyme
+::author Dravit Lochan
+::author_url https://github.com/DravitLochan
+::image images/rhyme.png
+::dynamic_content Yes
+::description Ask susi to give rhyming words 
+
+word rhyming with *|rhyming word with *|words rhyming with *|rhyming words with *|find me a rhyme of *|rhyme for *
+!example:word rhyming with apple
+!console:$!$
+{
+    "url":"https://api.datamuse.com/words?rel_rhy=$1$",
+    "path":"$.[1].word"
+}
+eol
