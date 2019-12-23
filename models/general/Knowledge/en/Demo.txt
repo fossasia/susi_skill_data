@@ -1,9 +1,9 @@
 ::protected No
-::author_email dilshaadmuthalif21@gmail.com
-::name World
+::author_email fenilshah23398@gmail.com
+::name Demo
 ::category Knowledge
 ::language en
-::author Dilshaad
+::author <author_name>
 ::author_url <author_url>
 ::description <description> 
 ::dynamic_content <Yes/No>
@@ -14,14 +14,7 @@
 
 # replace the following lines - click on the (i) to get a tutorial:
 
-Which is the largest country in the world?
-
-Russia
-
-Which country has highest population?
-
-China
-
-Which is the largest continent in the world?
-
-Asia
+query1|query2|query3...
+!example:<The question that should be shown in public skill displays>
+!expect:<The answer expected for the above example>
+Answer for the user query
