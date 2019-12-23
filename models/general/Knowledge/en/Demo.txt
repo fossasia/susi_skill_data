@@ -3,7 +3,7 @@
 ::name Demo
 ::category Knowledge
 ::language en
-::author <author_name>
+::author Fenil shah
 ::author_url <author_url>
 ::description <description> 
 ::dynamic_content <Yes/No>
