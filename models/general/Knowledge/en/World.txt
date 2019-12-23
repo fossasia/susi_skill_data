@@ -22,3 +22,9 @@ China
 
 Which is the largest continent in the world?
 Asia
+
+I am from *
+Oh Great! nice to meet you.
+
+Do you speak *
+I can speak many languages including $1$.
