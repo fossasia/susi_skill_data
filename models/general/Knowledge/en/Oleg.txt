@@ -1,0 +1,24 @@
+::protected No
+::author_email lontrid@mail.ru
+::name Oleg
+::category Knowledge
+::language en
+::author Oleg
+::author_url lontrid.github.io
+::description -
+::dynamic_content No
+::developer_privacy_policy -
+::image images/ImageName.jpg
+::terms_of_use -
+
+
+# replace the following lines - click on the (i) to get a tutorial:
+
+query1|query2|query3...
+!example:<The question that should be shown in public skill displays>
+!expect:<The answer expected for the above example>
+Answer for the user query
+
+# SUSI Skill tutorial playground
+roses are red
+SUSI is a hack
