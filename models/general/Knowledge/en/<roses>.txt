@@ -1,0 +1,64 @@
+::protected No
+::author_email aasangamnerkar@gmail.com
+::name <roses>
+::category Knowledge
+::language en
+::author <Arnav Sangamnerkar>
+::author_url <author_url>
+::description <IDK> 
+::dynamic_content <Yes>
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+
+# replace the following lines - click on the (i) to get a tutorial:
+::prior
+roses are red
+susi is a hack
+skynet is back
+
+What is your favorite dish
+Potaters|VegetalesBruh|FishyFishy
+
+May I * you?
+Yes you may.
+
+May I get a *?
+Yes you may get a $1$!
+
+For * I can buy *
+Ye, I believe you can get a $2$ for $1$
+
+* buy a *
+Sure, buy a $2$
+
+I * like * beer
+You then should have one $2$_beerbrand!
+
+What is my favorite beer
+$_beerbrand$!
+
+I am so happy!
+NICE!^great^>_mood
+
+Soy bored
+Make something!^inactive^_mood
+
+Danny how ya feel
+I feel $_mood$
+
+How is I feeling bro
+?$_mood$: You feel $_mood$.: Not Like the 4 because I don't know
+
+Shall I *
+?$_mood$=great:You will be happy G, whatever I say
+
+function colour
+red|green|blue|white|black|yellow|purple|brown
+
+What is your favorite color?
+?$_mycolour$:My favorite colour is $_mycolour$: Me gusta 'function colour'>_mycolour
+
+POP IT
+$_mycolour$

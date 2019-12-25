@@ -1,0 +1,18 @@
+::protected No
+::author_email silviolorusso@gmail.com
+::name try
+::category Utilities
+::language en
+::author <author_name>
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/safe_image.php.jpeg
+::terms_of_use <link>
+
+
+Silvio who?
+!example:Silvio who?
+!expect:Silvio
+Silvio

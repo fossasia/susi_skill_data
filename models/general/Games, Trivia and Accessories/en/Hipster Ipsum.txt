@@ -1,0 +1,28 @@
+# to show random dummy text for a mockup 
+::name Hipster Ipsum
+::category Games, Trivia and Accessories
+::language en
+::author Manveer Singh
+::author_url https://github.com/Manveer695
+::dynamic_content Yes
+::image images/hipster_ipsum.png
+::description Show random dummy text for a mockup
+
+Show me * paragraphs of hipster ipsum|Show me * paragraph of hipster ipsum
+!example:Show me 3 paragraphs of hipster ipsum
+!console:$!$
+{
+    "url": "http://hipsterjesus.com/api?paras=$1$+1&html=false",
+    "path": "$.text"
+}
+eol
+
+Show me hipster ipsum|Print hipster ipsum
+!example:Show me hipster ipsum
+!console:$!$
+{
+    "url": "http://hipsterjesus.com/api?html=false",
+    "path": "$.text"
+}
+eol
+

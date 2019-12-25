@@ -1,0 +1,20 @@
+::protected No
+::author_email dubesundaram99@gmail.com
+::name maze runner
+::category Knowledge
+::language en
+::author sundaram
+::author_url <author_url>
+::description <hope is a good thing may be the best of things and no good thing ever dies.> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+
+# replace the following lines - click on the (i) to get a tutorial:
+
+query1|query2|query3...
+!example:Who is god of cricket?
+!expect:Sachin tendulkar
+Answer for the user query

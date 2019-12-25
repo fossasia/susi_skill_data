@@ -1,0 +1,17 @@
+::protected No
+::author_email amartua2002@gmail.com
+::name sk3
+::category Knowledge
+::language en
+::author <author_name>
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link> 
+I'm from India|India|india
+Oh!Pretty cold right now,isn't it?
+
+yes|yo|yeah|Yes|no|No
+:)

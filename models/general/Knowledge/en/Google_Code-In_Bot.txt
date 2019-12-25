@@ -1,0 +1,22 @@
+::protected No
+::author_email aryanguls@gmail.com
+::name Google Code-In Bot
+::category Knowledge
+::language en
+::author <Aryan Gulati>
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes>
+::developer_privacy_policy <link>
+::image images/fossasia-cubelogo_400x400.jpg
+::terms_of_use <link>
+
+
+# replace the following lines - click on the (i) to get a tutorial:
+
+Hi 
+Well hello and welcome to the Fossasia Google Code-in Website. How may I help you ?
+
+I needed some help regarding certain work | I needed some help | I need some help for some work
+You can head over the mentors section to contact them for any help needed. Hope it helps
+

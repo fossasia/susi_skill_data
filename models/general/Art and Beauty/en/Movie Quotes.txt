@@ -1,0 +1,207 @@
+::name Movie Quotes
+::category Art and Beauty
+::language en
+
+Frankly, my dear, I don't give a damn.
+Gone With the Wind, 1939
+
+I'm going to make him an offer he can't refuse.
+The Godfather, 1972 
+
+Here's looking at you, kid.
+Casablanca, 1942
+
+Go ahead, make my day.
+Sudden Impact, 1983
+
+All right, Mr. DeMille, I'm ready for my close-up.
+Sunset Blvd., 1950
+
+May the Force be with you.
+Han Solo, Star Wars, 1977
+
+Fasten your seatbelts. It's going to be a bumpy night.
+All About Eve, 1950
+
+You talking to me?
+Taxi Driver, 1976
+
+I love the smell of napalm in the morning.
+Apocalypse Now, 1979
+
+Love means never having to say you're sorry.
+Love Story, 1970
+
+The stuff that dreams are made of.
+The Maltese Falcon, 1941
+
+E.T. phone home.
+E.T. The Extra-Terrestrial, 1982
+
+They call me Mister Tibbs!
+In the Heat of the Night, 1967
+
+Rosebud.
+Citizen Kane, 1941
+
+Made it, Ma! Top of the world!
+White Heat, 1949
+
+I'm as mad as hell, and I'm not going to take this anymore!
+Network, 1976
+
+I think this is the beginning of a beautiful friendship.
+Casablanca, 1942
+
+Bond. James Bond.
+Dr. No, 1962
+
+There's no place like home.
+The Wizard of Oz, 1939
+
+I am big! It's the pictures that got small.
+Sunset Blvd., 1950
+
+Show me the money!
+Jerry Maguire, 1996
+
+I'm walking here! I'm walking here!
+Midnight Cowboy, 1969
+
+Play it, Sam.
+Casablanca, 1942
+
+You can't handle the truth!
+A Few Good Men, 1992
+
+I want to be alone.
+Grand Hotel, 1932
+
+After all, tomorrow is another day!
+Gone With the Wind, 1939
+
+Round up the usual suspects.
+Casablanca, 1942
+
+I'll have what she's having.
+When Harry Met Sally, 1989
+
+You're gonna need a bigger boat.
+Jaws, 1975
+
+I'll be back.
+The Terminator, 1984
+
+I consider myself the luckiest man on the face of the earth.
+The Pride of the Yankees, 1942
+
+If you build it, he will come.
+Field of Dreams, 1989
+
+We rob banks.
+Bonnie and Clyde, 1967
+
+Plastics.
+The Graduate, 1967
+
+We'll always have Paris.
+Casablanca, 1942
+
+I see dead people.
+The Sixth Sense, 1999
+
+Stella! Hey, Stella!
+A Streetcar Named Desire, 1951
+
+Well, nobody's perfect.
+Some Like It Hot, 1959
+
+It's alive!
+Frankenstein, 1931
+
+Houston, we have a problem.
+Apollo 13, 1995
+
+A boy's best friend is his mother.
+Psycho, 1960
+
+Greed, for lack of a better word, is good.
+Wall Street, 1987
+
+Keep your friends close, but your enemies closer.
+The Godfather II, 1974
+
+As God is my witness, I'll never be hungry again.
+Gone With the Wind, 1939
+
+Say hello to my little friend!
+Scarface, 1983
+
+Mrs. Robinson, you're trying to seduce me.
+The Graduate, 1967
+
+Gentlemen, you can't fight in here!
+Dr. Strangelove, 1964
+
+Get your stinking paws off me
+Planet of the Apes, 1968
+
+Here's Johnny!
+The Shining, 1980
+
+They're here!
+Poltergeist, 1982
+
+Is it safe?
+Marathon Man, 1976
+
+No wire hangers, ever!
+Mommie Dearest, 1981
+
+Mother of mercy, is this the end of Rico?
+Little Caesar, 1930
+
+Forget it, Jake, it's Chinatown.
+Chinatown, 1974
+
+Hasta la vista, baby.
+Terminator 2: Judgment Day, 1991​​​​​
+
+Soylent Green is people!
+Soylent Green, 1973
+
+Open the pod bay doors, HAL.
+2001: A Space Odyssey, 1968
+
+Hello, gorgeous.
+Funny Girl, 1968
+
+My precious.
+The Lord of the Rings: Two Towers, 2002
+
+Shaken, not stirred.
+Goldfinger, 1964
+
+Who's on first.
+The Naughty Nineties, 1945
+
+Life is a banquet, and most poor suckers are starving to death!
+Auntie Mame, 1958
+
+I feel the need - the need for speed!
+Top Gun, 1986
+
+Carpe diem. Seize the day, boys. Make your lives extraordinary.
+Dead Poets Society, 1989
+
+Snap out of it!
+Moonstruck, 1987
+
+Nobody puts Baby in a corner.
+Dirty Dancing, 1987
+
+I'll get you, my pretty, and your little dog, too!
+The Wizard of Oz, 1939
+
+I'm king of the world!
+Titanic, 1997

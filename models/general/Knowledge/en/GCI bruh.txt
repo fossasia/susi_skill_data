@@ -1,0 +1,28 @@
+::protected No
+::author_email adityasharma181103@gmail.com
+::name GCI bruh
+::category Knowledge
+::language en
+::author technophyle66
+::author_url <author_url>
+::description FOR GCI
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+
+# replace the following lines - click on the (i) to get a tutorial:
+
+query1|query2|query3...
+!example:May I kill you?
+!expect:No, you may not.
+Answer for the user query
+What is your favorite dish
+PotatoesNO|VegetablesBRUH|FishYEA
+May I * you?
+No you may not.
+* buy a *
+No, pls don't buy a $2$!
+I * like * beer
+You then should have one $2$>_beerbrand!

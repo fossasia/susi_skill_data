@@ -1,0 +1,80 @@
+::protected No
+::author_email yugiarora@gmail.com
+::name Calculator
+::language en
+::category Problem Solving
+::dynamic_content <No>
+::author_url https://thebest1209.github.io/GCI_FOSSASIA
+::developer_privacy_policy
+::image images/calculator_flat.jpg
+::terms_of_use 
+
+
+help
+All commands are written exactly as below but without brackets           Addition : (number 1) plus (number 2)                                  Subtraction : (number 1) - (number 2)                             Multiplication : (number 1) * (number 2)                              Division : (number 1) / (number 2)                                     Percentage : (number 1) % (number 2)                                     Powers : (number 1) pow (number 2)                                          PI : PI                                                                     Round : round (number)                                                      Square Root : sqrt (number)                                                 ABS : abs (number)                                                          roundUp : roundUp (number)                                                  roundDown : roundDown (number)                                              random : random (minNum) - (maxNum) 
+
+
+* plus *
+!javascript: $1$ + $2$ = $!$ 
+$1$+$2$;
+eol
+
+* - *
+!javascript: $1$ - $2$ = $!$ 
+$1$-$2$;
+eol
+
+* x *
+!javascript: $1$ x $2$ = $!$
+$1$*$2$;
+eol
+
+* / *
+!javascript: $1$ / $2$ = $!$
+$1$/$2$;
+eol
+
+* % *
+!javascript: $1$ % $2$ = $!$%
+$1$ / $2$ * 100
+eol
+
+* pow *
+!javascript:$1$ ^ $2$ = $!$
+Math.pow($1$, $2$).toString().split('.')[0];
+eol
+
+PI
+!javascript:PI = $!$
+Math.PI;
+eol
+
+round *
+!javascript:$1$ rounds to $!$
+Math.round($1$).toString().split('.')[0];
+eol
+
+sqrt *
+!javascript:Square Root of $1$ = $!$
+Math.sqrt($1$);
+eol
+
+abs *
+!javascript:Absolute positive value of $1$ = $!$
+Math.abs($1$);
+eol
+
+roundUp *
+!javascript:$1$ rounds up to $!$
+Math.ceil($1$).toString().split('.')[0];
+eol
+
+roundDown *
+!javascript:$1$ rounds down to $!$
+Math.floor($1$).toString().split('.')[0];
+eol
+
+random * - *
+!javascript:A random number between $1$ and $2$ is $!$
+((Math.random() * $2$ ) + $1$).toString().split('.')[0];
+eol

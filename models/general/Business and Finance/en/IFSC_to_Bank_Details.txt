@@ -1,0 +1,31 @@
+# In first parameter you pass the IFSC code of the bank.
+
+::name IFSC to Bank Details
+::author_email coolakshat24@gmail.com
+::author Akshat Garg
+::author_url https://github.com/akshatnitd
+::description It is a bank lookup skill that takes in IFSC code from the user and provides you all the necessary details for the Bank. It is valid for banks in India only
+::dynamic_content Yes
+::developer_privacy_policy 
+::image images/download.jpeg
+::terms_of_use 
+
+Name of bank with IFSC code * | Bank's name with IFSC code *
+!example:Name of bank with IFSC code SBIN0007245
+!expect: The name of bank is SBI
+!console:The name of bank with IFSC code $1$ is $!$
+{
+"url":"https://ifsc.razorpay.com/$1$",
+"path":"$.BANK"
+}
+eol
+
+Address of bank with IFSC code * | Bank's address with IFSC code *
+!example:Address of bank wih IFSC code SBIN0007245
+!expect: The address of bank is 
+!console:The address of bank with IFSC code $1$ is $!$
+{
+"url":"https://ifsc.razorpay.com/$1$",
+"path":"$.ADDRESS"
+}
+eol

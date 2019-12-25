@@ -1,0 +1,46 @@
+::name Twitter
+::author Prateek Chanda
+::author_url https://github.com/prateekiiest
+::description A skill to give information about a username on twitter.
+::dynamic_content Yes
+::developer_privacy_policy
+::image images/twitter.png
+::terms_of_use
+
+Whose Twitter username is *|Who is * on Twitter | Name of Twitter user * | What is the name of * on Twitter | Name of * on Twitter | Real name of * on Twitter | Tell me name of the Twitter user *|find * on Twitter|find user with username * on Twitter
+!example:Whose Twitter username is prateekiiest
+!expect:prateekiiest is Twitter username of Prateek Chanda
+!console:$1$ is Twitter username of $!$
+{
+
+    "url":"https://api.twitter.com/users/$1$",
+    "path":"$.name"
+
+}
+eol
+
+#returns number of followers
+Number of followers of * | How many followers of * on Twitter | Total Followers for * on Twitter | Twitter Followers of * | Search Twitter Followers for * | * is followed by how many people |
+!example:Number of followers of prateekiiest
+!console:$1$ has $!$ followers
+{
+
+    "url":"https://api.twitter.com/users/$1$",
+
+    "path":"$.followers"
+
+}
+eol
+
+#returns number of people the person follows
+How many people is * following on Twitter | How many users is * following on Twitter | people is * following on Twitter  | users is * following on Twitter 
+!example:How many people is prateekiiest following on Twitter
+!console:$1$ is following $!$ people on Twitter
+{
+
+    "url":"https://api.twitter.com/users/$1$",
+
+    "path":"$.following"
+
+}
+eol

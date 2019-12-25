@@ -1,0 +1,18 @@
+::name Sentiment Analysis
+::author Chirag Wadhera
+::author_url https://github.com/chiragw15
+::description A skill that returns sentiment of an expression (either positive or negative)
+::dynamic_content Yes
+::developer_privacy_policy
+::image images/sentiment_analysis.png
+::terms_of_use
+
+sentiment of *|what is the sentiment of *|the sentiment of *|describe the sentiment of *|explain the sentiment of *
+!example:sentiment of happy
+!expect:Expression is : P (where P:Positive and N:Negative)
+!console:Expression is : $!$ (where P:Positive and N:Negative)
+{
+    "url":"https://api.meaningcloud.com/sentiment-2.1?key=5aa3b16fb713e77467cca4aaec134cbc&of=json&txt=$1$&lang=en",
+    "path":"$.score_tag"
+}
+eol

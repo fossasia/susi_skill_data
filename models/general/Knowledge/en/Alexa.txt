@@ -1,0 +1,21 @@
+::protected No
+::author_email raadarsh143@gmail.com
+::name Alexa
+::category Knowledge
+::language en
+::author <author_name>
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/_D.jpg
+::terms_of_use <link>
+
+
+# replace the following lines - click on the (i) to get a tutorial:
+
+hey jarvis|how are you|jarvis where i am from...
+!example:<Hey>
+!expect:<The answer expected for the above example>
+Answer for the user query
+Hello Aadarsh Sir|I'am fine sir|You Are from India

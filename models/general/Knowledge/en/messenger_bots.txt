@@ -1,0 +1,70 @@
+::name Messenger bots
+::author Manveer Singh
+::author_url https://www.github.com/Manveer695
+::description To reply to user queries during their conversation with SUSI messenger bots. 
+::dynamic_content No
+::developer_privacy_policy  
+::image images/messenger_bots.png
+::terms_of_use  
+
+Get started
+!example:Get started
+!expect:I am a personal assistant built by open source community FOSSASIA.
+I am a personal assistant built by open source community FOSSASIA.
+
+Start chatting
+!example:Start chatting
+!expect:Ask me anything like temperature at a place or distance between two countries or any other thing which you would like to ask.
+Ask me anything like temperature at a place or distance between two countries or any other thing which you would like to ask.
+
+Follow back success
+!example:Follow back success
+!expect:Thank you for following me. Tweet by tagging my name with your query, to get it answered. I followed you back so that you can also personally message me.
+Thank you for following me. Tweet by tagging my name with your query, to get it answered. I followed you back so that you can also personally message me.
+
+Follow back failed
+!example:Follow back failed
+!expect:Thank you for following me. Tweet by tagging my name with your query, to get it answered.
+Thank you for following me. Tweet by tagging my name with your query, to get it answered.
+
+Welcome
+!example:Welcome
+!expect:Welcome to SUSI A.I.!
+Welcome to SUSI A.I.!
+
+Share
+!example:Share
+!expect:I had an amazing chat with SUSI.AI! Do you want to try it too?
+I had an amazing chat with SUSI.AI! Do you want to try it too?
+ 
+Contribution
+!example:Contribution
+!expect:You can visit the SUSI.AI repository and start contributing.
+You can visit the SUSI.AI repository and start contributing.
+
+Gitter channel
+!example:Gitter channel
+!expect:You can also join us on our Gitter channel.
+You can also join us on our Gitter channel.
+
+#The below queries are shown as examples of what the user can try asking SUSI.AI
+
+Borders
+!example:Borders
+!expect:Borders with INDIA.
+Borders with INDIA.
+
+Distance
+!example:Distance
+!expect:Distance between China and U.S.A.
+Distance between China and U.S.A.
+
+Cos
+!example:Cos
+!expect:Tell me the Cos of pi
+Tell me the Cos of pi
+
+Rating
+!example:Rating
+!expect:Rating of Game Of Thrones series.
+Rating of Game of Thrones series.

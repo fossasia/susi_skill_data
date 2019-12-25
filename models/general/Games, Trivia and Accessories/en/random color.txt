@@ -1,0 +1,18 @@
+::protected No
+::author_email rishit.dagli@gmail.com
+::name random color
+::category Games, Trivia and Accessories
+::language en
+::author Rishit Dagli
+::author_url rishitdagli.ml
+::description Just a simple random number generator and color generator
+::dynamic_content No
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+function colour
+red|green|blue|white|black|yellow|purple|brown|orange|cyan
+
+What is your favorite color?
+?$_mycolour$:My favorite colour is $_mycolour$!:I like `function colour`>_mycolour!
