@@ -8,8 +8,8 @@
 ::description Just type in any of these genre; Romance, Psychological, Action, Comedy or Sports . And there you have the next anime to watch! Enjoy!
 ::image images/hyouka.jpg
 
-!example: Suggest me a romance anime
 Suggest me a romance anime | * romance | Romance | Romance anime | Romance anime suggestions| romance
+!example: Suggest me a romance anime
 Ao Haru Ride| Kimi ni Todoke | My Little Monster | Fruits Basket | Clannad | Nisekoi | Kaichou wa Maid-Sama! | Ookami Shoujo to Kuro Ouji| Ouran High School Host Club
 
 
