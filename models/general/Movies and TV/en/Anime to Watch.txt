@@ -1,14 +1,14 @@
 ::protected No
 ::author_email dalinas.minecrafter@gmail.com
-::name Susi-chan
+::name Anime to Watch
 ::category Movies and TV
 ::language en
 ::author Dalina S
 ::author_url https://github.com/DalinaS
 ::description Just type in any of these genre; Romance, Psychological, Action, Comedy or Sports . And there you have the next anime to watch! Enjoy!
-::image images/https://c5r2z6a9.stackpathcdn.com/wp-content/uploads/2019/09/Dr.-STONE-Season-2-release-date-Episode-24-ending-with-Stone-Wars-Dr.-STONE-manga-compared-to-the-anime-Spoilers.jpg
+::image images/hyouka.jpg
 
-
+!example: Suggest me a romance anime
 Suggest me a romance anime | * romance | Romance | Romance anime | Romance anime suggestions| romance
 Ao Haru Ride| Kimi ni Todoke | My Little Monster | Fruits Basket | Clannad | Nisekoi | Kaichou wa Maid-Sama! | Ookami Shoujo to Kuro Ouji| Ouran High School Host Club
 
