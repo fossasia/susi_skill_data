@@ -21,3 +21,6 @@ Answer for the user query
 ::prior
 roses are pink
 i love roses
+
+what is your favoutrite fruit?
+mango|grapes|apple
