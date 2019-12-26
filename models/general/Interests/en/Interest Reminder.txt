@@ -18,7 +18,7 @@ Hello
 * is my favorite *.
 $1$>_favorite is really a great $2$.
 
-Who is my favorite *?|Which * my favorite *?
+Who is my favorite *?|Which is my favorite *?
 ?$_favorite$:Your favorite is $_favorite$.: You have not told me yet.
 
 I like *.
