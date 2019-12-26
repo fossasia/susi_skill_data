@@ -1,0 +1,19 @@
+::name Wikipedia
+::author Mochammad Rafi
+::author_url https://github.com/kol4k
+::description A skill to search wikipedia for a given query.
+::dynamic_content Yes
+::developer_privacy_policy
+::image images/2000px-Wikipedia-logo-v2.svg.png
+::terms_of_use
+
+# searches wikipedia for a given query
+beritahu saya *| beritahu saya tentang *| cari di wiki tentang *| tentang *| wikipedia tentang *
+!example:wikipedia tentang Indonesia
+!expect:Republik Indonesia (RI), umumnya disebut Indonesia, adalah negara di Asia Tenggara yang dilintasi garis khatulistiwa dan berada di antara benua Asia dan Australia serta antara Samudra Pasifik dan Samudra Hindia.
+!console:$!$
+{
+"url":"https://id.wikipedia.org/w/api.php?action=opensearch&search=$1$&limit=1&format=json",
+"path":"$.[2].[0]"
+}
+eol

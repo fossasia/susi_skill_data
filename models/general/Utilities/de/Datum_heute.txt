@@ -1,0 +1,22 @@
+::protected No
+::author_email nikolaos.christou@yahoo.com
+::protected yes
+::author_email
+::name Datum_heute
+::category Utilities
+::language de
+::author nchris
+::author_url <author_url>
+::description Gibt das Datum des heutigen Tages aus. 
+::dynamic_content <No>
+::developer_privacy_policy <link>
+::image images/Untitled.png
+::terms_of_use <link>
+
+Datum heute|Welches Datum haben wir heute|Heute ist der
+!example:Datum heute? Welches Datum haben wir heute? Heute ist der?
+!expect:28.05.2019
+!javascript:$!$
+var heute = new Date();
+print(heute.getDate()+"."+heute.getMonth()+"."+(heute.getYear()+1900));
+eol   

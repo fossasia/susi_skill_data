@@ -1,0 +1,20 @@
+::protected No
+::author_email 1anuppanwar@gmail.com
+::name Daily Affirmation
+::category Novelty and Humour
+::language en
+::author Anup Kumar Panwar
+::author_url https://github.com/anupkumarpanwar
+::description The Walking Affirmations Daily Affirmation skill provides a daily uplifting, positive thought for you to take throughout the day.
+::dynamic_content Yes
+::image images/focus.png
+
+
+Daily Affirmation| open daily affirmation| ask Daily Affirmation for my affirmation| inspire me| motivate me| quote of the day| today affirmation
+!example: Open daily affirmation
+!console:$quote$
+{
+    "url":"https://quotes.rest/qod.json",
+    "path" : "$.contents.quotes"
+}
+eol

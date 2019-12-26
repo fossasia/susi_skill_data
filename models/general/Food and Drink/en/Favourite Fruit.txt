@@ -1,0 +1,18 @@
+::name Favourite Fruit
+::author Sanskar Jethi
+::author_url https://github.com/stealthanthrax
+::description A skill to show favourite fruits of Susi 
+::dynamic_content No
+::image images/616a278643145138769344229bd75a4c.png
+
+
+Favourite Fruit|What is your favourite fruit|Suggest me a fruit|
+!example:Suggest me a fruit
+!expect:I like mango!
+!console:I like $1$!
+{
+"url":"https://query.wikidata.org/sparql?query=SELECT%20%3Fitem%20%3Flabel%20%3F_image%20WHERE%20%7B%0A%20%20%3Fitem%20wdt%3AP279%20wd%3AQ3314483.%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%0A%20%20%20%20bd%3AserviceParam%20wikibase%3Alanguage%20%22en%22%20.%20%0A%20%20%20%20%3Fitem%20rdfs%3Alabel%20%3Flabel%0A%20%20%7D%0A%7D&format=json",
+"path":"$.results.bindings[0].label.value"
+}
+eol
+# To be implemented: randomly choose a result from the query

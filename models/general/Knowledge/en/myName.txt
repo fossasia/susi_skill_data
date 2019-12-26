@@ -1,0 +1,18 @@
+::protected No
+::author_email kpulkit291@gmail.com
+::name myName
+::category Knowledge
+::language en
+::author kpulkit29
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+
+# replace the following lines - click on the (i) to get a tutorial:
+
+what is my name | do you know my name | can you guess my name
+Whatever it is I think its great :}

@@ -1,0 +1,79 @@
+::protected No
+::author_email lontrid@mail.ru
+::name Oleg
+::category Knowledge
+::language en
+::author Oleg
+::author_url lontrid.github.io
+::description -
+::dynamic_content No
+::developer_privacy_policy -
+::image images/ImageName.jpg
+::terms_of_use -
+
+
+# replace the following lines - click on the (i) to get a tutorial:
+
+query1|query2|query3...
+!example:<The question that should be shown in public skill displays>
+!expect:<The answer expected for the above example>
+Answer for the user query
+
+# SUSI Skill tutorial playground
+roses are red
+SUSI is a hack
+
+# SUSI.AI tutorial playground
+::prior
+roses are red
+susi is a hack
+skynet is back
+
+What is your favorite dish
+Potatoes|Vegetables|Fish
+
+Bonjour|Buenos días|Ciao
+Hello
+
+May I * you?
+Yes you may.
+
+May I get a *?
+Yes you may get a $1$!
+
+For * I can buy a *
+Yeah, I believe $1$ is a good price for a $2$
+
+* buy a *
+Sure, you should buy a $2$!
+
+I * like * beer
+You then should have one $2$>_beerbrand!
+
+* beer * best?
+I bet you like $_beerbrand$ beer!
+
+I am so happy!
+Good for you!^excited^>_mood
+
+I am bored.
+Make something!^inactive^>_mood
+
+How do I feel?
+You are $_mood$.
+
+Shall I *?
+?$_mood$=excited:You will be happy, whatever I say!
+
+function colour
+red|green|blue|white|black|yellow|purple|brown
+
+What is your favorite color?
+?$_mycolour$:My favorite colour is $_mycolour$!:I like `function colour`>_mycolour!
+
+compute * to the power of *
+!javascript:$1$^$2$ = $!$
+Math.pow($1$, $2$)
+eol
+
+

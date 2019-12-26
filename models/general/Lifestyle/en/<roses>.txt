@@ -1,0 +1,26 @@
+::protected No
+::author_email ishakikani999@gmail.com
+::name <roses>
+::category Lifestyle
+::language en
+::author <author_name>
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+
+# replace the following lines - click on the (i) to get a tutorial:
+
+query1|query2|query3...
+!example:<The question that should be shown in public skill displays>
+!expect:<The answer expected for the above example>
+Answer for the user query
+::prior
+roses are pink
+i love roses
+
+what is your favoutrite fruit?
+mango|grapes|apple

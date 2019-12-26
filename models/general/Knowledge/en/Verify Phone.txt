@@ -1,0 +1,49 @@
+::author_email prateekkol21@gmail.com
+::name Verify Phone
+::author Prateek Chanda
+::name Verify Phone Number
+::category Knowledge
+::language en
+::author_url https://github.com/prateekiiest
+::description Verify Phone numbers and check the corresponding location , line_type and carrier registered with a particular phone number
+::dynamic_content Yes
+::developer_privacy_policy
+::image images/mobile.png
+::terms_of_use
+
+
+
+Where is this phone number * located?| Location of phone number *
+!example:Where is this phone number 896XXXXXXX located
+!console: Location is at $!$
+{
+    "url":"http://apilayer.net/api/validate?access_key=640e7b4337ffc2c9900d31127b8ec011&number=$1$&country_code=&format=1",
+    "path":"$.location"
+}
+eol
+
+In which country is this phone number * based?
+!console: This number is based in $!$
+{
+    "url":"http://apilayer.net/api/validate?access_key=640e7b4337ffc2c9900d31127b8ec011&number=$1$&country_code=&format=1",
+    "path":"$.country_name"
+}
+eol
+
+What is the line type of this phone number * ?
+!console: The line type of this number is $!$
+{
+    "url":"http://apilayer.net/api/validate?access_key=640e7b4337ffc2c9900d31127b8ec011&number=$1$&country_code=&format=1",
+    "path":"$.line_type"
+}
+eol
+
+
+What carrier is this phone number * registered with ?
+!example: What carrier is this phone number 896XXXXXXX registered with ?
+!console: This number is registered with $!$
+{
+    "url":"http://apilayer.net/api/validate?access_key=640e7b4337ffc2c9900d31127b8ec011&number=$1$&country_code=&format=1",
+    "path":"$.carrier"
+}
+eol

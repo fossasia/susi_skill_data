@@ -1,0 +1,30 @@
+::protected No
+::author_email markus.hamacher16@gmail.com
+::name Start of a conversation
+::category Knowledge
+::language en
+::author <author_name>
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+
+# replace the following lines - click on the (i) to get a tutorial:
+
+I wrote an exam
+Oh really? Good or bad?
+
+Good|It was fine|It was okay
+That's nice!
+
+Bad
+Oh no. I think you should learn next time!
+
+*
+^$1$^>_universal
+
+*
+?$_universal$=hello:Oh hi!  What did you do in school? | ?$_universal$=how are you?:I'm fine and you? What did you do in school?
