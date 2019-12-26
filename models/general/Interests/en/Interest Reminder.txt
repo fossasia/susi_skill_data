@@ -15,11 +15,11 @@
 Hello *|Hi *
 Hello
 
-* my favorite *
-$1$>_favorite really a great $2$.
+* is my favorite *
+$1$>_favorite is really a great $2$.
 
-Who * my favorite *?|Which * my favorite *?
-?$_favorite$:Your favorite $1$ $_favorite$.: You have not told me yet.
+Who is my favorite *?|Which * my favorite *?
+?$_favorite$:Your favorite is $_favorite$.: You have not told me yet.
 
 I like *.
 It's appreciatable. $1$ is really good.
