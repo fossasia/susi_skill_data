@@ -15,7 +15,7 @@
 Hello *|Hi *
 Hello
 
-* is my favorite *
+* is my favorite *.
 $1$>_favorite is really a great $2$.
 
 Who is my favorite *?|Which * my favorite *?
