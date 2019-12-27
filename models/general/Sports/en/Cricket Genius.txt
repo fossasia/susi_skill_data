@@ -15,19 +15,40 @@
 # replace the following lines - click on the (i) to get a tutorial:
 
 Who has scored most runs in One Day International cricket?
-Sachin Tendulkar
+Sachin Tendulkar.
 
 Who has scored the most runs in t20 international cricket?
-Rohit Sharma
+Rohit Sharma.
 
 Who has scored the most runs in International Test cricket?
-Sachin Tendulkar
+Sachin Tendulkar.
 
 What is the greatest win margin (by innings) in International Test cricket?
-579 runs
+579 runs.
 
 Which team holds record for fewest runs in a completed innings in International Test cricket?
-New Zealand
+New Zealand.
 
 What is the most number of runs scored by an opener in International Test cricket?
-11,845 runs by Alastair Cook of England
+11,845 runs by Alastair Cook of England.
+
+Who is the current captain of the Indian Cricket team?
+Virat Kohli.
+
+Who is the most recent former captain of the Indian Cricket team?
+Mahendra Singh Dhoni (M.S Dhoni).
+
+Where will the 2020 ICC Men's T20 World Cup take place?
+Australia.
+
+What is Australia's national game?
+Cricket.
+
+What is England's national game?
+Cricket.
+
+What is Jamaica's national game?
+Cricket.
+
+How many countries' national game is cricket?
+7.
