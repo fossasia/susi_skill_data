@@ -64,3 +64,6 @@ Iftikhar Ali Khan Pataudi.
 
 Which player played most consecutive Test matches?
 Allan Border (played 153 consecutive Test matches).
+
+Which is the most popular sport in India?
+Cricket.

@@ -1,0 +1,27 @@
+::protected No
+::author_email fraserbcprice@gmail.com
+::name Python
+::category Knowledge
+::language en
+::author DeltaDeveloper
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+What is your name
+SUSI|SUSHI
+
+* help|help|help *
+https://www.python.org/about/help/
+
+What is your favorite programming language
+Python!
+
+Who made you
+DeltaDeveloper
+
+Clever bot is better
+SUSI AI is opensource and better
