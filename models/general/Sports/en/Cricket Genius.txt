@@ -1,0 +1,33 @@
+::protected No
+::author_email yuvalgupta202@gmail.com
+::name Cricket Genius
+::category Sports
+::language en
+::author Yuval Gupta
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+
+# replace the following lines - click on the (i) to get a tutorial:
+
+Who has scored most runs in One Day International cricket?
+Sachin Tendulkar
+
+Who has scored the most runs in t20 international cricket?
+Rohit Sharma
+
+Who has scored the most runs in International Test cricket?
+Sachin Tendulkar
+
+What is the greatest win margin (by innings) in International Test cricket?
+579 runs
+
+Which team holds record for fewest runs in a completed innings in International Test cricket?
+New Zealand
+
+What is the most number of runs scored by an opener in International Test cricket?
+11,845 runs by Alastair Cook of England
