@@ -1,0 +1,20 @@
+::protected No
+::author_email arghakusumdubey@gmail.com
+::name WORLD WATER DAY
+::category Knowledge
+::language en
+::author <abhra kanti dubey>
+::author_url <author_url>
+::description <Do you want to know when is world water day is celebrated?> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+
+# replace the following lines - click on the (i) to get a tutorial:
+
+when is world water day is celebrated?|what is the date of world water day?|world water day
+!example:<when is world water day is celebrated?>
+!expect:<22 March>
+World water day is celebrated on 22 march.
