@@ -1,0 +1,48 @@
+::protected No
+::author_email lontrid@mail.ru
+::name Ordering food
+::category Food and Drink
+::language en
+::author Oleg
+::author_url -
+::description -
+::dynamic_content No
+::developer_privacy_policy -
+::image images/ImageName.jpg
+::terms_of_use -
+
+What may I order? | What can I get? | What can I have? | What can I order?
+!example:What can I order?
+You can order pizza, burger, sushi, kebab, sandwich, steak, pie, noodles.
+
+I want a pizza. | I want some pizza. | I'd like a pizza. | I want pizza. | Pizza
+!example:Pizza
+You ordered pizza.
+
+I need a burger. | I want the burger. | I'd like a burger. | I want a burger. | Burger
+!example:Burger
+You ordered a burger.
+
+I want some sushi. | I wanna have sushi. | I want sushi. | Sushi
+!example:Sushi
+You ordered sushi.
+
+I want a shish kebab. | I want a barbecue. | I want kebab. | I want a kebab. | Kebab
+!example:Kebab
+You ordered a kebab.
+
+I want the sandwich. | I need a sandwich. | I'd like a sandwich. | I want a sandwich. | Sandwich
+!example:Sandwich
+You ordered a sandwich.
+
+I want steak. | I want some steak. | I want the steak. | I want a steak. | Steak
+!example:Steak
+You ordered a steak.
+
+I want cake. | I want a pie. | I want a cake. | I want pie. | Pie
+!example:Pie
+You ordered a pie.
+
+I want some noodles. | I want the noodles. | I want a noodle. | I want noodles.
+!example:Noodles
+You ordered noodles.
