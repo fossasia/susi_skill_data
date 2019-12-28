@@ -23,6 +23,10 @@ Answer for the user query
 roses are red
 SUSI is a hack
 
+what is your name? | What's your name? | Who are you?| what should i call you? | do you have a name
+!example:what is your name?
+My name is SUSI.
+
 # SUSI.AI tutorial playground
 ::prior
 roses are red
