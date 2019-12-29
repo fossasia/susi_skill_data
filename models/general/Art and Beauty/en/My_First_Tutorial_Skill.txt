@@ -1,0 +1,18 @@
+::protected No
+::author_email benjamin.werner@irie-web.de
+::name My First Tutorial Skill
+::category Art and Beauty
+::language en
+::author <author_name>
+::author_url <author_url>
+::description just a simple test> 
+::dynamic_content <No>
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+
+# replace the following lines - click on the (i) to get a tutorial:
+
+where is paczka
+In yout dreams
