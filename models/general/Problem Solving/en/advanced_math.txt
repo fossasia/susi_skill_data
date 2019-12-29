@@ -1,0 +1,34 @@
+::name Derivatives of functions of x
+::author Chirag Wadhera
+::author_url https://www.github.com/chiragw15
+::description Derivatives of functions of x 
+::dynamic_content Yes
+::developer_privacy_policy  
+::image images/advanced_math.png
+::terms_of_use
+
+derivative *|differentiation of *
+!example:derivative x
+!expect:Derivative x is 1
+!console:Derivative $1$ is $!$ 
+{
+
+    "url":"https://newton.now.sh/derive/$1$",
+
+    "path":"$.result"
+
+}
+eol
+
+integrate *|integration of *
+!example:integrate x
+!expect:Integration x is 1/2 x^2
+!console:Integration $1$ is $!$ 
+{
+
+    "url":"https://newton.now.sh/integrate/$1$",
+
+    "path":"$.result"
+
+}
+eol

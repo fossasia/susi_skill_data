@@ -1,0 +1,107 @@
+::name Math Operations
+::author Manveer Singh
+::author_url https://github.com/Manveer695
+::description Facing difficulties in Maths, Susi is there to help you, ask Susi for any simplifications, trigonometric equations, factors of equations and much more. 
+::dynamic_content Yes
+::developer_privacy_policy
+::image images/math_operations.png
+::terms_of_use 
+
+Tell me the cos of *
+!example : Tell me the cos of 70
+!console:$!$
+{
+"url":"https://newton.now.sh/cos/$1$",
+"path":"$.result"
+}
+eol
+
+simplify * | simplification of *
+!example : simplify 10 - 5 + 5*9
+!console:$!$
+{
+"url":"https://newton.now.sh/simplify/$1$",
+"path":"$.result"
+}
+eol
+
+factorization of * | factors of *
+!example : factorization of x^2 - 5x
+!console:$!$
+{
+"url":"https://newton.now.sh/factor/$1$",
+"path":"$.result"
+}
+eol
+
+The zeroes of equation *
+!example : The zeroes of equation x^2 - 4
+!console:$!$
+{
+"url":"https://newton.now.sh/zeroes/$1$",
+"path":"$.result"
+}
+eol
+
+Tell me the tan of *
+!example : Tell me the tan of 45
+!console:$!$
+{
+"url":"https://newton.now.sh/tan/$1$",
+"path":"$.result"
+}
+eol
+
+Tell me the inverse cos of *
+!example : Tell me the inverse cos of 0.3
+!console:$!$
+{
+"url":"https://newton.now.sh/arccos/$1$",
+"path":"$.result"
+}
+eol
+
+Tell me the inverse tan of *
+!example : Tell me the inverse tan of 34
+!console:$!$
+{
+"url":"https://newton.now.sh/arctan/$1$",
+"path":"$.result"
+}
+eol
+
+Tell me the inverse sine of *
+!example : Tell me the inverse sine of 0.7
+!console:$!$
+{
+"url":"https://newton.now.sh/arcsin/$1$",
+"path":"$.result"
+}
+eol
+
+Tell me the sine of *
+!example : Tell me the sine of 80
+!console:$!$
+{
+"url":"https://newton.now.sh/sin/$1$",
+"path":"$.result"
+}
+eol
+
+Tell me the absolute of *
+!example : Tell me the absolute of -19
+!console:$!$
+{
+"url":"https://newton.now.sh/abs/$1$",
+"path":"$.result"
+}
+eol
+
+Tell me the log of *
+!example : Tell me the log of 5
+!console:$!$
+{
+"url":"https://newton.now.sh/log/$1$",
+"path":"$.result"
+}
+eol

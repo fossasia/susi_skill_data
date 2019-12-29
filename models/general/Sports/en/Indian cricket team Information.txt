@@ -1,0 +1,20 @@
+::protected No
+::author_email ishakikani999@gmail.com
+::name Indian cricket team Information
+::category Sports
+::language en
+::author Isha Kikani
+::author_url https://ishakikani9117.github.io/
+::description this skill is about indian cricket team.
+::dynamic_content No
+::developer_privacy_policy #
+::image images/<image_name>
+::terms_of_use <link>
+
+
+# replace the following lines - click on the (i) to get a tutorial:
+
+Who is the captain of indian cricket team?|what is the name of the captain of the indian cricket team?
+!example:Who is the captain of indian cricket team?
+!expect:Virat Kohli
+Virat Kohli

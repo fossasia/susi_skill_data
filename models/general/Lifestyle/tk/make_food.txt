@@ -1,0 +1,18 @@
+::protected No
+::author_email shubhamsuperpro@gmail.com
+::name Make food
+::category Lifestyle
+::language tk
+::author Shubham
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/Screen Shot 2018-09-17 at 1.45.26 AM.png
+::terms_of_use <link>
+
+
+How to make cake|query2|quer3....
+!example:<The question that should be shown in public skill displays>
+!expect:<The answer expected for the above example>
+Add flour to maze, bake it

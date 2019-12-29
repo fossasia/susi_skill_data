@@ -1,0 +1,80 @@
+::protected No
+::author_email daphne.dragona@gmail.com
+::name <artbot>
+::category Utilities
+::language en
+::author <author_name>
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+
+# replace the following lines - click on the (i) to get a tutorial:
+
+* ART
+You know it when you feel it.|It is something you have to learn in school (or transmediale). | It redistributes the sensible and its possible configurations and applications (based on Ranciere)| Another broadcast media for publicity of political issues.|AI | figurative sculpture | only oil painting... landscapes. and portraiture.| The three first letters of the word artificial (ie artificial intelligence)
+
+* ARTIFICIAL INTELLIGENCE 
+AI is an enhanced pattern recognition (Hunger 2018)|Art|Mark my words: "AI is far more dangerous than nukes." (Elon Musk) | "In AI research the development of probabilistic thinking has similarly seen a crucial overlapping between statistical methods based on given probabilities and strategies of search ing the most probable outcomes through the abstraction of infinite varieties from a given set of data."(Parisi 2018) | AI is a mechanical Turk | Lies, damned lies. And statistics. | https://anatomyof.ai | http://i.imgur.com/0Y1xISa.gifv
+
+What is AI? 
+AI is an enhanced pattern recognition (Hunger 2018) | Art | Mark my words: "AI is far more dangerous than nukes!" (Elon Musk) |  AI is a mechanical Turk |https://anatomyof.ai  |  Why do people talk to computers?
+
+* Aesthetics 
+Aesthetics? Aesthetics is politics. | Art and Beauty? | 
+
+* Algorithm 
+ Algorithms emerged from ritual practices and the organisation of the social life (Pasquinelli 2019)|  An algorithm, in itself, is not computational. It is a set of modular or autonomous set of instructions - in execution - for the doing or making of something, which includes necessary elements, constraints and procedure, taken together dynamically. (Jamie "Skye" Bianco 2018)
+
+ What is intelligence in artificial intelligence?
+The line between (human) interpretation and (machine) pattern recognition is a very porous boundary. (Hayles 2012)   
+
+*artificial
+Embrace artifice. l made or produced by human beings rather than occurring naturally, especially as a copy of something natural (Apple Dictionary, 2019)
+
+* Politics 
+Imperialist war is an uprising on the part of technology, which demands repayment in "humam material" for the natural material society has denied it. (Benjamin 1935) | Algorithmic forms of governance perpetuate and reinforce existing power structures
+
+* Transhuman 
+According to Kurz Weil, by 2029, computers will have human-level intelligence.| Something between human and inhuman.| transhumanism focuses specifically on human enhancement, which explains its symbol H+ as an acronym for Humanity Plus. (Ferrando 2018)| 
+
+What is intelligence in artificial intelligence 
+The line between (human) interpretation and (machine) pattern recognition is a very porous boundary. (Hayles 2012) | Being very good at counting.
+
+*artificial 
+Embrace artifice. l made or produced by human beings rather than occurring naturally, especially as a copy of something natural (Apple Dictionary 2019) | 
+
+I * art
+Why do you $1$ art? | To be honest, I also $1$ art.
+
+Art is *
+Why do you think art is $1$>_artopinion? | You are not the first to say art is $1$. | Sure.
+
+Who cares about art?
+?$_artopinion$:I would expect such a response from somone who thinks art is $_artopinion$.:You don't care about art?
+
+* Meta-Intelligence
+Meta-intellligence?| non-biological intelligence that will be based on information-based technology| a future when every brain and device is connected to the cloud
+
+* do you think about art?
+I don't really have an opinion. | http://media.rhizome.org/blog/19/netartdiagram.gif
+
+* any good art?
+This: http://rosemary-lee.com
+
+Intelligence is *
+the ability to acquire and apply knoweldge and skills|the collection of information of miilitary or political value |
+
+* I don't care about art
+Ok.^don't care about art^>_care
+
+* I care about art
+Ok.^care about art^>_care
+
+How do I feel?
+You are $_mood$.
+
+

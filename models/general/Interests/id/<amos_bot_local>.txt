@@ -1,0 +1,62 @@
+::protected No
+::author_email pecbossgams@gmail.com
+::protected No
+::author_email pecbossgams@gmail.com
+::name <amos_bot_local>
+::category Interests
+::language id
+::author <amosgamaliel>
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+
+# replace the following lines - click on the (i) to get a tutorial:
+
+
+Siapa amos gamaliel?
+Amos Gamaliel is a student at SMK Negeri 2 Cimahi. He was born in Cimahi, on 11 July 2019. When he was 15 years old, he decided to form a little team called Rectangle. Now, Rectangle has completed several projects related to software engineering.
+
+mos
+naon? kangen? \\amos_bot hurung
+
+Who is Amos Gamaliel's father name?
+Amos Gamaliel's father is John Doe
+
+Who is Amos Gamaliel's mother name?
+Kepo maneh mah
+
+Who is Amos Gamaliel's full name?
+Amos Gamaliel's full name is Elroy Amos Jaya Gamaliel Bakkara
+
+Amos bogoh ka si *?
+Moal mungkin lah jeung si $1$>_batur mah, eta mah nu si om
+
+Saha om?|Saha si om?
+kabogohna si $_batur$ lah
+
+Amos milih * atau *?
+Nya jelas $1$ atuh, wkwkwk
+
+Waduk|Bohong|teuing ah|ih
+wkwkwk|wkwk
+seuri
+
+har
+yeh
+pusing
+
+* siah
+waduk
+
+* ieu mah
+$1$ waduk
+
+terserah
+nya|ok|sip
+
+so inggris
+bae

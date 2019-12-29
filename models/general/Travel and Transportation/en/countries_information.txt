@@ -1,0 +1,72 @@
+::name Countries Information
+::author Ali Ayub Khan
+::author_url https://github.com/AliAyub007
+::description A skill to give answers related to a country’s information.
+::dynamic_content Yes
+::developer_privacy_policy
+::image images/countries_information.png
+::terms_of_use
+
+Currency of *| What is currency of *| * Currency|tell me the Currency of *|tell about the currency of *| Name the currency of *| which currency is used in *|Do you know the currency of *|find the currency of *
+!example:Currency of Singapore
+!expect:Currency of singapore is SGD
+!console:Currency of $1$ is $!$ 
+{
+"url":"https://restcountries.eu/rest/v1/name/$1$?fullText=true",
+"path":"$.[0].currencies"
+}
+eol
+
+#Tells us about time zone of different countries
+
+Time Zone of *|What is time zone of *| * Time zone|tell me the time zone of * | Do you know the time zone of *| tell the time zone of *| tell me time zone of *| DO you know time zone of *
+!example:Time Zone of Germany
+!console:Time zone of $1$ is $!$ 
+{
+"url":"https://restcountries.eu/rest/v1/name/$1$?fullText=true",
+"path":"$.[0].timezones"
+}
+eol
+
+#Tells about area of countries 
+
+Area of *| What is area of *| * Area| What is the size of *| size of *| Do you know the area of *|tell me the area of *|tell the area of *|How much area is covered by *|
+!example:Area of India
+!console:Area of $1$ is $!$  km^2
+{
+"url":"https://restcountries.eu/rest/v1/name/$1$?fullText=true",
+"path":"$.[0].area"
+}
+eol
+
+#Tells us about region of any country
+
+* Region|Region of *|* Region|Region *|what is Region of *| what is the Region of *|Do you know Region of *|tell me Region of *|can you tell me Region of *|tell me the Region of *|can you tell me the Region of *|Region of the *
+!example:Region of India
+!console:Region of $1$ is $!$
+{
+"url":"https://restcountries.eu/rest/v1/name/$1$?fullText=true",
+"path":"$.[0].region"
+}
+eol
+
+#Tells calling codes of different countries
+
+Calling code of *|* Calling code|Calling code *|what is Calling code of *| what is the Calling code of *|Do you know Calling code of *|tell me Calling code of *|can you tell me Calling code of *|tell me the Calling code of *|can you tell me the Calling code of *|Calling code of the *
+!example:Calling code of Germany
+!console:Calling code of $1$ is +$!$
+{
+"url":"https://restcountries.eu/rest/v1/name/$1$?fullText=true",
+"path":"$.[0].callingCodes[0]"
+}
+eol
+
+#Tells us about population of countries
+population of *| population *|what is population of *| what is the population of *|Do you know population of *|tell me population of *|can you tell me population of *|tell me the population of *|can you tell me the population of *|* population
+!example:what is the population of India
+!console:$alt$
+{
+"url":"http://api.wolframalpha.com/v2/query?appid=9WA6XR-26EWTGEVTE&input=What+is+population+of+$1$&output=JSON",
+"path":"$.queryresult.pods[1].subpods[0].img"
+}
+eol

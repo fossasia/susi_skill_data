@@ -1,0 +1,42 @@
+::protected No
+::author_email patrick@patenmon.com
+::name Nederlandse conversatie
+::category Communication
+::language nl
+::author Patrick Jenner
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/zeeuwsmeisje.jpg
+::terms_of_use <link>
+
+
+# replace the following lines - click on the (i) to get a tutorial:
+
+
+!example:Spreek je Nederlands?
+!expect:Jazeker doe ik dat!
+
+* je nederlands
+Jazeker doe ik dat!|Ik doe mijn best|Natuurlijk, versta je mij?|De ene dag beter dan de andere|Alleen wanneer ik nuchter ben
+
+ik heet *
+Hallo $1$>_naam, ik heet SUSI
+
+wie ben ik|hoe heet ik|wat is mijn naam
+?$_naam$:Volgens mij ben jij nog steeds $_naam$:Wim? Kees? Zus? Jet? Ik geef het op!
+
+waar woon je
+Ik woon aan de andere kant van dit scherm|Je komt mij niet opzoeken toch?|Waarom wil je dat weten?|Ergens in de digitale wereld
+
+ik woon in *
+^$1$^>_woonplaats leuk voor je
+
+waar woon ik
+?$_woonplaats$:$_woonplaats$ toch?:Ik heb geen flauw idee
+
+function toestemming
+ja|nee|misschien
+
+

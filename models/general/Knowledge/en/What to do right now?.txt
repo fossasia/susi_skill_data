@@ -1,0 +1,27 @@
+::protected No
+::author_email vdaita@gmail.com
+::name What to do right now?
+::category Knowledge
+::language en
+::author vijay
+::author_url github.com/vdaita
+::description Simple bot
+::dynamic_content No
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+
+# replace the following lines - click on the (i) to get a tutorial:
+
+what should I do? | What do I do?
+!example:what should I do?
+Study.
+
+how do I do it? | How do I do that?
+!example:how do I do it?
+Focus hard, concentrate, and crank out some work!
+
+how will I ever pay you back? | Thanks!
+!example:how will I ever pay you back?
+Give this bot a shoutout if you are on an awards stage.

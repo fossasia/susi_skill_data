@@ -1,0 +1,15 @@
+::name Playing With Words
+::author Dravit Lochan
+::author_url https://github.com/DravitLochan
+::description Play with words, ask SUSI to give words beginning and ending with a particular alphabet.
+::dynamic_content Yes
+::image images/playing_with_words.png
+
+word starting with * and ending with *
+!example:word starting with m and ending with v
+!console:$!$
+{
+    "url":"https://api.datamuse.com/words?sp=$1$??$2$",
+    "path":"$.[0].word"
+}
+eol

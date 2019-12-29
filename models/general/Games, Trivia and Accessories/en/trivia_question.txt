@@ -1,0 +1,33 @@
+# asks user a random question
+::name Trivia Question
+::author Saurabh Jain
+::author_url https://github.com/saurabhjn76	
+::dynamic_content Yes
+::image images/trivia_question.png
+::description Test your knowledge, susi will ask a question, let's check if you can answer it
+
+ask me a question | ask something|trivia|question me
+!example:trivia
+!console:$!$
+{
+"url":"http://jservice.io/api/random",
+"path":"$.[0].question"
+}
+eol
+
+# asks user a  question using https://opentdb.com
+
+ask me something | ask a question 
+!example:ask me something
+!console:$question$   ^$correct_answer$^>_answer
+{
+"url":"https://opentdb.com/api.php?amount=1",
+"path":"$.results"
+}
+eol
+
+is it * 
+?$_answer$=$1$:Correct !! awesome:Sorry the answer is $_answer$
+
+answer please
+$_answer$

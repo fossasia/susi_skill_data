@@ -1,0 +1,31 @@
+::protected No
+::author_email marc.nause@audioattack.de
+::name Skate Ipsum
+::category Games, Trivia and Accessories
+::language en
+::author Marc Nause
+::author_url https://github.com/Low012
+::description Show random dummy text for a mockup
+::dynamic_content Yes
+::developer_privacy_policy
+::image images/skateboard-skateboarding-silhou.jpg
+::terms_of_use
+
+
+Show me * paragraphs of skate ipsum|Show * paragraphs of skate ipsum|Print * paragraphs of skate ipsum
+!example:Show me 3 paragraphs of skate ipsum
+!console:$!$
+{
+    "url": "http://skateipsum.com/get/$1$/1/JSON",
+    "path": "$"
+}
+eol
+
+Show me skate ipsum|Show skate ipsum|Print skate ipsum|Show 1 paragraph of skate ipsum|Show 1 paragraph of skate ipsum|Print 1 paragraph of skate ipsum
+!example:Show me skate ipsum
+!console:$!$
+{
+    "url": "http://skateipsum.com/get/1/1/JSON",
+    "path": "$"
+}
+eol

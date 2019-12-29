@@ -1,0 +1,20 @@
+::protected No
+::author_email siddharthsinha9752@gmail.com
+::name Extra
+::category Knowledge
+::language en
+::author <author_name>
+::author_url https://github.com/Sid911
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/fox.jpg
+::terms_of_use <link>
+
+
+
+What does HTML means?
+HTML means HyperText Markup Langauge.
+
+What does CSS means?
+CSS means Cascading Style Sheets.

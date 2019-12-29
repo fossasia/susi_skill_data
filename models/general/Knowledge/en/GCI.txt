@@ -1,0 +1,154 @@
+::protected No
+::author_email antokariis@gmail.com
+::protected No
+::author_email siddharthsinha9752@gmail.com 
+::name GCI
+::category Knowledge
+::language en
+::author Siddharth_Sinha | _supun_tharinda_ | Sahil_Saha
+::author_url https://github.com/Sid911 
+::description This the Query bot made for GCI 
+::dynamic_content No
+::developer_privacy_policy <link>
+::image images/google.png
+::terms_of_use <link>
+
+gci *|gci|google code-in *|google code-in|google code in*|google code in|google codein *|google codein|what * gci|what * google code-in|what * google code in|what * google codein
+!example: what is gci
+Google Code-in is an annual programming competition hosted by Google Inc. that allows pre-university students to complete tasks specified by various partnering open-source organisations.
+
+open source|what * open source?|what * open source
+The term 'open source' refers to something people can modify and share because its design is publicly accessible.
+
+why * birth date|why * date of birth|why * birthdate|why * birth-date|why * birthday|birth date *|birth date|date of birth *|date of birth|birthdate *|birthdate|birth-date *|birth-date|birthday *|birthday
+When you first sign up in GCI, you must provide your birth date to verify your eligibility. Only 13-17 year old pre-university students are eligible.
+
+how * participate|can i participate *|can i participate|* participate *|participate|how * join|can i join *|can i join|join *|join|* eligible *|eligible|* eligibility *|eligibility|* allowed to take part *
+You can participate in Google Code-in by visiting https://codein.withgoogle.com/. The terms and conditions are at https://codein.withgoogle.com/terms/. Essentially, contestants must have the consent of their parent or guardian, and be 13 to 17 years old and enrolled in a pre-university educational programme.
+
+* prizes *|prizes|* prize *|prize
+There are a ton of prizes. Check them out here - https://developers.google.com/open-source/gci/how-it-works
+
+* help *|about
+This is a chatbot made to clarify the queries people may have about Google Code-in. Try asking 'How do I participate?' or 'What is Google Code-in?' ￯﾿ﾯ￯ﾾ﾿￯ﾾﾰ￯﾿ﾯ￯ﾾﾾ￯ﾾﾟ￯﾿ﾯ￯ﾾﾾ￯ﾾﾤ￯﾿ﾯ￯ﾾﾾ￯ﾾﾖ
+
+why * participate|why * join|why participate|why join|why
+Google Code-in is about the experience that the participants gain from working with an open-source organisation. And if you ever get stuck, there are a number of mentors who can help. ￯﾿ﾯ￯ﾾ﾿￯ﾾﾰ￯﾿ﾯ￯ﾾﾾ￯ﾾﾟ￯﾿ﾯ￯ﾾﾾ￯ﾾﾘ￯﾿ﾯ￯ﾾﾾ￯ﾾﾊ
+
+how * win * competition|how * win competition|how * win *|how * win|winning|win requirement|win requirements|winning requirement|winning requirements|victory requirement|victory requirements
+The number of tasks you complete for a single organisation will get you into the top ten for that organisation. Furthermore, your work will be analysed by mentors regarding what you have done during the course of the competition. Remember, quality is more important than quantity.
+
+* only * programmers *|only * programmers|* only programmers *|only programmers|* be a programmer *|be a programmer|* know programming *|know programming|* know how to program *|know how to program|* only * coders *|only * coders|* only coders *|only coders|* be a coder *|be a coder|* know coding *|know coding|* know how to code *|know how to code
+You don't need to be a programmer to join GCI. You can start by choosing beginner tasks, which are fairly simple even for inexperienced people. (You can only do two such tasks, so make them count. ￯﾿ﾯ￯ﾾ﾿￯ﾾﾰ￯﾿ﾯ￯ﾾﾾ￯ﾾﾟ￯﾿ﾯ￯ﾾﾾ￯ﾾﾘ￯﾿ﾯ￯ﾾﾾ￯ﾾﾊ) There are also documentation, training, outreach, research, design and quality assurance (for instance, find bugs and report them) tasks, which are non-coding.
+
+*aim*|aim|*aims*|aims|*goal*|goal|*goals*|goals|*objective*|objective|*objectives*|objectives
+Google Code-in aims to introduce teenagers around the globe to the field of open-source development in a competitive way.
+
+*organisation*|organisation|*organisations*|organisations|*organization*|organization|*organizations*|organizations
+A lot of organisations participate in Google Code-in every year - 27 in 2018, of which FOSSASIA is one. Google chooses the participating organisations from organisations that have previously participated in Google Summer of Code and shown strong ability in mentoring beginners across many time zones. More details here: https://codein.withgoogle.com/organizations/.
+
+*tasks related to*|tasks related to|*task related to*|task related to|*tasks about*|tasks about|*task about*|task about
+Google Code-in has tasks related to coding, documentation & training, outreach & research, quality assurance and design. See some example tasks here: https://developers.google.com/open-source/gci/resources/example-tasks
+
+*programming languages*know*|programming languages*know|*programming languages needed*|programming languages needed|*programming languages required*|programming languages required|*programming languages include*|programming languages include|*programming languages includes*|programming languages includes|*programming languages included*|programming languages included|*programming languages including*|programming languages including|*programming language*know*|programming language*know|*programming language needed*|programming language needed|*programming language required*|programming language required|*programming language included*|programming language included|*programming language including*|programming language including|*prior knowledge*|prior knowledge
+Historically, there have been tasks in Python, C++, C, JavaScript, HTML, CSS, Android, Scala, iOS and more.
+
+*pick organisation*|*pick organisations*|*pick organization*|*pick organizations*|pick organisation|pick organisations|pick organization|pick organizations|*which organisation*|*which organisations*|*which organization*|*which organizations*|which organisation|which organisations|which organization|which organizations
+Google chooses the participating organisations from organisations that have previously participated in Google Summer of Code and shown strong ability in mentoring beginners across many time zones. You can work with one organisation or multiple organisations during the contest, not least FOSSASIA. Each organisation is different, so do review the organisation's information and pick one that interests you. If you try an organisation and don't like it, you can always switch to another. If you're trying to be a Finalist or win a Grand Prize, you must be in the top twenty task completers for an organisation.
+
+*previous contests*|previous contests|*previous years*|previous years|*previous google code-ins*|previous google code-ins|*previous google code ins*|previous google code ins|*previous google codeins*|previous google codeins|*previous gcis*|previous gcis|*previous competitions*|previous competitions|*previous iterations*|previous iterations|*previous contest*|previous contest|*previous year*|previous year|*previous google code-in*|previous google code-in|*previous google code in*|previous google code in|*previous google codein*|previous google codein|*previous gci*|previous gci|*previous competition*|previous competition|*previous iteration*|previous iteration|*earlier contests*|earlier contests|*earlier years*|earlier years|*earlier google code-ins*|earlier google code-ins|*earlier google code ins*|earlier google code ins|*earlier google codeins*|earlier google codeins|*earlier gcis*|earlier gcis|*earlier competitions*|earlier competitions|*earlier iterations*|earlier iterations|*earlier contest*|earlier contest|*earlier year*|earlier year|*earlier google code-in*|earlier google code-in|*earlier google code in*|earlier google code in|*earlier google codein*|earlier google codein|*earlier gci*|earlier gci|*earlier competition*|earlier competition|*earlier iteration*|earlier iteration|*contests before*|contests before|*years before*|years before|*google code-ins before*|google code-ins before|*google code ins before*|google code ins before|*google codeins before*|google codeins before|*gcis before*|gcis before|*competitions before*|competitions before|*iterations before*|iterations before|*contest before*|contest before|*year before*|year before|*google code-in before*|google code-in before|*google code in before*|google code in before|*google codein before*|google codein before|*gci before*|gci before|*competition before*|competition before|*iteration before*|iteration before
+Learn more about the earlier iterations of Google Code-in here: https://codein.withgoogle.com/archive/
+
+*t-shirt*|t-shirt|*t-shirts*|t-shirts|*t shirt*|t shirt|*t shirts*|t shirts
+If you've completed three tasks (beginner tasks count), you'll get a confirmation notice for your size and the shipping address. This year, Google is shipping all the T-shirts with the help of Shumsky.
+
+*pre-university*|pre-university|*pre-uni*|pre-uni|*pre-u*|pre-u|*pre university*|pre university|*pre uni*|pre uni|*pre u*|pre u|*preuniversity*|preuniversity|*preuni*|preuni
+Pre-university programmes may be known as middle schools, high schools or secondary schools. They are called colleges in some countries.
+
+*homeschooled*|homeschooled|*homeschooling*|homeschooling*|homeschool*|homeschool|*home-schooled*|home-schooled|*home-schooling*|home-schooling*|home-school*|home-school|*home schooled*|home schooled|*home schooling*|home schooling*|home school*|home school|
+Homeschooled students can participate in Google Code-in if they're at least 13 and no more than 17 years old.
+
+// Please add input cases as applicable, especially for the last three ~dxa_kly
+// ￯﾿ﾯ￯ﾾ﾿￯ﾾﾢ￯﾿ﾯ￯ﾾﾾ￯ﾾﾆ￯﾿ﾯ￯ﾾﾾ￯ﾾﾓ
+
+13 a few weeks after*starts|13 shortly after*starts|13 a few weeks after start|13 shortly after start|13 when already started|13 a few weeks after*begins|13 shortly after*begins|13 a few weeks after beginning|13 shortly after beginning|13 when already begun // add
+You can participate, but only when you've turned 13. Students must be 13 years old when they register. For example, if a student turns 13 years old on 1 November, they may register for the program on 1 November.
+
+in university and*17|17 and in university|in uni and*17|17 and in uni|in university but*17|17 but in university|in uni but*17|17 but in uni
+No. You must be currently enrolled in a pre-university program. Students are not eligible to participate if they are enrolled in a university, even if they are only 17. Students are also not eligible to participate if they have already graduated a pre-university program and are in between the pre-university program and university.
+
+in high school but*18|18 but in high school|in highschool but*18|18 but in highschool|in high school and*18|18 and in high school|in highschool and*18|18 and in highschool
+No. You must be under 18 at the time of registration to participate.
+
+*restricted country*|restricted country|*country restricted*|country restricted
+Yes, but you may or may not be eligible for prizes.
+
+*time for mentor to*|time for mentor to*|*time for a mentor to*|time for a mentor to*|*time for the mentor to*|time for the mentor to*|*time for my mentor to*|time for my mentor to*|*time for mentors to*|time for mentors to*|*time for a mentors to*|time for a mentors to*|*time for the mentors to*|time for the mentors to*|*time for my mentors to*|time for my mentors to*|*time taken for mentor to*|time taken for mentor to*|*time taken for a mentor to*|time taken for a mentor to*|*time taken for the mentor to*|time taken for the mentor to*|*time taken for my mentor to*|time taken for my mentor to*|*time taken for mentors to*|time taken for mentors to*|*time taken for a mentors to*|time taken for a mentors to*|*time taken for the mentors to*|time taken for the mentors to*|*time taken for my mentors to*|time taken for my mentors to*|*how long for mentor to*|how long for mentor to*|*how long for a mentor to*|how long for a mentor to*|*how long for the mentor to*|how long for the mentor to*|*how long for my mentor to*|how long for my mentor to*|*how long for mentors to*|how long for mentors to*|*how long for a mentors to*|how long for a mentors to*|*how long for the mentors to*|how long for the mentors to*|*how long for my mentors to*|how long for my mentors to*
+Typically all mentors reply within 24 hours but the maximum time that can be taken is 36 hours.
+
+*contact*|contact|*support*|support
+You can email gci-support@google.com or join the GCI Discuss Google group.
+
+*consent form*|consent form
+If you are eligible for the contest and register, you'll have the option to fill the details either on paper or digitally, whichever of these your parents prefer.
+
+// Please add input cases as applicable, especially for the last three ~dxa_kly
+// ￯﾿ﾯ￯ﾾ﾿￯ﾾﾢ￯﾿ﾯ￯ﾾﾾ￯ﾾﾆ￯﾿ﾯ￯ﾾﾾ￯ﾾﾓ
+
+*verified*form*|verified*form|*validated*form*|validated*form|*confirmed*form*|confirmed*form|*checked*form*|checked*form|*done checking*form*|done checking*form|*finished checking*form*|finished checking*form|*form*verified*|form*verified|*form*validated*|form*validated|*form*confirmed*|form*confirmed|*form*checked*|form*checked|*form*done checking*|form*done checking|*form*finished checking*|form*finished checking|*form verified*|form verified|*form validated*|form validated|*form confirmed*|form confirmed|*form checked*|form checked|*form done checking*|form done checking|*form finished checking*|form finished checking
+You'll get an email when you've completed your registration with parental consent. You'll be notified whether your consent form is verified within 72 hours of submitting the form. If there's a problem with your Parental Consent Form, the contest administrators will send you an email telling you about the problem and giving you a chance to fix it.
+
+13 a few weeks after*starts|13 shortly after*starts|13 a few weeks after start|13 shortly after start|13 when already started|13 a few weeks after*begins|13 shortly after*begins|13 a few weeks after beginning|13 shortly after beginning|13 when already begun // add
+You can participate, but only when you've turned 13. Students must be 13 years old when they register. For example, if a student turns 13 years old on 1 November, they may register for the program on 1 November.
+
+in university and*17|17 and in university|in uni and*17|17 and in uni|in university but*17|17 but in university|in uni but*17|17 but in uni
+No. You must be currently enrolled in a pre-university program. Students are not eligible to participate if they are enrolled in a university, even if they are only 17. Students are also not eligible to participate if they have already graduated a pre-university program and are in between the pre-university program and university.
+
+in high school but*18|18 but in high school|in highschool but*18|18 but in highschool|in high school and*18|18 and in high school|in highschool and*18|18 and in highschool
+No. You must be under 18 at the time of registration to participate.
+
+*review tasks|review*tasks|task review*|*task review
+Your tasks will be reviewed by volunteer mentors from the open source organization. These mentors are regular contributors to the organization and are often the people who authored the task.
+
+grand prize*|winner*|*grand prize|*winner|grand prize winner*|*grand prize winner
+Each open source organization will review the work of the 20 students with the highest number of tasks completed during the contest with their particular organization. Work will be reviewed considering quality, creativity, thoroughness, complexity, and community involvement. From the 20 highest scoring students, each organization will name 6 Finalists. From those 6 Finalists, they will choose 2 students as the Grand Prize Winners for their organization. It is possible that someone who completed 15 challenging tasks could be chosen as a Grand Prize Winner over someone who completed 35 trivial tasks.
+
+community involvement*|*community involvement|community*involvement|meaning*community|meaning*involvement
+Community involvement means doing more than just working on the defined tasks. This might mean participating on the organization's IRC channel or mailing list to help others. It can also include work to improve things for others. For example, improving documentation you've used to complete a task.
+
+increase chances to win*|win chances*|increase*chances*win|win*chances|*win chances|*win grand prize|win grand prize*
+Demonstrate a genuine interest in the organization. Listen and take action on feedback. It can help to work with only one organization so you are more likely to be in the top 20, but quality is as important as quantity.
+
+task*|*what is task*|what*task
+A task is a small project that is expected to take between 3-5 hours of work to complete.
+
+types of tasks*|type*tasks|*tasks types*
+Tasks are categorized with the following labels:
+    Code: Tasks related to writing or refactoring code
+    Documentation/Training: Tasks related to creating/editing documents and helping others learn more
+    Outreach/Research: Tasks related to community management, outreach/marketing, or studying problems and recommending solutions
+    Quality Assurance: Tasks related to testing and ensuring code is of high quality
+    Design: Tasks related to user experience research or user interface design and interaction
+
+T shirt|google code in t shirt|*t shirt|t shirt*|T-shirt|google code in t-shirt|*t-shirt|t-shirt*|t shirt|t-shirt|*tshirt*|*T-shirt*
+Complete 3 tasks to get a Google Code in t-shirt
+
+open source|*open source
+Open-source software is a type of computer software in which source code is released under a license in which the copyright holder grants users the rights to study, change, and distribute the software to anyone and for any purpose. Open-source software may be developed in a collaborative public manner. 
+    - From Wikipedia
+
+current leaders list|*current leaders list
+It is the list of top students on the basis of number of tasks done per organization.
+
+google groups|*google groups for google code in|*google groups for gci
+Link to Google Groups https://groups.google.com/forum/#!forum/gci-discuss
+
+FAQ|*FAQ|FAQ*|frequently asked questions|*frequently asked questions*|*FAQ*|*faq*|*frequently asked questions*|*Frequently Asked Questions*
+Link to FAQs https://developers.google.com/open-source/gci/faq    
+
+//please add more inputs
+*use of participation*|*helpful|helpful*|*use|use*|*use of GCI*|*benefits of GCI*|*benefits*|*use of gci*|*benefits of gci*|*helpful*
+GCI provides you a platform for developing your skills and interests by contributing to open-source.
+
+When will the google code in end|Last date of google code in
+Google code in ends on dec 10(last date for claiming tasks) and dec 12(last day for submitting).

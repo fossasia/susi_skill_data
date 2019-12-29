@@ -1,0 +1,34 @@
+::protected No
+::author_email jula.albert@yahoo.de
+::name Arduino Control Skill
+::category Lifestyle
+::language en
+::author <Julia>
+::author_url <author_url>
+::description <Conrol an Arduino Board> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+
+# replace the following lines - click on the (i) to get a tutorial:
+
+Greet Node.js
+!console:$text$
+{
+    "url":"http://127.0.0.1:8080",
+    "path":"$"    
+}
+eol
+
+Are you ready for this?
+ZIMZALABIM!
+
+tweet about *
+!console:$text$
+{
+  "url":"http://api.loklak.org/api/search.json?q=$1$",
+  "path":"$.statuses"
+}
+eol

@@ -1,0 +1,15 @@
+::name Joke
+::author Dravit Lochan
+::author_url https://github.com/DravitLochan
+::dynamic_content Yes
+::description This skill would tell you a joke.
+::image images/51zLZbEVSTL._SX425_.jpg
+
+tell me a joke|recite me a joke|entertain me|make me laugh |tell me something funny|* funny| * joke 
+!example:Tell me a joke!
+!console:$joke$
+{
+    "url":"http://api.icndb.com/jokes/random?escape=javascript",
+    "path":"$.value"
+}
+eol

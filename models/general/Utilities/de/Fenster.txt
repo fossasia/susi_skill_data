@@ -1,0 +1,21 @@
+::protected No
+::author_email nikolaos.christou@yahoo.com
+::protected No
+::author_email nikolaos.christou@yahoo.com
+::protected No
+::author_email nikolaos.christou@yahoo.com
+::protected No
+::author
+::name Fenster
+::category Utilities
+::language de
+::author <author_name>
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/Capture.PNG
+::terms_of_use <link>
+
+
+# Funktion under construction

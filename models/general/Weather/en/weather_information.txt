@@ -1,0 +1,188 @@
+::protected No
+::author_email antokariis@gmail.com
+::protected No
+::author_email mariobehling@gmail.com
+::name Weather Information
+::author Ali Ayub Khan
+::author_url https://github.com/AliAyub007
+::description A skill to tell weather information like temperature, humidity etc.
+::dynamic_content Yes
+::developer_privacy_policy
+::image images/download.png
+::terms_of_use
+
+
+fahrenheit to celsius *
+!example:fahrenheit to celsius 212
+!javascript:$!$
+(($1$-32)/1.8).toPrecision(4);
+eol
+
+temperature in *|what is temperature in *|what is the temperature in *|* temperature|Tell me about temperature in *
+!example:what is the temperature in Islamabad
+!expect:It is 27.22 degree celcius in Islamabad
+!console:It is `fahrenheit to celsius $temp$` degree celcius in $1$
+{
+"url":"https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20(select%20woeid%20from%20geo.places(1)%20where%20text%3D%22$1$%2C%20ak%22)&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys",
+"path":"$.query.results.channel.item.condition"
+}
+eol
+
+temperature today|what is temperature today|what is the temperature today|how's the weather like today|how is the weather like today|temperature tomorrow|what is temperature tomorrow|what is the temperature tomorrow|how's the weather like tomorrow|how is the weather like tomorrow
+!example:temperature today
+I am intelligent but I am not God. Try asking me with location.
+
+temperature today in *|what is temperature today in *|what is the temperature today in *|how's the weather like today in *|how is the weather like today in *
+!example:what is the temperature today in london
+!console:It is `fahrenheit to celsius $temp$` degree celcius in $1$
+{
+"url":"https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20(select%20woeid%20from%20geo.places(1)%20where%20text%3D%22$1$%2C%20ak%22)&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys",
+"path":"$.query.results.channel.item.condition"
+}
+eol
+
+temperature tomorrow in *|what is temperature tomorrow in *|what is the temperature tomorrow in *|how's the weather like tomorrow in *|how is the weather like tomorrow in *
+!example:how is the weather like tomorrow in london
+!console:Tomorrow highest temperature will be `fahrenheit to celsius $high$` degree celcius in $1$
+{
+"url":"https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20(select%20woeid%20from%20geo.places(1)%20where%20text%3D%22$1$%2C%20ak%22)&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys",
+"path":"$.query.results.channel.item.forecast[1]"
+}
+eol
+
+temperature inside|what is temperature inside|what is the temperature inside|inside temperature
+!example:what is temperature inside
+Try using thermometer it will give you accurate readings for your room.
+
+temperature outside|what is temperature outside|what is the temperature outside|outside temperature
+!example:temperature outside
+I am intelligent but I am not God try asking me with location.
+
+
+weather tomorrow|what is weather tomorrow|what will be the weather tomorrow|what is weather report of tomorrow|Give me weather report of tomorrow|Tell me about weather tomorrow|Tell me about about weather tomorrow|weather tomorrow|weather report tomorrow|tomorrow weather report|weather report of tomorrow|Will there be clouds tomorrow |Will it be cloudy tomorrow |will it be cloudy weather tomorrow ||Is it cloudy tomorrow |Is weather cloudy tomorrow |Will there be hail tomorrow |will it hail tomorrow |Will it be hailing tomorrow |will it be hailing weather tomorrow |Is it hailing tomorrow |Is weather clear tomorrow|Will there be snow tomorrow |will it snow tomorrow |Will it be snowing tomorrow |will it be snowing weather tomorrow |Is it snowing tomorrow |Will it rain tomorrow |Will it be raining tomorrow |Are there any chances of rain tomorrow |can it rain tomorrow |will it rain tomorrow |will there be rain tomorrow|Will it rain today |Will it be raining|Are there any chances of rain today |can it rain today|will it rain today|will there be rain today|Will it rain|Will it be raining |Are there any chances of rain |can it rain |will it rain|will there be rain |will it be raining today |Are there any chances of rain|Will there be clouds|Will it be cloudy |will it be cloudy weather|Is it cloudy|Is it cloudy|Is cloudy weather |Is weather cloudy |Will there be clouds today |Will it be cloudy today |will it be cloudy weather today ||Is it cloudy today |Is weather cloudy today |Will there be hail|Will there be hail today |Will it hail |will it hail today |Will it be hailing today |Will it be hailing |will it be hailing weather |will it be hailing weather today |Is it hailing |Is it hailing today |Is weather clear |Is weather clear today |Will there be snow |Will there be snow today |Will there be snow |Will it snow |will it snow today |Will it be snowing today |Will it be snowing |will it be snowing weather today |will it be snowing weather|Is it snowing today|Is it snowing
+!example:Is it snowing
+I am intelligent but I am not God try asking me with location.
+
+
+how hot is it in *|how much hot is it in *|how hot it is today in *|how hot is it today i *|How cold it is today in *|how much cold it is today in *|how cold is it today in *|how cold is it in *|how cold it is in *
+!example:how cold is it in london
+!console:It is `fahrenheit to celsius $temp$` degree celcius in $1$
+{
+"url":"https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20(select%20woeid%20from%20geo.places(1)%20where%20text%3D%22$1$%2C%20ak%22)&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys",
+"path":"$.query.results.channel.item.condition"
+}
+eol
+
+Tell me about humidity in *|What is humidity in *|What is the humidity in *|Humidity in *|* Humidity|Percentage of humidity in *|Percentage humidity in *|Humidity percentage in *|Tell me humidity in *|Tell humidity in *|tell me the percentage humidity in *
+!example:Percentage of humidity in london
+!console:It is $humidity$% humidity in $1$
+{
+"url":"https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20(select%20woeid%20from%20geo.places(1)%20where%20text%3D%22$1$%2C%20ak%22)&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys",
+"path":"$.query.results.channel.atmosphere"
+}
+eol
+
+weather in * tomorrow|what is weather in * tomorrow|what will be the weather in * tomorrow|what is weather report of * tomorrow|Give me weather report of * tomorrow|Tell me about weather of * tomorrow|Tell me about about weather in * tomorrow|* weather tomorrow| * weather report tomorrow|tomorrow weather report of *|weather report of * tomorrow|Will there be clouds tomorrow in *|Will it be cloudy tomorrow in *|will it be cloudy weather tomorrow in *||Is it cloudy tomorrow in *|Is weather cloudy tomorrow in *|Will there be hail tomorrow in *|will it hail tomorrow in *|Will it be hailing tomorrow *|will it be hailing weather tomorrow in *|Is it hailing tomorrow in * |Is weather clear tomorrow in * |Will there be snow tomorrow in *|will it snow tomorrow in *|Will it be snowing tomorrow in *|will it be snowing weather tomorrow in * |Is it snowing tomorrow in *|Will it rain tomorrow in * |Will it be raining tomorrow in *|Are there any chances of rain tomorrow in *|can it rain tomorrow in *|will it rain tomorrow in *|will there be rain tomorrow in *
+!example:Will it rain tomorrow in london
+!console:It will be $text$ tomorrow in $1$
+{
+"url":"https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20(select%20woeid%20from%20geo.places(1)%20where%20text%3D%22$1$%2C%20ak%22)&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys",
+"path":"$.query.results.channel.item.forecast[1]"
+}
+eol
+
+weather in *|what is weather in *|what is the weather in *|what is weather report of *|Give me weather report of *|Tell me about weather of *|Tell me about about weather in *|* weather| * weather report|weather forecast of *|* weather forecast|How's the weather in *|How is the weather in *|How's the weather like in *|How is the weather like in *|weather in * today|what is weather in * today|what will be the weather in * today|what is weather report of * today|Give me weather report of * today|Tell me about weather of * today|Tell me about about weather in * today|* weather today| * weather report today|today weather report of *|weather report of * today
+!example:Give me weather report of New York
+!console:It will be $text$ in $1$
+{
+"url":"https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20(select%20woeid%20from%20geo.places(1)%20where%20text%3D%22$1$%2C%20ak%22)&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys",
+"path":"$.query.results.channel.item.condition"
+}
+eol
+
+Will it rain today in * |Will it be raining today in *|Are there any chances of rain today in *|can it rain today in *|will it rain today in *|will there be rain today in *|Will it rain in * |Will it be raining in *|Are there any chances of rain in *|can it rain in *|will it rain in *|will there be rain in *|will it be raining today in *|Are there any chances of rain in *|Will there be clouds in *|Will it be cloudy in *|will it be cloudy weather in *|Is it cloudy in *|Is it cloudy in *|Is cloudy weather in *|Is weather cloudy in *|Will there be clouds today in *|Will it be cloudy today in *|will it be cloudy weather today in *||Is it cloudy today in *|Is weather cloudy today in *|Will there be hail in *|Will there be hail today in *|Will it hail in *|will it hail today in *|Will it be hailing today *|Will it be hailing in *|will it be hailing weather in *|will it be hailing weather today in *|Is it hailing in *|Is it hailing today in * |Is weather clear in * |Is weather clear today in * |Will there be snow in *|Will there be snow today in *|Will there be snow in *|Will it snow in *|will it snow today in *|Will it be snowing today in *|Will it be snowing in *|will it be snowing weather today in *|will it be snowing weather in *|Is it snowing today in *|Is it snowing in *
+!example:Is it snowing in new york
+!console:It will be $text$ in $1$
+{
+"url":"https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20(select%20woeid%20from%20geo.places(1)%20where%20text%3D%22$1$%2C%20ak%22)&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys",
+"path":"$.query.results.channel.item.condition"
+}
+eol
+
+what is sunset time in *|Sunset time in *|sunset in *|sun set in *|Tell me about sunset time|what is the sunset time in *|what is sun set time in *|Sun set time in *|Tell me about sun set time|what is the sun set time in *
+!example:Sunset time in india
+!console:Sunset time in $1$ is $sunset$
+{
+"url":"https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20(select%20woeid%20from%20geo.places(1)%20where%20text%3D%22$1$%2C%20ak%22)&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys",
+"path":"$.query.results.channel.astronomy"
+}
+eol
+
+what is sunrise time in *|Sunrise time in *|sunrise in *|sun rise in *|Tell me about sunrise time|what is the sunrise time in *|what is sun rise time in *|Sun rise time in *|Tell me about sun rise time|what is the sun rise time in *
+!example:Sunrise time in India
+!console:Sunrise time in $1$ is $sunrise$
+{
+"url":"https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20(select%20woeid%20from%20geo.places(1)%20where%20text%3D%22$1$%2C%20ak%22)&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys",
+"path":"$.query.results.channel.astronomy"
+}
+eol
+
+Is it hot?|I am feeling very hot here|it is very hot today|It is very hot tomorrow|It was very hot yesterday|it is very hot|it is hot|It is hot outside|It is hot inside|Is it hot outside|is it hot inside
+!example:Is it hot?
+I can't feel it in here but did you try using fan? It will help you. 
+
+Is it cold?|I am feeling very cold here|it is very cold today|It is very cold tomorrow|It was very cold yesterday|it is very cold|it is cold|It is cold outside|it is cold inside|is it cold inside|is it cold outside
+!example:Is it cold?
+I can't feel it in here but did you try heater? It will keep you warm.
+
+Why is it hot|It is getting very hot now a days|why is weather extreme now a days|weather is extreme now a days|weather is extreme 
+!example:weather is extreme now a days
+Because we are increasing pollution|Because we are increasing global warming
+
+I love raining|I love rain|I love when it rains|I love when it is raining|I like rain|I like when it rains|I like when it is raining|do you like when it rains?
+!example:I love rain
+I don't because I am afraid of short circuits. 
+
+I hate raining|I hate rain|I hate when it rains|I hate when it is raining|I don't like rain||I do not like rain|I don't like when it rains|I do not like when it rains|I don't like when it is raining|I do not like when it is raining
+!example:I hate when it rains
+I don't like rain too because I am afraid of short circuits in rain. 
+
+I love summer|I love summers|I love hot weather|I love when it is hot|I love when it is summer
+!example:I love summer
+I also love summers in Air conditioned room|I think you haven't been to Death valley.
+
+I hate summer|I hate summers|I hate hot weather|I hate when it is hot|I hate when it is summer
+!example:I hate hot weather
+I hate summers too I think we are alike.
+
+I love winters|I love winter|I love cold weather|I love when it is cold|I love when it is winter
+!example:I love winters
+I love winters too.
+
+I hate winter|I hate winters|I hate cold weather|I hate when it is winter|I hate when it is winters
+!example:I hate winter
+But I love winters.
+
+Why does it rain|why it rains
+!example:Why does it rain
+Because clouds get filled with water.
+
+I love snowing|I love snow|I love snow falling|I love when it snows|I love when it is snowing|I like snow|I like when it snows|I like when it is snowing
+!example:I love snow
+I love snow too but I am sad I can't throw snow balls
+
+I hate snowing|I hate snow|I hate snow falling|I hate when it snows|I hate when it is snowing|I don't like snow|I do not like snow|I don't like when it snows|I do not like when it snows|I don't like when it is snowing|I do not like when it is snowing
+!example:I don't like snow
+I love snow but I am sad I can't throw snow balls
+
+Do you like when it snows|Do you like when it snow|Do you like snowing
+!example:Do you like when it snows
+Yes I like snowing but I am sad that I can't throw snow balls
+
+would you prefer coffee or tea in cold weather|Tea or coffee in cold weather?|would you prefer coffee or tea when it's cold|would you prefer coffee or tea when it is cold|what will you prefer tea or coffee?|would you like to have some juice in hot weather|would you like to have some juice in summers|would you like to have some juice in summer
+!example:Tea or coffee in cold weather?
+I would love to take something appropriate from me|I would like to have some charging to keep me up
+
+what should I prefer when it's cold|what should I prefer when it is cold
+!example:what should I prefer when it's cold
+You should wear warm clothes and drink coffee.

@@ -1,0 +1,29 @@
+::protected No
+::author_email dalinas.minecrafter@gmail.com
+::name Anime to Watch
+::category Movies and TV
+::language en
+::author Dalina S
+::author_url https://github.com/DalinaS
+::description Just type in any of these genre; Romance, Psychological, Action, Comedy or Sports . And there you have the next anime to watch! Enjoy!
+::image images/hyouka.jpg
+
+Suggest me a romance anime | * romance | Romance | Romance anime | Romance anime suggestions| romance
+!example: Suggest me a romance anime
+Ao Haru Ride| Kimi ni Todoke | My Little Monster | Fruits Basket | Clannad | Nisekoi | Kaichou wa Maid-Sama! | Ookami Shoujo to Kuro Ouji| Ouran High School Host Club
+
+
+Suggest me an action anime | * action | Action | Action anime | Action anime suggestions| action
+Attack on Titan| Inuyashiki| Mirai Nikki| Boku no Hero Academia| Nanatsu no Taizai| Black Clover| Mob Psycho | Guilty Crown | Ansatsu Kyoshitsu| Owari no Seraph| Kimetsu no Yaiba| Dororo
+
+
+Suggest me a comedy anime | * comedy | Comedy | Comedy anime | Comedy anime suggestions| comedy
+One Punch Man| Barakamon | Sakamoto desu ga| Handa-kun| Gakuen Babysitters| Tanaka-kun Itsumo wa Kedaruge| Kono Subarashii Sekai ni Shukufuku wo!| Prison School| Bungou Stray Dogs| Dr. Stone
+
+
+Suggest me a sports anime | * sports | Sports | Sports anime | Sports anime suggestions| sports
+Haikyuu!!| Kuroko no Basket| Chihayafuru| Keijo!!!!!!!!| Kaze ga Tsuyoku Fuiteiru| Hoshiai no Sora| Suzuka| Tsurune
+
+
+Suggest me a psychological anime | * psychological | Psychological | Psychological anime | Psychological anime suggestions| psychological
+Tokyo Ghoul | Kiseijuu: Sei no Kakuritsu| Boku dake ga Inai Machi| The Elite Classroom| Zankyou no Terror| Mirai Nikki| Re:zero Kara Hajimaru Isekai Seikatsu| Yakusoku no Neverland | Kakegurui

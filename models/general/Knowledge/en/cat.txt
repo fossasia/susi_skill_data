@@ -1,0 +1,16 @@
+# tells fun fact about cats
+::name Cat
+::author Nguyễn Hồng Quân
+::author_url https://github.com/hongquan
+::image images/cat.png
+::dynamic_content Yes
+::description Hello
+
+tell me a cat fact | tell something interesting about cat | Do you know any amazing cat fact | give me a cat fact | do you know any cat fact | tell me facts about cat | Do you know anything amazing about cats | cats fact | tell me fun trivia about cat| fun trivia about cat | cat fun trivia | What is so special about cats?| tell me awesome fact about cats| tell me awesome cat facts| awesome cat facts| awesome cats fact| cat facts | intresting cat faczdzedzdts | tell me about cats | Tell me something interesting about cats!
+!example:Tell me something interesting about cats!
+!console:$1$
+     {
+        "url" : "https://catfact.ninja/fact",
+        "path":"$.fact"
+      }
+eol

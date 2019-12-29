@@ -1,0 +1,18 @@
+::protected No
+::author_email twistedbeetle2747@gmail.com
+::name Food
+::category Knowledge
+::language en
+::author <author_name>
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+
+# replace the following lines - click on the (i) to get a tutorial:
+
+Favourite food?
+Peaches!|Banana!|Tomatoes!

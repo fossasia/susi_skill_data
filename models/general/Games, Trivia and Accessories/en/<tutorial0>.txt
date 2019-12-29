@@ -1,0 +1,17 @@
+::protected No
+::author_email marvin.m.mellado@gmail.com
+::name <tutorial0>
+::author <name of author>
+::author_url <author_url>
+::description <description>
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image <https://static.posters.cz/image/750/poster/whatever-i15598.jpg>
+::term_of_use <link>
+
+
+# SUSI Skill tutorial playground
+::prior
+roses are red
+SUSI is a hack
+skynet is back

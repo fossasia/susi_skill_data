@@ -1,0 +1,21 @@
+::protected No
+::author_email jula.albert@yahoo.de
+::name Test Skill
+::category Lifestyle
+::language en
+::author <author_name>
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+
+test please work
+!javascript:$!$ from susi
+let xhr = new XMLHttpRequest();
+var url = 'http://192.168.178.29/rest/items/red';
+xhr.open(POST, url, true);
+xhr.send("ON");
+eol

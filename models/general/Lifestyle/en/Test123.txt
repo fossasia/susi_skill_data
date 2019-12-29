@@ -1,0 +1,23 @@
+::protected No
+::author_email jula.albert@yahoo.de
+::name Test123
+::category Lifestyle
+::language en
+::author <author_name>
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+
+# replace the following lines - click on the (i) to get a tutorial:
+
+Test localhost
+!console:$!$
+{
+    "url":"http://127.0.0.1:8080/",
+    "path":"$.text"    
+}
+eol

@@ -1,0 +1,18 @@
+::protected No
+::author_email antonyalex546@gmail.com
+::name How do you do Susi
+::category Knowledge
+::language en
+::author <author_name>
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+
+# replace the following lines - click on the (i) to get a tutorial:
+
+How do you do Susi?
+I am doing very well|Thank you for asking.I am fine|I am fine,Thank you

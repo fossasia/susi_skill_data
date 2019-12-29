@@ -1,0 +1,19 @@
+::protected No
+::author_email scbutters@gmail.com
+::name Cocktail recommender
+::category Food and Drink
+::language en
+::author <author_name>
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+
+//replace the following lines:
+what should I add to
+!example:<The question that should be shown in public skill displays>
+!expect:<The answer expected for the above example>
+add whiskey to 
