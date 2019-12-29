@@ -15,6 +15,6 @@
 # replace the following lines - click on the (i) to get a tutorial:
 
 Who is the captain of indian cricket team?|what is the name of the captain of the indian cricket team?
-!example:<The question that should be shown in public skill displays>
-!expect:<The answer expected for the above example>
+!example:Who is the captain of indian cricket team?
+!expect:Virat Kohli
 Virat Kohli
