@@ -1,0 +1,31 @@
+::protected No
+::author_email alexl.id.at@gmail.com
+::name Search Wikipedia
+::category Knowledge
+::language en
+::author alexl.id.at@gmail.com
+::author_url <author_url>
+::description Get an overview of a Wikipedia article by asking ,,wiki about *''. 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+
+wiki detail about *
+!console:$snippet$
+!example:wiki detail about germany
+{
+  "url":"https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=$1$&format=json",
+  "path":"$.query.search.[0]"
+}
+eol
+
+wiki about *
+!console:$extract$
+!example:wiki about Germany
+{
+  "url":"https://en.wikipedia.org/w/api.php?format=json&formatversion=2&action=query&prop=extracts&exintro&explaintext&redirects=1&titles=$1$",
+  "path":"$.query.pages.[0]"
+}
+eol
