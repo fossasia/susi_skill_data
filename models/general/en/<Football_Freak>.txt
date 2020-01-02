@@ -1,0 +1,20 @@
+::protected No
+::author_email ashwin07kaurav@gmail.com
+::name <Football Freak>
+::Sports
+::language en
+::author <Ashwin Kaurav>
+::author_url <author_url>
+::description <A bot to provide latest news and information on football> 
+::dynamic_content <Yes>
+::developer_privacy_policy <link>
+::image images/<https://www.google.com/imgres?imgurl=https%3A%2F%2Fa.espncdn.com%2Fcombiner%2Fi%3Fimg%3D%2Fredesign%2Fassets%2Fimg%2Ficons%2FESPN-icon-soccer.png%26w%3D288%26h%3D288%26transparent%3Dtrue&imgrefurl=https%3A%2F%2Fwww.espn.in%2Ffootball%2F&docid=nHrgD-wjDJidzM&tbnid=H1g8B8yyv7ZRWM%3A&vet=10ahUKEwjkmc-4kOXmAhUN9nMBHQb4A4AQMwh6KAEwAQ..i&w=288&h=288&bih=722&biw=1536&q=football&ved=0ahUKEwjkmc-4kOXmAhUN9nMBHQb4A4AQMwh6KAEwAQ&iact=mrc&uact=8>
+::terms_of_use <link>
+
+
+# replace the following lines - click on the (i) to get a tutorial:
+
+query1|query2|query3...
+!example:<Which is the best team right now>
+!expect:<Not Manchester United for sure>
+Answer for the user query
