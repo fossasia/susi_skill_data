@@ -1,0 +1,36 @@
+::protected No
+::author_email lee.yuchen.xavier@dhs.sg
+::name your face
+::category Novelty and Humour
+::language en
+::author <author_name>
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+
+# replace the following lines - click on the (i) to get a tutorial:
+
+what is your name?
+your face
+
+who are you?
+your face
+
+what time is it now?
+your face
+
+i hate you
+your face hates you
+
+tell me a joke
+your face is a joke
+
+load coffee by jack stauber
+https://www.youtube.com/watch?v=09bAUwzODfI
+
+what is your favourite food?
+chickenchickenchickenchickenchickenchickenchickenchickenchickenchickenchickenchicken
