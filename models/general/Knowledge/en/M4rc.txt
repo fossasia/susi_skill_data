@@ -29,3 +29,8 @@ My favorite YouTube channel is *
 Who is your favorite YouTuber? 
 My favorite YouTuber is also $_someYouTubeChannel$!
 
+compute * times *
+!javascript:$1$*$2$=$!$
+math.multiply($1$, $2$)
+eol
+
