@@ -11,11 +11,6 @@
 ::image images/<image_name>
 ::terms_of_use <link>
 
-#Wish
-Hey|Hi|Hello!|Hello|Bonjour|Guten Morgan|Good morning|Good Evening
-Hello! How can I help you?|Hey!
-
-
 * * joke|Refresh *|* Entertainment|*Entertain|* funny|Entertain *|
 Sure! Here's one for you.\
 Why do we tell actors to “break a leg?”\
@@ -29,7 +24,6 @@ He just needed a little space.:)|Here..\
 Why don’t scientists trust atoms?\
 Because they make up everything.|
 
-
 * riddle|riddle|riddle *|ask * * riddle|
 What can travel around the world while staying in a corner?\
 The answer is “A Stamp”|Who makes it, has no need of it.\
@@ -39,20 +33,3 @@ What is it? ..I bet you wouldn't have guessed it correctly --Its a coffin.|Durin
 which month do people sleep the least?\
 Dont stress much- its February :)|What is made of water but if you put it into water it\
 will die? Its an ice cube!
-
-#UNDER TRIAL
-heyyy
-!console:$text$
-!example:Random Fun!
-{
-    "url":"https://api.chucknorris.io/jokes/random?escape=json",
-    "path":"value"    
-        
-                    
-}
-eol
-
-
-
-
-
