@@ -5,25 +5,25 @@
 ::language en
 ::author alexl.id.at@gmail.com
 ::author_url <author_url>
-::description Get an overview of a Wikipedia article by asking ,,wiki about *''. 
+::description Get an overview of a Wikipedia article by asking SUSI Tell me something about india/germany/... - The first skill (overview) should work on nearly all queries, but the second (details) does only work on wiki queries, where there is a definate response. 
 ::dynamic_content <Yes/No>
 ::developer_privacy_policy <link>
 ::image images/<image_name>
 ::terms_of_use <link>
 
 
-wiki detail about *
+wiki about * | Tell me something about * | Tell me about * 
 !console:$snippet$
-!example:wiki detail about germany
+!example:Tell me something about india
 {
   "url":"https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=$1$&format=json",
   "path":"$.query.search.[0]"
 }
 eol
 
-wiki about *
+wiki detail about * | Tell me the details of * | What do you know about *
 !console:$extract$
-!example:wiki about Germany
+!example:What do you know about germany
 {
   "url":"https://en.wikipedia.org/w/api.php?format=json&formatversion=2&action=query&prop=extracts&exintro&explaintext&redirects=1&titles=$1$",
   "path":"$.query.pages.[0]"
