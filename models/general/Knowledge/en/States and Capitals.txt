@@ -3,7 +3,7 @@
 ::name States and Capitals
 ::category Knowledge
 ::language en
-::author <author_name>
+::author TheDoctor025
 ::author_url <author_url>
 ::description <description> 
 ::dynamic_content <Yes/No>
