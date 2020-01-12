@@ -12,12 +12,6 @@
 ::terms_of_use <link>
 
 
-# replace the following lines - click on the (i) to get a tutorial:
-
-Hi | Hey
-!example:HI
-!expect:Hi! My name is SUSI.How can SUSI help you?
-
 SUSI
 !example:SUSI
 !expect:Social Universe Super Intelligence (SUSI) at your service.
