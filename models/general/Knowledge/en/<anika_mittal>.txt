@@ -1,16 +1,22 @@
 ::protected No
 ::author_email zedongsaw@gmail.com
-::name <bot_name>
+::name <anika_mittal>
 ::category Knowledge
 ::language en
 ::author <author_name>
 ::author_url <author_url>
-::description <description> 
+::description <I am so happy!
+Good for you!^excited^>_mood
+
+I am bored.
+Make something!^inactive^>_mood
+
+How do I feel?
+You are $_mood$> 
 ::dynamic_content No
 ::developer_privacy_policy <link>
 ::image images/<image_name>
 ::terms_of_use <link>
 
 
-# replace the following lines - click on the (i) to get a tutorial:
 
