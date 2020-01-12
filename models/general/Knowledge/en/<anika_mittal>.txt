@@ -13,7 +13,14 @@ Make something!^inactive^>_mood
 
 How do I feel?
 You are $_mood$> 
-::dynamic_content No
+::dynamic_content I am so happy!
+Good for you!^excited^>_mood
+
+I am bored.
+Make something!^inactive^>_mood
+
+How do I feel?
+You are $_mood$
 ::developer_privacy_policy <link>
 ::image images/<image_name>
 ::terms_of_use <link>
