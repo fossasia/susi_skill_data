@@ -1,0 +1,24 @@
+::protected No
+::author_email junqi0721@gmail.com
+::name Lol
+::category Knowledge
+::language en
+::author <author_name>
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+
+# replace the following lines - click on the (i) to get a tutorial:
+
+query1|query2|query3...
+!example:<Hi>
+!expect:<How can SUSI help you?>
+Answer for the user query
+!example:<Create a Gif>
+!expect:<Pictures needed!>
+
+
