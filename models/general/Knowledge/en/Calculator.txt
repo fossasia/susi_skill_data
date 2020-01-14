@@ -1,9 +1,9 @@
 ::protected No
 ::author_email inukasanudayab@gmail.com
-::name calculator
+::name Calculator
 ::category Knowledge
 ::language en
-::author Inuka
+::author Inuka_SB
 ::author_url <author_url>
 ::description A skill that does basic math
 ::dynamic_content <yes/no>
