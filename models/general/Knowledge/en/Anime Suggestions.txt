@@ -1,0 +1,17 @@
+::protected No
+::author_email 29hj29@gmail.com
+::protected No
+::author_email anshu.av97@gmail.com
+::name Anime Suggestions
+::category Knowledge
+::language en
+::author Anshuman
+::author_url https://github.com/anshumanv
+::description A skill which will suggest your next anime!
+::dynamic_content No
+::image images/anime.png
+
+
+Suggest an anime| Suggest me an anime| SUSI suggest anime| SUSI suggest me an anime| Recommend anime| Give anime recommendations| Give anime suggestions
+!example:Suggest an anime
+Boku no Hero Academia| One piece| Naruto Shippuden| Fairy Tail| Haikyuu!| Kuroko no Basuke| Nanatsu no Taizai| Shokugeki no Souma| Shigatsu wa Kimi no Uso | Dragon Ball Z

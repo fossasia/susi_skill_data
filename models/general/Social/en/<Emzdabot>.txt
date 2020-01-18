@@ -1,0 +1,30 @@
+::protected No
+::author_email tohenxia@gmail.com
+::name <Emzdabot>
+::category Social
+::language en
+::author <enxian>
+::author_url <author_url>
+::description <i am a gci student creating a susiai bot> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+
+What fruit do you like to eat?
+I like grapes|I like apples|I like oranges
+
+May I *?
+Yes you may!
+
+What should I buy?
+What do you like?
+
+I like *
+Then you should buy $1$
+
+_bubbleteabrand = koi
+
+What brand of bubble tea should I buy?
+I recommend you to buy $2$>_bubbleteabrand

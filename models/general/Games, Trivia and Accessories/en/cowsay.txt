@@ -1,0 +1,21 @@
+::protected No
+::author_email clara.sutera@tmail.link
+::name cowsay
+::category Games, Trivia and Accessories
+::language en
+::author cow
+::author_url http://cowsay.morecode.org/
+::description cowsay
+::dynamic_content Yes
+::developer_privacy_policy http://cowsay.morecode.org/
+::image images/heavy-mallet.gif
+::terms_of_use http://cowsay.morecode.org/
+
+cowsay *
+!example:cowsay I am a cow
+!console:$!$
+{
+    "url": "http://cowsay.morecode.org/say?message=$1$&format=json",
+    "path": "$.cow"
+}
+eol

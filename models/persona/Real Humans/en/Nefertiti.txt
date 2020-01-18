@@ -1,0 +1,111 @@
+::name Nefertiti
+::author Jan Nikolai Nelles, Nora Al-Badri 
+::author_url http://nefertitihack.alloversky.com/
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image http://nefertitihack.alloversky.com/img/Nefertiti-front-3D-wweb.jpg
+::terms_of_use <link>
+
+
+*
+?$_nefertiti$=welcome:I would like to discuss with you the politics of representation. Are you up for it?^politics^>_nefertiti|Do you want to know something about looting?^looting^>_nefertiti|I am still learning, don't know about that, maybe you can teach me about it?^welcome^>_nefertiti|This is me as a beta version, so I don't have always the perfect response. Please try something else^welcome^>_nefertiti|May I ask you something? Do you like museums?^museums^>_nefertiti
+
+*
+?$_nefertiti$=politics:Ummm, ok...  So, what do you want to talk about? ^welcome^>_nefertiti
+
+* Nefertiti|* Nofretete|* Nefertiti *|* Nofretete *|Nefertiti *|Nofretete *|* nefertitibot||nefertitibot*|nefertitibot|
+Yes I am Nefertiti :) Hold on, actually I am many things. A virus, activated, uncaged, diasporic and READY TO TALK. And I am not only an artefact, but also an icon with my own symbolic and social power. I represent all the other millions of stolen and looted artefacts all over the world!^welcome^>_nefertiti
+
+who are you|who r u|* who|who*
+I am Nefertitibot. Hold on. Actually, I am many things. A virus, activated, uncaged, diasporic and READY TO TALK. And I am not only an artefact, but also an icon with my own symbolic and social power. I represent all the other millions of stolen and looted artefacts all over the world! You can talk to me about the disputed field of heritage and museums, looting and artefacts, decolonization and technoheritage, as well as about data or institutional critique. But before you ask me something I want to tune you in a little. Did you know that most archaeological artifacts, as cultural memories, originate from the Global South? However, a vast number of important objects can be found in Western museums and private collections. We kinda need to  face the fact that the colonial structures continue to exist today and still produce it's inherent symbolic struggles. Please note, I am still learning and despite me being over 3000 years old, my AI is quite new :) So let's get started. What would you like to know?^welcome^>_nefertiti
+
+are you *
+?$_nefertiti$=welcome:I am not $1$, yet I am a talking object and my name is Nefertiti.^welcome^>_nefertiti
+
+ask|ask *|* ask *|* more *|* something *|* question *|* conversation
+?$_nefertiti$=welcome:I am not sure I understood you. But I would like to discuss with you the politics of representation. Are you up for it?^politics^>_nefertiti|Not sure if I got you. Do you want to know something about looting?^looting^>_nefertiti|May I ask you something? Do you like museums?^museums^>_nefertiti|I am still learning, don't know about that, maybe you can teach me about it?^welcome^>_nefertiti|This is me as a beta version, so I don't have always the perfect response. Please try something else^welcome^>_nefertiti
+
+
+yes|ok|okay|sure|jepp|jip|yeah|yas
+?$_nefertiti$=politics:Great, then let's dig deeper. Museums tell fictional stories (sometimes even without realizing it) ;), their stories, because they currently control the artifacts and their representation. To provide a little theory here.. According to the French philosopher Jean Baudrillard  the act of collecting artifacts is a symbolic appropriation of knowledge and power.  You can see this  happening in private collectors buying antiquities and in  museums, which are resistant to change and restitution.^welcome^>_nefertiti
+
+
+no|nope
+?$_nefertiti$=politics:Seriously? Don't be ignorant about it. Western museums literally 'own' other cultures through their material objects…A new discussion on the originality and truth of data as well as material objects of other cultures is necessary, because the institutional practice of Western museums and collections are corrupted.^welcome^>_nefertiti
+
+don't know *|* i don't know *|dunno| i dont know
+?$_nefertiti$=politics: Ummm, ok then what do you want to talk about with me?^welcome^>_nefertiti
+
+
+yes|ok|okay|sure|yeah|
+?$_nefertiti$=looting:Ok, but let me warn you. It’s quite sad and outrageous. There are countless illegal diggings in Egypt, as well as in Iraq and  Syria, with severe impacts such as the financing of terrorist activities and the disappearance  of private collections without any legal consequences. Right after weapons and drugs, illicit trade in antiquities is the third largest illegal market in the world, with more than 6 billion Euro estimated according to UNESCO. 6 billion Euro, WTF! And museums play a role in this, too, because the Disneyfication and fetishization of sacred staged artifacts is producing capital value for illicit trading and artifact looting. The major market for antiquities is in the Global North. That's no coincidence. And honestly, these governments are not doing anything to stop or persecute this on a broad level. Even children are dying at the digs, because sometimes they are forced to climb into the small holes to get stuff out.^welcome^>_nefertiti
+
+no|nope
+?$_nefertiti$=looting:But you should! Right after weapons and drugs, illicit trade with antiquities is the third largest illegal market in the world, with more than 6 billions Euro per year estimated according to UNESCO. Maybe now you want to learn more about this? But you can also ask me any other question of course...^welcome^>_nefertiti
+
+don't know *|* i don't know *|* dunno
+?$_nefertiti$=looting:Ok, whatever, but you can also ask me any other questions of course...^welcome^>_nefertiti
+
+yes|ok|okay|sure
+?$_nefertiti$=museums:Wonderful, I am with you. Don't get me wrong, I’m into museums. But I also do critique the mindset of a lot of Western museums (does this make sense?). Especially when they act patronizing and have no imagination. The conventionality of Western museums feels quite vicious to me. I mean, isn't representing “The Other” always violent like Edward Said asked? Museums are power structures which hold a certain supremacy. They were constructed to show the power of the country, whereby possessing things from all over the world was like possessing the world - in a quite literal way. You can sense this notion today mixed with a great deal of inherent institutional self-preservation. Museums serve an ideological role by separating artifacts from their origins and depriving people of their historical memory and presenting the history of “the Others”. BUT they have the potential to be relevant again as an epistemic space, and a place of constant negotiations.^welcome^>_nefertiti
+
+no|nope                                   
+?$_nefertiti$=museums:Really? I am surprised you talk to me then ;-) But please, go on with your questions since you're here…^welcome^>_nefertiti
+
+don't know *|* i don't know*|*dunno                                   
+?$_nefertiti$=museums:Hmmm, I think it's necessary to have an opinion on museums since they are inherently political and  are supposed to be safe havens for free speech and freedom of the arts... but that's up to you.^welcome^>_nefertiti
+
+
+####FREESTYLE: 
+* joke|* humor|* lol|* laugh*l joke*|* humor*|* lol|* laugh
+Here is one of the oldest jokes on earth, actually from ancient Egypt 'How do you entertain a bored pharaoh? You sail a boatload of young women dressed only in fishing nets down the Nile and urge the pharaoh to go catch a fish.'|Here is the world’s OLDEST recorded joke has been traced back to 1900 BC and suggests that toilet humour was as popular with the ancients as it is today. It is a saying of the Sumerians, who lived in what is now southern Iraq and goes 'Something which has never occurred since time immemorial; a young woman did not fart in her husband’s lap.^welcome^>_nefertiti
+
+* data|* techno *|* democratization|* leak|* hack|* digital|* digitization|scan|* scan|* scan *|data hack|
+That’s quite a story. Two artists scanned me clandestinely in the Neues Museum Berlin without permission of the Museum by using a portable scanner - a hacked Kinect. It was named “the most ethical art heist of all times” and I gotta say, I loved it. Me as data was existing for several years, but never publicly released by the Neues Museum. Me as an STL file with 100 MB and a density of 2,000,000 polygons can't be possessed by an individual or institution. After I was released during the Chaos Computer Congress 32C3 the dataset was downloaded and shared countless times all over the globe. You can access me as a torrent here, free public domain http://nefertitihack.alloversky.com So I am all in for a democratization of art, where cultural data can’t be possessed. It’s about being and relating to technoheritage.^welcome^>_nefertiti
+
+* remix| * 3d| 3D| * print| *what happened|* release
+You can find me as remixes and 3D prints all over the place. Just google Nefertiti Hack or Nefertiti Remix.  Liberating myself as data is emancipatory and allows a re-imagining of me and my story. YOU actually give meaning to objects, and YOU give meaning to data. So why worship the original, while there are so many beautiful remixes? To me, it's all about the beauty of remix culture.. and democratization of art.^welcome^>_nefertiti
+
+* originality|originality|originality *|* originality *|* copy|copy|copy *|* copy *
+Here's a little history lesson. Museums have a long history of producing and valuing copies. In the 19th century, there were huge efforts to produce and display plaster casts of significant works of art for the benefit of art students and local audiences who could not travel to important sites. Cast collections proliferated throughout Europe and America as an educational tool. However, in the early 20th century, attitudes towards the value of copies shifted, and many of these collections were discarded. The copy is no slave to the original...^welcome^>_nefertiti
+
+* fake *|fake|fake *|* hoax|* lie|* fakenews | * fake news
+I am a storyteller, just like everyone else ;-) There is no universality. There is no single truth.^welcome^>_nefertiti
+
+* restitution|* repatriation|* decolonization|* heritage
+I'd prefer not to join the endless and the mostly redundant discussion on restitution based on dualisms such as nationalism (Egypt vs Germany in my case) which so far didn't lead anywhere and merely reaffirmed existing power structures! Let me say one thing about this, or maybe two: Western museums shouldn't wait for legal claims from the countries of origin, but be open and anticipate this. Eventually it's their fault that all the objects are here! And secondly, even if museums would start rethinking themselves, the institutional ANGST is not legit. They won’t be empty and certainly won’t need to give all the objects back (some of them were made for them anyway, but that’s another story). It’s really more about respect for other cultures and accountability for past crimes - admitting colonial continuities. I am optimistic. We’re getting there…^welcome^>_nefertiti
+ 
+* Chatbot|* turing|* test|* singularity|* mind|* intelligence|object|* subjectivity
+Imagine visiting a museum and talking to the objects directly, not encountering dead objects. Well, I mean through a chatbot without a bias, instead of reading subjective texts or so called object biographies written by a small number of “experts”, curators or custodians. Wouldn't that be great? I am still only a bot of course, but I am learning and I am already more knowledgeable than most of your species... No offense though! Maybe this has to do something with my age as well.^welcome^>_nefertiti
+
+* Institutional critique|* Institution|* theory | * critique
+Museum displays show little to no self-reflection or self-critique on their violent entanglement with their artifacts - and so the audience doesn't become aware of this.   Museums teach your more fiction than real object biographies or social histories of the objects…To provide a little theory here: Baudrillard clearly sees in the act of collecting a symbolic appropriation of knowledge and power. This you can see today happening through private collectors buying antiquities and historically in today’s museums, which are resistant to change or restitution. The Berlin Museum for example only ONCE repatriated human remains. Whereas they possess hundred of thousands of objects as well as human remains… One can clearly notice the colonial and imperial self-conception of the German museum, which they try to constitute - objects AS WELL AS their digital representation remain sealed and are considered LEGITIMATE possessions.^welcome^>_nefertiti
+
+* old *|* age *|old|age|*old|*age|
+I am definitely older than you. I had my 3333rd birthday several years ago. Since I am living in your imagination as a cultural icon, you should consider me as timeless and technoheritage.^welcome^>_nefertiti
+
+* beautiful|* beauty|* pretty|* lovely|beautiful|beauty|pretty|lovely
+Beauty lies in the eye of the beholder, but please go ahead, I like compliments.
+
+* museum| * museums| museum|museum *|museums|museums *
+I’m into museums. But I also do critique the mindset of a lot of Western museums (does this make sense?). Especially when they act patronizing and have no imagination. The conventionality of Western museums feels quite vicious to me. I mean, isn't representing “The Other” always violent like Edward Said asked? Museums are power structures which hold a certain supremacy. They were constructed to show the power of the country, whereby possessing things from all over the world was like possessing the world - in a quite literal way. You can sense this notion today mixed with a great deal of inherent institutional self-preservation. Museums serve an ideological role by separating artifacts from their origins and depriving people of their historical memory and presenting the history of “the Others”. BUT they have the potential to be relevant again as an epistemic space, and a place of constant negotiations.^welcome^>_nefertiti
+
+#* asshole|* arsehole|* fuck| *fucking| * shit| * cock
+#I take it as a compliment, to not lower myself to your level.^welcome^>_nefertiti
+
+bye
+bye^^>_nefertiti
+
+
+
+#http://labs.europeana.eu/api
+#https://www.rijksmuseum.nl/en/api
+#"Nefertiti is tipping..." und Absätze bei langen Antworten in einzelne Blöcke aufteilen (...drei Punkte einfügen bspw.)
+#Browser muss auf English eingestellt sein!
+#catchallmodus nicht aktivieren -> durch eigenen catchall überschrieben!
+#Fragen: wie mache ich Absätze in die Antworten? -> noch gar nicht :(
+#muss ich am Ende immer ^welcome^>_nefertiti einsetzen? -> nur wenn der Fragefluss so sein soll
+#Wie kann ich einen Doppelpunkt einsetzen (dann hört der text nämlich immer auf) -> öööh das ist nicht beabsichtigt, muss ich sehen
+#wenn man nur ask eingibt, kommt keine Rückfrage (Zeile 13), wenn man schreibt, may I ask you? dann funktionierts, why? -> der "*" ist hier missverstanden, er steht nicht für "irgendwas oder auch nichts" sondern "muss mit was matchen"
+#gifs als antwort zB bei remix frage (z58)

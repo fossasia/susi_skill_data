@@ -1,0 +1,106 @@
+::protected No
+::author_email schildberg@scoid.de
+::protected No
+::author_email schildberg@scoid.de
+::name date calculations offline
+::category Productivity
+::language en
+::author agricola
+::author_url <author_url>
+::description offline date calculations without external server/ api
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/Разнообразие_семян_small.jpg
+::terms_of_use public domain
+
+
+!----------------- questions to different date formats ------
+
+give the date of today|give the date of today in European format| give the date of today according to DIN 1355-1|What's the date?|What is the date|What date is it|Which date is it|What is the current date
+!example:give the date of today
+!expect:The date of today is 28.05.2019
+!javascript:$!$
+var today = new Date();
+print("The date of today is "+today.getDate()+"."+today.getMonth()+"."+(today.getYear()+1900));
+eol
+
+give the date of today as US format|give the date of today in US format|give the date of today in the US
+!example:give the date of today in US format
+!expect:The date of today is 28.05.2019
+!javascript:$!$
+var today = new Date();
+print("The date of today is "+today.getMonth()+"."+today.getDate()+"."+(today.getYear()+1900));
+eol
+
+give the date of today according to ISO 8601|give the date of today in ISO 8601 format|give the date with the internationaler Standard
+!example:give the date of today according to ISO 8601
+!expect:The date of today is 28.05.2019
+!javascript:$!$
+var today = new Date();
+print("The date of today is "+(today.getYear()+1900)+"."+today.getMonth()+"."+today.getDate());
+eol
+
+What day do we just have in the month?|What's the day in the month?|What day in the month is it|Which day in the month is it|What's the day of the month?|What day of the month is it|Which day of the month is it
+!example:What's the date?
+!expect:It is the 2th of this month
+!javascript:$!$
+var today = new Date();
+print("It is the "+today.getDate()+"th of this month");
+eol 
+
+give the year|what year we have|in which year we are living|what year it is now|which year do we have|what year we are in|say the year we live in|Tell us the year we live|say the year we live|what year is it|which year is it
+!example:what year we are in
+!expect:It is the year 2019 in the 21st century according to our calendar
+!javascript:$!$
+var today = new Date();
+print("It is "+(today.getYear()+1900)+" in the 21st century according to our calendar");
+eol 
+
+
+give the year in * year|what year we have in * years|in which year we are living in * years|what year will be in * years|which year do we have in * years|what year we are in * years|say the year we live in * years|Tell us the year we live in * years|say the year we live in * years|what year is it in * years|which year is it in * years
+!example:what year we are in 5 years
+!expect:It is the year 2019 in the 21st century according to our calendar
+!javascript:$!$
+var today = new Date();
+print("It will be the year "+(today.getYear()+1900+$1$));
+eol  
+
+give the year * years ago|what year we had * years ago|in which year we were living * years ago|what year was * years ago|which year did we have * years ago|what year we were * years ago|say the year we lived * years ago|Tell us the year we lived in * years ago|say the year we lived in * years ago|what year was * years ago|which year was * years ago
+!example:what year was 5 years ago
+!expect:It is the year 2019 in the 21st century according to our calendar
+!javascript:$!$
+var today = new Date();
+print("It was the year "+(today.getYear()+1900-$1$));
+eol 
+
+
+which month we have|which month do we have|what month is it|which month is it
+!example:which month we have
+!expect:6
+!javascript:$!$
+id="demo"
+var today = new Date();
+var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+var indexMonth = today.getMonth();
+var postfix;
+switch (indexMonth) {
+    case 0:
+        postfix="st"
+        break;
+    case 1:
+        postfix="nd"
+        break;   
+    case 0:
+        postfix="rd"
+        break;   
+    default:
+        postfix="th"    
+}
+print("It is "+months[indexMonth]+", the "+(indexMonth+1)+postfix+" month in this year");
+eol 
+
+
+which day is today?|give the date|what date is today|which date is today|give the current date|tell the date|tell the date of today|tell me the date|tell me the date of today|tell me the current date|give me the date of today|which date we have|tell the date|what day we have|which day it is|which day we have|which day is it|what day is it
+!javascript:today is $!$
+Date()
+eol

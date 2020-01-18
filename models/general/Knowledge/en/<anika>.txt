@@ -1,0 +1,19 @@
+::protected No
+::author_email anikamittal2311@gmail.com
+::name <anika>
+::category Knowledge
+::language en
+::author <anika>
+::author_url <author_url>
+::description <enjoy life!!!> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+
+# replace the following lines - click on the (i) to get a tutorial:
+
+query1|query2|query3...
+!example:<nothing is impossible beleive in yourself>
+

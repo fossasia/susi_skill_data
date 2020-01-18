@@ -1,0 +1,34 @@
+::protected No
+::author_email chan.wenyun.valerie@dhs.sg
+::name Foodbot
+::category Food and Drink
+::language en
+::author <author_name>
+::author_url <author_url>
+::description <Hi there, I was sent to this world to give you some information on the local delicacies of Singapore> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+Please help me 
+Hi there, my name is Foodbot, and I was sent to this planet by my master to help you recommend Singapore's food to tourists just like you. You can ask me questions like : What local food does Singapore offer?
+
+What local food does Singapore offer?
+You can find all sorts of local delicacies in Singapore, such as the delectable Bak Kut Teh, the spicy but tantalising Curry Laksa, the well known Hainanese Chicken Rice, and the signature Hokkien Prawn Mee.  In order to fully understand Singapore's culture, you should have a taste of at least one of these dishes. I promise that you wont regret it! If you want, I can tell you my favorite dish too.
+
+What is your favourite dish in Singapore?
+My favourite dish is the popular Chilli Crab. These crabs are stir-fried in a semi-thick, sweat and savory tomato-and-chili-based sauce. However, despite its name, the Chilli crab is actually not that spicy. This dish is usually eaten along with fried mantous(buns), which are dipped in luscious chilli sauce that will make you crave for more. It is listed at number 35 on the World's 50It is listed at number 35 on the World's 50 most delicious foods list compiled by CNN Go in 2011. In order to fully understand Singapore's culture, you should have a taste of at least one of these dishes. There are many seafood restaurants in Singapore, but all of them have different ratings. To try the best Chilli Crab in Singapore, you have to visit a highly rated one. 
+
+Which Chilli Crab restaurant do you recommend?
+I often go to the Jumbo Seafood restaurant which is a huge chain with many restaurants at places all over Singapore, such as the newly opened Jewel shopping mall(located at Changi Airport) and at East Coast Park. The restaurant at East Coast Park is especially big and has a good seaside view so you will be able to devour the tasty Chilli Crab dish while relaxing as the cool and refreshing seabreeze whooshes past your body. The waiters there are also very friendly and their service is extremely fast so you would not need to wait for a long time just for your food to come. They even offer the entire coconut for a low price that compliments the mildly spicy taste of the crab. This is a must-go destinations for all tourists and even the locals visit this place frequently. I personally find that the price there is reasonable so you dont have to worry about them overcharging you for the food. The waiting time varies from time to time. 
+
+How long is the waiting time normally?
+The waiting time varies from half and hour to an hour, which is considered short compared to other seafood restaurants. However, in order to shorten this waiting time, you can make reservations and you will be tended to immediately upon reaching the restaurant. Unfortunately, this is all I have for you. I hope that with my wide variety of information, you will be able to try some of the local delicacies in Singapore. I hope to see you there!
+
+# replace the following lines - click on the (i) to get a tutorial:
+
+query1|query2|query3...
+!example:<The question that should be shown in public skill displays>
+!expect:<The answer expected for the above example>
+Answer for the user query

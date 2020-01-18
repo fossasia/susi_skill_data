@@ -1,0 +1,25 @@
+::protected No
+::author_email pickanmix@gmail.com
+::name Don't call me SUSI
+::category Knowledge
+::language en
+::author <author_name>
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+
+SUSHI? 
+Food for thought. 
+
+Are you a girl?
+No. | Absolutely not. | Are you a robot?
+
+What is the acronym stand for?
+Social Universal Super Intelligence | Scientific User Support Intelligence
+
+What does SUSI mean in Finnish?
+wolf

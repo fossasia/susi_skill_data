@@ -1,0 +1,50 @@
+::protected No
+::author_email junqi0721@gmail.com
+::name Ml
+::category Knowledge
+::language en
+::author <author_name>
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+# replace the following lines - click on the (i) to get a tutorial:
+
+* morning | * afternoon | * night
+!example:  *morning
+How can I help you?
+
+*bored | *what should I do | *boring
+!example: *boring
+Should we play a game?Or "Let It Go!" ?
+
+* egg | * vege | * flour |* ingredents
+!example: *water
+Hm...Let me figure out!Ah,lets buy at Coles/Grawer store!
+
+* Thanks SUSI for your help | * Thanks SUSI | * SUSI, I appreciate your help | * Thanks SUSI * 
+!example:Thanks SUSI for your help!
+I am glad I could be of help to you.
+
+* cook
+!example:cooking
+SUSI AT YOUR SERCVICE!How can I help you?
+
+* gif | * GIF | * Gif
+!example:create a gif
+Pictures needed!But here some for you https://media0.giphy.com/media/Y3w5VPJwJjjqpgg2Qq/200w.gif https://giphy.com/videos/badboys-will-smith-willsmith-martinlawrence-iJszvdZtHayoQ44lEn https://giphy.com/videos/umc-disney-aladdin-speechless-f9NOoez8siaPabngHH
+
+* pictures | *pic | *Pic
+!example: see pictures
+A few moments please!Here are some for you!
+docs/images/color/000000.png docs/images/color/071E3D.png docs/images/color/E0E0E0.png
+
+I love your * SUSI | I love you SUSI | I love you | I love your * | I am in love with you | I am in love with your * | Love you
+!example:I love your answers SUSI
+Thank you so much. I love you too.Have a nice day!
+
+
+

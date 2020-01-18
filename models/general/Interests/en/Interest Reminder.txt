@@ -1,0 +1,32 @@
+::protected No
+::author_email heyankesh@gmail.com
+::name Interest Reminder
+::category Interests
+::language en
+::author Akash Raj
+::author_url https://github.com/aakash85r
+::description It will remember your interests once you will tell him.
+::dynamic_content No
+::developer_privacy_policy 
+::image images/image.jpg
+::terms_of_use 
+
+
+Hello *|Hi *
+Hello
+
+* is my favorite *.
+$1$>_favorite is really a great $2$.
+
+Who is my favorite *?|Which is my favorite *?
+?$_favorite$:Your favorite is $_favorite$.: You have not told me yet.
+
+I like *.
+It's appreciatable. $1$ is really good.
+
+I am felling *.
+I think we should share that.^$1$^>_mood
+
+How am I felling?
+?$_mood$:You are feeling $_mood$.
+

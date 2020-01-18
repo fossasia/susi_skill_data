@@ -1,0 +1,25 @@
+::protected No
+::author_email sol1@uber.space
+::name GEM (Global_Ethics_Module)
+::category Knowledge
+::language de
+::author <author_name>
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+
+# replace the following lines - click on the (i) to get a tutorial:
+
+
+Was ist Ethik
+Das sittliche Verständnis|Skeptizismus als Teilnahme an einem Diskurs|Spezifisch moralisches Handeln hinsichtlich Begründbarkeit und Reflexion|Ethik befasst scih mit dem menschlichen Handeln.|Handlungsempfehlungen|Normen
+
+Wie funktioniert Ethik?
+Sie setzt auf Vernunft und logische Argumente.
+
+Funktioniert Ethik?
+Ethik schult das Gewissen. Sie ist eine praktische Wissenschaft. Als eigene Disziplin geht sie auf Arristoteles (384 v.u.Z - 322 v.u.Z) zurück und wurde seither kontinuierlich verfeinert. Seiner Meinung nach sei menschliche Praxis grundsätzlich einer vernünftigen und theoretisch fundierten Reflexion zugänglich. Ein Ansatz von Jeremy Bentham ist beispielsweise, das Glück der größten Zahl anzustreben. Das bedeutet, eine Handlung ist moralisch richtig, wenn sie der Allgemeinheit (bzw. der größten Zahl) nützt; sie erweist sich als moralisch falsch, wenn sie der Allgemeinheit schadet. Ethik wird von empirischen Wissenschaften in der Regel nicht in Frage gestellt. Sie funktioniert, nicht zuletzt aufgrund unserer Lernfähigkeit, der Fähigkeit zu denken, aufgrund gesprochener und geschriebener Werte und Normen.

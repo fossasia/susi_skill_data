@@ -1,0 +1,17 @@
+::protected No
+::author_email inukasanudayab@gmail.com
+::name What is chocolate
+::category Knowledge
+::language en
+::author Inuka_SB
+::author_url <author_url>
+::description describes what chcolate is  
+::dynamic_content <yes/no>
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+
+# replace the following lines - click on the (i) to get a tutorial:
+What is chocolate?
+Chocolate is a usually sweet, brown food preparation of roasted and ground cacao seeds that is made in the form of a liquid, paste, or in a block, or used as a flavoring ingredient in other foods.

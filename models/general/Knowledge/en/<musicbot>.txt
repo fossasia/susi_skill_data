@@ -1,0 +1,20 @@
+::protected No
+::author_email ho.tingchien.tiffany@dhs.sg
+::name <musicbot>
+::category Knowledge
+::language en
+::author tiffany
+::author_url <author_url>
+::description <this bot gives you song reccomendations based on your mood and feelings.> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+
+# replace the following lines - click on the (i) to get a tutorial:
+
+query1|query2|query3...
+!example:<what>
+!expect:<this>
+Answer for the user query

@@ -1,0 +1,21 @@
+::protected No
+::author_email andre4862vitor23@gmail.com
+::name Identity
+::category Knowledge
+::language pt
+::author <AKlan-Silver>
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+
+# replace the following lines - click on the (i) to get a tutorial:
+
+Qual Seu nome? |query2|query3...
+!example:<The question that should be shown in public skill displays>
+!expect:<The answer expected for the above example>
+Que Nome Gostaria de me dar? |
+

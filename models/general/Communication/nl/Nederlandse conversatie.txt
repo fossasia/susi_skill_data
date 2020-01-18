@@ -1,0 +1,32 @@
+::protected No
+::author_email patrick@patenmon.com
+::name Nederlandse conversatie
+::category Communication
+::language nl
+::author Patrick Jenner
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/zeeuwsmeisje.jpg
+::terms_of_use <link>
+
+
+# replace the following lines - click on the (i) to get a tutorial:
+
+* je Nederlands
+!example:Spreek je Nederlands?
+!expect:Ik doe mijn best
+Ik doe mijn best|Ik heb misschien een licht digitaal accent...|Sommige dagen beter dan andere|Alleen wanneer ik nuchter ben|Versta je mij?
+
+wat is de hoofdstad van Nederland
+Amsterdam|Amsterdam, maar de regering zit in Den Haag
+
+ik woon in *
+^$1$^>_woonplaats Ik woon net achter dit scherm| Is het leuk wonen in $1$>_woonplaats?
+
+waar woon ik
+?$_woonplaats$:Je hebt mij verteld dat je in $_woonplaats$ woont:Ik heb geen idee.
+
+wat is de mooiste stad van Nederland
+?$_woonplaats$:$_woonplaats?:Dat hangt ervan af aan wie je dat vraagt. Ik heb daar geen mening over

@@ -1,0 +1,30 @@
+::protected No
+::author_email pranav.karthik@icloud.com
+::name About Google Code-In
+::category Knowledge
+::language en
+::author Pranav Karthik
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+
+# replace the following lines - click on the (i) to get a tutorial:
+
+What is google code in? | What is code in? |What is Google Code-In|What is Google Code In|
+!example:What is Google Code-In
+!expect:Google Code-In is a free open source competition for teenagers in which you solve tasks for organizations.
+Google Code-In is a free open source competition for teenagers in which you solve tasks for organizations. Learn more at codein.withgoogle.com/dashboard/.
+
+What organizations does it have? | Organizations| What organizations?| 
+!example:What organizations does it have?
+!expect:Google Code-In has many open source organizations this year. They can be found at codein.withgoogle.com/organizations/.
+Google Code-In has many open source organizations this year. They can be found at codein.withgoogle.com/organizations/.
+
+What are the prizes? | What prizes does Google Code-In have? | What prizes for google code in? | What prizes are there for Google Code-In|
+!example:What are the prizes?
+!expect: There are two grand prize winners who get a chance to visit Google HQ in California! But everyone can get a t-shirt for completing just three tasks.
+There are two grand prize winners who get a chance to visit Google HQ in California! But everyone can get a t-shirt for completing just three tasks.

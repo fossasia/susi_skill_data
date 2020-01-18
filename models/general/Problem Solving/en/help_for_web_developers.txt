@@ -1,0 +1,58 @@
+::protected No
+::author_email supunedirisuriya2002@gmail.com
+::name Help for web developers
+::category Problem Solving
+::language en
+::author _supun_tharinda_
+::author_url https://github.com/STEdirisuriya
+::description This skill helps for webdevelopers to learn, solve problems.
+::dynamic_content no
+::developer_privacy_policy <link>
+::image images/HTML.png
+::terms_of_use <link>
+
+* HTML means?|* HTML stands for?|HTML
+HTML stands for HyperText Markup Langauge.
+
+* CSS means?|* CSS stands for?|CSS
+CSS stands for Cascading Style Sheets.
+
+What is the HTML for?|* use of HTML?
+HTML elements are the building blocks of HTML pages. For more details, visit this link: https://www.w3schools.com/html/html_intro.asp
+
+I want to learn HTML
+Here's good reference for you: https://www.w3schools.com/html
+
+* code with HTML?|How to write HTML?
+You can use any text editor. For more details, visit this link: https://www.w3schools.com/html/html_editors.asp
+
+* elements in HTML?|* HTML element *
+Web page that written in the HTML shows what is in the elements. For more details, visit this link: https://www.w3schools.com/html/html_elements.asp
+
+* attributes in HTML?|* HTML attribute *
+Attributes provide additional information about HTML elements. For more details, visit this link: https://www.w3schools.com/html/html_attributes.asp
+
+* headings in HTML?|* H tags *|* Heading tags *
+H tags or Heading tags are used to show headings in your web page. For more details, visit this link: https://www.w3schools.com/html/html_headings.asp
+
+* paragraphs in HTML?|* P tags *|* Paragraph tags *
+P tags or Paragraphs tags are used to show paragraphs in your web page. For more details, visit this link: https://www.w3schools.com/html/html_paragraphs.asp
+
+* image in HTML?|* img tags *|* image tags *
+img tags or Image tags are used to show images on your web page. For more details, visit this link: https://www.w3schools.com/html/html_images.asp
+
+* image in HTML?|* img tags *|* image tags *
+img tags or Image tags are used to show images on your web page. For more details, visit this link: https://www.w3schools.com/html/html_images.asp
+
+* comments in HTML?|* html comments *
+HTML comments are used to add texts(reminders, special things) which is not included in website. For more details, visit this link: https://www.w3schools.com/html/html_comments.asp
+
+* connect css to HTML?|* connect css *
+You should use special code to connect css to the html file. visit this link: https://www.w3schools.com/html/html_css.asp
+
+
+
+
+
+
+

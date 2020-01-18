@@ -1,0 +1,35 @@
+::protected Yes
+::author_email vrishinshah@hotmail.com
+::name Entertainment
+::category Novelty and Humour
+::language en
+::author PicantaData
+::author_url <author_url>
+::description:- this will refresh you
+::dynamic_content Yes
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+* * joke|Refresh *|* Entertainment|*Entertain|* funny|Entertain *|
+Sure! Here's one for you.\
+Why do we tell actors to “break a leg?”\
+Because every play has a cast.|Upcoming! \
+Hear about the new restaurant called Karma?\
+There’s no menu: You get what you deserve :O|Yeah! \
+Did you hear about the actor who fell through the floorboards?\
+He was just going through a stage.|There you go..\
+Did you hear about the claustrophobic astronaut?\
+He just needed a little space.:)|Here..\
+Why don’t scientists trust atoms?\
+Because they make up everything.|
+
+* riddle|riddle|riddle *|ask * * riddle|
+What can travel around the world while staying in a corner?\
+The answer is “A Stamp”|Who makes it, has no need of it.\
+Who buys it, has no use for it.\
+Who uses it can neither see nor feel it.\
+What is it? ..I bet you wouldn't have guessed it correctly --Its a coffin.|During\
+which month do people sleep the least?\
+Dont stress much- its February :)|What is made of water but if you put it into water it\
+will die? Its an ice cube!

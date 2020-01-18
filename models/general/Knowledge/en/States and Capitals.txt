@@ -1,0 +1,41 @@
+::protected No
+::author_email drcodein@gmail.com
+::name States and Capitals
+::category Knowledge
+::language en
+::author TheDoctor025
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+
+# replace the following lines - click on the (i) to get a tutorial: 
+Capital of North Carolina
+Raleigh
+
+Capital of South Carolina
+Charleston
+
+Capital of New York
+Albany
+
+Capital of Massachusetts
+Boston
+
+Capital of Vermont
+Montpelier
+
+Capital of Florida
+Tallahassee
+
+Capital of New Hampshire
+Concord
+
+Capital of Delaware
+Dover
+
+Capital of Maryland
+Annapolis

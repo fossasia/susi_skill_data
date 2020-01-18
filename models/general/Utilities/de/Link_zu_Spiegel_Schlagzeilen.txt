@@ -1,0 +1,23 @@
+::protected No
+::author_email nikolaos.christou@yahoo.com
+::protected No
+::author_email nikolaos.christou@yahoo.com
+::name Link_zu_Spiegel_Schlagzeilen
+::category Utilities
+::language de
+::author nchris
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes>
+::developer_privacy_policy <link>
+::image images/Capture.PNG
+::terms_of_use <link>
+
+Link zu Schlagzeilen
+!example: Link zu Schlagzeilen
+!expect: Hier ist der Link https://www.spiegel.de/schlagzeilen/
+Hier ist der Link https://www.spiegel.de/schlagzeilen/
+
+Schlagzeilen
+!example: Schlagzeilen
+Hier ist der Link https://www.spiegel.de/schlagzeilen/

@@ -1,0 +1,17 @@
+::name Time
+::author Saurabh Jain
+::author_url https://github.com/saurabhjn76
+::description A skill to tell current time
+::dynamic_content Yes
+::developer_privacy_policy
+::image images/time.png
+::terms_of_use
+
+current time in * | What time is it in * ?| What time it is in * ?|What is the time in * ?|tell me the time in *| can you tell me the time in *| please tell the time in *| What's the time in *| time in *| Could you tell me the time in *| Could you please tell me the time in *
+!example:current time in london
+!console:In $1$ it is $plaintext$ 
+{
+"url":"https://api.wolframalpha.com/v2/query?input=what+time+is+it+in+$1$&format=plaintext&output=JSON&appid=9WA6XR-26EWTGEVTE",
+"path":"$.queryresult.pods[1].subpods"
+}
+eol

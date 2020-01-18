@@ -1,0 +1,22 @@
+::protected No
+::author_email vedaangh.rungta@gmail.com
+::name  Google Code In Ved
+::category Knowledge
+::language en
+::author <author_name>
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+
+# replace the following lines - click on the (i) to get a tutorial:
+
+query1|query2|query3...
+!example:<The question that should be shown in public skill displays>
+!expect:<The answer expected for the above example>
+Answer for the user query
+What is Google Code In?|what is Google Code In?|What is google Code In?|What is Google code In?|What is Google Code in?|What is google code in?
+Pre-university students ages 13 to 17 are invited to take part in Google Code-in: Our global, online contest introducing teenagers to the world of open source development. With a wide variety of bite-sized tasks, it’s easy for beginners to jump in and get started no matter what skills they have.

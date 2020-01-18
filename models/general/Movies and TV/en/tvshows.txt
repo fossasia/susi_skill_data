@@ -1,0 +1,25 @@
+#Gives rating for tv shows
+::name TV Shows
+::author Uday Theja
+::author_url https://github.com/uday96
+::dynamic_content Yes
+::image images/tvshows.png
+::description Get the rating, plot, summary of your favourite tv shows.
+
+* rating for *|* rating of *
+!example:give rating of suits
+!console:$2$ is rated $average$
+{
+"url":"http://api.tvmaze.com/singlesearch/shows?q=$2$",
+"path":"$.rating"
+}
+eol
+
+* plot of *|* summary of *
+!example:give plot of suits
+!console:$!$
+{
+"url":"http://api.tvmaze.com/singlesearch/shows?q=$2$",
+"path":"$.summary"
+}
+eol

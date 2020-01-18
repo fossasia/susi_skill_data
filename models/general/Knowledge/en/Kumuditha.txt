@@ -1,0 +1,20 @@
+::protected No
+::author_email kumudithaudaya@gmail.com
+::name Kumuditha
+::category Knowledge
+::language en
+::author <Kumuditha_S.A.C.K>
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+How does a Macbook looks like
+Like a small beautiful thin laptop with great performance|Like a cute laptop|Like a beast
+
+Bonjour|Guten Morgen|Buenos días
+Good Moring!
+
+

@@ -1,0 +1,160 @@
+::protected No
+::author_email schildberg@scoid.de
+::name api-tests
+::category Productivity
+::language en
+::author agricola
+::author_url <author_url>
+::description testing api's , only for test purposes. Origins of these examples are not mine, I pulled them from other skills. Just to say.
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/<image_name_job>
+::terms_of_use <link>
+
+!-------------------------------- wikidata.org -----------------------------------------
+
+page id of *
+!example:page id of Q43261
+!console:
+{
+"url":"https://www.wikidata.org/w/api.php?format=json&action=wbgetentities&ids=$!$",
+"path":"$.entities",
+"actions":[{
+"type":"table",
+"columns":{"pageid":"SeitenID","title":"Titel","modified":"verändert","id":"ID"}
+}]
+}
+eol
+
+!-------------------------------- end wikidata.org -----------------------------------------
+
+!-------------------------------- hostip.info -----------------------------------------
+
+Country Code of IP number *|country_code of IP number *|Which country_code has the IP *|Country Code of IP number *
+!example:Country Code of IP number 80.122.124.100?
+!expect:The country_code is DE
+!console:The country_code is $!$.
+{
+"url":"https://api.hostip.info/get_json.php?ip=$1$",
+"path":"$.country_code"
+}
+eol
+
+Country of IP number *|In which country is the IP * located
+!example:In which country is the IP 80.122.124.100 located?
+!expect:The IP is located in Austria.
+!console:The IP is located in $!$.
+{
+"url":"https://api.hostip.info/get_json.php?ip=$1$",
+"path":"$.country_name"
+}
+eol
+
+!-------------------------------- end hostip.info -----------------------------------------
+
+!-------------------------------- recipepuppy.com -----------------------------------------
+
+* cook * | * recipe of * | * make * | * prepare *
+!example:how to cook biryani
+!console:To cook $title$, make sure you have $ingredients$ and check out $href$
+{
+"url":"http://www.recipepuppy.com/api/?q=$2$",
+"path":"$.results"
+}
+eol
+
+cook *|how to cook *|recipe for *
+!example:how to cook biryani
+!console:To cook $title$, check out $href$ and make sure you have $ingredients$!
+{
+"url":"http://www.recipepuppy.com/api/?q=$1$",
+"path":"$.results"
+}
+eol
+
+neuesrezept list for *
+!example:neuesrezept list for biryani
+!console:
+{
+"url":"http://www.recipepuppy.com/api/?q=$1$",
+"path":"$.results",
+"actions":[{
+"type":"table",
+"columns":{"title":"Rezept","ingredients":"Inhaltsstoffe","thumbnail":"Bild-Vignette","href":"Verlinkung"}
+}]
+}
+eol
+
+
+altesrezept list for *
+!example:altesrezept list for biryani
+!console:
+{
+"url":"http://www.recipepuppy.com/api/?q=$1$",
+"path":"$.results",
+"actions":[{
+"type":"table",
+"columns":{"title":"Recipe","ingredients":"Ingredients","href":"Instructions Link"}
+}]
+}
+eol
+
+
+
+
+
+Where is IP *|Where is IP * located|What is the location of IP *|Where is the IP *|Where is the IP * located|What is the location of the IP *|Where is this IP *|Location of IP *|Where is the IP address *|Where is the IP address * located|What is the location of the IP address *|Where is this IP address *|Location of IP address *|Where is the IP number *|Where is the IP number * located|What is the location of the IP number *|Where is this IP number *|Location of IP number *
+!example:Where is the IP 80.122.124.100 located?
+!expect:The IP is located in Vienna.
+!console:The IP is located in $!$.
+{
+"url":"https://api.hostip.info/get_json.php?ip=$1$",
+"path":"$.city"
+}
+eol
+
+!-------------------------------- end recipepuppy.com -----------------------------------------
+
+!-------------------------------- inadiutorium.cz -----------------------------------------
+
+Date *|what is date *|can you tell what is date *|can you tell me what is date *|can you tell me what date is *|can you tell what date is *|can you tell me what date is it *|can you tell what date is it *|tell what is date *|tell me what date is *|tell me what date is *|tell what date is *|tell what date is it *|tell what date is it *|Do you know what is date *|do you know what date is it *|Do you know what date is *|Do you know date *|what was date *|can you tell what was date *|can you tell me what was date *|can you tell me what date was *|can you tell what date was *|can you tell me what date was it *|can you tell what date was it *|tell what was date *|tell me what date was *|tell me what data was *|tell what date was *|tell what date was it *|tell what date was it *|Do you know what was date *|do you know what date was it *|Do you know what date is *
+!example:Date tomorrow?
+!expect:It's 05-08-2017 tomorrow
+!console:It's $!$ $1$
+{
+"url":"http://calapi.inadiutorium.cz/api/v0/en/calendars/default/$1$",
+"path":"$.date"
+}
+eol
+
+day *|what is day *|can you tell what is day *|can you tell me what is day *|can you tell me what day is *|can you tell what day is *|can you tell me what day is it *|can you tell what day is it *|tell what is day *|tell me what day is *|tell me what day is *|tell what day is *|tell what day is it *|tell what day is it *|Do you know what is day *|do you know what day is it *|Do you know what day is *|Do you know day *|what was day *|can you tell what was day *|can you tell me what was day *|can you tell me what day was *|can you tell what day was *|can you tell me what day was it *|can you tell what day was it *|tell what was day *|tell me what day was *|tell me what day was *|tell what day was *|tell what day was it *|tell what day was it *|Do you know what was day *|do you know what day was it *|Do you know what day is *
+!example:Day tomorrow?
+!console:It's $!$ $1$
+{
+"url":"http://calapi.inadiutorium.cz/api/v0/en/calendars/default/$1$",
+"path":"$.weekday"
+}
+eol
+
+Day on year * month * date *|what is day on year * month * date *|can you tell what is day on year * month * date *|can you tell me what is day on year * month * date *|can you tell me what day is on year * month * date *|can you tell what day is on year * month * date *|can you tell me what day is it on year * month * date *|can you tell what day is it on year * month * date *|tell what is day on year * month * date *|tell me what day is on year * month * date *|tell me what day is on year * month * date *|tell what day is on year * month * date *|tell what day is it on year * month * date *|tell what day is it on year * month * date *|Do you know what is day on year * month * date *|do you know what day is it on year * month * date *|Do you know what day is on year * month * date *|Do you know day on year * month * date *|what was day on year * month * date *|can you tell what was day on year * month * date *|can you tell me what was day on year * month * date *|can you tell me what day was on year * month * date *|can you tell what day was on year * month * date *|can you tell me what day was it on year * month * date *|can you tell what day was it on year * month * date *|tell what was day on year * month * date *|tell me what day was on year * month * date *|tell me what day was on year * month * date *|tell what day was on year * month * date *|tell what day was it on year * month * date *|tell what day was it on year * month * date *|Do you know what was day on year * month * date *|do you know what day was it on year * month * date *|Do you know what day is on year * month * date *
+!example:Day on year 2015 month 6 date 28
+!console:It's $!$ on $1$/$2$/$3$
+{
+"url":"http://calapi.inadiutorium.cz/api/v0/en/calendars/default/$1$/$2$/$3$",
+"path":"$.weekday"
+}
+eol
+
+!-------------------------------- end inadiutorium.cz -----------------------------------------
+
+!-------------------------------- wolframalpha.com -----------------------------------------
+
+day on *|what is day on *|can you tell what is day on *|can you tell me what is day on *|can you tell me what day is on *|can you tell what day is on *|can you tell me what day is it on *|can you tell what day is it on *|tell what is day on *|tell me what day is on *|tell me what day is on *|tell what day is on *|tell what day is it on *|tell what day is it on *|Do you know what is day on *|do you know what day is it on *|Do you know what day is on *|Do you know day on *|what was day on *|can you tell what was day on *|can you tell me what was day on *|can you tell me what day was on *|can you tell what day was on *|can you tell me what day was it on *|can you tell what day was it on *|tell what was day on *|tell me what day was on *|tell me what day was on *|tell what day was on *|tell what day was it on *|tell what day was it on *|Do you know what was day on *|do you know what day was it on *|Do you know what day is on *
+!example:day on 21/6/2017
+!console:It's $alt$ on $1$
+{
+"url":"http://api.wolframalpha.com/v2/query?appid=9WA6XR-26EWTGEVTE&input=day%20on%20$1$&output=JSON",
+"path":"$.queryresult.pods[1].subpods[0].img"
+}
+eol
+!-------------------------------- end wolframalpha.com -----------------------------------------

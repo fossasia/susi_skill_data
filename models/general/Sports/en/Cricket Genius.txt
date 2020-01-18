@@ -1,0 +1,69 @@
+::protected No
+::author_email yuvalgupta202@gmail.com
+::name Cricket Genius
+::category Sports
+::language en
+::author Yuval Gupta
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+
+# replace the following lines - click on the (i) to get a tutorial:
+
+Who has scored most runs in One Day International cricket?
+Sachin Tendulkar.
+
+Who has scored the most runs in t20 international cricket?
+Rohit Sharma.
+
+Who has scored the most runs in International Test cricket?
+Sachin Tendulkar.
+
+What is the greatest win margin (by innings) in International Test cricket?
+579 runs.
+
+Which team holds record for fewest runs in a completed innings in International Test cricket?
+New Zealand.
+
+What is the most number of runs scored by an opener in International Test cricket?
+11,845 runs by Alastair Cook of England.
+
+Who is the current captain of the Indian Cricket team?
+Virat Kohli.
+
+Who is the most recent former captain of the Indian Cricket team?
+Mahendra Singh Dhoni (M.S Dhoni).
+
+Where will the 2020 ICC Men's T20 World Cup take place?
+Australia.
+
+What is Australia's national game?
+Cricket.
+
+What is England's national game?
+Cricket.
+
+What is Jamaica's national game?
+Cricket.
+
+How many countries' national game is cricket?
+7.
+
+Which is the only country to win the 60-Over, 50-Over and 20-Over World Cup?
+India.
+
+Who is the only batsman to hit a six off the first ball of a Test match?
+Chris Gayle.
+
+Who is the only cricketer to play Test cricket for both India and England?
+Iftikhar Ali Khan Pataudi.
+
+Which player played most consecutive Test matches?
+Allan Border (played 153 consecutive Test matches).
+
+Which is the most popular sport in India?
+Cricket.

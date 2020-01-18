@@ -1,0 +1,47 @@
+::protected No
+::author_email inukasanudayab@gmail.com
+::name Calculator
+::category Knowledge
+::language en
+::author Inuka_SB
+::author_url <author_url>
+::description A skill that does basic math
+::dynamic_content <yes/no>
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+
+# replace the following lines - click on the (i) to get a tutorial:
+
+query1|query2|query3...
+!example:<The question that should be shown in public skill displays>
+!expect:<The answer expected for the above example>
+Answer for the user query
+
+compute * to the power of *
+!javascript:$1$^$2$ = $!$
+Math.pow($1$, $2$)
+eol
+
+square root of *
+!javascript:$!$
+Math.sqrt($1$)
+eol
+
+compute *+*
+!javascript:$1$+$2$ = $!$
+eol
+
+compute *-*
+!javascript:$1$-$2$ =$!$
+
+compute *%*
+!javascript:$1$%$2$ = $!$
+eol
+
+value of * rounded to its nearest integer
+!javascript:$!$
+Math.round($1$)
+
+

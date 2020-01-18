@@ -1,0 +1,28 @@
+::protected No
+::author_email tohenxia@gmail.com
+::name <WhizEmz>
+::category Problem Solving
+::language en
+::author non
+::author_url <author_url>
+::description <this whiz bot can solve problems!> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+
+What question will result in me getting an answer of 2?
+1+1|2x1|4/2|5-3
+
+If there are * fish in a tank, and 2 fish die, how many fish are there left?
+$1$ fish are left
+
+If town A and town B are 30km apart, by walking at a speed of 5km/h, how much time does it take to walk from A to B?
+6 hours
+
+How many factors does 36 have?
+8 factors
+
+What is the prime factorisation of 210?
+2x3x5x7

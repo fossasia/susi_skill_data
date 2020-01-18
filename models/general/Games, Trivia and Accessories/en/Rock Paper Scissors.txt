@@ -1,0 +1,32 @@
+::protected No
+::author_email markus.hamacher16@gmail.com
+::name Rock Paper Scissors
+::category Games, Trivia and Accessories
+::language en
+::author <author_name>
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+
+# replace the following lines - click on the (i) to get a tutorial:
+
+function choose
+Rock|Paper|Scissor
+
+Rock
+`function choose`>_ai ^Rock^>_human
+
+Paper
+`function choose`>_ai ^Paper^>_human
+
+Scissor
+`function choose`>_ai ^Scissor^>_human
+
+Who won?
+?$_ai$=rock:?$_human$=scissor:You lose!:?$_human$=paper:You won!:?$_human$=rock:No one have lose or won! |
+    ?$_ai$=paper:?$_human$=scissor:You won!:?$_human$=paper:No one have lose or won!:?$_human$=rock:You lose! |
+    ?$_ai$=scissor:?$_human$=scissor:No one have lose or won!:?$_human$=paper:You lose!:?$_human$=rock:You won!    

@@ -1,0 +1,30 @@
+::protected No
+::author_email lee.yunze@dhs.sg
+::name bot_2
+::category Food and Drink
+::language en
+::author <author_name>
+::author_url <author_url>
+::description <for school canteen> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+
+# replace the following lines - click on the (i) to get a tutorial:
+
+How much is the chicken rice?
+It cost $2.50
+
+How much is the noodle soup?
+It cost $2.40
+
+How much is the canned drinks?
+It cost $0.50
+
+How much is the Japanes food?
+It cost $2.70
+
+How much is the western food?
+It cost $2.60
