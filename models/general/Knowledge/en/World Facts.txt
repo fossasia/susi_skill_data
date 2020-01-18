@@ -1,0 +1,23 @@
+::protected No
+::author_email inukasanudayab@gmail.com
+::name World Facts 
+::category Knowledge
+::language en
+::author Inuka_SB
+::author_url <author_url>
+::description Tells random facts about the world.
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/globe.png
+::terms_of_use <link>
+
+
+# replace the following lines - click on the (i) to get a tutorial:
+
+tell me a fact about the world|facts about the world|world facts
+!example:Tell me a fact about the world.
+!expect:The entire world's population could fit inside Los Angeles.
+North Korea and Cuba are the only places you can not buy Coca-Cola.|The hottest chili pepper in the world is so hot it could kill you.|The most densely populated island in the world is the size of two soccer fields.|The Canary Islands are named after dogs, not birds.|Indonesia is home to some of the shortest people in the world.|The Paris Agreement on climate change was signed by the largest number of countries ever in one day.|The entire world's population could fit inside Los Angeles.
+
+
+

@@ -1,9 +1,10 @@
 ::protected No
-::author_email anikamittal2311@gmail.com
-::name <Bot_name>
+::author_email nitiwom510@ymail365.com
+::name goa
+
 ::category Knowledge
 ::language en
-::author <author_name>
+::author none
 ::author_url <author_url>
 ::description <description> 
 ::dynamic_content <Yes/No>

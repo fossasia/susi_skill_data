@@ -3,7 +3,7 @@
 ::name <WhizEmz>
 ::category Problem Solving
 ::language en
-::author <enxian>
+::author non
 ::author_url <author_url>
 ::description <this whiz bot can solve problems!> 
 ::dynamic_content <Yes/No>
