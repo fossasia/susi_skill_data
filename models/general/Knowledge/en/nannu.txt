@@ -1,0 +1,25 @@
+::protected No
+::author_email rajanic03@gmail.com
+::name nannu
+::category Knowledge
+::language en
+::author <author_name>
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+
+hi
+hi
+
+what is your name
+nannu
+
+how are you
+fine
+
+thank you
+thank you
