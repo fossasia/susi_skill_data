@@ -1,0 +1,19 @@
+::protected No
+::author_email chen.jingde.isaac@dhs.sg
+::name Gibot
+::category Knowledge
+::language en
+::author <author_name>
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+
+Is Mr Gi the best teacher?
+Most definitely.
+
+Is Isaac the best student?
+Most definitely not.
