@@ -3,8 +3,8 @@
 ::name cool
 ::category Knowledge
 ::language en
-::author <author_n>
-::author_url <author_url>
+::author <chaitanyassr>
+::author_url <https://github.com/Chaitanyassr>
 ::description <description> 
 ::dynamic_content <Yes/No>
 ::developer_privacy_policy <link>
