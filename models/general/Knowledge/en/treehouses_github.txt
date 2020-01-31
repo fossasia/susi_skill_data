@@ -14,5 +14,5 @@
 
 # replace the following lines - click on the (i) to get a tutorial:
 
-What's the first step?
+* first step?
 please follow the https://treehouses.io/#!pages/vi/firststeps.md
