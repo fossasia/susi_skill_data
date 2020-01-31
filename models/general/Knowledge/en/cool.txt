@@ -13,8 +13,5 @@
 
 
 # replace the following lines - click on the (i) to get a tutorial:
-
-query1|query2|query3...
-!example:<The question that should be shown in public skill displays>
-!expect:<The answer expected for the above example>
-Answer for the user query
+I m so cool.
+But i am super cool.
