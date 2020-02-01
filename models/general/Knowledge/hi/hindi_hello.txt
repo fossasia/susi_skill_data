@@ -1,0 +1,20 @@
+::protected No
+::author_email chaitanyas0101@gmail.com
+::name hindi hello
+::category Knowledge
+::language hi
+::author <chaitanyassr>
+::author_url <https://github.com/Chaitanyassr>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+
+# replace the following lines - click on the (i) to get a tutorial:
+
+
+नमस्ते
+
+नमस्कार, मैं कैसे आपकी मदद कर सकता हूं
