@@ -14,14 +14,11 @@
 
 # replace the following lines - click on the (i) to get a tutorial:
 
-* * first step?** *
+* first step?
  welcome :wink:, please follow the https://treehouses.io/#!pages/vi/firststeps.md
-
-* * First Step?** *
+* first step?"
  welcome :wink:, please follow the https://treehouses.io/#!pages/vi/firststeps.md
-
-* * first Step?** * 
+“Hello team, my name is *
  welcome :wink:, please follow the https://treehouses.io/#!pages/vi/firststeps.md
-
- * * First step?** * 
- welcome :wink:, please follow the https://treehouses.io/#!pages/vi/firststeps.md 
+Hello team, my name is * 
+ welcome :wink:, please follow the https://treehouses.io/#!pages/vi/firststeps.md
