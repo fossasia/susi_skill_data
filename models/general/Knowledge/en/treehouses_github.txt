@@ -1,7 +1,5 @@
 ::protected No
 ::author_email tristan32@ole.org
-::protected No
-::author_email tristan32@ole.org
 ::name treehouses_github
 ::category Knowledge
 ::language en
@@ -15,5 +13,9 @@
 
 Hello team, my name is *. I’d like to become a virtual intern. What’s the first step?
  welcome :wink:, please follow the https://treehouses.io/#!pages/vi/firststeps.md
-“Hello team, my name is *. I’d like to become a virtual intern. What’s the first step?" 
+“Hello team, my name is *. I’d like to become a virtual intern. What’s the first step?"
+ welcome :wink:, please follow the https://treehouses.io/#!pages/vi/firststeps.md
+Hello team, my name is * I’d like to become a virtual intern. What’s the first step?
+ welcome :wink:, please follow the https://treehouses.io/#!pages/vi/firststeps.md
+“Hello team, my name is * I’d like to become a virtual intern. What’s the first step?"
  welcome :wink:, please follow the https://treehouses.io/#!pages/vi/firststeps.md
