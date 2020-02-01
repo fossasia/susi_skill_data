@@ -3,12 +3,12 @@
 ::name Badminton
 ::category Knowledge
 ::language en
-::author <author_name>
+::author <author_name>Mohit
 ::author_url <author_url>
 ::description <description> 
 ::dynamic_content <Yes/No>
 ::developer_privacy_policy <link>
-::image images/<image_name>
+::image images/download.jpg
 ::terms_of_use <link>
 
 
