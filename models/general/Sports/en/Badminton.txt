@@ -1,12 +1,12 @@
 ::protected No
 ::author_email mmaroliya@gmail.com
 ::name Badminton
-::category Knowledge
+::category Sports
 ::language en
-::author <author_name>Mohit
+::author Mohit
 ::author_url <author_url>
-::description <description> 
-::dynamic_content <Yes/No>
+::description Badminton is a Badass sport to play.
+::dynamic_content Yes
 ::developer_privacy_policy <link>
 ::image images/download.jpg
 ::terms_of_use <link>
