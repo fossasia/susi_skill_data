@@ -1,0 +1,18 @@
+::protected No
+::author_email chaitanyas0101@gmail.com
+::name space time fabric
+::category Knowledge
+::language en
+::author <chaitanyassr>
+::author_url <https://github.com/Chaitanyassr>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+
+# replace the following lines - click on the (i) to get a tutorial:
+
+space time fabric
+The biggest lesson from Einstein's general theory of relativity is that space itself isn't a flat, unchanging, absolute entity. Rather it's woven together, along with time, into a single fabric: spacetime. This fabric is continuous, smooth, and gets curved and deformed by the presence of matter and energy.
