@@ -21,5 +21,3 @@ Answer for the user query
 
 # SUSI Skill tutorial playground
 roses are red
-Mohit Maroliya
-Mayank Maroliya
