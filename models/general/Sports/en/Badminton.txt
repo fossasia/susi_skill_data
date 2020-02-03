@@ -18,3 +18,7 @@ query1|query2|query3...
 !example:Don't you like to smash the shuttle in air
 !expect: Yes..Yes
 Answer for the user query
+
+# SUSI Skill tutorial playground
+roses are red
+SUSI is a hack
