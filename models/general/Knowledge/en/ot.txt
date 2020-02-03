@@ -1,0 +1,19 @@
+::protected No
+::author_email chaitanyas0101@gmail.com
+::name ot
+::category Knowledge
+::language en
+::author <chaitanyassr>
+::author_url <https://github.com/Chaitanyassr>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+
+# replace the following lines - click on the (i) to get a tutorial:
+open teams
+OpenTeams is an open source tool for team analytics (Open Source at https://github.com/MacroConnections/openteams)
+
+With OpenTeams, teams can visualize their network of interactions, and also, cross this data with information on a teams demographic, professional, and psychological characteristics.
