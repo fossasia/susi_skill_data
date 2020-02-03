@@ -1,0 +1,24 @@
+::protected No
+::author_email mmaroliya@gmail.com
+::name Journalism
+::category News
+::language mr
+::author mmaroliya
+::author_url <author_url>
+::description Journalism is the accurate documentation of events, nothing more. To the purist, there are no “different types” of journalism.
+
+All writing is not journalism. However, the skills of a journalist can be applied to many different kinds of writing. It is the polar opposite of opinion writing. It does not transition easily to creative writing. The skill applies well to news and technical writing, documentary production (as separate from news writing), developing training, and such.
+
+There are thousands of trained journalists applying their skills in countless ways. 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+
+# replace the following lines - click on the (i) to get a tutorial:
+
+query1|query2|query3...
+!example:<The question that should be shown in public skill displays>
+!expect:<The answer expected for the above example>
+Answer for the user query
