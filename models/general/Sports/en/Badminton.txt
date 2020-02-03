@@ -21,4 +21,5 @@ Answer for the user query
 
 # SUSI Skill tutorial playground
 roses are red
-SUSI is a hack
+Mohit Maroliya
+Mayank Maroliya
