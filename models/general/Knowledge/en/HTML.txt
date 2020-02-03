@@ -3,10 +3,10 @@
 ::name HTML
 ::category Knowledge
 ::language en
-::author <author_name>
+::author Mohiit Bhai
 ::author_url <author_url>
-::description <description> 
-::dynamic_content <Yes/No>
+::description Basic skill needed for a web developer
+::dynamic_content No
 ::developer_privacy_policy <link>
 ::image images/<image_name>
 ::terms_of_use <link>
