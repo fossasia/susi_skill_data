@@ -1,0 +1,16 @@
+::protected No
+::author_email dilshaadmuthalif21@gmail.com
+::name India
+::category Knowledge
+::language en
+::author Dilshaad
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/cool-drawing-wallpapers-61.jpg
+::terms_of_use <link>
+
+
+Who is the Prime Minister of India?
+Narendra Modi
