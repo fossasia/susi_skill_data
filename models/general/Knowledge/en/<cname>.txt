@@ -1,0 +1,19 @@
+::protected No
+::author_email chaitanyas0101@gmail.com
+::name <cname>
+::category Knowledge
+::language en
+::author <chaitanyassr>
+::author_url <https://github.com/Chaitanyassr>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+
+# replace the following lines - click on the (i) to get a tutorial:
+
+
+yagami light
+Light Yagami (夜神月, Yagami Raito) is the main protagonist of the Death Note series. After discovering the Death Note, he decides to use it to rid the world of criminals. His killings are eventually labelled by people of Japan as the work of "Kira."
