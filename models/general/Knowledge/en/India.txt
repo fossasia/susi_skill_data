@@ -8,7 +8,7 @@
 ::description <description> 
 ::dynamic_content <Yes/No>
 ::developer_privacy_policy <link>
-::image images/cool-drawing-wallpapers-61.jpg
+::image images/10.png
 ::terms_of_use <link>
 
 
