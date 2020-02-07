@@ -14,9 +14,6 @@
 
 #Skill Playground
 
-Hello|Hey|Hello!|Hey!|What's up?|Sup
-Hi! I am M4rc, your personal assistant. How may I help you?
-
 My name is *
 ^$1$^>_someName
 
