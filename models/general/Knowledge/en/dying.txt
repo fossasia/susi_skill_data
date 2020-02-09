@@ -1,0 +1,19 @@
+::protected No
+::author_email chaitanyas0101@gmail.com
+::name dying
+::category Knowledge
+::language en
+::author <chaitanyassr>
+::author_url <https://github.com/Chaitanyassr>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+
+# replace the following lines - click on the (i) to get a tutorial:
+
+
+What It Feels Like to Die?
+First hunger and then thirst are lost. Speech is lost next, followed by vision. The last senses to go are usually hearing and touch
