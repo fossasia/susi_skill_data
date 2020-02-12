@@ -1,0 +1,16 @@
+::protected No
+::author_email b18041@students.iitmandi.ac.in
+::name India
+::category Knowledge
+::language en
+::author B18041
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+
+Which country has second largest population in the world?
+India is the answer
