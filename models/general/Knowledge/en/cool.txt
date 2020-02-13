@@ -1,14 +1,16 @@
 ::protected No
 ::author_email chaitanyas0101@gmail.com
+::protected No
+::author_email chaitanyas0101@gmail.com
 ::name cool
 ::category Knowledge
 ::language en
 ::author <chaitanyassr>
 ::author_url <https://github.com/Chaitanyassr>
 ::description <description> 
-::dynamic_content <Yes/No>
+::dynamic_content <No>
 ::developer_privacy_policy <link>
-::image images/<image_name>
+::image images/car.png
 ::terms_of_use <link>
 
 
