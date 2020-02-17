@@ -1,0 +1,16 @@
+::protected No
+::author_email dilshaadmuthalif21@gmail.com
+::name World
+::category Knowledge
+::language en
+::author Dilshaad
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+
+Which is the largest country in the world?
+Russia
