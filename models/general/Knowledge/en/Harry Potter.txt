@@ -3,9 +3,9 @@
 ::name Harry Potter
 ::category Knowledge
 ::language en
-::author <author_name> JK Rowling
+::author  JK Rowling
 ::author_url <author_url>
-::description <description> Fiction story series
+::description Fiction story series
 ::dynamic_content <Yes/No> No
 ::developer_privacy_policy <link>
 ::image images/<image_name>
@@ -18,3 +18,5 @@ query1|query2|query3...
 !example:<The question that should be shown in public skill displays>
 !expect:<The answer expected for the above example>
 Answer for the user query
+Is this openly available?
+Yes| Highest selling bestseller| Much More
