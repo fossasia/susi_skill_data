@@ -1,0 +1,21 @@
+::protected No
+::author_email m.k@mk16.de
+::name I2P
+::category Knowledge
+::language de
+::author Bandura
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+Was ist I2P?
+I2P ist ein anonymes Netzwwerk, welches auf dem Internet aufsetzt. Es ermöglicht Anwendern Inhalte online zur Verfügug zu stellen, so wie Inhalte zu generieren und online zur Verfügng zu stellen und dabei das Entstehen von Communities zu ermöglichen, welches nicht von einem einzelnen Anbieter abhängig ist, sondern über das Netz verteilt und dynamisch ist. Zielsetzung ist die Kommunikation zu schützen vor der Einsichtnahme Dritter wie Internet-Service-Providern.
+
+Erzähl mir mehr über I2P|Mehr über I2P|Weitere Infos über I2P
+Neben der Anonymisierung des Datenaustausches innerhalb des I2P Netzwerkes, funktioniert das Systems mit den gleichen Möglichkeiten des Internets, darüber hinaus gestaltet sein Design und die Dezentralisierung eine zensurresistente Umgebung für den freien Fluss von Information. 
+
+Erzähl mir noch mehr über I2P|Noch mehr über I2P|Noch mehr Infos über I2P
+Gespiegelte Seiten, die im Netzwerk gehosted sind, erlauben Zugriff auf Nachrichten Outlets und andere Quellen in Umgebungen, in denen Nachrichen selektiert oder geblockt werden. Online Communities in restriktiver Umgebung können so anomym interagieren und politischer Bedrohung ausweichen und sich gegenseitig schützen. 
