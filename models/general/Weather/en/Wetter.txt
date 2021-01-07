@@ -14,7 +14,7 @@
 
 # replace the following lines - click on the (i) to get a tutorial:
 
-temperature in *|Was ist die Temperatur in *|what is the temperature in *|* temperature|Tell me about temperature in *
+temperature in *|Was ist die Temperatur in *|Was ist die Temperatur in *|* temperature|Tell me about temperature in *
 !example:what is the temperature in Islamabad
 !expect:It is 27.22 degree celcius in Islamabad
 !console:It is `fahrenheit to celsius $temp$` degree celcius in $1$
