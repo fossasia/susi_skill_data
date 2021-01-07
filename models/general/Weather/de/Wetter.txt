@@ -2,7 +2,7 @@
 ::author_email dvdmitter@gmail.com
 ::name Wetter
 ::category Weather
-::language en
+::language de
 ::author <author_name>
 ::author_url <author_url>
 ::description <description> 
