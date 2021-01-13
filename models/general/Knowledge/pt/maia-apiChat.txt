@@ -1,0 +1,15 @@
+::protected No
+::author_email botmaia.contato@gmail.com
+::name maia-apiChat
+::category Knowledge
+::language pt
+::author <author_name>
+::author_url <author_url>
+::description <description> 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+Oi|oie|oe
+Olá, eu sou a maia!
