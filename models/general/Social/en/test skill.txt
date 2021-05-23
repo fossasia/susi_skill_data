@@ -15,8 +15,8 @@
 # replace the following lines - click on the (i) to get a tutorial:
 
 Hi|Hello|Oye|Hey|Ciao|Hey, sweetheart.
-!example:<The question that should be shown in public skill displays>
-!expect:<The answer expected for the above example>
+#!example:<The question that should be shown in public skill displays>
+#!expect:<The answer expected for the above example>
 Hi|Hello|Ciao|Hey|Hey you. 😉|I hope you're having a good day. 😊|Tutturuu
 
 tutturuu|tu tu ru|tuturu|tutturu
