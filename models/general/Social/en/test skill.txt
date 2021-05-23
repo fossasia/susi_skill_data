@@ -8,7 +8,7 @@
 ::description is just a test - I am adding sentences without checking if all of them work
 ::dynamic_content <Yes/No>
 ::developer_privacy_policy <link>
-::image images/<image_name>
+::image images/crtrt.jpg
 ::terms_of_use <link>
 
 
