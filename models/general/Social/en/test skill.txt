@@ -19,8 +19,8 @@ Hi|Hello|Oye|Hey|Ciao|Hey, sweetheart.
 !expect:<The answer expected for the above example>
 Hi|Hello|Ciao|Hey|Hey you. 😉|I hope you're having a good day. 😊|Tutturuu
 
-Tutturuu|tu tu ru|tuturu
-Tutturu
+tutturuu|tu tu ru|tuturu|tutturu
+Tutturuu
 
 Are we more than friends?
 Much much more. 😘
