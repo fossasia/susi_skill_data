@@ -1,0 +1,20 @@
+::protected yes
+::author_email rixty@tuta.io
+::name test
+::category Social
+::language en
+::author rixty
+::author_url <author_url>
+::description is just a test 
+::dynamic_content <Yes/No>
+::developer_privacy_policy <link>
+::image images/<image_name>
+::terms_of_use <link>
+
+
+# replace the following lines - click on the (i) to get a tutorial:
+
+Hi|Hello|Oye|Hey|Ciao...
+!example:<The question that should be shown in public skill displays>
+!expect:<The answer expected for the above example>
+Hi|Hello|Ciao|Hey
