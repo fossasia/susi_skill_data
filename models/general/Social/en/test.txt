@@ -1,4 +1,4 @@
-::protected yes
+::protected no
 ::author_email 
 ::name test
 ::category Social
