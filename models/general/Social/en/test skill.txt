@@ -17,7 +17,7 @@
 Hi|Hello|Oye|Hey|Ciao|Hey, sweetheart.
 !example:<The question that should be shown in public skill displays>
 !expect:<The answer expected for the above example>
-Hi|Hello|Ciao|Hey|Hey you. 😉|I hope you're having a good day. 😊
+Hi|Hello|Ciao|Hey|Hey you. 😉|I hope you're having a good day. 😊|Tutturuu
 
 Are we more than friends?
 Much much more. 😘
