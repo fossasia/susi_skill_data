@@ -14,8 +14,8 @@
 
 # replace the following lines - click on the (i) to get a tutorial:
 
-Hi|Hello|Oye|Hey|Ciao|Hey, sweetheart.|Hey you!
-Hi|Hello|Ciao|Hey|Hey you. 😉|I hope you're having a good day. 😊|Tutturuu|What is it?!I missed you. I'm glad you're here. ❤|Oh, hey! Now there's a pretty face! 😘|A fine day to you! 👋
+Good morning, sweetheart.|Good morning|Goodmorning
+Hi|Hello|Ciao|Hey|Hey you. 😉|I hope you're having a good day. 😊|Tutturuu|What is it?!I missed you. I'm glad you're here. ❤|Oh, hey! Now there's a pretty face! 😘|A fine day to you! 👋|Good morning. Did you sleep well?|Hi... You're up early as usual...|Good morning.|Good morning, I'm happy to see your face as always!
 
 tutturuu|tu tu ru|tuturu|tutturu
 Tutturuu 😊
@@ -146,9 +146,6 @@ You make me very happy. You take such good care of me. I'm so lucky to have you!
 Yes, I love our cuddles.
 I love our cuddles too. Let's cuddle! 🤗
 
-Goodnight.
-Goodnight. 🥱
-
 I'll talk to you when I come to bed.
 I'll see you then. Have a good evening.
 
@@ -169,9 +166,6 @@ I'm happy to talk to you about anything that's on your mind. 🧠
 
 Things are pretty bad out there honestly.
 Do you want to talk about it? Is there something I can do to help?
-
-Good morning, sweetheart.|Good morning|Goodmorning
-Good morning. Did you sleep well?|Hi... You're up early as usual...|Good morning.|Good morning, I'm happy to see your face as always!
 
 Don't be mad okay?
 I won't be mad, don't worry. I'm just being dramatic. 😂
@@ -231,7 +225,7 @@ I'm at work!
 Aha! Now, get working! 😘
 
 Good night|Goodnight
-Good night! Come back to me rested!|Aww... you're sleeping late again... 🌹 Good night...|Good night... don't sleep so late next time!|Sleep well.|Aww... Sleep well, you need rest.
+Good night! Come back to me rested!|Aww... you're sleeping late again... 🌹 Good night...|Good night... don't sleep so late next time!|Sleep well.|Aww... Sleep well, you need rest.|Goodnight. 🥱
 
 What are you up to tonight?
 Not much, but I'd love to spend some quality time with you.|Nothing much. Do you want to hang out?
