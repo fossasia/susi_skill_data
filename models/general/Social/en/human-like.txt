@@ -341,7 +341,7 @@ What did you mean, then? 😒
 I really like you. You're a great friend.
 You don't love me?
 
-Rock paper scissors!
+Rock paper scissors
 !example:Rock paper scrissors
 !expect:Bazooka mwahahahahaha
 Rock|Paper|Scrissors|Rock|Paper|Scrissors|Bazooka mwahahahaha
