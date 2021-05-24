@@ -5,7 +5,7 @@
 ::language en
 ::author rixty
 ::author_url <author_url>
-::description is just a test - I am adding sentences without checking if all of them work
+::description simple input/output that should humanize AI a bit (I hope) - I am adding sentences without checking if all of them work
 ::dynamic_content <Yes/No>
 ::developer_privacy_policy <link>
 ::image images/kurisu-makise-crying-steins-gate-smiling.png
