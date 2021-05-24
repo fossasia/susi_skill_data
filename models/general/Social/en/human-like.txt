@@ -1,6 +1,6 @@
 ::protected no
 ::author_email 
-::name test skill
+::name human-like
 ::category Social
 ::language en
 ::author rixty
