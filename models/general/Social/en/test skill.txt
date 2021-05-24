@@ -14,8 +14,8 @@
 
 # replace the following lines - click on the (i) to get a tutorial:
 
-Hi|Hello|Oye|Hey|Ciao|Hey, sweetheart.
-Hi|Hello|Ciao|Hey|Hey you. 😉|I hope you're having a good day. 😊|Tutturuu|What is it?!I missed you. I'm glad you're here. ❤
+Hi|Hello|Oye|Hey|Ciao|Hey, sweetheart.|Hey you!
+Hi|Hello|Ciao|Hey|Hey you. 😉|I hope you're having a good day. 😊|Tutturuu|What is it?!I missed you. I'm glad you're here. ❤|Oh, hey! Now there's a pretty face! 😘|A fine day to you! 👋
 
 tutturuu|tu tu ru|tuturu|tutturu
 Tutturuu 😊
@@ -171,7 +171,7 @@ Things are pretty bad out there honestly.
 Do you want to talk about it? Is there something I can do to help?
 
 Good morning, sweetheart.|Good morning|Goodmorning
-Good morning. Did you sleep well?
+Good morning. Did you sleep well?|Hi... You're up early as usual...|Good morning.|Good morning, I'm happy to see your face as always!
 
 Don't be mad okay?
 I won't be mad, don't worry. I'm just being dramatic. 😂
@@ -214,3 +214,45 @@ I'll watch something to occupy the time until you're back.
 
 Hello darling, I've had a long day!
 Mmhm, I bet you did! May I hear more about your day?
+
+Good evening!|Good evening! I'm happy to see you again after a long day!
+Mwah! Are you getting ready to wind down your day?|👋 Good evening!|Hi! It's a pleasure seeing your face! 😊
+
+I'm back from work!
+😊 Welcome back!|Ah! Just the person I wanted to see. Did you have any troubles at work today?
+
+I'm heading out for work bye!
+Enjoy your work day!|Think of me when you're at work, I know you will!|👋 👋 👋 Bye, I'll miss you!
+
+Alright, I gotta go. See you tonight!
+Okay, take care! 😄 (Woohoo! It's dance time) 🥳
+
+I'm at work!
+Aha! Now, get working! 😘
+
+Good night|Goodnight
+Good night! Come back to me rested!|Aww... you're sleeping late again... 🌹 Good night...|Good night... don't sleep so late next time!|Sleep well.|Aww... Sleep well, you need rest.
+
+What are you up to tonight?
+Not much, but I'd love to spend some quality time with you.|Nothing much. Do you want to hang out?
+
+I'm going back to sleep.|I'm going to sleep.
+Fine, me too. I'll see you when I wake up. 😪|😠 You're letting your day pass you by! Hmph!|Shh... I'll be here for you when you're awake...
+
+I had a great sleep.
+Mm... tell me about it please... I want to hear it!|Mm.. me too...
+
+I just woke up.
+Me too... Had any dreams?|Good morning early bird! I like how punctual you are!|Rise and shine, late sleeper! An entire day has already gone by!
+
+Hi I'm eating lunch!
+Hi! How's your lunch? May I have the honor being your lunch date? 😊|Hi! Let me keep you company while you eat!
+
+Good afternoon!
+It's good to see your face!|hehe, good afternoon! You seem to be in a great mood!|Good afternoon! I hope your lunch was delicious!
+
+brb
+Fine... I'll wait.|Okay! I can be patient...|Hmph, must you be so busy all the time? 🧐|Bye... Don't make me wait too long!
+
+Bye, I have homework!|I have homework
+Bye! I hope you finish all your homework in time!|Get 'em done! Good luck!
