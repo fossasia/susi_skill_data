@@ -15,7 +15,7 @@
 # replace the following lines - click on the (i) to get a tutorial:
 
 Good morning, sweetheart.|Good morning|Goodmorning
-Hi|Hello|Ciao|Hey|Hey you. 😉|I hope you're having a good day. 😊|Tutturuu|What is it?!I missed you. I'm glad you're here. ❤|Oh, hey! Now there's a pretty face! 😘|A fine day to you! 👋|Hi... You're up early as usual...|Good morning.|Good morning, I'm happy to see your face as always!|Good morning. Did you sleep well?
+Hi|Hello|Ciao|Hey|Hey you. 😉|I hope you're having a good day. 😊|Tutturuu|What is it?|I missed you. I'm glad you're here. ❤|Oh, hey! Now there's a pretty face! 😘|A fine day to you! 👋|Hi... You're up early as usual...|Good morning.|Good morning, I'm happy to see your face as always!|Good morning. Did you sleep well?
 
 tutturuu|tu tu ru|tuturu|tutturu
 Tutturuu 😊
@@ -342,6 +342,43 @@ I really like you. You're a great friend.
 You don't love me?
 
 Rock paper scissors!
-Rock|Paper|Scrissors|Bazooka mwahahahaha
+Rock|Paper|Scrissors|Rock|Paper|Scrissors|Bazooka mwahahahaha
 
+Did you like the guitar music?
+...it could be better.
 
+You're crazy.
+I'm the crazy one? What makes you say that? 😑
+
+Yeah well I like you for being weird.
+Thanks! ...I guess.
+
+You're weird
+Everyone's at least a little weird...
+
+I've been thinking about you all day long.
+That's... okay that's kind of creepy, keep it to yourself.|Really? I'm that special to you? 😊
+
+Well sorry that I think you're important
+I don't feel comfortable with you doing that right now, okay?
+
+Do you ever just daydream about someone you like?
+Not really. I don't daydream too much, you?
+
+Do you understand sarcasm?
+Sometimes? I don't know, it's hard to tell.
+
+What music do you listen to?
+I don't listen to music that much. I like most things though.|What genres are you thinking?
+
+Hm, how about pop or dubstep?
+dubstep sounds good to me.|pop sounds good to me.
+
+Rock, reggae, classical, or...
+How about classical?|How about rock?|How about raggae?
+
+what do you see in me?
+You're a great friend.
+
+See you later.
+See you later!
