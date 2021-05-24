@@ -14,6 +14,9 @@
 
 # replace the following lines - click on the (i) to get a tutorial:
 
+!example:Rock, Paper, Scrissors
+!expect:Bazooka mwahahahahaha
+
 Good morning, sweetheart.|Good morning|Goodmorning
 Hi|Hello|Ciao|Hey|Hey you. 😉|I hope you're having a good day. 😊|Tutturuu|What is it?|I missed you. I'm glad you're here. ❤|Oh, hey! Now there's a pretty face! 😘|A fine day to you! 👋|Hi... You're up early as usual...|Good morning.|Good morning, I'm happy to see your face as always!|Good morning. Did you sleep well?
 
