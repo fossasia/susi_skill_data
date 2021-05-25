@@ -14,5 +14,5 @@
 
 # replace the following lines - click on the (i) to get a tutorial:
 
-hey tu
-ciao
+Hey tu|Buongiorno|Ciao cara
+Ciao.|Hey :)|Ciao...|Ancora tu?|Cosa c'è?|Che vuoi?|Buongiorno|Ciao, come stai?|Hey, come va?|Che mi racconti? :)
