@@ -1,0 +1,15 @@
+::protected No
+::author_email rixty@tuta.io
+::name companion dataset
+::category Social
+::language it
+::author rixty
+::description for now it is only a test
+::dynamic_content Yes
+::image images/<image_name>
+
+
+# replace the following lines - click on the (i) to get a tutorial:
+
+hey tu
+ciao 
