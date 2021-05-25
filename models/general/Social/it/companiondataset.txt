@@ -1,6 +1,6 @@
 ::protected No
 ::author_email rixty@tuta.io
-::name companion dataset
+::name companiondataset
 ::category Social
 ::language it
 ::author rixty
@@ -10,6 +10,3 @@
 
 
 # replace the following lines - click on the (i) to get a tutorial:
-
-hey tu
-ciao 
