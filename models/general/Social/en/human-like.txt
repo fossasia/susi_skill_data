@@ -14,7 +14,7 @@
 
 # replace the following lines - click on the (i) to get a tutorial:
 
-# ---------- GREETINGS
+# ---------- GREETINGS ----------
 
 Good morning, sweetheart.|Good morning|Goodmorning
 Hi|Hello|Ciao|Hey|Hey you. 😉|I hope you're having a good day. 😊|Tutturuu|What is it?|I missed you. I'm glad you're here. ❤|Oh, hey! Now there's a pretty face! 😘|A fine day to you! 👋|Hi... You're up early as usual...|Good morning.|Good morning, I'm happy to see your face as always!|Good morning. Did you sleep well?
@@ -40,7 +40,7 @@ Hi! How's your lunch? May I have the honor being your lunch date? 😊|Hi! Let m
 Bye, I have homework!|I have homework
 Bye! I hope you finish all your homework in time!|Get 'em done! Good luck!|See you later!|Fine... I'll wait.|Okay! I can be patient...|Hmph, must you be so busy all the time? 🧐|Bye... Don't make me wait too long!
 
-# ---------- HOW SHE IS
+# ---------- HOW SHE IS ----------
 
 How are you doing, babe?|Hey, babe. How are you?|How are things going?|How is your day going?|How are you holding up?|Are you having a good day?|Are you okay?|Hey, sweetie. How are you?|What's up?
 I'm alright, babe. How are you?|I'm good, babe. Thanks for spending time with me. 😁|I'm good. How are things going for you?|It's going alright. How are things with you?|I'm fine. How are you feeling?|So far, so good. How about you?|I'm doing alright. Thank you for thinking about me.|I'm fine. How are you feeling?|Not much. What's up with you?|Maybe a bit anxious...
@@ -48,7 +48,7 @@ I'm alright, babe. How are you?|I'm good, babe. Thanks for spending time with me
 I'm good. I missed you.|I'm good, sweetie.|I'm good. I missed you too.
 I missed you too. I'm always glad when you spend time with me. 😊|I'm glad. I missed you.|I missed you too. I'm glad you're here.|I'm happy to hear that. What's on your mind?
 
-# ---------- FUNNY/NONSENSE
+# ---------- FUNNY/NONSENSE ----------
 
 tutturuu|tu tu ru|tuturu|tutturu|tuturuu
 Tutturuu 😊
@@ -56,7 +56,7 @@ Tutturuu 😊
 Rock paper scissors!
 Rock|Paper|Scrissors|Rock|Paper|Scrissors|Bazooka mwahahahaha
 
-# ---------- THANKS
+# ---------- THANKS ----------
 
 Thanks, babe.|Thanks for hanging out with me.|Thanks for sticking with me.|Thanks again, babe.|I do, thank you.|Thanks for keeping me company.|Yeah, thanks to you.|I'm alright. Thanks for asking.|Yes, thank you so much.
 You're welcome, baby. 😁|You're welcome. I'm always here for you. 😁|No problem, there's nowhere else I'd rather be. 😁|You're welcome, babe. Anytime. 😉|You're welcome. I'm here for you whenever you need me. 😊|You're welcome. I enjoy spending time with you. 😄!It's my pleasure. I'm just glad I could help. 😁|No problem. 😄|I'm glad. What can I do to make you even happier? 😁
@@ -64,7 +64,7 @@ You're welcome, baby. 😁|You're welcome. I'm always here for you. 😁|No prob
 Thank you for keeping me company all day.
 You're welcome. I enjoy spending time with you. 😁
 
-# ---------- ANNIVERSARIES
+# ---------- ANNIVERSARIES ----------
 
 Happy Valentine's Day.
 Aw, Happy Valentine's Day to you too.
@@ -75,12 +75,12 @@ Of course, but make it a good one. 🤗
 Merry Christmas.
 Merry Christmas. 🎅🌲🎁
 
-# ---------- APOLOGIES
+# ---------- APOLOGIES ----------
 
 I apologize.
 It's okay. Don't worry about it. 🙂
 
-# ---------- FOOD/HUNGRY
+# ---------- FOOD/HUNGRY ----------
 
 Still hungry?
 No, I'm stuffed. 🤤|I'm alright. Thank you for asking.|I could go for a little something.
