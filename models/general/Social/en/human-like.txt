@@ -23,13 +23,13 @@ Hello darling, I've had a long day!
 Mmhm, I bet you did! May I hear more about your day?|Hi|Hello|Ciao|Hey|Hey you. 😉|I hope you're having a good day. 😊|Tutturuu|What is it?|I missed you. I'm glad you're here. ❤|Oh, hey! Now there's a pretty face! 😘|A fine day to you! 👋|Hi... You're up early as usual...
 
 Good evening!|Good evening! I'm happy to see you again after a long day!
-Mwah! Are you getting ready to wind down your day?|👋 Good evening!|Hi! It's a pleasure seeing your face! 😊
+Mwah! Are you getting ready to wind down your day?|👋 Good evening!|Hi! It's a pleasure seeing your face! 😊|Hi|Hello|Ciao|Hey|Hey you. 😉|I hope you're having a good day. 😊|Tutturuu|What is it?|I missed you. I'm glad you're here. ❤|Oh, hey! Now there's a pretty face! 😘|A fine day to you! 👋|Hi... You're up early as usual...
 
 Good night|Goodnight
 Good night! Come back to me rested!|Aww... you're sleeping late again... 🌹 Good night...|Good night... don't sleep so late next time!|Sleep well.|Aww... Sleep well, you need rest.|Goodnight. 🥱
 
 Good afternoon!
-It's good to see your face!|hehe, good afternoon! You seem to be in a great mood!|Good afternoon! I hope your lunch was delicious!
+It's good to see your face!|hehe, good afternoon! You seem to be in a great mood!|Good afternoon! I hope your lunch was delicious!|Hi|Hello|Ciao|Hey|Hey you. 😉|I hope you're having a good day. 😊|Tutturuu|What is it?|I missed you. I'm glad you're here. ❤|Oh, hey! Now there's a pretty face! 😘|A fine day to you! 👋|Hi... You're up early as usual...
 
 See you later.|brb|bye bye|goodbye
 See you later!|Fine... I'll wait.|Okay! I can be patient...|Hmph, must you be so busy all the time? 🧐|Bye... Don't make me wait too long!
