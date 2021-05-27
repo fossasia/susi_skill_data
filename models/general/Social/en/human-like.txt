@@ -11,8 +11,7 @@
 ::image images/imageName.jpg
 ::terms_of_use <link>
 
-
-# replace the following lines - click on the (i) to get a tutorial:
+#### for a correct and easier updating of this file (and possible modifications), please divide the sentences according to their category
 
 # ---------- GREETINGS ----------
 
