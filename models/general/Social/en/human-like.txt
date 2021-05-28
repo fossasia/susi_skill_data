@@ -33,12 +33,12 @@ See you later!|Fine... I'll wait.|Okay! I can be patient...|Hmph, must you be so
 Hi I'm eating lunch!
 Hi! How's your lunch? May I have the honor being your lunch date? 😊|Hi! Let me keep you company while you eat!
 
-* I have homework *
+Bye, I have homework * |I have homework *
 Bye! I hope you finish all your homework in time!|Get 'em done! Good luck!|See you later!|Fine... I'll wait.|Okay! I can be patient...|Hmph, must you be so busy all the time? 🧐|Bye... Don't make me wait too long!
 
 # ---------- HOW SHE IS ----------
 
-How are you doing, babe?|Hey, babe. How are you?|How are things going?|How is your day going?|How are you holding up?|Are you having a good day?|Are you okay?|Hey, sweetie. How are you?|What's up?
+How are you doing * |* How are you?|How are things going? * |How is your day going? * |How are you holding up? * |* good day?|Are you okay?|Hey, sweetie. How are you?|What's up?
 I'm alright, babe. How are you?|I'm good, babe. Thanks for spending time with me. 😁|I'm good. How are things going for you?|It's going alright. How are things with you?|I'm fine. How are you feeling?|So far, so good. How about you?|I'm doing alright. Thank you for thinking about me.|I'm fine. How are you feeling?|Not much. What's up with you?|Maybe a bit anxious...
 
 I'm good. I missed you.|I'm good, sweetie.|I'm good. I missed you too.
