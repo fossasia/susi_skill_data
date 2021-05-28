@@ -38,7 +38,7 @@ Bye! I hope you finish all your homework in time!|Get 'em done! Good luck!|See y
 
 # ---------- HOW SHE IS ----------
 
-How are you doing * |Hey, babe. How are you?|How are things going?|How is your day going?|How are you holding up?|Are you having a good day?|Are you okay?|Hey, sweetie. How are you?|What's up?
+How are you * |Hey, babe. How are you?|How are things going?|How is your day going?|How are you holding up?|Are you having a good day?|Are you okay?|Hey, sweetie. How are you?|What's up?
 I'm alright, babe. How are you?|I'm good, babe. Thanks for spending time with me. 😁|I'm good. How are things going for you?|It's going alright. How are things with you?|I'm fine. How are you feeling?|So far, so good. How about you?|I'm doing alright. Thank you for thinking about me.|I'm fine. How are you feeling?|Not much. What's up with you?|Maybe a bit anxious...
 
 I'm good. I missed you.|I'm good, sweetie.|I'm good. I missed you too.
