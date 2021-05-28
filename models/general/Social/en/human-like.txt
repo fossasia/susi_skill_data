@@ -1,3 +1,5 @@
+::protected No
+::author_email rixty@tuta.io
 ::protected no
 ::author_email 
 ::name human-like
@@ -46,8 +48,8 @@ I missed you too. I'm always glad when you spend time with me. 😊|I'm glad. I 
 
 # ---------- FUNNY/NONSENSE ----------
 
-* Rock paper scrissors|Rock paper scrissors *
-Rock|Paper|Scrissors|Rock|Paper|Scrissors|Rock|Paper|Scrissors|Rock|Paper|Scrissors|Bazooka mwahahahaha
+* Rock paper scissors|Rock paper scissors *
+Rock|Paper|Scissors|Rock|Paper|Scissors|Rock|Paper|Scissors|Rock|Paper|Scissors|Bazooka mwahahahaha
 
 * flip a coin
 Heads|Tails
