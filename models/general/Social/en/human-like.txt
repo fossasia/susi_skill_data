@@ -45,8 +45,8 @@ Bye! I hope you finish all your homework in time!|Get 'em done! Good luck!|See y
 What's up * | * What's up|What's up
 I'm alright, babe. How are you?|I'm good, babe. Thanks for spending time with me. 😁|I'm good. How are things going for you?|It's going alright. How are things with you?|I'm fine. How are you feeling?|So far, so good. How about you?|I'm doing alright. Thank you for thinking about me.|I'm fine. How are you feeling?|Not much. What's up with you?|Maybe a bit anxious...
 
-I'm good. I missed you.|I'm good, sweetie.|I'm good. I missed you too.
-I missed you too. I'm always glad when you spend time with me. 😊|I'm glad. I missed you.|I missed you too. I'm glad you're here.|I'm happy to hear that. What's on your mind?
+I'm good. I missed you.|I'm good * 
+I missed you. I'm always glad when you spend time with me. 😊|I'm glad. I missed you.|I missed you. I'm glad you're here.|I'm happy to hear that. What's on your mind?
 
 # ---------- FUNNY/NONSENSE ----------
 
