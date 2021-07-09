@@ -2,6 +2,8 @@
 ::author_email cfc.boesch@icloud.com
 ::protected No
 ::author_email cfc.boesch@icloud.com
+::protected No
+::author_email cfc.boesch@icloud.com
 ::name VOODOO.PERL
 ::category Business and Finance
 ::language fl
@@ -17,4 +19,14 @@
 User unlock:$hashed
 !example:Can you take something off the realm?
 !expect: Sure, stuff me Sherlock!
-Yeha!
+while(){
+    print"\33 [2J",map{
+            (split//, "$hashed")
+            [$_]
+    }@S=map{(map{
+            $_?abs$_ -.4 : rand(8)
+    }@S[$_*79 .. $_*79 + 77]),8
+}1 .. 23;
+select$u, $u, $u, .1
+}
+Yeha! $u
