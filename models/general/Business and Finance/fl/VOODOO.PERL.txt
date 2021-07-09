@@ -6,6 +6,8 @@
 ::author_email cfc.boesch@icloud.com
 ::protected No
 ::author_email cfc.boesch@icloud.com
+::protected No
+::author_email cfc.boesch@icloud.com
 ::name VOODOO.PERL
 ::category Business and Finance
 ::language fl
@@ -18,7 +20,7 @@
 ::terms_of_use <link>
 
 
-User Can we do some Voodoo with this:"$hashed"
+User Can we do some Voodoo with this:"$hashed"?
 !example:Can you take something off the realm?
 !expect: Sure, stuff me Sherlock!
 perl```
